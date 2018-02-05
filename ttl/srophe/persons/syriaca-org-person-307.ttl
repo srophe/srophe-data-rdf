@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/307> a lawd:Person ;
+ rdfs:label "ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ"@syr, "Aba II of Kashkar"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/11> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/639> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mar Aba II"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Aba II of Kashkar"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de-x-baumstrk ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mar Aba II Katholikos"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ skos:related <http://syriaca.org/place/2323> ; 
+ skos:related <http://syriaca.org/person/307> ; 
+ skos:related <http://syriaca.org/person/1086> ; 
+ skos:related <http://syriaca.org/person/1086> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_307>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Aba%20II%20of%20Kashkar&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_307>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Aba%20II%20of%20Kashkar&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/1086> ; 
+ dcterms:relation <http://syriaca.org/person/307> ;
+ dcterms:source <http://syriaca.org/bibl/11>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/639> ;
+ dcterms:relation <http://syriaca.org/person/307/html>, <http://syriaca.org/person/307/tei>, <http://syriaca.org/person/307/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/307/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/307/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/307/ttl> ;
+ dcterms:relation <http://syriaca.org/place/2323>, <http://syriaca.org/person/307>, <http://syriaca.org/person/1086>, <http://syriaca.org/bibl/11>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Aba%20II%20of%20Kashkar&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/639> .
+
+ syriaca:differentFrom <http://syriaca.org/person/307> ;
+ lawd:hasAttestation <http://syriaca.org/person/307> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1086> ;
+ lawd:hasAttestation <http://syriaca.org/person/307> .
+
+<http://syriaca.org/person/307/html> a rdfs:Resource; ;
+ dcterms:title "ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ"@syr, "Aba II of Kashkar"@en ;
+ dcterms:subject <http://syriaca.org/person/307> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Aba II of Kashkar — ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ in last modified August 17, 2016, http://syriaca.org/person/307" .
+
+<http://syriaca.org/person/307/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ"@syr, "Aba II of Kashkar"@en ;
+ dcterms:subject <http://syriaca.org/person/307> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Aba II of Kashkar — ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ in last modified August 17, 2016, http://syriaca.org/person/307" .
+
+<http://syriaca.org/person/307/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ"@syr, "Aba II of Kashkar"@en ;
+ dcterms:subject <http://syriaca.org/person/307> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Aba II of Kashkar — ܐܒܐ ܒܪ ܒܪܝܟ ܨܒܝܢܗ in last modified August 17, 2016, http://syriaca.org/person/307" .

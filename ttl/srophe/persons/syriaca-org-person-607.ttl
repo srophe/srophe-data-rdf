@@ -1,0 +1,103 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/607> a lawd:Person ;
+ rdfs:label "Alexius , the Man of God"@en, "ܓܒܪܐ ܕܐܠܗܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/350> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Alexius"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/350> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gabra d-ʾAlāhā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "gaḇrā d-ʾAlāhā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Alexis"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Risha"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Alexis"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܢܣܛܘܪܝܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܠܟܣܝܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Homme de Dieu"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Nestor Riša"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/person/26> ; 
+ skos:related <http://syriaca.org/person/607> ; 
+ skos:related <http://syriaca.org/person/607> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_607>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Alexis&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_607>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Alexis&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/350>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/2322>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/607/html>, <http://syriaca.org/person/607/tei>, <http://syriaca.org/person/607/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/607/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/607/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/607/ttl> ;
+ dcterms:relation <http://syriaca.org/place/78>, <http://syriaca.org/person/26>, <http://syriaca.org/person/607>, <http://syriaca.org/work/1065>, <http://syriaca.org/work/1279>, <http://syriaca.org/bibl/350>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Alexis&sT=keywords>, <http://syriaca.org/bibl/2322>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/607/html> a rdfs:Resource; ;
+ dcterms:title "Alexius , the Man of God"@en, "ܓܒܪܐ ܕܐܠܗܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/607> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Alexius, the Man of God — ܓܒܪܐ ܕܐܠܗܐ in last modified August 17, 2016, http://syriaca.org/person/607" .
+
+<http://syriaca.org/person/607/tei> a rdfs:Resource; ;
+ dcterms:title "Alexius , the Man of God"@en, "ܓܒܪܐ ܕܐܠܗܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/607> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Alexius, the Man of God — ܓܒܪܐ ܕܐܠܗܐ in last modified August 17, 2016, http://syriaca.org/person/607" .
+
+<http://syriaca.org/person/607/ttl> a rdfs:Resource; ;
+ dcterms:title "Alexius , the Man of God"@en, "ܓܒܪܐ ܕܐܠܗܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/607> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Alexius, the Man of God — ܓܒܪܐ ܕܐܠܗܐ in last modified August 17, 2016, http://syriaca.org/person/607" .

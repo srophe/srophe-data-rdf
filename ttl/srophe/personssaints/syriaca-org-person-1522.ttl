@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1522> a lawd:Person ;
+ rdfs:label "Yozadaq"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Yozadaq"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yozadaq"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "YOZADĀQ"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/366> ; 
+ skos:related <http://syriaca.org/person/1271> ; 
+ skos:related <http://syriaca.org/person/550> ; 
+ skos:related <http://syriaca.org/person/1522> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1309>, <http://syriaca.org/bibl/1426> ;
+ dcterms:relation <http://syriaca.org/person/1522/html>, <http://syriaca.org/person/1522/tei>, <http://syriaca.org/person/1522/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1522/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1522/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1522/ttl> ;
+ dcterms:relation <http://syriaca.org/person/366>, <http://syriaca.org/person/1271>, <http://syriaca.org/person/550>, <http://syriaca.org/person/1522>, <http://syriaca.org/work/1790>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1309>, <http://syriaca.org/bibl/1426> .
+
+<http://syriaca.org/person/1522/html> a rdfs:Resource; ;
+ dcterms:title "Yozadaq"@en ;
+ dcterms:subject <http://syriaca.org/person/1522> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Yozadaq in last modified August 17, 2016, http://syriaca.org/person/1522" .
+
+<http://syriaca.org/person/1522/tei> a rdfs:Resource; ;
+ dcterms:title "Yozadaq"@en ;
+ dcterms:subject <http://syriaca.org/person/1522> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Yozadaq in last modified August 17, 2016, http://syriaca.org/person/1522" .
+
+<http://syriaca.org/person/1522/ttl> a rdfs:Resource; ;
+ dcterms:title "Yozadaq"@en ;
+ dcterms:subject <http://syriaca.org/person/1522> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Yozadaq in last modified August 17, 2016, http://syriaca.org/person/1522" .

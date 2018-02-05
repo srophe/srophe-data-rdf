@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/995> a lawd:Place ;
+ rdfs:label "Antioch"@en, "ܐܢܛܝܘܟܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Antioch"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܐܢܛܝܘܟܝܐ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܰܢܛܝܘܟܝܰܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "كورة انطاكية"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ skos:related <http://syriaca.org/place/10> ;
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4> ;
+ dcterms:relation <http://syriaca.org/place/995/html>, <http://syriaca.org/place/995/tei>, <http://syriaca.org/place/995/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/995/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/995/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/995/ttl> ;
+ dcterms:relation <http://syriaca.org/place/10>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4> .
+
+<http://syriaca.org/place/995/html> a rdfs:Resource; ;
+ dcterms:title "Antioch"@en, "ܐܢܛܝܘܟܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/995> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Antioch — ܐܢܛܝܘܟܝܐ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/995" .
+
+<http://syriaca.org/place/995/tei> a rdfs:Resource; ;
+ dcterms:title "Antioch"@en, "ܐܢܛܝܘܟܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/995> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Antioch — ܐܢܛܝܘܟܝܐ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/995" .
+
+<http://syriaca.org/place/995/ttl> a rdfs:Resource; ;
+ dcterms:title "Antioch"@en, "ܐܢܛܝܘܟܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/995> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Antioch — ܐܢܛܝܘܟܝܐ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/995" .

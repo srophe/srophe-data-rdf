@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1356> a lawd:Person ;
+ rdfs:label "ܡܪܩܘܣ"@syr, "Mark of Tarmaqa"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܡܪܩܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Marqōs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Mark of Tarmaqa"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mark of Tarmuqa"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Marqōs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Marc de Tarmaqa"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "MARC DE TARMŪQA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mark the Hermit of Tarmaqa"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Marc l’ermite de Tarmâqâ"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mar Marcos"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1366> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Markus vom Berge Tarmāqā"@de ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1701> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܒܐ ܡܪܩܘܣ ܬܪܡܩܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1701> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Mark of Tarmaqa"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/place/590> ; 
+ skos:related <http://syriaca.org/person/1356> ; 
+ skos:related <http://syriaca.org/person/1356> ; 
+ skos:related <http://syriaca.org/person/1356> ; 
+ skos:related <http://syriaca.org/person/1356> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Mark%20of%20Tarmaqa&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Mark%20of%20Tarmaqa&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1366>, <http://syriaca.org/bibl/2242>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1700>, <http://syriaca.org/bibl/1701>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1356/html>, <http://syriaca.org/person/1356/tei>, <http://syriaca.org/person/1356/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1356/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1356/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1356/ttl> ;
+ dcterms:relation <http://syriaca.org/place/590>, <http://syriaca.org/person/1356>, <http://syriaca.org/work/1549>, <http://syriaca.org/work/1781>, <http://syriaca.org/work/1728>, <http://syriaca.org/work/1031>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1366>, <http://syriaca.org/bibl/2242>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1700>, <http://digitale-sammlungen.ulb.uni-bonn.de/content/pageview/135820>, <http://syriaca.org/bibl/1701>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Mark%20of%20Tarmaqa&sT=keywords> .
+
+<http://syriaca.org/person/1356/html> a rdfs:Resource; ;
+ dcterms:title "ܡܪܩܘܣ"@syr, "Mark of Tarmaqa"@en ;
+ dcterms:subject <http://syriaca.org/person/1356> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Mark of Tarmaqa — ܡܪܩܘܣ in last modified August 17, 2016, http://syriaca.org/person/1356" .
+
+<http://syriaca.org/person/1356/tei> a rdfs:Resource; ;
+ dcterms:title "ܡܪܩܘܣ"@syr, "Mark of Tarmaqa"@en ;
+ dcterms:subject <http://syriaca.org/person/1356> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Mark of Tarmaqa — ܡܪܩܘܣ in last modified August 17, 2016, http://syriaca.org/person/1356" .
+
+<http://syriaca.org/person/1356/ttl> a rdfs:Resource; ;
+ dcterms:title "ܡܪܩܘܣ"@syr, "Mark of Tarmaqa"@en ;
+ dcterms:subject <http://syriaca.org/person/1356> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Mark of Tarmaqa — ܡܪܩܘܣ in last modified August 17, 2016, http://syriaca.org/person/1356" .

@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2525> a dcterms:bibliographicResource ;
+ rdfs:label "Scolies syriaques au Peri Hermeneias d’Aristote" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/VVD9TGWS> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/VVD9TGWS> ;
+ dcterms:relation <http://syriaca.org/bibl/2525/html>, <http://syriaca.org/bibl/2525/tei>, <http://syriaca.org/bibl/2525/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2525/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2525/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2525/ttl> .
+
+<http://syriaca.org/bibl/2525/html> a rdfs:Resource; ;
+ dcterms:title "Scolies syriaques au Peri Hermeneias d’Aristote" ;
+ dcterms:subject <http://syriaca.org/bibl/2525> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Henri Hugonnard-Roche, Scolies syriaques au Peri Hermeneias d’Aristote.inScientia in margine. Études sur les marginalia dans les manuscrits scientifiques du Moyen Âge à la Renaissance, études réunies par Danielle Jacquart et Charles Burnett, École Pratique des Hautes Études, Sciences historiques et philologiques V, Hautes études médiévales et modernes,vol. 88 (Genève, 2005)" .
+
+<http://syriaca.org/bibl/2525/tei> a rdfs:Resource; ;
+ dcterms:title "Scolies syriaques au Peri Hermeneias d’Aristote" ;
+ dcterms:subject <http://syriaca.org/bibl/2525> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Henri Hugonnard-Roche, Scolies syriaques au Peri Hermeneias d’Aristote.inScientia in margine. Études sur les marginalia dans les manuscrits scientifiques du Moyen Âge à la Renaissance, études réunies par Danielle Jacquart et Charles Burnett, École Pratique des Hautes Études, Sciences historiques et philologiques V, Hautes études médiévales et modernes,vol. 88 (Genève, 2005)" .
+
+<http://syriaca.org/bibl/2525/ttl> a rdfs:Resource; ;
+ dcterms:title "Scolies syriaques au Peri Hermeneias d’Aristote" ;
+ dcterms:subject <http://syriaca.org/bibl/2525> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Henri Hugonnard-Roche, Scolies syriaques au Peri Hermeneias d’Aristote.inScientia in margine. Études sur les marginalia dans les manuscrits scientifiques du Moyen Âge à la Renaissance, études réunies par Danielle Jacquart et Charles Burnett, École Pratique des Hautes Études, Sciences historiques et philologiques V, Hautes études médiévales et modernes,vol. 88 (Genève, 2005)" .

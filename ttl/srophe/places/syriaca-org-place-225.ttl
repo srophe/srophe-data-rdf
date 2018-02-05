@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/225> a lawd:Place ;
+ rdfs:label "Mor Behnam"@en, "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Mor Behnam"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܳܐ ܕܡܳܪܝ ܒܶܗܢܰܡ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "دير مار بهنام"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Bahnam Monastery"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Monastery of Mar Behnam"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;];
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mar_Behnam_Monastery>, <http://dbpedia.org/resource/Mar_Behnam_Monastery>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Mar Behnam&sT=keywords> ; 
+ dcterms:relation <http://en.wikipedia.org/wiki/Mar_Behnam_Monastery>, <http://dbpedia.org/resource/Mar_Behnam_Monastery>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Mar Behnam&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/place/225/html>, <http://syriaca.org/place/225/tei>, <http://syriaca.org/place/225/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/225/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/225/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/225/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Mar Behnam&sT=keywords> .
+
+<http://syriaca.org/place/225/html> a rdfs:Resource; ;
+ dcterms:title "Mor Behnam"@en, "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr ;
+ dcterms:subject <http://syriaca.org/place/225> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Mor Behnam — ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ in The Syriac Gazetteer last modified February 6, 2014, http://syriaca.org/place/225" .
+
+<http://syriaca.org/place/225/tei> a rdfs:Resource; ;
+ dcterms:title "Mor Behnam"@en, "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr ;
+ dcterms:subject <http://syriaca.org/place/225> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Mor Behnam — ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ in The Syriac Gazetteer last modified February 6, 2014, http://syriaca.org/place/225" .
+
+<http://syriaca.org/place/225/ttl> a rdfs:Resource; ;
+ dcterms:title "Mor Behnam"@en, "ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ"@syr ;
+ dcterms:subject <http://syriaca.org/place/225> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Mor Behnam — ܕܝܪܐ ܕܡܪܝ ܒܗܢܡ in The Syriac Gazetteer last modified February 6, 2014, http://syriaca.org/place/225" .

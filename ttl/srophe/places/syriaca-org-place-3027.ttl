@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/3027> a lawd:Place ;
+ rdfs:label "Arday and Toduru"@en, "اردي وتدورو"@ar, "ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Arday and Toduru"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "اردي وتدورو"@ar ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1383> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Les Ȋles de Ardai et de Tȏdourou"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1383> ;]; 
+ skos:related <http://syriaca.org/place/3008> ; 
+ skos:related <http://syriaca.org/place/3009> ; 
+ skos:related <http://syriaca.org/place/37> ;
+ dcterms:source <http://syriaca.org/bibl/1383> ;
+ dcterms:relation <http://syriaca.org/place/3027/html>, <http://syriaca.org/place/3027/tei>, <http://syriaca.org/place/3027/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3027/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3027/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3027/ttl> ;
+ dcterms:relation <http://syriaca.org/place/3008>, <http://syriaca.org/place/3009>, <http://syriaca.org/place/37>, <http://syriaca.org/bibl/1383> .
+
+<http://syriaca.org/place/3027/html> a rdfs:Resource; ;
+ dcterms:title "Arday and Toduru"@en, "اردي وتدورو"@ar, "ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3027> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Arday and Toduru — ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3027" .
+
+<http://syriaca.org/place/3027/tei> a rdfs:Resource; ;
+ dcterms:title "Arday and Toduru"@en, "اردي وتدورو"@ar, "ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3027> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Arday and Toduru — ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3027" .
+
+<http://syriaca.org/place/3027/ttl> a rdfs:Resource; ;
+ dcterms:title "Arday and Toduru"@en, "اردي وتدورو"@ar, "ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3027> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Arday and Toduru — ܓܙܪ̈ܬܐ ܕܐܪܕܝ ܘܕܬܘܕܘܪܘ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3027" .

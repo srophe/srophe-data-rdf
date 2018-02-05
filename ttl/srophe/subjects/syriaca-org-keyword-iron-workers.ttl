@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/iron-workers> a  ;
+ rdfs:label "Iron workers"@en ;
+ dcterms:relation <http://syriaca.org/keyword/iron-workers> ; 
+ dcterms:relation <http://syriaca.org/keyword/occupations> ;
+ dcterms:relation <http://syriaca.org/keyword/iron-workers/html>, <http://syriaca.org/keyword/iron-workers/tei>, <http://syriaca.org/keyword/iron-workers/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/iron-workers/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/iron-workers/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/iron-workers/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/occupations> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/iron-workers> .
+
+<http://syriaca.org/keyword/iron-workers/html> a rdfs:Resource; ;
+ dcterms:title "Iron workers"@en ;
+ dcterms:subject <http://syriaca.org/keyword/iron-workers> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Iron workers in last modified May 5, 2017, http://syriaca.org/keyword/iron-workers" .
+
+<http://syriaca.org/keyword/iron-workers/tei> a rdfs:Resource; ;
+ dcterms:title "Iron workers"@en ;
+ dcterms:subject <http://syriaca.org/keyword/iron-workers> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Iron workers in last modified May 5, 2017, http://syriaca.org/keyword/iron-workers" .
+
+<http://syriaca.org/keyword/iron-workers/ttl> a rdfs:Resource; ;
+ dcterms:title "Iron workers"@en ;
+ dcterms:subject <http://syriaca.org/keyword/iron-workers> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Iron workers in last modified May 5, 2017, http://syriaca.org/keyword/iron-workers" .

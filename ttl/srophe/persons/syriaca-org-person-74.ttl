@@ -1,0 +1,168 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/74> a lawd:Person ;
+ rdfs:label "John of Ephesus"@en, "ܝܘܚܢܢ ܕܐܦܣܘܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ skos:related <http://syriaca.org/place/623> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/618> ;]; 
+ skos:related <http://syriaca.org/place/623> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/640> ;]; 
+ skos:related <http://syriaca.org/place/623> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "John of Asia"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/618> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "John of Ephesus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ioannes Ephesi (aut Asiae)"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jean d'Asie"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܝܘܚܢܢ ܕܐܣܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jean d'Éphèse"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_74>, <http://viaf.org/viaf/34491098>, <http://worldcat.org/identities/lccn-n88-32118>, <http://worldcat.org/identities/np-john$bp of ephesus>, <http://worldcat.org/identities/np-joannes$bp of ephesus$6th cent>, <http://worldcat.org/identities/np-joannes$bishop of ephesus$ca 507 589>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Ephesus&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_74>, <http://viaf.org/viaf/34491098>, <http://worldcat.org/identities/lccn-n88-32118>, <http://worldcat.org/identities/np-john$bp of ephesus>, <http://worldcat.org/identities/np-joannes$bp of ephesus$6th cent>, <http://worldcat.org/identities/np-joannes$bishop of ephesus$ca 507 589>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Ephesus&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/74> ; 
+ dcterms:relation <http://syriaca.org/place/102> ; 
+ dcterms:relation <http://syriaca.org/person/74> ; 
+ dcterms:relation <http://syriaca.org/place/630> ; 
+ dcterms:relation <http://syriaca.org/place/358> ; 
+ dcterms:relation <http://syriaca.org/place/1451> ; 
+ dcterms:relation <http://syriaca.org/place/8> ; 
+ dcterms:relation <http://syriaca.org/place/1527> ; 
+ dcterms:relation <http://syriaca.org/place/200> ; 
+ dcterms:relation <http://syriaca.org/place/66> ; 
+ dcterms:relation <http://syriaca.org/place/67> ; 
+ dcterms:relation <http://syriaca.org/place/1528> ; 
+ dcterms:relation <http://syriaca.org/place/233> ; 
+ dcterms:relation <http://syriaca.org/place/10> ; 
+ dcterms:relation <http://syriaca.org/place/586> ; 
+ dcterms:relation <http://syriaca.org/place/1529> ; 
+ dcterms:relation <http://syriaca.org/person/74> ; 
+ dcterms:relation <http://syriaca.org/place/1524> ; 
+ dcterms:relation <http://syriaca.org/place/399> ; 
+ dcterms:relation <http://syriaca.org/place/10> ; 
+ dcterms:relation <http://syriaca.org/place/7> ; 
+ dcterms:relation <http://syriaca.org/place/715> ; 
+ dcterms:relation <http://syriaca.org/place/586> ; 
+ dcterms:relation <http://syriaca.org/place/124> ; 
+ dcterms:relation <http://syriaca.org/place/1452> ; 
+ dcterms:relation <http://syriaca.org/place/504> ; 
+ dcterms:relation <http://syriaca.org/place/1472> ; 
+ dcterms:relation <http://syriaca.org/place/1525> ; 
+ dcterms:relation <http://syriaca.org/place/1526> ; 
+ dcterms:relation <http://syriaca.org/place/623> ;
+ dcterms:source <http://syriaca.org/bibl/618>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/1700>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/74/html>, <http://syriaca.org/person/74/tei>, <http://syriaca.org/person/74/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/74/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/74/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/74/ttl> ;
+ dcterms:relation <http://syriaca.org/place/623>, <http://syriaca.org/bibl/618>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Ephesus&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/1700>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> .
+
+ syriaca:bornAt <http://syriaca.org/place/102> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/630> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/358> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/1451> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/8> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/1527> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/200> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/66> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/67> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/1528> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/233> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/10> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/586> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/1529> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1524> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/399> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/10> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/7> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/715> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/586> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/124> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1452> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/504> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1472> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1525> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1526> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/623> ;
+ lawd:hasAttestation <http://syriaca.org/person/74> .
+
+<http://syriaca.org/person/74/html> a rdfs:Resource; ;
+ dcterms:title "John of Ephesus"@en, "ܝܘܚܢܢ ܕܐܦܣܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/74> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), John of Ephesus — ܝܘܚܢܢ ܕܐܦܣܘܣ in last modified August 17, 2016, http://syriaca.org/person/74" .
+
+<http://syriaca.org/person/74/tei> a rdfs:Resource; ;
+ dcterms:title "John of Ephesus"@en, "ܝܘܚܢܢ ܕܐܦܣܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/74> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), John of Ephesus — ܝܘܚܢܢ ܕܐܦܣܘܣ in last modified August 17, 2016, http://syriaca.org/person/74" .
+
+<http://syriaca.org/person/74/ttl> a rdfs:Resource; ;
+ dcterms:title "John of Ephesus"@en, "ܝܘܚܢܢ ܕܐܦܣܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/74> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), John of Ephesus — ܝܘܚܢܢ ܕܐܦܣܘܣ in last modified August 17, 2016, http://syriaca.org/person/74" .

@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1725> a lawd:Person ;
+ rdfs:label "ܐܘܣܛܬܝܣ"@syr, "Eustathius, bishop of Antioch"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܣܛܬܝܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ēwsṭāthīs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Eustathius, bishop of Antioch"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾĒwsṭāṯīs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Eustathe"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Eustathius of Antioch"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Eustathe d'Antioche"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܘܣܛܐܬܝܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ skos:related <http://syriaca.org/person/1725> ; 
+ skos:related <http://syriaca.org/place/995> ; 
+ skos:related <http://syriaca.org/person/1725> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eustathius%20of%20Antioch&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eustathius%20of%20Antioch&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/1725/html>, <http://syriaca.org/person/1725/tei>, <http://syriaca.org/person/1725/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1725/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1725/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1725/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1725>, <http://syriaca.org/place/995>, <http://syriaca.org/work/872>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eustathius%20of%20Antioch&sT=keywords>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/1725/html> a rdfs:Resource; ;
+ dcterms:title "ܐܘܣܛܬܝܣ"@syr, "Eustathius, bishop of Antioch"@en ;
+ dcterms:subject <http://syriaca.org/person/1725> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Eustathius, bishop of Antioch — ܐܘܣܛܬܝܣ in last modified August 17, 2016, http://syriaca.org/person/1725" .
+
+<http://syriaca.org/person/1725/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܘܣܛܬܝܣ"@syr, "Eustathius, bishop of Antioch"@en ;
+ dcterms:subject <http://syriaca.org/person/1725> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Eustathius, bishop of Antioch — ܐܘܣܛܬܝܣ in last modified August 17, 2016, http://syriaca.org/person/1725" .
+
+<http://syriaca.org/person/1725/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܘܣܛܬܝܣ"@syr, "Eustathius, bishop of Antioch"@en ;
+ dcterms:subject <http://syriaca.org/person/1725> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Eustathius, bishop of Antioch — ܐܘܣܛܬܝܣ in last modified August 17, 2016, http://syriaca.org/person/1725" .

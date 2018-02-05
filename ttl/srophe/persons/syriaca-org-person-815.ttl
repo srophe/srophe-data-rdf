@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/815> a lawd:Person ;
+ rdfs:label "Joseph Busnaya"@en, "ܝܘܣܦ ܒܘܣܢܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/597> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܝܘܣܦ ܒܘܣܢܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yawsep Būsnāyā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph Bousnaya"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph Busnaya"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yawsep Būsnāyā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph Bousnaya"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "JOSEPH BŪSNĀYA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/815> ; 
+ skos:related <http://syriaca.org/person/815> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_815>, <http://viaf.org/viaf/26517501>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Joseph Busnaya&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_815>, <http://viaf.org/viaf/26517501>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Joseph Busnaya&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/597>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2305>, <http://syriaca.org/bibl/1426> ;
+ dcterms:relation <http://syriaca.org/person/815/html>, <http://syriaca.org/person/815/tei>, <http://syriaca.org/person/815/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/815/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/815/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/815/ttl> ;
+ dcterms:relation <http://syriaca.org/person/815>, <http://syriaca.org/work/1113>, <http://syriaca.org/work/1319>, <http://syriaca.org/bibl/597>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Joseph Busnaya&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2305>, <http://syriaca.org/bibl/1426> .
+
+<http://syriaca.org/person/815/html> a rdfs:Resource; ;
+ dcterms:title "Joseph Busnaya"@en, "ܝܘܣܦ ܒܘܣܢܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/815> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. CarlsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson, (eds.), Joseph Busnaya — ܝܘܣܦ ܒܘܣܢܝܐ in last modified August 17, 2016, http://syriaca.org/person/815" .
+
+<http://syriaca.org/person/815/tei> a rdfs:Resource; ;
+ dcterms:title "Joseph Busnaya"@en, "ܝܘܣܦ ܒܘܣܢܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/815> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. CarlsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson, (eds.), Joseph Busnaya — ܝܘܣܦ ܒܘܣܢܝܐ in last modified August 17, 2016, http://syriaca.org/person/815" .
+
+<http://syriaca.org/person/815/ttl> a rdfs:Resource; ;
+ dcterms:title "Joseph Busnaya"@en, "ܝܘܣܦ ܒܘܣܢܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/815> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. CarlsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson, (eds.), Joseph Busnaya — ܝܘܣܦ ܒܘܣܢܝܐ in last modified August 17, 2016, http://syriaca.org/person/815" .

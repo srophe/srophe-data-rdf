@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2584> a lawd:Person ;
+ rdfs:label "Ambrose"@en, "ܐܡܒܪܘܣܝܘܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Ambrose"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܐܡܒܪܘܣܝܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/667> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ambrosius"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/672> ;];
+ skos:closeMatch <https://en.wikipedia.org/wiki/Ambrose> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Ambrose> ;
+ dcterms:source <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/672> ;
+ dcterms:relation <http://syriaca.org/person/2584/html>, <http://syriaca.org/person/2584/tei>, <http://syriaca.org/person/2584/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2584/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2584/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2584/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/672> .
+
+<http://syriaca.org/person/2584/html> a rdfs:Resource; ;
+ dcterms:title "Ambrose"@en, "ܐܡܒܪܘܣܝܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2584> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Ambrose — ܐܡܒܪܘܣܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/2584" .
+
+<http://syriaca.org/person/2584/tei> a rdfs:Resource; ;
+ dcterms:title "Ambrose"@en, "ܐܡܒܪܘܣܝܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2584> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Ambrose — ܐܡܒܪܘܣܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/2584" .
+
+<http://syriaca.org/person/2584/ttl> a rdfs:Resource; ;
+ dcterms:title "Ambrose"@en, "ܐܡܒܪܘܣܝܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2584> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Ambrose — ܐܡܒܪܘܣܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/2584" .

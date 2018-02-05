@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1809> a dcterms:bibliographicResource ;
+ rdfs:label "Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/V9HCVD3S>, <http://www.worldcat.org/oclc/630568503> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/V9HCVD3S>, <http://www.worldcat.org/oclc/630568503> ;
+ dcterms:relation <http://syriaca.org/bibl/1809/html>, <http://syriaca.org/bibl/1809/tei>, <http://syriaca.org/bibl/1809/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1809/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1809/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1809/ttl> .
+
+<http://syriaca.org/bibl/1809/html> a rdfs:Resource; ;
+ dcterms:title "Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata" ;
+ dcterms:subject <http://syriaca.org/bibl/1809> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Petrus Benedictus, Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata (Romae: Ex typographia Vaticana Io. Mariae Henrici Saluioni typog, 1737)" .
+
+<http://syriaca.org/bibl/1809/tei> a rdfs:Resource; ;
+ dcterms:title "Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata" ;
+ dcterms:subject <http://syriaca.org/bibl/1809> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Petrus Benedictus, Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata (Romae: Ex typographia Vaticana Io. Mariae Henrici Saluioni typog, 1737)" .
+
+<http://syriaca.org/bibl/1809/ttl> a rdfs:Resource; ;
+ dcterms:title "Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata" ;
+ dcterms:subject <http://syriaca.org/bibl/1809> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Petrus Benedictus, Sancti Patris Nostri Ephraem Syri Opera omnia: quae exstant Graece, Syriace, Latine, in sex tomos distributa: ad Mss. Codices Vaticanos, aliosque castigata, multis aucta, interpretatione, praefationibus, notis ... illustrata (Romae: Ex typographia Vaticana Io. Mariae Henrici Saluioni typog, 1737)" .

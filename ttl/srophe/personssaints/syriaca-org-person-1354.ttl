@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1354> a lawd:Person ;
+ rdfs:label "ܡܥܢܐ"@syr, "Maʿna"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܡܥܢܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Maʿna"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Maʿna"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ma'na"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Maʿnā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ma‘na"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "MA'NA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/1354> ; 
+ skos:related <http://syriaca.org/person/1450> ; 
+ skos:related <http://syriaca.org/person/1791> ; 
+ skos:related <http://syriaca.org/person/1110> ; 
+ skos:related <http://syriaca.org/person/1474> ; 
+ skos:related <http://syriaca.org/person/1354> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1374> ;
+ dcterms:relation <http://syriaca.org/person/1354/html>, <http://syriaca.org/person/1354/tei>, <http://syriaca.org/person/1354/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1354/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1354/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1354/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1354>, <http://syriaca.org/person/1450>, <http://syriaca.org/person/1791>, <http://syriaca.org/person/1110>, <http://syriaca.org/person/1474>, <http://syriaca.org/work/261>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1374> .
+
+<http://syriaca.org/person/1354/html> a rdfs:Resource; ;
+ dcterms:title "ܡܥܢܐ"@syr, "Maʿna"@en ;
+ dcterms:subject <http://syriaca.org/person/1354> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Maʿna — ܡܥܢܐ in last modified August 17, 2016, http://syriaca.org/person/1354" .
+
+<http://syriaca.org/person/1354/tei> a rdfs:Resource; ;
+ dcterms:title "ܡܥܢܐ"@syr, "Maʿna"@en ;
+ dcterms:subject <http://syriaca.org/person/1354> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Maʿna — ܡܥܢܐ in last modified August 17, 2016, http://syriaca.org/person/1354" .
+
+<http://syriaca.org/person/1354/ttl> a rdfs:Resource; ;
+ dcterms:title "ܡܥܢܐ"@syr, "Maʿna"@en ;
+ dcterms:subject <http://syriaca.org/person/1354> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Maʿna — ܡܥܢܐ in last modified August 17, 2016, http://syriaca.org/person/1354" .

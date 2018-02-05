@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/839> a lawd:Person ;
+ rdfs:label "Ammonius of Alexandria"@en, "ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;
+ lawd:hasAttestation <#bib839-10> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;
+ lawd:hasAttestation <#bib839-7> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_839>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ammonius of Alexandria&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_839>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ammonius of Alexandria&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/839/html>, <http://syriaca.org/person/839/tei>, <http://syriaca.org/person/839/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/839/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/839/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/839/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ammonius of Alexandria&sT=keywords> .
+
+<http://syriaca.org/person/839/html> a rdfs:Resource; ;
+ dcterms:title "Ammonius of Alexandria"@en, "ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/839> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. GibsonDavid A. Michelson Thomas A. Carlson Nathan P. Gibson and David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Ammonius of Alexandria — ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ in last modified August 17, 2016, http://syriaca.org/person/839" .
+
+<http://syriaca.org/person/839/tei> a rdfs:Resource; ;
+ dcterms:title "Ammonius of Alexandria"@en, "ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/839> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. GibsonDavid A. Michelson Thomas A. Carlson Nathan P. Gibson and David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Ammonius of Alexandria — ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ in last modified August 17, 2016, http://syriaca.org/person/839" .
+
+<http://syriaca.org/person/839/ttl> a rdfs:Resource; ;
+ dcterms:title "Ammonius of Alexandria"@en, "ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/839> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. GibsonDavid A. Michelson Thomas A. Carlson Nathan P. Gibson and David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Ammonius of Alexandria — ܐܡܘܢܝܣ ܐܠܟܣܢܕܪܝܐ in last modified August 17, 2016, http://syriaca.org/person/839" .

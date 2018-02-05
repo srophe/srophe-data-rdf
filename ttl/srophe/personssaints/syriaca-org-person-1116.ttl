@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1116> a lawd:Person ;
+ rdfs:label "ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ"@syr, "Addai the Chorepiscos"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Aday Khurʾepesqupa"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Addai the Chorepiscos"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Addai"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾAdday kōrʾapisqōpā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Addaï le chorévêque"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ADDAÏ"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/1116> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1409> ;
+ dcterms:relation <http://syriaca.org/person/1116/html>, <http://syriaca.org/person/1116/tei>, <http://syriaca.org/person/1116/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1116/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1116/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1116/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1116>, <http://syriaca.org/work/800>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1409> .
+
+<http://syriaca.org/person/1116/html> a rdfs:Resource; ;
+ dcterms:title "ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ"@syr, "Addai the Chorepiscos"@en ;
+ dcterms:subject <http://syriaca.org/person/1116> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Addai the Chorepiscos — ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ in last modified August 17, 2016, http://syriaca.org/person/1116" .
+
+<http://syriaca.org/person/1116/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ"@syr, "Addai the Chorepiscos"@en ;
+ dcterms:subject <http://syriaca.org/person/1116> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Addai the Chorepiscos — ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ in last modified August 17, 2016, http://syriaca.org/person/1116" .
+
+<http://syriaca.org/person/1116/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ"@syr, "Addai the Chorepiscos"@en ;
+ dcterms:subject <http://syriaca.org/person/1116> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Addai the Chorepiscos — ܐܕܝ ܟܘܪܐܦܝܣܩܦܐ in last modified August 17, 2016, http://syriaca.org/person/1116" .

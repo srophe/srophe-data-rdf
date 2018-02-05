@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1898> a dcterms:bibliographicResource ;
+ rdfs:label "Syrische grammatik mit Litteratur, Chrestomathie und Glossar" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/3XWBK3V5>, <http://www.worldcat.org/oclc/677334405> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/3XWBK3V5>, <http://www.worldcat.org/oclc/677334405> ;
+ dcterms:relation <http://syriaca.org/bibl/1898/html>, <http://syriaca.org/bibl/1898/tei>, <http://syriaca.org/bibl/1898/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1898/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1898/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1898/ttl> ;
+ dcterms:relation <http://search.ebscohost.com/login.aspx?direct=true&db=h7h&bquery=(HJ+5ZS0)&type=1&site=ehost-live> .
+
+<http://syriaca.org/bibl/1898/html> a rdfs:Resource; ;
+ dcterms:title "Syrische grammatik mit Litteratur, Chrestomathie und Glossar" ;
+ dcterms:subject <http://syriaca.org/bibl/1898> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Eberhard Nestle, Syrische grammatik mit Litteratur, Chrestomathie und Glossar (Berlin: H. Reuther, 1888)" .
+
+<http://syriaca.org/bibl/1898/tei> a rdfs:Resource; ;
+ dcterms:title "Syrische grammatik mit Litteratur, Chrestomathie und Glossar" ;
+ dcterms:subject <http://syriaca.org/bibl/1898> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Eberhard Nestle, Syrische grammatik mit Litteratur, Chrestomathie und Glossar (Berlin: H. Reuther, 1888)" .
+
+<http://syriaca.org/bibl/1898/ttl> a rdfs:Resource; ;
+ dcterms:title "Syrische grammatik mit Litteratur, Chrestomathie und Glossar" ;
+ dcterms:subject <http://syriaca.org/bibl/1898> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Eberhard Nestle, Syrische grammatik mit Litteratur, Chrestomathie und Glossar (Berlin: H. Reuther, 1888)" .

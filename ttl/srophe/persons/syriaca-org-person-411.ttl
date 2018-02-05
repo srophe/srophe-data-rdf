@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/411> a lawd:Person ;
+ rdfs:label "Chabot , Jean-Baptiste"@en, "ܝܘܚܢܢ ܫܒܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/133> ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/133> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_411>, <http://viaf.org/viaf/44399630>, <http://worldcat.org/identities/lccn-no2003-54956>, <http://viaf.org/viaf/44676775>, <http://worldcat.org/identities/viaf-44676775>, <http://viaf.org/viaf/25625001>, <http://worldcat.org/identities/viaf-25625001>, <http://viaf.org/viaf/218048735>, <http://viaf.org/viaf/206537993>, <http://viaf.org/viaf/242386363>, <http://viaf.org/viaf/189045871> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_411>, <http://viaf.org/viaf/44399630>, <http://worldcat.org/identities/lccn-no2003-54956>, <http://viaf.org/viaf/44676775>, <http://worldcat.org/identities/viaf-44676775>, <http://viaf.org/viaf/25625001>, <http://worldcat.org/identities/viaf-25625001>, <http://viaf.org/viaf/218048735>, <http://viaf.org/viaf/206537993>, <http://viaf.org/viaf/242386363>, <http://viaf.org/viaf/189045871> ;
+ dcterms:source <http://syriaca.org/bibl/133>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3> ;
+ dcterms:relation <http://syriaca.org/person/411/html>, <http://syriaca.org/person/411/tei>, <http://syriaca.org/person/411/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/411/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/411/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/411/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/133>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3> .
+
+<http://syriaca.org/person/411/html> a rdfs:Resource; ;
+ dcterms:title "Chabot , Jean-Baptiste"@en, "ܝܘܚܢܢ ܫܒܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/411> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Chabot, Jean-Baptiste — ܝܘܚܢܢ ܫܒܐ in last modified August 17, 2016, http://syriaca.org/person/411" .
+
+<http://syriaca.org/person/411/tei> a rdfs:Resource; ;
+ dcterms:title "Chabot , Jean-Baptiste"@en, "ܝܘܚܢܢ ܫܒܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/411> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Chabot, Jean-Baptiste — ܝܘܚܢܢ ܫܒܐ in last modified August 17, 2016, http://syriaca.org/person/411" .
+
+<http://syriaca.org/person/411/ttl> a rdfs:Resource; ;
+ dcterms:title "Chabot , Jean-Baptiste"@en, "ܝܘܚܢܢ ܫܒܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/411> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Chabot, Jean-Baptiste — ܝܘܚܢܢ ܫܒܐ in last modified August 17, 2016, http://syriaca.org/person/411" .

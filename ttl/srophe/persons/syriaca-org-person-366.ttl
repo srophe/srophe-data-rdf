@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/366> a lawd:Person ;
+ rdfs:label "ܪܒܢ ܒܪ ܥܕܬܐ"@syr, "bar ʿIdta , Rabban"@en ;
+ lawd:hasName [
+ lawd:variantForm ","@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/84> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Bar Edta Rabban"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Bar ‘Edta Rabban"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܪܒܢ ܒܪ ܥܕܬܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Raban Bar ʿitā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Rabban Bar 'Edta"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Bar Eta"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Rabban Bar ʿidṯā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Rabban Bar ‘Édta"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "BAR 'ÉTA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Bar Idta"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/320> ; 
+ skos:related <http://syriaca.org/place/1421> ; 
+ skos:related <http://syriaca.org/person/320> ; 
+ skos:related <http://syriaca.org/person/1240> ; 
+ skos:related <http://syriaca.org/person/366> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_366>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bar Idta&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bar%20Idta&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_366>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bar Idta&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bar%20Idta&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/84>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1348>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1317>, <http://syriaca.org/bibl/1317>, <http://syriaca.org/bibl/2239>, <http://syriaca.org/bibl/1313>, <http://syriaca.org/bibl/725>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/366/html>, <http://syriaca.org/person/366/tei>, <http://syriaca.org/person/366/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/366/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/366/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/366/ttl> ;
+ dcterms:relation <http://syriaca.org/person/320>, <http://syriaca.org/place/1421>, <http://syriaca.org/person/1240>, <http://syriaca.org/person/366>, <http://syriaca.org/work/964>, <http://syriaca.org/bibl/84>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bar Idta&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1348>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1317>, <http://syriaca.org/bibl/2239>, <http://syriaca.org/bibl/1313>, <http://syriaca.org/bibl/725>, <http://syriaca.org/bibl/1426>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bar%20Idta&sT=keywords> .
+
+<http://syriaca.org/person/366/html> a rdfs:Resource; ;
+ dcterms:title "ܪܒܢ ܒܪ ܥܕܬܐ"@syr, "bar ʿIdta , Rabban"@en ;
+ dcterms:subject <http://syriaca.org/person/366> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. CarlsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson, (eds.), bar ʿIdta, Rabban — ܪܒܢ ܒܪ ܥܕܬܐ in last modified December 9, 2016, http://syriaca.org/person/366" .
+
+<http://syriaca.org/person/366/tei> a rdfs:Resource; ;
+ dcterms:title "ܪܒܢ ܒܪ ܥܕܬܐ"@syr, "bar ʿIdta , Rabban"@en ;
+ dcterms:subject <http://syriaca.org/person/366> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. CarlsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson, (eds.), bar ʿIdta, Rabban — ܪܒܢ ܒܪ ܥܕܬܐ in last modified December 9, 2016, http://syriaca.org/person/366" .
+
+<http://syriaca.org/person/366/ttl> a rdfs:Resource; ;
+ dcterms:title "ܪܒܢ ܒܪ ܥܕܬܐ"@syr, "bar ʿIdta , Rabban"@en ;
+ dcterms:subject <http://syriaca.org/person/366> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. CarlsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson, (eds.), bar ʿIdta, Rabban — ܪܒܢ ܒܪ ܥܕܬܐ in last modified December 9, 2016, http://syriaca.org/person/366" .

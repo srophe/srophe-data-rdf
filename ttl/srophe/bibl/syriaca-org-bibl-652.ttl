@@ -1,0 +1,37 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/652> a dcterms:bibliographicResource ;
+ rdfs:label "Acta Sanctorum Martyrum Orientalium et Occidentalium"@la ;
+ dcterms:relation <http://syriaca.org/bibl/652/html>, <http://syriaca.org/bibl/652/tei>, <http://syriaca.org/bibl/652/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/652/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/652/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/652/ttl> ;
+ dcterms:relation <http://syriaca.org/person/350>, <http://syriaca.org/place/863> .
+
+<http://syriaca.org/bibl/652/html> a rdfs:Resource; ;
+ dcterms:title "Acta Sanctorum Martyrum Orientalium et Occidentalium"@la ;
+ dcterms:subject <http://syriaca.org/bibl/652> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Stephanus Evodius Assemanus (ed.), Acta Sanctorum Martyrum Orientalium et Occidentalium (Rome: Joseph Collini, 1748)" .
+
+<http://syriaca.org/bibl/652/tei> a rdfs:Resource; ;
+ dcterms:title "Acta Sanctorum Martyrum Orientalium et Occidentalium"@la ;
+ dcterms:subject <http://syriaca.org/bibl/652> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Stephanus Evodius Assemanus (ed.), Acta Sanctorum Martyrum Orientalium et Occidentalium (Rome: Joseph Collini, 1748)" .
+
+<http://syriaca.org/bibl/652/ttl> a rdfs:Resource; ;
+ dcterms:title "Acta Sanctorum Martyrum Orientalium et Occidentalium"@la ;
+ dcterms:subject <http://syriaca.org/bibl/652> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Stephanus Evodius Assemanus (ed.), Acta Sanctorum Martyrum Orientalium et Occidentalium (Rome: Joseph Collini, 1748)" .

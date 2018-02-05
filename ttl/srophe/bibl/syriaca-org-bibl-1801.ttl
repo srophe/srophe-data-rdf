@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1801> a dcterms:bibliographicResource ;
+ rdfs:label "Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text]" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/N48INWFN>, <http://www.worldcat.org/oclc/5106283> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/N48INWFN>, <http://www.worldcat.org/oclc/5106283> ;
+ dcterms:relation <http://syriaca.org/bibl/1801/html>, <http://syriaca.org/bibl/1801/tei>, <http://syriaca.org/bibl/1801/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1801/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1801/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1801/ttl> .
+
+<http://syriaca.org/bibl/1801/html> a rdfs:Resource; ;
+ dcterms:title "Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text]" ;
+ dcterms:subject <http://syriaca.org/bibl/1801> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Edmund Beck (ed.), Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text] vol. 1 , Corpus Scriptorum Christianorum Orientalium,vol. 322 (Louvain: Secrétariat du CorpusSCO, 1972)" .
+
+<http://syriaca.org/bibl/1801/tei> a rdfs:Resource; ;
+ dcterms:title "Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text]" ;
+ dcterms:subject <http://syriaca.org/bibl/1801> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Edmund Beck (ed.), Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text] vol. 1 , Corpus Scriptorum Christianorum Orientalium,vol. 322 (Louvain: Secrétariat du CorpusSCO, 1972)" .
+
+<http://syriaca.org/bibl/1801/ttl> a rdfs:Resource; ;
+ dcterms:title "Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text]" ;
+ dcterms:subject <http://syriaca.org/bibl/1801> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Edmund Beck (ed.), Des Heiligen Ephraem des Syrers Hymnen auf Abraham Kidunaya und Julianos Saba [Text] vol. 1 , Corpus Scriptorum Christianorum Orientalium,vol. 322 (Louvain: Secrétariat du CorpusSCO, 1972)" .

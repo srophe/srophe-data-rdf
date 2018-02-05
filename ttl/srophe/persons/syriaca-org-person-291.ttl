@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/291> a lawd:Person ;
+ rdfs:label "Simeon II , maphrian"@en, "ܒܣܝܠܝܘܣ ܫܡܥܘܢ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/512> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/686> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shemun II Basileios"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shem‘un II Basileios"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Basilios Shem'un of Tur Abdin"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_291> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_291> ;
+ dcterms:source <http://syriaca.org/bibl/512>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/686>, <http://syriaca.org/bibl/642>, <http://syriaca.org/bibl/645> ;
+ dcterms:relation <http://syriaca.org/person/291/html>, <http://syriaca.org/person/291/tei>, <http://syriaca.org/person/291/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/291/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/291/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/291/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/512>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/686>, <http://syriaca.org/bibl/642>, <http://syriaca.org/bibl/645> .
+
+<http://syriaca.org/person/291/html> a rdfs:Resource; ;
+ dcterms:title "Simeon II , maphrian"@en, "ܒܣܝܠܝܘܣ ܫܡܥܘܢ"@syr ;
+ dcterms:subject <http://syriaca.org/person/291> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon II, maphrian — ܒܣܝܠܝܘܣ ܫܡܥܘܢ in last modified December 9, 2016, http://syriaca.org/person/291" .
+
+<http://syriaca.org/person/291/tei> a rdfs:Resource; ;
+ dcterms:title "Simeon II , maphrian"@en, "ܒܣܝܠܝܘܣ ܫܡܥܘܢ"@syr ;
+ dcterms:subject <http://syriaca.org/person/291> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon II, maphrian — ܒܣܝܠܝܘܣ ܫܡܥܘܢ in last modified December 9, 2016, http://syriaca.org/person/291" .
+
+<http://syriaca.org/person/291/ttl> a rdfs:Resource; ;
+ dcterms:title "Simeon II , maphrian"@en, "ܒܣܝܠܝܘܣ ܫܡܥܘܢ"@syr ;
+ dcterms:subject <http://syriaca.org/person/291> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon II, maphrian — ܒܣܝܠܝܘܣ ܫܡܥܘܢ in last modified December 9, 2016, http://syriaca.org/person/291" .

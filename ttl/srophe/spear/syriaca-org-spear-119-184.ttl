@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/spear/119-184> a syriaca:eventFactoid ;
+ rdfs:label "In A. D. 381 A. D. 381/2 A. Gr. 693 attendants gathered for a Council of 150 bishops in Constantinople . The author date the Council of Constantinople in A. Gr. 693. Since it took place in the spring of A. D. 381, it should be dated to A. Gr. 692." ;
+ dcterms:subject <http://syriaca.org/keyword/councilConstantinople> ; 
+ dcterms:subject <http://syriaca.org/keyword/bishop> ; 
+ dcterms:subject <http://syriaca.org/keyword/synod> ; 
+ schema:location <http://syriaca.org/place/586> ; 
+ dcterms:date "0381" ; 
+ dcterms:date "0381-10" ; 
+ dcterms:date "0382-09" ;
+ dcterms:isPartOf <http://syriaca.org/spear> ;
+ dcterms:relation <http://syriaca.org/spear/119-184/html>, <http://syriaca.org/spear/119-184/tei>, <http://syriaca.org/spear/119-184/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-184/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-184/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-184/ttl> .
+
+<http://syriaca.org/spear/119-184/html> a rdfs:Resource; ;
+ dcterms:title "In A. D. 381 A. D. 381/2 A. Gr. 693 attendants gathered for a Council of 150 bishops in Constantinople . The author date the Council of Constantinople in A. Gr. 693. Since it took place in the spring of A. D. 381, it should be dated to A. Gr. 692." ;
+ dcterms:subject <http://syriaca.org/spear/119-184> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-184/tei> a rdfs:Resource; ;
+ dcterms:title "In A. D. 381 A. D. 381/2 A. Gr. 693 attendants gathered for a Council of 150 bishops in Constantinople . The author date the Council of Constantinople in A. Gr. 693. Since it took place in the spring of A. D. 381, it should be dated to A. Gr. 692." ;
+ dcterms:subject <http://syriaca.org/spear/119-184> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-184/ttl> a rdfs:Resource; ;
+ dcterms:title "In A. D. 381 A. D. 381/2 A. Gr. 693 attendants gathered for a Council of 150 bishops in Constantinople . The author date the Council of Constantinople in A. Gr. 693. Since it took place in the spring of A. D. 381, it should be dated to A. Gr. 692." ;
+ dcterms:subject <http://syriaca.org/spear/119-184> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .

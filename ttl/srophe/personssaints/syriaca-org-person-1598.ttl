@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1598> a lawd:Person ;
+ rdfs:label "ܐܦܘܠܘ"@syr, "Apollo"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܦܘܠܘ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Apōlō"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Apollo"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾĀpōlō"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Apollon"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ skos:related <http://syriaca.org/person/1598> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:relation <http://syriaca.org/person/1598/html>, <http://syriaca.org/person/1598/tei>, <http://syriaca.org/person/1598/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1598/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1598/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1598/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1598>, <http://syriaca.org/work/511>, <http://syriaca.org/bibl/649> .
+
+<http://syriaca.org/person/1598/html> a rdfs:Resource; ;
+ dcterms:title "ܐܦܘܠܘ"@syr, "Apollo"@en ;
+ dcterms:subject <http://syriaca.org/person/1598> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Apollo — ܐܦܘܠܘ in last modified August 17, 2016, http://syriaca.org/person/1598" .
+
+<http://syriaca.org/person/1598/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܦܘܠܘ"@syr, "Apollo"@en ;
+ dcterms:subject <http://syriaca.org/person/1598> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Apollo — ܐܦܘܠܘ in last modified August 17, 2016, http://syriaca.org/person/1598" .
+
+<http://syriaca.org/person/1598/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܦܘܠܘ"@syr, "Apollo"@en ;
+ dcterms:subject <http://syriaca.org/person/1598> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Apollo — ܐܦܘܠܘ in last modified August 17, 2016, http://syriaca.org/person/1598" .

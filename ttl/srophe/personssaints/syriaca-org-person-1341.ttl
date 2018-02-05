@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1341> a lawd:Person ;
+ rdfs:label "ܠܐܘܢܛܝܘܣ"@syr, "Leontius"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܠܐܘܢܛܝܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Leʾōnṭīyōs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܠܐܘܢܛܝܘܣ ܘܦܘܦܠܝܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Leontius"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Leonius and Publius"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Leontius of Tripoli"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lēʾōnṭīyōs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Léonce"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Léonce et Publius"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "LÉONCE DE TRIPOLI"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Leontius"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Leontius of Tripoli"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/1341> ; 
+ skos:related <http://syriaca.org/person/1341> ; 
+ skos:related <http://syriaca.org/person/1341> ; 
+ skos:related <http://syriaca.org/person/1341> ; 
+ skos:related <http://syriaca.org/person/1341> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Leontius&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Leontius%20of%20Tripoli&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Leontius&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Leontius%20of%20Tripoli&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2299>, <http://syriaca.org/bibl/2302>, <http://syriaca.org/bibl/1311>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1341/html>, <http://syriaca.org/person/1341/tei>, <http://syriaca.org/person/1341/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1341/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1341/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1341/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1341>, <http://syriaca.org/work/719>, <http://syriaca.org/work/861>, <http://syriaca.org/work/869>, <http://syriaca.org/work/1962>, <http://syriaca.org/work/380>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2299>, <http://syriaca.org/bibl/2302>, <http://syriaca.org/bibl/1311>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Leontius&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Leontius%20of%20Tripoli&sT=keywords> .
+
+<http://syriaca.org/person/1341/html> a rdfs:Resource; ;
+ dcterms:title "ܠܐܘܢܛܝܘܣ"@syr, "Leontius"@en ;
+ dcterms:subject <http://syriaca.org/person/1341> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Leontius — ܠܐܘܢܛܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/1341" .
+
+<http://syriaca.org/person/1341/tei> a rdfs:Resource; ;
+ dcterms:title "ܠܐܘܢܛܝܘܣ"@syr, "Leontius"@en ;
+ dcterms:subject <http://syriaca.org/person/1341> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Leontius — ܠܐܘܢܛܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/1341" .
+
+<http://syriaca.org/person/1341/ttl> a rdfs:Resource; ;
+ dcterms:title "ܠܐܘܢܛܝܘܣ"@syr, "Leontius"@en ;
+ dcterms:subject <http://syriaca.org/person/1341> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Leontius — ܠܐܘܢܛܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/1341" .

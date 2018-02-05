@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/spear/119-489> a syriaca:relationFactoid ;
+ rdfs:label "Justinian I , Euphrasios , Pawla Professional Relationship ." ;
+ dcterms:isPartOf <http://syriaca.org/spear> ;
+ dcterms:subject <http://syriaca.org/person/2284> ; 
+ dcterms:subject <http://syriaca.org/person/2278> ; 
+ dcterms:subject <http://syriaca.org/person/2296> ;
+ dcterms:relation <http://syriaca.org/spear/119-489/html>, <http://syriaca.org/spear/119-489/tei>, <http://syriaca.org/spear/119-489/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-489/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-489/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-489/ttl> .
+
+ snap:ProfessionalRelationship <http://syriaca.org/person/2278> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-489> ; 
+ snap:ProfessionalRelationship <http://syriaca.org/person/2296> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-489> .
+
+ snap:ProfessionalRelationship <http://syriaca.org/person/2284> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-489> ; 
+ snap:ProfessionalRelationship <http://syriaca.org/person/2296> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-489> .
+
+ snap:ProfessionalRelationship <http://syriaca.org/person/2284> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-489> ; 
+ snap:ProfessionalRelationship <http://syriaca.org/person/2278> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-489> .
+
+<http://syriaca.org/spear/119-489/html> a rdfs:Resource; ;
+ dcterms:title "Justinian I , Euphrasios , Pawla Professional Relationship ." ;
+ dcterms:subject <http://syriaca.org/spear/119-489> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-489/tei> a rdfs:Resource; ;
+ dcterms:title "Justinian I , Euphrasios , Pawla Professional Relationship ." ;
+ dcterms:subject <http://syriaca.org/spear/119-489> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-489/ttl> a rdfs:Resource; ;
+ dcterms:title "Justinian I , Euphrasios , Pawla Professional Relationship ." ;
+ dcterms:subject <http://syriaca.org/spear/119-489> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .

@@ -1,0 +1,72 @@
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+    <rdfs:Resource rdf:resource="http://syriaca.org/person/2677">
+        <rdf:type rdf:resource="http://lawd.info/ontology/Person"/>
+        <rdfs:label xml:lang="en">John</rdfs:label>
+        <rdfs:label xml:lang="syr">ܝܘܚܢܢ ܕܝܪܝܐ</rdfs:label>
+        <lawd:hasName>
+            <rdf:Description>
+                <lawd:primaryForm xml:lang="en">John</lawd:primaryForm>
+            </rdf:Description>
+        </lawd:hasName>
+        <lawd:hasName>
+            <rdf:Description>
+                <lawd:primaryForm xml:lang="syr">ܝܘܚܢܢ ܕܝܪܝܐ</lawd:primaryForm>
+                <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/667"/>
+            </rdf:Description>
+        </lawd:hasName>
+        <dcterms:description>A monk of the monastery of ʿAkiba and associate of Stephen, bishop of Apamea</dcterms:description>
+        <dcterms:description>This person is possibly identical
+                                                with one or more persons represented in another
+                                                record</dcterms:description>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2677"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2674"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/667"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/669"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/669"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/669"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2677/html"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2677/tei"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2677/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2677/html"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2677/tei"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2677/ttl"/>
+    </rdfs:Resource>
+    <rdf:Description rdf:about="http://syriaca.org/person/2677">
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2674"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2674"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2677"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/person/2674">
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2677"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2677"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2677"/>
+    </rdf:Description>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2677/html">
+        <dcterms:title xml:lang="en">John</dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܘܚܢܢ ܕܝܪܝܐ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2677"/>
+        <dcterms:format>text/html</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L.
+                        Schwartz (eds.), "John — 
+                ܝܘܚܢܢ ܕܝܪܝܐ" in  last modified August 17, 2016, http://syriaca.org/person/2677</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2677/tei">
+        <dcterms:title xml:lang="en">John</dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܘܚܢܢ ܕܝܪܝܐ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2677"/>
+        <dcterms:format>text/xml</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L.
+                        Schwartz (eds.), "John — 
+                ܝܘܚܢܢ ܕܝܪܝܐ" in  last modified August 17, 2016, http://syriaca.org/person/2677</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2677/ttl">
+        <dcterms:title xml:lang="en">John</dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܘܚܢܢ ܕܝܪܝܐ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2677"/>
+        <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L.
+                        Schwartz (eds.), "John — 
+                ܝܘܚܢܢ ܕܝܪܝܐ" in  last modified August 17, 2016, http://syriaca.org/person/2677</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+</rdf:RDF>

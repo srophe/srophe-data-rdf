@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/810> a lawd:Person ;
+ rdfs:label "Yahbalaha III"@en, "Yahbalaha III"@en-x-gedsh, "ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/587> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܝܗܒܐܠܗܐ"@syr ;
+ lawd:hasAttestation <#name810-4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ya(h)ḇallāhā"@fr-x-bhs ;
+ lawd:hasAttestation <#name810-4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yahballaha"@fr ;
+ lawd:hasAttestation <#name810-4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ skos:related <http://syriaca.org/person/810> ; 
+ skos:related <http://syriaca.org/person/721> ; 
+ skos:related <http://syriaca.org/place/104> ; 
+ skos:related <http://syriaca.org/person/810> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_810>, <http://viaf.org/viaf/28879285>, <http://worldcat.org/identities/lccn-n2001-58311>, <http://viaf.org/viaf/134242922>, <http://worldcat.org/identities/np-yahb alaha$iii$patriarch of the nestorians$1244 1317>, <http://worldcat.org/identities/np-mar jab alaha$patriarch of the nestorians$1244 1317>, <http://worldcat.org/identities/np-yabhalaha$iii$patriarch of the nestorians$1244 1317>, <http://worldcat.org/identities/np-yaballaha$iii$patriarch of the nestorians$1281 1317>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yahbalaha III&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_810>, <http://viaf.org/viaf/28879285>, <http://worldcat.org/identities/lccn-n2001-58311>, <http://viaf.org/viaf/134242922>, <http://worldcat.org/identities/np-yahb alaha$iii$patriarch of the nestorians$1244 1317>, <http://worldcat.org/identities/np-mar jab alaha$patriarch of the nestorians$1244 1317>, <http://worldcat.org/identities/np-yabhalaha$iii$patriarch of the nestorians$1244 1317>, <http://worldcat.org/identities/np-yaballaha$iii$patriarch of the nestorians$1281 1317>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yahbalaha III&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/587>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/649> ;
+ dcterms:relation <http://syriaca.org/person/810/html>, <http://syriaca.org/person/810/tei>, <http://syriaca.org/person/810/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/810/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/810/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/810/ttl> ;
+ dcterms:relation <http://syriaca.org/person/810>, <http://syriaca.org/person/721>, <http://syriaca.org/place/104>, <http://syriaca.org/work/895>, <http://syriaca.org/bibl/587>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yahbalaha III&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/649> .
+
+<http://syriaca.org/person/810/html> a rdfs:Resource; ;
+ dcterms:title "Yahbalaha III"@en, "Yahbalaha III"@en-x-gedsh, "ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/810> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Yahbalaha III — ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ in last modified August 17, 2016, http://syriaca.org/person/810" .
+
+<http://syriaca.org/person/810/tei> a rdfs:Resource; ;
+ dcterms:title "Yahbalaha III"@en, "Yahbalaha III"@en-x-gedsh, "ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/810> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Yahbalaha III — ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ in last modified August 17, 2016, http://syriaca.org/person/810" .
+
+<http://syriaca.org/person/810/ttl> a rdfs:Resource; ;
+ dcterms:title "Yahbalaha III"@en, "Yahbalaha III"@en-x-gedsh, "ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/810> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Yahbalaha III — ܝܗܒܐܠܗܐ ܬܠܝܬܝܐ in last modified August 17, 2016, http://syriaca.org/person/810" .

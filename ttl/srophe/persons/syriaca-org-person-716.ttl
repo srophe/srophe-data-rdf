@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/716> a lawd:Person ;
+ rdfs:label "Samuel , Athanasios Yeshuʿ"@en, "Samuel , Athanasios Yeshuʿ"@en-x-gedsh, "ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ","@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/478> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "Samuel Athanasios Yeshu"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Samuel Athanasios Yeshu‘"@en-x-srp1 ;]; 
+ skos:related <http://syriaca.org/place/2321> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_716>, <http://viaf.org/viaf/2761272>, <http://worldcat.org/identities/lccn-n93-63419>, <http://worldcat.org/identities/np-athanasius yeshue samuel>, <http://worldcat.org/identities/np-samuel, athanasius yeshue$mar$1907>, <http://viaf.org/viaf/121337437>, <http://viaf.org/viaf/241402270>, <http://viaf.org/viaf/201778152> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_716>, <http://viaf.org/viaf/2761272>, <http://worldcat.org/identities/lccn-n93-63419>, <http://worldcat.org/identities/np-athanasius yeshue samuel>, <http://worldcat.org/identities/np-samuel, athanasius yeshue$mar$1907>, <http://viaf.org/viaf/121337437>, <http://viaf.org/viaf/241402270>, <http://viaf.org/viaf/201778152> ;
+ dcterms:source <http://syriaca.org/bibl/478> ;
+ dcterms:relation <http://syriaca.org/person/716/html>, <http://syriaca.org/person/716/tei>, <http://syriaca.org/person/716/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/716/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/716/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/716/ttl> ;
+ dcterms:relation <http://syriaca.org/place/2321>, <http://syriaca.org/bibl/478> .
+
+<http://syriaca.org/person/716/html> a rdfs:Resource; ;
+ dcterms:title "Samuel , Athanasios Yeshuʿ"@en, "Samuel , Athanasios Yeshuʿ"@en-x-gedsh, "ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ"@syr ;
+ dcterms:subject <http://syriaca.org/person/716> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Samuel, Athanasios Yeshuʿ — ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ in last modified December 9, 2016, http://syriaca.org/person/716" .
+
+<http://syriaca.org/person/716/tei> a rdfs:Resource; ;
+ dcterms:title "Samuel , Athanasios Yeshuʿ"@en, "Samuel , Athanasios Yeshuʿ"@en-x-gedsh, "ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ"@syr ;
+ dcterms:subject <http://syriaca.org/person/716> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Samuel, Athanasios Yeshuʿ — ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ in last modified December 9, 2016, http://syriaca.org/person/716" .
+
+<http://syriaca.org/person/716/ttl> a rdfs:Resource; ;
+ dcterms:title "Samuel , Athanasios Yeshuʿ"@en, "Samuel , Athanasios Yeshuʿ"@en-x-gedsh, "ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ"@syr ;
+ dcterms:subject <http://syriaca.org/person/716> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Samuel, Athanasios Yeshuʿ — ܐܬܢܐܣܝܘܣ ܝܫܘܥ ܫܡܘܐܝܠ in last modified December 9, 2016, http://syriaca.org/person/716" .

@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1227> a lawd:Person ;
+ rdfs:label "Sleepers of Ephesus"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Sleepers of Ephesus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Eight Children of Ephesus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Children of Ephesus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Enfants d’Éphèse"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "LES HUITS ENFANTS D'ÈPEHESE"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Seven Sleepers of Ephesus"@en ;]; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/place/623> ; 
+ skos:related <http://syriaca.org/person/3018> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ; 
+ skos:related <http://syriaca.org/person/1227> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2241>, <http://syriaca.org/bibl/2064>, <http://syriaca.org/bibl/1399>, <http://syriaca.org/bibl/2265> ;
+ dcterms:relation <http://syriaca.org/person/1227/html>, <http://syriaca.org/person/1227/tei>, <http://syriaca.org/person/1227/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1227/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1227/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1227/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1227>, <http://syriaca.org/place/623>, <http://syriaca.org/person/3018>, <http://syriaca.org/work/250>, <http://syriaca.org/work/563>, <http://syriaca.org/work/1053>, <http://syriaca.org/work/1151>, <http://syriaca.org/work/1246>, <http://syriaca.org/work/1929>, <http://syriaca.org/work/2018>, <http://syriaca.org/work/2035>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2241>, <http://syriaca.org/bibl/2064>, <http://syriaca.org/bibl/1399>, <http://syriaca.org/bibl/2265> .
+
+<http://syriaca.org/person/1227/html> a rdfs:Resource; ;
+ dcterms:title "Sleepers of Ephesus"@en ;
+ dcterms:subject <http://syriaca.org/person/1227> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Sleepers of Ephesus in last modified August 17, 2016, http://syriaca.org/person/1227" .
+
+<http://syriaca.org/person/1227/tei> a rdfs:Resource; ;
+ dcterms:title "Sleepers of Ephesus"@en ;
+ dcterms:subject <http://syriaca.org/person/1227> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Sleepers of Ephesus in last modified August 17, 2016, http://syriaca.org/person/1227" .
+
+<http://syriaca.org/person/1227/ttl> a rdfs:Resource; ;
+ dcterms:title "Sleepers of Ephesus"@en ;
+ dcterms:subject <http://syriaca.org/person/1227> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Sleepers of Ephesus in last modified August 17, 2016, http://syriaca.org/person/1227" .

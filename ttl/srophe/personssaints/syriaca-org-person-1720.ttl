@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1720> a lawd:Person ;
+ rdfs:label "ܐܘܦܡܝܐ ܘܣܘܦܝܐ"@syr, "Euphemia"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܦܡܝܐ ܘܣܘܦܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ēwpemyā w-Sopiya"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܘܦܡܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Euphemia"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾĒwpemyā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾEwpimīyā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Euphémie"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Euphémie et Sophie"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Euphemia"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/2089> ; 
+ skos:related <http://syriaca.org/person/1720> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/person/2078> ; 
+ skos:related <http://syriaca.org/person/1257> ; 
+ skos:related <http://syriaca.org/person/1258> ; 
+ skos:related <http://syriaca.org/person/1720> ; 
+ skos:related <http://syriaca.org/person/1720> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Euphemia&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Euphemia&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1720/html>, <http://syriaca.org/person/1720/tei>, <http://syriaca.org/person/1720/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1720/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1720/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1720/ttl> ;
+ dcterms:relation <http://syriaca.org/person/2089>, <http://syriaca.org/person/1720>, <http://syriaca.org/place/78>, <http://syriaca.org/person/2078>, <http://syriaca.org/person/1257>, <http://syriaca.org/person/1258>, <http://syriaca.org/work/1634>, <http://syriaca.org/work/930>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Euphemia&sT=keywords> .
+
+<http://syriaca.org/person/1720/html> a rdfs:Resource; ;
+ dcterms:title "ܐܘܦܡܝܐ ܘܣܘܦܝܐ"@syr, "Euphemia"@en ;
+ dcterms:subject <http://syriaca.org/person/1720> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Euphemia — ܐܘܦܡܝܐ ܘܣܘܦܝܐ in last modified August 17, 2016, http://syriaca.org/person/1720" .
+
+<http://syriaca.org/person/1720/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܘܦܡܝܐ ܘܣܘܦܝܐ"@syr, "Euphemia"@en ;
+ dcterms:subject <http://syriaca.org/person/1720> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Euphemia — ܐܘܦܡܝܐ ܘܣܘܦܝܐ in last modified August 17, 2016, http://syriaca.org/person/1720" .
+
+<http://syriaca.org/person/1720/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܘܦܡܝܐ ܘܣܘܦܝܐ"@syr, "Euphemia"@en ;
+ dcterms:subject <http://syriaca.org/person/1720> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Euphemia — ܐܘܦܡܝܐ ܘܣܘܦܝܐ in last modified August 17, 2016, http://syriaca.org/person/1720" .

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1150> a lawd:Person ;
+ rdfs:label "ܥܙܙܐܝܠ"@syr, "ʿAzazaʾel"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܥܙܙܐܝܠ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʿAzāzāʾēl"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ʿAzazaʾel"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Azizail"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾAzāzāʾīl"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Azazaïl"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Pancrace"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "AZIZAÏL"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Azazail"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/place/641> ; 
+ skos:related <http://syriaca.org/person/1150> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Azazail&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Azazail&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1150/html>, <http://syriaca.org/person/1150/tei>, <http://syriaca.org/person/1150/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1150/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1150/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1150/ttl> ;
+ dcterms:relation <http://syriaca.org/place/641>, <http://syriaca.org/person/1150>, <http://syriaca.org/work/1173>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Azazail&sT=keywords> .
+
+<http://syriaca.org/person/1150/html> a rdfs:Resource; ;
+ dcterms:title "ܥܙܙܐܝܠ"@syr, "ʿAzazaʾel"@en ;
+ dcterms:subject <http://syriaca.org/person/1150> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), ʿAzazaʾel — ܥܙܙܐܝܠ in last modified August 17, 2016, http://syriaca.org/person/1150" .
+
+<http://syriaca.org/person/1150/tei> a rdfs:Resource; ;
+ dcterms:title "ܥܙܙܐܝܠ"@syr, "ʿAzazaʾel"@en ;
+ dcterms:subject <http://syriaca.org/person/1150> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), ʿAzazaʾel — ܥܙܙܐܝܠ in last modified August 17, 2016, http://syriaca.org/person/1150" .
+
+<http://syriaca.org/person/1150/ttl> a rdfs:Resource; ;
+ dcterms:title "ܥܙܙܐܝܠ"@syr, "ʿAzazaʾel"@en ;
+ dcterms:subject <http://syriaca.org/person/1150> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), ʿAzazaʾel — ܥܙܙܐܝܠ in last modified August 17, 2016, http://syriaca.org/person/1150" .

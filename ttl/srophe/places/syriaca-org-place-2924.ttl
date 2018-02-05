@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/2924> a lawd:Place ;
+ rdfs:label "ʿAyn Shams"@en, "عين شمس"@ar ;
+ lawd:hasName [
+ lawd:primaryForm "ʿAyn Shams"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "عين شمس"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2503> ;]; 
+ skos:related <http://syriaca.org/place/715> ;
+ skos:closeMatch <https://pleiades.stoa.org/places/727117>, <https://en.wikipedia.org/wiki/Ain_Shams>, <https://dbpedia.org/resource/Ain_Shams> ; 
+ dcterms:relation <https://pleiades.stoa.org/places/727117>, <https://en.wikipedia.org/wiki/Ain_Shams>, <https://dbpedia.org/resource/Ain_Shams> ;
+ dcterms:source <https://pleiades.stoa.org/places/727117>, <http://syriaca.org/bibl/2503> ;
+ dcterms:relation <http://syriaca.org/place/2924/html>, <http://syriaca.org/place/2924/tei>, <http://syriaca.org/place/2924/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2924/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2924/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2924/ttl> ;
+ dcterms:relation <http://syriaca.org/place/715>, <http://syriaca.org/bibl/2503> .
+
+<http://syriaca.org/place/2924/html> a rdfs:Resource; ;
+ dcterms:title "ʿAyn Shams"@en, "عين شمس"@ar ;
+ dcterms:subject <http://syriaca.org/place/2924> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), ʿAyn Shams in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2924" .
+
+<http://syriaca.org/place/2924/tei> a rdfs:Resource; ;
+ dcterms:title "ʿAyn Shams"@en, "عين شمس"@ar ;
+ dcterms:subject <http://syriaca.org/place/2924> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), ʿAyn Shams in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2924" .
+
+<http://syriaca.org/place/2924/ttl> a rdfs:Resource; ;
+ dcterms:title "ʿAyn Shams"@en, "عين شمس"@ar ;
+ dcterms:subject <http://syriaca.org/place/2924> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), ʿAyn Shams in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2924" .

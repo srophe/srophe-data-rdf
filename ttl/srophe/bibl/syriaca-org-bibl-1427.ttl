@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1427> a dcterms:bibliographicResource ;
+ rdfs:label "Les Actes de Mār Māri" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/TPS946UX>, <http://www.worldcat.org/oclc/55669697> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/TPS946UX>, <http://www.worldcat.org/oclc/55669697> ;
+ dcterms:relation <http://syriaca.org/bibl/1427/html>, <http://syriaca.org/bibl/1427/tei>, <http://syriaca.org/bibl/1427/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1427/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1427/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1427/ttl> .
+
+<http://syriaca.org/bibl/1427/html> a rdfs:Resource; ;
+ dcterms:title "Les Actes de Mār Māri" ;
+ dcterms:subject <http://syriaca.org/bibl/1427> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "C Jullien and F Jullien, Les Actes de Mār Māri, Corpus scriptorum Christianorum Orientalium,vol. 602-603 (Lovanii [Louvain, Belgium]: Peeters, 2003)" .
+
+<http://syriaca.org/bibl/1427/tei> a rdfs:Resource; ;
+ dcterms:title "Les Actes de Mār Māri" ;
+ dcterms:subject <http://syriaca.org/bibl/1427> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "C Jullien and F Jullien, Les Actes de Mār Māri, Corpus scriptorum Christianorum Orientalium,vol. 602-603 (Lovanii [Louvain, Belgium]: Peeters, 2003)" .
+
+<http://syriaca.org/bibl/1427/ttl> a rdfs:Resource; ;
+ dcterms:title "Les Actes de Mār Māri" ;
+ dcterms:subject <http://syriaca.org/bibl/1427> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "C Jullien and F Jullien, Les Actes de Mār Māri, Corpus scriptorum Christianorum Orientalium,vol. 602-603 (Lovanii [Louvain, Belgium]: Peeters, 2003)" .

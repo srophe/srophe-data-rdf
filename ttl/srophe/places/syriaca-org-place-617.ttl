@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/617> a lawd:Place ;
+ rdfs:label "Our Lady of Ṣaydnāyā"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Our Lady of Ṣaydnāyā"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "monastery of Our Lady of Saydnayai"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "monastery of Saydnaya"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/place/280> ; 
+ skos:related <http://syriaca.org/place/66> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Convent_of_Our_Lady_of_Saidnaya>, <http://dbpedia.org/resource/Convent_of_Our_Lady_of_Saidnaya>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Our Lady of Saydnayai&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Saydnaya&sT=keywords> ; 
+ dcterms:relation <http://en.wikipedia.org/wiki/Convent_of_Our_Lady_of_Saidnaya>, <http://dbpedia.org/resource/Convent_of_Our_Lady_of_Saidnaya>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Our Lady of Saydnayai&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Saydnaya&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/place/617/html>, <http://syriaca.org/place/617/tei>, <http://syriaca.org/place/617/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/617/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/617/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/617/ttl> ;
+ dcterms:relation <http://syriaca.org/place/280>, <http://syriaca.org/place/66>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Our Lady of Saydnayai&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Saydnaya&sT=keywords> .
+
+<http://syriaca.org/place/617/html> a rdfs:Resource; ;
+ dcterms:title "Our Lady of Ṣaydnāyā"@en ;
+ dcterms:subject <http://syriaca.org/place/617> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Our Lady of Ṣaydnāyā in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/617" .
+
+<http://syriaca.org/place/617/tei> a rdfs:Resource; ;
+ dcterms:title "Our Lady of Ṣaydnāyā"@en ;
+ dcterms:subject <http://syriaca.org/place/617> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Our Lady of Ṣaydnāyā in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/617" .
+
+<http://syriaca.org/place/617/ttl> a rdfs:Resource; ;
+ dcterms:title "Our Lady of Ṣaydnāyā"@en ;
+ dcterms:subject <http://syriaca.org/place/617> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Our Lady of Ṣaydnāyā in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/617" .

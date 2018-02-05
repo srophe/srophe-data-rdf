@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/17> a lawd:Place ;
+ rdfs:label "Akhlat"@en, "ܟܠܐܛ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Akhlat"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Khilat"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܟܠܐܛ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܟܰܠܐܛ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "خلاط"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Khalāṭ"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ḥalāṭ"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/9> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Aḥlāṭ"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/9> ;]; 
+ lawd:hasName [
+ lawd:variantForm "خِلاط"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;];
+ skos:closeMatch <http://pleiades.stoa.org/places/874409>, <http://en.wikipedia.org/wiki/Ahlat>, <http://dbpedia.org/resource/Ahlat> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/874409>, <http://en.wikipedia.org/wiki/Ahlat>, <http://dbpedia.org/resource/Ahlat> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/9>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/17/html>, <http://syriaca.org/place/17/tei>, <http://syriaca.org/place/17/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/17/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/17/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/17/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/9>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/17/html> a rdfs:Resource; ;
+ dcterms:title "Akhlat"@en, "ܟܠܐܛ"@syr ;
+ dcterms:subject <http://syriaca.org/place/17> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Akhlat — ܟܠܐܛ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/17" .
+
+<http://syriaca.org/place/17/tei> a rdfs:Resource; ;
+ dcterms:title "Akhlat"@en, "ܟܠܐܛ"@syr ;
+ dcterms:subject <http://syriaca.org/place/17> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Akhlat — ܟܠܐܛ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/17" .
+
+<http://syriaca.org/place/17/ttl> a rdfs:Resource; ;
+ dcterms:title "Akhlat"@en, "ܟܠܐܛ"@syr ;
+ dcterms:subject <http://syriaca.org/place/17> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Akhlat — ܟܠܐܛ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/17" .

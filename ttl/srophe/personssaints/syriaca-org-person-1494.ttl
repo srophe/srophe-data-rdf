@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1494> a lawd:Person ;
+ rdfs:label "ܛܠܝܐ"@syr, "Talia"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܛܠܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ṭalya"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Talya"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Talia"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Talyâ"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "TALIA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mar Talya of Cyrrhus"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/1494> ; 
+ skos:related <http://syriaca.org/person/1438> ; 
+ skos:related <http://syriaca.org/person/1447> ; 
+ skos:related <http://syriaca.org/person/1494> ; 
+ skos:related <http://syriaca.org/person/1494> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Talya%20of%20Cyrrhus&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Talya%20of%20Cyrrhus&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2178>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1494/html>, <http://syriaca.org/person/1494/tei>, <http://syriaca.org/person/1494/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1494/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1494/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1494/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1494>, <http://syriaca.org/person/1438>, <http://syriaca.org/person/1447>, <http://syriaca.org/work/1140>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/2178>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Talya%20of%20Cyrrhus&sT=keywords> .
+
+<http://syriaca.org/person/1494/html> a rdfs:Resource; ;
+ dcterms:title "ܛܠܝܐ"@syr, "Talia"@en ;
+ dcterms:subject <http://syriaca.org/person/1494> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Talia — ܛܠܝܐ in last modified August 17, 2016, http://syriaca.org/person/1494" .
+
+<http://syriaca.org/person/1494/tei> a rdfs:Resource; ;
+ dcterms:title "ܛܠܝܐ"@syr, "Talia"@en ;
+ dcterms:subject <http://syriaca.org/person/1494> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Talia — ܛܠܝܐ in last modified August 17, 2016, http://syriaca.org/person/1494" .
+
+<http://syriaca.org/person/1494/ttl> a rdfs:Resource; ;
+ dcterms:title "ܛܠܝܐ"@syr, "Talia"@en ;
+ dcterms:subject <http://syriaca.org/person/1494> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Talia — ܛܠܝܐ in last modified August 17, 2016, http://syriaca.org/person/1494" .

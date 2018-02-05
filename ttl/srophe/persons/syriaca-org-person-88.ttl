@@ -1,0 +1,100 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/88> a lawd:Person ;
+ rdfs:label "Athanasius I Gamolo"@en, "ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/67> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Athanasius Gammala"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Athanasius"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ATHANASE, patriarche"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Athanasios I Gamala"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gammala"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Athanasius I Patriarcha"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ lawd:hasName [
+ lawd:variantForm "( )"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/place/10> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_88>, <http://viaf.org/viaf/100910340>, <http://viaf.org/viaf/205249471>, <http://viaf.org/viaf/163763853>, <http://viaf.org/viaf/239784007>, <http://viaf.org/viaf/97635296>, <http://viaf.org/viaf/89600148>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Athanasius Gammala&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_88>, <http://viaf.org/viaf/100910340>, <http://viaf.org/viaf/205249471>, <http://viaf.org/viaf/163763853>, <http://viaf.org/viaf/239784007>, <http://viaf.org/viaf/97635296>, <http://viaf.org/viaf/89600148>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Athanasius Gammala&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/88> ; 
+ dcterms:relation <http://syriaca.org/place/178> ; 
+ dcterms:relation <http://syriaca.org/person/88> ; 
+ dcterms:relation <http://syriaca.org/place/8> ; 
+ dcterms:relation <http://syriaca.org/place/572> ; 
+ dcterms:relation <http://syriaca.org/place/227> ; 
+ dcterms:relation <http://syriaca.org/person/88> ; 
+ dcterms:relation <http://syriaca.org/place/230> ; 
+ dcterms:relation <http://syriaca.org/place/320> ;
+ dcterms:source <http://syriaca.org/bibl/67>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> ;
+ dcterms:relation <http://syriaca.org/person/88/html>, <http://syriaca.org/person/88/tei>, <http://syriaca.org/person/88/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/88/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/88/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/88/ttl> ;
+ dcterms:relation <http://syriaca.org/place/10>, <http://syriaca.org/bibl/67>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Athanasius Gammala&sT=keywords>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> .
+
+ syriaca:bornAt <http://syriaca.org/place/178> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/8> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/572> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/227> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/230> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/320> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> .
+
+<http://syriaca.org/person/88/html> a rdfs:Resource; ;
+ dcterms:title "Athanasius I Gamolo"@en, "ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/88> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Athanasius I Gamolo — ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ in last modified August 17, 2016, http://syriaca.org/person/88" .
+
+<http://syriaca.org/person/88/tei> a rdfs:Resource; ;
+ dcterms:title "Athanasius I Gamolo"@en, "ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/88> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Athanasius I Gamolo — ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ in last modified August 17, 2016, http://syriaca.org/person/88" .
+
+<http://syriaca.org/person/88/ttl> a rdfs:Resource; ;
+ dcterms:title "Athanasius I Gamolo"@en, "ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/88> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Athanasius I Gamolo — ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ in last modified August 17, 2016, http://syriaca.org/person/88" .

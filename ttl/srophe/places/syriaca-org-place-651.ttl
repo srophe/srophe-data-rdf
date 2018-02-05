@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/651> a lawd:Place ;
+ rdfs:label "Mount Zion"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Mount Zion"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "صِهْيَوْن"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ skos:related <http://syriaca.org/place/104> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Mount_Zion>, <http://dbpedia.org/resource/Mount_Zion>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mount Zion&sT=keywords> ; 
+ dcterms:relation <http://en.wikipedia.org/wiki/Mount_Zion>, <http://dbpedia.org/resource/Mount_Zion>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mount Zion&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/651/html>, <http://syriaca.org/place/651/tei>, <http://syriaca.org/place/651/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/651/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/651/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/651/ttl> ;
+ dcterms:relation <http://syriaca.org/place/104>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mount Zion&sT=keywords>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/651/html> a rdfs:Resource; ;
+ dcterms:title "Mount Zion"@en ;
+ dcterms:subject <http://syriaca.org/place/651> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Mount Zion in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/651" .
+
+<http://syriaca.org/place/651/tei> a rdfs:Resource; ;
+ dcterms:title "Mount Zion"@en ;
+ dcterms:subject <http://syriaca.org/place/651> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Mount Zion in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/651" .
+
+<http://syriaca.org/place/651/ttl> a rdfs:Resource; ;
+ dcterms:title "Mount Zion"@en ;
+ dcterms:subject <http://syriaca.org/place/651> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Mount Zion in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/651" .

@@ -1,0 +1,82 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/542> a lawd:Person ;
+ rdfs:label "ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ"@syr, "Hunayn b. Ishaq"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/275> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Abū Zayd Ḥunayn b. Isḥāq b. Sulaymān b. Ayyūb al-ʿIbādī"@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/275> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Johannitius"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/275> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Hunain ibn Ishaq"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ḥunain ibn Ishaq"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ḥunayn ibn Isḥaq"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܚܘܢܝܢ ܐܒܢ ܐܝܣܚܩ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_542>, <http://viaf.org/viaf/19690624>, <http://worldcat.org/identities/lccn-n80-145641>, <http://viaf.org/viaf/250688044>, <http://viaf.org/viaf/49596625>, <http://viaf.org/viaf/235552183>, <http://viaf.org/viaf/205723262>, <http://viaf.org/viaf/89028934>, <http://viaf.org/viaf/67281934>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Hunain ibn Ishaq&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_542>, <http://viaf.org/viaf/19690624>, <http://worldcat.org/identities/lccn-n80-145641>, <http://viaf.org/viaf/250688044>, <http://viaf.org/viaf/49596625>, <http://viaf.org/viaf/235552183>, <http://viaf.org/viaf/205723262>, <http://viaf.org/viaf/89028934>, <http://viaf.org/viaf/67281934>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Hunain ibn Ishaq&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/275>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/542/html>, <http://syriaca.org/person/542/tei>, <http://syriaca.org/person/542/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/542/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/542/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/542/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/275>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Hunain ibn Ishaq&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/542/html> a rdfs:Resource; ;
+ dcterms:title "ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ"@syr, "Hunayn b. Ishaq"@en ;
+ dcterms:subject <http://syriaca.org/person/542> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Hunayn b. Ishaq — ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ in last modified August 17, 2016, http://syriaca.org/person/542" .
+
+<http://syriaca.org/person/542/tei> a rdfs:Resource; ;
+ dcterms:title "ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ"@syr, "Hunayn b. Ishaq"@en ;
+ dcterms:subject <http://syriaca.org/person/542> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Hunayn b. Ishaq — ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ in last modified August 17, 2016, http://syriaca.org/person/542" .
+
+<http://syriaca.org/person/542/ttl> a rdfs:Resource; ;
+ dcterms:title "ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ"@syr, "Hunayn b. Ishaq"@en ;
+ dcterms:subject <http://syriaca.org/person/542> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Hunayn b. Ishaq — ܚܘܢܝܢ ܒܪ ܐܝܣܚܩ in last modified August 17, 2016, http://syriaca.org/person/542" .

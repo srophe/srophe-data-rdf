@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/716> a dcterms:bibliographicResource ;
+ rdfs:label "Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16"@fr ;
+ dcterms:relation <http://syriaca.org/bibl/716/html>, <http://syriaca.org/bibl/716/tei>, <http://syriaca.org/bibl/716/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/716/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/716/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/716/ttl> .
+
+<http://syriaca.org/bibl/716/html> a rdfs:Resource; ;
+ dcterms:title "Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/716> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "R. Draguet, Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16.in J.N. Birdsall and R.W. Thomson (eds.), Biblical and Patristic Studies in Memory of Robert Pierce Casey (Fribourg, 1963)" .
+
+<http://syriaca.org/bibl/716/tei> a rdfs:Resource; ;
+ dcterms:title "Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/716> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "R. Draguet, Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16.in J.N. Birdsall and R.W. Thomson (eds.), Biblical and Patristic Studies in Memory of Robert Pierce Casey (Fribourg, 1963)" .
+
+<http://syriaca.org/bibl/716/ttl> a rdfs:Resource; ;
+ dcterms:title "Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/716> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "R. Draguet, Fragments de l’Ambrosienne de Milan à restituer aux mss syriaques du Sinaï 46 et 16.in J.N. Birdsall and R.W. Thomson (eds.), Biblical and Patristic Studies in Memory of Robert Pierce Casey (Fribourg, 1963)" .

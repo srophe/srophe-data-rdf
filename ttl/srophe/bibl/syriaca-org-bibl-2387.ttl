@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2387> a dcterms:bibliographicResource ;
+ rdfs:label "General preface = Introductio generalis" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/KMTRK2GM> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/KMTRK2GM> ;
+ dcterms:relation <http://syriaca.org/bibl/2387/html>, <http://syriaca.org/bibl/2387/tei>, <http://syriaca.org/bibl/2387/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2387/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2387/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2387/ttl> .
+
+<http://syriaca.org/bibl/2387/html> a rdfs:Resource; ;
+ dcterms:title "General preface = Introductio generalis" ;
+ dcterms:subject <http://syriaca.org/bibl/2387> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "P.A.H. de Boer and Willem Baars, General preface = Introductio generalis, The Old Testament in Syriac according to the Peshiṭta version = Vetus Testamentum syriace iuxta simplicem syrorum versionem (Leiden: Brill, 1972)" .
+
+<http://syriaca.org/bibl/2387/tei> a rdfs:Resource; ;
+ dcterms:title "General preface = Introductio generalis" ;
+ dcterms:subject <http://syriaca.org/bibl/2387> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "P.A.H. de Boer and Willem Baars, General preface = Introductio generalis, The Old Testament in Syriac according to the Peshiṭta version = Vetus Testamentum syriace iuxta simplicem syrorum versionem (Leiden: Brill, 1972)" .
+
+<http://syriaca.org/bibl/2387/ttl> a rdfs:Resource; ;
+ dcterms:title "General preface = Introductio generalis" ;
+ dcterms:subject <http://syriaca.org/bibl/2387> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "P.A.H. de Boer and Willem Baars, General preface = Introductio generalis, The Old Testament in Syriac according to the Peshiṭta version = Vetus Testamentum syriace iuxta simplicem syrorum versionem (Leiden: Brill, 1972)" .

@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2493> a dcterms:bibliographicResource ;
+ rdfs:label "Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/U3GZSR5W> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/U3GZSR5W> ;
+ dcterms:relation <http://syriaca.org/bibl/2493/html>, <http://syriaca.org/bibl/2493/tei>, <http://syriaca.org/bibl/2493/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2493/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2493/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2493/ttl> .
+
+<http://syriaca.org/bibl/2493/html> a rdfs:Resource; ;
+ dcterms:title "Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" ;
+ dcterms:subject <http://syriaca.org/bibl/2493> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation ", Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" .
+
+<http://syriaca.org/bibl/2493/tei> a rdfs:Resource; ;
+ dcterms:title "Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" ;
+ dcterms:subject <http://syriaca.org/bibl/2493> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation ", Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" .
+
+<http://syriaca.org/bibl/2493/ttl> a rdfs:Resource; ;
+ dcterms:title "Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" ;
+ dcterms:subject <http://syriaca.org/bibl/2493> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation ", Orient-Digital: Datenbank der orientalischen Handschriften der Staatsbibliothek zu Berlin" .

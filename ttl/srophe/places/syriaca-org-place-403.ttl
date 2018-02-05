@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/403> a lawd:Place ;
+ rdfs:label "Dayr Ilyā"@en, "ܕܝܪܗ ܐܠܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr Ilyā"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܗ ܐܠܝܐ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܕܶܝܪܰܗ ܐܠܝܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܓܶܦܬܠܶܟ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "دير اِليا"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "جفتلك"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Dayr Elijah"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Çiftlik"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/613> ;
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4> ;
+ dcterms:relation <http://syriaca.org/place/403/html>, <http://syriaca.org/place/403/tei>, <http://syriaca.org/place/403/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/403/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/403/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/403/ttl> ;
+ dcterms:relation <http://syriaca.org/place/613>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4> .
+
+<http://syriaca.org/place/403/html> a rdfs:Resource; ;
+ dcterms:title "Dayr Ilyā"@en, "ܕܝܪܗ ܐܠܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/403> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Dayr Ilyā — ܕܝܪܗ ܐܠܝܐ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/403" .
+
+<http://syriaca.org/place/403/tei> a rdfs:Resource; ;
+ dcterms:title "Dayr Ilyā"@en, "ܕܝܪܗ ܐܠܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/403> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Dayr Ilyā — ܕܝܪܗ ܐܠܝܐ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/403" .
+
+<http://syriaca.org/place/403/ttl> a rdfs:Resource; ;
+ dcterms:title "Dayr Ilyā"@en, "ܕܝܪܗ ܐܠܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/403> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Dayr Ilyā — ܕܝܪܗ ܐܠܝܐ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/403" .

@@ -1,0 +1,37 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2331> a dcterms:bibliographicResource ;
+ rdfs:label "The Oxford-BYU Syriac Corpus" ;
+ dcterms:relation <http://syriaca.org/bibl/2331/html>, <http://syriaca.org/bibl/2331/tei>, <http://syriaca.org/bibl/2331/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2331/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2331/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2331/ttl> ;
+ dcterms:relation <http://syriaccorpus.org> .
+
+<http://syriaca.org/bibl/2331/html> a rdfs:Resource; ;
+ dcterms:title "The Oxford-BYU Syriac Corpus" ;
+ dcterms:subject <http://syriaca.org/bibl/2331> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters and Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters , (eds.), The Oxford-BYU Syriac Corpus" .
+
+<http://syriaca.org/bibl/2331/tei> a rdfs:Resource; ;
+ dcterms:title "The Oxford-BYU Syriac Corpus" ;
+ dcterms:subject <http://syriaca.org/bibl/2331> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters and Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters , (eds.), The Oxford-BYU Syriac Corpus" .
+
+<http://syriaca.org/bibl/2331/ttl> a rdfs:Resource; ;
+ dcterms:title "The Oxford-BYU Syriac Corpus" ;
+ dcterms:subject <http://syriaca.org/bibl/2331> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters and Kristian S. Heal David G. K. Taylor Aaron Butts George A. Kiraz David A. Michelson Daniel L. Schwartz James E. Walters , (eds.), The Oxford-BYU Syriac Corpus" .

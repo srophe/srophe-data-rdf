@@ -1,0 +1,79 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1842> a lawd:Person ;
+ rdfs:label "Lazarus of Zagug"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Lazarus of Zagug"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lazare de Zagug"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/1842> ; 
+ skos:related <http://syriaca.org/person/2282> ; 
+ skos:related <http://syriaca.org/place/473> ; 
+ skos:related <http://syriaca.org/place/572> ;
+ dcterms:relation <http://syriaca.org/person/1842> ; 
+ dcterms:relation <http://syriaca.org/person/1843> ; 
+ dcterms:relation <http://syriaca.org/person/1846> ; 
+ dcterms:relation <http://syriaca.org/person/1340> ;
+ dcterms:source <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426> ;
+ dcterms:relation <http://syriaca.org/person/1842/html>, <http://syriaca.org/person/1842/tei>, <http://syriaca.org/person/1842/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1842/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1842/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1842/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1842>, <http://syriaca.org/person/2282>, <http://syriaca.org/place/473>, <http://syriaca.org/place/572>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1843> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1846> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1340> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1842> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1846> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1340> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1842> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1843> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1340> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1842> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1843> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1846> ;
+ lawd:hasAttestation <http://syriaca.org/person/1842> .
+
+<http://syriaca.org/person/1842/html> a rdfs:Resource; ;
+ dcterms:title "Lazarus of Zagug"@en ;
+ dcterms:subject <http://syriaca.org/person/1842> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Lazarus of Zagug in last modified August 17, 2016, http://syriaca.org/person/1842" .
+
+<http://syriaca.org/person/1842/tei> a rdfs:Resource; ;
+ dcterms:title "Lazarus of Zagug"@en ;
+ dcterms:subject <http://syriaca.org/person/1842> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Lazarus of Zagug in last modified August 17, 2016, http://syriaca.org/person/1842" .
+
+<http://syriaca.org/person/1842/ttl> a rdfs:Resource; ;
+ dcterms:title "Lazarus of Zagug"@en ;
+ dcterms:subject <http://syriaca.org/person/1842> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Lazarus of Zagug in last modified August 17, 2016, http://syriaca.org/person/1842" .

@@ -1,0 +1,81 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/996> a lawd:Person ;
+ rdfs:label "Pethion"@en, "ܦܬܝܘܢ"@syr, "Pethion"@en-x-gedsh ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2203> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1601> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-lah ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1601> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2204> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2204> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/639> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de-x-baumstrk ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;]; 
+ skos:related <http://syriaca.org/person/472> ; 
+ skos:related <http://syriaca.org/person/472> ; 
+ skos:related <http://syriaca.org/person/472> ; 
+ skos:related <http://syriaca.org/person/1409> ; 
+ skos:related <http://syriaca.org/place/35> ; 
+ skos:related <http://syriaca.org/person/472> ; 
+ skos:related <http://syriaca.org/place/35> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_996> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_996> ;
+ dcterms:relation <http://syriaca.org/person/http://syriaca.org/person/996> ; 
+ dcterms:relation <http://syriaca.org/person/1409> ;
+ dcterms:source <http://syriaca.org/bibl/1601>, <http://syriaca.org/bibl/2203>, <http://syriaca.org/bibl/2204>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/996/html>, <http://syriaca.org/person/996/tei>, <http://syriaca.org/person/996/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/996/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/996/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/996/ttl> ;
+ dcterms:relation <http://syriaca.org/person/472>, <http://syriaca.org/person/1409>, <http://syriaca.org/place/35>, <http://syriaca.org/bibl/1601>, <http://www.late-antique-historiography.ugent.be/database/works/97/>, <http://www.late-antique-historiography.ugent.be/database/authors/109/>, <http://syriaca.org/bibl/2203>, <http://syriaca.org/bibl/2204>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/638> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1409> ;
+ lawd:hasAttestation <http://syriaca.org/person/996> .
+
+ syriaca:differentFrom <http://syriaca.org/person/http://syriaca.org/person/996> ;
+ lawd:hasAttestation <http://syriaca.org/person/996> .
+
+<http://syriaca.org/person/996/html> a rdfs:Resource; ;
+ dcterms:title "Pethion"@en, "ܦܬܝܘܢ"@syr, "Pethion"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/996> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Pethion — ܦܬܝܘܢ in last modified August 17, 2016, http://syriaca.org/person/996" .
+
+<http://syriaca.org/person/996/tei> a rdfs:Resource; ;
+ dcterms:title "Pethion"@en, "ܦܬܝܘܢ"@syr, "Pethion"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/996> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Pethion — ܦܬܝܘܢ in last modified August 17, 2016, http://syriaca.org/person/996" .
+
+<http://syriaca.org/person/996/ttl> a rdfs:Resource; ;
+ dcterms:title "Pethion"@en, "ܦܬܝܘܢ"@syr, "Pethion"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/996> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Pethion — ܦܬܝܘܢ in last modified August 17, 2016, http://syriaca.org/person/996" .

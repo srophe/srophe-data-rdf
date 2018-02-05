@@ -1,0 +1,94 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/279> a lawd:Person ;
+ rdfs:label "Masʿud of Tur ʿAbdin , patriarch"@en, "ܡܣܥܘܕ ܙܐܙܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/372> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/538> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "Masud of Tur Abdin"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Masūd of Ṭur Abdin"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mas‘ūd of Ṭur ‘Abdin"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Masʿud of Ṭur ʿAbdin"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mas'ud du Ṭur 'Abdin"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_279>, <http://viaf.org/viaf/193224502>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Masud of Tur Abdin&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_279>, <http://viaf.org/viaf/193224502>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Masud of Tur Abdin&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/279> ; 
+ dcterms:relation <http://syriaca.org/place/538> ; 
+ dcterms:relation <http://syriaca.org/person/279> ; 
+ dcterms:relation <http://syriaca.org/place/68> ; 
+ dcterms:relation <http://syriaca.org/place/408> ; 
+ dcterms:relation <http://syriaca.org/place/92> ; 
+ dcterms:relation <http://syriaca.org/place/221> ; 
+ dcterms:relation <http://syriaca.org/place/330> ;
+ dcterms:source <http://syriaca.org/bibl/372>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/642>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/279/html>, <http://syriaca.org/person/279/tei>, <http://syriaca.org/person/279/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/279/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/279/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/279/ttl> ;
+ dcterms:relation <http://syriaca.org/place/538>, <http://syriaca.org/bibl/372>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Masud of Tur Abdin&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/642>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> .
+
+ syriaca:bornAt <http://syriaca.org/place/538> ;
+ lawd:hasAttestation <http://syriaca.org/person/279> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/68> ;
+ lawd:hasAttestation <http://syriaca.org/person/279> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/408> ;
+ lawd:hasAttestation <http://syriaca.org/person/279> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/92> ;
+ lawd:hasAttestation <http://syriaca.org/person/279> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/221> ;
+ lawd:hasAttestation <http://syriaca.org/person/279> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/330> ;
+ lawd:hasAttestation <http://syriaca.org/person/279> .
+
+<http://syriaca.org/person/279/html> a rdfs:Resource; ;
+ dcterms:title "Masʿud of Tur ʿAbdin , patriarch"@en, "ܡܣܥܘܕ ܙܐܙܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/279> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Masʿud of Tur ʿAbdin, patriarch — ܡܣܥܘܕ ܙܐܙܝܐ in last modified December 9, 2016, http://syriaca.org/person/279" .
+
+<http://syriaca.org/person/279/tei> a rdfs:Resource; ;
+ dcterms:title "Masʿud of Tur ʿAbdin , patriarch"@en, "ܡܣܥܘܕ ܙܐܙܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/279> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Masʿud of Tur ʿAbdin, patriarch — ܡܣܥܘܕ ܙܐܙܝܐ in last modified December 9, 2016, http://syriaca.org/person/279" .
+
+<http://syriaca.org/person/279/ttl> a rdfs:Resource; ;
+ dcterms:title "Masʿud of Tur ʿAbdin , patriarch"@en, "ܡܣܥܘܕ ܙܐܙܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/279> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Masʿud of Tur ʿAbdin, patriarch — ܡܣܥܘܕ ܙܐܙܝܐ in last modified December 9, 2016, http://syriaca.org/person/279" .

@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/795> a dcterms:bibliographicResource ;
+ rdfs:label "Rabban Ṣauma à Constantinople (1287)"@fr ;
+ dcterms:relation <http://syriaca.org/bibl/795/html>, <http://syriaca.org/bibl/795/tei>, <http://syriaca.org/bibl/795/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/795/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/795/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/795/ttl> .
+
+<http://syriaca.org/bibl/795/html> a rdfs:Resource; ;
+ dcterms:title "Rabban Ṣauma à Constantinople (1287)"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/795> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "S.P. Brock, Rabban Ṣauma à Constantinople (1287).in F. Graffin (ed.), Mémorial Mgr Gabriel Khouri-Sarkis (1898-1968), fondateur et directeur de L'Orient Syrien, 1956-1967 (Louvain, 1969)" .
+
+<http://syriaca.org/bibl/795/tei> a rdfs:Resource; ;
+ dcterms:title "Rabban Ṣauma à Constantinople (1287)"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/795> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "S.P. Brock, Rabban Ṣauma à Constantinople (1287).in F. Graffin (ed.), Mémorial Mgr Gabriel Khouri-Sarkis (1898-1968), fondateur et directeur de L'Orient Syrien, 1956-1967 (Louvain, 1969)" .
+
+<http://syriaca.org/bibl/795/ttl> a rdfs:Resource; ;
+ dcterms:title "Rabban Ṣauma à Constantinople (1287)"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/795> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "S.P. Brock, Rabban Ṣauma à Constantinople (1287).in F. Graffin (ed.), Mémorial Mgr Gabriel Khouri-Sarkis (1898-1968), fondateur et directeur de L'Orient Syrien, 1956-1967 (Louvain, 1969)" .

@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1257> a lawd:Person ;
+ rdfs:label "ܓܘܪܝܐ"@syr, "Gourya"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܓܘܪܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Guryo"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܓܘܪܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Gourya"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Guria"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gūryā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gūryā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gouria"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gouria"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "GŪRĪA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/1486> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/person/1257> ; 
+ skos:related <http://syriaca.org/person/1257> ; 
+ skos:related <http://syriaca.org/person/1257> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1919>, <http://syriaca.org/bibl/1308>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/722>, <http://syriaca.org/bibl/2254>, <http://syriaca.org/bibl/2316>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/1309> ;
+ dcterms:relation <http://syriaca.org/person/1257/html>, <http://syriaca.org/person/1257/tei>, <http://syriaca.org/person/1257/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1257/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1257/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1257/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1486>, <http://syriaca.org/place/78>, <http://syriaca.org/person/1257>, <http://syriaca.org/work/1634>, <http://syriaca.org/work/227>, <http://syriaca.org/work/929>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1919>, <http://syriaca.org/bibl/1308>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/722>, <http://syriaca.org/bibl/2254>, <http://syriaca.org/bibl/2316>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/1309> .
+
+<http://syriaca.org/person/1257/html> a rdfs:Resource; ;
+ dcterms:title "ܓܘܪܝܐ"@syr, "Gourya"@en ;
+ dcterms:subject <http://syriaca.org/person/1257> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Gourya — ܓܘܪܝܐ  in last modified August 17, 2016, http://syriaca.org/person/1257" .
+
+<http://syriaca.org/person/1257/tei> a rdfs:Resource; ;
+ dcterms:title "ܓܘܪܝܐ"@syr, "Gourya"@en ;
+ dcterms:subject <http://syriaca.org/person/1257> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Gourya — ܓܘܪܝܐ  in last modified August 17, 2016, http://syriaca.org/person/1257" .
+
+<http://syriaca.org/person/1257/ttl> a rdfs:Resource; ;
+ dcterms:title "ܓܘܪܝܐ"@syr, "Gourya"@en ;
+ dcterms:subject <http://syriaca.org/person/1257> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Gourya — ܓܘܪܝܐ  in last modified August 17, 2016, http://syriaca.org/person/1257" .

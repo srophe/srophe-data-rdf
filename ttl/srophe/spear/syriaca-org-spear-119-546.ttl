@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/spear/119-546> a syriaca:eventFactoid ;
+ rdfs:label "The second time the walls of Edessa were broken down . was in the days of Diocletian the King in May A. D. 303 Iyār A. Gr. 614" ;
+ dcterms:subject <http://syriaca.org/keyword/emperor> ; 
+ dcterms:subject <http://syriaca.org/keyword/naturalDisaster> ; 
+ schema:location <http://syriaca.org/place/78> ; 
+ dcterms:date "0303-05" ;
+ dcterms:isPartOf <http://syriaca.org/spear> ;
+ dcterms:subject <http://syriaca.org/spear/119-66> ; 
+ dcterms:subject <http://syriaca.org/spear/119-546> ;
+ dcterms:relation <http://syriaca.org/spear/119-546/html>, <http://syriaca.org/spear/119-546/tei>, <http://syriaca.org/spear/119-546/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-546/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-546/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-546/ttl> .
+
+ syriaca:SameAs <http://syriaca.org/spear/119-546> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-546> .
+
+ syriaca:SameAs <http://syriaca.org/spear/119-66> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-546> .
+
+<http://syriaca.org/spear/119-546/html> a rdfs:Resource; ;
+ dcterms:title "The second time the walls of Edessa were broken down . was in the days of Diocletian the King in May A. D. 303 Iyār A. Gr. 614" ;
+ dcterms:subject <http://syriaca.org/spear/119-546> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-546/tei> a rdfs:Resource; ;
+ dcterms:title "The second time the walls of Edessa were broken down . was in the days of Diocletian the King in May A. D. 303 Iyār A. Gr. 614" ;
+ dcterms:subject <http://syriaca.org/spear/119-546> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-546/ttl> a rdfs:Resource; ;
+ dcterms:title "The second time the walls of Edessa were broken down . was in the days of Diocletian the King in May A. D. 303 Iyār A. Gr. 614" ;
+ dcterms:subject <http://syriaca.org/spear/119-546> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .

@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/2933> a lawd:Place ;
+ rdfs:label "Red Sea"@en, "البحر الأخير"@ar ;
+ lawd:hasName [
+ lawd:primaryForm "Red Sea"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "البحر الأخير"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2503> ;]; 
+ lawd:hasName [
+ lawd:variantForm "خليج ايلة"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2503> ;]; 
+ lawd:hasName [
+ lawd:variantForm "بحر جدة ومصر"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2503> ;]; 
+ skos:related <http://syriaca.org/place/715> ; 
+ skos:related <http://syriaca.org/place/716> ;
+ skos:closeMatch <https://pleiades.stoa.org/places/39290>, <https://en.wikipedia.org/wiki/Red_Sea>, <https://dbpedia.org/resource/Red_Sea> ; 
+ dcterms:relation <https://pleiades.stoa.org/places/39290>, <https://en.wikipedia.org/wiki/Red_Sea>, <https://dbpedia.org/resource/Red_Sea> ;
+ dcterms:source <https://pleiades.stoa.org/places/39290>, <http://syriaca.org/bibl/2503> ;
+ dcterms:relation <http://syriaca.org/place/2933/html>, <http://syriaca.org/place/2933/tei>, <http://syriaca.org/place/2933/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2933/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2933/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2933/ttl> ;
+ dcterms:relation <http://syriaca.org/place/715>, <http://syriaca.org/place/716>, <http://syriaca.org/bibl/2503> .
+
+<http://syriaca.org/place/2933/html> a rdfs:Resource; ;
+ dcterms:title "Red Sea"@en, "البحر الأخير"@ar ;
+ dcterms:subject <http://syriaca.org/place/2933> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Red Sea in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2933" .
+
+<http://syriaca.org/place/2933/tei> a rdfs:Resource; ;
+ dcterms:title "Red Sea"@en, "البحر الأخير"@ar ;
+ dcterms:subject <http://syriaca.org/place/2933> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Red Sea in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2933" .
+
+<http://syriaca.org/place/2933/ttl> a rdfs:Resource; ;
+ dcterms:title "Red Sea"@en, "البحر الأخير"@ar ;
+ dcterms:subject <http://syriaca.org/place/2933> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Red Sea in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2933" .

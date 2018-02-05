@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/199> a lawd:Person ;
+ rdfs:label "ܣܥܝܕ ܒܪ ܨܒܘܢܝ"@syr, "Saʿid bar Sabouni"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Saīd bar Sabouni"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sa‘īd bar Sabouni"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Saʿid bar Sabouni"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "John"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Said bar Sabouni"@fr ;
+ lawd:hasAttestation <#> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Said Bar Sabouni"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_199>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Said%20bar%20Sabuni&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_199>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Said%20bar%20Sabuni&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/199> ; 
+ dcterms:relation <http://syriaca.org/place/136> ; 
+ dcterms:relation <http://syriaca.org/person/199> ; 
+ dcterms:relation <http://syriaca.org/place/136> ; 
+ dcterms:relation <http://syriaca.org/person/199> ; 
+ dcterms:relation <http://syriaca.org/place/333> ; 
+ dcterms:relation <http://syriaca.org/person/199> ; 
+ dcterms:relation <http://syriaca.org/place/370> ;
+ dcterms:source <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/199/html>, <http://syriaca.org/person/199/tei>, <http://syriaca.org/person/199/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/199/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/199/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/199/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Said%20bar%20Sabuni&sT=keywords> .
+
+ syriaca:bornAt <http://syriaca.org/place/136> ;
+ lawd:hasAttestation <http://syriaca.org/person/199> .
+
+ syriaca:diedAt <http://syriaca.org/place/136> ;
+ lawd:hasAttestation <http://syriaca.org/person/199> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/333> ;
+ lawd:hasAttestation <http://syriaca.org/person/199> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/370> ;
+ lawd:hasAttestation <http://syriaca.org/person/199> .
+
+<http://syriaca.org/person/199/html> a rdfs:Resource; ;
+ dcterms:title "ܣܥܝܕ ܒܪ ܨܒܘܢܝ"@syr, "Saʿid bar Sabouni"@en ;
+ dcterms:subject <http://syriaca.org/person/199> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Saʿid bar Sabouni — ܣܥܝܕ ܒܪ ܨܒܘܢܝ in last modified December 9, 2016, http://syriaca.org/person/199" .
+
+<http://syriaca.org/person/199/tei> a rdfs:Resource; ;
+ dcterms:title "ܣܥܝܕ ܒܪ ܨܒܘܢܝ"@syr, "Saʿid bar Sabouni"@en ;
+ dcterms:subject <http://syriaca.org/person/199> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Saʿid bar Sabouni — ܣܥܝܕ ܒܪ ܨܒܘܢܝ in last modified December 9, 2016, http://syriaca.org/person/199" .
+
+<http://syriaca.org/person/199/ttl> a rdfs:Resource; ;
+ dcterms:title "ܣܥܝܕ ܒܪ ܨܒܘܢܝ"@syr, "Saʿid bar Sabouni"@en ;
+ dcterms:subject <http://syriaca.org/person/199> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Saʿid bar Sabouni — ܣܥܝܕ ܒܪ ܨܒܘܢܝ in last modified December 9, 2016, http://syriaca.org/person/199" .

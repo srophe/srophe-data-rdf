@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2122> a dcterms:bibliographicResource ;
+ rdfs:label "Commemorating Church History in the Ottoman Era" ;
+ skos:closeMatch <http://www.worldcat.org/oclc/908042531> ; 
+ dcterms:relation <http://www.worldcat.org/oclc/908042531> ;
+ dcterms:relation <http://syriaca.org/bibl/2122/html>, <http://syriaca.org/bibl/2122/tei>, <http://syriaca.org/bibl/2122/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2122/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2122/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2122/ttl> ;
+ dcterms:relation <http://public.eblib.com/choice/publicfullrecord.aspx?p=3299480> .
+
+<http://syriaca.org/bibl/2122/html> a rdfs:Resource; ;
+ dcterms:title "Commemorating Church History in the Ottoman Era" ;
+ dcterms:subject <http://syriaca.org/bibl/2122> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Amir Harrak, Commemorating Church History in the Ottoman Era.in Erica C. D Hunter (ed.), The Christian heritage of Iraq: collected papers from the Christianity in Iraq I-V Seminar Days, Christianity in Iraq I-V Seminar Days (2009)" .
+
+<http://syriaca.org/bibl/2122/tei> a rdfs:Resource; ;
+ dcterms:title "Commemorating Church History in the Ottoman Era" ;
+ dcterms:subject <http://syriaca.org/bibl/2122> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Amir Harrak, Commemorating Church History in the Ottoman Era.in Erica C. D Hunter (ed.), The Christian heritage of Iraq: collected papers from the Christianity in Iraq I-V Seminar Days, Christianity in Iraq I-V Seminar Days (2009)" .
+
+<http://syriaca.org/bibl/2122/ttl> a rdfs:Resource; ;
+ dcterms:title "Commemorating Church History in the Ottoman Era" ;
+ dcterms:subject <http://syriaca.org/bibl/2122> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Amir Harrak, Commemorating Church History in the Ottoman Era.in Erica C. D Hunter (ed.), The Christian heritage of Iraq: collected papers from the Christianity in Iraq I-V Seminar Days, Christianity in Iraq I-V Seminar Days (2009)" .

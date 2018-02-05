@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/meteorology> a  ;
+ rdfs:label "Meteorology"@en ;
+ skos:closeMatch <http://lccn.loc.gov/sh85084334> ; 
+ dcterms:relation <http://lccn.loc.gov/sh85084334> ;
+ dcterms:relation <http://syriaca.org/keyword/meteorology> ; 
+ dcterms:relation <http://syriaca.org/keyword/fields-of-study> ;
+ dcterms:relation <http://syriaca.org/keyword/meteorology/html>, <http://syriaca.org/keyword/meteorology/tei>, <http://syriaca.org/keyword/meteorology/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/meteorology/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/meteorology/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/meteorology/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/fields-of-study> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/meteorology> .
+
+<http://syriaca.org/keyword/meteorology/html> a rdfs:Resource; ;
+ dcterms:title "Meteorology"@en ;
+ dcterms:subject <http://syriaca.org/keyword/meteorology> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Meteorology in last modified May 5, 2017, http://syriaca.org/keyword/meteorology" .
+
+<http://syriaca.org/keyword/meteorology/tei> a rdfs:Resource; ;
+ dcterms:title "Meteorology"@en ;
+ dcterms:subject <http://syriaca.org/keyword/meteorology> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Meteorology in last modified May 5, 2017, http://syriaca.org/keyword/meteorology" .
+
+<http://syriaca.org/keyword/meteorology/ttl> a rdfs:Resource; ;
+ dcterms:title "Meteorology"@en ;
+ dcterms:subject <http://syriaca.org/keyword/meteorology> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Meteorology in last modified May 5, 2017, http://syriaca.org/keyword/meteorology" .

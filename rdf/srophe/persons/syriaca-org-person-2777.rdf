@@ -1,0 +1,79 @@
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+    <rdfs:Resource rdf:resource="http://syriaca.org/person/2777">
+        <rdf:type rdf:resource="http://lawd.info/ontology/Person"/>
+        <rdfs:label xml:lang="en">Urban</rdfs:label>
+        <rdfs:label xml:lang="syr">ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ</rdfs:label>
+        <lawd:hasName>
+            <rdf:Description>
+                <lawd:primaryForm xml:lang="en">Urban</lawd:primaryForm>
+            </rdf:Description>
+        </lawd:hasName>
+        <lawd:hasName>
+            <rdf:Description>
+                <lawd:primaryForm xml:lang="syr">ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ</lawd:primaryForm>
+                <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1650"/>
+            </rdf:Description>
+        </lawd:hasName>
+        <lawd:hasName>
+            <rdf:Description>
+                <lawd:variantForm xml:lang="en">Urbanus</lawd:variantForm>
+                <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/673"/>
+            </rdf:Description>
+        </lawd:hasName>
+        <dcterms:description>Professor of Latin Grammar in Constantinople</dcterms:description>
+        <dcterms:description>This person is possibly identical
+                                                with one or more persons represented in another
+                                                record</dcterms:description>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2777"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2776"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/673"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2777/html"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2777/tei"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2777/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2777/html"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2777/tei"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2777/ttl"/>
+    </rdfs:Resource>
+    <rdf:Description rdf:about="http://syriaca.org/person/2777">
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2776"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2776"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2777"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/person/2776">
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2777"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2777"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2777"/>
+    </rdf:Description>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2777/html">
+        <dcterms:title xml:lang="en">Urban</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2777"/>
+        <dcterms:format>text/html</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L.
+                        Schwartz (eds.), "Urban — 
+                ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ" in  last modified August 17, 2016, http://syriaca.org/person/2777</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2777/tei">
+        <dcterms:title xml:lang="en">Urban</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2777"/>
+        <dcterms:format>text/xml</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L.
+                        Schwartz (eds.), "Urban — 
+                ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ" in  last modified August 17, 2016, http://syriaca.org/person/2777</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2777/ttl">
+        <dcterms:title xml:lang="en">Urban</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2777"/>
+        <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L.
+                        Schwartz (eds.), "Urban — 
+                ܐܘܪܒܐܢܘܣ ܓܪܡܛܝܩܘܣ" in  last modified August 17, 2016, http://syriaca.org/person/2777</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+</rdf:RDF>

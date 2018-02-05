@@ -1,0 +1,57 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/495> a lawd:Place ;
+ rdfs:label "al-Najaf"@en, "ܢܓܦ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "al-Najaf"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܢܓܦ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܢܰܓܦ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "النجف"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "النَجَف"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ skos:related <http://syriaca.org/place/82> ; 
+ skos:related <http://syriaca.org/place/41> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Najaf>, <http://dbpedia.org/resource/Najaf> ; 
+ dcterms:relation <http://en.wikipedia.org/wiki/Najaf>, <http://dbpedia.org/resource/Najaf> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/495/html>, <http://syriaca.org/place/495/tei>, <http://syriaca.org/place/495/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/495/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/495/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/495/ttl> ;
+ dcterms:relation <http://syriaca.org/place/82>, <http://syriaca.org/place/41>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/495/html> a rdfs:Resource; ;
+ dcterms:title "al-Najaf"@en, "ܢܓܦ"@syr ;
+ dcterms:subject <http://syriaca.org/place/495> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Najaf — ܢܓܦ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/495" .
+
+<http://syriaca.org/place/495/tei> a rdfs:Resource; ;
+ dcterms:title "al-Najaf"@en, "ܢܓܦ"@syr ;
+ dcterms:subject <http://syriaca.org/place/495> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Najaf — ܢܓܦ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/495" .
+
+<http://syriaca.org/place/495/ttl> a rdfs:Resource; ;
+ dcterms:title "al-Najaf"@en, "ܢܓܦ"@syr ;
+ dcterms:subject <http://syriaca.org/place/495> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Najaf — ܢܓܦ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/495" .

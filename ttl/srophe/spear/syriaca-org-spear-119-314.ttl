@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/spear/119-314> a syriaca:relationFactoid ;
+ rdfs:label "Anonymi 2314 was the object of the enmity of Flavian , Domnus of Antioch , Irenaeus of Tyre , Hiba of Edessa , Eusebius of Dorylaeum , Daniel of Harran , Silwana , Theodoret of Cyrrhus ." ;
+ dcterms:isPartOf <http://syriaca.org/spear> ;
+ dcterms:subject <http://syriaca.org/person/2314> ; 
+ dcterms:subject <http://syriaca.org/person/2282> ; 
+ dcterms:subject <http://syriaca.org/person/2264> ; 
+ dcterms:subject <http://syriaca.org/person/847> ; 
+ dcterms:subject <http://syriaca.org/person/534> ; 
+ dcterms:subject <http://syriaca.org/person/2280> ; 
+ dcterms:subject <http://syriaca.org/person/2257> ; 
+ dcterms:subject <http://syriaca.org/person/2304> ; 
+ dcterms:subject <http://syriaca.org/person/781> ;
+ dcterms:relation <http://syriaca.org/spear/119-314/html>, <http://syriaca.org/spear/119-314/tei>, <http://syriaca.org/spear/119-314/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-314/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-314/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-314/ttl> .
+
+ snap:EnmityFor <http://syriaca.org/person/2282> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/2264> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/847> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/534> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/2280> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/2257> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/2304> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> ;
+ snap:EnmityFor <http://syriaca.org/person/781> ;
+ lawd:hasAttestation <http://syriaca.org/spear/119-314> .
+
+<http://syriaca.org/spear/119-314/html> a rdfs:Resource; ;
+ dcterms:title "Anonymi 2314 was the object of the enmity of Flavian , Domnus of Antioch , Irenaeus of Tyre , Hiba of Edessa , Eusebius of Dorylaeum , Daniel of Harran , Silwana , Theodoret of Cyrrhus ." ;
+ dcterms:subject <http://syriaca.org/spear/119-314> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-314/tei> a rdfs:Resource; ;
+ dcterms:title "Anonymi 2314 was the object of the enmity of Flavian , Domnus of Antioch , Irenaeus of Tyre , Hiba of Edessa , Eusebius of Dorylaeum , Daniel of Harran , Silwana , Theodoret of Cyrrhus ." ;
+ dcterms:subject <http://syriaca.org/spear/119-314> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-314/ttl> a rdfs:Resource; ;
+ dcterms:title "Anonymi 2314 was the object of the enmity of Flavian , Domnus of Antioch , Irenaeus of Tyre , Hiba of Edessa , Eusebius of Dorylaeum , Daniel of Harran , Silwana , Theodoret of Cyrrhus ." ;
+ dcterms:subject <http://syriaca.org/spear/119-314> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .

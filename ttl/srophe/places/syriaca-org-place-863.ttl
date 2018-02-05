@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/863> a lawd:Place ;
+ rdfs:label "Paris"@en, "ܦܐܪܝܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Paris"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/9> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܦܐܪܝܣ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܦܰܐܪܺܝܣ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "باريس"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;];
+ skos:closeMatch <http://pleiades.stoa.org/places/109126>, <http://en.wikipedia.org/wiki/Paris>, <http://dbpedia.org/resource/Paris> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/109126>, <http://en.wikipedia.org/wiki/Paris>, <http://dbpedia.org/resource/Paris> ;
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/9>, <http://pleiades.stoa.org/places/109126> ;
+ dcterms:relation <http://syriaca.org/place/863/html>, <http://syriaca.org/place/863/tei>, <http://syriaca.org/place/863/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/863/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/863/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/863/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/9>, <http://pleiades.stoa.org/places/109126> .
+
+<http://syriaca.org/place/863/html> a rdfs:Resource; ;
+ dcterms:title "Paris"@en, "ܦܐܪܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/place/863> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Paris — ܦܐܪܝܣ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/863" .
+
+<http://syriaca.org/place/863/tei> a rdfs:Resource; ;
+ dcterms:title "Paris"@en, "ܦܐܪܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/place/863> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Paris — ܦܐܪܝܣ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/863" .
+
+<http://syriaca.org/place/863/ttl> a rdfs:Resource; ;
+ dcterms:title "Paris"@en, "ܦܐܪܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/place/863> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Paris — ܦܐܪܝܣ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/863" .

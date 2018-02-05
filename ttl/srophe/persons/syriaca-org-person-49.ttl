@@ -1,0 +1,109 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/49> a lawd:Person ;
+ rdfs:label "Sergius of Reshʿayna"@en, "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/494> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/172> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sergios of Reshayna"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sergios of Resh‘ayna"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sergius of Reshʿaina"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sergius (Sargis) e Resh'aina"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Serge de Reš'ayna"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_49>, <http://viaf.org/viaf/103637653>, <http://viaf.org/viaf/313570665> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_49>, <http://viaf.org/viaf/103637653>, <http://viaf.org/viaf/313570665> ;
+ dcterms:relation <http://syriaca.org/person/49> ; 
+ dcterms:relation <http://syriaca.org/place/172> ; 
+ dcterms:relation <http://syriaca.org/person/49> ; 
+ dcterms:relation <http://syriaca.org/place/586> ; 
+ dcterms:relation <http://syriaca.org/person/49> ; 
+ dcterms:relation <http://syriaca.org/place/607> ; 
+ dcterms:relation <http://syriaca.org/person/49> ; 
+ dcterms:relation <http://syriaca.org/place/321> ; 
+ dcterms:relation <http://syriaca.org/place/572> ; 
+ dcterms:relation <http://syriaca.org/place/10> ; 
+ dcterms:relation <http://syriaca.org/place/641> ; 
+ dcterms:relation <http://syriaca.org/place/586> ;
+ dcterms:source <http://syriaca.org/bibl/494>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/49/html>, <http://syriaca.org/person/49/tei>, <http://syriaca.org/person/49/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/49/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/49/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/49/ttl> ;
+ dcterms:relation <http://syriaca.org/place/172>, <http://syriaca.org/bibl/494>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> .
+
+ syriaca:bornAt <http://syriaca.org/place/172> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> .
+
+ syriaca:diedAt <http://syriaca.org/place/586> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/607> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/321> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/572> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/10> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/641> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/586> ;
+ lawd:hasAttestation <http://syriaca.org/person/49> .
+
+<http://syriaca.org/person/49/html> a rdfs:Resource; ;
+ dcterms:title "Sergius of Reshʿayna"@en, "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/49> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Sergius of Reshʿayna — ܣܪܓܝܣ ܪܫܥܝܢܝܐ in last modified December 9, 2016, http://syriaca.org/person/49" .
+
+<http://syriaca.org/person/49/tei> a rdfs:Resource; ;
+ dcterms:title "Sergius of Reshʿayna"@en, "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/49> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Sergius of Reshʿayna — ܣܪܓܝܣ ܪܫܥܝܢܝܐ in last modified December 9, 2016, http://syriaca.org/person/49" .
+
+<http://syriaca.org/person/49/ttl> a rdfs:Resource; ;
+ dcterms:title "Sergius of Reshʿayna"@en, "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/49> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Sergius of Reshʿayna — ܣܪܓܝܣ ܪܫܥܝܢܝܐ in last modified December 9, 2016, http://syriaca.org/person/49" .

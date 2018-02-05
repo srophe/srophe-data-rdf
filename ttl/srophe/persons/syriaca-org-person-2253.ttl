@@ -1,0 +1,99 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2253> a lawd:Person ;
+ rdfs:label "Cyrus II of Edessa"@en, "ܩܘܪܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Cyrus II of Edessa"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qura II"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܩܘܪܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/633> ;]; 
+ skos:related <http://syriaca.org/person/2253> ; 
+ skos:related <http://syriaca.org/place/78> ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Cyrus_II_of_Edessa> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Cyrus_II_of_Edessa> ;
+ dcterms:relation <http://syriaca.org/person/697> ; 
+ dcterms:relation <http://syriaca.org/person/1186> ; 
+ dcterms:relation <http://syriaca.org/person/2253> ; 
+ dcterms:relation <http://syriaca.org/person/73> ; 
+ dcterms:relation <http://syriaca.org/person/846> ;
+ dcterms:source <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657>, <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1337> ;
+ dcterms:relation <http://syriaca.org/person/2253/html>, <http://syriaca.org/person/2253/tei>, <http://syriaca.org/person/2253/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2253/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2253/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2253/ttl> ;
+ dcterms:relation <http://syriaca.org/person/2253>, <http://syriaca.org/place/78>, <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1337> .
+
+ syriaca:differentFrom <http://syriaca.org/person/1186> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/2253> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/73> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/846> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> .
+
+ syriaca:differentFrom <http://syriaca.org/person/697> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/2253> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/73> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/846> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> .
+
+ syriaca:differentFrom <http://syriaca.org/person/697> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1186> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/73> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/846> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> .
+
+ syriaca:differentFrom <http://syriaca.org/person/697> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1186> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/2253> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/846> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> .
+
+ syriaca:differentFrom <http://syriaca.org/person/697> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/1186> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/2253> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> ; 
+ syriaca:differentFrom <http://syriaca.org/person/73> ;
+ lawd:hasAttestation <http://syriaca.org/person/2253> .
+
+<http://syriaca.org/person/2253/html> a rdfs:Resource; ;
+ dcterms:title "Cyrus II of Edessa"@en, "ܩܘܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2253> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Cyrus II of Edessa — ܩܘܪܐ in last modified August 17, 2016, http://syriaca.org/person/2253" .
+
+<http://syriaca.org/person/2253/tei> a rdfs:Resource; ;
+ dcterms:title "Cyrus II of Edessa"@en, "ܩܘܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2253> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Cyrus II of Edessa — ܩܘܪܐ in last modified August 17, 2016, http://syriaca.org/person/2253" .
+
+<http://syriaca.org/person/2253/ttl> a rdfs:Resource; ;
+ dcterms:title "Cyrus II of Edessa"@en, "ܩܘܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2253> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Cyrus II of Edessa — ܩܘܪܐ in last modified August 17, 2016, http://syriaca.org/person/2253" .

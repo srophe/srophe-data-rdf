@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1098> a lawd:Person ;
+ rdfs:label "ܐܦܪܝܡ"@syr, "Ephrem the Scribe"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܦܪܝܡ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Afrēm"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Ephrem the Scribe"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Abda"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾAfrēm"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Éphrem"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ABDA ('AWDA),"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/1097> ; 
+ skos:related <http://syriaca.org/person/1098> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/2314>, <http://syriaca.org/bibl/1350>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1300> ;
+ dcterms:relation <http://syriaca.org/person/1098/html>, <http://syriaca.org/person/1098/tei>, <http://syriaca.org/person/1098/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1098/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1098/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1098/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1097>, <http://syriaca.org/person/1098>, <http://syriaca.org/work/340>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/2314>, <http://syriaca.org/bibl/1350>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/1300> .
+
+<http://syriaca.org/person/1098/html> a rdfs:Resource; ;
+ dcterms:title "ܐܦܪܝܡ"@syr, "Ephrem the Scribe"@en ;
+ dcterms:subject <http://syriaca.org/person/1098> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Ephrem the Scribe — ܐܦܪܝܡ in last modified August 17, 2016, http://syriaca.org/person/1098" .
+
+<http://syriaca.org/person/1098/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܦܪܝܡ"@syr, "Ephrem the Scribe"@en ;
+ dcterms:subject <http://syriaca.org/person/1098> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Ephrem the Scribe — ܐܦܪܝܡ in last modified August 17, 2016, http://syriaca.org/person/1098" .
+
+<http://syriaca.org/person/1098/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܦܪܝܡ"@syr, "Ephrem the Scribe"@en ;
+ dcterms:subject <http://syriaca.org/person/1098> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Ephrem the Scribe — ܐܦܪܝܡ in last modified August 17, 2016, http://syriaca.org/person/1098" .

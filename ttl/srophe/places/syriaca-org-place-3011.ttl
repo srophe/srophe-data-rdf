@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/3011> a lawd:Place ;
+ rdfs:label "Ruḥa"@en, "روحا"@ar, "ܪܘܚܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Ruḥa"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "روحا"@ar ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܪܘܚܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1383> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Rouḥa"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1383> ;]; 
+ skos:related <http://syriaca.org/place/37> ; 
+ skos:related <http://syriaca.org/place/3007> ;
+ dcterms:source <http://syriaca.org/bibl/1383> ;
+ dcterms:relation <http://syriaca.org/place/3011/html>, <http://syriaca.org/place/3011/tei>, <http://syriaca.org/place/3011/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3011/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3011/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3011/ttl> ;
+ dcterms:relation <http://syriaca.org/place/37>, <http://syriaca.org/place/3007>, <http://syriaca.org/bibl/1383> .
+
+<http://syriaca.org/place/3011/html> a rdfs:Resource; ;
+ dcterms:title "Ruḥa"@en, "روحا"@ar, "ܪܘܚܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3011> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Ruḥa — ܪܘܚܐ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3011" .
+
+<http://syriaca.org/place/3011/tei> a rdfs:Resource; ;
+ dcterms:title "Ruḥa"@en, "روحا"@ar, "ܪܘܚܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3011> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Ruḥa — ܪܘܚܐ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3011" .
+
+<http://syriaca.org/place/3011/ttl> a rdfs:Resource; ;
+ dcterms:title "Ruḥa"@en, "روحا"@ar, "ܪܘܚܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3011> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Ruḥa — ܪܘܚܐ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3011" .

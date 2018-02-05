@@ -1,0 +1,77 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/80> a lawd:Person ;
+ rdfs:label "Simeon of Edessa"@en, "ܫܡܥܘܢ ܕܐܘܪܗܝ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Simeon of Edessa"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/514> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Simeon of Edessa"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shemun of Edessa"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shem‘un of Edessa"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Simon Edessae"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ skos:related <http://syriaca.org/place/78> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_80>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of Edessa&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_80>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of Edessa&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/80> ; 
+ dcterms:relation <http://syriaca.org/place/78> ;
+ dcterms:source <http://syriaca.org/bibl/514>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> ;
+ dcterms:relation <http://syriaca.org/person/80/html>, <http://syriaca.org/person/80/tei>, <http://syriaca.org/person/80/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/80/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/80/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/80/ttl> ;
+ dcterms:relation <http://syriaca.org/place/78>, <http://syriaca.org/bibl/514>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of Edessa&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/78> ;
+ lawd:hasAttestation <http://syriaca.org/person/80> .
+
+<http://syriaca.org/person/80/html> a rdfs:Resource; ;
+ dcterms:title "Simeon of Edessa"@en, "ܫܡܥܘܢ ܕܐܘܪܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/80> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon of Edessa — ܫܡܥܘܢ ܕܐܘܪܗܝ in last modified December 9, 2016, http://syriaca.org/person/80" .
+
+<http://syriaca.org/person/80/tei> a rdfs:Resource; ;
+ dcterms:title "Simeon of Edessa"@en, "ܫܡܥܘܢ ܕܐܘܪܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/80> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon of Edessa — ܫܡܥܘܢ ܕܐܘܪܗܝ in last modified December 9, 2016, http://syriaca.org/person/80" .
+
+<http://syriaca.org/person/80/ttl> a rdfs:Resource; ;
+ dcterms:title "Simeon of Edessa"@en, "ܫܡܥܘܢ ܕܐܘܪܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/80> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon of Edessa — ܫܡܥܘܢ ܕܐܘܪܗܝ in last modified December 9, 2016, http://syriaca.org/person/80" .

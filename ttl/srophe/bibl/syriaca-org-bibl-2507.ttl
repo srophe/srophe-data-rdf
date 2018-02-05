@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2507> a dcterms:bibliographicResource ;
+ rdfs:label "Claudii Galeni Opera Omnia" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/ZKATUS7X> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/ZKATUS7X> ;
+ dcterms:relation <http://syriaca.org/bibl/2507/html>, <http://syriaca.org/bibl/2507/tei>, <http://syriaca.org/bibl/2507/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2507/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2507/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2507/ttl> .
+
+<http://syriaca.org/bibl/2507/html> a rdfs:Resource; ;
+ dcterms:title "Claudii Galeni Opera Omnia" ;
+ dcterms:subject <http://syriaca.org/bibl/2507> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "C. G. Kühn (ed.), Claudii Galeni Opera Omnia vol. 1 (Leipzig, 1821)" .
+
+<http://syriaca.org/bibl/2507/tei> a rdfs:Resource; ;
+ dcterms:title "Claudii Galeni Opera Omnia" ;
+ dcterms:subject <http://syriaca.org/bibl/2507> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "C. G. Kühn (ed.), Claudii Galeni Opera Omnia vol. 1 (Leipzig, 1821)" .
+
+<http://syriaca.org/bibl/2507/ttl> a rdfs:Resource; ;
+ dcterms:title "Claudii Galeni Opera Omnia" ;
+ dcterms:subject <http://syriaca.org/bibl/2507> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "C. G. Kühn (ed.), Claudii Galeni Opera Omnia vol. 1 (Leipzig, 1821)" .

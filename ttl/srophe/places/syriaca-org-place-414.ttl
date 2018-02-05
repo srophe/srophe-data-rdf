@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/414> a lawd:Place ;
+ rdfs:label "Sozopolis"@en, "ܣܘܙܘܦܘܠܝܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Sozopolis"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܣܘܙܘܦܘܠܝܣ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܣܳܘܙܘܦܘܠܝܣ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "سوزوبليس"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;];
+ skos:closeMatch <http://pleiades.stoa.org/places/638758>, <http://en.wikipedia.org/wiki/Sozopolis,_Pisidia>, <http://dbpedia.org/resource/Sozopolis,_Pisidia> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/638758>, <http://en.wikipedia.org/wiki/Sozopolis,_Pisidia>, <http://dbpedia.org/resource/Sozopolis,_Pisidia> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://pleiades.stoa.org/places/638758> ;
+ dcterms:relation <http://syriaca.org/place/414/html>, <http://syriaca.org/place/414/tei>, <http://syriaca.org/place/414/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/414/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/414/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/414/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://pleiades.stoa.org/places/638758> .
+
+<http://syriaca.org/place/414/html> a rdfs:Resource; ;
+ dcterms:title "Sozopolis"@en, "ܣܘܙܘܦܘܠܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/place/414> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Sozopolis — ܣܘܙܘܦܘܠܝܣ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/414" .
+
+<http://syriaca.org/place/414/tei> a rdfs:Resource; ;
+ dcterms:title "Sozopolis"@en, "ܣܘܙܘܦܘܠܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/place/414> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Sozopolis — ܣܘܙܘܦܘܠܝܣ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/414" .
+
+<http://syriaca.org/place/414/ttl> a rdfs:Resource; ;
+ dcterms:title "Sozopolis"@en, "ܣܘܙܘܦܘܠܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/place/414> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Sozopolis — ܣܘܙܘܦܘܠܝܣ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/414" .

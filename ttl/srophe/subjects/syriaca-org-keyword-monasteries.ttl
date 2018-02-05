@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/monasteries> a  ;
+ rdfs:label "Monasteries"@en ;
+ skos:closeMatch <http://lccn.loc.gov/sh85086690> ; 
+ dcterms:relation <http://lccn.loc.gov/sh85086690> ;
+ dcterms:relation <http://syriaca.org/keyword/monasteries> ; 
+ dcterms:relation <http://syriaca.org/keyword/monasticism> ; 
+ dcterms:relation <http://syriaca.org/keyword/monasteries> ; 
+ dcterms:relation <http://syriaca.org/keyword/places> ; 
+ dcterms:relation <http://syriaca.org/keyword/monasteries> ; 
+ dcterms:relation <http://syriaca.org/keyword/religion> ;
+ dcterms:relation <http://syriaca.org/keyword/monasteries/html>, <http://syriaca.org/keyword/monasteries/tei>, <http://syriaca.org/keyword/monasteries/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/monasteries/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/monasteries/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/monasteries/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/monasticism> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/monasteries> .
+
+ skos:broadMatch <http://syriaca.org/keyword/places> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/monasteries> .
+
+ skos:broadMatch <http://syriaca.org/keyword/religion> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/monasteries> .
+
+<http://syriaca.org/keyword/monasteries/html> a rdfs:Resource; ;
+ dcterms:title "Monasteries"@en ;
+ dcterms:subject <http://syriaca.org/keyword/monasteries> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Monasteries in last modified May 5, 2017, http://syriaca.org/keyword/monasteries" .
+
+<http://syriaca.org/keyword/monasteries/tei> a rdfs:Resource; ;
+ dcterms:title "Monasteries"@en ;
+ dcterms:subject <http://syriaca.org/keyword/monasteries> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Monasteries in last modified May 5, 2017, http://syriaca.org/keyword/monasteries" .
+
+<http://syriaca.org/keyword/monasteries/ttl> a rdfs:Resource; ;
+ dcterms:title "Monasteries"@en ;
+ dcterms:subject <http://syriaca.org/keyword/monasteries> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Monasteries in last modified May 5, 2017, http://syriaca.org/keyword/monasteries" .

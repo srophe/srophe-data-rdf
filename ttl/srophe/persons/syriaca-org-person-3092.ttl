@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/3092> a lawd:Person ;
+ rdfs:label "Anonymous 3092"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Anonymous 3092"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "The devout monk who was removed from the monastery of ʿAkiba by the bishop Simeon"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/668> ;];
+ dcterms:source <http://syriaca.org/bibl/668>, <http://syriaca.org/bibl/668>, <http://syriaca.org/bibl/668> ;
+ dcterms:relation <http://syriaca.org/person/3092/html>, <http://syriaca.org/person/3092/tei>, <http://syriaca.org/person/3092/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3092/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3092/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3092/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/668> .
+
+<http://syriaca.org/person/3092/html> a rdfs:Resource; ;
+ dcterms:title "Anonymous 3092"@en ;
+ dcterms:subject <http://syriaca.org/person/3092> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Anonymous 3092 — The devout monk who was removed from the monastery of ʿAkiba by the bishop Simeon in last modified August 17, 2016, http://syriaca.org/person/3092" .
+
+<http://syriaca.org/person/3092/tei> a rdfs:Resource; ;
+ dcterms:title "Anonymous 3092"@en ;
+ dcterms:subject <http://syriaca.org/person/3092> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Anonymous 3092 — The devout monk who was removed from the monastery of ʿAkiba by the bishop Simeon in last modified August 17, 2016, http://syriaca.org/person/3092" .
+
+<http://syriaca.org/person/3092/ttl> a rdfs:Resource; ;
+ dcterms:title "Anonymous 3092"@en ;
+ dcterms:subject <http://syriaca.org/person/3092> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Anonymous 3092 — The devout monk who was removed from the monastery of ʿAkiba by the bishop Simeon in last modified August 17, 2016, http://syriaca.org/person/3092" .

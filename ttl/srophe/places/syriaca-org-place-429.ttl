@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/429> a lawd:Place ;
+ rdfs:label "ʿĀnah"@en, "ܥܐܢܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "ʿĀnah"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܥܐܢܐ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܥܰܐܢܰܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "عانة"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ānah"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "‘Ānah"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ānāt"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "‘Ānāt"@en-x-srp1 ;]; 
+ skos:related <http://syriaca.org/place/665> ;
+ skos:closeMatch <http://pleiades.stoa.org/places/893936>, <http://en.wikipedia.org/wiki/Anah>, <http://dbpedia.org/resource/Anah> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/893936>, <http://en.wikipedia.org/wiki/Anah>, <http://dbpedia.org/resource/Anah> ;
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/429/html>, <http://syriaca.org/place/429/tei>, <http://syriaca.org/place/429/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/429/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/429/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/429/ttl> ;
+ dcterms:relation <http://syriaca.org/place/665>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/429/html> a rdfs:Resource; ;
+ dcterms:title "ʿĀnah"@en, "ܥܐܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/429> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), ʿĀnah — ܥܐܢܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/429" .
+
+<http://syriaca.org/place/429/tei> a rdfs:Resource; ;
+ dcterms:title "ʿĀnah"@en, "ܥܐܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/429> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), ʿĀnah — ܥܐܢܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/429" .
+
+<http://syriaca.org/place/429/ttl> a rdfs:Resource; ;
+ dcterms:title "ʿĀnah"@en, "ܥܐܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/429> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), ʿĀnah — ܥܐܢܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/429" .

@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/mandylion> a  ;
+ rdfs:label "Mandylion"@en ;
+ dcterms:relation <http://syriaca.org/keyword/mandylion> ; 
+ dcterms:relation <http://syriaca.org/keyword/christianity> ; 
+ dcterms:relation <http://syriaca.org/keyword/mandylion> ; 
+ dcterms:relation <http://syriaca.org/keyword/objects> ;
+ dcterms:relation <http://syriaca.org/keyword/mandylion/html>, <http://syriaca.org/keyword/mandylion/tei>, <http://syriaca.org/keyword/mandylion/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/mandylion/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/mandylion/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/mandylion/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/christianity> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/mandylion> .
+
+ skos:broadMatch <http://syriaca.org/keyword/objects> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/mandylion> .
+
+<http://syriaca.org/keyword/mandylion/html> a rdfs:Resource; ;
+ dcterms:title "Mandylion"@en ;
+ dcterms:subject <http://syriaca.org/keyword/mandylion> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Mandylion in last modified May 5, 2017, http://syriaca.org/keyword/mandylion" .
+
+<http://syriaca.org/keyword/mandylion/tei> a rdfs:Resource; ;
+ dcterms:title "Mandylion"@en ;
+ dcterms:subject <http://syriaca.org/keyword/mandylion> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Mandylion in last modified May 5, 2017, http://syriaca.org/keyword/mandylion" .
+
+<http://syriaca.org/keyword/mandylion/ttl> a rdfs:Resource; ;
+ dcterms:title "Mandylion"@en ;
+ dcterms:subject <http://syriaca.org/keyword/mandylion> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Mandylion in last modified May 5, 2017, http://syriaca.org/keyword/mandylion" .

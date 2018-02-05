@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1309> a dcterms:bibliographicResource ;
+ rdfs:label "Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/34N3VTEG>, <http://www.worldcat.org/oclc/3847482> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/34N3VTEG>, <http://www.worldcat.org/oclc/3847482> ;
+ dcterms:relation <http://syriaca.org/bibl/1309/html>, <http://syriaca.org/bibl/1309/tei>, <http://syriaca.org/bibl/1309/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1309/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1309/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1309/ttl> .
+
+<http://syriaca.org/bibl/1309/html> a rdfs:Resource; ;
+ dcterms:title "Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours" ;
+ dcterms:subject <http://syriaca.org/bibl/1309> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jean Maurice Fiey, Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours (Louvain: Secrétariat du CorpusSCO, 1977)" .
+
+<http://syriaca.org/bibl/1309/tei> a rdfs:Resource; ;
+ dcterms:title "Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours" ;
+ dcterms:subject <http://syriaca.org/bibl/1309> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jean Maurice Fiey, Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours (Louvain: Secrétariat du CorpusSCO, 1977)" .
+
+<http://syriaca.org/bibl/1309/ttl> a rdfs:Resource; ;
+ dcterms:title "Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours" ;
+ dcterms:subject <http://syriaca.org/bibl/1309> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jean Maurice Fiey, Nisibe, métropole syriaque orientale et ses suffragants des origines à nos jours (Louvain: Secrétariat du CorpusSCO, 1977)" .

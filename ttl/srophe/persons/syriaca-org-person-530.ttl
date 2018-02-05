@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/530> a lawd:Person ;
+ rdfs:label "Henana of Adiabene"@en, "ܚܢܢܐ ܚܕܝܒܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Henana of Adiabene"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/263> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Henana of Adiabene"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܚܢܢܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ḥnānā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ḥnānā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Henânâ d’Adiabène"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ḥenana of Adiabene"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Henana"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ skos:related <http://syriaca.org/person/530> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_530>, <http://viaf.org/viaf/59228136>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Henana of Adiabene&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_530>, <http://viaf.org/viaf/59228136>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Henana of Adiabene&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/263>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640> ;
+ dcterms:relation <http://syriaca.org/person/530/html>, <http://syriaca.org/person/530/tei>, <http://syriaca.org/person/530/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/530/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/530/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/530/ttl> ;
+ dcterms:relation <http://syriaca.org/person/530>, <http://syriaca.org/work/1103>, <http://syriaca.org/bibl/263>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Henana of Adiabene&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640> .
+
+<http://syriaca.org/person/530/html> a rdfs:Resource; ;
+ dcterms:title "Henana of Adiabene"@en, "ܚܢܢܐ ܚܕܝܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/530> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Henana of Adiabene — ܚܢܢܐ ܚܕܝܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/530" .
+
+<http://syriaca.org/person/530/tei> a rdfs:Resource; ;
+ dcterms:title "Henana of Adiabene"@en, "ܚܢܢܐ ܚܕܝܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/530> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Henana of Adiabene — ܚܢܢܐ ܚܕܝܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/530" .
+
+<http://syriaca.org/person/530/ttl> a rdfs:Resource; ;
+ dcterms:title "Henana of Adiabene"@en, "ܚܢܢܐ ܚܕܝܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/530> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Henana of Adiabene — ܚܢܢܐ ܚܕܝܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/530" .

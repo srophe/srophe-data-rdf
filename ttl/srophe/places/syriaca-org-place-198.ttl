@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/198> a lawd:Place ;
+ rdfs:label "Tell ʿAda"@en, "ܬܠܥܕܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Tell ʿAda"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܬܠܥܕܐ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܬܰܠܥܕܰܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "تلعدا"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Talʿada"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Tell Ada"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Tell Ada"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Tell ‘Ada"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Talada"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Tal‘ada"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Monastery of Tell Ada"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Monastery of Tell ‘Ada"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Τελεδάν"@el ;
+ lawd:hasAttestation <http://syriaca.org/bibl/651> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Τέλεδαν"@el ;
+ lawd:hasAttestation <http://syriaca.org/bibl/651> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Τελείαν"@el ;
+ lawd:hasAttestation <http://syriaca.org/bibl/651> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Τελεδᾶν"@el ;
+ lawd:hasAttestation <http://syriaca.org/bibl/651> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Teleda"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/655> ;]; 
+ skos:related <http://syriaca.org/place/18> ; 
+ skos:related <http://syriaca.org/place/233> ; 
+ skos:related <http://syriaca.org/place/91> ; 
+ skos:related <http://syriaca.org/place/18> ;
+ skos:closeMatch <http://pleiades.stoa.org/places/658614>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Tell Ada&sT=keywords> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/658614>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Tell Ada&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://pleiades.stoa.org/places/658614>, <http://syriaca.org/bibl/651>, <http://syriaca.org/bibl/655> ;
+ dcterms:relation <http://syriaca.org/place/198/html>, <http://syriaca.org/place/198/tei>, <http://syriaca.org/place/198/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/198/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/198/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/198/ttl> ;
+ dcterms:relation <http://syriaca.org/place/18>, <http://syriaca.org/place/233>, <http://syriaca.org/place/91>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Tell Ada&sT=keywords>, <http://pleiades.stoa.org/places/658614>, <http://syriaca.org/bibl/651>, <http://syriaca.org/bibl/655> .
+
+<http://syriaca.org/place/198/html> a rdfs:Resource; ;
+ dcterms:title "Tell ʿAda"@en, "ܬܠܥܕܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/198> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Tell ʿAda — ܬܠܥܕܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/198" .
+
+<http://syriaca.org/place/198/tei> a rdfs:Resource; ;
+ dcterms:title "Tell ʿAda"@en, "ܬܠܥܕܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/198> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Tell ʿAda — ܬܠܥܕܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/198" .
+
+<http://syriaca.org/place/198/ttl> a rdfs:Resource; ;
+ dcterms:title "Tell ʿAda"@en, "ܬܠܥܕܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/198> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Tell ʿAda — ܬܠܥܕܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/198" .

@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/879> a lawd:Person ;
+ rdfs:label "ܐܒܪܗܡ ܕܒܨܪܐ"@syr, "Abraham of Baṣra"@en-x-gedsh, "Abraham of Basra"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <#bib879-6> ;
+ lawd:hasAttestation <#bib879-7> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Abraham of Basra"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_879> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_879> ;
+ dcterms:source <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/879/html>, <http://syriaca.org/person/879/tei>, <http://syriaca.org/person/879/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/879/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/879/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/879/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/638> .
+
+<http://syriaca.org/person/879/html> a rdfs:Resource; ;
+ dcterms:title "ܐܒܪܗܡ ܕܒܨܪܐ"@syr, "Abraham of Baṣra"@en-x-gedsh, "Abraham of Basra"@en ;
+ dcterms:subject <http://syriaca.org/person/879> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Abraham of Basra — ܐܒܪܗܡ ܕܒܨܪܐ in last modified August 17, 2016, http://syriaca.org/person/879" .
+
+<http://syriaca.org/person/879/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܒܪܗܡ ܕܒܨܪܐ"@syr, "Abraham of Baṣra"@en-x-gedsh, "Abraham of Basra"@en ;
+ dcterms:subject <http://syriaca.org/person/879> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Abraham of Basra — ܐܒܪܗܡ ܕܒܨܪܐ in last modified August 17, 2016, http://syriaca.org/person/879" .
+
+<http://syriaca.org/person/879/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܒܪܗܡ ܕܒܨܪܐ"@syr, "Abraham of Baṣra"@en-x-gedsh, "Abraham of Basra"@en ;
+ dcterms:subject <http://syriaca.org/person/879> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Abraham of Basra — ܐܒܪܗܡ ܕܒܨܪܐ in last modified August 17, 2016, http://syriaca.org/person/879" .

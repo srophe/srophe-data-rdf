@@ -1,0 +1,92 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/483> a lawd:Person ;
+ rdfs:label "Evagrius of Pontus"@en, "ܐܘܓܪܝܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/214> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Evagrius"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ewagrīs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾEwagrīs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Évagre"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/214> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de-x-baumstrk ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Évagre le Pontique"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ skos:related <http://syriaca.org/person/483> ; 
+ skos:related <http://syriaca.org/person/483> ; 
+ skos:related <http://syriaca.org/person/483> ; 
+ skos:related <http://syriaca.org/person/483> ; 
+ skos:related <http://syriaca.org/person/483> ; 
+ skos:related <http://syriaca.org/person/483> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_483>, <http://viaf.org/viaf/58103843>, <http://worldcat.org/identities/lccn-n86-119200>, <http://viaf.org/viaf/194620468>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Evagrius&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_483>, <http://viaf.org/viaf/58103843>, <http://worldcat.org/identities/lccn-n86-119200>, <http://viaf.org/viaf/194620468>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Evagrius&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/214>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/483/html>, <http://syriaca.org/person/483/tei>, <http://syriaca.org/person/483/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/483/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/483/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/483/ttl> ;
+ dcterms:relation <http://syriaca.org/person/483>, <http://syriaca.org/work/486>, <http://syriaca.org/work/536>, <http://syriaca.org/work/676>, <http://syriaca.org/work/677>, <http://syriaca.org/work/1433>, <http://syriaca.org/work/1440>, <http://syriaca.org/bibl/214>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Evagrius&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/483/html> a rdfs:Resource; ;
+ dcterms:title "Evagrius of Pontus"@en, "ܐܘܓܪܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/483> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Evagrius of Pontus — ܐܘܓܪܝܣ in last modified August 17, 2016, http://syriaca.org/person/483" .
+
+<http://syriaca.org/person/483/tei> a rdfs:Resource; ;
+ dcterms:title "Evagrius of Pontus"@en, "ܐܘܓܪܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/483> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Evagrius of Pontus — ܐܘܓܪܝܣ in last modified August 17, 2016, http://syriaca.org/person/483" .
+
+<http://syriaca.org/person/483/ttl> a rdfs:Resource; ;
+ dcterms:title "Evagrius of Pontus"@en, "ܐܘܓܪܝܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/483> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Evagrius of Pontus — ܐܘܓܪܝܣ in last modified August 17, 2016, http://syriaca.org/person/483" .

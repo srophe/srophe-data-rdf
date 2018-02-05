@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/176> a lawd:Place ;
+ rdfs:label "Syria II"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Syria II"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ skos:related <http://syriaca.org/place/11> ;
+ skos:closeMatch <http://pleiades.stoa.org/places/1001933>, <http://en.wikipedia.org/wiki/Syria_(Roman_province)>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Byzantine Syria&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=R&sK=Roman Syria&sT=keywords> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/1001933>, <http://en.wikipedia.org/wiki/Syria_(Roman_province)>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Byzantine Syria&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=R&sK=Roman Syria&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/place/176/html>, <http://syriaca.org/place/176/tei>, <http://syriaca.org/place/176/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/176/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/176/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/176/ttl> ;
+ dcterms:relation <http://syriaca.org/place/11>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Byzantine Syria&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=R&sK=Roman Syria&sT=keywords> .
+
+<http://syriaca.org/place/176/html> a rdfs:Resource; ;
+ dcterms:title "Syria II"@en ;
+ dcterms:subject <http://syriaca.org/place/176> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Syria II in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/176" .
+
+<http://syriaca.org/place/176/tei> a rdfs:Resource; ;
+ dcterms:title "Syria II"@en ;
+ dcterms:subject <http://syriaca.org/place/176> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Syria II in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/176" .
+
+<http://syriaca.org/place/176/ttl> a rdfs:Resource; ;
+ dcterms:title "Syria II"@en ;
+ dcterms:subject <http://syriaca.org/place/176> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Syria II in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/176" .

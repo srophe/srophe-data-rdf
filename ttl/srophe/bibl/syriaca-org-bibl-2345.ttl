@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2345> a dcterms:bibliographicResource ;
+ rdfs:label "Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/E58KDF7G> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/E58KDF7G> ;
+ dcterms:relation <http://syriaca.org/bibl/2345/html>, <http://syriaca.org/bibl/2345/tei>, <http://syriaca.org/bibl/2345/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2345/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2345/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2345/ttl> .
+
+<http://syriaca.org/bibl/2345/html> a rdfs:Resource; ;
+ dcterms:title "Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum" ;
+ dcterms:subject <http://syriaca.org/bibl/2345> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Brian Walton (ed.), Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum (London: Thomas Roycroft, 1657)" .
+
+<http://syriaca.org/bibl/2345/tei> a rdfs:Resource; ;
+ dcterms:title "Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum" ;
+ dcterms:subject <http://syriaca.org/bibl/2345> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Brian Walton (ed.), Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum (London: Thomas Roycroft, 1657)" .
+
+<http://syriaca.org/bibl/2345/ttl> a rdfs:Resource; ;
+ dcterms:title "Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum" ;
+ dcterms:subject <http://syriaca.org/bibl/2345> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Brian Walton (ed.), Biblia sacra polyglotta: complectentia textus originales, Hebraicum, cum Pentateucho Samaritano, Chaldaicum, Græcum. Versionumque antiquarum, Samaritanæ, Græcæ LXXII Interp., Chaldaicæ, Syriacæ, Arabicæ, Æthiopicæ, Persicæ, Vulg. Lat. quicquid comparari poterat ; Cum textuum, & versionum orientalium translationibus latinis. Ex vetustissimis mss. undique conquisitis, optimísque exemplaribus impressis, summâ fide collatis. Quæ in prioribus editionibus suppleta. Multa antehac inedita, de novo adjecta. Omnia eo ordine disposita, ut textus cum versionibus uno intuito conferri possint ; Cum apparatu, appendicibus, tabulis, variis lectionibus, annotationibus, indicibus, &c. Opus totum in sex tomos tributum (London: Thomas Roycroft, 1657)" .

@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1782> a lawd:Person ;
+ rdfs:label "ܐܝܓܢܐܛܝܘܣ"@syr, "Ignatius"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܝܓܢܐܛܝܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ighnāṭīyōs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Ignatius"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾĪǥnāṭīyōs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ignace"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ skos:related <http://syriaca.org/person/1782> ; 
+ skos:related <http://syriaca.org/person/1782> ; 
+ skos:related <http://syriaca.org/person/1782> ; 
+ skos:related <http://syriaca.org/person/1782> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:relation <http://syriaca.org/person/1782/html>, <http://syriaca.org/person/1782/tei>, <http://syriaca.org/person/1782/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1782/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1782/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1782/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1782>, <http://syriaca.org/work/1600>, <http://syriaca.org/work/765>, <http://syriaca.org/work/766>, <http://syriaca.org/work/784>, <http://syriaca.org/bibl/649> .
+
+<http://syriaca.org/person/1782/html> a rdfs:Resource; ;
+ dcterms:title "ܐܝܓܢܐܛܝܘܣ"@syr, "Ignatius"@en ;
+ dcterms:subject <http://syriaca.org/person/1782> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Ignatius — ܐܝܓܢܐܛܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/1782" .
+
+<http://syriaca.org/person/1782/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܝܓܢܐܛܝܘܣ"@syr, "Ignatius"@en ;
+ dcterms:subject <http://syriaca.org/person/1782> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Ignatius — ܐܝܓܢܐܛܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/1782" .
+
+<http://syriaca.org/person/1782/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܝܓܢܐܛܝܘܣ"@syr, "Ignatius"@en ;
+ dcterms:subject <http://syriaca.org/person/1782> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Ignatius — ܐܝܓܢܐܛܝܘܣ in last modified August 17, 2016, http://syriaca.org/person/1782" .

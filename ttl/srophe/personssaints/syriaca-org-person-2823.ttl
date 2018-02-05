@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2823> a lawd:Person ;
+ rdfs:label "Abgar V Ukkama the Black"@en, "ܐܒܓܪ"@syr, "Abgar V Ukkama (' the Black ')"@en-x-gedsh ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܐܒܓܪ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "(' ')"@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/20> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾAḇgar"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Abgar"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ABGAR V LE NOIR (ŪKĀMĀ)"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/person/1118> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/person/2823> ; 
+ skos:related <http://syriaca.org/person/2823> ; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/place/78> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/20>, <http://syriaca.org/bibl/209> ;
+ dcterms:relation <http://syriaca.org/person/2823/html>, <http://syriaca.org/person/2823/tei>, <http://syriaca.org/person/2823/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2823/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2823/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2823/ttl> ;
+ dcterms:relation <http://syriaca.org/place/78>, <http://syriaca.org/person/1118>, <http://syriaca.org/person/2823>, <http://syriaca.org/work/1531>, <http://syriaca.org/work/1813>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/20>, <http://syriaca.org/bibl/209> .
+
+<http://syriaca.org/person/2823/html> a rdfs:Resource; ;
+ dcterms:title "Abgar V Ukkama the Black"@en, "ܐܒܓܪ"@syr, "Abgar V Ukkama (' the Black ')"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/2823> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. GibsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson, (eds.), Abgar V Ukkama the Black — ܐܒܓܪ in last modified August 17, 2016, http://syriaca.org/person/2823" .
+
+<http://syriaca.org/person/2823/tei> a rdfs:Resource; ;
+ dcterms:title "Abgar V Ukkama the Black"@en, "ܐܒܓܪ"@syr, "Abgar V Ukkama (' the Black ')"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/2823> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. GibsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson, (eds.), Abgar V Ukkama the Black — ܐܒܓܪ in last modified August 17, 2016, http://syriaca.org/person/2823" .
+
+<http://syriaca.org/person/2823/ttl> a rdfs:Resource; ;
+ dcterms:title "Abgar V Ukkama the Black"@en, "ܐܒܓܪ"@syr, "Abgar V Ukkama (' the Black ')"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/2823> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. GibsonJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson, (eds.), Abgar V Ukkama the Black — ܐܒܓܪ in last modified August 17, 2016, http://syriaca.org/person/2823" .

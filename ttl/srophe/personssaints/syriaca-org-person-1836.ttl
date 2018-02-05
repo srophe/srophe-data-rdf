@@ -1,0 +1,86 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1836> a lawd:Person ;
+ rdfs:label "Joseph"@en, "ܝܘܣܦ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Joseph"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܝܘܣܦ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yawsef"@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph the Patriarch"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph, Patriarch"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yawsef"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yawsep"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph le patriarche"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Joseph, patriarche"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ; 
+ skos:related <http://syriaca.org/person/1836> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:relation <http://syriaca.org/person/1836/html>, <http://syriaca.org/person/1836/tei>, <http://syriaca.org/person/1836/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1836/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1836/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1836/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1836>, <http://syriaca.org/work/1748>, <http://syriaca.org/work/1849>, <http://syriaca.org/work/559>, <http://syriaca.org/work/273>, <http://syriaca.org/work/2019>, <http://syriaca.org/work/931>, <http://syriaca.org/work/932>, <http://syriaca.org/work/1229>, <http://syriaca.org/work/1631>, <http://syriaca.org/work/1300>, <http://syriaca.org/work/1306>, <http://syriaca.org/work/1340>, <http://syriaca.org/work/1341>, <http://syriaca.org/work/1342>, <http://syriaca.org/work/1587>, <http://syriaca.org/bibl/649> .
+
+<http://syriaca.org/person/1836/html> a rdfs:Resource; ;
+ dcterms:title "Joseph"@en, "ܝܘܣܦ"@syr ;
+ dcterms:subject <http://syriaca.org/person/1836> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Joseph — ܝܘܣܦ in last modified August 17, 2016, http://syriaca.org/person/1836" .
+
+<http://syriaca.org/person/1836/tei> a rdfs:Resource; ;
+ dcterms:title "Joseph"@en, "ܝܘܣܦ"@syr ;
+ dcterms:subject <http://syriaca.org/person/1836> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Joseph — ܝܘܣܦ in last modified August 17, 2016, http://syriaca.org/person/1836" .
+
+<http://syriaca.org/person/1836/ttl> a rdfs:Resource; ;
+ dcterms:title "Joseph"@en, "ܝܘܣܦ"@syr ;
+ dcterms:subject <http://syriaca.org/person/1836> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Joseph — ܝܘܣܦ in last modified August 17, 2016, http://syriaca.org/person/1836" .

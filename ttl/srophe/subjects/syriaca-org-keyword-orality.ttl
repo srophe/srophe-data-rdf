@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/orality> a  ;
+ rdfs:label "Orality"@en ;
+ skos:closeMatch <http://lccn.loc.gov/sh94001362> ; 
+ dcterms:relation <http://lccn.loc.gov/sh94001362> ;
+ dcterms:relation <http://syriaca.org/keyword/orality> ; 
+ dcterms:relation <http://syriaca.org/keyword/linguistics> ;
+ dcterms:relation <http://syriaca.org/keyword/orality/html>, <http://syriaca.org/keyword/orality/tei>, <http://syriaca.org/keyword/orality/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/orality/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/orality/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/orality/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/linguistics> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/orality> .
+
+<http://syriaca.org/keyword/orality/html> a rdfs:Resource; ;
+ dcterms:title "Orality"@en ;
+ dcterms:subject <http://syriaca.org/keyword/orality> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Orality in last modified May 5, 2017, http://syriaca.org/keyword/orality" .
+
+<http://syriaca.org/keyword/orality/tei> a rdfs:Resource; ;
+ dcterms:title "Orality"@en ;
+ dcterms:subject <http://syriaca.org/keyword/orality> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Orality in last modified May 5, 2017, http://syriaca.org/keyword/orality" .
+
+<http://syriaca.org/keyword/orality/ttl> a rdfs:Resource; ;
+ dcterms:title "Orality"@en ;
+ dcterms:subject <http://syriaca.org/keyword/orality> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Orality in last modified May 5, 2017, http://syriaca.org/keyword/orality" .

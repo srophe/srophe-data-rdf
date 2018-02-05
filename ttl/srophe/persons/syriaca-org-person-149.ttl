@@ -1,0 +1,96 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/149> a lawd:Person ;
+ rdfs:label "ܠܥܙܪ ܒܪ ܣܒܬܐ"@syr ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/341> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lazar bar Sabta"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lazarus"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/341> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Loozar bar Sobtho"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lo‘ozar bar Sobtho"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lazarus bar Sabta"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Philoxenus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Lazare bar Sabta"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܦܝܠܠܘܟܣܝܢܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܠܥܙܪ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Philoxène de Bagdad"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_149>, <http://cat.inist.fr/?aModele=afficheN&cpsidt=11961643>, <http://jts.oxfordjournals.org/content/38/2/431.citation>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Lazar bar Sabta&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_149>, <http://cat.inist.fr/?aModele=afficheN&cpsidt=11961643>, <http://jts.oxfordjournals.org/content/38/2/431.citation>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Lazar bar Sabta&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/149> ; 
+ dcterms:relation <http://syriaca.org/place/1506> ; 
+ dcterms:relation <http://syriaca.org/place/67> ; 
+ dcterms:relation <http://syriaca.org/place/41> ;
+ dcterms:source <http://syriaca.org/bibl/341>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/149/html>, <http://syriaca.org/person/149/tei>, <http://syriaca.org/person/149/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/149/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/149/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/149/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/341>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Lazar bar Sabta&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/2499> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1506> ;
+ lawd:hasAttestation <http://syriaca.org/person/149> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/67> ;
+ lawd:hasAttestation <http://syriaca.org/person/149> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/41> ;
+ lawd:hasAttestation <http://syriaca.org/person/149> .
+
+<http://syriaca.org/person/149/html> a rdfs:Resource; ;
+ dcterms:title "ܠܥܙܪ ܒܪ ܣܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/149> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Lazarus bar Sobtho — ܠܥܙܪ ܒܪ ܣܒܬܐ in last modified December 9, 2016, http://syriaca.org/person/149" .
+
+<http://syriaca.org/person/149/tei> a rdfs:Resource; ;
+ dcterms:title "ܠܥܙܪ ܒܪ ܣܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/149> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Lazarus bar Sobtho — ܠܥܙܪ ܒܪ ܣܒܬܐ in last modified December 9, 2016, http://syriaca.org/person/149" .
+
+<http://syriaca.org/person/149/ttl> a rdfs:Resource; ;
+ dcterms:title "ܠܥܙܪ ܒܪ ܣܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/149> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Lazarus bar Sobtho — ܠܥܙܪ ܒܪ ܣܒܬܐ in last modified December 9, 2016, http://syriaca.org/person/149" .

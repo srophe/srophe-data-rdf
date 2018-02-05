@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/570> a lawd:Person ;
+ rdfs:label "Jamil , Samuel"@en ;
+ lawd:hasName [
+ lawd:variantForm ","@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/308> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Samuel Giamil"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/308> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jamīl Shmuʾel"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jamīl Shmuʾel"@en-x-srp1 ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_570>, <http://worldcat.org/identities/lccn-no2011-130801>, <http://viaf.org/viaf/207640598>, <http://viaf.org/viaf/176516316>, <http://viaf.org/viaf/88999567> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_570>, <http://worldcat.org/identities/lccn-no2011-130801>, <http://viaf.org/viaf/207640598>, <http://viaf.org/viaf/176516316>, <http://viaf.org/viaf/88999567> ;
+ dcterms:source <http://syriaca.org/bibl/308> ;
+ dcterms:relation <http://syriaca.org/person/570/html>, <http://syriaca.org/person/570/tei>, <http://syriaca.org/person/570/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/570/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/570/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/570/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/308> .
+
+<http://syriaca.org/person/570/html> a rdfs:Resource; ;
+ dcterms:title "Jamil , Samuel"@en ;
+ dcterms:subject <http://syriaca.org/person/570> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Jamil, Samuel in last modified December 9, 2016, http://syriaca.org/person/570" .
+
+<http://syriaca.org/person/570/tei> a rdfs:Resource; ;
+ dcterms:title "Jamil , Samuel"@en ;
+ dcterms:subject <http://syriaca.org/person/570> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Jamil, Samuel in last modified December 9, 2016, http://syriaca.org/person/570" .
+
+<http://syriaca.org/person/570/ttl> a rdfs:Resource; ;
+ dcterms:title "Jamil , Samuel"@en ;
+ dcterms:subject <http://syriaca.org/person/570> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Jamil, Samuel in last modified December 9, 2016, http://syriaca.org/person/570" .

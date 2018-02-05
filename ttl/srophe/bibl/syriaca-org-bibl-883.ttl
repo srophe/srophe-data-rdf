@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/883> a dcterms:bibliographicResource ;
+ rdfs:label "La «Vie d’Antoine» et le chanoine René Draguet"@fr ;
+ dcterms:relation <http://syriaca.org/bibl/883/html>, <http://syriaca.org/bibl/883/tei>, <http://syriaca.org/bibl/883/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/883/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/883/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/883/ttl> .
+
+<http://syriaca.org/bibl/883/html> a rdfs:Resource; ;
+ dcterms:title "La «Vie d’Antoine» et le chanoine René Draguet"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/883> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "L. Leloir, La «Vie d’Antoine» et le chanoine René Draguet.in A. Théodoridès P. Naster J. Ries A. Théodoridès P. Naster J. Ries and A. Théodoridès P. Naster J. Ries , (eds.), Archéologie et philologie dans l’étude des civilisations orientales, Acta orientalia Belgica,vol. 4 (4)" .
+
+<http://syriaca.org/bibl/883/tei> a rdfs:Resource; ;
+ dcterms:title "La «Vie d’Antoine» et le chanoine René Draguet"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/883> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "L. Leloir, La «Vie d’Antoine» et le chanoine René Draguet.in A. Théodoridès P. Naster J. Ries A. Théodoridès P. Naster J. Ries and A. Théodoridès P. Naster J. Ries , (eds.), Archéologie et philologie dans l’étude des civilisations orientales, Acta orientalia Belgica,vol. 4 (4)" .
+
+<http://syriaca.org/bibl/883/ttl> a rdfs:Resource; ;
+ dcterms:title "La «Vie d’Antoine» et le chanoine René Draguet"@fr ;
+ dcterms:subject <http://syriaca.org/bibl/883> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "L. Leloir, La «Vie d’Antoine» et le chanoine René Draguet.in A. Théodoridès P. Naster J. Ries A. Théodoridès P. Naster J. Ries and A. Théodoridès P. Naster J. Ries , (eds.), Archéologie et philologie dans l’étude des civilisations orientales, Acta orientalia Belgica,vol. 4 (4)" .

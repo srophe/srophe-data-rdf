@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1002> a lawd:Person ;
+ rdfs:label "ʿAbd al-Masih b. Naʿima of Homs"@en, "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Abd al-Masīḥ b. Nāima al-Ḥimṣī"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "‘Abd al-Masīḥ b. Nā‘ima al-Ḥimṣī"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʿAbd al-Masīḥ b. Nāʿima"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de-x-baumstrk ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_1002> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_1002> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/1002/html>, <http://syriaca.org/person/1002/tei>, <http://syriaca.org/person/1002/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1002/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1002/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1002/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/638> .
+
+<http://syriaca.org/person/1002/html> a rdfs:Resource; ;
+ dcterms:title "ʿAbd al-Masih b. Naʿima of Homs"@en, "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/1002> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), ʿAbd al-Masih b. Naʿima of Homs — ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ in last modified December 9, 2016, http://syriaca.org/person/1002" .
+
+<http://syriaca.org/person/1002/tei> a rdfs:Resource; ;
+ dcterms:title "ʿAbd al-Masih b. Naʿima of Homs"@en, "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/1002> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), ʿAbd al-Masih b. Naʿima of Homs — ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ in last modified December 9, 2016, http://syriaca.org/person/1002" .
+
+<http://syriaca.org/person/1002/ttl> a rdfs:Resource; ;
+ dcterms:title "ʿAbd al-Masih b. Naʿima of Homs"@en, "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/1002> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), ʿAbd al-Masih b. Naʿima of Homs — ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ in last modified December 9, 2016, http://syriaca.org/person/1002" .

@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2292> a lawd:Person ;
+ rdfs:label "Nona"@en, "ܢܘܢܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Nona"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܢܘܢܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/633> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Nonnus"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/657> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Nonos"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/657> ;];
+ skos:closeMatch <https://en.wikipedia.org/wiki/Saint_Nonnus> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Saint_Nonnus> ;
+ dcterms:source <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657>, <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657> ;
+ dcterms:relation <http://syriaca.org/person/2292/html>, <http://syriaca.org/person/2292/tei>, <http://syriaca.org/person/2292/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2292/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2292/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2292/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657> .
+
+<http://syriaca.org/person/2292/html> a rdfs:Resource; ;
+ dcterms:title "Nona"@en, "ܢܘܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2292> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Nona — ܢܘܢܐ in last modified August 17, 2016, http://syriaca.org/person/2292" .
+
+<http://syriaca.org/person/2292/tei> a rdfs:Resource; ;
+ dcterms:title "Nona"@en, "ܢܘܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2292> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Nona — ܢܘܢܐ in last modified August 17, 2016, http://syriaca.org/person/2292" .
+
+<http://syriaca.org/person/2292/ttl> a rdfs:Resource; ;
+ dcterms:title "Nona"@en, "ܢܘܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2292> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Nona — ܢܘܢܐ in last modified August 17, 2016, http://syriaca.org/person/2292" .

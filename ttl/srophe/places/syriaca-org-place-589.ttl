@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/589> a lawd:Place ;
+ rdfs:label "Dibsi Faraj"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Dibsi Faraj"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/place/82> ;
+ skos:closeMatch <http://pleiades.stoa.org/places/668201>, <http://en.wikipedia.org/wiki/Dibsi_Faraj>, <http://dbpedia.org/resource/Dibsi_Faraj>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=Dibsi Faraj&sT=keywords> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/668201>, <http://en.wikipedia.org/wiki/Dibsi_Faraj>, <http://dbpedia.org/resource/Dibsi_Faraj>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=Dibsi Faraj&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/5>, <http://pleiades.stoa.org/places/668201> ;
+ dcterms:relation <http://syriaca.org/place/589/html>, <http://syriaca.org/place/589/tei>, <http://syriaca.org/place/589/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/589/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/589/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/589/ttl> ;
+ dcterms:relation <http://syriaca.org/place/82>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=Dibsi Faraj&sT=keywords>, <http://pleiades.stoa.org/places/668201> .
+
+<http://syriaca.org/place/589/html> a rdfs:Resource; ;
+ dcterms:title "Dibsi Faraj"@en ;
+ dcterms:subject <http://syriaca.org/place/589> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dibsi Faraj in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/589" .
+
+<http://syriaca.org/place/589/tei> a rdfs:Resource; ;
+ dcterms:title "Dibsi Faraj"@en ;
+ dcterms:subject <http://syriaca.org/place/589> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dibsi Faraj in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/589" .
+
+<http://syriaca.org/place/589/ttl> a rdfs:Resource; ;
+ dcterms:title "Dibsi Faraj"@en ;
+ dcterms:subject <http://syriaca.org/place/589> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dibsi Faraj in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/589" .

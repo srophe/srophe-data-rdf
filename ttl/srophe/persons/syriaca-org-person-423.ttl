@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/423> a lawd:Person ;
+ rdfs:label "ܩܠܡܝܣ"@syr, "Clement of Rome"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܩܠܡܝܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qlēmīs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Clement of Rome"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qlēmīs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Clément"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Clément de Rome"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/place/2360> ; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/person/423> ; 
+ skos:related <http://syriaca.org/person/423> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/423/html>, <http://syriaca.org/person/423/tei>, <http://syriaca.org/person/423/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/423/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/423/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/423/ttl> ;
+ dcterms:relation <http://syriaca.org/person/423>, <http://syriaca.org/place/2360>, <http://syriaca.org/work/368>, <http://syriaca.org/work/1245>, <http://syriaca.org/work/1540>, <http://syriaca.org/work/1541>, <http://syriaca.org/work/1542>, <http://syriaca.org/work/1543>, <http://syriaca.org/work/2051>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/423/html> a rdfs:Resource; ;
+ dcterms:title "ܩܠܡܝܣ"@syr, "Clement of Rome"@en ;
+ dcterms:subject <http://syriaca.org/person/423> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Clement of Rome — ܩܠܡܝܣ in last modified August 17, 2016, http://syriaca.org/person/423" .
+
+<http://syriaca.org/person/423/tei> a rdfs:Resource; ;
+ dcterms:title "ܩܠܡܝܣ"@syr, "Clement of Rome"@en ;
+ dcterms:subject <http://syriaca.org/person/423> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Clement of Rome — ܩܠܡܝܣ in last modified August 17, 2016, http://syriaca.org/person/423" .
+
+<http://syriaca.org/person/423/ttl> a rdfs:Resource; ;
+ dcterms:title "ܩܠܡܝܣ"@syr, "Clement of Rome"@en ;
+ dcterms:subject <http://syriaca.org/person/423> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Clement of Rome — ܩܠܡܝܣ in last modified August 17, 2016, http://syriaca.org/person/423" .

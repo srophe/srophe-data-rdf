@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/734> a lawd:Person ;
+ rdfs:label "Shalita of Reshʿayna"@en, "Shalliṭa of Reshʿayna"@en-x-gedsh, "ܫܠܝܛܐ ܕܪܫܥܝܢܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/502> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <#bib734-6> ;
+ lawd:hasAttestation <#bib734-7> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shalliṭa of Reshayna"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shalliṭa of Resh‘ayna"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shallita of Rishaina"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_734> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_734> ;
+ dcterms:relation <http://syriaca.org/person/734> ; 
+ dcterms:relation <http://syriaca.org/person/733> ;
+ dcterms:source <http://syriaca.org/bibl/502>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/734/html>, <http://syriaca.org/person/734/tei>, <http://syriaca.org/person/734/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/734/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/734/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/734/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/502>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638> .
+
+ syriaca:differentFrom <http://syriaca.org/person/733> ;
+ lawd:hasAttestation <http://syriaca.org/person/734> .
+
+ syriaca:differentFrom <http://syriaca.org/person/734> ;
+ lawd:hasAttestation <http://syriaca.org/person/734> .
+
+<http://syriaca.org/person/734/html> a rdfs:Resource; ;
+ dcterms:title "Shalita of Reshʿayna"@en, "Shalliṭa of Reshʿayna"@en-x-gedsh, "ܫܠܝܛܐ ܕܪܫܥܝܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/734> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Shalita of Reshʿayna — ܫܠܝܛܐ ܕܪܫܥܝܢܐ in last modified December 9, 2016, http://syriaca.org/person/734" .
+
+<http://syriaca.org/person/734/tei> a rdfs:Resource; ;
+ dcterms:title "Shalita of Reshʿayna"@en, "Shalliṭa of Reshʿayna"@en-x-gedsh, "ܫܠܝܛܐ ܕܪܫܥܝܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/734> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Shalita of Reshʿayna — ܫܠܝܛܐ ܕܪܫܥܝܢܐ in last modified December 9, 2016, http://syriaca.org/person/734" .
+
+<http://syriaca.org/person/734/ttl> a rdfs:Resource; ;
+ dcterms:title "Shalita of Reshʿayna"@en, "Shalliṭa of Reshʿayna"@en-x-gedsh, "ܫܠܝܛܐ ܕܪܫܥܝܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/734> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Shalita of Reshʿayna — ܫܠܝܛܐ ܕܪܫܥܝܢܐ in last modified December 9, 2016, http://syriaca.org/person/734" .

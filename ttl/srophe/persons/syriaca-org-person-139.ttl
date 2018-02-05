@@ -1,0 +1,126 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/139> a lawd:Person ;
+ rdfs:label "ܓܘܪܓܝ ܩܕܡܝܐ"@syr ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/239> ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "George of Beeltan"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Giwargis of Beltan"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Giwargis of B‘eltan"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "George of Beltan"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "George of B‘eltan"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "George"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "GEORGE, PATRIARCHE D'ANTIOCHE"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "George of Bʿeltan"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Georgius (Giwargis) a Ba‘eltan, Patriarcha"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_139>, <http://en.wikipedia.org/wiki/Patriarch_George_of_Antioch>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=George of Beeltan&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_139>, <http://en.wikipedia.org/wiki/Patriarch_George_of_Antioch>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=George of Beeltan&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/139> ; 
+ dcterms:relation <http://syriaca.org/person/501> ; 
+ dcterms:relation <http://syriaca.org/person/139> ; 
+ dcterms:relation <http://syriaca.org/place/304> ; 
+ dcterms:relation <http://syriaca.org/person/139> ; 
+ dcterms:relation <http://syriaca.org/place/224> ; 
+ dcterms:relation <http://syriaca.org/person/139> ; 
+ dcterms:relation <http://syriaca.org/place/178> ; 
+ dcterms:relation <http://syriaca.org/place/109> ; 
+ dcterms:relation <http://syriaca.org/place/67> ; 
+ dcterms:relation <http://syriaca.org/place/1512> ; 
+ dcterms:relation <http://syriaca.org/person/139> ; 
+ dcterms:relation <http://syriaca.org/place/230> ; 
+ dcterms:relation <http://syriaca.org/place/41> ; 
+ dcterms:relation <http://syriaca.org/place/10> ; 
+ dcterms:relation <http://syriaca.org/place/1511> ;
+ dcterms:source <http://syriaca.org/bibl/239>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1386>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640> ;
+ dcterms:relation <http://syriaca.org/person/139/html>, <http://syriaca.org/person/139/tei>, <http://syriaca.org/person/139/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/139/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/139/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/139/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/239>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=George of Beeltan&sT=keywords>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1386>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640> .
+
+ syriaca:differentFrom <http://syriaca.org/person/501> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> .
+
+ syriaca:differentFrom <http://syriaca.org/person/139> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> .
+
+ syriaca:bornAt <http://syriaca.org/place/304> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> .
+
+ syriaca:diedAt <http://syriaca.org/place/224> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/178> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/109> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/67> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/1512> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/230> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/41> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/10> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1511> ;
+ lawd:hasAttestation <http://syriaca.org/person/139> .
+
+<http://syriaca.org/person/139/html> a rdfs:Resource; ;
+ dcterms:title "ܓܘܪܓܝ ܩܕܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/139> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), George of Bʿeltan — ܓܘܪܓܝ ܩܕܡܝܐ in last modified December 9, 2016, http://syriaca.org/person/139" .
+
+<http://syriaca.org/person/139/tei> a rdfs:Resource; ;
+ dcterms:title "ܓܘܪܓܝ ܩܕܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/139> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), George of Bʿeltan — ܓܘܪܓܝ ܩܕܡܝܐ in last modified December 9, 2016, http://syriaca.org/person/139" .
+
+<http://syriaca.org/person/139/ttl> a rdfs:Resource; ;
+ dcterms:title "ܓܘܪܓܝ ܩܕܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/139> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), George of Bʿeltan — ܓܘܪܓܝ ܩܕܡܝܐ in last modified December 9, 2016, http://syriaca.org/person/139" .

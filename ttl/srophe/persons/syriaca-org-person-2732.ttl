@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2732> a lawd:Person ;
+ rdfs:label "Peter"@en, "ܦܛܪܘܣ ܩܫܝܫܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Peter"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܦܛܪܘܣ ܩܫܝܫܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/670> ;];
+ dcterms:relation <http://syriaca.org/person/2732> ; 
+ dcterms:relation <http://syriaca.org/person/2409> ;
+ dcterms:source <http://syriaca.org/bibl/670>, <http://syriaca.org/bibl/670>, <http://syriaca.org/bibl/670>, <http://syriaca.org/bibl/670> ;
+ dcterms:relation <http://syriaca.org/person/2732/html>, <http://syriaca.org/person/2732/tei>, <http://syriaca.org/person/2732/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2732/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2732/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2732/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/670> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/2409> ;
+ lawd:hasAttestation <http://syriaca.org/person/2732> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/2732> ;
+ lawd:hasAttestation <http://syriaca.org/person/2732> .
+
+<http://syriaca.org/person/2732/html> a rdfs:Resource; ;
+ dcterms:title "Peter"@en, "ܦܛܪܘܣ ܩܫܝܫܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2732> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Peter — ܦܛܪܘܣ ܩܫܝܫܐ in last modified August 17, 2016, http://syriaca.org/person/2732" .
+
+<http://syriaca.org/person/2732/tei> a rdfs:Resource; ;
+ dcterms:title "Peter"@en, "ܦܛܪܘܣ ܩܫܝܫܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2732> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Peter — ܦܛܪܘܣ ܩܫܝܫܐ in last modified August 17, 2016, http://syriaca.org/person/2732" .
+
+<http://syriaca.org/person/2732/ttl> a rdfs:Resource; ;
+ dcterms:title "Peter"@en, "ܦܛܪܘܣ ܩܫܝܫܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2732> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Peter — ܦܛܪܘܣ ܩܫܝܫܐ in last modified August 17, 2016, http://syriaca.org/person/2732" .

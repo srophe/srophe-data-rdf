@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/spear/119-51> a syriaca:personFactoid ;
+ rdfs:label "Augustus Caesar was king of Rome ." ;
+ dcterms:isPartOf <http://syriaca.org/spear> ;
+ dcterms:relation <http://syriaca.org/spear/119-51/html>, <http://syriaca.org/spear/119-51/tei>, <http://syriaca.org/spear/119-51/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-51/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-51/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-51/ttl> .
+
+<http://syriaca.org/person/2238> a syriaca:personFactoid ; 
+ snap:occupation <http://syriaca.org/keyword/emperor> ; 
+ lawd:hasAttestation <http://syriaca.org/spear/119-51> .
+
+<http://syriaca.org/spear/119-51/html> a rdfs:Resource; ;
+ dcterms:title "Augustus Caesar was king of Rome ." ;
+ dcterms:subject <http://syriaca.org/spear/119-51> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-51/tei> a rdfs:Resource; ;
+ dcterms:title "Augustus Caesar was king of Rome ." ;
+ dcterms:subject <http://syriaca.org/spear/119-51> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-51/ttl> a rdfs:Resource; ;
+ dcterms:title "Augustus Caesar was king of Rome ." ;
+ dcterms:subject <http://syriaca.org/spear/119-51> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .

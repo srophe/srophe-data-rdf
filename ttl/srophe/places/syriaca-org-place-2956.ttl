@@ -1,0 +1,47 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/2956> a lawd:Place ;
+ rdfs:label "al-Baylaqān"@en, "البيلقان"@ar ;
+ lawd:hasName [
+ lawd:primaryForm "al-Baylaqān"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "البيلقان"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2501> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2503> ;]; 
+ skos:related <http://syriaca.org/place/5> ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Beylagan_(city)>, <https://dbpedia.org/resource/Beylagan_(city)> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Beylagan_(city)>, <https://dbpedia.org/resource/Beylagan_(city)> ;
+ dcterms:source <http://syriaca.org/bibl/2501>, <http://syriaca.org/bibl/2503> ;
+ dcterms:relation <http://syriaca.org/place/2956/html>, <http://syriaca.org/place/2956/tei>, <http://syriaca.org/place/2956/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2956/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2956/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2956/ttl> ;
+ dcterms:relation <http://syriaca.org/place/5>, <http://syriaca.org/bibl/2501>, <http://syriaca.org/bibl/2503> .
+
+<http://syriaca.org/place/2956/html> a rdfs:Resource; ;
+ dcterms:title "al-Baylaqān"@en, "البيلقان"@ar ;
+ dcterms:subject <http://syriaca.org/place/2956> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Baylaqān in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2956" .
+
+<http://syriaca.org/place/2956/tei> a rdfs:Resource; ;
+ dcterms:title "al-Baylaqān"@en, "البيلقان"@ar ;
+ dcterms:subject <http://syriaca.org/place/2956> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Baylaqān in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2956" .
+
+<http://syriaca.org/place/2956/ttl> a rdfs:Resource; ;
+ dcterms:title "al-Baylaqān"@en, "البيلقان"@ar ;
+ dcterms:subject <http://syriaca.org/place/2956> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Baylaqān in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2956" .

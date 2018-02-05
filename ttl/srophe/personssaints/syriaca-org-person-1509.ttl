@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1509> a lawd:Person ;
+ rdfs:label "ܝܪܬ"@syr, "Yareth"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܝܪܬ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ireth"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Yareth"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yaret"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yāreṯ"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yareth"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "YĀRET"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Mar Yareth of Alexandria"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/356> ; 
+ skos:related <http://syriaca.org/place/100> ; 
+ skos:related <http://syriaca.org/place/126> ; 
+ skos:related <http://syriaca.org/place/712> ; 
+ skos:related <http://syriaca.org/person/1509> ; 
+ skos:related <http://syriaca.org/person/1509> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Yareth%20of%20Alexandria&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Yareth%20of%20Alexandria&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1416>, <http://syriaca.org/bibl/1309>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1509/html>, <http://syriaca.org/person/1509/tei>, <http://syriaca.org/person/1509/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1509/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1509/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1509/ttl> ;
+ dcterms:relation <http://syriaca.org/person/356>, <http://syriaca.org/place/100>, <http://syriaca.org/place/126>, <http://syriaca.org/place/712>, <http://syriaca.org/person/1509>, <http://syriaca.org/work/1316>, <http://syriaca.org/work/1949>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1416>, <http://syriaca.org/bibl/1309>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Yareth%20of%20Alexandria&sT=keywords> .
+
+<http://syriaca.org/person/1509/html> a rdfs:Resource; ;
+ dcterms:title "ܝܪܬ"@syr, "Yareth"@en ;
+ dcterms:subject <http://syriaca.org/person/1509> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Yareth — ܝܪܬ in last modified August 17, 2016, http://syriaca.org/person/1509" .
+
+<http://syriaca.org/person/1509/tei> a rdfs:Resource; ;
+ dcterms:title "ܝܪܬ"@syr, "Yareth"@en ;
+ dcterms:subject <http://syriaca.org/person/1509> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Yareth — ܝܪܬ in last modified August 17, 2016, http://syriaca.org/person/1509" .
+
+<http://syriaca.org/person/1509/ttl> a rdfs:Resource; ;
+ dcterms:title "ܝܪܬ"@syr, "Yareth"@en ;
+ dcterms:subject <http://syriaca.org/person/1509> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Yareth — ܝܪܬ in last modified August 17, 2016, http://syriaca.org/person/1509" .

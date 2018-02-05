@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1071> a dcterms:bibliographicResource ;
+ rdfs:label "The Syriac Version of the “Life of Symeon Salos”. First Soundings"@en ;
+ dcterms:relation <http://syriaca.org/bibl/1071/html>, <http://syriaca.org/bibl/1071/tei>, <http://syriaca.org/bibl/1071/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1071/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1071/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1071/ttl> .
+
+<http://syriaca.org/bibl/1071/html> a rdfs:Resource; ;
+ dcterms:title "The Syriac Version of the “Life of Symeon Salos”. First Soundings"@en ;
+ dcterms:subject <http://syriaca.org/bibl/1071> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "L. Van Rompay, The Syriac Version of the “Life of Symeon Salos”. First Soundings.in A. Schoors and P. Van Deun (eds.), Philohistôr. Miscellanea in honorem Caroli Laga septuagenarii, Orientalia Lovaniensia analecta,vol. 60 (Louvain, 1994)" .
+
+<http://syriaca.org/bibl/1071/tei> a rdfs:Resource; ;
+ dcterms:title "The Syriac Version of the “Life of Symeon Salos”. First Soundings"@en ;
+ dcterms:subject <http://syriaca.org/bibl/1071> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "L. Van Rompay, The Syriac Version of the “Life of Symeon Salos”. First Soundings.in A. Schoors and P. Van Deun (eds.), Philohistôr. Miscellanea in honorem Caroli Laga septuagenarii, Orientalia Lovaniensia analecta,vol. 60 (Louvain, 1994)" .
+
+<http://syriaca.org/bibl/1071/ttl> a rdfs:Resource; ;
+ dcterms:title "The Syriac Version of the “Life of Symeon Salos”. First Soundings"@en ;
+ dcterms:subject <http://syriaca.org/bibl/1071> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "L. Van Rompay, The Syriac Version of the “Life of Symeon Salos”. First Soundings.in A. Schoors and P. Van Deun (eds.), Philohistôr. Miscellanea in honorem Caroli Laga septuagenarii, Orientalia Lovaniensia analecta,vol. 60 (Louvain, 1994)" .

@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/stylites> a  ;
+ rdfs:label "Stylites"@en ;
+ skos:closeMatch <http://lccn.loc.gov/sh85102140> ; 
+ dcterms:relation <http://lccn.loc.gov/sh85102140> ;
+ dcterms:relation <http://syriaca.org/keyword/stylites> ; 
+ dcterms:relation <http://syriaca.org/keyword/christianity> ; 
+ dcterms:relation <http://syriaca.org/keyword/stylites> ; 
+ dcterms:relation <http://syriaca.org/keyword/monasticism> ; 
+ dcterms:relation <http://syriaca.org/keyword/stylites> ; 
+ dcterms:relation <http://syriaca.org/keyword/occupations> ; 
+ dcterms:relation <http://syriaca.org/keyword/stylites> ; 
+ dcterms:relation <http://syriaca.org/keyword/ritual> ;
+ dcterms:relation <http://syriaca.org/keyword/stylites/html>, <http://syriaca.org/keyword/stylites/tei>, <http://syriaca.org/keyword/stylites/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/stylites/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/stylites/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/stylites/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/christianity> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/stylites> .
+
+ skos:broadMatch <http://syriaca.org/keyword/monasticism> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/stylites> .
+
+ skos:broadMatch <http://syriaca.org/keyword/occupations> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/stylites> .
+
+ skos:broadMatch <http://syriaca.org/keyword/ritual> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/stylites> .
+
+<http://syriaca.org/keyword/stylites/html> a rdfs:Resource; ;
+ dcterms:title "Stylites"@en ;
+ dcterms:subject <http://syriaca.org/keyword/stylites> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Stylites in last modified May 5, 2017, http://syriaca.org/keyword/stylites" .
+
+<http://syriaca.org/keyword/stylites/tei> a rdfs:Resource; ;
+ dcterms:title "Stylites"@en ;
+ dcterms:subject <http://syriaca.org/keyword/stylites> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Stylites in last modified May 5, 2017, http://syriaca.org/keyword/stylites" .
+
+<http://syriaca.org/keyword/stylites/ttl> a rdfs:Resource; ;
+ dcterms:title "Stylites"@en ;
+ dcterms:subject <http://syriaca.org/keyword/stylites> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Stylites in last modified May 5, 2017, http://syriaca.org/keyword/stylites" .

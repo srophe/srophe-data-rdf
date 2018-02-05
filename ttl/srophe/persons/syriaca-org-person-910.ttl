@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/910> a lawd:Person ;
+ rdfs:label "ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ"@syr, "Simeon Qurdalhnaya"@en ;
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shemon Qurdalḥnaya"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shem‘on Qurdalḥnaya"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Simeon Qurdlainaya"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_910> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_910> ;
+ dcterms:source <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/910/html>, <http://syriaca.org/person/910/tei>, <http://syriaca.org/person/910/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/910/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/910/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/910/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/638> .
+
+<http://syriaca.org/person/910/html> a rdfs:Resource; ;
+ dcterms:title "ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ"@syr, "Simeon Qurdalhnaya"@en ;
+ dcterms:subject <http://syriaca.org/person/910> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon Qurdalhnaya — ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ in last modified December 9, 2016, http://syriaca.org/person/910" .
+
+<http://syriaca.org/person/910/tei> a rdfs:Resource; ;
+ dcterms:title "ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ"@syr, "Simeon Qurdalhnaya"@en ;
+ dcterms:subject <http://syriaca.org/person/910> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon Qurdalhnaya — ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ in last modified December 9, 2016, http://syriaca.org/person/910" .
+
+<http://syriaca.org/person/910/ttl> a rdfs:Resource; ;
+ dcterms:title "ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ"@syr, "Simeon Qurdalhnaya"@en ;
+ dcterms:subject <http://syriaca.org/person/910> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon Qurdalhnaya — ܫܡܥܘܢ ܩܘܪܕܠܚܢܝܐ in last modified December 9, 2016, http://syriaca.org/person/910" .

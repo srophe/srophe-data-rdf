@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/577> a lawd:Person ;
+ rdfs:label "Josephus , Flavius"@en, "ܝܘܣܝܦܘܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/317> ;
+ lawd:hasAttestation <#bib577-10> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_577>, <http://viaf.org/viaf/22143666>, <http://worldcat.org/identities/lccn-n80-15583>, <http://viaf.org/viaf/245316972>, <http://viaf.org/viaf/243576331>, <http://viaf.org/viaf/207396788>, <http://viaf.org/viaf/192452322>, <http://viaf.org/viaf/97071375>, <http://viaf.org/viaf/89641805>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Josephus&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_577>, <http://viaf.org/viaf/22143666>, <http://worldcat.org/identities/lccn-n80-15583>, <http://viaf.org/viaf/245316972>, <http://viaf.org/viaf/243576331>, <http://viaf.org/viaf/207396788>, <http://viaf.org/viaf/192452322>, <http://viaf.org/viaf/97071375>, <http://viaf.org/viaf/89641805>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Josephus&sT=keywords> ;
+ dcterms:relation <#person-577> ; 
+ dcterms:relation <http://syriaca.org/person/322> ;
+ dcterms:source <http://syriaca.org/bibl/317>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/577/html>, <http://syriaca.org/person/577/tei>, <http://syriaca.org/person/577/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/577/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/577/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/577/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/317>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Josephus&sT=keywords> .
+
+ syriaca:differentFrom <http://syriaca.org/person/322> ;
+ lawd:hasAttestation <http://syriaca.org/person/577> .
+
+ syriaca:differentFrom <#person-577> ;
+ lawd:hasAttestation <http://syriaca.org/person/577> .
+
+<http://syriaca.org/person/577/html> a rdfs:Resource; ;
+ dcterms:title "Josephus , Flavius"@en, "ܝܘܣܝܦܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/577> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Josephus, Flavius — ܝܘܣܝܦܘܣ in last modified August 17, 2016, http://syriaca.org/person/577" .
+
+<http://syriaca.org/person/577/tei> a rdfs:Resource; ;
+ dcterms:title "Josephus , Flavius"@en, "ܝܘܣܝܦܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/577> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Josephus, Flavius — ܝܘܣܝܦܘܣ in last modified August 17, 2016, http://syriaca.org/person/577" .
+
+<http://syriaca.org/person/577/ttl> a rdfs:Resource; ;
+ dcterms:title "Josephus , Flavius"@en, "ܝܘܣܝܦܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/577> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Josephus, Flavius — ܝܘܣܝܦܘܣ in last modified August 17, 2016, http://syriaca.org/person/577" .

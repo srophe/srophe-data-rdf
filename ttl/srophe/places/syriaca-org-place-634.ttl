@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/634> a lawd:Place ;
+ rdfs:label "Qalʿat Najm"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Qalʿat Najm"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qalat Naym"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "قلعة النجم"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qalat Najm"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qal‘at Najm"@en-x-srp1 ;]; 
+ skos:related <http://syriaca.org/place/82> ; 
+ skos:related <http://syriaca.org/place/122> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Qal'at_Najm>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qalat Naym&sT=keywords> ; 
+ dcterms:relation <http://en.wikipedia.org/wiki/Qal'at_Najm>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qalat Naym&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/634/html>, <http://syriaca.org/place/634/tei>, <http://syriaca.org/place/634/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/634/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/634/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/634/ttl> ;
+ dcterms:relation <http://syriaca.org/place/82>, <http://syriaca.org/place/122>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qalat Naym&sT=keywords>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/634/html> a rdfs:Resource; ;
+ dcterms:title "Qalʿat Najm"@en ;
+ dcterms:subject <http://syriaca.org/place/634> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Qalʿat Najm in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/634" .
+
+<http://syriaca.org/place/634/tei> a rdfs:Resource; ;
+ dcterms:title "Qalʿat Najm"@en ;
+ dcterms:subject <http://syriaca.org/place/634> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Qalʿat Najm in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/634" .
+
+<http://syriaca.org/place/634/ttl> a rdfs:Resource; ;
+ dcterms:title "Qalʿat Najm"@en ;
+ dcterms:subject <http://syriaca.org/place/634> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Qalʿat Najm in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/634" .

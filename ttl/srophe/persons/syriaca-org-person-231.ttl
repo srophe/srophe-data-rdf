@@ -1,0 +1,104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/231> a lawd:Person ;
+ rdfs:label "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr ;
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/589> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/260> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jacob of Bartelli"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Severus bar Shakko"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Severos bar Shakko"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/589> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yaqub bar Shakko"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ya‘qub bar Shakko"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jacob (Severus ) bar Shakko of Bartella"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_231>, <http://worldcat.org/identities/np-jacob bar sakko$d 1241>, <http://viaf.org/viaf/81180132>, <http://viaf.org/viaf/98407410>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob bar Shakko&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Bartelli&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Severus bar Shakko&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_231>, <http://worldcat.org/identities/np-jacob bar sakko$d 1241>, <http://viaf.org/viaf/81180132>, <http://viaf.org/viaf/98407410>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob bar Shakko&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Bartelli&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Severus bar Shakko&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/231> ; 
+ dcterms:relation <http://syriaca.org/person/229> ; 
+ dcterms:relation <http://syriaca.org/person/231> ; 
+ dcterms:relation <http://syriaca.org/place/260> ; 
+ dcterms:relation <http://syriaca.org/person/231> ; 
+ dcterms:relation <http://syriaca.org/place/227> ; 
+ dcterms:relation <http://syriaca.org/person/231> ; 
+ dcterms:relation <http://syriaca.org/place/142> ; 
+ dcterms:relation <http://syriaca.org/place/41> ;
+ dcterms:source <http://syriaca.org/bibl/589>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645> ;
+ dcterms:relation <http://syriaca.org/person/231/html>, <http://syriaca.org/person/231/tei>, <http://syriaca.org/person/231/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/231/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/231/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/231/ttl> ;
+ dcterms:relation <http://syriaca.org/place/260>, <http://syriaca.org/bibl/589>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob bar Shakko&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Bartelli&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Severus bar Shakko&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645> .
+
+ syriaca:differentFrom <http://syriaca.org/person/229> ;
+ lawd:hasAttestation <http://syriaca.org/person/231> .
+
+ syriaca:differentFrom <http://syriaca.org/person/231> ;
+ lawd:hasAttestation <http://syriaca.org/person/231> .
+
+ syriaca:bornAt <http://syriaca.org/place/260> ;
+ lawd:hasAttestation <http://syriaca.org/person/231> .
+
+ syriaca:diedAt <http://syriaca.org/place/227> ;
+ lawd:hasAttestation <http://syriaca.org/person/231> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/142> ;
+ lawd:hasAttestation <http://syriaca.org/person/231> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/41> ;
+ lawd:hasAttestation <http://syriaca.org/person/231> .
+
+<http://syriaca.org/person/231/html> a rdfs:Resource; ;
+ dcterms:title "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/231> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Jacob bar Shakko — ܝܥܩܘܒ ܒܪ ܫܟܟܐ in last modified December 9, 2016, http://syriaca.org/person/231" .
+
+<http://syriaca.org/person/231/tei> a rdfs:Resource; ;
+ dcterms:title "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/231> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Jacob bar Shakko — ܝܥܩܘܒ ܒܪ ܫܟܟܐ in last modified December 9, 2016, http://syriaca.org/person/231" .
+
+<http://syriaca.org/person/231/ttl> a rdfs:Resource; ;
+ dcterms:title "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/231> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Jacob bar Shakko — ܝܥܩܘܒ ܒܪ ܫܟܟܐ in last modified December 9, 2016, http://syriaca.org/person/231" .

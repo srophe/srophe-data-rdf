@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2166> a dcterms:bibliographicResource ;
+ rdfs:label "The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah" ;
+ skos:closeMatch <http://www.worldcat.org/oclc/5894497294> ; 
+ dcterms:relation <http://www.worldcat.org/oclc/5894497294> ;
+ dcterms:relation <http://syriaca.org/bibl/2166/html>, <http://syriaca.org/bibl/2166/tei>, <http://syriaca.org/bibl/2166/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2166/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2166/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2166/ttl> .
+
+<http://syriaca.org/bibl/2166/html> a rdfs:Resource; ;
+ dcterms:title "The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah" ;
+ dcterms:subject <http://syriaca.org/bibl/2166> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Hidemi Takahashi, The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah.Between Orient and Occident. (2011)" .
+
+<http://syriaca.org/bibl/2166/tei> a rdfs:Resource; ;
+ dcterms:title "The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah" ;
+ dcterms:subject <http://syriaca.org/bibl/2166> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Hidemi Takahashi, The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah.Between Orient and Occident. (2011)" .
+
+<http://syriaca.org/bibl/2166/ttl> a rdfs:Resource; ;
+ dcterms:title "The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah" ;
+ dcterms:subject <http://syriaca.org/bibl/2166> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Hidemi Takahashi, The mathematical sciences in Syriac: from Sergius of Resh-'Aina and Severus Sebokht to Barhebraeus and patriarch Ni'matallah.Between Orient and Occident. (2011)" .

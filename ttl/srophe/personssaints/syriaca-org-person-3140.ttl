@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/3140> a lawd:Person ;
+ rdfs:label "ܬܐܘܕܘܪܐ"@syr, "Theodore"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܬܐܘܕܘܪܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Theʾōdōrā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Theodore"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Thēʾōdōrā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Théodore"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ skos:related <http://syriaca.org/person/3140> ; 
+ skos:related <http://syriaca.org/person/1705> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:relation <http://syriaca.org/person/3140/html>, <http://syriaca.org/person/3140/tei>, <http://syriaca.org/person/3140/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3140/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3140/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3140/ttl> ;
+ dcterms:relation <http://syriaca.org/person/3140>, <http://syriaca.org/work/823>, <http://syriaca.org/person/1705>, <http://syriaca.org/bibl/649> .
+
+<http://syriaca.org/person/3140/html> a rdfs:Resource; ;
+ dcterms:title "ܬܐܘܕܘܪܐ"@syr, "Theodore"@en ;
+ dcterms:subject <http://syriaca.org/person/3140> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Theodore — ܬܐܘܕܘܪܐ in last modified June 25, 2016, http://syriaca.org/person/3140" .
+
+<http://syriaca.org/person/3140/tei> a rdfs:Resource; ;
+ dcterms:title "ܬܐܘܕܘܪܐ"@syr, "Theodore"@en ;
+ dcterms:subject <http://syriaca.org/person/3140> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Theodore — ܬܐܘܕܘܪܐ in last modified June 25, 2016, http://syriaca.org/person/3140" .
+
+<http://syriaca.org/person/3140/ttl> a rdfs:Resource; ;
+ dcterms:title "ܬܐܘܕܘܪܐ"@syr, "Theodore"@en ;
+ dcterms:subject <http://syriaca.org/person/3140> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Theodore — ܬܐܘܕܘܪܐ in last modified June 25, 2016, http://syriaca.org/person/3140" .

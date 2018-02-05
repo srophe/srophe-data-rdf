@@ -1,0 +1,45 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/402> a lawd:Person ;
+ rdfs:label "Brockelmann , Carl"@en, "Brockelmann , Carl"@en-x-gedsh ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ","@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/124> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_402>, <http://viaf.org/viaf/74008610>, <http://worldcat.org/identities/lccn-n85-813157>, <http://viaf.org/viaf/200665885>, <http://viaf.org/viaf/13061355>, <http://viaf.org/viaf/209787040>, <http://viaf.org/viaf/247983712> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_402>, <http://viaf.org/viaf/74008610>, <http://worldcat.org/identities/lccn-n85-813157>, <http://viaf.org/viaf/200665885>, <http://viaf.org/viaf/13061355>, <http://viaf.org/viaf/209787040>, <http://viaf.org/viaf/247983712> ;
+ dcterms:source <http://syriaca.org/bibl/124> ;
+ dcterms:relation <http://syriaca.org/person/402/html>, <http://syriaca.org/person/402/tei>, <http://syriaca.org/person/402/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/402/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/402/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/402/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/124> .
+
+<http://syriaca.org/person/402/html> a rdfs:Resource; ;
+ dcterms:title "Brockelmann , Carl"@en, "Brockelmann , Carl"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/402> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Brockelmann, Carl in last modified August 17, 2016, http://syriaca.org/person/402" .
+
+<http://syriaca.org/person/402/tei> a rdfs:Resource; ;
+ dcterms:title "Brockelmann , Carl"@en, "Brockelmann , Carl"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/402> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Brockelmann, Carl in last modified August 17, 2016, http://syriaca.org/person/402" .
+
+<http://syriaca.org/person/402/ttl> a rdfs:Resource; ;
+ dcterms:title "Brockelmann , Carl"@en, "Brockelmann , Carl"@en-x-gedsh ;
+ dcterms:subject <http://syriaca.org/person/402> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Brockelmann, Carl in last modified August 17, 2016, http://syriaca.org/person/402" .

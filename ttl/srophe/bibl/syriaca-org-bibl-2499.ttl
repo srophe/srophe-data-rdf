@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2499> a dcterms:bibliographicResource ;
+ rdfs:label "E-ktobe : manuscrits syriaques" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/QMJ4MK55> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/QMJ4MK55> ;
+ dcterms:relation <http://syriaca.org/bibl/2499/html>, <http://syriaca.org/bibl/2499/tei>, <http://syriaca.org/bibl/2499/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2499/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2499/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2499/ttl> ;
+ dcterms:relation <http://syriac.msscatalog.org/> .
+
+<http://syriaca.org/bibl/2499/html> a rdfs:Resource; ;
+ dcterms:title "E-ktobe : manuscrits syriaques" ;
+ dcterms:subject <http://syriaca.org/bibl/2499> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey and André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey , (eds.), E-ktobe : manuscrits syriaques, Catalogue de manuscrits (Paris: Le Centre national de la recherche scientifique / Institut de recherche et d'histoire des textes Institut de recherche et d'histoire des textes, 2017)" .
+
+<http://syriaca.org/bibl/2499/tei> a rdfs:Resource; ;
+ dcterms:title "E-ktobe : manuscrits syriaques" ;
+ dcterms:subject <http://syriaca.org/bibl/2499> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey and André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey , (eds.), E-ktobe : manuscrits syriaques, Catalogue de manuscrits (Paris: Le Centre national de la recherche scientifique / Institut de recherche et d'histoire des textes Institut de recherche et d'histoire des textes, 2017)" .
+
+<http://syriaca.org/bibl/2499/ttl> a rdfs:Resource; ;
+ dcterms:title "E-ktobe : manuscrits syriaques" ;
+ dcterms:subject <http://syriaca.org/bibl/2499> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey and André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey , (eds.), E-ktobe : manuscrits syriaques, Catalogue de manuscrits (Paris: Le Centre national de la recherche scientifique / Institut de recherche et d'histoire des textes Institut de recherche et d'histoire des textes, 2017)" .

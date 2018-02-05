@@ -1,0 +1,65 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/809> a lawd:Person ;
+ rdfs:label "ܝܗܒܐܠܗܐ ܩܕܡܝܐ"@syr, "Yahbalaha I"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/586> ;
+ lawd:hasAttestation <#bib809-10> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܝܗܒܐܠܗܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ya(h)balāhā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ya(h)ḇallāhā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yahballaha"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Katholikos Jahb(h)allàhā I"@de ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de-x-baumstrk ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;]; 
+ skos:related <http://syriaca.org/person/809> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_809>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yahbalaha I&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_809>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yahbalaha I&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/586>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/809/html>, <http://syriaca.org/person/809/tei>, <http://syriaca.org/person/809/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/809/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/809/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/809/ttl> ;
+ dcterms:relation <http://syriaca.org/person/809>, <http://syriaca.org/work/1045>, <http://syriaca.org/bibl/586>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yahbalaha I&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638> .
+
+<http://syriaca.org/person/809/html> a rdfs:Resource; ;
+ dcterms:title "ܝܗܒܐܠܗܐ ܩܕܡܝܐ"@syr, "Yahbalaha I"@en ;
+ dcterms:subject <http://syriaca.org/person/809> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Yahbalaha I — ܝܗܒܐܠܗܐ ܩܕܡܝܐ in last modified August 17, 2016, http://syriaca.org/person/809" .
+
+<http://syriaca.org/person/809/tei> a rdfs:Resource; ;
+ dcterms:title "ܝܗܒܐܠܗܐ ܩܕܡܝܐ"@syr, "Yahbalaha I"@en ;
+ dcterms:subject <http://syriaca.org/person/809> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Yahbalaha I — ܝܗܒܐܠܗܐ ܩܕܡܝܐ in last modified August 17, 2016, http://syriaca.org/person/809" .
+
+<http://syriaca.org/person/809/ttl> a rdfs:Resource; ;
+ dcterms:title "ܝܗܒܐܠܗܐ ܩܕܡܝܐ"@syr, "Yahbalaha I"@en ;
+ dcterms:subject <http://syriaca.org/person/809> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Yahbalaha I — ܝܗܒܐܠܗܐ ܩܕܡܝܐ in last modified August 17, 2016, http://syriaca.org/person/809" .

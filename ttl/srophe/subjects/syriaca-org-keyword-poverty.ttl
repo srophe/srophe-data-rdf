@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/poverty> a  ;
+ rdfs:label "Poverty"@en ;
+ skos:closeMatch <http://lccn.loc.gov/sh85105939> ; 
+ dcterms:relation <http://lccn.loc.gov/sh85105939> ;
+ dcterms:relation <http://syriaca.org/keyword/poverty> ; 
+ dcterms:relation <http://syriaca.org/keyword/economics> ; 
+ dcterms:relation <http://syriaca.org/keyword/poverty> ; 
+ dcterms:relation <http://syriaca.org/keyword/socioeconomic-status> ;
+ dcterms:relation <http://syriaca.org/keyword/poverty/html>, <http://syriaca.org/keyword/poverty/tei>, <http://syriaca.org/keyword/poverty/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/poverty/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/poverty/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/poverty/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/economics> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/poverty> .
+
+ skos:broadMatch <http://syriaca.org/keyword/socioeconomic-status> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/poverty> .
+
+<http://syriaca.org/keyword/poverty/html> a rdfs:Resource; ;
+ dcterms:title "Poverty"@en ;
+ dcterms:subject <http://syriaca.org/keyword/poverty> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Poverty in last modified May 5, 2017, http://syriaca.org/keyword/poverty" .
+
+<http://syriaca.org/keyword/poverty/tei> a rdfs:Resource; ;
+ dcterms:title "Poverty"@en ;
+ dcterms:subject <http://syriaca.org/keyword/poverty> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Poverty in last modified May 5, 2017, http://syriaca.org/keyword/poverty" .
+
+<http://syriaca.org/keyword/poverty/ttl> a rdfs:Resource; ;
+ dcterms:title "Poverty"@en ;
+ dcterms:subject <http://syriaca.org/keyword/poverty> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Poverty in last modified May 5, 2017, http://syriaca.org/keyword/poverty" .

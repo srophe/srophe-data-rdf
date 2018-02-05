@@ -1,0 +1,105 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/75> a lawd:Person ;
+ rdfs:label "Peter of Kallinikos"@en, "ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/436> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/436> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/109> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Peter of Callinicum"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܦܛܪܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Peṭrā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Peter of Callinicus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Pēṭrā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Pierre de Callinique"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Peter of Kallinikos"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Petrus e Callinico"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ skos:related <http://syriaca.org/place/2546> ; 
+ skos:related <http://syriaca.org/person/75> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_75>, <http://worldcat.org/identities/np-peter$callinicus patriarch of antioch$d 591>, <http://viaf.org/viaf/94663839>, <http://viaf.org/viaf/192011562>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Peter of Callinicum&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_75>, <http://worldcat.org/identities/np-peter$callinicus patriarch of antioch$d 591>, <http://viaf.org/viaf/94663839>, <http://viaf.org/viaf/192011562>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Peter of Callinicum&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/75> ; 
+ dcterms:relation <http://syriaca.org/place/109> ; 
+ dcterms:relation <http://syriaca.org/person/75> ; 
+ dcterms:relation <http://syriaca.org/place/349> ; 
+ dcterms:relation <http://syriaca.org/person/75> ; 
+ dcterms:relation <http://syriaca.org/place/351> ; 
+ dcterms:relation <http://syriaca.org/place/572> ; 
+ dcterms:relation <http://syriaca.org/place/214> ;
+ dcterms:source <http://syriaca.org/bibl/436>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/1700>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/645> ;
+ dcterms:relation <http://syriaca.org/person/75/html>, <http://syriaca.org/person/75/tei>, <http://syriaca.org/person/75/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/75/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/75/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/75/ttl> ;
+ dcterms:relation <http://syriaca.org/place/109>, <http://syriaca.org/place/2546>, <http://syriaca.org/person/75>, <http://syriaca.org/work/775>, <http://syriaca.org/bibl/436>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Peter of Callinicum&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/1700>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/645> .
+
+ syriaca:bornAt <http://syriaca.org/place/109> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> .
+
+ syriaca:diedAt <http://syriaca.org/place/349> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/351> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/572> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/214> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> .
+
+<http://syriaca.org/person/75/html> a rdfs:Resource; ;
+ dcterms:title "Peter of Kallinikos"@en, "ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/75> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Peter of Kallinikos — ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ in last modified August 17, 2016, http://syriaca.org/person/75" .
+
+<http://syriaca.org/person/75/tei> a rdfs:Resource; ;
+ dcterms:title "Peter of Kallinikos"@en, "ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/75> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Peter of Kallinikos — ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ in last modified August 17, 2016, http://syriaca.org/person/75" .
+
+<http://syriaca.org/person/75/ttl> a rdfs:Resource; ;
+ dcterms:title "Peter of Kallinikos"@en, "ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/75> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Peter of Kallinikos — ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ in last modified August 17, 2016, http://syriaca.org/person/75" .

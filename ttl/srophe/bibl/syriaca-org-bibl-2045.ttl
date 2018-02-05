@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2045> a dcterms:bibliographicResource ;
+ rdfs:label "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/M3T78F8N>, <http://www.worldcat.org/oclc/761231410>, <http://www.worldcat.org/oclc/312845017>, <http://www.worldcat.org/oclc/163819811>, <http://www.worldcat.org/oclc/769464169>, <http://www.worldcat.org/oclc/928730575>, <http://www.worldcat.org/oclc/872456636>, <http://www.worldcat.org/oclc/492536210 889080194>, <http://www.worldcat.org/oclc/799423418> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/M3T78F8N>, <http://www.worldcat.org/oclc/761231410>, <http://www.worldcat.org/oclc/312845017>, <http://www.worldcat.org/oclc/163819811>, <http://www.worldcat.org/oclc/769464169>, <http://www.worldcat.org/oclc/928730575>, <http://www.worldcat.org/oclc/872456636>, <http://www.worldcat.org/oclc/492536210 889080194>, <http://www.worldcat.org/oclc/799423418> ;
+ dcterms:relation <http://syriaca.org/bibl/2045/html>, <http://syriaca.org/bibl/2045/tei>, <http://syriaca.org/bibl/2045/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2045/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2045/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2045/ttl> .
+
+<http://syriaca.org/bibl/2045/html> a rdfs:Resource; ;
+ dcterms:title "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI" ;
+ dcterms:subject <http://syriaca.org/bibl/2045> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sévère d'Antioche, Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI, trans. , Patrologia Orientalis,vol. 35.3 [165] (Turnhout: Brepols, 1969)" .
+
+<http://syriaca.org/bibl/2045/tei> a rdfs:Resource; ;
+ dcterms:title "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI" ;
+ dcterms:subject <http://syriaca.org/bibl/2045> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sévère d'Antioche, Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI, trans. , Patrologia Orientalis,vol. 35.3 [165] (Turnhout: Brepols, 1969)" .
+
+<http://syriaca.org/bibl/2045/ttl> a rdfs:Resource; ;
+ dcterms:title "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI" ;
+ dcterms:subject <http://syriaca.org/bibl/2045> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sévère d'Antioche, Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XLVI à LI, trans. , Patrologia Orientalis,vol. 35.3 [165] (Turnhout: Brepols, 1969)" .

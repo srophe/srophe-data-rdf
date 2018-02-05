@@ -1,0 +1,78 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/325> a lawd:Person ;
+ rdfs:label "ܐܚܘܗܕܐܡܗ"@syr, "Ahudemmeh"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/33> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ahoudemmeh of Tagrit"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ahudemmeh"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Ahudemmeh"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_325>, <http://viaf.org/viaf/268516463>, <http://viaf.org/viaf/45521124>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahoudemmeh of Tagrit&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_325>, <http://viaf.org/viaf/268516463>, <http://viaf.org/viaf/45521124>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahoudemmeh of Tagrit&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/325> ; 
+ dcterms:relation <http://syriaca.org/person/67> ;
+ dcterms:source <http://syriaca.org/bibl/33>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645> ;
+ dcterms:relation <http://syriaca.org/person/325/html>, <http://syriaca.org/person/325/tei>, <http://syriaca.org/person/325/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/325/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/325/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/325/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/33>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahoudemmeh of Tagrit&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/67> ;
+ lawd:hasAttestation <http://syriaca.org/person/325> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/325> ;
+ lawd:hasAttestation <http://syriaca.org/person/325> .
+
+<http://syriaca.org/person/325/html> a rdfs:Resource; ;
+ dcterms:title "ܐܚܘܗܕܐܡܗ"@syr, "Ahudemmeh"@en ;
+ dcterms:subject <http://syriaca.org/person/325> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Ahudemmeh — ܐܚܘܗܕܐܡܗ in last modified August 17, 2016, http://syriaca.org/person/325" .
+
+<http://syriaca.org/person/325/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܚܘܗܕܐܡܗ"@syr, "Ahudemmeh"@en ;
+ dcterms:subject <http://syriaca.org/person/325> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Ahudemmeh — ܐܚܘܗܕܐܡܗ in last modified August 17, 2016, http://syriaca.org/person/325" .
+
+<http://syriaca.org/person/325/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܚܘܗܕܐܡܗ"@syr, "Ahudemmeh"@en ;
+ dcterms:subject <http://syriaca.org/person/325> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Ahudemmeh — ܐܚܘܗܕܐܡܗ in last modified August 17, 2016, http://syriaca.org/person/325" .

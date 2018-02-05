@@ -1,0 +1,72 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/11> a lawd:Place ;
+ rdfs:label "Apamea"@en, "ܐܘܦܡܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Apamea"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܐܘܦܡܝܐ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܘܦܰܡܝܰܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܩܰܠܥܗ̈ ܐܠܡܨ̇ܝܩ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "آفامية"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "فامية"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "قلعة المضيق"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qalʿat al-Madīq"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "أَفَامِيَة"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qalat al-Madīq"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qal‘at al-Madīq"@en-x-srp1 ;];
+ skos:closeMatch <http://pleiades.stoa.org/places/668335>, <http://en.wikipedia.org/wiki/Apamea_(Syria)>, <http://dbpedia.org/resource/Apamea_(Syria)>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Apamea&sT=keywords> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/668335>, <http://en.wikipedia.org/wiki/Apamea_(Syria)>, <http://dbpedia.org/resource/Apamea_(Syria)>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Apamea&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/11/html>, <http://syriaca.org/place/11/tei>, <http://syriaca.org/place/11/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/11/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/11/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/11/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Apamea&sT=keywords>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/11/html> a rdfs:Resource; ;
+ dcterms:title "Apamea"@en, "ܐܘܦܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/11> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Apamea — ܐܘܦܡܝܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/11" .
+
+<http://syriaca.org/place/11/tei> a rdfs:Resource; ;
+ dcterms:title "Apamea"@en, "ܐܘܦܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/11> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Apamea — ܐܘܦܡܝܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/11" .
+
+<http://syriaca.org/place/11/ttl> a rdfs:Resource; ;
+ dcterms:title "Apamea"@en, "ܐܘܦܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/11> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Apamea — ܐܘܦܡܝܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/11" .

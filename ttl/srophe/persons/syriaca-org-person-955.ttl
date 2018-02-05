@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/955> a lawd:Person ;
+ rdfs:label "ܕܘܝܕ ܕܒܨܪܐ"@syr, "David of Basra"@en ;
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "David von Bàṣrā"@de ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@de-x-baumstrk ;
+ lawd:hasAttestation <http://syriaca.org/bibl/638> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_955> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_955> ;
+ dcterms:source <http://syriaca.org/bibl/638> ;
+ dcterms:relation <http://syriaca.org/person/955/html>, <http://syriaca.org/person/955/tei>, <http://syriaca.org/person/955/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/955/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/955/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/955/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/638> .
+
+<http://syriaca.org/person/955/html> a rdfs:Resource; ;
+ dcterms:title "ܕܘܝܕ ܕܒܨܪܐ"@syr, "David of Basra"@en ;
+ dcterms:subject <http://syriaca.org/person/955> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), David of Basra — ܕܘܝܕ ܕܒܨܪܐ in last modified August 17, 2016, http://syriaca.org/person/955" .
+
+<http://syriaca.org/person/955/tei> a rdfs:Resource; ;
+ dcterms:title "ܕܘܝܕ ܕܒܨܪܐ"@syr, "David of Basra"@en ;
+ dcterms:subject <http://syriaca.org/person/955> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), David of Basra — ܕܘܝܕ ܕܒܨܪܐ in last modified August 17, 2016, http://syriaca.org/person/955" .
+
+<http://syriaca.org/person/955/ttl> a rdfs:Resource; ;
+ dcterms:title "ܕܘܝܕ ܕܒܨܪܐ"@syr, "David of Basra"@en ;
+ dcterms:subject <http://syriaca.org/person/955> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealDavid A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), David of Basra — ܕܘܝܕ ܕܒܨܪܐ in last modified August 17, 2016, http://syriaca.org/person/955" .

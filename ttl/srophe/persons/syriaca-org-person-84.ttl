@@ -1,0 +1,101 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/84> a lawd:Person ;
+ rdfs:label "Paul , metropolitan of Edessa"@en, "ܦܘܠܘܣ ܕܐܘܪܗܝ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/424> ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ lawd:hasName [
+ lawd:variantForm "PAUL, évêque d'Edesse"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Paul of Edessa"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Paulus ep. Edessae"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ skos:related <http://syriaca.org/place/78> ; 
+ skos:related <http://syriaca.org/person/51> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_84>, <http://viaf.org/viaf/227712673/>, <http://www.worldcat.org/oclc/1196066>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul of Edessa&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_84>, <http://viaf.org/viaf/227712673/>, <http://www.worldcat.org/oclc/1196066>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul of Edessa&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/84> ; 
+ dcterms:relation <http://syriaca.org/place/78> ; 
+ dcterms:relation <http://syriaca.org/place/59> ; 
+ dcterms:relation <http://syriaca.org/place/714> ; 
+ dcterms:relation <http://syriaca.org/place/7> ; 
+ dcterms:relation <http://syriaca.org/place/715> ; 
+ dcterms:relation <http://syriaca.org/person/84> ; 
+ dcterms:relation <http://syriaca.org/person/86> ;
+ dcterms:source <http://syriaca.org/bibl/424>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1386>, <http://syriaca.org/bibl/1379>, <http://syriaca.org/bibl/2208>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> ;
+ dcterms:relation <http://syriaca.org/person/84/html>, <http://syriaca.org/person/84/tei>, <http://syriaca.org/person/84/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/84/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/84/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/84/ttl> ;
+ dcterms:relation <http://syriaca.org/place/78>, <http://syriaca.org/person/51>, <http://syriaca.org/bibl/424>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul of Edessa&sT=keywords>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1386>, <http://syriaca.org/bibl/1379>, <http://syriaca.org/bibl/2208>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/78> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/59> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/714> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/7> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/715> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/86> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/84> ;
+ lawd:hasAttestation <http://syriaca.org/person/84> .
+
+<http://syriaca.org/person/84/html> a rdfs:Resource; ;
+ dcterms:title "Paul , metropolitan of Edessa"@en, "ܦܘܠܘܣ ܕܐܘܪܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/84> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Paul, metropolitan of Edessa — ܦܘܠܘܣ ܕܐܘܪܗܝ in last modified August 17, 2016, http://syriaca.org/person/84" .
+
+<http://syriaca.org/person/84/tei> a rdfs:Resource; ;
+ dcterms:title "Paul , metropolitan of Edessa"@en, "ܦܘܠܘܣ ܕܐܘܪܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/84> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Paul, metropolitan of Edessa — ܦܘܠܘܣ ܕܐܘܪܗܝ in last modified August 17, 2016, http://syriaca.org/person/84" .
+
+<http://syriaca.org/person/84/ttl> a rdfs:Resource; ;
+ dcterms:title "Paul , metropolitan of Edessa"@en, "ܦܘܠܘܣ ܕܐܘܪܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/84> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian HealJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson Kristian Heal, (eds.), Paul, metropolitan of Edessa — ܦܘܠܘܣ ܕܐܘܪܗܝ in last modified August 17, 2016, http://syriaca.org/person/84" .

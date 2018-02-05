@@ -1,0 +1,91 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/280> a lawd:Person ;
+ rdfs:label "Ignatius Jacob I , patriarch of Antioch"@en, "ܝܥܩܘܒ ܩܕܡܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ skos:related <http://syriaca.org/place/10> ; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/10> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ignatius Yaqub I"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ignatius Ya‘qub I"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jacob I, Ibn al Muzawwaq"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_280> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_280> ;
+ dcterms:relation <http://syriaca.org/person/280> ; 
+ dcterms:relation <http://syriaca.org/place/1481> ; 
+ dcterms:relation <http://syriaca.org/person/280> ; 
+ dcterms:relation <http://syriaca.org/place/513> ; 
+ dcterms:relation <http://syriaca.org/place/228> ; 
+ dcterms:relation <http://syriaca.org/place/143> ; 
+ dcterms:relation <http://syriaca.org/place/69> ; 
+ dcterms:relation <http://syriaca.org/place/335> ; 
+ dcterms:relation <http://syriaca.org/place/8> ;
+ dcterms:source <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/642> ;
+ dcterms:relation <http://syriaca.org/person/280/html>, <http://syriaca.org/person/280/tei>, <http://syriaca.org/person/280/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/280/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/280/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/280/ttl> ;
+ dcterms:relation <http://syriaca.org/place/10>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/642> .
+
+ syriaca:bornAt <http://syriaca.org/place/1481> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/513> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/228> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/143> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/69> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/335> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/8> ;
+ lawd:hasAttestation <http://syriaca.org/person/280> .
+
+<http://syriaca.org/person/280/html> a rdfs:Resource; ;
+ dcterms:title "Ignatius Jacob I , patriarch of Antioch"@en, "ܝܥܩܘܒ ܩܕܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/280> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Ignatius Jacob I, patriarch of Antioch — ܝܥܩܘܒ ܩܕܡܝܐ in last modified December 9, 2016, http://syriaca.org/person/280" .
+
+<http://syriaca.org/person/280/tei> a rdfs:Resource; ;
+ dcterms:title "Ignatius Jacob I , patriarch of Antioch"@en, "ܝܥܩܘܒ ܩܕܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/280> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Ignatius Jacob I, patriarch of Antioch — ܝܥܩܘܒ ܩܕܡܝܐ in last modified December 9, 2016, http://syriaca.org/person/280" .
+
+<http://syriaca.org/person/280/ttl> a rdfs:Resource; ;
+ dcterms:title "Ignatius Jacob I , patriarch of Antioch"@en, "ܝܥܩܘܒ ܩܕܡܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/280> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Ignatius Jacob I, patriarch of Antioch — ܝܥܩܘܒ ܩܕܡܝܐ in last modified December 9, 2016, http://syriaca.org/person/280" .

@@ -1,0 +1,41 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/1707> a lawd:Place ;
+ rdfs:label "Shawrezā"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Shawrezā"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/9> ;];
+ dcterms:source <http://syriaca.org/bibl/9> ;
+ dcterms:relation <http://syriaca.org/place/1707/html>, <http://syriaca.org/place/1707/tei>, <http://syriaca.org/place/1707/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1707/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1707/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1707/ttl> ;
+ dcterms:relation <http://syriaca.org/place/737>, <http://syriaca.org/place/90>, <http://syriaca.org/bibl/9> .
+
+<http://syriaca.org/place/1707/html> a rdfs:Resource; ;
+ dcterms:title "Shawrezā"@en ;
+ dcterms:subject <http://syriaca.org/place/1707> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Shawrezā in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/1707" .
+
+<http://syriaca.org/place/1707/tei> a rdfs:Resource; ;
+ dcterms:title "Shawrezā"@en ;
+ dcterms:subject <http://syriaca.org/place/1707> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Shawrezā in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/1707" .
+
+<http://syriaca.org/place/1707/ttl> a rdfs:Resource; ;
+ dcterms:title "Shawrezā"@en ;
+ dcterms:subject <http://syriaca.org/place/1707> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Shawrezā in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/1707" .

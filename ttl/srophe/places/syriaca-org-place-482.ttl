@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/482> a lawd:Place ;
+ rdfs:label "Dayr al-Zor"@en, "ܕܝܪ ܐܠܙܘܪ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr al-Zor"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪ ܐܠܙܘܪ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪ ܐܠܙܘܪ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "دير الزور"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Dayr al-Zur"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Deir al-Zor"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/9> ;]; 
+ skos:related <http://syriaca.org/place/82> ; 
+ skos:related <http://syriaca.org/place/109> ;
+ skos:closeMatch <http://en.wikipedia.org/wiki/Deir_ez-Zor>, <http://dbpedia.org/resource/Deir_ez-Zor> ; 
+ dcterms:relation <http://en.wikipedia.org/wiki/Deir_ez-Zor>, <http://dbpedia.org/resource/Deir_ez-Zor> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/9> ;
+ dcterms:relation <http://syriaca.org/place/482/html>, <http://syriaca.org/place/482/tei>, <http://syriaca.org/place/482/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/482/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/482/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/482/ttl> ;
+ dcterms:relation <http://syriaca.org/place/82>, <http://syriaca.org/place/109>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/9> .
+
+<http://syriaca.org/place/482/html> a rdfs:Resource; ;
+ dcterms:title "Dayr al-Zor"@en, "ܕܝܪ ܐܠܙܘܪ"@syr ;
+ dcterms:subject <http://syriaca.org/place/482> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dayr al-Zor — ܕܝܪ ܐܠܙܘܪ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/482" .
+
+<http://syriaca.org/place/482/tei> a rdfs:Resource; ;
+ dcterms:title "Dayr al-Zor"@en, "ܕܝܪ ܐܠܙܘܪ"@syr ;
+ dcterms:subject <http://syriaca.org/place/482> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dayr al-Zor — ܕܝܪ ܐܠܙܘܪ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/482" .
+
+<http://syriaca.org/place/482/ttl> a rdfs:Resource; ;
+ dcterms:title "Dayr al-Zor"@en, "ܕܝܪ ܐܠܙܘܪ"@syr ;
+ dcterms:subject <http://syriaca.org/place/482> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dayr al-Zor — ܕܝܪ ܐܠܙܘܪ in The Syriac Gazetteer last modified January 14, 2014, http://syriaca.org/place/482" .

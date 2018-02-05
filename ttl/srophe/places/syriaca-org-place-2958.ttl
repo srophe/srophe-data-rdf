@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/2958> a lawd:Place ;
+ rdfs:label "al-Daylam"@en, "الديلم"@ar ;
+ lawd:hasName [
+ lawd:primaryForm "al-Daylam"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "الديلم"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2501> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2503> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Dailam"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ skos:related <http://syriaca.org/place/526> ;
+ skos:closeMatch <https://pleiades.stoa.org/places/884140>, <https://en.wikipedia.org/wiki/Daylam>, <https://dbpedia.org/resource/Daylam> ; 
+ dcterms:relation <https://pleiades.stoa.org/places/884140>, <https://en.wikipedia.org/wiki/Daylam>, <https://dbpedia.org/resource/Daylam> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <https://pleiades.stoa.org/places/884140>, <http://syriaca.org/bibl/2501>, <http://syriaca.org/bibl/2503> ;
+ dcterms:relation <http://syriaca.org/place/2958/html>, <http://syriaca.org/place/2958/tei>, <http://syriaca.org/place/2958/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2958/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2958/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2958/ttl> ;
+ dcterms:relation <http://syriaca.org/place/526>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/2501>, <http://syriaca.org/bibl/2503> .
+
+<http://syriaca.org/place/2958/html> a rdfs:Resource; ;
+ dcterms:title "al-Daylam"@en, "الديلم"@ar ;
+ dcterms:subject <http://syriaca.org/place/2958> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Daylam in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2958" .
+
+<http://syriaca.org/place/2958/tei> a rdfs:Resource; ;
+ dcterms:title "al-Daylam"@en, "الديلم"@ar ;
+ dcterms:subject <http://syriaca.org/place/2958> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Daylam in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2958" .
+
+<http://syriaca.org/place/2958/ttl> a rdfs:Resource; ;
+ dcterms:title "al-Daylam"@en, "الديلم"@ar ;
+ dcterms:subject <http://syriaca.org/place/2958> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), al-Daylam in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/2958" .

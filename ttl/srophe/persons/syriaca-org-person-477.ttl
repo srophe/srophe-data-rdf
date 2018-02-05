@@ -1,0 +1,104 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/477> a lawd:Person ;
+ rdfs:label "Epiphanius of Salamis"@en, "ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/208> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/208> ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/7> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Epiphanius"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Epīpanyos"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܦܝܦܢ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Epiphanius of Cyprus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾEpīpan"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Épiphane de Chypre"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Épiphane de Salamine"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܦܝܦܐܢܝܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ skos:related <http://syriaca.org/person/477> ; 
+ skos:related <http://syriaca.org/person/477> ; 
+ skos:related <http://syriaca.org/person/477> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_477>, <http://viaf.org/viaf/13651211>, <http://worldcat.org/identities/lccn-n82-39938>, <http://viaf.org/viaf/88910512>, <http://viaf.org/viaf/241745185>, <http://viaf.org/viaf/234187360>, <http://viaf.org/viaf/201812013>, <http://viaf.org/viaf/188049327>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Epiphanius&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_477>, <http://viaf.org/viaf/13651211>, <http://worldcat.org/identities/lccn-n82-39938>, <http://viaf.org/viaf/88910512>, <http://viaf.org/viaf/241745185>, <http://viaf.org/viaf/234187360>, <http://viaf.org/viaf/201812013>, <http://viaf.org/viaf/188049327>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Epiphanius&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/208>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/477/html>, <http://syriaca.org/person/477/tei>, <http://syriaca.org/person/477/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/477/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/477/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/477/ttl> ;
+ dcterms:relation <http://syriaca.org/person/477>, <http://syriaca.org/work/1453>, <http://syriaca.org/work/1506>, <http://syriaca.org/work/1984>, <http://syriaca.org/bibl/208>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Epiphanius&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/477/html> a rdfs:Resource; ;
+ dcterms:title "Epiphanius of Salamis"@en, "ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/477> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Epiphanius of Salamis — ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ in last modified August 17, 2016, http://syriaca.org/person/477" .
+
+<http://syriaca.org/person/477/tei> a rdfs:Resource; ;
+ dcterms:title "Epiphanius of Salamis"@en, "ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/477> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Epiphanius of Salamis — ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ in last modified August 17, 2016, http://syriaca.org/person/477" .
+
+<http://syriaca.org/person/477/ttl> a rdfs:Resource; ;
+ dcterms:title "Epiphanius of Salamis"@en, "ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/person/477> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson Nathan P. Gibson James E. Walters Thomas A. Carlson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Epiphanius of Salamis — ܐܦܝܦܐܢܝܘܣ ܕܩܘܦܪܘܣ in last modified August 17, 2016, http://syriaca.org/person/477" .

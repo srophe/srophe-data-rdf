@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/158> a lawd:Person ;
+ rdfs:label "Arabi , metropolitan of Samosata"@en, "ܐܪܐܒܝ ܕܫܡܝܫܛ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ skos:related <http://syriaca.org/place/178> ; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/178> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ skos:related <http://syriaca.org/place/178> ; 
+ lawd:hasName [
+ lawd:variantForm "Arabi of Samosata"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_158> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_158> ;
+ dcterms:relation <http://syriaca.org/person/158> ; 
+ dcterms:relation <http://syriaca.org/place/10> ; 
+ dcterms:relation <http://syriaca.org/person/158> ; 
+ dcterms:relation <http://syriaca.org/place/229> ; 
+ dcterms:relation <http://syriaca.org/place/178> ;
+ dcterms:source <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3> ;
+ dcterms:relation <http://syriaca.org/person/158/html>, <http://syriaca.org/person/158/tei>, <http://syriaca.org/person/158/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/158/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/158/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/158/ttl> ;
+ dcterms:relation <http://syriaca.org/place/178>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3> .
+
+ syriaca:bornAt <http://syriaca.org/place/10> ;
+ lawd:hasAttestation <http://syriaca.org/person/158> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/229> ;
+ lawd:hasAttestation <http://syriaca.org/person/158> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/178> ;
+ lawd:hasAttestation <http://syriaca.org/person/158> .
+
+<http://syriaca.org/person/158/html> a rdfs:Resource; ;
+ dcterms:title "Arabi , metropolitan of Samosata"@en, "ܐܪܐܒܝ ܕܫܡܝܫܛ"@syr ;
+ dcterms:subject <http://syriaca.org/person/158> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Arabi, metropolitan of Samosata — ܐܪܐܒܝ ܕܫܡܝܫܛ in last modified August 17, 2016, http://syriaca.org/person/158" .
+
+<http://syriaca.org/person/158/tei> a rdfs:Resource; ;
+ dcterms:title "Arabi , metropolitan of Samosata"@en, "ܐܪܐܒܝ ܕܫܡܝܫܛ"@syr ;
+ dcterms:subject <http://syriaca.org/person/158> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Arabi, metropolitan of Samosata — ܐܪܐܒܝ ܕܫܡܝܫܛ in last modified August 17, 2016, http://syriaca.org/person/158" .
+
+<http://syriaca.org/person/158/ttl> a rdfs:Resource; ;
+ dcterms:title "Arabi , metropolitan of Samosata"@en, "ܐܪܐܒܝ ܕܫܡܝܫܛ"@syr ;
+ dcterms:subject <http://syriaca.org/person/158> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Arabi, metropolitan of Samosata — ܐܪܐܒܝ ܕܫܡܝܫܛ in last modified August 17, 2016, http://syriaca.org/person/158" .

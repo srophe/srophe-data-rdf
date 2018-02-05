@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2074> a dcterms:bibliographicResource ;
+ rdfs:label "Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго)" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/4IW8QHR7> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/4IW8QHR7> ;
+ dcterms:relation <http://syriaca.org/bibl/2074/html>, <http://syriaca.org/bibl/2074/tei>, <http://syriaca.org/bibl/2074/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2074/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2074/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2074/ttl> ;
+ dcterms:relation <http://hdl.handle.net/2027/chi.79319750?urlappend=%3Bseq=107> .
+
+<http://syriaca.org/bibl/2074/html> a rdfs:Resource; ;
+ dcterms:title "Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго)" ;
+ dcterms:subject <http://syriaca.org/bibl/2074> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Павелъ Константиновичъ Коковцовъ, Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго).Записки Восточнаго Отдѣленiя Императорскаго Русскаго Археологическаго Общества vol. 9 (1896)" .
+
+<http://syriaca.org/bibl/2074/tei> a rdfs:Resource; ;
+ dcterms:title "Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго)" ;
+ dcterms:subject <http://syriaca.org/bibl/2074> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Павелъ Константиновичъ Коковцовъ, Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго).Записки Восточнаго Отдѣленiя Императорскаго Русскаго Археологическаго Общества vol. 9 (1896)" .
+
+<http://syriaca.org/bibl/2074/ttl> a rdfs:Resource; ;
+ dcterms:title "Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго)" ;
+ dcterms:subject <http://syriaca.org/bibl/2074> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Павелъ Константиновичъ Коковцовъ, Чудеса св. Николая, епископа города Миръ (Перевод съ сирiйскаго).Записки Восточнаго Отдѣленiя Императорскаго Русскаго Археологическаго Общества vol. 9 (1896)" .

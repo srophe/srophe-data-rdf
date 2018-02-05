@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2821> a lawd:Person ;
+ rdfs:label "ܐܒܪܗܡ ܙܐܒܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/637> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/637> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Abraham Zabaya"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܒܪܗܡ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ skos:related <http://syriaca.org/person/366> ; 
+ skos:related <http://syriaca.org/person/309> ; 
+ skos:related <http://syriaca.org/person/366> ; 
+ skos:related <http://syriaca.org/person/2821> ;
+ dcterms:source <http://syriaca.org/work/964>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/637>, <http://syriaca.org/bibl/84>, <http://syriaca.org/bibl/2499> ;
+ dcterms:relation <http://syriaca.org/person/2821/html>, <http://syriaca.org/person/2821/tei>, <http://syriaca.org/person/2821/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2821/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2821/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2821/ttl> ;
+ dcterms:relation <http://syriaca.org/person/366>, <http://syriaca.org/work/964>, <http://syriaca.org/person/309>, <http://syriaca.org/person/2821>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/637>, <http://syriaca.org/bibl/84>, <http://syriaca.org/bibl/2499> .
+
+<http://syriaca.org/person/2821/html> a rdfs:Resource; ;
+ dcterms:title "ܐܒܪܗܡ ܙܐܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2821> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraNathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Nathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Abraham Zabaya — ܐܒܪܗܡ ܙܐܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/2821" .
+
+<http://syriaca.org/person/2821/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܒܪܗܡ ܙܐܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2821> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraNathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Nathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Abraham Zabaya — ܐܒܪܗܡ ܙܐܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/2821" .
+
+<http://syriaca.org/person/2821/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܒܪܗܡ ܙܐܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2821> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraNathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and Nathan P. Gibson André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Abraham Zabaya — ܐܒܪܗܡ ܙܐܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/2821" .

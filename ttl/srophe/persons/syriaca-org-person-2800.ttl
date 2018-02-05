@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2800> a lawd:Person ;
+ rdfs:label "Methodius of Olympus"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/381> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ skos:related <http://syriaca.org/person/2800> ;
+ skos:closeMatch <http://viaf.org/viaf/73947686>, <http://viaf.org/viaf/203259473> ; 
+ dcterms:relation <http://viaf.org/viaf/73947686>, <http://viaf.org/viaf/203259473> ;
+ dcterms:source <http://syriaca.org/work/1558>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/381> ;
+ dcterms:relation <http://syriaca.org/person/2800/html>, <http://syriaca.org/person/2800/tei>, <http://syriaca.org/person/2800/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2800/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2800/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2800/ttl> ;
+ dcterms:relation <http://syriaca.org/work/1558>, <http://syriaca.org/person/2800>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/381> .
+
+<http://syriaca.org/person/2800/html> a rdfs:Resource; ;
+ dcterms:title "Methodius of Olympus"@en ;
+ dcterms:subject <http://syriaca.org/person/2800> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson (eds.), Methodius of Olympus in last modified August 17, 2016, http://syriaca.org/person/2800" .
+
+<http://syriaca.org/person/2800/tei> a rdfs:Resource; ;
+ dcterms:title "Methodius of Olympus"@en ;
+ dcterms:subject <http://syriaca.org/person/2800> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson (eds.), Methodius of Olympus in last modified August 17, 2016, http://syriaca.org/person/2800" .
+
+<http://syriaca.org/person/2800/ttl> a rdfs:Resource; ;
+ dcterms:title "Methodius of Olympus"@en ;
+ dcterms:subject <http://syriaca.org/person/2800> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson (eds.), Methodius of Olympus in last modified August 17, 2016, http://syriaca.org/person/2800" .

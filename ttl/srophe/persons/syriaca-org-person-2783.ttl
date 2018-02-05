@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2783> a lawd:Person ;
+ rdfs:label "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1713> ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1713> ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1713> ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ lawd:hasName [
+ lawd:variantForm "(or )"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1712> ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ lawd:hasName [
+ lawd:variantForm ""@grc ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1712> ;]; 
+ skos:related <http://syriaca.org/place/165> ; 
+ skos:related <http://syriaca.org/person/53> ; 
+ skos:related <http://syriaca.org/place/165> ;
+ skos:closeMatch <http://viaf.org/viaf/298170625>, <http://viaf.org/viaf/221093718> ; 
+ dcterms:relation <http://viaf.org/viaf/298170625>, <http://viaf.org/viaf/221093718> ;
+ dcterms:source <http://syriaca.org/bibl/1712>, <http://syriaca.org/bibl/1713> ;
+ dcterms:relation <http://syriaca.org/person/2783/html>, <http://syriaca.org/person/2783/tei>, <http://syriaca.org/person/2783/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2783/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2783/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2783/ttl> ;
+ dcterms:relation <http://syriaca.org/place/165>, <http://syriaca.org/person/53>, <http://syriaca.org/bibl/1712>, <http://syriaca.org/bibl/1713> .
+
+<http://syriaca.org/person/2783/html> a rdfs:Resource; ;
+ dcterms:title "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2783> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson (eds.),  — ܣܪܓܣ ܕ in last modified August 17, 2016, http://syriaca.org/person/2783" .
+
+<http://syriaca.org/person/2783/tei> a rdfs:Resource; ;
+ dcterms:title "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2783> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson (eds.),  — ܣܪܓܣ ܕ in last modified August 17, 2016, http://syriaca.org/person/2783" .
+
+<http://syriaca.org/person/2783/ttl> a rdfs:Resource; ;
+ dcterms:title "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2783> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson (eds.),  — ܣܪܓܣ ܕ in last modified August 17, 2016, http://syriaca.org/person/2783" .

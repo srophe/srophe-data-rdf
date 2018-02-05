@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2120> a dcterms:bibliographicResource ;
+ rdfs:label "The Cult of Saint Sergius in its Socio-Political Context" ;
+ skos:closeMatch <http://www.worldcat.org/oclc/4632469768> ; 
+ dcterms:relation <http://www.worldcat.org/oclc/4632469768> ;
+ dcterms:relation <http://syriaca.org/bibl/2120/html>, <http://syriaca.org/bibl/2120/tei>, <http://syriaca.org/bibl/2120/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2120/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2120/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2120/ttl> .
+
+<http://syriaca.org/bibl/2120/html> a rdfs:Resource; ;
+ dcterms:title "The Cult of Saint Sergius in its Socio-Political Context" ;
+ dcterms:subject <http://syriaca.org/bibl/2120> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Dianne Van de Zande, The Cult of Saint Sergius in its Socio-Political Context.Eastern Christian Art Eastern Christian Art vol. 1 (2004)" .
+
+<http://syriaca.org/bibl/2120/tei> a rdfs:Resource; ;
+ dcterms:title "The Cult of Saint Sergius in its Socio-Political Context" ;
+ dcterms:subject <http://syriaca.org/bibl/2120> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Dianne Van de Zande, The Cult of Saint Sergius in its Socio-Political Context.Eastern Christian Art Eastern Christian Art vol. 1 (2004)" .
+
+<http://syriaca.org/bibl/2120/ttl> a rdfs:Resource; ;
+ dcterms:title "The Cult of Saint Sergius in its Socio-Political Context" ;
+ dcterms:subject <http://syriaca.org/bibl/2120> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Dianne Van de Zande, The Cult of Saint Sergius in its Socio-Political Context.Eastern Christian Art Eastern Christian Art vol. 1 (2004)" .

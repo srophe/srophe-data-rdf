@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1849> a dcterms:bibliographicResource ;
+ rdfs:label "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/NBXXXS6P>, <http://www.worldcat.org/oclc/491650937>, <http://www.worldcat.org/oclc/633518358>, <http://www.worldcat.org/oclc/769465617>, <http://www.worldcat.org/oclc/916652505>, <http://www.worldcat.org/oclc/921325524>, <http://www.worldcat.org/oclc/258471160>, <http://www.worldcat.org/oclc/889040196> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/NBXXXS6P>, <http://www.worldcat.org/oclc/491650937>, <http://www.worldcat.org/oclc/633518358>, <http://www.worldcat.org/oclc/769465617>, <http://www.worldcat.org/oclc/916652505>, <http://www.worldcat.org/oclc/921325524>, <http://www.worldcat.org/oclc/258471160>, <http://www.worldcat.org/oclc/889040196> ;
+ dcterms:relation <http://syriaca.org/bibl/1849/html>, <http://syriaca.org/bibl/1849/tei>, <http://syriaca.org/bibl/1849/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1849/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1849/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1849/ttl> .
+
+<http://syriaca.org/bibl/1849/html> a rdfs:Resource; ;
+ dcterms:title "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII" ;
+ dcterms:subject <http://syriaca.org/bibl/1849> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Ignazio Guidi (ed.), Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII, Patrologia Orientalis,vol. 22.2 [108] (Paris: Firmin-Didot, 1929)" .
+
+<http://syriaca.org/bibl/1849/tei> a rdfs:Resource; ;
+ dcterms:title "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII" ;
+ dcterms:subject <http://syriaca.org/bibl/1849> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Ignazio Guidi (ed.), Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII, Patrologia Orientalis,vol. 22.2 [108] (Paris: Firmin-Didot, 1929)" .
+
+<http://syriaca.org/bibl/1849/ttl> a rdfs:Resource; ;
+ dcterms:title "Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII" ;
+ dcterms:subject <http://syriaca.org/bibl/1849> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Ignazio Guidi (ed.), Les Homiliae Cathedrales de Sévère d’Antioche: traduction syriaque de Jacques d’Édesse (suite). Homélies XCIX à CIII, Patrologia Orientalis,vol. 22.2 [108] (Paris: Firmin-Didot, 1929)" .

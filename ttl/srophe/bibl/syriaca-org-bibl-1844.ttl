@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1844> a dcterms:bibliographicResource ;
+ rdfs:label "L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/M6XPCNQ2>, <http://www.worldcat.org/oclc/655109350> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/M6XPCNQ2>, <http://www.worldcat.org/oclc/655109350> ;
+ dcterms:relation <http://syriaca.org/bibl/1844/html>, <http://syriaca.org/bibl/1844/tei>, <http://syriaca.org/bibl/1844/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1844/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1844/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1844/ttl> ;
+ dcterms:relation <http://contentdm.lib.byu.edu/u?/CUA,80488> .
+
+<http://syriaca.org/bibl/1844/html> a rdfs:Resource; ;
+ dcterms:title "L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore" ;
+ dcterms:subject <http://syriaca.org/bibl/1844> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "A. L. Frothingham, L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore, Reale Accademia dei Lincei,vol. 9 (Roma: Coi tipi del Salviucci, 1882)" .
+
+<http://syriaca.org/bibl/1844/tei> a rdfs:Resource; ;
+ dcterms:title "L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore" ;
+ dcterms:subject <http://syriaca.org/bibl/1844> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "A. L. Frothingham, L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore, Reale Accademia dei Lincei,vol. 9 (Roma: Coi tipi del Salviucci, 1882)" .
+
+<http://syriaca.org/bibl/1844/ttl> a rdfs:Resource; ;
+ dcterms:title "L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore" ;
+ dcterms:subject <http://syriaca.org/bibl/1844> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "A. L. Frothingham, L'omelia di Giacomo di Sarûg sul battesimo di Costantino imperatore, Reale Accademia dei Lincei,vol. 9 (Roma: Coi tipi del Salviucci, 1882)" .

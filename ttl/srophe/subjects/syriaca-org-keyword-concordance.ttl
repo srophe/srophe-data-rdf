@@ -1,0 +1,48 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/concordance> a  ;
+ rdfs:label "Concordance"@en ;
+ skos:closeMatch <http://id.loc.gov/authorities/subjects/sh85030642> ; 
+ dcterms:relation <http://id.loc.gov/authorities/subjects/sh85030642> ;
+ dcterms:relation <http://syriaca.org/keyword/concordance> ; 
+ dcterms:relation <http://syriaca.org/keyword/genres> ; 
+ dcterms:relation <http://syriaca.org/keyword/concordance> ; 
+ dcterms:relation <http://syriaca.org/keyword/literature> ;
+ dcterms:relation <http://syriaca.org/keyword/concordance/html>, <http://syriaca.org/keyword/concordance/tei>, <http://syriaca.org/keyword/concordance/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/concordance/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/concordance/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/concordance/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/genres> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/concordance> .
+
+ skos:broadMatch <http://syriaca.org/keyword/literature> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/concordance> .
+
+<http://syriaca.org/keyword/concordance/html> a rdfs:Resource; ;
+ dcterms:title "Concordance"@en ;
+ dcterms:subject <http://syriaca.org/keyword/concordance> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Concordance in last modified May 5, 2017, http://syriaca.org/keyword/concordance" .
+
+<http://syriaca.org/keyword/concordance/tei> a rdfs:Resource; ;
+ dcterms:title "Concordance"@en ;
+ dcterms:subject <http://syriaca.org/keyword/concordance> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Concordance in last modified May 5, 2017, http://syriaca.org/keyword/concordance" .
+
+<http://syriaca.org/keyword/concordance/ttl> a rdfs:Resource; ;
+ dcterms:title "Concordance"@en ;
+ dcterms:subject <http://syriaca.org/keyword/concordance> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Concordance in last modified May 5, 2017, http://syriaca.org/keyword/concordance" .

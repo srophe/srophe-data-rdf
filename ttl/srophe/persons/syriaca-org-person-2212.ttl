@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2212> a lawd:Person ;
+ rdfs:label "Anonymi 2212"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Anonymi 2212"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Those attending the Council of Constantinople in 381"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/657> ;];
+ dcterms:source <http://syriaca.org/work/119>, <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657> ;
+ dcterms:relation <http://syriaca.org/person/2212/html>, <http://syriaca.org/person/2212/tei>, <http://syriaca.org/person/2212/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2212/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2212/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2212/ttl> ;
+ dcterms:relation <http://syriaca.org/work/119>, <http://syriaca.org/bibl/633>, <http://syriaca.org/bibl/657> .
+
+<http://syriaca.org/person/2212/html> a rdfs:Resource; ;
+ dcterms:title "Anonymi 2212"@en ;
+ dcterms:subject <http://syriaca.org/person/2212> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz and James E. Walters (eds.), Anonymi 2212 — Those attending the Council of Constantinople in 381 in last modified August 17, 2016, http://syriaca.org/person/2212" .
+
+<http://syriaca.org/person/2212/tei> a rdfs:Resource; ;
+ dcterms:title "Anonymi 2212"@en ;
+ dcterms:subject <http://syriaca.org/person/2212> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz and James E. Walters (eds.), Anonymi 2212 — Those attending the Council of Constantinople in 381 in last modified August 17, 2016, http://syriaca.org/person/2212" .
+
+<http://syriaca.org/person/2212/ttl> a rdfs:Resource; ;
+ dcterms:title "Anonymi 2212"@en ;
+ dcterms:subject <http://syriaca.org/person/2212> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz and James E. Walters (eds.), Anonymi 2212 — Those attending the Council of Constantinople in 381 in last modified August 17, 2016, http://syriaca.org/person/2212" .

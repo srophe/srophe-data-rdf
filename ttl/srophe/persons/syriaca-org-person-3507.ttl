@@ -1,0 +1,46 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/3507> a lawd:Person ;
+ rdfs:label "Ignatius Andrew Akhījān"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Ignatius Andrew Akhījān"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "André Aḥijan"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2499> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ignatius Andraos Akhījān"@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/681> ;];
+ dcterms:source <http://syriaca.org/bibl/2499>, <http://syriaca.org/bibl/681> ;
+ dcterms:relation <http://syriaca.org/person/3507/html>, <http://syriaca.org/person/3507/tei>, <http://syriaca.org/person/3507/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3507/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3507/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3507/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/2499>, <http://syriaca.org/bibl/681> .
+
+<http://syriaca.org/person/3507/html> a rdfs:Resource; ;
+ dcterms:title "Ignatius Andrew Akhījān"@en ;
+ dcterms:subject <http://syriaca.org/person/3507> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraAndré Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Ignatius Andrew Akhījān in last modified June 29, 2017, http://syriaca.org/person/3507" .
+
+<http://syriaca.org/person/3507/tei> a rdfs:Resource; ;
+ dcterms:title "Ignatius Andrew Akhījān"@en ;
+ dcterms:subject <http://syriaca.org/person/3507> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraAndré Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Ignatius Andrew Akhījān in last modified June 29, 2017, http://syriaca.org/person/3507" .
+
+<http://syriaca.org/person/3507/ttl> a rdfs:Resource; ;
+ dcterms:title "Ignatius Andrew Akhījān"@en ;
+ dcterms:subject <http://syriaca.org/person/3507> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraAndré Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), Ignatius Andrew Akhījān in last modified June 29, 2017, http://syriaca.org/person/3507" .

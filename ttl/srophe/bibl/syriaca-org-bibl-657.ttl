@@ -1,0 +1,36 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/657> a dcterms:bibliographicResource ;
+ rdfs:label "Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa"@en ;
+ dcterms:relation <http://syriaca.org/bibl/657/html>, <http://syriaca.org/bibl/657/tei>, <http://syriaca.org/bibl/657/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/657/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/657/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/657/ttl> .
+
+<http://syriaca.org/bibl/657/html> a rdfs:Resource; ;
+ dcterms:title "Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa"@en ;
+ dcterms:subject <http://syriaca.org/bibl/657> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Benjamin Harris Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa.Journal of Sacred Literature and Biblical Record n.s. 5.9 (1864)" .
+
+<http://syriaca.org/bibl/657/tei> a rdfs:Resource; ;
+ dcterms:title "Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa"@en ;
+ dcterms:subject <http://syriaca.org/bibl/657> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Benjamin Harris Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa.Journal of Sacred Literature and Biblical Record n.s. 5.9 (1864)" .
+
+<http://syriaca.org/bibl/657/ttl> a rdfs:Resource; ;
+ dcterms:title "Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa"@en ;
+ dcterms:subject <http://syriaca.org/bibl/657> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Benjamin Harris Cowper, Selections from the Syriac. No. 1: The Chronicle of Edessa.Journal of Sacred Literature and Biblical Record n.s. 5.9 (1864)" .

@@ -1,0 +1,55 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1882> a lawd:Person ;
+ rdfs:label "ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ"@syr, "Mary of Egypt"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Māriyā Eghīfṭāythā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Mary of Egypt"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Māryā ʾAgīfṭāyṯā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Marie l’Égyptienne"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ skos:related <http://syriaca.org/person/1882> ; 
+ skos:related <http://syriaca.org/place/572> ; 
+ skos:related <http://syriaca.org/person/1882> ; 
+ skos:related <http://syriaca.org/person/1882> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:relation <http://syriaca.org/person/1882/html>, <http://syriaca.org/person/1882/tei>, <http://syriaca.org/person/1882/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1882/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1882/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1882/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1882>, <http://syriaca.org/place/572>, <http://syriaca.org/work/357>, <http://syriaca.org/work/1881>, <http://syriaca.org/bibl/649> .
+
+<http://syriaca.org/person/1882/html> a rdfs:Resource; ;
+ dcterms:title "ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ"@syr, "Mary of Egypt"@en ;
+ dcterms:subject <http://syriaca.org/person/1882> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Mary of Egypt — ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ in last modified August 17, 2016, http://syriaca.org/person/1882" .
+
+<http://syriaca.org/person/1882/tei> a rdfs:Resource; ;
+ dcterms:title "ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ"@syr, "Mary of Egypt"@en ;
+ dcterms:subject <http://syriaca.org/person/1882> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Mary of Egypt — ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ in last modified August 17, 2016, http://syriaca.org/person/1882" .
+
+<http://syriaca.org/person/1882/ttl> a rdfs:Resource; ;
+ dcterms:title "ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ"@syr, "Mary of Egypt"@en ;
+ dcterms:subject <http://syriaca.org/person/1882> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Mary of Egypt — ܡܐܪܝܐ ܐܓܝܦܛܝܬܐ in last modified August 17, 2016, http://syriaca.org/person/1882" .

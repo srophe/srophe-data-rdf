@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/92> a lawd:Person ;
+ rdfs:label "ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ"@syr ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/624> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "John I of Antioch"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "John I of the Sedre"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ioannes (Johannan) II Patriarcha"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_92>, <http://worldcat.org/identities/lccn-n91-124493>, <http://worldcat.org/identities/np-johannes%20i%20sedra>, <http://viaf.org/viaf/78773383>, <http://viaf.org/viaf/199318976>, <http://viaf.org/viaf/177482483>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John I of Antioch&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_92>, <http://worldcat.org/identities/lccn-n91-124493>, <http://worldcat.org/identities/np-johannes%20i%20sedra>, <http://viaf.org/viaf/78773383>, <http://viaf.org/viaf/199318976>, <http://viaf.org/viaf/177482483>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John I of Antioch&sT=keywords> ;
+ dcterms:relation <http://syriaca.org/person/92> ; 
+ dcterms:relation <http://syriaca.org/place/341> ; 
+ dcterms:relation <http://syriaca.org/place/321> ; 
+ dcterms:relation <http://syriaca.org/place/193> ;
+ dcterms:source <http://syriaca.org/bibl/624>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/645> ;
+ dcterms:relation <http://syriaca.org/person/92/html>, <http://syriaca.org/person/92/tei>, <http://syriaca.org/person/92/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/92/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/92/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/92/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/624>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John I of Antioch&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/645> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/341> ;
+ lawd:hasAttestation <http://syriaca.org/person/92> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/321> ;
+ lawd:hasAttestation <http://syriaca.org/person/92> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/193> ;
+ lawd:hasAttestation <http://syriaca.org/person/92> .
+
+<http://syriaca.org/person/92/html> a rdfs:Resource; ;
+ dcterms:title "ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/92> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), John of the Sedre — ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ in last modified August 17, 2016, http://syriaca.org/person/92" .
+
+<http://syriaca.org/person/92/tei> a rdfs:Resource; ;
+ dcterms:title "ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/92> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), John of the Sedre — ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ in last modified August 17, 2016, http://syriaca.org/person/92" .
+
+<http://syriaca.org/person/92/ttl> a rdfs:Resource; ;
+ dcterms:title "ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ"@syr ;
+ dcterms:subject <http://syriaca.org/person/92> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), John of the Sedre — ܝܘܚܢܢ ܕܣܕܪ̈ܘܗܝ in last modified August 17, 2016, http://syriaca.org/person/92" .

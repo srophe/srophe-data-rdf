@@ -1,0 +1,70 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1299> a lawd:Person ;
+ rdfs:label "ܝܥܩܘܒ"@syr, "Jacob the Recluse"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܝܥܩܘܒ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yaʿqōb"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Jacob the Recluse"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jacob the Reclus"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Yaʾqōḇ"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jacques le Reclus"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Jacques le Reclus (de Salah)"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "JACQUES LE RECLUS"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Jacob the Recluse"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/place/715> ; 
+ skos:related <http://syriaca.org/place/1452> ; 
+ skos:related <http://syriaca.org/place/2> ; 
+ skos:related <http://syriaca.org/place/221> ; 
+ skos:related <http://syriaca.org/person/1299> ; 
+ skos:related <http://syriaca.org/person/1299> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Jacob%20the%20Recluse&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Jacob%20the%20Recluse&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1416>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1299/html>, <http://syriaca.org/person/1299/tei>, <http://syriaca.org/person/1299/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1299/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1299/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1299/ttl> ;
+ dcterms:relation <http://syriaca.org/place/715>, <http://syriaca.org/place/1452>, <http://syriaca.org/place/2>, <http://syriaca.org/place/221>, <http://syriaca.org/person/1299>, <http://syriaca.org/work/1368>, <http://syriaca.org/work/1138>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1416>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Jacob%20the%20Recluse&sT=keywords> .
+
+<http://syriaca.org/person/1299/html> a rdfs:Resource; ;
+ dcterms:title "ܝܥܩܘܒ"@syr, "Jacob the Recluse"@en ;
+ dcterms:subject <http://syriaca.org/person/1299> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Jacob the Recluse — ܝܥܩܘܒ in last modified August 17, 2016, http://syriaca.org/person/1299" .
+
+<http://syriaca.org/person/1299/tei> a rdfs:Resource; ;
+ dcterms:title "ܝܥܩܘܒ"@syr, "Jacob the Recluse"@en ;
+ dcterms:subject <http://syriaca.org/person/1299> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Jacob the Recluse — ܝܥܩܘܒ in last modified August 17, 2016, http://syriaca.org/person/1299" .
+
+<http://syriaca.org/person/1299/ttl> a rdfs:Resource; ;
+ dcterms:title "ܝܥܩܘܒ"@syr, "Jacob the Recluse"@en ;
+ dcterms:subject <http://syriaca.org/person/1299> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Jacob the Recluse — ܝܥܩܘܒ in last modified August 17, 2016, http://syriaca.org/person/1299" .

@@ -1,0 +1,67 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/86> a lawd:Place ;
+ rdfs:label "Gargar"@en, "ܓܪܓܪ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Gargar"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Gerger"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܓܪܓܪ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܓܰܪܓܰܪ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "كركر"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "جرجر"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Karkar"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "كَرْكر"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ skos:related <http://syriaca.org/place/82> ; 
+ skos:related <http://syriaca.org/place/136> ; 
+ skos:related <http://syriaca.org/place/8> ;
+ skos:closeMatch <http://pleiades.stoa.org/places/874353>, <http://en.wikipedia.org/wiki/Gerger>, <http://dbpedia.org/resource/Gerger> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/874353>, <http://en.wikipedia.org/wiki/Gerger>, <http://dbpedia.org/resource/Gerger> ;
+ dcterms:source <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/86/html>, <http://syriaca.org/place/86/tei>, <http://syriaca.org/place/86/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/86/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/86/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/86/ttl> ;
+ dcterms:relation <http://syriaca.org/place/82>, <http://syriaca.org/place/136>, <http://syriaca.org/place/8>, <http://syriaca.org/bibl/1>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/86/html> a rdfs:Resource; ;
+ dcterms:title "Gargar"@en, "ܓܪܓܪ"@syr ;
+ dcterms:subject <http://syriaca.org/place/86> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Gargar — ܓܪܓܪ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/86" .
+
+<http://syriaca.org/place/86/tei> a rdfs:Resource; ;
+ dcterms:title "Gargar"@en, "ܓܪܓܪ"@syr ;
+ dcterms:subject <http://syriaca.org/place/86> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Gargar — ܓܪܓܪ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/86" .
+
+<http://syriaca.org/place/86/ttl> a rdfs:Resource; ;
+ dcterms:title "Gargar"@en, "ܓܪܓܪ"@syr ;
+ dcterms:subject <http://syriaca.org/place/86> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Gargar — ܓܪܓܪ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/86" .

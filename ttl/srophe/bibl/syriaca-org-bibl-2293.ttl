@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2293> a dcterms:bibliographicResource ;
+ rdfs:label "Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/VEK82TV5>, <http://www.worldcat.org/oclc/496785243> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/VEK82TV5>, <http://www.worldcat.org/oclc/496785243> ;
+ dcterms:relation <http://syriaca.org/bibl/2293/html>, <http://syriaca.org/bibl/2293/tei>, <http://syriaca.org/bibl/2293/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2293/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2293/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2293/ttl> .
+
+<http://syriaca.org/bibl/2293/html> a rdfs:Resource; ;
+ dcterms:title "Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur" ;
+ dcterms:subject <http://syriaca.org/bibl/2293> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Friedrich August Rosen and Josiah Forshall, Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur (Londini: Impensis curatorum Musei Britannici, 1838)" .
+
+<http://syriaca.org/bibl/2293/tei> a rdfs:Resource; ;
+ dcterms:title "Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur" ;
+ dcterms:subject <http://syriaca.org/bibl/2293> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Friedrich August Rosen and Josiah Forshall, Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur (Londini: Impensis curatorum Musei Britannici, 1838)" .
+
+<http://syriaca.org/bibl/2293/ttl> a rdfs:Resource; ;
+ dcterms:title "Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur" ;
+ dcterms:subject <http://syriaca.org/bibl/2293> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Friedrich August Rosen and Josiah Forshall, Catalogus codicum manuscriptorum orientalium qui in Museo Britannico asservantur (Londini: Impensis curatorum Musei Britannici, 1838)" .

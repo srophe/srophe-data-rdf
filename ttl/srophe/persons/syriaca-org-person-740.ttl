@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/740> a lawd:Person ;
+ rdfs:label "ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ"@syr, "Simeon of Rev Ardashir"@en ;
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/509> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Simeon of Rewardeshir"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shemon of Rev Ardashir"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shem‘on of Rev Ardashir"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Simeon of Rewardashir"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Simeon e Rewardashir"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;]; 
+ skos:related <http://syriaca.org/place/37> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_740>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of Rewardeshir&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_740>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of Rewardeshir&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/509>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> ;
+ dcterms:relation <http://syriaca.org/person/740/html>, <http://syriaca.org/person/740/tei>, <http://syriaca.org/person/740/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/740/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/740/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/740/ttl> ;
+ dcterms:relation <http://syriaca.org/place/37>, <http://syriaca.org/bibl/509>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of Rewardeshir&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> .
+
+<http://syriaca.org/person/740/html> a rdfs:Resource; ;
+ dcterms:title "ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ"@syr, "Simeon of Rev Ardashir"@en ;
+ dcterms:subject <http://syriaca.org/person/740> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon of Rev Ardashir — ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ in last modified December 9, 2016, http://syriaca.org/person/740" .
+
+<http://syriaca.org/person/740/tei> a rdfs:Resource; ;
+ dcterms:title "ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ"@syr, "Simeon of Rev Ardashir"@en ;
+ dcterms:subject <http://syriaca.org/person/740> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon of Rev Ardashir — ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ in last modified December 9, 2016, http://syriaca.org/person/740" .
+
+<http://syriaca.org/person/740/ttl> a rdfs:Resource; ;
+ dcterms:title "ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ"@syr, "Simeon of Rev Ardashir"@en ;
+ dcterms:subject <http://syriaca.org/person/740> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Simeon of Rev Ardashir — ܫܡܥܘܢ ܕܪܝܘܐܪܕܫܝܪ in last modified December 9, 2016, http://syriaca.org/person/740" .

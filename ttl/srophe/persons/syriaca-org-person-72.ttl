@@ -1,0 +1,88 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/72> a lawd:Person ;
+ rdfs:label "Paul II , Patriarch of Antioch"@en, "ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ","@en ;]; 
+ skos:related <http://syriaca.org/place/10> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/425> ;]; 
+ lawd:hasName [
+ lawd:variantForm ","@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/10> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Paul of Beth-Ukame"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_72>, <http://viaf.org/viaf/5320953>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul of Beth-Ukame&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_72>, <http://viaf.org/viaf/5320953>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul of Beth-Ukame&sT=keywords> ;
+ dcterms:relation <#person-72> ; 
+ dcterms:relation <http://syriaca.org/place/572> ; 
+ dcterms:relation <#person-72> ; 
+ dcterms:relation <http://syriaca.org/place/572> ; 
+ dcterms:relation <http://syriaca.org/place/230> ; 
+ dcterms:relation <http://syriaca.org/place/410> ; 
+ dcterms:relation <#person-72> ; 
+ dcterms:relation <http://syriaca.org/place/349> ; 
+ dcterms:relation <http://syriaca.org/place/1530> ;
+ dcterms:source <http://syriaca.org/bibl/425>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/72/html>, <http://syriaca.org/person/72/tei>, <http://syriaca.org/person/72/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/72/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/72/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/72/ttl> ;
+ dcterms:relation <http://syriaca.org/place/10>, <http://syriaca.org/bibl/425>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul of Beth-Ukame&sT=keywords> .
+
+ syriaca:bornAt <http://syriaca.org/place/572> ;
+ lawd:hasAttestation <http://syriaca.org/person/72> .
+
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/572> ;
+ lawd:hasAttestation <http://syriaca.org/person/72> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/230> ;
+ lawd:hasAttestation <http://syriaca.org/person/72> ;
+ syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/410> ;
+ lawd:hasAttestation <http://syriaca.org/person/72> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/349> ;
+ lawd:hasAttestation <http://syriaca.org/person/72> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/1530> ;
+ lawd:hasAttestation <http://syriaca.org/person/72> .
+
+<http://syriaca.org/person/72/html> a rdfs:Resource; ;
+ dcterms:title "Paul II , Patriarch of Antioch"@en, "ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/72> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Paul II, Patriarch of Antioch — ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ in last modified August 17, 2016, http://syriaca.org/person/72" .
+
+<http://syriaca.org/person/72/tei> a rdfs:Resource; ;
+ dcterms:title "Paul II , Patriarch of Antioch"@en, "ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/72> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Paul II, Patriarch of Antioch — ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ in last modified August 17, 2016, http://syriaca.org/person/72" .
+
+<http://syriaca.org/person/72/ttl> a rdfs:Resource; ;
+ dcterms:title "Paul II , Patriarch of Antioch"@en, "ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/72> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. GibsonJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson, (eds.), Paul II, Patriarch of Antioch — ܦܘܠܘܣ ܬܪܝܢܐ ܦܛܪܝܪܟܐ ܕܐܢܛܝܘܟܝܐ in last modified August 17, 2016, http://syriaca.org/person/72" .

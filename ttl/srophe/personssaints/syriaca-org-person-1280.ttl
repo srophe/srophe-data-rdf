@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1280> a lawd:Person ;
+ rdfs:label "ܐܫܥܝܐ ܚܠܒܝܐ"@syr, "Isaiah of Aleppo"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܐܫܥܝܐ ܚܠܒܝܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Eshaʿyā Ḥālābāyā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Isaiah of Aleppo"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ʾĪšaʾyā Ḥālābāyā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Isaïe d’Alep"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ISAÏE D'ALEP"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Shaʿya"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "ŠA'YA"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/356> ; 
+ skos:related <http://syriaca.org/person/1280> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/650> ;
+ dcterms:relation <http://syriaca.org/person/1280/html>, <http://syriaca.org/person/1280/tei>, <http://syriaca.org/person/1280/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1280/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1280/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1280/ttl> ;
+ dcterms:relation <http://syriaca.org/person/356>, <http://syriaca.org/person/1280>, <http://syriaca.org/work/312>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1426> .
+
+<http://syriaca.org/person/1280/html> a rdfs:Resource; ;
+ dcterms:title "ܐܫܥܝܐ ܚܠܒܝܐ"@syr, "Isaiah of Aleppo"@en ;
+ dcterms:subject <http://syriaca.org/person/1280> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Isaiah of Aleppo — ܐܫܥܝܐ ܚܠܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/1280" .
+
+<http://syriaca.org/person/1280/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܫܥܝܐ ܚܠܒܝܐ"@syr, "Isaiah of Aleppo"@en ;
+ dcterms:subject <http://syriaca.org/person/1280> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Isaiah of Aleppo — ܐܫܥܝܐ ܚܠܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/1280" .
+
+<http://syriaca.org/person/1280/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܫܥܝܐ ܚܠܒܝܐ"@syr, "Isaiah of Aleppo"@en ;
+ dcterms:subject <http://syriaca.org/person/1280> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Isaiah of Aleppo — ܐܫܥܝܐ ܚܠܒܝܐ in last modified August 17, 2016, http://syriaca.org/person/1280" .

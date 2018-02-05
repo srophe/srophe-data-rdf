@@ -1,0 +1,106 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/67> a lawd:Person ;
+ rdfs:label "Ahudemmeh"@en, "Aḥudemmeh of Balad"@en-x-gedsh, "ܐܚܘܕܐܡܗ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/34> ;]; 
+ skos:related <http://syriaca.org/place/42> ; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܐܚܘܕܡܗ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Aḥūdemmeh"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ahoudemmeh"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ahudemmeh of"@en ;]; 
+ skos:related <http://syriaca.org/place/42> ; 
+ lawd:hasName [
+ lawd:variantForm "ʾAḥūdemmēh"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ahoudemmeh"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "AḤŪDEMMEH"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Aḥudemmeh"@en ;]; 
+ skos:related <http://syriaca.org/person/67> ;
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_67>, <http://viaf.org/viaf/89786411>, <http://viaf.org/viaf/45521124>, <http://viaf.org/viaf/97613050>, <http://viaf.org/viaf/49367723>, <http://viaf.org/viaf/216293174>, <http://viaf.org/viaf/201354194> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_67>, <http://viaf.org/viaf/89786411>, <http://viaf.org/viaf/45521124>, <http://viaf.org/viaf/97613050>, <http://viaf.org/viaf/49367723>, <http://viaf.org/viaf/216293174>, <http://viaf.org/viaf/201354194> ;
+ dcterms:relation <http://syriaca.org/person/67> ; 
+ dcterms:relation <http://syriaca.org/place/42> ; 
+ dcterms:relation <http://syriaca.org/person/67> ; 
+ dcterms:relation <http://syriaca.org/place/31> ; 
+ dcterms:relation <http://syriaca.org/place/321> ; 
+ dcterms:relation <http://syriaca.org/place/423> ; 
+ dcterms:relation <http://syriaca.org/person/67> ; 
+ dcterms:relation <http://syriaca.org/person/325> ;
+ dcterms:source <http://syriaca.org/bibl/34>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645> ;
+ dcterms:relation <http://syriaca.org/person/67/html>, <http://syriaca.org/person/67/tei>, <http://syriaca.org/person/67/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/67/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/67/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/67/ttl> ;
+ dcterms:relation <http://syriaca.org/place/42>, <http://syriaca.org/person/67>, <http://syriaca.org/work/689>, <http://syriaca.org/bibl/34>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/645> .
+
+ syriaca:bornAt <http://syriaca.org/place/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/67> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/31> ;
+ lawd:hasAttestation <http://syriaca.org/person/67> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/321> ;
+ lawd:hasAttestation <http://syriaca.org/person/67> ;
+ syriaca:hasRelationToPlace <http://syriaca.org/place/423> ;
+ lawd:hasAttestation <http://syriaca.org/person/67> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/325> ;
+ lawd:hasAttestation <http://syriaca.org/person/67> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/67> ;
+ lawd:hasAttestation <http://syriaca.org/person/67> .
+
+<http://syriaca.org/person/67/html> a rdfs:Resource; ;
+ dcterms:title "Ahudemmeh"@en, "Aḥudemmeh of Balad"@en-x-gedsh, "ܐܚܘܕܐܡܗ"@syr ;
+ dcterms:subject <http://syriaca.org/person/67> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian Heal, (eds.), Ahudemmeh — ܐܚܘܕܐܡܗ in last modified August 17, 2016, http://syriaca.org/person/67" .
+
+<http://syriaca.org/person/67/tei> a rdfs:Resource; ;
+ dcterms:title "Ahudemmeh"@en, "Aḥudemmeh of Balad"@en-x-gedsh, "ܐܚܘܕܐܡܗ"@syr ;
+ dcterms:subject <http://syriaca.org/person/67> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian Heal, (eds.), Ahudemmeh — ܐܚܘܕܐܡܗ in last modified August 17, 2016, http://syriaca.org/person/67" .
+
+<http://syriaca.org/person/67/ttl> a rdfs:Resource; ;
+ dcterms:title "Ahudemmeh"@en, "Aḥudemmeh of Balad"@en-x-gedsh, "ܐܚܘܕܐܡܗ"@syr ;
+ dcterms:subject <http://syriaca.org/person/67> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Jeanne-Nicole Mellon Saint-Laurent Kristian Heal, (eds.), Ahudemmeh — ܐܚܘܕܐܡܗ in last modified August 17, 2016, http://syriaca.org/person/67" .

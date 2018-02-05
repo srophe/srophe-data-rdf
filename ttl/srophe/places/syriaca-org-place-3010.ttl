@@ -1,0 +1,50 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/3010> a lawd:Place ;
+ rdfs:label "Talun"@en, "تالون"@ar, "ܬܐܠܘܢ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Talun"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "تالون"@ar ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܬܐܠܘܢ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1383> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Tâlwân"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/1383> ;]; 
+ skos:related <http://syriaca.org/place/37> ; 
+ skos:related <http://syriaca.org/place/3007> ;
+ dcterms:source <http://syriaca.org/bibl/1383> ;
+ dcterms:relation <http://syriaca.org/place/3010/html>, <http://syriaca.org/place/3010/tei>, <http://syriaca.org/place/3010/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3010/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3010/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/3010/ttl> ;
+ dcterms:relation <http://syriaca.org/place/37>, <http://syriaca.org/place/3007>, <http://syriaca.org/bibl/1383> .
+
+<http://syriaca.org/place/3010/html> a rdfs:Resource; ;
+ dcterms:title "Talun"@en, "تالون"@ar, "ܬܐܠܘܢ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3010> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Talun — ܬܐܠܘܢ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3010" .
+
+<http://syriaca.org/place/3010/tei> a rdfs:Resource; ;
+ dcterms:title "Talun"@en, "تالون"@ar, "ܬܐܠܘܢ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3010> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Talun — ܬܐܠܘܢ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3010" .
+
+<http://syriaca.org/place/3010/ttl> a rdfs:Resource; ;
+ dcterms:title "Talun"@en, "تالون"@ar, "ܬܐܠܘܢ"@syr ;
+ dcterms:subject <http://syriaca.org/place/3010> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Talun — ܬܐܠܘܢ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/3010" .

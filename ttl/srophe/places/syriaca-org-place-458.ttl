@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/458> a lawd:Place ;
+ rdfs:label "Mashhad Kuḥayl"@en, "ܡܫܗܕ ܟܘܚܝܠ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Mashhad Kuḥayl"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܡܫܗܕ ܟܘܚܝܠ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܡܰܫܗܕ ܟܘܚܰܝܠ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "مشهد كحيل"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "الكُحَيْل"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;];
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> ;
+ dcterms:relation <http://syriaca.org/place/458/html>, <http://syriaca.org/place/458/tei>, <http://syriaca.org/place/458/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/458/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/458/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/458/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/636> .
+
+<http://syriaca.org/place/458/html> a rdfs:Resource; ;
+ dcterms:title "Mashhad Kuḥayl"@en, "ܡܫܗܕ ܟܘܚܝܠ"@syr ;
+ dcterms:subject <http://syriaca.org/place/458> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Mashhad Kuḥayl — ܡܫܗܕ ܟܘܚܝܠ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/458" .
+
+<http://syriaca.org/place/458/tei> a rdfs:Resource; ;
+ dcterms:title "Mashhad Kuḥayl"@en, "ܡܫܗܕ ܟܘܚܝܠ"@syr ;
+ dcterms:subject <http://syriaca.org/place/458> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Mashhad Kuḥayl — ܡܫܗܕ ܟܘܚܝܠ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/458" .
+
+<http://syriaca.org/place/458/ttl> a rdfs:Resource; ;
+ dcterms:title "Mashhad Kuḥayl"@en, "ܡܫܗܕ ܟܘܚܝܠ"@syr ;
+ dcterms:subject <http://syriaca.org/place/458> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Mashhad Kuḥayl — ܡܫܗܕ ܟܘܚܝܠ in The Syriac Gazetteer last modified June 30, 2014, http://syriaca.org/place/458" .

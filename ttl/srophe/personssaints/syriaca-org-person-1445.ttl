@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1445> a lawd:Person ;
+ rdfs:label "Samuel of Qartmin"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Samuel of Qartmin"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Samuel de Qartamin"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "SAMUEL DE QARTMIN"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/place/130> ; 
+ skos:related <http://syriaca.org/place/226> ; 
+ skos:related <http://syriaca.org/person/1475/> ; 
+ skos:related <http://syriaca.org/place/217> ; 
+ skos:related <http://syriaca.org/person/1445> ; 
+ skos:related <http://syriaca.org/person/1445> ; 
+ skos:related <http://syriaca.org/person/1445> ; 
+ skos:related <http://syriaca.org/person/1445> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426> ;
+ dcterms:relation <http://syriaca.org/person/1445/html>, <http://syriaca.org/person/1445/tei>, <http://syriaca.org/person/1445/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1445/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1445/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1445/ttl> ;
+ dcterms:relation <http://syriaca.org/place/130>, <http://syriaca.org/place/226>, <http://syriaca.org/person/1475/>, <http://syriaca.org/place/217>, <http://syriaca.org/person/1445>, <http://syriaca.org/work/1063>, <http://syriaca.org/work/1595>, <http://syriaca.org/work/1774>, <http://syriaca.org/work/1863>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426> .
+
+<http://syriaca.org/person/1445/html> a rdfs:Resource; ;
+ dcterms:title "Samuel of Qartmin"@en ;
+ dcterms:subject <http://syriaca.org/person/1445> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Samuel of Qartmin in last modified August 17, 2016, http://syriaca.org/person/1445" .
+
+<http://syriaca.org/person/1445/tei> a rdfs:Resource; ;
+ dcterms:title "Samuel of Qartmin"@en ;
+ dcterms:subject <http://syriaca.org/person/1445> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Samuel of Qartmin in last modified August 17, 2016, http://syriaca.org/person/1445" .
+
+<http://syriaca.org/person/1445/ttl> a rdfs:Resource; ;
+ dcterms:title "Samuel of Qartmin"@en ;
+ dcterms:subject <http://syriaca.org/person/1445> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Samuel of Qartmin in last modified August 17, 2016, http://syriaca.org/person/1445" .

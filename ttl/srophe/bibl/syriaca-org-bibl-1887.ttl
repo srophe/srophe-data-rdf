@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1887> a dcterms:bibliographicResource ;
+ rdfs:label "Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/SZKCNGRQ>, <http://www.worldcat.org/oclc/5234462> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/SZKCNGRQ>, <http://www.worldcat.org/oclc/5234462> ;
+ dcterms:relation <http://syriaca.org/bibl/1887/html>, <http://syriaca.org/bibl/1887/tei>, <http://syriaca.org/bibl/1887/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1887/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1887/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1887/ttl> .
+
+<http://syriaca.org/bibl/1887/html> a rdfs:Resource; ;
+ dcterms:title "Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection" ;
+ dcterms:subject <http://syriaca.org/bibl/1887> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Agnes Smith Lewis and Margaret Dunlop Gibson, Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection (London: C.J. Clay and Sons, 1900)" .
+
+<http://syriaca.org/bibl/1887/tei> a rdfs:Resource; ;
+ dcterms:title "Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection" ;
+ dcterms:subject <http://syriaca.org/bibl/1887> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Agnes Smith Lewis and Margaret Dunlop Gibson, Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection (London: C.J. Clay and Sons, 1900)" .
+
+<http://syriaca.org/bibl/1887/ttl> a rdfs:Resource; ;
+ dcterms:title "Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection" ;
+ dcterms:subject <http://syriaca.org/bibl/1887> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Agnes Smith Lewis and Margaret Dunlop Gibson, Palestinian Syriac texts from palimpsest fragments in the Taylor-Schechter collection (London: C.J. Clay and Sons, 1900)" .

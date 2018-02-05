@@ -1,0 +1,62 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1655> a lawd:Person ;
+ rdfs:label "ܩܘܣܛܢܛܝܢܘܣ"@syr, "Constantine the Great"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܩܘܣܛܢܛܝܢܘܣ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qōsṭanṭīnōs"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Constantine the Great"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Qōnsṭanṭīnōs"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Constantin"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Constantine"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/1655> ; 
+ skos:related <http://syriaca.org/person/1655> ; 
+ skos:related <http://syriaca.org/person/1655> ; 
+ skos:related <http://syriaca.org/person/1655> ; 
+ skos:related <http://syriaca.org/person/1655> ; 
+ skos:related <http://syriaca.org/person/1655> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=C&sK=Constantine&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=C&sK=Constantine&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/1655/html>, <http://syriaca.org/person/1655/tei>, <http://syriaca.org/person/1655/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1655/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1655/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1655/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1655>, <http://syriaca.org/work/960>, <http://syriaca.org/work/879>, <http://syriaca.org/work/1158>, <http://syriaca.org/work/1910>, <http://syriaca.org/work/1399>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=C&sK=Constantine&sT=keywords> .
+
+<http://syriaca.org/person/1655/html> a rdfs:Resource; ;
+ dcterms:title "ܩܘܣܛܢܛܝܢܘܣ"@syr, "Constantine the Great"@en ;
+ dcterms:subject <http://syriaca.org/person/1655> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Constantine the Great — ܩܘܣܛܢܛܝܢܘܣ in last modified August 17, 2016, http://syriaca.org/person/1655" .
+
+<http://syriaca.org/person/1655/tei> a rdfs:Resource; ;
+ dcterms:title "ܩܘܣܛܢܛܝܢܘܣ"@syr, "Constantine the Great"@en ;
+ dcterms:subject <http://syriaca.org/person/1655> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Constantine the Great — ܩܘܣܛܢܛܝܢܘܣ in last modified August 17, 2016, http://syriaca.org/person/1655" .
+
+<http://syriaca.org/person/1655/ttl> a rdfs:Resource; ;
+ dcterms:title "ܩܘܣܛܢܛܝܢܘܣ"@syr, "Constantine the Great"@en ;
+ dcterms:subject <http://syriaca.org/person/1655> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Constantine the Great — ܩܘܣܛܢܛܝܢܘܣ in last modified August 17, 2016, http://syriaca.org/person/1655" .

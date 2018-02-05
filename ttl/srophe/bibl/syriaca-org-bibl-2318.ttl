@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2318> a dcterms:bibliographicResource ;
+ rdfs:label "Vie d'Olympias la diaconess" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/XA5X7F6X> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/XA5X7F6X> ;
+ dcterms:relation <http://syriaca.org/bibl/2318/html>, <http://syriaca.org/bibl/2318/tei>, <http://syriaca.org/bibl/2318/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2318/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2318/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2318/ttl> .
+
+<http://syriaca.org/bibl/2318/html> a rdfs:Resource; ;
+ dcterms:title "Vie d'Olympias la diaconess" ;
+ dcterms:subject <http://syriaca.org/bibl/2318> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "J. Bousquet, Vie d'Olympias la diaconess.Revue de l'Orient chrétien Deuxième Série, Tome I (XI) (=Deuxième Série) (1906)" .
+
+<http://syriaca.org/bibl/2318/tei> a rdfs:Resource; ;
+ dcterms:title "Vie d'Olympias la diaconess" ;
+ dcterms:subject <http://syriaca.org/bibl/2318> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "J. Bousquet, Vie d'Olympias la diaconess.Revue de l'Orient chrétien Deuxième Série, Tome I (XI) (=Deuxième Série) (1906)" .
+
+<http://syriaca.org/bibl/2318/ttl> a rdfs:Resource; ;
+ dcterms:title "Vie d'Olympias la diaconess" ;
+ dcterms:subject <http://syriaca.org/bibl/2318> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "J. Bousquet, Vie d'Olympias la diaconess.Revue de l'Orient chrétien Deuxième Série, Tome I (XI) (=Deuxième Série) (1906)" .

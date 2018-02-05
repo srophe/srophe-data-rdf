@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/spear/119-327> a syriaca:eventFactoid ;
+ rdfs:label "In October A. D. 451 A. D. 450/51 A. Gr. 762 a council was assembled in the city of Chalcedon . Since the first session of the Council of Chalcedon began on 8 October (Teshri I) of A. D. 451, the correct year A. Gr. would be 763, not 762." ;
+ dcterms:subject <http://syriaca.org/keyword/councilChalcedon> ; 
+ dcterms:subject <http://syriaca.org/keyword/synod> ; 
+ schema:location <http://syriaca.org/place/622> ; 
+ dcterms:date "0451-10" ; 
+ dcterms:date "0450-10" ; 
+ dcterms:date "0451-09" ;
+ dcterms:isPartOf <http://syriaca.org/spear> ;
+ dcterms:relation <http://syriaca.org/spear/119-327/html>, <http://syriaca.org/spear/119-327/tei>, <http://syriaca.org/spear/119-327/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-327/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-327/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-327/ttl> .
+
+<http://syriaca.org/spear/119-327/html> a rdfs:Resource; ;
+ dcterms:title "In October A. D. 451 A. D. 450/51 A. Gr. 762 a council was assembled in the city of Chalcedon . Since the first session of the Council of Chalcedon began on 8 October (Teshri I) of A. D. 451, the correct year A. Gr. would be 763, not 762." ;
+ dcterms:subject <http://syriaca.org/spear/119-327> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-327/tei> a rdfs:Resource; ;
+ dcterms:title "In October A. D. 451 A. D. 450/51 A. Gr. 762 a council was assembled in the city of Chalcedon . Since the first session of the Council of Chalcedon began on 8 October (Teshri I) of A. D. 451, the correct year A. Gr. would be 763, not 762." ;
+ dcterms:subject <http://syriaca.org/spear/119-327> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+
+<http://syriaca.org/spear/119-327/ttl> a rdfs:Resource; ;
+ dcterms:title "In October A. D. 451 A. D. 450/51 A. Gr. 762 a council was assembled in the city of Chalcedon . Since the first session of the Council of Chalcedon began on 8 October (Teshri I) of A. D. 451, the correct year A. Gr. would be 763, not 762." ;
+ dcterms:subject <http://syriaca.org/spear/119-327> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .

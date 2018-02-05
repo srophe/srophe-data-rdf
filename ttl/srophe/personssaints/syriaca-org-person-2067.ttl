@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2067> a lawd:Person ;
+ rdfs:label "ܣܪܦܝܘܢ ܕܣܕܘܢܐ"@syr, "Serapion Sidonius"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܣܪܦܝܘܢ ܕܣܕܘܢܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Srāpīyōn d-sedōnā"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Serapion Sidonius"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Srāpīyōn d-sedōnā"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sérapion le Sindonite"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "St Serapion"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ skos:related <http://syriaca.org/person/2067> ; 
+ skos:related <http://syriaca.org/person/474> ; 
+ skos:related <http://syriaca.org/person/668> ; 
+ skos:related <http://syriaca.org/person/2067> ;
+ skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Serapion&sT=keywords> ; 
+ dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Serapion&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5> ;
+ dcterms:relation <http://syriaca.org/person/2067/html>, <http://syriaca.org/person/2067/tei>, <http://syriaca.org/person/2067/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2067/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2067/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2067/ttl> ;
+ dcterms:relation <http://syriaca.org/person/2067>, <http://syriaca.org/person/474>, <http://syriaca.org/work/403>, <http://syriaca.org/person/668>, <http://syriaca.org/work/472>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Serapion&sT=keywords> .
+
+<http://syriaca.org/person/2067/html> a rdfs:Resource; ;
+ dcterms:title "ܣܪܦܝܘܢ ܕܣܕܘܢܐ"@syr, "Serapion Sidonius"@en ;
+ dcterms:subject <http://syriaca.org/person/2067> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Serapion Sidonius — ܣܪܦܝܘܢ ܕܣܕܘܢܐ in last modified August 17, 2016, http://syriaca.org/person/2067" .
+
+<http://syriaca.org/person/2067/tei> a rdfs:Resource; ;
+ dcterms:title "ܣܪܦܝܘܢ ܕܣܕܘܢܐ"@syr, "Serapion Sidonius"@en ;
+ dcterms:subject <http://syriaca.org/person/2067> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Serapion Sidonius — ܣܪܦܝܘܢ ܕܣܕܘܢܐ in last modified August 17, 2016, http://syriaca.org/person/2067" .
+
+<http://syriaca.org/person/2067/ttl> a rdfs:Resource; ;
+ dcterms:title "ܣܪܦܝܘܢ ܕܣܕܘܢܐ"@syr, "Serapion Sidonius"@en ;
+ dcterms:subject <http://syriaca.org/person/2067> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent and David A. Michelson (eds.), Serapion Sidonius — ܣܪܦܝܘܢ ܕܣܕܘܢܐ in last modified August 17, 2016, http://syriaca.org/person/2067" .

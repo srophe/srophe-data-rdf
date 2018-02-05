@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/409> a lawd:Place ;
+ rdfs:label "Sijistān"@en, "ܣܓܣܬܐܢ"@syr, "سجستان"@ar ;
+ lawd:hasName [
+ lawd:primaryForm "Sijistān"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܣܓܣܬܐܢ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܣܰܓܣܬܰܐܢ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm "سجستان"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2501> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Sijistan"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Segestan"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Segestān"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/9> ;]; 
+ lawd:hasName [
+ lawd:variantForm "سِجِستان"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/636> ;]; 
+ skos:related <http://syriaca.org/place/523> ;
+ skos:closeMatch <http://pleiades.stoa.org/places/29547>, <http://en.wikipedia.org/wiki/Sistan>, <http://dbpedia.org/resource/Sistan>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Segestan&sT=keywords> ; 
+ dcterms:relation <http://pleiades.stoa.org/places/29547>, <http://en.wikipedia.org/wiki/Sistan>, <http://dbpedia.org/resource/Sistan>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Segestan&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/9>, <http://pleiades.stoa.org/places/29547>, <http://syriaca.org/bibl/636>, <http://syriaca.org/bibl/2501> ;
+ dcterms:relation <http://syriaca.org/place/409/html>, <http://syriaca.org/place/409/tei>, <http://syriaca.org/place/409/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/409/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/409/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/409/ttl> ;
+ dcterms:relation <http://syriaca.org/place/523>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Segestan&sT=keywords>, <http://syriaca.org/bibl/9>, <http://pleiades.stoa.org/places/29547>, <http://syriaca.org/bibl/636>, <http://syriaca.org/bibl/2501> .
+
+<http://syriaca.org/place/409/html> a rdfs:Resource; ;
+ dcterms:title "Sijistān"@en, "ܣܓܣܬܐܢ"@syr, "سجستان"@ar ;
+ dcterms:subject <http://syriaca.org/place/409> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Sijistān — ܣܓܣܬܐܢ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/409" .
+
+<http://syriaca.org/place/409/tei> a rdfs:Resource; ;
+ dcterms:title "Sijistān"@en, "ܣܓܣܬܐܢ"@syr, "سجستان"@ar ;
+ dcterms:subject <http://syriaca.org/place/409> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Sijistān — ܣܓܣܬܐܢ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/409" .
+
+<http://syriaca.org/place/409/ttl> a rdfs:Resource; ;
+ dcterms:title "Sijistān"@en, "ܣܓܣܬܐܢ"@syr, "سجستان"@ar ;
+ dcterms:subject <http://syriaca.org/place/409> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson and David A. Michelson (eds.), Sijistān — ܣܓܣܬܐܢ in The Syriac Gazetteer last modified August 9, 2017, http://syriaca.org/place/409" .

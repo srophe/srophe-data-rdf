@@ -1,0 +1,38 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/2508> a dcterms:bibliographicResource ;
+ rdfs:label "Galien, Tome V: Sur les facultés des aliments" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/8F3MM7AV> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/8F3MM7AV> ;
+ dcterms:relation <http://syriaca.org/bibl/2508/html>, <http://syriaca.org/bibl/2508/tei>, <http://syriaca.org/bibl/2508/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2508/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2508/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/2508/ttl> .
+
+<http://syriaca.org/bibl/2508/html> a rdfs:Resource; ;
+ dcterms:title "Galien, Tome V: Sur les facultés des aliments" ;
+ dcterms:subject <http://syriaca.org/bibl/2508> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "John Wilkins (ed.), Galien, Tome V: Sur les facultés des aliments, Collection des Universités de France (Paris: Les Belles Lettres, 2013)" .
+
+<http://syriaca.org/bibl/2508/tei> a rdfs:Resource; ;
+ dcterms:title "Galien, Tome V: Sur les facultés des aliments" ;
+ dcterms:subject <http://syriaca.org/bibl/2508> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "John Wilkins (ed.), Galien, Tome V: Sur les facultés des aliments, Collection des Universités de France (Paris: Les Belles Lettres, 2013)" .
+
+<http://syriaca.org/bibl/2508/ttl> a rdfs:Resource; ;
+ dcterms:title "Galien, Tome V: Sur les facultés des aliments" ;
+ dcterms:subject <http://syriaca.org/bibl/2508> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "John Wilkins (ed.), Galien, Tome V: Sur les facultés des aliments, Collection des Universités de France (Paris: Les Belles Lettres, 2013)" .

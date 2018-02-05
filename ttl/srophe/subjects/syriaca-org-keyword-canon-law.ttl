@@ -1,0 +1,58 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/canon-law> a  ;
+ rdfs:label "Canon law"@en ;
+ skos:closeMatch <http://id.loc.gov/authorities/subjects/sh85019646> ; 
+ dcterms:relation <http://id.loc.gov/authorities/subjects/sh85019646> ;
+ dcterms:relation <http://syriaca.org/keyword/canon-law> ; 
+ dcterms:relation <http://syriaca.org/keyword/administration> ; 
+ dcterms:relation <http://syriaca.org/keyword/canon-law> ; 
+ dcterms:relation <http://syriaca.org/keyword/ethics> ; 
+ dcterms:relation <http://syriaca.org/keyword/canon-law> ; 
+ dcterms:relation <http://syriaca.org/keyword/genres> ; 
+ dcterms:relation <http://syriaca.org/keyword/canon-law> ; 
+ dcterms:relation <http://syriaca.org/keyword/law> ;
+ dcterms:relation <http://syriaca.org/keyword/canon-law/html>, <http://syriaca.org/keyword/canon-law/tei>, <http://syriaca.org/keyword/canon-law/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/canon-law/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/canon-law/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/canon-law/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/administration> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/canon-law> .
+
+ skos:broadMatch <http://syriaca.org/keyword/ethics> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/canon-law> .
+
+ skos:broadMatch <http://syriaca.org/keyword/genres> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/canon-law> .
+
+ skos:broadMatch <http://syriaca.org/keyword/law> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/canon-law> .
+
+<http://syriaca.org/keyword/canon-law/html> a rdfs:Resource; ;
+ dcterms:title "Canon law"@en ;
+ dcterms:subject <http://syriaca.org/keyword/canon-law> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Canon law in last modified May 5, 2017, http://syriaca.org/keyword/canon-law" .
+
+<http://syriaca.org/keyword/canon-law/tei> a rdfs:Resource; ;
+ dcterms:title "Canon law"@en ;
+ dcterms:subject <http://syriaca.org/keyword/canon-law> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Canon law in last modified May 5, 2017, http://syriaca.org/keyword/canon-law" .
+
+<http://syriaca.org/keyword/canon-law/ttl> a rdfs:Resource; ;
+ dcterms:title "Canon law"@en ;
+ dcterms:subject <http://syriaca.org/keyword/canon-law> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Canon law in last modified May 5, 2017, http://syriaca.org/keyword/canon-law" .

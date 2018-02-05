@@ -1,0 +1,54 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/2766> a lawd:Person ;
+ rdfs:label "Theodore"@en, "ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Theodore"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/667> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Theodorus"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/673> ;];
+ dcterms:relation <http://syriaca.org/person/2766> ; 
+ dcterms:relation <http://syriaca.org/person/2712> ;
+ dcterms:source <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/673> ;
+ dcterms:relation <http://syriaca.org/person/2766/html>, <http://syriaca.org/person/2766/tei>, <http://syriaca.org/person/2766/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2766/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2766/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2766/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/673> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/2712> ;
+ lawd:hasAttestation <http://syriaca.org/person/2766> .
+
+ syriaca:possiblyIdentical <http://syriaca.org/person/2766> ;
+ lawd:hasAttestation <http://syriaca.org/person/2766> .
+
+<http://syriaca.org/person/2766/html> a rdfs:Resource; ;
+ dcterms:title "Theodore"@en, "ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2766> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Theodore — ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ in last modified August 17, 2016, http://syriaca.org/person/2766" .
+
+<http://syriaca.org/person/2766/tei> a rdfs:Resource; ;
+ dcterms:title "Theodore"@en, "ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2766> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Theodore — ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ in last modified August 17, 2016, http://syriaca.org/person/2766" .
+
+<http://syriaca.org/person/2766/ttl> a rdfs:Resource; ;
+ dcterms:title "Theodore"@en, "ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/2766> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Theodore — ܬܐܕܘܪܘܣ ܛܪܝܒܘܢܐ ܘܢܘܛܪܐ in last modified August 17, 2016, http://syriaca.org/person/2766" .

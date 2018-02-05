@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/3038> a lawd:Person ;
+ rdfs:label "Anonymi 3038"@en ;
+ lawd:hasName [
+ lawd:primaryForm "Anonymi 3038"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "The subdeacons under Castor of Perga who petitioned Severus sometime between A.D,.513-518"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/668> ;];
+ dcterms:source <http://syriaca.org/bibl/668>, <http://syriaca.org/bibl/1658> ;
+ dcterms:relation <http://syriaca.org/person/3038/html>, <http://syriaca.org/person/3038/tei>, <http://syriaca.org/person/3038/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3038/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3038/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/3038/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/668>, <http://syriaca.org/bibl/1658> .
+
+<http://syriaca.org/person/3038/html> a rdfs:Resource; ;
+ dcterms:title "Anonymi 3038"@en ;
+ dcterms:subject <http://syriaca.org/person/3038> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Anonymi 3038 — The subdeacons under Castor of Perga who petitioned Severus sometime between A.D,.513-518 in last modified August 17, 2016, http://syriaca.org/person/3038" .
+
+<http://syriaca.org/person/3038/tei> a rdfs:Resource; ;
+ dcterms:title "Anonymi 3038"@en ;
+ dcterms:subject <http://syriaca.org/person/3038> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Anonymi 3038 — The subdeacons under Castor of Perga who petitioned Severus sometime between A.D,.513-518 in last modified August 17, 2016, http://syriaca.org/person/3038" .
+
+<http://syriaca.org/person/3038/ttl> a rdfs:Resource; ;
+ dcterms:title "Anonymi 3038"@en ;
+ dcterms:subject <http://syriaca.org/person/3038> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Anonymi 3038 — The subdeacons under Castor of Perga who petitioned Severus sometime between A.D,.513-518 in last modified August 17, 2016, http://syriaca.org/person/3038" .

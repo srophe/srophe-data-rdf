@@ -1,0 +1,60 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/1178> a lawd:Person ;
+ rdfs:label "ܒܪܝܟܝܫܘܥ"@syr, "Brikhishoʿ"@en ;
+ lawd:hasName [
+ lawd:primaryForm "ܒܪܝܟܝܫܘܥ"@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Brīkhīshōʿ"@en-x-gedsh ;]; 
+ lawd:hasName [
+ lawd:primaryForm "Brikhishoʿ"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Berikyeshua"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Brihisho"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Brīḵīšōʿ"@fr-x-bhs ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Berikhicho"@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "BRĪḪĪŜŌ'"@fr-x-fiey ;
+ lawd:hasAttestation <http://syriaca.org/bibl/650> ;]; 
+ skos:related <http://syriaca.org/person/1178> ; 
+ skos:related <http://syriaca.org/person/1178> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/2296> ;
+ dcterms:relation <http://syriaca.org/person/1178/html>, <http://syriaca.org/person/1178/tei>, <http://syriaca.org/person/1178/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1178/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1178/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1178/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1178>, <http://syriaca.org/work/260>, <http://syriaca.org/work/330>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/2296> .
+
+<http://syriaca.org/person/1178/html> a rdfs:Resource; ;
+ dcterms:title "ܒܪܝܟܝܫܘܥ"@syr, "Brikhishoʿ"@en ;
+ dcterms:subject <http://syriaca.org/person/1178> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Brikhishoʿ — ܒܪܝܟܝܫܘܥ in last modified August 17, 2016, http://syriaca.org/person/1178" .
+
+<http://syriaca.org/person/1178/tei> a rdfs:Resource; ;
+ dcterms:title "ܒܪܝܟܝܫܘܥ"@syr, "Brikhishoʿ"@en ;
+ dcterms:subject <http://syriaca.org/person/1178> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Brikhishoʿ — ܒܪܝܟܝܫܘܥ in last modified August 17, 2016, http://syriaca.org/person/1178" .
+
+<http://syriaca.org/person/1178/ttl> a rdfs:Resource; ;
+ dcterms:title "ܒܪܝܟܝܫܘܥ"@syr, "Brikhishoʿ"@en ;
+ dcterms:subject <http://syriaca.org/person/1178> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. WaltersJeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters and Jeanne-Nicole Mellon Saint-Laurent David A. Michelson James E. Walters, (eds.), Brikhishoʿ — ܒܪܝܟܝܫܘܥ in last modified August 17, 2016, http://syriaca.org/person/1178" .

@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/bibl/1852> a dcterms:bibliographicResource ;
+ rdfs:label "Ausgewählte Gesänge des Giwargis Warda von Arbel" ;
+ skos:closeMatch <http://zotero.org/groups/392292/items/PVNU2S7N>, <http://www.worldcat.org/oclc/246778285> ; 
+ dcterms:relation <http://zotero.org/groups/392292/items/PVNU2S7N>, <http://www.worldcat.org/oclc/246778285> ;
+ dcterms:relation <http://syriaca.org/bibl/1852/html>, <http://syriaca.org/bibl/1852/tei>, <http://syriaca.org/bibl/1852/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1852/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1852/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/bibl/1852/ttl> ;
+ dcterms:relation <http://menadoc.bibliothek.uni-halle.de/ssg/content/titleinfo/835816> .
+
+<http://syriaca.org/bibl/1852/html> a rdfs:Resource; ;
+ dcterms:title "Ausgewählte Gesänge des Giwargis Warda von Arbel" ;
+ dcterms:subject <http://syriaca.org/bibl/1852> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Heinrich Hilgenfeld (ed.), Ausgewählte Gesänge des Giwargis Warda von Arbel (Leipzig: Harrassowitz, 1904)" .
+
+<http://syriaca.org/bibl/1852/tei> a rdfs:Resource; ;
+ dcterms:title "Ausgewählte Gesänge des Giwargis Warda von Arbel" ;
+ dcterms:subject <http://syriaca.org/bibl/1852> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Heinrich Hilgenfeld (ed.), Ausgewählte Gesänge des Giwargis Warda von Arbel (Leipzig: Harrassowitz, 1904)" .
+
+<http://syriaca.org/bibl/1852/ttl> a rdfs:Resource; ;
+ dcterms:title "Ausgewählte Gesänge des Giwargis Warda von Arbel" ;
+ dcterms:subject <http://syriaca.org/bibl/1852> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Heinrich Hilgenfeld (ed.), Ausgewählte Gesänge des Giwargis Warda von Arbel (Leipzig: Harrassowitz, 1904)" .

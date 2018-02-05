@@ -1,0 +1,75 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/263> a lawd:Person ;
+ rdfs:label "Behnam Hadloyo"@en, "ܒܗܢܡ ܚܕܠܝܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/101> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ skos:related <http://syriaca.org/place/324> ; 
+ lawd:hasName [
+ lawd:variantForm ""@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@fr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/649> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ignatios V (IX), Behnam of Ḥidl"@en ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_263> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_263> ;
+ dcterms:relation <http://syriaca.org/person/263> ; 
+ dcterms:relation <http://syriaca.org/place/324> ; 
+ dcterms:relation <http://syriaca.org/person/263> ; 
+ dcterms:relation <http://syriaca.org/place/226> ;
+ dcterms:source <http://syriaca.org/bibl/101>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/642> ;
+ dcterms:relation <http://syriaca.org/person/263/html>, <http://syriaca.org/person/263/tei>, <http://syriaca.org/person/263/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/263/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/263/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/263/ttl> ;
+ dcterms:relation <http://syriaca.org/place/324>, <http://syriaca.org/bibl/101>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/642> .
+
+ syriaca:bornAt <http://syriaca.org/place/324> ;
+ lawd:hasAttestation <http://syriaca.org/person/263> .
+
+ syriaca:hasRelationToPlace <http://syriaca.org/place/226> ;
+ lawd:hasAttestation <http://syriaca.org/person/263> .
+
+<http://syriaca.org/person/263/html> a rdfs:Resource; ;
+ dcterms:title "Behnam Hadloyo"@en, "ܒܗܢܡ ܚܕܠܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/263> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Behnam Hadloyo — ܒܗܢܡ ܚܕܠܝܐ in last modified August 17, 2016, http://syriaca.org/person/263" .
+
+<http://syriaca.org/person/263/tei> a rdfs:Resource; ;
+ dcterms:title "Behnam Hadloyo"@en, "ܒܗܢܡ ܚܕܠܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/263> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Behnam Hadloyo — ܒܗܢܡ ܚܕܠܝܐ in last modified August 17, 2016, http://syriaca.org/person/263" .
+
+<http://syriaca.org/person/263/ttl> a rdfs:Resource; ;
+ dcterms:title "Behnam Hadloyo"@en, "ܒܗܢܡ ܚܕܠܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/person/263> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), Behnam Hadloyo — ܒܗܢܡ ܚܕܠܝܐ in last modified August 17, 2016, http://syriaca.org/person/263" .

@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/keyword/angelology> a  ;
+ rdfs:label "Angelology"@en ;
+ skos:closeMatch <http://d-nb.info/gnd/4136179-9> ; 
+ dcterms:relation <http://d-nb.info/gnd/4136179-9> ;
+ dcterms:relation <http://syriaca.org/keyword/angelology> ; 
+ dcterms:relation <http://syriaca.org/keyword/religion> ;
+ dcterms:relation <http://syriaca.org/keyword/angelology/html>, <http://syriaca.org/keyword/angelology/tei>, <http://syriaca.org/keyword/angelology/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/angelology/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/angelology/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/angelology/ttl> .
+
+ skos:broadMatch <http://syriaca.org/keyword/religion> ;
+ lawd:hasAttestation <http://syriaca.org/keyword/angelology> .
+
+<http://syriaca.org/keyword/angelology/html> a rdfs:Resource; ;
+ dcterms:title "Angelology"@en ;
+ dcterms:subject <http://syriaca.org/keyword/angelology> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Angelology in last modified May 5, 2017, http://syriaca.org/keyword/angelology" .
+
+<http://syriaca.org/keyword/angelology/tei> a rdfs:Resource; ;
+ dcterms:title "Angelology"@en ;
+ dcterms:subject <http://syriaca.org/keyword/angelology> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Angelology in last modified May 5, 2017, http://syriaca.org/keyword/angelology" .
+
+<http://syriaca.org/keyword/angelology/ttl> a rdfs:Resource; ;
+ dcterms:title "Angelology"@en ;
+ dcterms:subject <http://syriaca.org/keyword/angelology> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Sergey Minov and Daniel L. Schwartz (eds.), Angelology in last modified May 5, 2017, http://syriaca.org/keyword/angelology" .

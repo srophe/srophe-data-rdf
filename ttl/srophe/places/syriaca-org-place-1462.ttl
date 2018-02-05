@@ -1,0 +1,64 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/place/1462> a lawd:Place ;
+ rdfs:label "Dayr al-Markaba"@en, "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm "Dayr al-Markaba"@en ;]; 
+ lawd:hasName [
+ lawd:primaryForm "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܩܶܠܳܝܬܐ ܕܶܐܠܝܫܥ ܢܙܺܝܪܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "ܕܰܝܪܐ ܕܡܰܪܟܰܒܬܐ"@syr-Syrj ;
+ lawd:hasAttestation <http://syriaca.org/bibl/3> ;]; 
+ lawd:hasName [
+ lawd:variantForm "صومعة اليشع الناسك"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "دير المركبة"@ar ;
+ lawd:hasAttestation <http://syriaca.org/bibl/2> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Cell of Elishaʿ the Ascetic"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Monastery of the Chariot"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/4> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Cell of Elisha the Ascetic"@en-x-srp1 ;]; 
+ lawd:hasName [
+ lawd:variantForm "Cell of Elisha‘ the Ascetic"@en-x-srp1 ;];
+ dcterms:source <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4> ;
+ dcterms:relation <http://syriaca.org/place/1462/html>, <http://syriaca.org/place/1462/tei>, <http://syriaca.org/place/1462/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1462/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1462/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/1462/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/4> .
+
+<http://syriaca.org/place/1462/html> a rdfs:Resource; ;
+ dcterms:title "Dayr al-Markaba"@en, "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/1462> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dayr al-Markaba — ܕܝܪܐ ܕܡܪܟܒܬܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/1462" .
+
+<http://syriaca.org/place/1462/tei> a rdfs:Resource; ;
+ dcterms:title "Dayr al-Markaba"@en, "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/1462> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dayr al-Markaba — ܕܝܪܐ ܕܡܪܟܒܬܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/1462" .
+
+<http://syriaca.org/place/1462/ttl> a rdfs:Resource; ;
+ dcterms:title "Dayr al-Markaba"@en, "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/place/1462> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Thomas A. Carlson (eds.), Dayr al-Markaba — ܕܝܪܐ ܕܡܪܟܒܬܐ in The Syriac Gazetteer last modified December 9, 2016, http://syriaca.org/place/1462" .

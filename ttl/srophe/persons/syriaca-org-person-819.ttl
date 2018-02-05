@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/person/819> a lawd:Person ;
+ rdfs:label "John Azraq"@en, "ܝܘܚܢܢ ܐܙܪܩ"@syr ;
+ lawd:hasName [
+ lawd:primaryForm ""@en ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en-x-gedsh ;
+ lawd:hasAttestation <http://syriaca.org/bibl/603> ;]; 
+ lawd:hasName [
+ lawd:primaryForm ""@syr ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;
+ lawd:hasAttestation <#bib819-7> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@syr-Syrn ;
+ lawd:hasAttestation <http://syriaca.org/bibl/6> ;]; 
+ lawd:hasName [
+ lawd:variantForm ""@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/5> ;]; 
+ lawd:hasName [
+ lawd:variantForm "Zroqa"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/603> ;]; 
+ lawd:hasName [
+ lawd:variantForm "al-Azraq"@en ;
+ lawd:hasAttestation <http://syriaca.org/bibl/603> ;]; 
+ lawd:hasName [
+ lawd:variantForm "John Azraq"@en ;]; 
+ lawd:hasName [
+ lawd:variantForm "Ioannes (Johannan) Azraq"@la ;
+ lawd:hasAttestation <http://syriaca.org/bibl/641> ;];
+ skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_819>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Azraq&sT=keywords> ; 
+ dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_819>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Azraq&sT=keywords> ;
+ dcterms:source <http://syriaca.org/bibl/603>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> ;
+ dcterms:relation <http://syriaca.org/person/819/html>, <http://syriaca.org/person/819/tei>, <http://syriaca.org/person/819/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/819/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/819/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/819/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/603>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Azraq&sT=keywords>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> .
+
+<http://syriaca.org/person/819/html> a rdfs:Resource; ;
+ dcterms:title "John Azraq"@en, "ܝܘܚܢܢ ܐܙܪܩ"@syr ;
+ dcterms:subject <http://syriaca.org/person/819> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), John Azraq — ܝܘܚܢܢ ܐܙܪܩ in last modified August 17, 2016, http://syriaca.org/person/819" .
+
+<http://syriaca.org/person/819/tei> a rdfs:Resource; ;
+ dcterms:title "John Azraq"@en, "ܝܘܚܢܢ ܐܙܪܩ"@syr ;
+ dcterms:subject <http://syriaca.org/person/819> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), John Azraq — ܝܘܚܢܢ ܐܙܪܩ in last modified August 17, 2016, http://syriaca.org/person/819" .
+
+<http://syriaca.org/person/819/ttl> a rdfs:Resource; ;
+ dcterms:title "John Azraq"@en, "ܝܘܚܢܢ ܐܙܪܩ"@syr ;
+ dcterms:subject <http://syriaca.org/person/819> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian HealJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal, (eds.), John Azraq — ܝܘܚܢܢ ܐܙܪܩ in last modified August 17, 2016, http://syriaca.org/person/819" .
