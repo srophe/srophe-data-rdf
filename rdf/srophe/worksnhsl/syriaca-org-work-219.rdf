@@ -1,0 +1,74 @@
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+    <rdfs:Resource rdf:resource="http://syriaca.org/work/219">
+        <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
+        <rdfs:label xml:lang="en">James (Harklensian version)</rdfs:label>
+        <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
+        <dcterms:description>
+                             part 1 
+                        </dcterms:description>
+        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="#bib219-3"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:relation rdf:resource="#bib219-1"/>
+        <dcterms:relation rdf:resource="#bib219-2"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/manuscript/159"/>
+        <dcterms:relation rdf:resource="#bib219-2"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/9702"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
+        <dcterms:source rdf:resource="http://syriaca.org/manuscript/159"/>
+        <dcterms:source rdf:resource="http://syriaca.org/manuscript/159"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/8"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/219/html"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/219/tei"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/219/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/219/html"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/219/tei"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/219/ttl"/>
+    </rdfs:Resource>
+    <rdf:Description rdf:about="#bib219-3">
+        <dcterms:subject rdf:resource="http://syriaca.org/work/219"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/219"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib219-1">
+        <dcterms:subject rdf:resource="#bib219-2"/>
+        <dctermssource xmlns="" rdf:resource="#bib219-2"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/manuscript/159">
+        <dcterms:subject rdf:resource="#bib219-2"/>
+        <lawd:hasCitation rdf:resource="#bib219-2"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/219">
+        <dcterms:subject rdf:resource="http://syriaca.org/work/9702"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9702"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/219">
+        <dcterms:subject rdf:resource="http://syriaca.org/work/210"/>
+        <dctermsisPartOf xmlns="" rdf:resource="http://syriaca.org/work/210"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
+    </rdf:Description>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/219/html">
+        <dcterms:title xml:lang="en">James (Harklensian version)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:format>text/html</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Nathan P. Gibson David A. Michelson Tucker D. HannahNathan P. Gibson David A. Michelson Tucker D. Hannah and Nathan P. Gibson David A. Michelson Tucker D. Hannah, (eds.), "James (Harklensian version)" in  last modified December 16, 2016, http://syriaca.org/work/219</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/219/tei">
+        <dcterms:title xml:lang="en">James (Harklensian version)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:format>text/xml</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Nathan P. Gibson David A. Michelson Tucker D. HannahNathan P. Gibson David A. Michelson Tucker D. Hannah and Nathan P. Gibson David A. Michelson Tucker D. Hannah, (eds.), "James (Harklensian version)" in  last modified December 16, 2016, http://syriaca.org/work/219</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/219/ttl">
+        <dcterms:title xml:lang="en">James (Harklensian version)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Nathan P. Gibson David A. Michelson Tucker D. HannahNathan P. Gibson David A. Michelson Tucker D. Hannah and Nathan P. Gibson David A. Michelson Tucker D. Hannah, (eds.), "James (Harklensian version)" in  last modified December 16, 2016, http://syriaca.org/work/219</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+</rdf:RDF>
