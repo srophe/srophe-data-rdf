@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1995> a lawd:conceptualWork ;
+ rdfs:label "ܪܘܡܢܘܣ"@syr, "Romanus (text)"@en ;
+ skos:related <http://syriaca.org/place/10> ;
+ dcterms:relation <#bib1995-2> ; 
+ dcterms:relation <http://syriaca.org/work/1995> ; 
+ dcterms:relation <http://syriaca.org/work/1995> ; 
+ dcterms:relation <http://syriaca.org/person/1430> ;
+ dcterms:relation <http://syriaca.org/work/1995/html>, <http://syriaca.org/work/1995/tei>, <http://syriaca.org/work/1995/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1995/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1995/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1995/ttl> ;
+ dcterms:relation <http://syriaca.org/person/51>, <http://syriaca.org/place/10>, <http://syriaca.org/bibl/649> .
+
+ lawd:embodies <http://syriaca.org/work/1995> ;
+ lawd:hasAttestation <http://syriaca.org/work/1995> .
+
+ syriaca:commemorated <http://syriaca.org/person/1430> ;
+ lawd:hasAttestation <http://syriaca.org/work/1995> .
+
+<http://syriaca.org/work/1995/html> a rdfs:Resource; ;
+ dcterms:title "ܪܘܡܢܘܣ"@syr, "Romanus (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1995> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Romanus (text) — ܪܘܡܢܘܣ in last modified December 12, 2016, http://syriaca.org/work/1995" .
+
+<http://syriaca.org/work/1995/tei> a rdfs:Resource; ;
+ dcterms:title "ܪܘܡܢܘܣ"@syr, "Romanus (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1995> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Romanus (text) — ܪܘܡܢܘܣ in last modified December 12, 2016, http://syriaca.org/work/1995" .
+
+<http://syriaca.org/work/1995/ttl> a rdfs:Resource; ;
+ dcterms:title "ܪܘܡܢܘܣ"@syr, "Romanus (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1995> ;
+ dcterms:subject <http://syriaca.org/work/1995> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Romanus (text) — ܪܘܡܢܘܣ in last modified December 12, 2016, http://syriaca.org/work/1995" .

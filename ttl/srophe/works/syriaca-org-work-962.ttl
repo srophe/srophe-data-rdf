@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/962> a lawd:conceptualWork ;
+ rdfs:label "ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ"@syr, "Mary Mother of God (text)"@en ;
+ dcterms:relation <#bib962-4> ; 
+ dcterms:relation <http://syriaca.org/work/962> ; 
+ dcterms:relation <#bib962-5> ; 
+ dcterms:relation <http://syriaca.org/work/962> ; 
+ dcterms:relation <#bib962-6> ; 
+ dcterms:relation <http://syriaca.org/work/962> ; 
+ dcterms:relation <#bib962-7> ; 
+ dcterms:relation <http://syriaca.org/work/962> ;
+ dcterms:relation <http://syriaca.org/work/962/html>, <http://syriaca.org/work/962/tei>, <http://syriaca.org/work/962/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/962/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/962/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/962/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/726>, <http://syriaca.org/bibl/727> .
+
+ lawd:embodies <http://syriaca.org/work/962> ;
+ lawd:hasAttestation <http://syriaca.org/work/962> .
+
+ lawd:embodies <http://syriaca.org/work/962> ;
+ lawd:hasAttestation <http://syriaca.org/work/962> .
+
+ lawd:embodies <http://syriaca.org/work/962> ;
+ lawd:hasAttestation <http://syriaca.org/work/962> .
+
+ lawd:embodies <http://syriaca.org/work/962> ;
+ lawd:hasAttestation <http://syriaca.org/work/962> .
+
+<http://syriaca.org/work/962/html> a rdfs:Resource; ;
+ dcterms:title "ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ"@syr, "Mary Mother of God (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/962> ;
+ dcterms:source <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/726>, <http://syriaca.org/bibl/727> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ in last modified December 12, 2016, http://syriaca.org/work/962" .
+
+<http://syriaca.org/work/962/tei> a rdfs:Resource; ;
+ dcterms:title "ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ"@syr, "Mary Mother of God (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/962> ;
+ dcterms:source <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/726>, <http://syriaca.org/bibl/727> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ in last modified December 12, 2016, http://syriaca.org/work/962" .
+
+<http://syriaca.org/work/962/ttl> a rdfs:Resource; ;
+ dcterms:title "ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ"@syr, "Mary Mother of God (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/962> ;
+ dcterms:subject <http://syriaca.org/work/962> ;
+ dcterms:source <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/1788>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/726>, <http://syriaca.org/bibl/727> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ in last modified December 12, 2016, http://syriaca.org/work/962" .

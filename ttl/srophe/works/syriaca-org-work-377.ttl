@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/377> a lawd:conceptualWork ;
+ rdfs:label "ܐܒܕܘܟܣܝܘܣ"@syr, "Romulus, Eudoxius, and Friends (text)"@en ;
+ dcterms:relation <#bib377-2> ; 
+ dcterms:relation <http://syriaca.org/work/377> ; 
+ dcterms:relation <#bib377-3> ; 
+ dcterms:relation <http://syriaca.org/work/377> ; 
+ dcterms:relation <http://syriaca.org/work/377> ; 
+ dcterms:relation <http://syriaca.org/person/2043> ; 
+ dcterms:relation <http://syriaca.org/person/1713> ;
+ dcterms:relation <http://syriaca.org/work/377/html>, <http://syriaca.org/work/377/tei>, <http://syriaca.org/work/377/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/377/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/377/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/377/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/649> .
+
+ lawd:embodies <http://syriaca.org/work/377> ;
+ lawd:hasAttestation <http://syriaca.org/work/377> .
+
+ lawd:embodies <http://syriaca.org/work/377> ;
+ lawd:hasAttestation <http://syriaca.org/work/377> .
+
+ syriaca:commemorated <http://syriaca.org/person/2043> ;
+ lawd:hasAttestation <http://syriaca.org/work/377> ;
+ syriaca:commemorated <http://syriaca.org/person/1713> ;
+ lawd:hasAttestation <http://syriaca.org/work/377> .
+
+<http://syriaca.org/work/377/html> a rdfs:Resource; ;
+ dcterms:title "ܐܒܕܘܟܣܝܘܣ"@syr, "Romulus, Eudoxius, and Friends (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/377> ;
+ dcterms:source <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Romulus, Eudoxius, and Friends (text) — ܐܒܕܘܟܣܝܘܣ in last modified December 12, 2016, http://syriaca.org/work/377" .
+
+<http://syriaca.org/work/377/tei> a rdfs:Resource; ;
+ dcterms:title "ܐܒܕܘܟܣܝܘܣ"@syr, "Romulus, Eudoxius, and Friends (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/377> ;
+ dcterms:source <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Romulus, Eudoxius, and Friends (text) — ܐܒܕܘܟܣܝܘܣ in last modified December 12, 2016, http://syriaca.org/work/377" .
+
+<http://syriaca.org/work/377/ttl> a rdfs:Resource; ;
+ dcterms:title "ܐܒܕܘܟܣܝܘܣ"@syr, "Romulus, Eudoxius, and Friends (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/377> ;
+ dcterms:subject <http://syriaca.org/work/377> ;
+ dcterms:source <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Romulus, Eudoxius, and Friends (text) — ܐܒܕܘܟܣܝܘܣ in last modified December 12, 2016, http://syriaca.org/work/377" .

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1406> a lawd:conceptualWork ;
+ rdfs:label "ܘܟܣܝܡܘܣ"@syr, "Maximus the Confessor (text)"@en ;
+ dcterms:relation <#bib1406-3> ; 
+ dcterms:relation <http://syriaca.org/work/1406> ; 
+ dcterms:relation <#bib1406-4> ; 
+ dcterms:relation <http://syriaca.org/work/1406> ; 
+ dcterms:relation <#bib1406-5> ; 
+ dcterms:relation <http://syriaca.org/work/1406> ; 
+ dcterms:relation <http://syriaca.org/work/1406> ; 
+ dcterms:relation <http://syriaca.org/person/628> ; 
+ dcterms:relation <http://syriaca.org/work/1406> ; 
+ dcterms:relation <http://syriaca.org/person/2791> ;
+ dcterms:relation <http://syriaca.org/work/1406/html>, <http://syriaca.org/work/1406/tei>, <http://syriaca.org/work/1406/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1406/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1406/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1406/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1081> .
+
+ lawd:embodies <http://syriaca.org/work/1406> ;
+ lawd:hasAttestation <http://syriaca.org/work/1406> .
+
+ lawd:embodies <http://syriaca.org/work/1406> ;
+ lawd:hasAttestation <http://syriaca.org/work/1406> .
+
+ lawd:embodies <http://syriaca.org/work/1406> ;
+ lawd:hasAttestation <http://syriaca.org/work/1406> .
+
+ syriaca:commemorated <http://syriaca.org/person/628> ;
+ lawd:hasAttestation <http://syriaca.org/work/1406> .
+
+ syriaca:commemorated <http://syriaca.org/person/2791> ;
+ lawd:hasAttestation <http://syriaca.org/work/1406> .
+
+<http://syriaca.org/work/1406/html> a rdfs:Resource; ;
+ dcterms:title "ܘܟܣܝܡܘܣ"@syr, "Maximus the Confessor (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1406> ;
+ dcterms:source <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1081> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Maximus the Confessor (text) — ܘܟܣܝܡܘܣ in last modified December 12, 2016, http://syriaca.org/work/1406" .
+
+<http://syriaca.org/work/1406/tei> a rdfs:Resource; ;
+ dcterms:title "ܘܟܣܝܡܘܣ"@syr, "Maximus the Confessor (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1406> ;
+ dcterms:source <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1081> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Maximus the Confessor (text) — ܘܟܣܝܡܘܣ in last modified December 12, 2016, http://syriaca.org/work/1406" .
+
+<http://syriaca.org/work/1406/ttl> a rdfs:Resource; ;
+ dcterms:title "ܘܟܣܝܡܘܣ"@syr, "Maximus the Confessor (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1406> ;
+ dcterms:subject <http://syriaca.org/work/1406> ;
+ dcterms:source <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/1779>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1081> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Maximus the Confessor (text) — ܘܟܣܝܡܘܣ in last modified December 12, 2016, http://syriaca.org/work/1406" .

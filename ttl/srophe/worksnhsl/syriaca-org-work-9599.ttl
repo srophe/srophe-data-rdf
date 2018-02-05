@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9599> a  ;
+ rdfs:label "Philippians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Epistle_to_the_Philippians>, <https://www.wikidata.org/wiki/Q51613> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Epistle_to_the_Philippians>, <https://www.wikidata.org/wiki/Q51613> ;
+ dcterms:relation <#bib9599-1> ; 
+ dcterms:relation <http://syriaca.org/work/9599> ; 
+ dcterms:relation <http://syriaca.org/work/9599> ; 
+ dcterms:relation <http://syriaca.org/work/9643> ;
+ dcterms:relation <http://syriaca.org/work/9599/html>, <http://syriaca.org/work/9599/tei>, <http://syriaca.org/work/9599/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9599/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9599/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9599/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9599>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/82>, <http://syriaca.org/work/10527>, <http://syriaca.org/bibl/2450> .
+
+ lawd:embodies <http://syriaca.org/work/9599> ;
+ lawd:hasAttestation <http://syriaca.org/work/9599> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9643> ;
+ lawd:hasAttestation <http://syriaca.org/work/9599> .
+
+<http://syriaca.org/work/9599/html> a rdfs:Resource; ;
+ dcterms:title "Philippians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9599> ;
+ dcterms:source <http://syriaca.org/work/9599>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/82>, <http://syriaca.org/work/10527>, <http://syriaca.org/bibl/2450> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Philippians (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ in last modified March 29, 2017, http://syriaca.org/work/9599" .
+
+<http://syriaca.org/work/9599/tei> a rdfs:Resource; ;
+ dcterms:title "Philippians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9599> ;
+ dcterms:source <http://syriaca.org/work/9599>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/82>, <http://syriaca.org/work/10527>, <http://syriaca.org/bibl/2450> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Philippians (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ in last modified March 29, 2017, http://syriaca.org/work/9599" .
+
+<http://syriaca.org/work/9599/ttl> a rdfs:Resource; ;
+ dcterms:title "Philippians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9599> ;
+ dcterms:subject <http://syriaca.org/work/9599> ;
+ dcterms:source <http://syriaca.org/work/9599>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/82>, <http://syriaca.org/work/10527>, <http://syriaca.org/bibl/2450> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Philippians (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܦܝܠܝܦܣܝ̈ܐ in last modified March 29, 2017, http://syriaca.org/work/9599" .

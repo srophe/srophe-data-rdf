@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/924> a lawd:conceptualWork ;
+ rdfs:label "ܫܪܒܝܠ"@syr, "Sharbel (text)"@en ;
+ dcterms:relation <#bib924-3> ; 
+ dcterms:relation <http://syriaca.org/work/924> ; 
+ dcterms:relation <#bib924-4> ; 
+ dcterms:relation <http://syriaca.org/work/924> ; 
+ dcterms:relation <#bib924-5> ; 
+ dcterms:relation <http://syriaca.org/work/924> ; 
+ dcterms:relation <http://syriaca.org/work/924> ; 
+ dcterms:relation <http://syriaca.org/person/1454> ;
+ dcterms:relation <http://syriaca.org/work/924/html>, <http://syriaca.org/work/924/tei>, <http://syriaca.org/work/924/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/924/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/924/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/924/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/723> .
+
+ lawd:embodies <http://syriaca.org/work/924> ;
+ lawd:hasAttestation <http://syriaca.org/work/924> .
+
+ lawd:embodies <http://syriaca.org/work/924> ;
+ lawd:hasAttestation <http://syriaca.org/work/924> .
+
+ lawd:embodies <http://syriaca.org/work/924> ;
+ lawd:hasAttestation <http://syriaca.org/work/924> .
+
+ syriaca:commemorated <http://syriaca.org/person/1454> ;
+ lawd:hasAttestation <http://syriaca.org/work/924> .
+
+<http://syriaca.org/work/924/html> a rdfs:Resource; ;
+ dcterms:title "ܫܪܒܝܠ"@syr, "Sharbel (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/924> ;
+ dcterms:source <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/723> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Sharbel (text) — ܫܪܒܝܠ in last modified December 12, 2016, http://syriaca.org/work/924" .
+
+<http://syriaca.org/work/924/tei> a rdfs:Resource; ;
+ dcterms:title "ܫܪܒܝܠ"@syr, "Sharbel (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/924> ;
+ dcterms:source <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/723> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Sharbel (text) — ܫܪܒܝܠ in last modified December 12, 2016, http://syriaca.org/work/924" .
+
+<http://syriaca.org/work/924/ttl> a rdfs:Resource; ;
+ dcterms:title "ܫܪܒܝܠ"@syr, "Sharbel (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/924> ;
+ dcterms:subject <http://syriaca.org/work/924> ;
+ dcterms:source <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/1696>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/723> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Sharbel (text) — ܫܪܒܝܠ in last modified December 12, 2016, http://syriaca.org/work/924" .

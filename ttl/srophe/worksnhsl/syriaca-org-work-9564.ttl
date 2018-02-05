@@ -1,0 +1,44 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9564> a  ;
+ rdfs:label "Book of Wisdom (literary tradition)"@en, "ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Book_of_Wisdom>, <https://www.wikidata.org/wiki/Q202135> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Book_of_Wisdom>, <https://www.wikidata.org/wiki/Q202135> ;
+ dcterms:relation <http://syriaca.org/work/9564> ; 
+ dcterms:relation <http://syriaca.org/work/9586> ;
+ dcterms:relation <http://syriaca.org/work/9564/html>, <http://syriaca.org/work/9564/tei>, <http://syriaca.org/work/9564/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9564/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9564/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9564/ttl> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9586> ;
+ lawd:hasAttestation <http://syriaca.org/work/9564> .
+
+<http://syriaca.org/work/9564/html> a rdfs:Resource; ;
+ dcterms:title "Book of Wisdom (literary tradition)"@en, "ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9564> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Book of Wisdom (literary tradition) — ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ in last modified March 29, 2017, http://syriaca.org/work/9564" .
+
+<http://syriaca.org/work/9564/tei> a rdfs:Resource; ;
+ dcterms:title "Book of Wisdom (literary tradition)"@en, "ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9564> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Book of Wisdom (literary tradition) — ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ in last modified March 29, 2017, http://syriaca.org/work/9564" .
+
+<http://syriaca.org/work/9564/ttl> a rdfs:Resource; ;
+ dcterms:title "Book of Wisdom (literary tradition)"@en, "ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9564> ;
+ dcterms:subject <http://syriaca.org/work/9564> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Book of Wisdom (literary tradition) — ܣܦܪܐ ܕܚܟܡܬܐ ܪܒܬܐ in last modified March 29, 2017, http://syriaca.org/work/9564" .

@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9747> a lawd:conceptualWork ;
+ rdfs:label "Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?)"@en ;
+ dcterms:relation <#bib9747-1> ; 
+ dcterms:relation <#bib9747-3> ; 
+ dcterms:relation <#bib9747-1> ; 
+ dcterms:relation <http://syriaca.org/work/9747> ; 
+ dcterms:relation <#bib9747-2> ; 
+ dcterms:relation <http://syriaca.org/work/9747> ; 
+ dcterms:relation <#bib9747-3> ; 
+ dcterms:relation <http://syriaca.org/work/9747> ; 
+ dcterms:relation <#bib9747-4> ; 
+ dcterms:relation <http://syriaca.org/work/9747> ;
+ dcterms:relation <http://syriaca.org/work/9747/html>, <http://syriaca.org/work/9747/tei>, <http://syriaca.org/work/9747/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9747/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9747/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9747/ttl> ;
+ dcterms:relation <http://syriaca.org/person/99>, <http://syriaca.org/bibl/1394> .
+
+ dcterms:source <#bib9747-3> ;
+ lawd:hasAttestation <http://syriaca.org/work/9747> .
+
+ lawd:embodies <http://syriaca.org/work/9747> ;
+ lawd:hasAttestation <http://syriaca.org/work/9747> .
+
+ lawd:embodies <http://syriaca.org/work/9747> ;
+ lawd:hasAttestation <http://syriaca.org/work/9747> .
+
+ lawd:embodies <http://syriaca.org/work/9747> ;
+ lawd:hasAttestation <http://syriaca.org/work/9747> .
+
+ lawd:embodies <http://syriaca.org/work/9747> ;
+ lawd:hasAttestation <http://syriaca.org/work/9747> .
+
+<http://syriaca.org/work/9747/html> a rdfs:Resource; ;
+ dcterms:title "Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?)"@en ;
+ dcterms:subject <http://syriaca.org/work/9747> ;
+ dcterms:source <http://syriaca.org/bibl/1394> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Grigory Kessel and Nicolás Bamballi (eds.), Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?) in last modified November 9, 2017, http://syriaca.org/work/9747" .
+
+<http://syriaca.org/work/9747/tei> a rdfs:Resource; ;
+ dcterms:title "Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?)"@en ;
+ dcterms:subject <http://syriaca.org/work/9747> ;
+ dcterms:source <http://syriaca.org/bibl/1394> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Grigory Kessel and Nicolás Bamballi (eds.), Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?) in last modified November 9, 2017, http://syriaca.org/work/9747" .
+
+<http://syriaca.org/work/9747/ttl> a rdfs:Resource; ;
+ dcterms:title "Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?)"@en ;
+ dcterms:subject <http://syriaca.org/work/9747> ;
+ dcterms:subject <http://syriaca.org/work/9747> ;
+ dcterms:source <http://syriaca.org/bibl/1394> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Grigory Kessel and Nicolás Bamballi (eds.), Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?) in last modified November 9, 2017, http://syriaca.org/work/9747" .

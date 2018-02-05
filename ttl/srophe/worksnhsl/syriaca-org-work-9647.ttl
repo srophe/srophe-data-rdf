@@ -1,0 +1,63 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9647> a  ;
+ rdfs:label "Mark (literary tradition)"@en, "ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Gospel_of_Mark>, <https://www.wikidata.org/wiki/Q107388>, <https://viaf.org/viaf/179823714> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Gospel_of_Mark>, <https://www.wikidata.org/wiki/Q107388>, <https://viaf.org/viaf/179823714> ;
+ dcterms:relation <#bib9647-1> ; 
+ dcterms:relation <http://syriaca.org/work/9647> ; 
+ dcterms:relation <http://syriaca.org/work/9647> ; 
+ dcterms:relation <http://syriaca.org/work/9645> ; 
+ dcterms:relation <http://syriaca.org/work/9647> ; 
+ dcterms:relation <http://syriaca.org/work/9687> ; 
+ dcterms:relation <http://syriaca.org/work/9647> ; 
+ dcterms:relation <http://syriaca.org/work/9685> ;
+ dcterms:relation <http://syriaca.org/work/9647/html>, <http://syriaca.org/work/9647/tei>, <http://syriaca.org/work/9647/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9647/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9647/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9647/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9647>, <http://syriaca.org/work/10537>, <http://syriaca.org/work/9514>, <http://syriaca.org/work/73>, <http://syriaca.org/work/163>, <http://syriaca.org/work/205>, <http://syriaca.org/bibl/2435>, <http://syriaca.org/bibl/113>, <http://syriaca.org/bibl/2432> .
+
+ lawd:embodies <http://syriaca.org/work/9647> ;
+ lawd:hasAttestation <http://syriaca.org/work/9647> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9645> ;
+ lawd:hasAttestation <http://syriaca.org/work/9647> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9687> ;
+ lawd:hasAttestation <http://syriaca.org/work/9647> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9685> ;
+ lawd:hasAttestation <http://syriaca.org/work/9647> .
+
+<http://syriaca.org/work/9647/html> a rdfs:Resource; ;
+ dcterms:title "Mark (literary tradition)"@en, "ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9647> ;
+ dcterms:source <http://syriaca.org/work/9647>, <http://syriaca.org/work/10537>, <http://syriaca.org/work/9514>, <http://syriaca.org/work/73>, <http://syriaca.org/work/163>, <http://syriaca.org/work/205>, <http://syriaca.org/bibl/2435>, <http://syriaca.org/bibl/113>, <http://syriaca.org/bibl/2432> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Mark (literary tradition) — ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ in last modified March 29, 2017, http://syriaca.org/work/9647" .
+
+<http://syriaca.org/work/9647/tei> a rdfs:Resource; ;
+ dcterms:title "Mark (literary tradition)"@en, "ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9647> ;
+ dcterms:source <http://syriaca.org/work/9647>, <http://syriaca.org/work/10537>, <http://syriaca.org/work/9514>, <http://syriaca.org/work/73>, <http://syriaca.org/work/163>, <http://syriaca.org/work/205>, <http://syriaca.org/bibl/2435>, <http://syriaca.org/bibl/113>, <http://syriaca.org/bibl/2432> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Mark (literary tradition) — ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ in last modified March 29, 2017, http://syriaca.org/work/9647" .
+
+<http://syriaca.org/work/9647/ttl> a rdfs:Resource; ;
+ dcterms:title "Mark (literary tradition)"@en, "ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9647> ;
+ dcterms:subject <http://syriaca.org/work/9647> ;
+ dcterms:source <http://syriaca.org/work/9647>, <http://syriaca.org/work/10537>, <http://syriaca.org/work/9514>, <http://syriaca.org/work/73>, <http://syriaca.org/work/163>, <http://syriaca.org/work/205>, <http://syriaca.org/bibl/2435>, <http://syriaca.org/bibl/113>, <http://syriaca.org/bibl/2432> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Mark (literary tradition) — ܐܘܢܓܠܝܘܢ ܩܕܝܫܐ ܟܪܘܙܘܬܐ ܕܡܪܩܘܣ in last modified March 29, 2017, http://syriaca.org/work/9647" .

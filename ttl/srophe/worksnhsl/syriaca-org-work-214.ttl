@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/214> a lawd:conceptualWork ;
+ rdfs:label "Protoevangelium of James (the Greek text)"@en ;
+ dcterms:relation <#bib214-3> ; 
+ dcterms:relation <http://syriaca.org/work/214> ; 
+ dcterms:relation <#bib214-1> ; 
+ dcterms:relation <#bib214-2> ; 
+ dcterms:relation <http://syriaca.org/manuscript/172> ; 
+ dcterms:relation <#bib214-2> ; 
+ dcterms:relation <http://syriaca.org/work/214> ; 
+ dcterms:relation <http://syriaca.org/work/9698> ;
+ dcterms:relation <http://syriaca.org/work/214/html>, <http://syriaca.org/work/214/tei>, <http://syriaca.org/work/214/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/214/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/214/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/214/ttl> ;
+ dcterms:relation <http://syriaca.org/manuscript/172>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/172#p4a1>, <http://syriaca.org/bibl/8> .
+
+ lawd:embodies <http://syriaca.org/work/214> ;
+ lawd:hasAttestation <http://syriaca.org/work/214> .
+
+ dcterms:source <#bib214-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/214> .
+
+ lawd:hasCitation <#bib214-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/214> .
+
+ skos:broadMatch <http://syriaca.org/work/9698> ;
+ lawd:hasAttestation <http://syriaca.org/work/214> .
+
+<http://syriaca.org/work/214/html> a rdfs:Resource; ;
+ dcterms:title "Protoevangelium of James (the Greek text)"@en ;
+ dcterms:subject <http://syriaca.org/work/214> ;
+ dcterms:source <http://syriaca.org/manuscript/172>, <http://syriaca.org/manuscript/172>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Protoevangelium of James (the Greek text) in last modified December 16, 2016, http://syriaca.org/work/214" .
+
+<http://syriaca.org/work/214/tei> a rdfs:Resource; ;
+ dcterms:title "Protoevangelium of James (the Greek text)"@en ;
+ dcterms:subject <http://syriaca.org/work/214> ;
+ dcterms:source <http://syriaca.org/manuscript/172>, <http://syriaca.org/manuscript/172>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Protoevangelium of James (the Greek text) in last modified December 16, 2016, http://syriaca.org/work/214" .
+
+<http://syriaca.org/work/214/ttl> a rdfs:Resource; ;
+ dcterms:title "Protoevangelium of James (the Greek text)"@en ;
+ dcterms:subject <http://syriaca.org/work/214> ;
+ dcterms:subject <http://syriaca.org/work/214> ;
+ dcterms:source <http://syriaca.org/manuscript/172>, <http://syriaca.org/manuscript/172>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Protoevangelium of James (the Greek text) in last modified December 16, 2016, http://syriaca.org/work/214" .

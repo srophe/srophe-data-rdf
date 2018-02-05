@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9529> a  ;
+ rdfs:label "2 Kings (literary tradition)"@en, "ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ"@syr ;
+ dcterms:relation <http://syriaca.org/work/9529> ; 
+ dcterms:relation <http://syriaca.org/work/9562> ;
+ dcterms:relation <http://syriaca.org/work/9529/html>, <http://syriaca.org/work/9529/tei>, <http://syriaca.org/work/9529/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9529/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9529/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9529/ttl> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9562> ;
+ lawd:hasAttestation <http://syriaca.org/work/9529> .
+
+<http://syriaca.org/work/9529/html> a rdfs:Resource; ;
+ dcterms:title "2 Kings (literary tradition)"@en, "ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9529> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Kings (literary tradition) — ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ in last modified March 29, 2017, http://syriaca.org/work/9529" .
+
+<http://syriaca.org/work/9529/tei> a rdfs:Resource; ;
+ dcterms:title "2 Kings (literary tradition)"@en, "ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9529> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Kings (literary tradition) — ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ in last modified March 29, 2017, http://syriaca.org/work/9529" .
+
+<http://syriaca.org/work/9529/ttl> a rdfs:Resource; ;
+ dcterms:title "2 Kings (literary tradition)"@en, "ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9529> ;
+ dcterms:subject <http://syriaca.org/work/9529> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Kings (literary tradition) — ܣܦܪܐ ܬܪܝܢ ܕܡܠ̈ܟܐ in last modified March 29, 2017, http://syriaca.org/work/9529" .

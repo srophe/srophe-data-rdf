@@ -1,0 +1,51 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/8517> a lawd:conceptualWork ;
+ rdfs:label "Demonstration 15: On the Distinction between Foods"@en, "ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ"@syr ;
+ dcterms:relation <#bib8517-1> ; 
+ dcterms:relation <#bib8517-2> ; 
+ dcterms:relation <http://syriaca.org/work/8517> ; 
+ dcterms:relation <http://syriaca.org/work/8501> ;
+ dcterms:relation <http://syriaca.org/work/8517/html>, <http://syriaca.org/work/8517/tei>, <http://syriaca.org/work/8517/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/8517/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/8517/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/8517/ttl> ;
+ dcterms:relation <http://syriaca.org/person/10>, <http://syriaca.org/bibl/2331>, <http://syriaca.org/bibl/2329> .
+
+ dcterms:source <#bib8517-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/8517> .
+
+ dcterms:isPartOf <http://syriaca.org/work/8501> ;
+ lawd:hasAttestation <http://syriaca.org/work/8517> .
+
+<http://syriaca.org/work/8517/html> a rdfs:Resource; ;
+ dcterms:title "Demonstration 15: On the Distinction between Foods"@en, "ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/8517> ;
+ dcterms:source <http://syriaca.org/bibl/2331>, <http://syriaca.org/bibl/2329> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "James E. Walters (eds.), Demonstration 15: On the Distinction between Foods - ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ in last modified February 16, 2017, http://syriaca.org/work/8517" .
+
+<http://syriaca.org/work/8517/tei> a rdfs:Resource; ;
+ dcterms:title "Demonstration 15: On the Distinction between Foods"@en, "ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/8517> ;
+ dcterms:source <http://syriaca.org/bibl/2331>, <http://syriaca.org/bibl/2329> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "James E. Walters (eds.), Demonstration 15: On the Distinction between Foods - ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ in last modified February 16, 2017, http://syriaca.org/work/8517" .
+
+<http://syriaca.org/work/8517/ttl> a rdfs:Resource; ;
+ dcterms:title "Demonstration 15: On the Distinction between Foods"@en, "ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/8517> ;
+ dcterms:subject <http://syriaca.org/work/8517> ;
+ dcterms:source <http://syriaca.org/bibl/2331>, <http://syriaca.org/bibl/2329> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "James E. Walters (eds.), Demonstration 15: On the Distinction between Foods - ܬܚܘܝܬܐ ܕܥܠ ܦܘܪܫ ܡܐ̈ܟܠܬܐ in last modified February 16, 2017, http://syriaca.org/work/8517" .

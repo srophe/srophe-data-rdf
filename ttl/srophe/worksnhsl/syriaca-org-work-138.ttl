@@ -1,0 +1,76 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/138> a lawd:conceptualWork ;
+ rdfs:label "Isaiah (LXX/Septuagint version)"@en ;
+ dcterms:relation <#bib138-5> ; 
+ dcterms:relation <http://syriaca.org/work/138> ; 
+ dcterms:relation <#bib138-6> ; 
+ dcterms:relation <http://syriaca.org/work/138> ; 
+ dcterms:relation <#bib138-1> ; 
+ dcterms:relation <#bib138-2> ; 
+ dcterms:relation <http://syriaca.org/manuscript/735> ; 
+ dcterms:relation <#bib138-2> ; 
+ dcterms:relation <#bib138-3> ; 
+ dcterms:relation <#bib138-4> ; 
+ dcterms:relation <http://syriaca.org/manuscript/875> ; 
+ dcterms:relation <#bib138-4> ; 
+ dcterms:relation <http://syriaca.org/work/138> ; 
+ dcterms:relation <http://syriaca.org/work/9640> ;
+ dcterms:relation <http://syriaca.org/work/138/html>, <http://syriaca.org/work/138/tei>, <http://syriaca.org/work/138/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/138/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/138/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/138/ttl> ;
+ dcterms:relation <http://syriaca.org/manuscript/735>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/735#p2a1>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/875#p1a1> .
+
+ lawd:embodies <http://syriaca.org/work/138> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+ lawd:embodies <http://syriaca.org/work/138> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+ dcterms:source <#bib138-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+ lawd:hasCitation <#bib138-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+ dcterms:source <#bib138-4> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+ lawd:hasCitation <#bib138-4> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+ skos:broadMatch <http://syriaca.org/work/9640> ;
+ lawd:hasAttestation <http://syriaca.org/work/138> .
+
+<http://syriaca.org/work/138/html> a rdfs:Resource; ;
+ dcterms:title "Isaiah (LXX/Septuagint version)"@en ;
+ dcterms:subject <http://syriaca.org/work/138> ;
+ dcterms:source <http://syriaca.org/manuscript/735>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/manuscript/735>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Isaiah (LXX/Septuagint version) in last modified December 16, 2016, http://syriaca.org/work/138" .
+
+<http://syriaca.org/work/138/tei> a rdfs:Resource; ;
+ dcterms:title "Isaiah (LXX/Septuagint version)"@en ;
+ dcterms:subject <http://syriaca.org/work/138> ;
+ dcterms:source <http://syriaca.org/manuscript/735>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/manuscript/735>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Isaiah (LXX/Septuagint version) in last modified December 16, 2016, http://syriaca.org/work/138" .
+
+<http://syriaca.org/work/138/ttl> a rdfs:Resource; ;
+ dcterms:title "Isaiah (LXX/Septuagint version)"@en ;
+ dcterms:subject <http://syriaca.org/work/138> ;
+ dcterms:subject <http://syriaca.org/work/138> ;
+ dcterms:source <http://syriaca.org/manuscript/735>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/manuscript/735>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/875>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Isaiah (LXX/Septuagint version) in last modified December 16, 2016, http://syriaca.org/work/138" .

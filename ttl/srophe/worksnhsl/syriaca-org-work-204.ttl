@@ -1,0 +1,106 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/204> a  ;
+ rdfs:label "Matthew, Arabic (literary tradition)"@en ;
+ dcterms:relation <#bib204-5> ; 
+ dcterms:relation <http://syriaca.org/work/204> ; 
+ dcterms:relation <#bib204-6> ; 
+ dcterms:relation <http://syriaca.org/work/204> ; 
+ dcterms:relation <#bib204-7> ; 
+ dcterms:relation <http://syriaca.org/work/197> ; 
+ dcterms:relation <#bib204-1> ; 
+ dcterms:relation <#bib204-2> ; 
+ dcterms:relation <http://syriaca.org/manuscript/148> ; 
+ dcterms:relation <#bib204-2> ; 
+ dcterms:relation <#bib204-3> ; 
+ dcterms:relation <#bib204-4> ; 
+ dcterms:relation <http://syriaca.org/manuscript/994> ; 
+ dcterms:relation <#bib204-4> ; 
+ dcterms:relation <#bib204-8> ; 
+ dcterms:relation <#bib204-9> ; 
+ dcterms:relation <http://syriaca.org/manuscript/1112> ; 
+ dcterms:relation <#bib204-9> ; 
+ dcterms:relation <http://syriaca.org/work/204> ; 
+ dcterms:relation <http://syriaca.org/work/9646> ; 
+ dcterms:relation <http://syriaca.org/work/204> ; 
+ dcterms:relation <http://syriaca.org/work/217> ; 
+ dcterms:relation <http://syriaca.org/work/204> ; 
+ dcterms:relation <http://syriaca.org/work/10539> ; 
+ dcterms:relation <http://syriaca.org/work/204> ; 
+ dcterms:relation <http://syriaca.org/work/196> ;
+ dcterms:relation <http://syriaca.org/work/204/html>, <http://syriaca.org/work/204/tei>, <http://syriaca.org/work/204/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/204/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/204/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/204/ttl> ;
+ dcterms:relation <http://syriaca.org/work/204>, <http://syriaca.org/work/9646>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/148#c2>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/994#p9b3>, <http://syriaca.org/manuscript/1112#c1> .
+
+ lawd:embodies <http://syriaca.org/work/204> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ lawd:embodies <http://syriaca.org/work/204> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ lawd:embodies <http://syriaca.org/work/197> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ dcterms:source <#bib204-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ lawd:hasCitation <#bib204-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ dcterms:source <#bib204-4> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ lawd:hasCitation <#bib204-4> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ dcterms:source <#bib204-9> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ lawd:hasCitation <#bib204-9> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ skos:broadMatch <http://syriaca.org/work/9646> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ dcterms:isPartOf <http://syriaca.org/work/217> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ dcterms:isPartOf <http://syriaca.org/work/10539> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+ dcterms:isPartOf <http://syriaca.org/work/196> ;
+ lawd:hasAttestation <http://syriaca.org/work/204> .
+
+<http://syriaca.org/work/204/html> a rdfs:Resource; ;
+ dcterms:title "Matthew, Arabic (literary tradition)"@en ;
+ dcterms:subject <http://syriaca.org/work/204> ;
+ dcterms:source <http://syriaca.org/work/204>, <http://syriaca.org/work/9646>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Matthew, Arabic (literary tradition) in last modified December 16, 2016, http://syriaca.org/work/204" .
+
+<http://syriaca.org/work/204/tei> a rdfs:Resource; ;
+ dcterms:title "Matthew, Arabic (literary tradition)"@en ;
+ dcterms:subject <http://syriaca.org/work/204> ;
+ dcterms:source <http://syriaca.org/work/204>, <http://syriaca.org/work/9646>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Matthew, Arabic (literary tradition) in last modified December 16, 2016, http://syriaca.org/work/204" .
+
+<http://syriaca.org/work/204/ttl> a rdfs:Resource; ;
+ dcterms:title "Matthew, Arabic (literary tradition)"@en ;
+ dcterms:subject <http://syriaca.org/work/204> ;
+ dcterms:subject <http://syriaca.org/work/204> ;
+ dcterms:source <http://syriaca.org/work/204>, <http://syriaca.org/work/9646>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/manuscript/148>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/994>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1112>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Matthew, Arabic (literary tradition) in last modified December 16, 2016, http://syriaca.org/work/204" .

@@ -1,0 +1,49 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9614> a  ;
+ rdfs:label "Jude (literary tradition)"@en, "ܐܓܪܬܐ ܕܝܗܘܕܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Epistle_of_Jude>, <https://www.wikidata.org/wiki/Q131466> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Epistle_of_Jude>, <https://www.wikidata.org/wiki/Q131466> ;
+ dcterms:relation <http://syriaca.org/work/9614> ; 
+ dcterms:relation <http://syriaca.org/work/9694> ; 
+ dcterms:relation <http://syriaca.org/work/9614> ; 
+ dcterms:relation <http://syriaca.org/work/10514> ;
+ dcterms:relation <http://syriaca.org/work/9614/html>, <http://syriaca.org/work/9614/tei>, <http://syriaca.org/work/9614/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9614/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9614/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9614/ttl> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9694> ;
+ lawd:hasAttestation <http://syriaca.org/work/9614> .
+
+ dcterms:isPartOf <http://syriaca.org/work/10514> ;
+ lawd:hasAttestation <http://syriaca.org/work/9614> .
+
+<http://syriaca.org/work/9614/html> a rdfs:Resource; ;
+ dcterms:title "Jude (literary tradition)"@en, "ܐܓܪܬܐ ܕܝܗܘܕܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9614> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Jude (literary tradition) — ܐܓܪܬܐ ܕܝܗܘܕܐ in last modified March 29, 2017, http://syriaca.org/work/9614" .
+
+<http://syriaca.org/work/9614/tei> a rdfs:Resource; ;
+ dcterms:title "Jude (literary tradition)"@en, "ܐܓܪܬܐ ܕܝܗܘܕܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9614> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Jude (literary tradition) — ܐܓܪܬܐ ܕܝܗܘܕܐ in last modified March 29, 2017, http://syriaca.org/work/9614" .
+
+<http://syriaca.org/work/9614/ttl> a rdfs:Resource; ;
+ dcterms:title "Jude (literary tradition)"@en, "ܐܓܪܬܐ ܕܝܗܘܕܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9614> ;
+ dcterms:subject <http://syriaca.org/work/9614> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Jude (literary tradition) — ܐܓܪܬܐ ܕܝܗܘܕܐ in last modified March 29, 2017, http://syriaca.org/work/9614" .

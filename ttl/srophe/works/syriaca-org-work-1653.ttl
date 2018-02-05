@@ -1,0 +1,59 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1653> a lawd:conceptualWork ;
+ rdfs:label "Peter and Paul (text)"@en ;
+ dcterms:relation <#bib1653-2> ; 
+ dcterms:relation <http://syriaca.org/work/1653> ; 
+ dcterms:relation <#bib1653-3> ; 
+ dcterms:relation <http://syriaca.org/work/1653> ; 
+ dcterms:relation <http://syriaca.org/work/1653> ; 
+ dcterms:relation <http://syriaca.org/person/2008> ; 
+ dcterms:relation <http://syriaca.org/person/1983> ;
+ dcterms:relation <http://syriaca.org/work/1653/html>, <http://syriaca.org/work/1653/tei>, <http://syriaca.org/work/1653/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1653/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1653/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1653/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/649> .
+
+ lawd:embodies <http://syriaca.org/work/1653> ;
+ lawd:hasAttestation <http://syriaca.org/work/1653> .
+
+ lawd:embodies <http://syriaca.org/work/1653> ;
+ lawd:hasAttestation <http://syriaca.org/work/1653> .
+
+ syriaca:commemorated <http://syriaca.org/person/2008> ;
+ lawd:hasAttestation <http://syriaca.org/work/1653> ;
+ syriaca:commemorated <http://syriaca.org/person/1983> ;
+ lawd:hasAttestation <http://syriaca.org/work/1653> .
+
+<http://syriaca.org/work/1653/html> a rdfs:Resource; ;
+ dcterms:title "Peter and Paul (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1653> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Peter and Paul (text) in last modified December 12, 2016, http://syriaca.org/work/1653" .
+
+<http://syriaca.org/work/1653/tei> a rdfs:Resource; ;
+ dcterms:title "Peter and Paul (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1653> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Peter and Paul (text) in last modified December 12, 2016, http://syriaca.org/work/1653" .
+
+<http://syriaca.org/work/1653/ttl> a rdfs:Resource; ;
+ dcterms:title "Peter and Paul (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1653> ;
+ dcterms:subject <http://syriaca.org/work/1653> ;
+ dcterms:source <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Peter and Paul (text) in last modified December 12, 2016, http://syriaca.org/work/1653" .

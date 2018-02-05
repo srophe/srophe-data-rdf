@@ -1,0 +1,71 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1125> a lawd:conceptualWork ;
+ rdfs:label "ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ"@syr, "John the Siloitus (text)"@en ;
+ dcterms:relation <#bib1125-3> ; 
+ dcterms:relation <http://syriaca.org/work/1125> ; 
+ dcterms:relation <#bib1125-4> ; 
+ dcterms:relation <http://syriaca.org/work/1125> ; 
+ dcterms:relation <#bib1125-5> ; 
+ dcterms:relation <http://syriaca.org/work/1125> ; 
+ dcterms:relation <#bib1125-6> ; 
+ dcterms:relation <http://syriaca.org/work/1125> ; 
+ dcterms:relation <#bib1125-7> ; 
+ dcterms:relation <http://syriaca.org/work/1125> ; 
+ dcterms:relation <http://syriaca.org/work/1125> ; 
+ dcterms:relation <http://syriaca.org/person/1824> ;
+ dcterms:relation <http://syriaca.org/work/1125/html>, <http://syriaca.org/work/1125/tei>, <http://syriaca.org/work/1125/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1125/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1125/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1125/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1122> .
+
+ lawd:embodies <http://syriaca.org/work/1125> ;
+ lawd:hasAttestation <http://syriaca.org/work/1125> .
+
+ lawd:embodies <http://syriaca.org/work/1125> ;
+ lawd:hasAttestation <http://syriaca.org/work/1125> .
+
+ lawd:embodies <http://syriaca.org/work/1125> ;
+ lawd:hasAttestation <http://syriaca.org/work/1125> .
+
+ lawd:embodies <http://syriaca.org/work/1125> ;
+ lawd:hasAttestation <http://syriaca.org/work/1125> .
+
+ lawd:embodies <http://syriaca.org/work/1125> ;
+ lawd:hasAttestation <http://syriaca.org/work/1125> .
+
+ syriaca:commemorated <http://syriaca.org/person/1824> ;
+ lawd:hasAttestation <http://syriaca.org/work/1125> .
+
+<http://syriaca.org/work/1125/html> a rdfs:Resource; ;
+ dcterms:title "ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ"@syr, "John the Siloitus (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1125> ;
+ dcterms:source <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1122> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), John the Siloitus (text) — ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ in last modified December 12, 2016, http://syriaca.org/work/1125" .
+
+<http://syriaca.org/work/1125/tei> a rdfs:Resource; ;
+ dcterms:title "ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ"@syr, "John the Siloitus (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1125> ;
+ dcterms:source <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1122> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), John the Siloitus (text) — ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ in last modified December 12, 2016, http://syriaca.org/work/1125" .
+
+<http://syriaca.org/work/1125/ttl> a rdfs:Resource; ;
+ dcterms:title "ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ"@syr, "John the Siloitus (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1125> ;
+ dcterms:subject <http://syriaca.org/work/1125> ;
+ dcterms:source <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/1911>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/1122> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), John the Siloitus (text) — ܝܘܚܢܢ ܕܥܡܪ ܒܒܐܪܐ in last modified December 12, 2016, http://syriaca.org/work/1125" .

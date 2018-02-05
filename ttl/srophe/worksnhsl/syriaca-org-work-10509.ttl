@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/10509> a  ;
+ rdfs:label "2 Baruch (Apocalypse of Baruch) (literary tradition)"@en ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/2_Baruch>, <https://www.wikidata.org/wiki/Q619838> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/2_Baruch>, <https://www.wikidata.org/wiki/Q619838> ;
+ dcterms:relation <http://syriaca.org/work/10509/html>, <http://syriaca.org/work/10509/tei>, <http://syriaca.org/work/10509/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10509/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10509/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10509/ttl> .
+
+<http://syriaca.org/work/10509/html> a rdfs:Resource; ;
+ dcterms:title "2 Baruch (Apocalypse of Baruch) (literary tradition)"@en ;
+ dcterms:subject <http://syriaca.org/work/10509> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Baruch (Apocalypse of Baruch) (literary tradition) in last modified March 29, 2017, http://syriaca.org/work/10509" .
+
+<http://syriaca.org/work/10509/tei> a rdfs:Resource; ;
+ dcterms:title "2 Baruch (Apocalypse of Baruch) (literary tradition)"@en ;
+ dcterms:subject <http://syriaca.org/work/10509> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Baruch (Apocalypse of Baruch) (literary tradition) in last modified March 29, 2017, http://syriaca.org/work/10509" .
+
+<http://syriaca.org/work/10509/ttl> a rdfs:Resource; ;
+ dcterms:title "2 Baruch (Apocalypse of Baruch) (literary tradition)"@en ;
+ dcterms:subject <http://syriaca.org/work/10509> ;
+ dcterms:subject <http://syriaca.org/work/10509> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Baruch (Apocalypse of Baruch) (literary tradition) in last modified March 29, 2017, http://syriaca.org/work/10509" .

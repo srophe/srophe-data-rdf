@@ -1,0 +1,66 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/690> a lawd:conceptualWork ;
+ rdfs:label "ܡܪܘܬܐ"@syr, "Marutha of Tagrit (text)"@en ;
+ dcterms:relation <#bib690-3> ; 
+ dcterms:relation <http://syriaca.org/work/690> ; 
+ dcterms:relation <#bib690-4> ; 
+ dcterms:relation <http://syriaca.org/work/690> ; 
+ dcterms:relation <#bib690-5> ; 
+ dcterms:relation <http://syriaca.org/work/690> ; 
+ dcterms:relation <#bib690-6> ; 
+ dcterms:relation <http://syriaca.org/work/690> ; 
+ dcterms:relation <http://syriaca.org/work/690> ; 
+ dcterms:relation <http://syriaca.org/person/93> ;
+ dcterms:relation <http://syriaca.org/work/690/html>, <http://syriaca.org/work/690/tei>, <http://syriaca.org/work/690/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/690/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/690/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/690/ttl> ;
+ dcterms:relation <http://syriaca.org/person/97>, <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/829> .
+
+ lawd:embodies <http://syriaca.org/work/690> ;
+ lawd:hasAttestation <http://syriaca.org/work/690> .
+
+ lawd:embodies <http://syriaca.org/work/690> ;
+ lawd:hasAttestation <http://syriaca.org/work/690> .
+
+ lawd:embodies <http://syriaca.org/work/690> ;
+ lawd:hasAttestation <http://syriaca.org/work/690> .
+
+ lawd:embodies <http://syriaca.org/work/690> ;
+ lawd:hasAttestation <http://syriaca.org/work/690> .
+
+ syriaca:commemorated <http://syriaca.org/person/93> ;
+ lawd:hasAttestation <http://syriaca.org/work/690> .
+
+<http://syriaca.org/work/690/html> a rdfs:Resource; ;
+ dcterms:title "ܡܪܘܬܐ"@syr, "Marutha of Tagrit (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/690> ;
+ dcterms:source <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/829> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Marutha of Tagrit (text) — ܡܪܘܬܐ in last modified December 12, 2016, http://syriaca.org/work/690" .
+
+<http://syriaca.org/work/690/tei> a rdfs:Resource; ;
+ dcterms:title "ܡܪܘܬܐ"@syr, "Marutha of Tagrit (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/690> ;
+ dcterms:source <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/829> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Marutha of Tagrit (text) — ܡܪܘܬܐ in last modified December 12, 2016, http://syriaca.org/work/690" .
+
+<http://syriaca.org/work/690/ttl> a rdfs:Resource; ;
+ dcterms:title "ܡܪܘܬܐ"@syr, "Marutha of Tagrit (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/690> ;
+ dcterms:subject <http://syriaca.org/work/690> ;
+ dcterms:source <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/1881>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/829> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Marutha of Tagrit (text) — ܡܪܘܬܐ in last modified December 12, 2016, http://syriaca.org/work/690" .

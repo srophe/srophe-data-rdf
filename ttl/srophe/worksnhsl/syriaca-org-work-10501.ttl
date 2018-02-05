@@ -1,0 +1,73 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/10501> a lawd:conceptualWork ;
+ rdfs:label "Psalms 152-155 (Peshitta version)"@en ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Psalms_152–155>, <https://www.wikidata.org/wiki/Q1317857> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Psalms_152–155>, <https://www.wikidata.org/wiki/Q1317857> ;
+ dcterms:relation <#bib10501-1> ; 
+ dcterms:relation <#bib10501-3> ; 
+ dcterms:relation <#bib10501-1> ; 
+ dcterms:relation <http://syriaca.org/work/10501> ; 
+ dcterms:relation <#bib10501-2> ; 
+ dcterms:relation <#bib10501-3> ; 
+ dcterms:relation <#bib10501-2> ; 
+ dcterms:relation <http://syriaca.org/work/10501> ; 
+ dcterms:relation <#bib10501-3> ; 
+ dcterms:relation <http://syriaca.org/work/10501> ; 
+ dcterms:relation <http://syriaca.org/work/10501> ; 
+ dcterms:relation <http://syriaca.org/work/10502> ;
+ dcterms:relation <http://syriaca.org/work/10501/html>, <http://syriaca.org/work/10501/tei>, <http://syriaca.org/work/10501/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10501/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10501/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10501/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2413>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442> .
+
+ dcterms:source <#bib10501-3> ;
+ lawd:hasAttestation <http://syriaca.org/work/10501> .
+
+ lawd:embodies <http://syriaca.org/work/10501> ;
+ lawd:hasAttestation <http://syriaca.org/work/10501> .
+
+ dcterms:source <#bib10501-3> ;
+ lawd:hasAttestation <http://syriaca.org/work/10501> .
+
+ lawd:embodies <http://syriaca.org/work/10501> ;
+ lawd:hasAttestation <http://syriaca.org/work/10501> .
+
+ lawd:embodies <http://syriaca.org/work/10501> ;
+ lawd:hasAttestation <http://syriaca.org/work/10501> .
+
+ skos:broadMatch <http://syriaca.org/work/10502> ;
+ lawd:hasAttestation <http://syriaca.org/work/10501> .
+
+<http://syriaca.org/work/10501/html> a rdfs:Resource; ;
+ dcterms:title "Psalms 152-155 (Peshitta version)"@en ;
+ dcterms:subject <http://syriaca.org/work/10501> ;
+ dcterms:source <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2413>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Psalms 152-155 (Peshitta version) in last modified March 23, 2017, http://syriaca.org/work/10501" .
+
+<http://syriaca.org/work/10501/tei> a rdfs:Resource; ;
+ dcterms:title "Psalms 152-155 (Peshitta version)"@en ;
+ dcterms:subject <http://syriaca.org/work/10501> ;
+ dcterms:source <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2413>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Psalms 152-155 (Peshitta version) in last modified March 23, 2017, http://syriaca.org/work/10501" .
+
+<http://syriaca.org/work/10501/ttl> a rdfs:Resource; ;
+ dcterms:title "Psalms 152-155 (Peshitta version)"@en ;
+ dcterms:subject <http://syriaca.org/work/10501> ;
+ dcterms:subject <http://syriaca.org/work/10501> ;
+ dcterms:source <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2413>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Psalms 152-155 (Peshitta version) in last modified March 23, 2017, http://syriaca.org/work/10501" .

@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9604> a  ;
+ rdfs:label "2 Timothy (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Second_Epistle_to_Timothy>, <https://www.wikidata.org/wiki/Q131489> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Second_Epistle_to_Timothy>, <https://www.wikidata.org/wiki/Q131489> ;
+ dcterms:relation <#bib9604-1> ; 
+ dcterms:relation <http://syriaca.org/work/9604> ; 
+ dcterms:relation <http://syriaca.org/work/9604> ; 
+ dcterms:relation <http://syriaca.org/work/9643> ;
+ dcterms:relation <http://syriaca.org/work/9604/html>, <http://syriaca.org/work/9604/tei>, <http://syriaca.org/work/9604/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9604/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9604/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9604/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9604>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/87>, <http://syriaca.org/work/10532>, <http://syriaca.org/bibl/2448> .
+
+ lawd:embodies <http://syriaca.org/work/9604> ;
+ lawd:hasAttestation <http://syriaca.org/work/9604> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9643> ;
+ lawd:hasAttestation <http://syriaca.org/work/9604> .
+
+<http://syriaca.org/work/9604/html> a rdfs:Resource; ;
+ dcterms:title "2 Timothy (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9604> ;
+ dcterms:source <http://syriaca.org/work/9604>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/87>, <http://syriaca.org/work/10532>, <http://syriaca.org/bibl/2448> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Timothy (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ in last modified March 29, 2017, http://syriaca.org/work/9604" .
+
+<http://syriaca.org/work/9604/tei> a rdfs:Resource; ;
+ dcterms:title "2 Timothy (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9604> ;
+ dcterms:source <http://syriaca.org/work/9604>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/87>, <http://syriaca.org/work/10532>, <http://syriaca.org/bibl/2448> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Timothy (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ in last modified March 29, 2017, http://syriaca.org/work/9604" .
+
+<http://syriaca.org/work/9604/ttl> a rdfs:Resource; ;
+ dcterms:title "2 Timothy (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9604> ;
+ dcterms:subject <http://syriaca.org/work/9604> ;
+ dcterms:source <http://syriaca.org/work/9604>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/87>, <http://syriaca.org/work/10532>, <http://syriaca.org/bibl/2448> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), 2 Timothy (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܛܝܡܬܐܘܣ ܕܬܪܬܝܢ in last modified March 29, 2017, http://syriaca.org/work/9604" .

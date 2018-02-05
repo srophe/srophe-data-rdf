@@ -138,6 +138,30 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/127"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1513"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/127/html"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/127/tei"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/127/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/127/html"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/127/tei"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/127/ttl"/>
+    </rdfs:Resource>
+    <rdf:Description rdf:about="http://syriaca.org/person/127">
+        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/78"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/127"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/person/127">
+        <dcterms:relation rdf:resource="http://syriaca.org/place/1513"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/1513"/>
+        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/127"/>
+    </rdf:Description>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/127/html">
+        <dcterms:title xml:lang="syr">
+                         ܝܘܚܢܢ 
+                         ܐܬܐܪܒܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/127"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/619"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
@@ -149,33 +173,8 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/127/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/127/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/127/ttl"/>
-        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/127/html"/>
-        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/127/tei"/>
-        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/127/ttl"/>
-    </rdfs:Resource>
-    <rdf:Description rdf:about="http://syriaca.org/person/127">
-        <dcterms:subject rdf:resource="http://syriaca.org/place/78"/>
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/78"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/127"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/127">
-        <dcterms:subject rdf:resource="http://syriaca.org/place/1513"/>
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/1513"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/127"/>
-    </rdf:Description>
-    <rdfs:Resource rdf:about="http://syriaca.org/person/127/html">
-        <dcterms:title xml:lang="syr">
-                         ܝܘܚܢܢ 
-                         ܐܬܐܪܒܝܐ 
-                    </dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/127"/>
         <dcterms:format>text/html</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), "John the Stylite of Litarba — 
-                ܝܘܚܢܢ ܐܬܐܪܒܝܐ" in  last modified August 17, 2016, http://syriaca.org/person/127</dcterms:bibliographicCitation>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John the Stylite of Litarba — ܝܘܚܢܢ ܐܬܐܪܒܝܐ" in last modified August 17, 2016, http://syriaca.org/person/127</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/127/tei">
         <dcterms:title xml:lang="syr">
@@ -183,9 +182,19 @@
                          ܐܬܐܪܒܝܐ 
                     </dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/127"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/619"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
         <dcterms:format>text/xml</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), "John the Stylite of Litarba — 
-                ܝܘܚܢܢ ܐܬܐܪܒܝܐ" in  last modified August 17, 2016, http://syriaca.org/person/127</dcterms:bibliographicCitation>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John the Stylite of Litarba — ܝܘܚܢܢ ܐܬܐܪܒܝܐ" in last modified August 17, 2016, http://syriaca.org/person/127</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/127/ttl">
         <dcterms:title xml:lang="syr">
@@ -193,8 +202,18 @@
                          ܐܬܐܪܒܝܐ 
                     </dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/127"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/619"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
         <dcterms:format>text/turle</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora SerraJames E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra and James E. Walters David A. Michelson Thomas A. Carlson Nathan P. Gibson Kristian Heal André Binggeli Françoise Briquel-Chatonnet Muriel Debié Alain Desreumaux Emilie Villey Youssef Dergham Margherita Farina Simone I. M. Pratelli Flavia Ruani Eleonora Serra, (eds.), "John the Stylite of Litarba — 
-                ܝܘܚܢܢ ܐܬܐܪܒܝܐ" in  last modified August 17, 2016, http://syriaca.org/person/127</dcterms:bibliographicCitation>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John the Stylite of Litarba — ܝܘܚܢܢ ܐܬܐܪܒܝܐ" in last modified August 17, 2016, http://syriaca.org/person/127</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

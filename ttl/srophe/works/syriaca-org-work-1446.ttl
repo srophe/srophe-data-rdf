@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1446> a lawd:conceptualWork ;
+ rdfs:label "ܒܣܝܠܝܘܣ"@syr, "Basil the Great (text)"@en ;
+ dcterms:relation <#bib1446-4> ; 
+ dcterms:relation <http://syriaca.org/work/1446> ; 
+ dcterms:relation <#bib1446-5> ; 
+ dcterms:relation <http://syriaca.org/work/1446> ; 
+ dcterms:relation <http://syriaca.org/work/1446> ; 
+ dcterms:relation <http://syriaca.org/person/376> ; 
+ dcterms:relation <http://syriaca.org/work/1446> ; 
+ dcterms:relation <http://syriaca.org/person/2793> ;
+ dcterms:relation <http://syriaca.org/work/1446/html>, <http://syriaca.org/work/1446/tei>, <http://syriaca.org/work/1446/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1446/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1446/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1446/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/712>, <http://syriaca.org/bibl/870> .
+
+ lawd:embodies <http://syriaca.org/work/1446> ;
+ lawd:hasAttestation <http://syriaca.org/work/1446> .
+
+ lawd:embodies <http://syriaca.org/work/1446> ;
+ lawd:hasAttestation <http://syriaca.org/work/1446> .
+
+ syriaca:commemorated <http://syriaca.org/person/376> ;
+ lawd:hasAttestation <http://syriaca.org/work/1446> .
+
+ syriaca:commemorated <http://syriaca.org/person/2793> ;
+ lawd:hasAttestation <http://syriaca.org/work/1446> .
+
+<http://syriaca.org/work/1446/html> a rdfs:Resource; ;
+ dcterms:title "ܒܣܝܠܝܘܣ"@syr, "Basil the Great (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1446> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/712>, <http://syriaca.org/bibl/870> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Basil the Great (text) — ܒܣܝܠܝܘܣ in last modified December 12, 2016, http://syriaca.org/work/1446" .
+
+<http://syriaca.org/work/1446/tei> a rdfs:Resource; ;
+ dcterms:title "ܒܣܝܠܝܘܣ"@syr, "Basil the Great (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1446> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/712>, <http://syriaca.org/bibl/870> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Basil the Great (text) — ܒܣܝܠܝܘܣ in last modified December 12, 2016, http://syriaca.org/work/1446" .
+
+<http://syriaca.org/work/1446/ttl> a rdfs:Resource; ;
+ dcterms:title "ܒܣܝܠܝܘܣ"@syr, "Basil the Great (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1446> ;
+ dcterms:subject <http://syriaca.org/work/1446> ;
+ dcterms:source <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/712>, <http://syriaca.org/bibl/870> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Basil the Great (text) — ܒܣܝܠܝܘܣ in last modified December 12, 2016, http://syriaca.org/work/1446" .

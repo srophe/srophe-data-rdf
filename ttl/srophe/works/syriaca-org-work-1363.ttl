@@ -1,0 +1,74 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1363> a lawd:conceptualWork ;
+ rdfs:label "ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ"@syr, "Cyriacus and Julietta (text)"@en ;
+ dcterms:relation <#bib1363-2> ; 
+ dcterms:relation <http://syriaca.org/work/1363> ; 
+ dcterms:relation <#bib1363-3> ; 
+ dcterms:relation <http://syriaca.org/work/1363> ; 
+ dcterms:relation <#bib1363-4> ; 
+ dcterms:relation <http://syriaca.org/work/1363> ; 
+ dcterms:relation <#bib1363-5> ; 
+ dcterms:relation <http://syriaca.org/work/1363> ; 
+ dcterms:relation <#bib1363-6> ; 
+ dcterms:relation <http://syriaca.org/work/1363> ; 
+ dcterms:relation <http://syriaca.org/work/1363> ; 
+ dcterms:relation <http://syriaca.org/person/1332> ; 
+ dcterms:relation <http://syriaca.org/person/1192> ;
+ dcterms:relation <http://syriaca.org/work/1363/html>, <http://syriaca.org/work/1363/tei>, <http://syriaca.org/work/1363/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1363/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1363/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1363/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/1746>, <http://syriaca.org/bibl/1923>, <http://syriaca.org/bibl/649> .
+
+ lawd:embodies <http://syriaca.org/work/1363> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> .
+
+ lawd:embodies <http://syriaca.org/work/1363> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> .
+
+ lawd:embodies <http://syriaca.org/work/1363> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> .
+
+ lawd:embodies <http://syriaca.org/work/1363> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> .
+
+ lawd:embodies <http://syriaca.org/work/1363> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> .
+
+ syriaca:commemorated <http://syriaca.org/person/1332> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> ;
+ syriaca:commemorated <http://syriaca.org/person/1192> ;
+ lawd:hasAttestation <http://syriaca.org/work/1363> .
+
+<http://syriaca.org/work/1363/html> a rdfs:Resource; ;
+ dcterms:title "ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ"@syr, "Cyriacus and Julietta (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1363> ;
+ dcterms:source <http://syriaca.org/bibl/1746>, <http://syriaca.org/bibl/1923>, <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Cyriacus and Julietta (text) — ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ in last modified December 12, 2016, http://syriaca.org/work/1363" .
+
+<http://syriaca.org/work/1363/tei> a rdfs:Resource; ;
+ dcterms:title "ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ"@syr, "Cyriacus and Julietta (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1363> ;
+ dcterms:source <http://syriaca.org/bibl/1746>, <http://syriaca.org/bibl/1923>, <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Cyriacus and Julietta (text) — ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ in last modified December 12, 2016, http://syriaca.org/work/1363" .
+
+<http://syriaca.org/work/1363/ttl> a rdfs:Resource; ;
+ dcterms:title "ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ"@syr, "Cyriacus and Julietta (text)"@en ;
+ dcterms:subject <http://syriaca.org/work/1363> ;
+ dcterms:subject <http://syriaca.org/work/1363> ;
+ dcterms:source <http://syriaca.org/bibl/1746>, <http://syriaca.org/bibl/1923>, <http://syriaca.org/bibl/649> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), Cyriacus and Julietta (text) — ܩܘܪܝܩܘܣ ܘܝܘܠܝܛܐ in last modified December 12, 2016, http://syriaca.org/work/1363" .

@@ -1,0 +1,53 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9598> a  ;
+ rdfs:label "Ephesians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Epistle_to_the_Ephesians>, <https://www.wikidata.org/wiki/Q408673>, <https://viaf.org/viaf/175374828> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Epistle_to_the_Ephesians>, <https://www.wikidata.org/wiki/Q408673>, <https://viaf.org/viaf/175374828> ;
+ dcterms:relation <#bib9598-1> ; 
+ dcterms:relation <http://syriaca.org/work/9598> ; 
+ dcterms:relation <http://syriaca.org/work/9598> ; 
+ dcterms:relation <http://syriaca.org/work/9643> ;
+ dcterms:relation <http://syriaca.org/work/9598/html>, <http://syriaca.org/work/9598/tei>, <http://syriaca.org/work/9598/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9598/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9598/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9598/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9598>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/81>, <http://syriaca.org/work/10526>, <http://syriaca.org/bibl/2450> .
+
+ lawd:embodies <http://syriaca.org/work/9598> ;
+ lawd:hasAttestation <http://syriaca.org/work/9598> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9643> ;
+ lawd:hasAttestation <http://syriaca.org/work/9598> .
+
+<http://syriaca.org/work/9598/html> a rdfs:Resource; ;
+ dcterms:title "Ephesians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9598> ;
+ dcterms:source <http://syriaca.org/work/9598>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/81>, <http://syriaca.org/work/10526>, <http://syriaca.org/bibl/2450> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Ephesians (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ in last modified March 29, 2017, http://syriaca.org/work/9598" .
+
+<http://syriaca.org/work/9598/tei> a rdfs:Resource; ;
+ dcterms:title "Ephesians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9598> ;
+ dcterms:source <http://syriaca.org/work/9598>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/81>, <http://syriaca.org/work/10526>, <http://syriaca.org/bibl/2450> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Ephesians (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ in last modified March 29, 2017, http://syriaca.org/work/9598" .
+
+<http://syriaca.org/work/9598/ttl> a rdfs:Resource; ;
+ dcterms:title "Ephesians (literary tradition)"@en, "ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9598> ;
+ dcterms:subject <http://syriaca.org/work/9598> ;
+ dcterms:source <http://syriaca.org/work/9598>, <http://syriaca.org/work/9643>, <http://syriaca.org/work/81>, <http://syriaca.org/work/10526>, <http://syriaca.org/bibl/2450> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Ephesians (literary tradition) — ܐܓܪܬܐ ܕܦܘܠܘܣ ܕܠܘܬ ܐܦܣܝ̈ܐ in last modified March 29, 2017, http://syriaca.org/work/9598" .

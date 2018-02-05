@@ -1,0 +1,42 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9583> a  ;
+ rdfs:label "Epistle of Baruch (literary tradition)"@en, "ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ"@syr ;
+ dcterms:relation <http://syriaca.org/work/9583> ; 
+ dcterms:relation <http://syriaca.org/work/9582> ;
+ dcterms:relation <http://syriaca.org/work/9583/html>, <http://syriaca.org/work/9583/tei>, <http://syriaca.org/work/9583/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9583/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9583/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9583/ttl> .
+
+ dcterms:isPartOf <http://syriaca.org/work/9582> ;
+ lawd:hasAttestation <http://syriaca.org/work/9583> .
+
+<http://syriaca.org/work/9583/html> a rdfs:Resource; ;
+ dcterms:title "Epistle of Baruch (literary tradition)"@en, "ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9583> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Epistle of Baruch (literary tradition) — ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ in last modified March 29, 2017, http://syriaca.org/work/9583" .
+
+<http://syriaca.org/work/9583/tei> a rdfs:Resource; ;
+ dcterms:title "Epistle of Baruch (literary tradition)"@en, "ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9583> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Epistle of Baruch (literary tradition) — ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ in last modified March 29, 2017, http://syriaca.org/work/9583" .
+
+<http://syriaca.org/work/9583/ttl> a rdfs:Resource; ;
+ dcterms:title "Epistle of Baruch (literary tradition)"@en, "ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9583> ;
+ dcterms:subject <http://syriaca.org/work/9583> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Epistle of Baruch (literary tradition) — ܐܓܪܬܐ ܕܒܪܘܟ ܣܦܪܐ in last modified March 29, 2017, http://syriaca.org/work/9583" .

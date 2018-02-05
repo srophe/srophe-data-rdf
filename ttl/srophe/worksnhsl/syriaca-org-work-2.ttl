@@ -1,0 +1,183 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/2> a lawd:conceptualWork ;
+ rdfs:label "Exodus (Peshitta version)"@en, "ܣܦܪܐ ܕܡܦܩܢܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Book_of_Exodus>, <https://www.wikidata.org/wiki/Q9190> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Book_of_Exodus>, <https://www.wikidata.org/wiki/Q9190> ;
+ dcterms:relation <#bib2-1> ; 
+ dcterms:relation <#bib2-5> ; 
+ dcterms:relation <#bib2-1> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-2> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-3> ; 
+ dcterms:relation <#bib2-9> ; 
+ dcterms:relation <#bib2-3> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-4> ; 
+ dcterms:relation <#bib2-3> ; 
+ dcterms:relation <#bib2-4> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-5> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-6> ; 
+ dcterms:relation <#bib2-5> ; 
+ dcterms:relation <#bib2-6> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-7> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-8> ; 
+ dcterms:relation <#bib2-9> ; 
+ dcterms:relation <#bib2-8> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-9> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-13> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-14> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-15> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-16> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <#bib2-17> ; 
+ dcterms:relation <#bib2-18> ; 
+ dcterms:relation <http://syriaca.org/manuscript/1153> ; 
+ dcterms:relation <#bib2-18> ; 
+ dcterms:relation <#bib2-19> ; 
+ dcterms:relation <#bib2-20> ; 
+ dcterms:relation <http://syriaca.org/manuscript/2> ; 
+ dcterms:relation <#bib2-20> ; 
+ dcterms:relation <#bib2-21> ; 
+ dcterms:relation <#bib2-22> ; 
+ dcterms:relation <http://syriaca.org/manuscript/523> ; 
+ dcterms:relation <#bib2-22> ; 
+ dcterms:relation <#bib2-23> ; 
+ dcterms:relation <#bib2-24> ; 
+ dcterms:relation <http://syriaca.org/manuscript/81> ; 
+ dcterms:relation <#bib2-24> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <http://syriaca.org/work/9632> ; 
+ dcterms:relation <http://syriaca.org/work/2> ; 
+ dcterms:relation <http://syriaca.org/work/68> ;
+ dcterms:relation <http://syriaca.org/work/2/html>, <http://syriaca.org/work/2/tei>, <http://syriaca.org/work/2/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/2/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/2/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/2/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2379>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://cal1.cn.huc.edu/showsubtexts.php?subtext=62002&cset=USyriac>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2390>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/1153#c2>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/2#p1a1>, <http://syriaca.org/manuscript/523#b2>, <http://syriaca.org/manuscript/81#b2> .
+
+ dcterms:source <#bib2-5> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-9> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-3> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-5> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-9> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:embodies <http://syriaca.org/work/2> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-18> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:hasCitation <#bib2-18> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-20> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:hasCitation <#bib2-20> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-22> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:hasCitation <#bib2-22> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:source <#bib2-24> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ lawd:hasCitation <#bib2-24> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ skos:broadMatch <http://syriaca.org/work/9632> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+ dcterms:isPartOf <http://syriaca.org/work/68> ;
+ lawd:hasAttestation <http://syriaca.org/work/2> .
+
+<http://syriaca.org/work/2/html> a rdfs:Resource; ;
+ dcterms:title "Exodus (Peshitta version)"@en, "ܣܦܪܐ ܕܡܦܩܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/2> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2379>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2390>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Exodus (Peshitta version) — ܣܦܪܐ ܕܡܦܩܢܐ in last modified March 23, 2017, http://syriaca.org/work/2" .
+
+<http://syriaca.org/work/2/tei> a rdfs:Resource; ;
+ dcterms:title "Exodus (Peshitta version)"@en, "ܣܦܪܐ ܕܡܦܩܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/2> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2379>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2390>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Exodus (Peshitta version) — ܣܦܪܐ ܕܡܦܩܢܐ in last modified March 23, 2017, http://syriaca.org/work/2" .
+
+<http://syriaca.org/work/2/ttl> a rdfs:Resource; ;
+ dcterms:title "Exodus (Peshitta version)"@en, "ܣܦܪܐ ܕܡܦܩܢܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/2> ;
+ dcterms:subject <http://syriaca.org/work/2> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2379>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2390>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/2>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Exodus (Peshitta version) — ܣܦܪܐ ܕܡܦܩܢܐ in last modified March 23, 2017, http://syriaca.org/work/2" .

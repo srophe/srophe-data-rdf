@@ -1,0 +1,43 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/4059> a lawd:conceptualWork ;
+ rdfs:label "Histoire de Maxime et Domèce (text) —"@fr ;
+ dcterms:relation <#> ; 
+ dcterms:relation <#> ;
+ dcterms:relation <http://syriaca.org/work/4059/html>, <http://syriaca.org/work/4059/tei>, <http://syriaca.org/work/4059/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/4059/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/4059/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/4059/ttl> ;
+ dcterms:relation <http://syriaca.org/foo>, <http://www.mss-syriaques.org/> .
+
+<http://syriaca.org/work/4059/html> a rdfs:Resource; ;
+ dcterms:title "Histoire de Maxime et Domèce (text) —"@fr ;
+ dcterms:subject <http://syriaca.org/work/4059> ;
+ dcterms:source <http://syriaca.org/foo>, <http://www.mss-syriaques.org/> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, André Binggeli and Muriel Debié, (eds.), Histoire de Maxime et Domèce (text) — ܡܟܣܝܡܐܘܣ ܘܕܘܡܐܛܝܘܣ  in last modified December 12, 2016, http://syriaca.org/work/4059" .
+
+<http://syriaca.org/work/4059/tei> a rdfs:Resource; ;
+ dcterms:title "Histoire de Maxime et Domèce (text) —"@fr ;
+ dcterms:subject <http://syriaca.org/work/4059> ;
+ dcterms:source <http://syriaca.org/foo>, <http://www.mss-syriaques.org/> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, André Binggeli and Muriel Debié, (eds.), Histoire de Maxime et Domèce (text) — ܡܟܣܝܡܐܘܣ ܘܕܘܡܐܛܝܘܣ  in last modified December 12, 2016, http://syriaca.org/work/4059" .
+
+<http://syriaca.org/work/4059/ttl> a rdfs:Resource; ;
+ dcterms:title "Histoire de Maxime et Domèce (text) —"@fr ;
+ dcterms:subject <http://syriaca.org/work/4059> ;
+ dcterms:subject <http://syriaca.org/work/4059> ;
+ dcterms:source <http://syriaca.org/foo>, <http://www.mss-syriaques.org/> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, André Binggeli and Muriel Debié, (eds.), Histoire de Maxime et Domèce (text) — ܡܟܣܝܡܐܘܣ ܘܕܘܡܐܛܝܘܣ  in last modified December 12, 2016, http://syriaca.org/work/4059" .

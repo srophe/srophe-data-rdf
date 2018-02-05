@@ -1,0 +1,243 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/5> a lawd:conceptualWork ;
+ rdfs:label "Deuteronomy (Peshitta version)"@en, "ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Book_of_Deuteronomy>, <https://www.wikidata.org/wiki/Q42614> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Book_of_Deuteronomy>, <https://www.wikidata.org/wiki/Q42614> ;
+ dcterms:relation <#bib5-1> ; 
+ dcterms:relation <#bib5-5> ; 
+ dcterms:relation <#bib5-1> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-2> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-3> ; 
+ dcterms:relation <#bib5-9> ; 
+ dcterms:relation <#bib5-3> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-4> ; 
+ dcterms:relation <#bib5-3> ; 
+ dcterms:relation <#bib5-4> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-5> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-6> ; 
+ dcterms:relation <#bib5-5> ; 
+ dcterms:relation <#bib5-6> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-7> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-8> ; 
+ dcterms:relation <#bib5-9> ; 
+ dcterms:relation <#bib5-8> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-9> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-13> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-14> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-15> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-16> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-17> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-18> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-19> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-20> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <#bib5-21> ; 
+ dcterms:relation <#bib5-22> ; 
+ dcterms:relation <http://syriaca.org/manuscript/484> ; 
+ dcterms:relation <#bib5-22> ; 
+ dcterms:relation <#bib5-23> ; 
+ dcterms:relation <#bib5-24> ; 
+ dcterms:relation <http://syriaca.org/manuscript/1153> ; 
+ dcterms:relation <#bib5-24> ; 
+ dcterms:relation <#bib5-25> ; 
+ dcterms:relation <#bib5-26> ; 
+ dcterms:relation <http://syriaca.org/manuscript/101> ; 
+ dcterms:relation <#bib5-26> ; 
+ dcterms:relation <#bib5-27> ; 
+ dcterms:relation <#bib5-28> ; 
+ dcterms:relation <http://syriaca.org/manuscript/523> ; 
+ dcterms:relation <#bib5-28> ; 
+ dcterms:relation <#bib5-29> ; 
+ dcterms:relation <#bib5-30> ; 
+ dcterms:relation <http://syriaca.org/manuscript/500> ; 
+ dcterms:relation <#bib5-30> ; 
+ dcterms:relation <#bib5-31> ; 
+ dcterms:relation <#bib5-32> ; 
+ dcterms:relation <http://syriaca.org/manuscript/501> ; 
+ dcterms:relation <#bib5-32> ; 
+ dcterms:relation <#bib5-33> ; 
+ dcterms:relation <#bib5-34> ; 
+ dcterms:relation <http://syriaca.org/manuscript/83> ; 
+ dcterms:relation <#bib5-34> ; 
+ dcterms:relation <#bib5-35> ; 
+ dcterms:relation <#bib5-36> ; 
+ dcterms:relation <http://syriaca.org/manuscript/81> ; 
+ dcterms:relation <#bib5-36> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <http://syriaca.org/work/9522> ; 
+ dcterms:relation <http://syriaca.org/work/5> ; 
+ dcterms:relation <http://syriaca.org/work/68> ;
+ dcterms:relation <http://syriaca.org/work/5/html>, <http://syriaca.org/work/5/tei>, <http://syriaca.org/work/5/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/5/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/5/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/5/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2365>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://cal1.cn.huc.edu/showsubtexts.php?subtext=62005&cset=USyriac>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2393>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/484#p1a1>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153#c5>, <http://syriaca.org/manuscript/101#p1a1>, <http://syriaca.org/manuscript/523#b5>, <http://syriaca.org/manuscript/500#p4a1>, <http://syriaca.org/manuscript/501#p5a1>, <http://syriaca.org/manuscript/83#b3>, <http://syriaca.org/manuscript/81#b4> .
+
+ dcterms:source <#bib5-5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-9> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-3> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-9> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:embodies <http://syriaca.org/work/5> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-22> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-22> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-24> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-24> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-26> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-26> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-28> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-28> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-30> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-30> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-32> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-32> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-34> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-34> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:source <#bib5-36> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ lawd:hasCitation <#bib5-36> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ skos:broadMatch <http://syriaca.org/work/9522> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+ dcterms:isPartOf <http://syriaca.org/work/68> ;
+ lawd:hasAttestation <http://syriaca.org/work/5> .
+
+<http://syriaca.org/work/5/html> a rdfs:Resource; ;
+ dcterms:title "Deuteronomy (Peshitta version)"@en, "ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/5> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2365>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2393>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Deuteronomy (Peshitta version) — ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ in last modified March 23, 2017, http://syriaca.org/work/5" .
+
+<http://syriaca.org/work/5/tei> a rdfs:Resource; ;
+ dcterms:title "Deuteronomy (Peshitta version)"@en, "ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/5> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2365>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2393>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Deuteronomy (Peshitta version) — ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ in last modified March 23, 2017, http://syriaca.org/work/5" .
+
+<http://syriaca.org/work/5/ttl> a rdfs:Resource; ;
+ dcterms:title "Deuteronomy (Peshitta version)"@en, "ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/5> ;
+ dcterms:subject <http://syriaca.org/work/5> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2365>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2393>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/484>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/101>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/500>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/501>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/83>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Deuteronomy (Peshitta version) — ܣܦܪܐ ܕܬܢ̇ܝܢ ܢܡܘܣܐ in last modified March 23, 2017, http://syriaca.org/work/5" .

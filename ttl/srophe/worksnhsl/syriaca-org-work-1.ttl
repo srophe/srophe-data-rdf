@@ -1,0 +1,233 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/1> a lawd:conceptualWork ;
+ rdfs:label "Genesis (Peshitta version)"@en, "ܣܦܪܐ ܕܒܪܝܫܝܬ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Book_of_Genesis>, <https://www.wikidata.org/wiki/Q9184>, <https://viaf.org/viaf/174582712> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Book_of_Genesis>, <https://www.wikidata.org/wiki/Q9184>, <https://viaf.org/viaf/174582712> ;
+ dcterms:relation <#bib1-1> ; 
+ dcterms:relation <#bib1-4> ; 
+ dcterms:relation <#bib1-1> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-2> ; 
+ dcterms:relation <#bib1-8> ; 
+ dcterms:relation <#bib1-2> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-3> ; 
+ dcterms:relation <#bib1-2> ; 
+ dcterms:relation <#bib1-3> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-4> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-5> ; 
+ dcterms:relation <#bib1-4> ; 
+ dcterms:relation <#bib1-5> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-6> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-7> ; 
+ dcterms:relation <#bib1-8> ; 
+ dcterms:relation <#bib1-7> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-8> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-12> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-13> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-14> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-15> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-16> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-17> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-18> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-19> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <#bib1-20> ; 
+ dcterms:relation <#bib1-21> ; 
+ dcterms:relation <http://syriaca.org/manuscript/1182> ; 
+ dcterms:relation <#bib1-21> ; 
+ dcterms:relation <http://syriaca.org/manuscript/67> ; 
+ dcterms:relation <#bib1-21> ; 
+ dcterms:relation <#bib1-24> ; 
+ dcterms:relation <#bib1-25> ; 
+ dcterms:relation <http://syriaca.org/manuscript/1153> ; 
+ dcterms:relation <#bib1-25> ; 
+ dcterms:relation <#bib1-26> ; 
+ dcterms:relation <#bib1-27> ; 
+ dcterms:relation <http://syriaca.org/manuscript/523> ; 
+ dcterms:relation <#bib1-27> ; 
+ dcterms:relation <#bib1-28> ; 
+ dcterms:relation <#bib1-29> ; 
+ dcterms:relation <http://syriaca.org/manuscript/694> ; 
+ dcterms:relation <#bib1-29> ; 
+ dcterms:relation <#bib1-30> ; 
+ dcterms:relation <#bib1-31> ; 
+ dcterms:relation <http://syriaca.org/manuscript/82> ; 
+ dcterms:relation <#bib1-31> ; 
+ dcterms:relation <#bib1-32> ; 
+ dcterms:relation <#bib1-33> ; 
+ dcterms:relation <http://syriaca.org/manuscript/81> ; 
+ dcterms:relation <#bib1-33> ; 
+ dcterms:relation <#bib1-34> ; 
+ dcterms:relation <#bib1-35> ; 
+ dcterms:relation <http://syriaca.org/manuscript/115> ; 
+ dcterms:relation <#bib1-35> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <http://syriaca.org/work/9628> ; 
+ dcterms:relation <http://syriaca.org/work/1> ; 
+ dcterms:relation <http://syriaca.org/work/68> ;
+ dcterms:relation <http://syriaca.org/work/1/html>, <http://syriaca.org/work/1/tei>, <http://syriaca.org/work/1/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://cal1.cn.huc.edu/showsubtexts.php?subtext=62001&cset=USyriac>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2389>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/manuscript/67>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/1182#p6a1>, <http://syriaca.org/manuscript/67#p7a1>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153#c1>, <http://syriaca.org/manuscript/523#b1>, <http://syriaca.org/manuscript/694#p1a1>, <http://syriaca.org/manuscript/82#a1>, <http://syriaca.org/manuscript/81#b1>, <http://syriaca.org/manuscript/115#p1a1> .
+
+ dcterms:source <#bib1-4> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-8> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-4> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-8> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:embodies <http://syriaca.org/work/1> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-21> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-21> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-21> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-25> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-25> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-27> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-27> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-29> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-29> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-31> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-31> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-33> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-33> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:source <#bib1-35> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ lawd:hasCitation <#bib1-35> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ skos:broadMatch <http://syriaca.org/work/9628> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+ dcterms:isPartOf <http://syriaca.org/work/68> ;
+ lawd:hasAttestation <http://syriaca.org/work/1> .
+
+<http://syriaca.org/work/1/html> a rdfs:Resource; ;
+ dcterms:title "Genesis (Peshitta version)"@en, "ܣܦܪܐ ܕܒܪܝܫܝܬ"@syr ;
+ dcterms:subject <http://syriaca.org/work/1> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2389>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/manuscript/67>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Genesis (Peshitta version) — ܣܦܪܐ ܕܒܪܝܫܝܬ in last modified March 23, 2017, http://syriaca.org/work/1" .
+
+<http://syriaca.org/work/1/tei> a rdfs:Resource; ;
+ dcterms:title "Genesis (Peshitta version)"@en, "ܣܦܪܐ ܕܒܪܝܫܝܬ"@syr ;
+ dcterms:subject <http://syriaca.org/work/1> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2389>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/manuscript/67>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Genesis (Peshitta version) — ܣܦܪܐ ܕܒܪܝܫܝܬ in last modified March 23, 2017, http://syriaca.org/work/1" .
+
+<http://syriaca.org/work/1/ttl> a rdfs:Resource; ;
+ dcterms:title "Genesis (Peshitta version)"@en, "ܣܦܪܐ ܕܒܪܝܫܝܬ"@syr ;
+ dcterms:subject <http://syriaca.org/work/1> ;
+ dcterms:subject <http://syriaca.org/work/1> ;
+ dcterms:source <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2389>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/manuscript/67>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/manuscript/1182>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/523>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/694>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/82>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/81>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/115>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Genesis (Peshitta version) — ܣܦܪܐ ܕܒܪܝܫܝܬ in last modified March 23, 2017, http://syriaca.org/work/1" .

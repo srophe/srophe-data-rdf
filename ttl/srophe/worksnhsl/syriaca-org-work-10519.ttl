@@ -1,0 +1,68 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/10519> a lawd:conceptualWork ;
+ rdfs:label "New Testament (Harqlean version)"@en, "ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/New_Testament>, <https://www.wikidata.org/wiki/Q18813>, <https://viaf.org/viaf/185488588> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/New_Testament>, <https://www.wikidata.org/wiki/Q18813>, <https://viaf.org/viaf/185488588> ;
+ dcterms:relation <#bib10519-1> ; 
+ dcterms:relation <http://syriaca.org/work/10519> ; 
+ dcterms:relation <#bib10519-3> ; 
+ dcterms:relation <http://syriaca.org/work/10519> ; 
+ dcterms:relation <#bib10519-4> ; 
+ dcterms:relation <http://syriaca.org/work/10519> ; 
+ dcterms:relation <#bib10519-1> ; 
+ dcterms:relation <#bib10519-5> ; 
+ dcterms:relation <http://syriaca.org/work/10519> ; 
+ dcterms:relation <http://syriaca.org/work/9587> ;
+ dcterms:relation <http://syriaca.org/work/10519/html>, <http://syriaca.org/work/10519/tei>, <http://syriaca.org/work/10519/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10519/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10519/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/10519/ttl> ;
+ dcterms:relation <http://syriaca.org/bibl/258>, <http://syriaca.org/bibl/2446>, <http://syriaca.org/bibl/2447>, <http://syriaca.org/bibl/115> .
+
+ lawd:embodies <http://syriaca.org/work/10519> ;
+ lawd:hasAttestation <http://syriaca.org/work/10519> .
+
+ lawd:embodies <http://syriaca.org/work/10519> ;
+ lawd:hasAttestation <http://syriaca.org/work/10519> .
+
+ lawd:embodies <http://syriaca.org/work/10519> ;
+ lawd:hasAttestation <http://syriaca.org/work/10519> .
+
+ lawd:hasCitation <#bib10519-5> ;
+ lawd:hasAttestation <http://syriaca.org/work/10519> .
+
+ skos:broadMatch <http://syriaca.org/work/9587> ;
+ lawd:hasAttestation <http://syriaca.org/work/10519> .
+
+<http://syriaca.org/work/10519/html> a rdfs:Resource; ;
+ dcterms:title "New Testament (Harqlean version)"@en, "ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/10519> ;
+ dcterms:source <http://syriaca.org/bibl/258>, <http://syriaca.org/bibl/2446>, <http://syriaca.org/bibl/2447>, <http://syriaca.org/bibl/115> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), New Testament (Harqlean version) — ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ in last modified April 20, 2017, http://syriaca.org/work/10519" .
+
+<http://syriaca.org/work/10519/tei> a rdfs:Resource; ;
+ dcterms:title "New Testament (Harqlean version)"@en, "ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/10519> ;
+ dcterms:source <http://syriaca.org/bibl/258>, <http://syriaca.org/bibl/2446>, <http://syriaca.org/bibl/2447>, <http://syriaca.org/bibl/115> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), New Testament (Harqlean version) — ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ in last modified April 20, 2017, http://syriaca.org/work/10519" .
+
+<http://syriaca.org/work/10519/ttl> a rdfs:Resource; ;
+ dcterms:title "New Testament (Harqlean version)"@en, "ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/10519> ;
+ dcterms:subject <http://syriaca.org/work/10519> ;
+ dcterms:source <http://syriaca.org/bibl/258>, <http://syriaca.org/bibl/2446>, <http://syriaca.org/bibl/2447>, <http://syriaca.org/bibl/115> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), New Testament (Harqlean version) — ܟܬܒܐ ܕܕܝܬܩܐ ܚ̇ܕܬܐ in last modified April 20, 2017, http://syriaca.org/work/10519" .

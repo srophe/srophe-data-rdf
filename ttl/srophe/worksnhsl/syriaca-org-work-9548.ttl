@@ -1,0 +1,39 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/9548> a  ;
+ rdfs:label "Obadiah (literary tradition)"@en, "ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ"@syr ;
+ skos:closeMatch <https://en.wikipedia.org/wiki/Book_of_Obadiah>, <https://www.wikidata.org/wiki/Q174753>, <https://viaf.org/viaf/184209830>, <https://viaf.org/viaf/181846225>, <https://viaf.org/viaf/211772822> ; 
+ dcterms:relation <https://en.wikipedia.org/wiki/Book_of_Obadiah>, <https://www.wikidata.org/wiki/Q174753>, <https://viaf.org/viaf/184209830>, <https://viaf.org/viaf/181846225>, <https://viaf.org/viaf/211772822> ;
+ dcterms:relation <http://syriaca.org/work/9548/html>, <http://syriaca.org/work/9548/tei>, <http://syriaca.org/work/9548/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9548/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9548/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9548/ttl> .
+
+<http://syriaca.org/work/9548/html> a rdfs:Resource; ;
+ dcterms:title "Obadiah (literary tradition)"@en, "ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9548> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Obadiah (literary tradition) — ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ in last modified March 29, 2017, http://syriaca.org/work/9548" .
+
+<http://syriaca.org/work/9548/tei> a rdfs:Resource; ;
+ dcterms:title "Obadiah (literary tradition)"@en, "ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9548> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Obadiah (literary tradition) — ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ in last modified March 29, 2017, http://syriaca.org/work/9548" .
+
+<http://syriaca.org/work/9548/ttl> a rdfs:Resource; ;
+ dcterms:title "Obadiah (literary tradition)"@en, "ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ"@syr ;
+ dcterms:subject <http://syriaca.org/work/9548> ;
+ dcterms:subject <http://syriaca.org/work/9548> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson and David A. Michelson (eds.), Obadiah (literary tradition) — ܣܦܪܐ ܕܥܘܒܕܝܐ ܢܒܝܐ in last modified March 29, 2017, http://syriaca.org/work/9548" .

@@ -1,0 +1,61 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
+@prefix gn: <http://www.geonames.org/ontology#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+
+<http://syriaca.org/work/169> a lawd:conceptualWork ;
+ rdfs:label "Numbers (Symmachus)"@en ;
+ dcterms:relation <#bib169-3> ; 
+ dcterms:relation <http://syriaca.org/work/169> ; 
+ dcterms:relation <#bib169-1> ; 
+ dcterms:relation <#bib169-2> ; 
+ dcterms:relation <http://syriaca.org/manuscript/98> ; 
+ dcterms:relation <#bib169-2> ; 
+ dcterms:relation <http://syriaca.org/work/169> ; 
+ dcterms:relation <http://syriaca.org/work/9652> ;
+ dcterms:relation <http://syriaca.org/work/169/html>, <http://syriaca.org/work/169/tei>, <http://syriaca.org/work/169/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/169/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/169/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/169/ttl> ;
+ dcterms:relation <http://syriaca.org/manuscript/98>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/98#p1a3>, <http://syriaca.org/bibl/8> .
+
+ lawd:embodies <http://syriaca.org/work/169> ;
+ lawd:hasAttestation <http://syriaca.org/work/169> .
+
+ dcterms:source <#bib169-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/169> .
+
+ lawd:hasCitation <#bib169-2> ;
+ lawd:hasAttestation <http://syriaca.org/work/169> .
+
+ skos:broadMatch <http://syriaca.org/work/9652> ;
+ lawd:hasAttestation <http://syriaca.org/work/169> .
+
+<http://syriaca.org/work/169/html> a rdfs:Resource; ;
+ dcterms:title "Numbers (Symmachus)"@en ;
+ dcterms:subject <http://syriaca.org/work/169> ;
+ dcterms:source <http://syriaca.org/manuscript/98>, <http://syriaca.org/manuscript/98>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Numbers (Symmachus) in last modified December 16, 2016, http://syriaca.org/work/169" .
+
+<http://syriaca.org/work/169/tei> a rdfs:Resource; ;
+ dcterms:title "Numbers (Symmachus)"@en ;
+ dcterms:subject <http://syriaca.org/work/169> ;
+ dcterms:source <http://syriaca.org/manuscript/98>, <http://syriaca.org/manuscript/98>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Numbers (Symmachus) in last modified December 16, 2016, http://syriaca.org/work/169" .
+
+<http://syriaca.org/work/169/ttl> a rdfs:Resource; ;
+ dcterms:title "Numbers (Symmachus)"@en ;
+ dcterms:subject <http://syriaca.org/work/169> ;
+ dcterms:subject <http://syriaca.org/work/169> ;
+ dcterms:source <http://syriaca.org/manuscript/98>, <http://syriaca.org/manuscript/98>, <http://syriaca.org/bibl/8> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), Numbers (Symmachus) in last modified December 16, 2016, http://syriaca.org/work/169" .
