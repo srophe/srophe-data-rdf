@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/1992> a lawd:Person ;
  rdfs:label "Paradise of the Fathers"@en ;
@@ -39,10 +43,12 @@
  skos:related <http://syriaca.org/person/1992> ; 
  skos:related <http://syriaca.org/person/1992> ; 
  skos:related <http://syriaca.org/person/1992> ;
- dcterms:relation <http://syriaca.org/person/1992/html>, <http://syriaca.org/person/1992/tei>, <http://syriaca.org/person/1992/ttl> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ dcterms:hasFormat <http://syriaca.org/person/1992/html>, <http://syriaca.org/person/1992/tei>, <http://syriaca.org/person/1992/ttl>, <http://syriaca.org/person/1992/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1992/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1992/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1992/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1992/rdf> ;
  dcterms:relation <http://syriaca.org/person/1992>, <http://syriaca.org/work/403>, <http://syriaca.org/work/404>, <http://syriaca.org/work/405>, <http://syriaca.org/work/439>, <http://syriaca.org/work/518>, <http://syriaca.org/work/519>, <http://syriaca.org/work/538>, <http://syriaca.org/work/549>, <http://syriaca.org/work/550>, <http://syriaca.org/work/551>, <http://syriaca.org/work/552>, <http://syriaca.org/work/553>, <http://syriaca.org/work/554>, <http://syriaca.org/work/622>, <http://syriaca.org/work/623>, <http://syriaca.org/work/792>, <http://syriaca.org/work/909>, <http://syriaca.org/work/976>, <http://syriaca.org/work/1556>, <http://syriaca.org/work/1778>, <http://syriaca.org/bibl/649> .
 
 <http://syriaca.org/person/1992/html> a rdfs:Resource; ;

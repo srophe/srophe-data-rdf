@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/spear/119-181">
         <rdf:type rdf:resource="http://syriaca.org/schema#/eventFactoid"/>
         <rdfs:label>After A. D. 379/80 the year Theodosius the Great became king Eulogios built the House of Mar Daniel which was called the House of Mar Demet .</rdfs:label>
@@ -6,38 +6,34 @@
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/architecture"/>
         <schema:location rdf:resource="http://syriaca.org/place/2592"/>
         <schema:location rdf:resource="http://syriaca.org/place/2592"/>
-        <dcterms:date>0380-01-18</dcterms:date>
-        <dcterms:source rdf:resource="http://syriaca.org/bibl/633"/>
-        <dcterms:source rdf:resource="urn:cts:syriacLit:nhsl8559.syriacCorpus57:5"/>
-        <dcterms:source rdf:resource="http://syriaca.org/bibl/657"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/spear/119"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/spear"/>
+        <time:hasDateTimeDescription>
+            <rdf:Description>
+                <skos:prefLabel>A. D. 379/80</skos:prefLabel>
+                <periodo:earliestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#date">0380-01-18</periodo:earliestYear>
+            </rdf:Description>
+        </time:hasDateTimeDescription>
+        <time:hasDateTimeDescription>
+            <rdf:Description>
+                <skos:prefLabel>the year Theodosius the Great became king</skos:prefLabel>
+            </rdf:Description>
+        </time:hasDateTimeDescription>
         <dcterms:subject rdf:resource="http://syriaca.org/person/1718"/>
         <dcterms:subject rdf:resource="http://syriaca.org/place/2592"/>
         <dcterms:subject rdf:resource="http://syriaca.org/person/1671"/>
         <dcterms:subject rdf:resource="http://syriaca.org/person/2258"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/spear/119-181/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/spear/119-181/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/spear/119-181/ttl"/>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/633"/>
+        <lawd:hasAttestation rdf:resource="urn:cts:syriacLit:nhsl8559.syriacCorpus57:5"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/657"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-181/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-181/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-181/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-181/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-181/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-181/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-181/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-181/rdf"/>
     </rdf:Description>
-    <rdfs:Resource rdf:about="http://syriaca.org/spear/119-181/html">
-        <dcterms:title>After A. D. 379/80 the year Theodosius the Great became king Eulogios built the House of Mar Daniel which was called the House of Mar Demet .</dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/spear/119-181"/>
-        <dcterms:format>text/html</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
-    </rdfs:Resource>
-    <rdfs:Resource rdf:about="http://syriaca.org/spear/119-181/tei">
-        <dcterms:title>After A. D. 379/80 the year Theodosius the Great became king Eulogios built the House of Mar Daniel which was called the House of Mar Demet .</dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/spear/119-181"/>
-        <dcterms:format>text/xml</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
-    </rdfs:Resource>
-    <rdfs:Resource rdf:about="http://syriaca.org/spear/119-181/ttl">
-        <dcterms:title>After A. D. 379/80 the year Theodosius the Great became king Eulogios built the House of Mar Daniel which was called the House of Mar Demet .</dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/spear/119-181"/>
-        <dcterms:format>text/turle</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
-    </rdfs:Resource>
 </rdf:RDF>

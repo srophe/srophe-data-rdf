@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/75> a lawd:Person ;
  rdfs:label "Peter of Kallinikos"@en, "ܦܛܪܘܣ ܏ܓ ܩܠܘܢܝܩܝܐ"@syr ;
@@ -67,23 +71,68 @@
  dcterms:relation <http://syriaca.org/person/75> ; 
  dcterms:relation <http://syriaca.org/place/351> ; 
  dcterms:relation <http://syriaca.org/place/572> ; 
- dcterms:relation <http://syriaca.org/place/214> ;
- dcterms:relation <http://syriaca.org/person/75/html>, <http://syriaca.org/person/75/tei>, <http://syriaca.org/person/75/ttl> ;
+ dcterms:relation <http://syriaca.org/place/214> ; 
+ snap:has-bond <http://syriaca.org/place/109#syriaca:bornAt-http://syriaca.org/person/75> ; 
+ snap:has-bond <http://syriaca.org/place/349#syriaca:diedAt-http://syriaca.org/person/75> ; 
+ snap:has-bond <http://syriaca.org/place/351#syriaca:hasRelationToPlace-http://syriaca.org/person/75> ; 
+ snap:has-bond <http://syriaca.org/place/572#syriaca:hasRelationToPlace-http://syriaca.org/person/75> ; 
+ snap:has-bond <http://syriaca.org/place/214#syriaca:hasRelationToPlace-http://syriaca.org/person/75> ;
+ lawd:hasCitation <http://syriaca.org/bibl/436> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/641> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1700> ;
+ lawd:hasCitation <http://syriaca.org/bibl/640> ;
+ lawd:hasCitation <http://syriaca.org/bibl/639> ;
+ lawd:hasCitation <http://syriaca.org/bibl/645> ;
+ dcterms:hasFormat <http://syriaca.org/person/75/html>, <http://syriaca.org/person/75/tei>, <http://syriaca.org/person/75/ttl>, <http://syriaca.org/person/75/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/75/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/75/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/75/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/75/rdf> ;
  dcterms:relation <http://syriaca.org/place/109>, <http://syriaca.org/place/2546>, <http://syriaca.org/person/75>, <http://syriaca.org/work/775>, <http://syriaca.org/bibl/436>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Peter of Callinicum&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/1700>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/645> .
 
+ rdf:about <http://syriaca.org/person/75> ;
+ dcterms:relation <http://syriaca.org/place/109> ;
+ snap:has-bond <http://syriaca.org/place/109#syriaca:bornAt-http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/place/109#syriaca:bornAt-http://syriaca.org/person/75> ;
  syriaca:bornAt <http://syriaca.org/place/109> ;
  lawd:hasAttestation <http://syriaca.org/person/75> .
 
+ rdf:about <http://syriaca.org/person/75> ;
+ dcterms:relation <http://syriaca.org/place/349> ;
+ snap:has-bond <http://syriaca.org/place/349#syriaca:diedAt-http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/place/349#syriaca:diedAt-http://syriaca.org/person/75> ;
  syriaca:diedAt <http://syriaca.org/place/349> ;
  lawd:hasAttestation <http://syriaca.org/person/75> .
 
+ rdf:about <http://syriaca.org/person/75> ;
+ dcterms:relation <http://syriaca.org/place/351> ;
+ snap:has-bond <http://syriaca.org/place/351#syriaca:hasRelationToPlace-http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/person/75> ;
+ dcterms:relation <http://syriaca.org/place/572> ;
+ snap:has-bond <http://syriaca.org/place/572#syriaca:hasRelationToPlace-http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/person/75> ;
+ dcterms:relation <http://syriaca.org/place/214> ;
+ snap:has-bond <http://syriaca.org/place/214#syriaca:hasRelationToPlace-http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/place/351#syriaca:hasRelationToPlace-http://syriaca.org/person/75> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/351> ;
- lawd:hasAttestation <http://syriaca.org/person/75> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/place/572#syriaca:hasRelationToPlace-http://syriaca.org/person/75> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/572> ;
- lawd:hasAttestation <http://syriaca.org/person/75> ;
+ lawd:hasAttestation <http://syriaca.org/person/75> .
+
+ rdf:about <http://syriaca.org/place/214#syriaca:hasRelationToPlace-http://syriaca.org/person/75> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/214> ;
  lawd:hasAttestation <http://syriaca.org/person/75> .
 

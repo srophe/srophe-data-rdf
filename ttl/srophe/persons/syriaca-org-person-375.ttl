@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/375> a lawd:Person ;
  rdfs:label "ܓܘܪܓܝܣ ܒܪ ܐܒܪܗܡ ܥܒܕܐܠܢܘܪ ܚܠܒܝܐ"@syr, "George, bishop of al-Bsheriyyeh"@en ;
@@ -35,10 +39,15 @@
  lawd:primaryForm "George, bishop of al-Bsheriyyeh"@en ;];
  skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_375> ; 
  dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_375> ;
- dcterms:relation <http://syriaca.org/person/375/html>, <http://syriaca.org/person/375/tei>, <http://syriaca.org/person/375/ttl> ;
+ lawd:hasCitation <http://syriaca.org/bibl/95> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ dcterms:hasFormat <http://syriaca.org/person/375/html>, <http://syriaca.org/person/375/tei>, <http://syriaca.org/person/375/ttl>, <http://syriaca.org/person/375/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/375/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/375/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/375/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/375/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/95>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3> .
 
 <http://syriaca.org/person/375/html> a rdfs:Resource; ;

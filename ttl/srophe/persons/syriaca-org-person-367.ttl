@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/367> a lawd:Person ;
  rdfs:label "ܒܪܚܕܒܫܒܐ ܥܪܒܝܐ"@syr, "Barhadbshabba ʿArbaya"@en ;
@@ -50,22 +54,56 @@
  dcterms:relation <http://syriaca.org/person/367> ; 
  dcterms:relation <http://syriaca.org/person/159> ; 
  dcterms:relation <http://syriaca.org/person/367> ; 
- dcterms:relation <http://syriaca.org/person/976> ;
- dcterms:relation <http://syriaca.org/person/367/html>, <http://syriaca.org/person/367/tei>, <http://syriaca.org/person/367/ttl> ;
+ dcterms:relation <http://syriaca.org/person/976> ; 
+ snap:has-bond <http://syriaca.org/person/159#syriaca:differentFrom-http://syriaca.org/person/367> ; 
+ snap:has-bond <http://syriaca.org/person/367#syriaca:differentFrom-http://syriaca.org/person/159> ; 
+ snap:has-bond <http://syriaca.org/person/976#syriaca:possiblyIdentical-http://syriaca.org/person/367> ; 
+ snap:has-bond <http://syriaca.org/person/367#syriaca:possiblyIdentical-http://syriaca.org/person/976> ;
+ lawd:hasCitation <http://syriaca.org/bibl/86> ;
+ lawd:hasCitation <http://syriaca.org/bibl/6> ;
+ lawd:hasCitation <http://syriaca.org/bibl/7> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/641> ;
+ lawd:hasCitation <http://syriaca.org/bibl/645> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2499> ;
+ dcterms:hasFormat <http://syriaca.org/person/367/html>, <http://syriaca.org/person/367/tei>, <http://syriaca.org/person/367/ttl>, <http://syriaca.org/person/367/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/367/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/367/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/367/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/367/rdf> ;
  dcterms:relation <http://syriaca.org/place/142>, <http://syriaca.org/bibl/86>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Barhadbeshabba Arbaya&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> .
 
+ rdf:about <http://syriaca.org/person/367> ;
+ dcterms:relation <http://syriaca.org/person/159> ;
+ snap:has-bond <http://syriaca.org/person/159#syriaca:differentFrom-http://syriaca.org/person/367> .
+
+ rdf:about <http://syriaca.org/person/159#syriaca:differentFrom-http://syriaca.org/person/367> ;
  syriaca:differentFrom <http://syriaca.org/person/159> ;
  lawd:hasAttestation <http://syriaca.org/person/367> .
 
+ rdf:about <http://syriaca.org/person/159> ;
+ dcterms:relation <http://syriaca.org/person/367> ;
+ snap:has-bond <http://syriaca.org/person/367#syriaca:differentFrom-http://syriaca.org/person/159> .
+
+ rdf:about <http://syriaca.org/person/367#syriaca:differentFrom-http://syriaca.org/person/159> ;
  syriaca:differentFrom <http://syriaca.org/person/367> ;
  lawd:hasAttestation <http://syriaca.org/person/367> .
 
+ rdf:about <http://syriaca.org/person/367> ;
+ dcterms:relation <http://syriaca.org/person/976> ;
+ snap:has-bond <http://syriaca.org/person/976#syriaca:possiblyIdentical-http://syriaca.org/person/367> .
+
+ rdf:about <http://syriaca.org/person/976#syriaca:possiblyIdentical-http://syriaca.org/person/367> ;
  syriaca:possiblyIdentical <http://syriaca.org/person/976> ;
  lawd:hasAttestation <http://syriaca.org/person/367> .
 
+ rdf:about <http://syriaca.org/person/976> ;
+ dcterms:relation <http://syriaca.org/person/367> ;
+ snap:has-bond <http://syriaca.org/person/367#syriaca:possiblyIdentical-http://syriaca.org/person/976> .
+
+ rdf:about <http://syriaca.org/person/367#syriaca:possiblyIdentical-http://syriaca.org/person/976> ;
  syriaca:possiblyIdentical <http://syriaca.org/person/367> ;
  lawd:hasAttestation <http://syriaca.org/person/367> .
 

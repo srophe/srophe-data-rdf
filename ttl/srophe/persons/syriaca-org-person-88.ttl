@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/88> a lawd:Person ;
  rdfs:label "Athanasius I Gamolo"@en, "ܐܬܢܐܣܝܘܣ ܩܕܡܝܐ ܓܡܠܐ"@syr ;
@@ -60,25 +64,75 @@
  dcterms:relation <http://syriaca.org/place/227> ; 
  dcterms:relation <http://syriaca.org/person/88> ; 
  dcterms:relation <http://syriaca.org/place/230> ; 
- dcterms:relation <http://syriaca.org/place/320> ;
- dcterms:relation <http://syriaca.org/person/88/html>, <http://syriaca.org/person/88/tei>, <http://syriaca.org/person/88/ttl> ;
+ dcterms:relation <http://syriaca.org/place/320> ; 
+ snap:has-bond <http://syriaca.org/place/178#syriaca:bornAt-http://syriaca.org/person/88> ; 
+ snap:has-bond <http://syriaca.org/place/8#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> ; 
+ snap:has-bond <http://syriaca.org/place/572#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> ; 
+ snap:has-bond <http://syriaca.org/place/227#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> ; 
+ snap:has-bond <http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/88> ; 
+ snap:has-bond <http://syriaca.org/place/320#syriaca:hasRelationToPlace-http://syriaca.org/person/88> ;
+ lawd:hasCitation <http://syriaca.org/bibl/67> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/650> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1381> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1426> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/641> ;
+ dcterms:hasFormat <http://syriaca.org/person/88/html>, <http://syriaca.org/person/88/tei>, <http://syriaca.org/person/88/ttl>, <http://syriaca.org/person/88/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/88/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/88/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/88/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/88/rdf> ;
  dcterms:relation <http://syriaca.org/place/10>, <http://syriaca.org/bibl/67>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Athanasius Gammala&sT=keywords>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641> .
 
+ rdf:about <http://syriaca.org/person/88> ;
+ dcterms:relation <http://syriaca.org/place/178> ;
+ snap:has-bond <http://syriaca.org/place/178#syriaca:bornAt-http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/place/178#syriaca:bornAt-http://syriaca.org/person/88> ;
  syriaca:bornAt <http://syriaca.org/place/178> ;
  lawd:hasAttestation <http://syriaca.org/person/88> .
 
+ rdf:about <http://syriaca.org/person/88> ;
+ dcterms:relation <http://syriaca.org/place/8> ;
+ snap:has-bond <http://syriaca.org/place/8#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/person/88> ;
+ dcterms:relation <http://syriaca.org/place/572> ;
+ snap:has-bond <http://syriaca.org/place/572#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/person/88> ;
+ dcterms:relation <http://syriaca.org/place/227> ;
+ snap:has-bond <http://syriaca.org/place/227#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/place/8#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/8> ;
- lawd:hasAttestation <http://syriaca.org/person/88> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/place/572#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/572> ;
- lawd:hasAttestation <http://syriaca.org/person/88> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/place/227#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/88> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/227> ;
  lawd:hasAttestation <http://syriaca.org/person/88> .
 
+ rdf:about <http://syriaca.org/person/88> ;
+ dcterms:relation <http://syriaca.org/place/230> ;
+ snap:has-bond <http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/person/88> ;
+ dcterms:relation <http://syriaca.org/place/320> ;
+ snap:has-bond <http://syriaca.org/place/320#syriaca:hasRelationToPlace-http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/88> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/230> ;
- lawd:hasAttestation <http://syriaca.org/person/88> ;
+ lawd:hasAttestation <http://syriaca.org/person/88> .
+
+ rdf:about <http://syriaca.org/place/320#syriaca:hasRelationToPlace-http://syriaca.org/person/88> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/320> ;
  lawd:hasAttestation <http://syriaca.org/person/88> .
 

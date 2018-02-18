@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/537> a lawd:Person ;
  rdfs:label "Hippolytus of Rome"@en-x-gedsh, "ܐܝܦܘܠܝܛܘܣ ܕܪܘܡܝ"@syr, "Hippolytus of Rome"@en ;
@@ -45,10 +49,19 @@
  lawd:hasAttestation <http://syriaca.org/bibl/649> ;];
  skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_537>, <http://viaf.org/viaf/88873163>, <http://worldcat.org/identities/lccn-n50-66851>, <http://viaf.org/viaf/249264606>, <http://viaf.org/viaf/213925561>, <http://viaf.org/viaf/209343445>, <http://viaf.org/viaf/62363863>, <http://viaf.org/viaf/244144076>, <http://viaf.org/viaf/240418111>, <http://viaf.org/viaf/238442512>, <http://viaf.org/viaf/2538576>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Hippolytus&sT=keywords> ; 
  dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_537>, <http://viaf.org/viaf/88873163>, <http://worldcat.org/identities/lccn-n50-66851>, <http://viaf.org/viaf/249264606>, <http://viaf.org/viaf/213925561>, <http://viaf.org/viaf/209343445>, <http://viaf.org/viaf/62363863>, <http://viaf.org/viaf/244144076>, <http://viaf.org/viaf/240418111>, <http://viaf.org/viaf/238442512>, <http://viaf.org/viaf/2538576>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Hippolytus&sT=keywords> ;
- dcterms:relation <http://syriaca.org/person/537/html>, <http://syriaca.org/person/537/tei>, <http://syriaca.org/person/537/ttl> ;
+ lawd:hasCitation <http://syriaca.org/bibl/270> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/6> ;
+ lawd:hasCitation <http://syriaca.org/bibl/7> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ dcterms:hasFormat <http://syriaca.org/person/537/html>, <http://syriaca.org/person/537/tei>, <http://syriaca.org/person/537/ttl>, <http://syriaca.org/person/537/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/537/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/537/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/537/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/537/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/270>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Hippolytus&sT=keywords>, <http://syriaca.org/bibl/649> .
 
 <http://syriaca.org/person/537/html> a rdfs:Resource; ;

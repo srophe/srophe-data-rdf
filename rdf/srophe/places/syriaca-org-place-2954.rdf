@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/place/2954">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Warthān</rdfs:label>
@@ -23,16 +23,27 @@
         </geo:location>
         <dcterms:description>A city on the river  al-Rass 
                </dcterms:description>
-        <dcterms:temporal>0640/0902</dcterms:temporal>
+        <time:hasDateTimeDescription>
+            <rdf:Description>
+                <skos:prefLabel/>
+                <periodo:earliestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0640</periodo:earliestYear>
+                <periodo:latestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0902</periodo:latestYear>
+            </rdf:Description>
+        </time:hasDateTimeDescription>
         <skos:closeMatch rdf:resource="https://pleiades.stoa.org/places/884224"/>
         <dcterms:subject rdf:resource="http://syriaca.org/place/2953"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/bethqatraye"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/2954/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/2954/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/2954/ttl"/>
+        <lawd:hasCitation rdf:resource="https://pleiades.stoa.org/places/884224"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2501"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2503"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/2954/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/2954/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/2954/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/2954/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/2954/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/2954/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/2954/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/2954/rdf"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/place/2954/html">
         <dcterms:title xml:lang="en">Warthān</dcterms:title>

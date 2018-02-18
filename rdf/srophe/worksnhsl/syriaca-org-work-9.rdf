@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/work/9">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">1 Samuel (Peshitta version)</rdfs:label>
@@ -71,151 +71,288 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9526"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/44"/>
+        <snap:has-bond rdf:resource="#bib9-5#dcterms:source-#bib9-1"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-1"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-2"/>
+        <snap:has-bond rdf:resource="#bib9-9#dcterms:source-#bib9-3"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-3"/>
+        <snap:has-bond rdf:resource="#bib9-3#dcterms:source-#bib9-4"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-4"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-5"/>
+        <snap:has-bond rdf:resource="#bib9-5#dcterms:source-#bib9-6"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-6"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-7"/>
+        <snap:has-bond rdf:resource="#bib9-9#dcterms:source-#bib9-8"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-8"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-13"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-14"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-15"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-16"/>
+        <snap:has-bond rdf:resource="#bib9-18#dcterms:source-#bib9-17"/>
+        <snap:has-bond rdf:resource="#bib9-18#lawd:hasCitation-http://syriaca.org/manuscript/1153"/>
+        <snap:has-bond rdf:resource="#bib9-20#dcterms:source-#bib9-19"/>
+        <snap:has-bond rdf:resource="#bib9-20#lawd:hasCitation-http://syriaca.org/manuscript/108"/>
+        <snap:has-bond rdf:resource="#bib9-22#dcterms:source-#bib9-21"/>
+        <snap:has-bond rdf:resource="#bib9-22#lawd:hasCitation-http://syriaca.org/manuscript/104"/>
+        <snap:has-bond rdf:resource="#bib9-24#dcterms:source-#bib9-23"/>
+        <snap:has-bond rdf:resource="#bib9-24#lawd:hasCitation-http://syriaca.org/manuscript/87"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9526#skos:broadMatch-http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/44#dcterms:isPartOf-http://syriaca.org/work/9"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9/ttl"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2335"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2370"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2438"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2439"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2346"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2381"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2443"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2397"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2432"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2387"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2442"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1153"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/108"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/104"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/87"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1153"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/8"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/108"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/8"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/104"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/8"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/87"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/8"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9/rdf"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-1">
         <dcterms:relation rdf:resource="#bib9-5"/>
+        <snap:has-bond rdf:resource="#bib9-5#dcterms:source-#bib9-1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-5#dcterms:source-#bib9-1">
         <dcterms:source rdf:resource="#bib9-5"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-1">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-1">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-2">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-2"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-2">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-3">
         <dcterms:relation rdf:resource="#bib9-9"/>
+        <snap:has-bond rdf:resource="#bib9-9#dcterms:source-#bib9-3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-9#dcterms:source-#bib9-3">
         <dcterms:source rdf:resource="#bib9-9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-3">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-3">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-4">
         <dcterms:relation rdf:resource="#bib9-3"/>
+        <snap:has-bond rdf:resource="#bib9-3#dcterms:source-#bib9-4"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-3#dcterms:source-#bib9-4">
         <dcterms:source rdf:resource="#bib9-3"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-4">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-4"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-4">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-5">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-5"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-5">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-6">
         <dcterms:relation rdf:resource="#bib9-5"/>
+        <snap:has-bond rdf:resource="#bib9-5#dcterms:source-#bib9-6"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-5#dcterms:source-#bib9-6">
         <dcterms:source rdf:resource="#bib9-5"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-6">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-6"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-6">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-7">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-7"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-7">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-8">
         <dcterms:relation rdf:resource="#bib9-9"/>
+        <snap:has-bond rdf:resource="#bib9-9#dcterms:source-#bib9-8"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-9#dcterms:source-#bib9-8">
         <dcterms:source rdf:resource="#bib9-9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-8">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-8"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-8">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-9">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-9"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-9">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-13">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-13"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-13">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-14">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-14"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-14">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-15">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-15"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-15">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-16">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9#lawd:embodies-#bib9-16"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9#lawd:embodies-#bib9-16">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-17">
         <dcterms:relation rdf:resource="#bib9-18"/>
+        <snap:has-bond rdf:resource="#bib9-18#dcterms:source-#bib9-17"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-18#dcterms:source-#bib9-17">
         <dcterms:source rdf:resource="#bib9-18"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/manuscript/1153">
         <dcterms:relation rdf:resource="#bib9-18"/>
+        <snap:has-bond rdf:resource="#bib9-18#lawd:hasCitation-http://syriaca.org/manuscript/1153"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-18#lawd:hasCitation-http://syriaca.org/manuscript/1153">
         <lawd:hasCitation rdf:resource="#bib9-18"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-19">
         <dcterms:relation rdf:resource="#bib9-20"/>
+        <snap:has-bond rdf:resource="#bib9-20#dcterms:source-#bib9-19"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-20#dcterms:source-#bib9-19">
         <dcterms:source rdf:resource="#bib9-20"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/manuscript/108">
         <dcterms:relation rdf:resource="#bib9-20"/>
+        <snap:has-bond rdf:resource="#bib9-20#lawd:hasCitation-http://syriaca.org/manuscript/108"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-20#lawd:hasCitation-http://syriaca.org/manuscript/108">
         <lawd:hasCitation rdf:resource="#bib9-20"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-21">
         <dcterms:relation rdf:resource="#bib9-22"/>
+        <snap:has-bond rdf:resource="#bib9-22#dcterms:source-#bib9-21"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-22#dcterms:source-#bib9-21">
         <dcterms:source rdf:resource="#bib9-22"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/manuscript/104">
         <dcterms:relation rdf:resource="#bib9-22"/>
+        <snap:has-bond rdf:resource="#bib9-22#lawd:hasCitation-http://syriaca.org/manuscript/104"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-22#lawd:hasCitation-http://syriaca.org/manuscript/104">
         <lawd:hasCitation rdf:resource="#bib9-22"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9-23">
         <dcterms:relation rdf:resource="#bib9-24"/>
+        <snap:has-bond rdf:resource="#bib9-24#dcterms:source-#bib9-23"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-24#dcterms:source-#bib9-23">
         <dcterms:source rdf:resource="#bib9-24"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/manuscript/87">
         <dcterms:relation rdf:resource="#bib9-24"/>
+        <snap:has-bond rdf:resource="#bib9-24#lawd:hasCitation-http://syriaca.org/manuscript/87"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib9-24#lawd:hasCitation-http://syriaca.org/manuscript/87">
         <lawd:hasCitation rdf:resource="#bib9-24"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/work/9">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9526"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9526#skos:broadMatch-http://syriaca.org/work/9"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9526#skos:broadMatch-http://syriaca.org/work/9">
         <skos:broadMatch rdf:resource="http://syriaca.org/work/9526"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/work/9">
         <dcterms:relation rdf:resource="http://syriaca.org/work/44"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/44#dcterms:isPartOf-http://syriaca.org/work/9"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/44#dcterms:isPartOf-http://syriaca.org/work/9">
         <dcterms:isPartOf rdf:resource="http://syriaca.org/work/44"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9"/>
     </rdf:Description>

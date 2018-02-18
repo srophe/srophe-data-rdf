@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/1410> a lawd:Person ;
  rdfs:label "Pethion"@en, "ܦܬܝܘܢ"@syr ;
@@ -45,16 +49,38 @@
  skos:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Pethion&sT=keywords> ; 
  dcterms:relation <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Pethion&sT=keywords> ;
  dcterms:relation <http://syriaca.org/person/1410> ; 
- dcterms:relation <http://syriaca.org/person/1409> ;
- dcterms:relation <http://syriaca.org/person/1410/html>, <http://syriaca.org/person/1410/tei>, <http://syriaca.org/person/1410/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1409> ; 
+ snap:has-bond <http://syriaca.org/person/1409#syriaca:differentFrom-http://syriaca.org/person/1410> ; 
+ snap:has-bond <http://syriaca.org/person/1410#syriaca:differentFrom-http://syriaca.org/person/1409> ;
+ lawd:hasCitation <http://syriaca.org/bibl/650> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1697> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1314> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1812> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1340> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1350> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1370> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ dcterms:hasFormat <http://syriaca.org/person/1410/html>, <http://syriaca.org/person/1410/tei>, <http://syriaca.org/person/1410/ttl>, <http://syriaca.org/person/1410/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1410/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1410/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1410/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1410/rdf> ;
  dcterms:relation <http://syriaca.org/person/1410>, <http://syriaca.org/person/1520>, <http://syriaca.org/place/121>, <http://syriaca.org/person/1119>, <http://syriaca.org/work/292>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1812>, <http://syriaca.org/bibl/1340>, <http://syriaca.org/bibl/1350>, <http://syriaca.org/bibl/1370>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Pethion&sT=keywords> .
 
+ rdf:about <http://syriaca.org/person/1410> ;
+ dcterms:relation <http://syriaca.org/person/1409> ;
+ snap:has-bond <http://syriaca.org/person/1409#syriaca:differentFrom-http://syriaca.org/person/1410> .
+
+ rdf:about <http://syriaca.org/person/1409#syriaca:differentFrom-http://syriaca.org/person/1410> ;
  syriaca:differentFrom <http://syriaca.org/person/1409> ;
  lawd:hasAttestation <http://syriaca.org/person/1410> .
 
+ rdf:about <http://syriaca.org/person/1409> ;
+ dcterms:relation <http://syriaca.org/person/1410> ;
+ snap:has-bond <http://syriaca.org/person/1410#syriaca:differentFrom-http://syriaca.org/person/1409> .
+
+ rdf:about <http://syriaca.org/person/1410#syriaca:differentFrom-http://syriaca.org/person/1409> ;
  syriaca:differentFrom <http://syriaca.org/person/1410> ;
  lawd:hasAttestation <http://syriaca.org/person/1410> .
 

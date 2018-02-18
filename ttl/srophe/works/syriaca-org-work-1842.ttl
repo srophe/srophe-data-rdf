@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/1842> a lawd:conceptualWork ;
  rdfs:label "Babai the Great (text)"@en ;
@@ -20,19 +24,40 @@
  dcterms:relation <http://syriaca.org/work/1842> ; 
  dcterms:relation <http://syriaca.org/person/359> ; 
  dcterms:relation <http://syriaca.org/work/1842> ; 
- dcterms:relation <http://syriaca.org/work/1290> ;
- dcterms:relation <http://syriaca.org/work/1842/html>, <http://syriaca.org/work/1842/tei>, <http://syriaca.org/work/1842/ttl> ;
+ dcterms:relation <http://syriaca.org/work/1290> ; 
+ snap:has-bond <http://syriaca.org/work/1842#lawd:embodies-#bib1842-2> ; 
+ snap:has-bond <http://syriaca.org/person/359#syriaca:commemorated-http://syriaca.org/work/1842> ; 
+ snap:has-bond <http://syriaca.org/work/1290#dcterms:isPartOf-http://syriaca.org/work/1842> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/637> ;
+ dcterms:hasFormat <http://syriaca.org/work/1842/html>, <http://syriaca.org/work/1842/tei>, <http://syriaca.org/work/1842/ttl>, <http://syriaca.org/work/1842/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1842/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1842/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1842/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1842/rdf> ;
  dcterms:relation <http://syriaca.org/person/359>, <http://syriaca.org/person/796>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/637> .
 
+ rdf:about <#bib1842-2> ;
+ dcterms:relation <http://syriaca.org/work/1842> ;
+ snap:has-bond <http://syriaca.org/work/1842#lawd:embodies-#bib1842-2> .
+
+ rdf:about <http://syriaca.org/work/1842#lawd:embodies-#bib1842-2> ;
  lawd:embodies <http://syriaca.org/work/1842> ;
  lawd:hasAttestation <http://syriaca.org/work/1842> .
 
+ rdf:about <http://syriaca.org/work/1842> ;
+ dcterms:relation <http://syriaca.org/person/359> ;
+ snap:has-bond <http://syriaca.org/person/359#syriaca:commemorated-http://syriaca.org/work/1842> .
+
+ rdf:about <http://syriaca.org/person/359#syriaca:commemorated-http://syriaca.org/work/1842> ;
  syriaca:commemorated <http://syriaca.org/person/359> ;
  lawd:hasAttestation <http://syriaca.org/work/1842> .
 
+ rdf:about <http://syriaca.org/work/1842> ;
+ dcterms:relation <http://syriaca.org/work/1290> ;
+ snap:has-bond <http://syriaca.org/work/1290#dcterms:isPartOf-http://syriaca.org/work/1842> .
+
+ rdf:about <http://syriaca.org/work/1290#dcterms:isPartOf-http://syriaca.org/work/1842> ;
  dcterms:isPartOf <http://syriaca.org/work/1290> ;
  lawd:hasAttestation <http://syriaca.org/work/1842> .
 

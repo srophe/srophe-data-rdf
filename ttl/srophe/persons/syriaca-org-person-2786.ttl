@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/2786> a lawd:Person ;
  rdfs:label "ܐܛܝܩܘܣ ܕ ܩܘܣܛܢܛܝܢܘܣ"@syr ;
@@ -36,10 +40,17 @@
  skos:related <http://syriaca.org/person/2786> ;
  skos:closeMatch <http://viaf.org/viaf/72202417>, <http://www.csc.org.il/db/browse.aspx?db=SB&sK=Atticus of Constantinople&sT=keywords>, <http://pinakes.irht.cnrs.fr/notices/auteur/id/438>, <https://en.wikipedia.org/wiki/Archbishop_Atticus_of_Constantinople> ; 
  dcterms:relation <http://viaf.org/viaf/72202417>, <http://www.csc.org.il/db/browse.aspx?db=SB&sK=Atticus of Constantinople&sT=keywords>, <http://pinakes.irht.cnrs.fr/notices/auteur/id/438>, <https://en.wikipedia.org/wiki/Archbishop_Atticus_of_Constantinople> ;
- dcterms:relation <http://syriaca.org/person/2786/html>, <http://syriaca.org/person/2786/tei>, <http://syriaca.org/person/2786/ttl> ;
+ lawd:hasCitation <http://syriaca.org/work/1046> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/446> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1655> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1711> ;
+ dcterms:hasFormat <http://syriaca.org/person/2786/html>, <http://syriaca.org/person/2786/tei>, <http://syriaca.org/person/2786/ttl>, <http://syriaca.org/person/2786/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/2786/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/2786/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/2786/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/2786/rdf> ;
  dcterms:relation <http://syriaca.org/place/2290>, <http://syriaca.org/person/624>, <http://syriaca.org/work/1046>, <http://syriaca.org/person/2786>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/446>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sK=Atticus of Constantinople&sT=keywords>, <http://syriaca.org/bibl/1655>, <http://www.oxfordreference.com/view/10.1093/acref/9780195046526.001.0001/acref-9780195046526-e-0571>, <http://syriaca.org/bibl/1711> .
 
 <http://syriaca.org/person/2786/html> a rdfs:Resource; ;

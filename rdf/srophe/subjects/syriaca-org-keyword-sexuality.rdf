@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/keyword/sexuality">
         <rdf:type rdf:resource=""/>
         <rdfs:label xml:lang="en">Sexuality</rdfs:label>
@@ -11,31 +11,49 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/gender"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/sexuality"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/mental-states"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/gender#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/mental-states#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/sexuality/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/sexuality/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/sexuality/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sexuality/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sexuality/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sexuality/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sexuality/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sexuality/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sexuality/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sexuality/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sexuality/rdf"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/sexuality">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/culture"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/sexuality">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/culture"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sexuality"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/sexuality">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sexuality">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sexuality"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/sexuality">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/gender"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/gender#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/gender#skos:broadMatch-http://syriaca.org/keyword/sexuality">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/gender"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sexuality"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/sexuality">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/mental-states"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/mental-states#skos:broadMatch-http://syriaca.org/keyword/sexuality"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/mental-states#skos:broadMatch-http://syriaca.org/keyword/sexuality">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/mental-states"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sexuality"/>
     </rdf:Description>

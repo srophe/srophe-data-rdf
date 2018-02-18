@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/place/198">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Tell ʿAda</rdfs:label>
@@ -106,18 +106,34 @@
         </geo:location>
         <dcterms:description>A village 48 km. west of  Aleppo  known for the nearby  Monastery of Tell ʿAda .</dcterms:description>
         <dcterms:description>GEDSH Map I displays the location too far to the south, east of  Ḥama  rather than west of  Aleppo .</dcterms:description>
-        <dcterms:temporal>0457/0941</dcterms:temporal>
+        <time:hasDateTimeDescription>
+            <rdf:Description>
+                <skos:prefLabel/>
+                <periodo:earliestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0457</periodo:earliestYear>
+                <periodo:latestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0941</periodo:latestYear>
+            </rdf:Description>
+        </time:hasDateTimeDescription>
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/658614"/>
         <skos:closeMatch rdf:resource="&#xA;                        http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=T&amp;sK=Tell Ada&amp;sT=keywords&#xA;                    "/>
         <dcterms:subject rdf:resource="http://syriaca.org/place/18"/>
         <dcterms:subject rdf:resource="http://syriaca.org/place/233"/>
         <dcterms:subject rdf:resource="http://syriaca.org/place/91"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/198/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/198/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/198/ttl"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/5"/>
+        <lawd:hasCitation rdf:resource="http://pleiades.stoa.org/places/658614"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/651"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/655"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/198/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/198/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/198/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/place/198/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/198/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/198/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/198/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/198/rdf"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/place/198/html">
         <dcterms:title xml:lang="en">Tell ʿAda</dcterms:title>

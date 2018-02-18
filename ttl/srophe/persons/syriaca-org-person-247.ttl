@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/247> a lawd:Person ;
  rdfs:label "Michael I (III) , patriarch"@en, "ܡܝܟܐܝܠ ܩܕܡܝܐ"@syr ;
@@ -50,40 +54,132 @@
  dcterms:relation <http://syriaca.org/place/453> ; 
  dcterms:relation <http://syriaca.org/place/334> ; 
  dcterms:relation <http://syriaca.org/person/247> ; 
- dcterms:relation <http://syriaca.org/place/385> ;
- dcterms:relation <http://syriaca.org/person/247/html>, <http://syriaca.org/person/247/tei>, <http://syriaca.org/person/247/ttl> ;
+ dcterms:relation <http://syriaca.org/place/385> ; 
+ snap:has-bond <http://syriaca.org/person/223#syriaca:differentFrom-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/person/247#syriaca:differentFrom-http://syriaca.org/person/223> ; 
+ snap:has-bond <http://syriaca.org/place/440#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/181#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/60#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/290#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/421#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/292#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/466#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/413#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/453#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/334#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ; 
+ snap:has-bond <http://syriaca.org/place/385#syriaca:hasRelationToPlace-http://syriaca.org/person/247> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/642> ;
+ dcterms:hasFormat <http://syriaca.org/person/247/html>, <http://syriaca.org/person/247/tei>, <http://syriaca.org/person/247/ttl>, <http://syriaca.org/person/247/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/247/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/247/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/247/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/247/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/642> .
 
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/person/223> ;
+ snap:has-bond <http://syriaca.org/person/223#syriaca:differentFrom-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/223#syriaca:differentFrom-http://syriaca.org/person/247> ;
  syriaca:differentFrom <http://syriaca.org/person/223> ;
  lawd:hasAttestation <http://syriaca.org/person/247> .
 
+ rdf:about <http://syriaca.org/person/223> ;
+ dcterms:relation <http://syriaca.org/person/247> ;
+ snap:has-bond <http://syriaca.org/person/247#syriaca:differentFrom-http://syriaca.org/person/223> .
+
+ rdf:about <http://syriaca.org/person/247#syriaca:differentFrom-http://syriaca.org/person/223> ;
  syriaca:differentFrom <http://syriaca.org/person/247> ;
  lawd:hasAttestation <http://syriaca.org/person/247> .
 
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/440> ;
+ snap:has-bond <http://syriaca.org/place/440#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/181> ;
+ snap:has-bond <http://syriaca.org/place/181#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/60> ;
+ snap:has-bond <http://syriaca.org/place/60#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/290> ;
+ snap:has-bond <http://syriaca.org/place/290#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/421> ;
+ snap:has-bond <http://syriaca.org/place/421#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/292> ;
+ snap:has-bond <http://syriaca.org/place/292#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/466> ;
+ snap:has-bond <http://syriaca.org/place/466#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/413> ;
+ snap:has-bond <http://syriaca.org/place/413#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/453> ;
+ snap:has-bond <http://syriaca.org/place/453#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/334> ;
+ snap:has-bond <http://syriaca.org/place/334#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/440#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/440> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/181#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/181> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/60#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/60> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/290#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/290> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/421#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/421> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/292#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/292> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/466#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/466> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/413#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/413> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/453#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/453> ;
- lawd:hasAttestation <http://syriaca.org/person/247> ;
+ lawd:hasAttestation <http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/334#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/247> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/334> ;
  lawd:hasAttestation <http://syriaca.org/person/247> .
 
+ rdf:about <http://syriaca.org/person/247> ;
+ dcterms:relation <http://syriaca.org/place/385> ;
+ snap:has-bond <http://syriaca.org/place/385#syriaca:hasRelationToPlace-http://syriaca.org/person/247> .
+
+ rdf:about <http://syriaca.org/place/385#syriaca:hasRelationToPlace-http://syriaca.org/person/247> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/385> ;
  lawd:hasAttestation <http://syriaca.org/person/247> .
 

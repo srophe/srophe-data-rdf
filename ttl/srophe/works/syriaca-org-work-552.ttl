@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/552> a lawd:conceptualWork ;
  rdfs:label "ܐܒܗܬܐ"@syr, "Fathers (text)"@en ;
@@ -21,22 +25,52 @@
  dcterms:relation <#bib552-6> ; 
  dcterms:relation <http://syriaca.org/work/552> ; 
  dcterms:relation <http://syriaca.org/work/552> ; 
- dcterms:relation <http://syriaca.org/person/1992> ;
- dcterms:relation <http://syriaca.org/work/552/html>, <http://syriaca.org/work/552/tei>, <http://syriaca.org/work/552/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1992> ; 
+ snap:has-bond <http://syriaca.org/work/552#lawd:embodies-#bib552-4> ; 
+ snap:has-bond <http://syriaca.org/work/552#lawd:embodies-#bib552-5> ; 
+ snap:has-bond <http://syriaca.org/work/552#lawd:embodies-#bib552-6> ; 
+ snap:has-bond <http://syriaca.org/person/1992#syriaca:commemorated-http://syriaca.org/work/552> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1697> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1751> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/714> ;
+ lawd:hasCitation <http://syriaca.org/bibl/836> ;
+ dcterms:hasFormat <http://syriaca.org/work/552/html>, <http://syriaca.org/work/552/tei>, <http://syriaca.org/work/552/ttl>, <http://syriaca.org/work/552/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/552/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/552/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/552/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/552/rdf> ;
  dcterms:relation <http://syriaca.org/person/668>, <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1751>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/714>, <http://syriaca.org/bibl/836> .
 
+ rdf:about <#bib552-4> ;
+ dcterms:relation <http://syriaca.org/work/552> ;
+ snap:has-bond <http://syriaca.org/work/552#lawd:embodies-#bib552-4> .
+
+ rdf:about <http://syriaca.org/work/552#lawd:embodies-#bib552-4> ;
  lawd:embodies <http://syriaca.org/work/552> ;
  lawd:hasAttestation <http://syriaca.org/work/552> .
 
+ rdf:about <#bib552-5> ;
+ dcterms:relation <http://syriaca.org/work/552> ;
+ snap:has-bond <http://syriaca.org/work/552#lawd:embodies-#bib552-5> .
+
+ rdf:about <http://syriaca.org/work/552#lawd:embodies-#bib552-5> ;
  lawd:embodies <http://syriaca.org/work/552> ;
  lawd:hasAttestation <http://syriaca.org/work/552> .
 
+ rdf:about <#bib552-6> ;
+ dcterms:relation <http://syriaca.org/work/552> ;
+ snap:has-bond <http://syriaca.org/work/552#lawd:embodies-#bib552-6> .
+
+ rdf:about <http://syriaca.org/work/552#lawd:embodies-#bib552-6> ;
  lawd:embodies <http://syriaca.org/work/552> ;
  lawd:hasAttestation <http://syriaca.org/work/552> .
 
+ rdf:about <http://syriaca.org/work/552> ;
+ dcterms:relation <http://syriaca.org/person/1992> ;
+ snap:has-bond <http://syriaca.org/person/1992#syriaca:commemorated-http://syriaca.org/work/552> .
+
+ rdf:about <http://syriaca.org/person/1992#syriaca:commemorated-http://syriaca.org/work/552> ;
  syriaca:commemorated <http://syriaca.org/person/1992> ;
  lawd:hasAttestation <http://syriaca.org/work/552> .
 

@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/keyword/cheirograph> a  ;
  rdfs:label "Cheirograph"@en ;
@@ -19,18 +23,37 @@
  dcterms:relation <http://syriaca.org/keyword/cheirograph> ; 
  dcterms:relation <http://syriaca.org/keyword/christianity> ; 
  dcterms:relation <http://syriaca.org/keyword/cheirograph> ; 
- dcterms:relation <http://syriaca.org/keyword/literature> ;
- dcterms:relation <http://syriaca.org/keyword/cheirograph/html>, <http://syriaca.org/keyword/cheirograph/tei>, <http://syriaca.org/keyword/cheirograph/ttl> ;
+ dcterms:relation <http://syriaca.org/keyword/literature> ; 
+ snap:has-bond <http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/cheirograph> ; 
+ snap:has-bond <http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/cheirograph> ; 
+ snap:has-bond <http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/cheirograph> ;
+ dcterms:hasFormat <http://syriaca.org/keyword/cheirograph/html>, <http://syriaca.org/keyword/cheirograph/tei>, <http://syriaca.org/keyword/cheirograph/ttl>, <http://syriaca.org/keyword/cheirograph/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/cheirograph/html> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/cheirograph/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/keyword/cheirograph/ttl> .
+ foaf:primaryTopicOf <http://syriaca.org/keyword/cheirograph/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/cheirograph/rdf> .
 
+ rdf:about <http://syriaca.org/keyword/cheirograph> ;
+ dcterms:relation <http://syriaca.org/keyword/administration> ;
+ snap:has-bond <http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/cheirograph> .
+
+ rdf:about <http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/cheirograph> ;
  skos:broadMatch <http://syriaca.org/keyword/administration> ;
  lawd:hasAttestation <http://syriaca.org/keyword/cheirograph> .
 
+ rdf:about <http://syriaca.org/keyword/cheirograph> ;
+ dcterms:relation <http://syriaca.org/keyword/christianity> ;
+ snap:has-bond <http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/cheirograph> .
+
+ rdf:about <http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/cheirograph> ;
  skos:broadMatch <http://syriaca.org/keyword/christianity> ;
  lawd:hasAttestation <http://syriaca.org/keyword/cheirograph> .
 
+ rdf:about <http://syriaca.org/keyword/cheirograph> ;
+ dcterms:relation <http://syriaca.org/keyword/literature> ;
+ snap:has-bond <http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/cheirograph> .
+
+ rdf:about <http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/cheirograph> ;
  skos:broadMatch <http://syriaca.org/keyword/literature> ;
  lawd:hasAttestation <http://syriaca.org/keyword/cheirograph> .
 

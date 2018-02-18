@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/1084> a lawd:Person ;
  rdfs:label "Symmachus"@en, "Symmachus"@en-x-gedsh, "ܣܘܡܟܘܣ"@syr ;
@@ -26,38 +30,120 @@
  dcterms:relation <#person-1084> ; 
  dcterms:relation <http://syriaca.org/person/761> ; 
  dcterms:relation <http://syriaca.org/person/842> ; 
- dcterms:relation <http://syriaca.org/person/1062> ;
- dcterms:relation <http://syriaca.org/person/1084/html>, <http://syriaca.org/person/1084/tei>, <http://syriaca.org/person/1084/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1062> ; 
+ snap:has-bond <http://syriaca.org/person/761#syriaca:differentFrom-#person-1084> ; 
+ snap:has-bond <http://syriaca.org/person/842#syriaca:differentFrom-#person-1084> ; 
+ snap:has-bond <http://syriaca.org/person/1062#syriaca:differentFrom-#person-1084> ; 
+ snap:has-bond <#person-1084#syriaca:differentFrom-http://syriaca.org/person/761> ; 
+ snap:has-bond <http://syriaca.org/person/842#syriaca:differentFrom-http://syriaca.org/person/761> ; 
+ snap:has-bond <http://syriaca.org/person/1062#syriaca:differentFrom-http://syriaca.org/person/761> ; 
+ snap:has-bond <#person-1084#syriaca:differentFrom-http://syriaca.org/person/842> ; 
+ snap:has-bond <http://syriaca.org/person/761#syriaca:differentFrom-http://syriaca.org/person/842> ; 
+ snap:has-bond <http://syriaca.org/person/1062#syriaca:differentFrom-http://syriaca.org/person/842> ; 
+ snap:has-bond <#person-1084#syriaca:differentFrom-http://syriaca.org/person/1062> ; 
+ snap:has-bond <http://syriaca.org/person/761#syriaca:differentFrom-http://syriaca.org/person/1062> ; 
+ snap:has-bond <http://syriaca.org/person/842#syriaca:differentFrom-http://syriaca.org/person/1062> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1> ;
+ dcterms:hasFormat <http://syriaca.org/person/1084/html>, <http://syriaca.org/person/1084/tei>, <http://syriaca.org/person/1084/ttl>, <http://syriaca.org/person/1084/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1084/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1084/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/1084/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/1084/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/1> .
 
+ rdf:about <#person-1084> ;
+ dcterms:relation <http://syriaca.org/person/761> ;
+ snap:has-bond <http://syriaca.org/person/761#syriaca:differentFrom-#person-1084> .
+
+ rdf:about <#person-1084> ;
+ dcterms:relation <http://syriaca.org/person/842> ;
+ snap:has-bond <http://syriaca.org/person/842#syriaca:differentFrom-#person-1084> .
+
+ rdf:about <#person-1084> ;
+ dcterms:relation <http://syriaca.org/person/1062> ;
+ snap:has-bond <http://syriaca.org/person/1062#syriaca:differentFrom-#person-1084> .
+
+ rdf:about <http://syriaca.org/person/761#syriaca:differentFrom-#person-1084> ;
  syriaca:differentFrom <http://syriaca.org/person/761> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/842#syriaca:differentFrom-#person-1084> ;
  syriaca:differentFrom <http://syriaca.org/person/842> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/1062#syriaca:differentFrom-#person-1084> ;
  syriaca:differentFrom <http://syriaca.org/person/1062> ;
  lawd:hasAttestation <http://syriaca.org/person/1084> .
 
+ rdf:about <http://syriaca.org/person/761> ;
+ dcterms:relation <#person-1084> ;
+ snap:has-bond <#person-1084#syriaca:differentFrom-http://syriaca.org/person/761> .
+
+ rdf:about <http://syriaca.org/person/761> ;
+ dcterms:relation <http://syriaca.org/person/842> ;
+ snap:has-bond <http://syriaca.org/person/842#syriaca:differentFrom-http://syriaca.org/person/761> .
+
+ rdf:about <http://syriaca.org/person/761> ;
+ dcterms:relation <http://syriaca.org/person/1062> ;
+ snap:has-bond <http://syriaca.org/person/1062#syriaca:differentFrom-http://syriaca.org/person/761> .
+
+ rdf:about <#person-1084#syriaca:differentFrom-http://syriaca.org/person/761> ;
  syriaca:differentFrom <#person-1084> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/842#syriaca:differentFrom-http://syriaca.org/person/761> ;
  syriaca:differentFrom <http://syriaca.org/person/842> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/1062#syriaca:differentFrom-http://syriaca.org/person/761> ;
  syriaca:differentFrom <http://syriaca.org/person/1062> ;
  lawd:hasAttestation <http://syriaca.org/person/1084> .
 
+ rdf:about <http://syriaca.org/person/842> ;
+ dcterms:relation <#person-1084> ;
+ snap:has-bond <#person-1084#syriaca:differentFrom-http://syriaca.org/person/842> .
+
+ rdf:about <http://syriaca.org/person/842> ;
+ dcterms:relation <http://syriaca.org/person/761> ;
+ snap:has-bond <http://syriaca.org/person/761#syriaca:differentFrom-http://syriaca.org/person/842> .
+
+ rdf:about <http://syriaca.org/person/842> ;
+ dcterms:relation <http://syriaca.org/person/1062> ;
+ snap:has-bond <http://syriaca.org/person/1062#syriaca:differentFrom-http://syriaca.org/person/842> .
+
+ rdf:about <#person-1084#syriaca:differentFrom-http://syriaca.org/person/842> ;
  syriaca:differentFrom <#person-1084> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/761#syriaca:differentFrom-http://syriaca.org/person/842> ;
  syriaca:differentFrom <http://syriaca.org/person/761> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/1062#syriaca:differentFrom-http://syriaca.org/person/842> ;
  syriaca:differentFrom <http://syriaca.org/person/1062> ;
  lawd:hasAttestation <http://syriaca.org/person/1084> .
 
+ rdf:about <http://syriaca.org/person/1062> ;
+ dcterms:relation <#person-1084> ;
+ snap:has-bond <#person-1084#syriaca:differentFrom-http://syriaca.org/person/1062> .
+
+ rdf:about <http://syriaca.org/person/1062> ;
+ dcterms:relation <http://syriaca.org/person/761> ;
+ snap:has-bond <http://syriaca.org/person/761#syriaca:differentFrom-http://syriaca.org/person/1062> .
+
+ rdf:about <http://syriaca.org/person/1062> ;
+ dcterms:relation <http://syriaca.org/person/842> ;
+ snap:has-bond <http://syriaca.org/person/842#syriaca:differentFrom-http://syriaca.org/person/1062> .
+
+ rdf:about <#person-1084#syriaca:differentFrom-http://syriaca.org/person/1062> ;
  syriaca:differentFrom <#person-1084> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/761#syriaca:differentFrom-http://syriaca.org/person/1062> ;
  syriaca:differentFrom <http://syriaca.org/person/761> ;
- lawd:hasAttestation <http://syriaca.org/person/1084> ; 
+ lawd:hasAttestation <http://syriaca.org/person/1084> .
+
+ rdf:about <http://syriaca.org/person/842#syriaca:differentFrom-http://syriaca.org/person/1062> ;
  syriaca:differentFrom <http://syriaca.org/person/842> ;
  lawd:hasAttestation <http://syriaca.org/person/1084> .
 

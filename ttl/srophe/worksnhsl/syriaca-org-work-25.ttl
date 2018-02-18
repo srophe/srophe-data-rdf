@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/25> a lawd:conceptualWork ;
  rdfs:label "Lamentations (Peshitta version)"@en, "ܣܦܪܐ ܕܐܘ̈ܠܝܬܗ ܪܐܪܡܝܐ ܢܒܝܐ"@syr ;
@@ -72,96 +76,294 @@
  dcterms:relation <http://syriaca.org/work/25> ; 
  dcterms:relation <http://syriaca.org/work/9542> ; 
  dcterms:relation <http://syriaca.org/work/25> ; 
- dcterms:relation <http://syriaca.org/work/51> ;
- dcterms:relation <http://syriaca.org/work/25/html>, <http://syriaca.org/work/25/tei>, <http://syriaca.org/work/25/ttl> ;
+ dcterms:relation <http://syriaca.org/work/51> ; 
+ snap:has-bond <#bib25-7#dcterms:source-#bib25-1> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-1> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-2> ; 
+ snap:has-bond <#bib25-11#dcterms:source-#bib25-3> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-3> ; 
+ snap:has-bond <#bib25-6#dcterms:source-#bib25-4> ; 
+ snap:has-bond <#bib25-5#dcterms:source-#bib25-4> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-4> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-5> ; 
+ snap:has-bond <#bib25-7#dcterms:source-#bib25-6> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-6> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-7> ; 
+ snap:has-bond <#bib25-7#dcterms:source-#bib25-8> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-8> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-9> ; 
+ snap:has-bond <#bib25-11#dcterms:source-#bib25-10> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-10> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-11> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-15> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-16> ; 
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-17> ; 
+ snap:has-bond <#bib25-19#dcterms:source-#bib25-18> ; 
+ snap:has-bond <#bib25-19#lawd:hasCitation-http://syriaca.org/manuscript/1176> ; 
+ snap:has-bond <#bib25-21#dcterms:source-#bib25-20> ; 
+ snap:has-bond <#bib25-21#lawd:hasCitation-http://syriaca.org/manuscript/1153> ; 
+ snap:has-bond <#bib25-23#dcterms:source-#bib25-22> ; 
+ snap:has-bond <#bib25-23#lawd:hasCitation-http://syriaca.org/manuscript/1116> ; 
+ snap:has-bond <http://syriaca.org/work/9542#skos:broadMatch-http://syriaca.org/work/25> ; 
+ snap:has-bond <http://syriaca.org/work/51#dcterms:isPartOf-http://syriaca.org/work/25> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2335> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2363> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2438> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2439> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2384> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2380> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2346> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2381> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2443> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2420> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2432> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2387> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2442> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1176> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1153> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1116> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1176> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1153> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1116> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ dcterms:hasFormat <http://syriaca.org/work/25/html>, <http://syriaca.org/work/25/tei>, <http://syriaca.org/work/25/ttl>, <http://syriaca.org/work/25/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/25/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/25/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/25/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/25/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2363>, <http://syriaca.org/bibl/2438>, <http://syriaca.org/bibl/2439>, <http://cal1.cn.huc.edu/showsubtexts.php?subtext=62033&cset=USyriac>, <http://syriaca.org/bibl/2384>, <http://syriaca.org/bibl/2380>, <http://syriaca.org/bibl/2346>, <http://syriaca.org/bibl/2381>, <http://syriaca.org/bibl/2443>, <http://syriaca.org/bibl/2420>, <http://syriaca.org/bibl/2432>, <http://syriaca.org/bibl/2387>, <http://syriaca.org/bibl/2442>, <http://syriaca.org/manuscript/1176>, <http://syriaca.org/manuscript/1153>, <http://syriaca.org/manuscript/1116>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/1176#p1b2>, <http://syriaca.org/bibl/8>, <http://syriaca.org/manuscript/1153#c15>, <http://syriaca.org/manuscript/1116#b4> .
 
+ rdf:about <#bib25-1> ;
+ dcterms:relation <#bib25-7> ;
+ snap:has-bond <#bib25-7#dcterms:source-#bib25-1> .
+
+ rdf:about <#bib25-7#dcterms:source-#bib25-1> ;
  dcterms:source <#bib25-7> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-1> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-1> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-1> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-2> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-2> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-2> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-3> ;
+ dcterms:relation <#bib25-11> ;
+ snap:has-bond <#bib25-11#dcterms:source-#bib25-3> .
+
+ rdf:about <#bib25-11#dcterms:source-#bib25-3> ;
  dcterms:source <#bib25-11> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-3> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-3> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-3> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-4> ;
+ dcterms:relation <#bib25-6> ;
+ snap:has-bond <#bib25-6#dcterms:source-#bib25-4> .
+
+ rdf:about <#bib25-4> ;
+ dcterms:relation <#bib25-5> ;
+ snap:has-bond <#bib25-5#dcterms:source-#bib25-4> .
+
+ rdf:about <#bib25-6#dcterms:source-#bib25-4> ;
  dcterms:source <#bib25-6> ;
- lawd:hasAttestation <http://syriaca.org/work/25> ;
+ lawd:hasAttestation <http://syriaca.org/work/25> .
+
+ rdf:about <#bib25-5#dcterms:source-#bib25-4> ;
  dcterms:source <#bib25-5> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-4> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-4> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-4> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-5> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-5> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-5> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-6> ;
+ dcterms:relation <#bib25-7> ;
+ snap:has-bond <#bib25-7#dcterms:source-#bib25-6> .
+
+ rdf:about <#bib25-7#dcterms:source-#bib25-6> ;
  dcterms:source <#bib25-7> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-6> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-6> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-6> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-7> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-7> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-7> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-8> ;
+ dcterms:relation <#bib25-7> ;
+ snap:has-bond <#bib25-7#dcterms:source-#bib25-8> .
+
+ rdf:about <#bib25-7#dcterms:source-#bib25-8> ;
  dcterms:source <#bib25-7> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-8> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-8> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-8> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-9> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-9> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-9> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-10> ;
+ dcterms:relation <#bib25-11> ;
+ snap:has-bond <#bib25-11#dcterms:source-#bib25-10> .
+
+ rdf:about <#bib25-11#dcterms:source-#bib25-10> ;
  dcterms:source <#bib25-11> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-10> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-10> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-10> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-11> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-11> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-11> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-15> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-15> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-15> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-16> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-16> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-16> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-17> ;
+ dcterms:relation <http://syriaca.org/work/25> ;
+ snap:has-bond <http://syriaca.org/work/25#lawd:embodies-#bib25-17> .
+
+ rdf:about <http://syriaca.org/work/25#lawd:embodies-#bib25-17> ;
  lawd:embodies <http://syriaca.org/work/25> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-18> ;
+ dcterms:relation <#bib25-19> ;
+ snap:has-bond <#bib25-19#dcterms:source-#bib25-18> .
+
+ rdf:about <#bib25-19#dcterms:source-#bib25-18> ;
  dcterms:source <#bib25-19> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <http://syriaca.org/manuscript/1176> ;
+ dcterms:relation <#bib25-19> ;
+ snap:has-bond <#bib25-19#lawd:hasCitation-http://syriaca.org/manuscript/1176> .
+
+ rdf:about <#bib25-19#lawd:hasCitation-http://syriaca.org/manuscript/1176> ;
  lawd:hasCitation <#bib25-19> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-20> ;
+ dcterms:relation <#bib25-21> ;
+ snap:has-bond <#bib25-21#dcterms:source-#bib25-20> .
+
+ rdf:about <#bib25-21#dcterms:source-#bib25-20> ;
  dcterms:source <#bib25-21> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <http://syriaca.org/manuscript/1153> ;
+ dcterms:relation <#bib25-21> ;
+ snap:has-bond <#bib25-21#lawd:hasCitation-http://syriaca.org/manuscript/1153> .
+
+ rdf:about <#bib25-21#lawd:hasCitation-http://syriaca.org/manuscript/1153> ;
  lawd:hasCitation <#bib25-21> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <#bib25-22> ;
+ dcterms:relation <#bib25-23> ;
+ snap:has-bond <#bib25-23#dcterms:source-#bib25-22> .
+
+ rdf:about <#bib25-23#dcterms:source-#bib25-22> ;
  dcterms:source <#bib25-23> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <http://syriaca.org/manuscript/1116> ;
+ dcterms:relation <#bib25-23> ;
+ snap:has-bond <#bib25-23#lawd:hasCitation-http://syriaca.org/manuscript/1116> .
+
+ rdf:about <#bib25-23#lawd:hasCitation-http://syriaca.org/manuscript/1116> ;
  lawd:hasCitation <#bib25-23> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <http://syriaca.org/work/25> ;
+ dcterms:relation <http://syriaca.org/work/9542> ;
+ snap:has-bond <http://syriaca.org/work/9542#skos:broadMatch-http://syriaca.org/work/25> .
+
+ rdf:about <http://syriaca.org/work/9542#skos:broadMatch-http://syriaca.org/work/25> ;
  skos:broadMatch <http://syriaca.org/work/9542> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 
+ rdf:about <http://syriaca.org/work/25> ;
+ dcterms:relation <http://syriaca.org/work/51> ;
+ snap:has-bond <http://syriaca.org/work/51#dcterms:isPartOf-http://syriaca.org/work/25> .
+
+ rdf:about <http://syriaca.org/work/51#dcterms:isPartOf-http://syriaca.org/work/25> ;
  dcterms:isPartOf <http://syriaca.org/work/51> ;
  lawd:hasAttestation <http://syriaca.org/work/25> .
 

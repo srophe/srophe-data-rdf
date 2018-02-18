@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/spear/119-147> a syriaca:eventFactoid ;
  rdfs:label "In March A. D. 364 February A. D. 364 Shebāṭ A. Gr. 675 Valens became King of Rome . The author mistakenly asserts that Valens became emperor the same month as Valentinian." ;
@@ -19,27 +23,22 @@
  schema:location <http://syriaca.org/place/166> ; 
  dcterms:date "0364-03" ; 
  dcterms:date "0364-02" ;
+ dcterms:isPartOf <http://syriaca.org/spear/119> ;
  dcterms:isPartOf <http://syriaca.org/spear> ;
- dcterms:relation <http://syriaca.org/spear/119-147/html>, <http://syriaca.org/spear/119-147/tei>, <http://syriaca.org/spear/119-147/ttl> ;
+ time:hasDateTimeDescription [
+ skos:prefLabel "March A. D. 364" ;
+ time:year "0364-03"^^xsd:gYearMonth ;];
+ time:hasDateTimeDescription [
+ skos:prefLabel "February A. D. 364" ;
+ time:year "0364-02"^^xsd:gYearMonth ;];
+ time:hasDateTimeDescription [
+ skos:prefLabel "Shebāṭ A. Gr. 675" ;];
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" ;
+ lawd:hasCitation <http://syriaca.org/bibl/633> ;
+ lawd:hasAttestation <urn:cts:syriacLit:nhsl8559.syriacCorpus57:5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/657> ;
+ dcterms:hasFormat <http://syriaca.org/spear/119-147/html>, <http://syriaca.org/spear/119-147/tei>, <http://syriaca.org/spear/119-147/ttl>, <http://syriaca.org/spear/119-147/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/spear/119-147/html> ;
  foaf:primaryTopicOf <http://syriaca.org/spear/119-147/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/spear/119-147/ttl> .
-
-<http://syriaca.org/spear/119-147/html> a rdfs:Resource; ;
- dcterms:title "In March A. D. 364 February A. D. 364 Shebāṭ A. Gr. 675 Valens became King of Rome . The author mistakenly asserts that Valens became emperor the same month as Valentinian." ;
- dcterms:subject <http://syriaca.org/spear/119-147> ;
- dcterms:format "text/html" ;
- dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
-
-<http://syriaca.org/spear/119-147/tei> a rdfs:Resource; ;
- dcterms:title "In March A. D. 364 February A. D. 364 Shebāṭ A. Gr. 675 Valens became King of Rome . The author mistakenly asserts that Valens became emperor the same month as Valentinian." ;
- dcterms:subject <http://syriaca.org/spear/119-147> ;
- dcterms:format "text/xml" ;
- dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
-
-<http://syriaca.org/spear/119-147/ttl> a rdfs:Resource; ;
- dcterms:title "In March A. D. 364 February A. D. 364 Shebāṭ A. Gr. 675 Valens became King of Rome . The author mistakenly asserts that Valens became emperor the same month as Valentinian." ;
- dcterms:subject <http://syriaca.org/spear/119-147> ;
- dcterms:subject <http://syriaca.org/spear/119-147> ;
- dcterms:format "text/turtle" ;
- dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-147/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-147/rdf> .

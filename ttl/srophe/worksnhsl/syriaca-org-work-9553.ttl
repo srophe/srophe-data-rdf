@@ -1,28 +1,39 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/9553> a  ;
  rdfs:label "Haggai (literary tradition)"@en, "ܣܦܪܐ ܕܚܓܝ ܢܒܝܐ"@syr ;
  skos:closeMatch <https://en.wikipedia.org/wiki/Book_of_Haggai>, <https://www.wikidata.org/wiki/Q178338>, <https://viaf.org/viaf/185495533>, <https://viaf.org/viaf/182230336> ; 
  dcterms:relation <https://en.wikipedia.org/wiki/Book_of_Haggai>, <https://www.wikidata.org/wiki/Q178338>, <https://viaf.org/viaf/185495533>, <https://viaf.org/viaf/182230336> ;
  dcterms:relation <http://syriaca.org/work/9553> ; 
- dcterms:relation <http://syriaca.org/work/9567> ;
- dcterms:relation <http://syriaca.org/work/9553/html>, <http://syriaca.org/work/9553/tei>, <http://syriaca.org/work/9553/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9567> ; 
+ snap:has-bond <http://syriaca.org/work/9567#dcterms:isPartOf-http://syriaca.org/work/9553> ;
+ dcterms:hasFormat <http://syriaca.org/work/9553/html>, <http://syriaca.org/work/9553/tei>, <http://syriaca.org/work/9553/ttl>, <http://syriaca.org/work/9553/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9553/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9553/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/work/9553/ttl> .
+ foaf:primaryTopicOf <http://syriaca.org/work/9553/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9553/rdf> .
 
+ rdf:about <http://syriaca.org/work/9553> ;
+ dcterms:relation <http://syriaca.org/work/9567> ;
+ snap:has-bond <http://syriaca.org/work/9567#dcterms:isPartOf-http://syriaca.org/work/9553> .
+
+ rdf:about <http://syriaca.org/work/9567#dcterms:isPartOf-http://syriaca.org/work/9553> ;
  dcterms:isPartOf <http://syriaca.org/work/9567> ;
  lawd:hasAttestation <http://syriaca.org/work/9553> .
 

@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/173> a lawd:conceptualWork ;
  rdfs:label "Numbers (LXX/Septuagint version)"@en ;
@@ -21,22 +25,50 @@
  dcterms:relation <http://syriaca.org/manuscript/98> ; 
  dcterms:relation <#bib173-2> ; 
  dcterms:relation <http://syriaca.org/work/173> ; 
- dcterms:relation <http://syriaca.org/work/9652> ;
- dcterms:relation <http://syriaca.org/work/173/html>, <http://syriaca.org/work/173/tei>, <http://syriaca.org/work/173/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9652> ; 
+ snap:has-bond <http://syriaca.org/work/173#lawd:embodies-#bib173-3> ; 
+ snap:has-bond <#bib173-2#dcterms:source-#bib173-1> ; 
+ snap:has-bond <#bib173-2#lawd:hasCitation-http://syriaca.org/manuscript/98> ; 
+ snap:has-bond <http://syriaca.org/work/9652#skos:broadMatch-http://syriaca.org/work/173> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/98> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/98> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ dcterms:hasFormat <http://syriaca.org/work/173/html>, <http://syriaca.org/work/173/tei>, <http://syriaca.org/work/173/ttl>, <http://syriaca.org/work/173/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/173/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/173/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/173/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/173/rdf> ;
  dcterms:relation <http://syriaca.org/person/82>, <http://syriaca.org/manuscript/98>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/98#p1a1>, <http://syriaca.org/bibl/8> .
 
+ rdf:about <#bib173-3> ;
+ dcterms:relation <http://syriaca.org/work/173> ;
+ snap:has-bond <http://syriaca.org/work/173#lawd:embodies-#bib173-3> .
+
+ rdf:about <http://syriaca.org/work/173#lawd:embodies-#bib173-3> ;
  lawd:embodies <http://syriaca.org/work/173> ;
  lawd:hasAttestation <http://syriaca.org/work/173> .
 
+ rdf:about <#bib173-1> ;
+ dcterms:relation <#bib173-2> ;
+ snap:has-bond <#bib173-2#dcterms:source-#bib173-1> .
+
+ rdf:about <#bib173-2#dcterms:source-#bib173-1> ;
  dcterms:source <#bib173-2> ;
  lawd:hasAttestation <http://syriaca.org/work/173> .
 
+ rdf:about <http://syriaca.org/manuscript/98> ;
+ dcterms:relation <#bib173-2> ;
+ snap:has-bond <#bib173-2#lawd:hasCitation-http://syriaca.org/manuscript/98> .
+
+ rdf:about <#bib173-2#lawd:hasCitation-http://syriaca.org/manuscript/98> ;
  lawd:hasCitation <#bib173-2> ;
  lawd:hasAttestation <http://syriaca.org/work/173> .
 
+ rdf:about <http://syriaca.org/work/173> ;
+ dcterms:relation <http://syriaca.org/work/9652> ;
+ snap:has-bond <http://syriaca.org/work/9652#skos:broadMatch-http://syriaca.org/work/173> .
+
+ rdf:about <http://syriaca.org/work/9652#skos:broadMatch-http://syriaca.org/work/173> ;
  skos:broadMatch <http://syriaca.org/work/9652> ;
  lawd:hasAttestation <http://syriaca.org/work/173> .
 

@@ -1,31 +1,48 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/keyword/syriac-influence-china> a  ;
  rdfs:label "Syriac influence [China]"@en ;
  dcterms:relation <http://syriaca.org/keyword/syriac-influence-china> ; 
  dcterms:relation <http://syriaca.org/keyword/culture> ; 
  dcterms:relation <http://syriaca.org/keyword/syriac-influence-china> ; 
- dcterms:relation <http://syriaca.org/keyword/intertextuality> ;
- dcterms:relation <http://syriaca.org/keyword/syriac-influence-china/html>, <http://syriaca.org/keyword/syriac-influence-china/tei>, <http://syriaca.org/keyword/syriac-influence-china/ttl> ;
+ dcterms:relation <http://syriaca.org/keyword/intertextuality> ; 
+ snap:has-bond <http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china> ; 
+ snap:has-bond <http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china> ;
+ dcterms:hasFormat <http://syriaca.org/keyword/syriac-influence-china/html>, <http://syriaca.org/keyword/syriac-influence-china/tei>, <http://syriaca.org/keyword/syriac-influence-china/ttl>, <http://syriaca.org/keyword/syriac-influence-china/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/syriac-influence-china/html> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/syriac-influence-china/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/keyword/syriac-influence-china/ttl> .
+ foaf:primaryTopicOf <http://syriaca.org/keyword/syriac-influence-china/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/syriac-influence-china/rdf> .
 
+ rdf:about <http://syriaca.org/keyword/syriac-influence-china> ;
+ dcterms:relation <http://syriaca.org/keyword/culture> ;
+ snap:has-bond <http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china> .
+
+ rdf:about <http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china> ;
  skos:broadMatch <http://syriaca.org/keyword/culture> ;
  lawd:hasAttestation <http://syriaca.org/keyword/syriac-influence-china> .
 
+ rdf:about <http://syriaca.org/keyword/syriac-influence-china> ;
+ dcterms:relation <http://syriaca.org/keyword/intertextuality> ;
+ snap:has-bond <http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china> .
+
+ rdf:about <http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china> ;
  skos:broadMatch <http://syriaca.org/keyword/intertextuality> ;
  lawd:hasAttestation <http://syriaca.org/keyword/syriac-influence-china> .
 

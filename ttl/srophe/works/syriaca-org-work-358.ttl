@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/358> a lawd:conceptualWork ;
  rdfs:label "ܐܘܦܪܘܣܝܢܝ ܐܙܡܪܓܕܘܣ"@syr, "Euphrosyne (text)"@en ;
@@ -31,37 +35,95 @@
  dcterms:relation <#bib358-9> ; 
  dcterms:relation <http://syriaca.org/work/358> ; 
  dcterms:relation <http://syriaca.org/work/358> ; 
- dcterms:relation <http://syriaca.org/person/1721> ;
- dcterms:relation <http://syriaca.org/work/358/html>, <http://syriaca.org/work/358/tei>, <http://syriaca.org/work/358/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1721> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-2> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-3> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-4> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-5> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-6> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-7> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-8> ; 
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-9> ; 
+ snap:has-bond <http://syriaca.org/person/1721#syriaca:commemorated-http://syriaca.org/work/358> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1697> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2010> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ dcterms:hasFormat <http://syriaca.org/work/358/html>, <http://syriaca.org/work/358/tei>, <http://syriaca.org/work/358/ttl>, <http://syriaca.org/work/358/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/358/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/358/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/358/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/358/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/2010>, <http://syriaca.org/bibl/649> .
 
+ rdf:about <#bib358-2> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-2> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-2> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-3> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-3> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-3> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-4> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-4> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-4> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-5> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-5> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-5> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-6> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-6> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-6> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-7> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-7> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-7> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-8> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-8> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-8> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <#bib358-9> ;
+ dcterms:relation <http://syriaca.org/work/358> ;
+ snap:has-bond <http://syriaca.org/work/358#lawd:embodies-#bib358-9> .
+
+ rdf:about <http://syriaca.org/work/358#lawd:embodies-#bib358-9> ;
  lawd:embodies <http://syriaca.org/work/358> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 
+ rdf:about <http://syriaca.org/work/358> ;
+ dcterms:relation <http://syriaca.org/person/1721> ;
+ snap:has-bond <http://syriaca.org/person/1721#syriaca:commemorated-http://syriaca.org/work/358> .
+
+ rdf:about <http://syriaca.org/person/1721#syriaca:commemorated-http://syriaca.org/work/358> ;
  syriaca:commemorated <http://syriaca.org/person/1721> ;
  lawd:hasAttestation <http://syriaca.org/work/358> .
 

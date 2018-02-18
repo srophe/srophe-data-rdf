@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/577> a lawd:Person ;
  rdfs:label "Josephus , Flavius"@en, "ܝܘܣܝܦܘܣ"@syr ;
@@ -42,16 +46,36 @@
  skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_577>, <http://viaf.org/viaf/22143666>, <http://worldcat.org/identities/lccn-n80-15583>, <http://viaf.org/viaf/245316972>, <http://viaf.org/viaf/243576331>, <http://viaf.org/viaf/207396788>, <http://viaf.org/viaf/192452322>, <http://viaf.org/viaf/97071375>, <http://viaf.org/viaf/89641805>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Josephus&sT=keywords> ; 
  dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_577>, <http://viaf.org/viaf/22143666>, <http://worldcat.org/identities/lccn-n80-15583>, <http://viaf.org/viaf/245316972>, <http://viaf.org/viaf/243576331>, <http://viaf.org/viaf/207396788>, <http://viaf.org/viaf/192452322>, <http://viaf.org/viaf/97071375>, <http://viaf.org/viaf/89641805>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Josephus&sT=keywords> ;
  dcterms:relation <#person-577> ; 
- dcterms:relation <http://syriaca.org/person/322> ;
- dcterms:relation <http://syriaca.org/person/577/html>, <http://syriaca.org/person/577/tei>, <http://syriaca.org/person/577/ttl> ;
+ dcterms:relation <http://syriaca.org/person/322> ; 
+ snap:has-bond <http://syriaca.org/person/322#syriaca:differentFrom-#person-577> ; 
+ snap:has-bond <#person-577#syriaca:differentFrom-http://syriaca.org/person/322> ;
+ lawd:hasCitation <http://syriaca.org/bibl/317> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/6> ;
+ lawd:hasCitation <http://syriaca.org/bibl/7> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ dcterms:hasFormat <http://syriaca.org/person/577/html>, <http://syriaca.org/person/577/tei>, <http://syriaca.org/person/577/ttl>, <http://syriaca.org/person/577/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/577/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/577/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/577/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/577/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/317>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/6>, <http://syriaca.org/bibl/7>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Josephus&sT=keywords> .
 
+ rdf:about <#person-577> ;
+ dcterms:relation <http://syriaca.org/person/322> ;
+ snap:has-bond <http://syriaca.org/person/322#syriaca:differentFrom-#person-577> .
+
+ rdf:about <http://syriaca.org/person/322#syriaca:differentFrom-#person-577> ;
  syriaca:differentFrom <http://syriaca.org/person/322> ;
  lawd:hasAttestation <http://syriaca.org/person/577> .
 
+ rdf:about <http://syriaca.org/person/322> ;
+ dcterms:relation <#person-577> ;
+ snap:has-bond <#person-577#syriaca:differentFrom-http://syriaca.org/person/322> .
+
+ rdf:about <#person-577#syriaca:differentFrom-http://syriaca.org/person/322> ;
  syriaca:differentFrom <#person-577> ;
  lawd:hasAttestation <http://syriaca.org/person/577> .
 

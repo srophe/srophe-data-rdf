@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/work/206">
         <rdf:type rdf:resource=""/>
         <rdfs:label xml:lang="en">Luke, Arabic (literary tradition)</rdfs:label>
@@ -22,36 +22,63 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9648"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/206"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/206#lawd:embodies-#bib206-3"/>
+        <snap:has-bond rdf:resource="#bib206-2#dcterms:source-#bib206-1"/>
+        <snap:has-bond rdf:resource="#bib206-2#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/206"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/196#dcterms:isPartOf-http://syriaca.org/work/206"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/206/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/206/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/206/ttl"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/work/206"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/work/9648"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1112"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1112"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/8"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/206/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/206/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/206/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/206/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/rdf"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib206-3">
         <dcterms:relation rdf:resource="http://syriaca.org/work/206"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/206#lawd:embodies-#bib206-3"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/206#lawd:embodies-#bib206-3">
         <lawd:embodies rdf:resource="http://syriaca.org/work/206"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib206-1">
         <dcterms:relation rdf:resource="#bib206-2"/>
+        <snap:has-bond rdf:resource="#bib206-2#dcterms:source-#bib206-1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib206-2#dcterms:source-#bib206-1">
         <dcterms:source rdf:resource="#bib206-2"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/manuscript/1112">
         <dcterms:relation rdf:resource="#bib206-2"/>
+        <snap:has-bond rdf:resource="#bib206-2#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="#bib206-2#lawd:hasCitation-http://syriaca.org/manuscript/1112">
         <lawd:hasCitation rdf:resource="#bib206-2"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/work/206">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9648"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/206"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/206">
         <skos:broadMatch rdf:resource="http://syriaca.org/work/9648"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/work/206">
         <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/196#dcterms:isPartOf-http://syriaca.org/work/206"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/196#dcterms:isPartOf-http://syriaca.org/work/206">
         <dcterms:isPartOf rdf:resource="http://syriaca.org/work/196"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
     </rdf:Description>

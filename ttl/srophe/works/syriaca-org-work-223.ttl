@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/223> a lawd:conceptualWork ;
  rdfs:label "ܦܘܠܘܣ"@syr, "Paul the Apostle (text)"@en ;
@@ -25,28 +29,71 @@
  dcterms:relation <#bib223-9> ; 
  dcterms:relation <http://syriaca.org/work/223> ; 
  dcterms:relation <http://syriaca.org/work/223> ; 
- dcterms:relation <http://syriaca.org/person/1983> ;
- dcterms:relation <http://syriaca.org/work/223/html>, <http://syriaca.org/work/223/tei>, <http://syriaca.org/work/223/ttl> ;
+ dcterms:relation <http://syriaca.org/person/1983> ; 
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-5> ; 
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-6> ; 
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-7> ; 
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-8> ; 
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-9> ; 
+ snap:has-bond <http://syriaca.org/person/1983#syriaca:commemorated-http://syriaca.org/work/223> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1697> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1963> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/752> ;
+ lawd:hasCitation <http://syriaca.org/bibl/753> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1034> ;
+ dcterms:hasFormat <http://syriaca.org/work/223/html>, <http://syriaca.org/work/223/tei>, <http://syriaca.org/work/223/ttl>, <http://syriaca.org/work/223/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/223/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/223/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/223/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/223/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/1697>, <http://syriaca.org/bibl/1963>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/752>, <http://syriaca.org/bibl/753>, <http://syriaca.org/bibl/1034> .
 
+ rdf:about <#bib223-5> ;
+ dcterms:relation <http://syriaca.org/work/223> ;
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-5> .
+
+ rdf:about <http://syriaca.org/work/223#lawd:embodies-#bib223-5> ;
  lawd:embodies <http://syriaca.org/work/223> ;
  lawd:hasAttestation <http://syriaca.org/work/223> .
 
+ rdf:about <#bib223-6> ;
+ dcterms:relation <http://syriaca.org/work/223> ;
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-6> .
+
+ rdf:about <http://syriaca.org/work/223#lawd:embodies-#bib223-6> ;
  lawd:embodies <http://syriaca.org/work/223> ;
  lawd:hasAttestation <http://syriaca.org/work/223> .
 
+ rdf:about <#bib223-7> ;
+ dcterms:relation <http://syriaca.org/work/223> ;
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-7> .
+
+ rdf:about <http://syriaca.org/work/223#lawd:embodies-#bib223-7> ;
  lawd:embodies <http://syriaca.org/work/223> ;
  lawd:hasAttestation <http://syriaca.org/work/223> .
 
+ rdf:about <#bib223-8> ;
+ dcterms:relation <http://syriaca.org/work/223> ;
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-8> .
+
+ rdf:about <http://syriaca.org/work/223#lawd:embodies-#bib223-8> ;
  lawd:embodies <http://syriaca.org/work/223> ;
  lawd:hasAttestation <http://syriaca.org/work/223> .
 
+ rdf:about <#bib223-9> ;
+ dcterms:relation <http://syriaca.org/work/223> ;
+ snap:has-bond <http://syriaca.org/work/223#lawd:embodies-#bib223-9> .
+
+ rdf:about <http://syriaca.org/work/223#lawd:embodies-#bib223-9> ;
  lawd:embodies <http://syriaca.org/work/223> ;
  lawd:hasAttestation <http://syriaca.org/work/223> .
 
+ rdf:about <http://syriaca.org/work/223> ;
+ dcterms:relation <http://syriaca.org/person/1983> ;
+ snap:has-bond <http://syriaca.org/person/1983#syriaca:commemorated-http://syriaca.org/work/223> .
+
+ rdf:about <http://syriaca.org/person/1983#syriaca:commemorated-http://syriaca.org/work/223> ;
  syriaca:commemorated <http://syriaca.org/person/1983> ;
  lawd:hasAttestation <http://syriaca.org/work/223> .
 

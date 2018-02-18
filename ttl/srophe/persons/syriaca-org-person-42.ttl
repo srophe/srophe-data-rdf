@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/42> a lawd:Person ;
  rdfs:label "ܝܥܩܘܒ ܕܣܪܘܓ"@syr, "Jacob of Serugh"@en ;
@@ -100,41 +104,155 @@
  dcterms:relation <http://syriaca.org/place/67> ; 
  dcterms:relation <http://syriaca.org/person/42> ; 
  dcterms:relation <http://syriaca.org/place/78> ; 
- dcterms:relation <http://syriaca.org/place/1456> ;
- dcterms:relation <http://syriaca.org/person/42/html>, <http://syriaca.org/person/42/tei>, <http://syriaca.org/person/42/ttl> ;
+ dcterms:relation <http://syriaca.org/place/1456> ; 
+ snap:has-bond <http://syriaca.org/place/450#syriaca:bornAt-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/18#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/285#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/368#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/343#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/464#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/320#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/1457#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/398#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/8#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/67#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/78#syriaca:hasRelationToPlace-http://syriaca.org/person/42> ; 
+ snap:has-bond <http://syriaca.org/place/1456#syriaca:hasRelationToPlace-http://syriaca.org/person/42> ;
+ lawd:hasCitation <http://syriaca.org/bibl/593> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/650> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1767> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1314> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1386> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1426> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/641> ;
+ lawd:hasCitation <http://syriaca.org/bibl/709> ;
+ lawd:hasCitation <http://syriaca.org/bibl/640> ;
+ lawd:hasCitation <http://syriaca.org/bibl/639> ;
+ lawd:hasCitation <http://syriaca.org/bibl/645> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2499> ;
+ dcterms:hasFormat <http://syriaca.org/person/42/html>, <http://syriaca.org/person/42/tei>, <http://syriaca.org/person/42/ttl>, <http://syriaca.org/person/42/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/42/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/42/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/42/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/42/rdf> ;
  dcterms:relation <http://syriaca.org/place/48>, <http://syriaca.org/place/45>, <http://syriaca.org/place/78>, <http://syriaca.org/place/8>, <http://syriaca.org/person/42>, <http://syriaca.org/work/980>, <http://syriaca.org/work/981>, <http://syriaca.org/work/1056>, <http://syriaca.org/work/1074>, <http://syriaca.org/work/1075>, <http://syriaca.org/work/1345>, <http://syriaca.org/work/1815>, <http://syriaca.org/work/2015>, <http://syriaca.org/work/2055>, <http://syriaca.org/bibl/593>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Sarug&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1767>, <http://syriaca.org/bibl/1314>, <http://syriaca.org/bibl/1386>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/641>, <http://syriaca.org/bibl/709>, <http://syriaca.org/bibl/640>, <http://syriaca.org/bibl/639>, <http://syriaca.org/bibl/645>, <http://syriaca.org/bibl/2499> .
 
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/450> ;
+ snap:has-bond <http://syriaca.org/place/450#syriaca:bornAt-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/450#syriaca:bornAt-http://syriaca.org/person/42> ;
  syriaca:bornAt <http://syriaca.org/place/450> ;
  lawd:hasAttestation <http://syriaca.org/person/42> .
 
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/18> ;
+ snap:has-bond <http://syriaca.org/place/18#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/285> ;
+ snap:has-bond <http://syriaca.org/place/285#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/368> ;
+ snap:has-bond <http://syriaca.org/place/368#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/343> ;
+ snap:has-bond <http://syriaca.org/place/343#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/464> ;
+ snap:has-bond <http://syriaca.org/place/464#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/320> ;
+ snap:has-bond <http://syriaca.org/place/320#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/1457> ;
+ snap:has-bond <http://syriaca.org/place/1457#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/398> ;
+ snap:has-bond <http://syriaca.org/place/398#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/8> ;
+ snap:has-bond <http://syriaca.org/place/8#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/78> ;
+ snap:has-bond <http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/67> ;
+ snap:has-bond <http://syriaca.org/place/67#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/18#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/18> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/285#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/285> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/368#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/368> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/343#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/343> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/464#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/464> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/320#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/320> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/1457#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/1457> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/398#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/398> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/8#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/8> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/78> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/67#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/42> ;
  syriaca:hasLiteraryConnectionToPlace <http://syriaca.org/place/67> ;
  lawd:hasAttestation <http://syriaca.org/person/42> .
 
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/78> ;
+ snap:has-bond <http://syriaca.org/place/78#syriaca:hasRelationToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/person/42> ;
+ dcterms:relation <http://syriaca.org/place/1456> ;
+ snap:has-bond <http://syriaca.org/place/1456#syriaca:hasRelationToPlace-http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/78#syriaca:hasRelationToPlace-http://syriaca.org/person/42> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/78> ;
- lawd:hasAttestation <http://syriaca.org/person/42> ;
+ lawd:hasAttestation <http://syriaca.org/person/42> .
+
+ rdf:about <http://syriaca.org/place/1456#syriaca:hasRelationToPlace-http://syriaca.org/person/42> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/1456> ;
  lawd:hasAttestation <http://syriaca.org/person/42> .
 

@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/897> a lawd:conceptualWork ;
  rdfs:label "ܣܒܪܝܫܘܥ"@syr, "Sabrisho I (text)"@en ;
@@ -23,25 +27,59 @@
  dcterms:relation <http://syriaca.org/work/897> ; 
  dcterms:relation <http://syriaca.org/person/708> ; 
  dcterms:relation <http://syriaca.org/work/897> ; 
- dcterms:relation <http://syriaca.org/person/2819> ;
- dcterms:relation <http://syriaca.org/work/897/html>, <http://syriaca.org/work/897/tei>, <http://syriaca.org/work/897/ttl> ;
+ dcterms:relation <http://syriaca.org/person/2819> ; 
+ snap:has-bond <http://syriaca.org/work/897#lawd:embodies-#bib897-3> ; 
+ snap:has-bond <http://syriaca.org/work/897#lawd:embodies-#bib897-4> ; 
+ snap:has-bond <http://syriaca.org/work/897#lawd:embodies-#bib897-5> ; 
+ snap:has-bond <http://syriaca.org/person/708#syriaca:commemorated-http://syriaca.org/work/897> ; 
+ snap:has-bond <http://syriaca.org/person/2819#syriaca:commemorated-http://syriaca.org/work/897> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1698> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/783> ;
+ dcterms:hasFormat <http://syriaca.org/work/897/html>, <http://syriaca.org/work/897/tei>, <http://syriaca.org/work/897/ttl>, <http://syriaca.org/work/897/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/897/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/897/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/897/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/897/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/1698>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/783> .
 
+ rdf:about <#bib897-3> ;
+ dcterms:relation <http://syriaca.org/work/897> ;
+ snap:has-bond <http://syriaca.org/work/897#lawd:embodies-#bib897-3> .
+
+ rdf:about <http://syriaca.org/work/897#lawd:embodies-#bib897-3> ;
  lawd:embodies <http://syriaca.org/work/897> ;
  lawd:hasAttestation <http://syriaca.org/work/897> .
 
+ rdf:about <#bib897-4> ;
+ dcterms:relation <http://syriaca.org/work/897> ;
+ snap:has-bond <http://syriaca.org/work/897#lawd:embodies-#bib897-4> .
+
+ rdf:about <http://syriaca.org/work/897#lawd:embodies-#bib897-4> ;
  lawd:embodies <http://syriaca.org/work/897> ;
  lawd:hasAttestation <http://syriaca.org/work/897> .
 
+ rdf:about <#bib897-5> ;
+ dcterms:relation <http://syriaca.org/work/897> ;
+ snap:has-bond <http://syriaca.org/work/897#lawd:embodies-#bib897-5> .
+
+ rdf:about <http://syriaca.org/work/897#lawd:embodies-#bib897-5> ;
  lawd:embodies <http://syriaca.org/work/897> ;
  lawd:hasAttestation <http://syriaca.org/work/897> .
 
+ rdf:about <http://syriaca.org/work/897> ;
+ dcterms:relation <http://syriaca.org/person/708> ;
+ snap:has-bond <http://syriaca.org/person/708#syriaca:commemorated-http://syriaca.org/work/897> .
+
+ rdf:about <http://syriaca.org/person/708#syriaca:commemorated-http://syriaca.org/work/897> ;
  syriaca:commemorated <http://syriaca.org/person/708> ;
  lawd:hasAttestation <http://syriaca.org/work/897> .
 
+ rdf:about <http://syriaca.org/work/897> ;
+ dcterms:relation <http://syriaca.org/person/2819> ;
+ snap:has-bond <http://syriaca.org/person/2819#syriaca:commemorated-http://syriaca.org/work/897> .
+
+ rdf:about <http://syriaca.org/person/2819#syriaca:commemorated-http://syriaca.org/work/897> ;
  syriaca:commemorated <http://syriaca.org/person/2819> ;
  lawd:hasAttestation <http://syriaca.org/work/897> .
 

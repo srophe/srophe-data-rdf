@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/spear/119-464> a syriaca:eventFactoid ;
  rdfs:label "On 4 November A. D. 519 4 Teshri II A. Gr. 831 Patricius arrived in Edessa at the command of the Emperor Justin in order to urge Bishop Pawlā to receive the Council of Chalcedon or else be deposed." ;
@@ -22,27 +26,19 @@
  schema:location <http://syriaca.org/place/78> ; 
  schema:location <http://syriaca.org/place/622> ; 
  dcterms:date "0519-11-04" ;
+ dcterms:isPartOf <http://syriaca.org/spear/119> ;
  dcterms:isPartOf <http://syriaca.org/spear> ;
- dcterms:relation <http://syriaca.org/spear/119-464/html>, <http://syriaca.org/spear/119-464/tei>, <http://syriaca.org/spear/119-464/ttl> ;
+ time:hasDateTimeDescription [
+ skos:prefLabel "4 November A. D. 519" ;
+ time:year "0519-11-04"^^xsd:date ;];
+ time:hasDateTimeDescription [
+ skos:prefLabel "4 Teshri II A. Gr. 831" ;];
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" ;
+ lawd:hasCitation <http://syriaca.org/bibl/633> ;
+ lawd:hasAttestation <urn:cts:syriacLit:nhsl8559.syriacCorpus57:10> ;
+ lawd:hasCitation <http://syriaca.org/bibl/657> ;
+ dcterms:hasFormat <http://syriaca.org/spear/119-464/html>, <http://syriaca.org/spear/119-464/tei>, <http://syriaca.org/spear/119-464/ttl>, <http://syriaca.org/spear/119-464/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/spear/119-464/html> ;
  foaf:primaryTopicOf <http://syriaca.org/spear/119-464/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/spear/119-464/ttl> .
-
-<http://syriaca.org/spear/119-464/html> a rdfs:Resource; ;
- dcterms:title "On 4 November A. D. 519 4 Teshri II A. Gr. 831 Patricius arrived in Edessa at the command of the Emperor Justin in order to urge Bishop Pawlā to receive the Council of Chalcedon or else be deposed." ;
- dcterms:subject <http://syriaca.org/spear/119-464> ;
- dcterms:format "text/html" ;
- dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
-
-<http://syriaca.org/spear/119-464/tei> a rdfs:Resource; ;
- dcterms:title "On 4 November A. D. 519 4 Teshri II A. Gr. 831 Patricius arrived in Edessa at the command of the Emperor Justin in order to urge Bishop Pawlā to receive the Council of Chalcedon or else be deposed." ;
- dcterms:subject <http://syriaca.org/spear/119-464> ;
- dcterms:format "text/xml" ;
- dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
-
-<http://syriaca.org/spear/119-464/ttl> a rdfs:Resource; ;
- dcterms:title "On 4 November A. D. 519 4 Teshri II A. Gr. 831 Patricius arrived in Edessa at the command of the Emperor Justin in order to urge Bishop Pawlā to receive the Council of Chalcedon or else be deposed." ;
- dcterms:subject <http://syriaca.org/spear/119-464> ;
- dcterms:subject <http://syriaca.org/spear/119-464> ;
- dcterms:format "text/turtle" ;
- dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), Chronicle of Edessa in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119" .
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-464/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/spear/119-464/rdf> .

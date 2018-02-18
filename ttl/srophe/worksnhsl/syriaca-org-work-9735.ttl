@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/9735> a lawd:conceptualWork ;
  rdfs:label "De alimentorum facultatibus libri III"@en, "Περὶ τροφῶν δυνάμεως λόγοι γ’"@grc ;
@@ -27,28 +31,69 @@
  dcterms:relation <#bib9735-4> ; 
  dcterms:relation <http://syriaca.org/work/9735> ; 
  dcterms:relation <#bib9735-5> ; 
- dcterms:relation <http://syriaca.org/work/9735> ;
- dcterms:relation <http://syriaca.org/work/9735/html>, <http://syriaca.org/work/9735/tei>, <http://syriaca.org/work/9735/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9735> ; 
+ snap:has-bond <#bib9735-#dcterms:source-#bib9735-1> ; 
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-1> ; 
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-2> ; 
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-3> ; 
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-4> ; 
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2506> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2509> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2510> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2508> ;
+ dcterms:hasFormat <http://syriaca.org/work/9735/html>, <http://syriaca.org/work/9735/tei>, <http://syriaca.org/work/9735/ttl>, <http://syriaca.org/work/9735/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9735/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9735/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9735/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9735/rdf> ;
  dcterms:relation <http://syriaca.org/person/496>, <http://syriaca.org/person/49>, <http://syriaca.org/bibl/2506>, <http://syriaca.org/bibl/2509>, <http://syriaca.org/bibl/2510>, <http://syriaca.org/bibl/2508> .
 
+ rdf:about <#bib9735-1> ;
+ dcterms:relation <#bib9735-> ;
+ snap:has-bond <#bib9735-#dcterms:source-#bib9735-1> .
+
+ rdf:about <#bib9735-#dcterms:source-#bib9735-1> ;
  dcterms:source <#bib9735-> ;
  lawd:hasAttestation <http://syriaca.org/work/9735> .
 
+ rdf:about <#bib9735-1> ;
+ dcterms:relation <http://syriaca.org/work/9735> ;
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-1> .
+
+ rdf:about <http://syriaca.org/work/9735#lawd:embodies-#bib9735-1> ;
  lawd:embodies <http://syriaca.org/work/9735> ;
  lawd:hasAttestation <http://syriaca.org/work/9735> .
 
+ rdf:about <#bib9735-2> ;
+ dcterms:relation <http://syriaca.org/work/9735> ;
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-2> .
+
+ rdf:about <http://syriaca.org/work/9735#lawd:embodies-#bib9735-2> ;
  lawd:embodies <http://syriaca.org/work/9735> ;
  lawd:hasAttestation <http://syriaca.org/work/9735> .
 
+ rdf:about <#bib9735-3> ;
+ dcterms:relation <http://syriaca.org/work/9735> ;
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-3> .
+
+ rdf:about <http://syriaca.org/work/9735#lawd:embodies-#bib9735-3> ;
  lawd:embodies <http://syriaca.org/work/9735> ;
  lawd:hasAttestation <http://syriaca.org/work/9735> .
 
+ rdf:about <#bib9735-4> ;
+ dcterms:relation <http://syriaca.org/work/9735> ;
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-4> .
+
+ rdf:about <http://syriaca.org/work/9735#lawd:embodies-#bib9735-4> ;
  lawd:embodies <http://syriaca.org/work/9735> ;
  lawd:hasAttestation <http://syriaca.org/work/9735> .
 
+ rdf:about <#bib9735-5> ;
+ dcterms:relation <http://syriaca.org/work/9735> ;
+ snap:has-bond <http://syriaca.org/work/9735#lawd:embodies-#bib9735-5> .
+
+ rdf:about <http://syriaca.org/work/9735#lawd:embodies-#bib9735-5> ;
  lawd:embodies <http://syriaca.org/work/9735> ;
  lawd:hasAttestation <http://syriaca.org/work/9735> .
 
@@ -57,14 +102,14 @@
  dcterms:subject <http://syriaca.org/work/9735> ;
  dcterms:source <http://syriaca.org/bibl/2506>, <http://syriaca.org/bibl/2509>, <http://syriaca.org/bibl/2510>, <http://syriaca.org/bibl/2508> ;
  dcterms:format "text/html" ;
- dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), The Four Gospels (Peshitta version) — ܛܛܪܐܘܢܓܠܝܘܢDe alimentorum facultatibus libri III in last modified December 16, 2016November 9, 2017, http://syriaca.org/work/71" .
+ dcterms:bibliographicCitation "Grigory Kessel and Nicolás Bamballi (eds.), De alimentorum facultatibus libri III in last modified November 9, 2017, http://syriaca.org/work/9735" .
 
 <http://syriaca.org/work/9735/tei> a rdfs:Resource; ;
  dcterms:title "De alimentorum facultatibus libri III"@en, "Περὶ τροφῶν δυνάμεως λόγοι γ’"@grc ;
  dcterms:subject <http://syriaca.org/work/9735> ;
  dcterms:source <http://syriaca.org/bibl/2506>, <http://syriaca.org/bibl/2509>, <http://syriaca.org/bibl/2510>, <http://syriaca.org/bibl/2508> ;
  dcterms:format "text/xml" ;
- dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), The Four Gospels (Peshitta version) — ܛܛܪܐܘܢܓܠܝܘܢDe alimentorum facultatibus libri III in last modified December 16, 2016November 9, 2017, http://syriaca.org/work/71" .
+ dcterms:bibliographicCitation "Grigory Kessel and Nicolás Bamballi (eds.), De alimentorum facultatibus libri III in last modified November 9, 2017, http://syriaca.org/work/9735" .
 
 <http://syriaca.org/work/9735/ttl> a rdfs:Resource; ;
  dcterms:title "De alimentorum facultatibus libri III"@en, "Περὶ τροφῶν δυνάμεως λόγοι γ’"@grc ;
@@ -72,4 +117,4 @@
  dcterms:subject <http://syriaca.org/work/9735> ;
  dcterms:source <http://syriaca.org/bibl/2506>, <http://syriaca.org/bibl/2509>, <http://syriaca.org/bibl/2510>, <http://syriaca.org/bibl/2508> ;
  dcterms:format "text/turtle" ;
- dcterms:bibliographicCitation "Nathan P. Gibson, David A. Michelson and Tucker D. Hannah, (eds.), The Four Gospels (Peshitta version) — ܛܛܪܐܘܢܓܠܝܘܢDe alimentorum facultatibus libri III in last modified December 16, 2016November 9, 2017, http://syriaca.org/work/71" .
+ dcterms:bibliographicCitation "Grigory Kessel and Nicolás Bamballi (eds.), De alimentorum facultatibus libri III in last modified November 9, 2017, http://syriaca.org/work/9735" .

@@ -1,32 +1,52 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/1539> a lawd:conceptualWork ;
  rdfs:label "ܒܣܝܠܝܘܣ"@syr, "Basil the Great (text)"@en ;
  dcterms:relation <#bib1539-4> ; 
  dcterms:relation <http://syriaca.org/work/1539> ; 
  dcterms:relation <http://syriaca.org/work/1539> ; 
- dcterms:relation <http://syriaca.org/person/376> ;
- dcterms:relation <http://syriaca.org/work/1539/html>, <http://syriaca.org/work/1539/tei>, <http://syriaca.org/work/1539/ttl> ;
+ dcterms:relation <http://syriaca.org/person/376> ; 
+ snap:has-bond <http://syriaca.org/work/1539#lawd:embodies-#bib1539-4> ; 
+ snap:has-bond <http://syriaca.org/person/376#syriaca:commemorated-http://syriaca.org/work/1539> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/712> ;
+ lawd:hasCitation <http://syriaca.org/bibl/870> ;
+ dcterms:hasFormat <http://syriaca.org/work/1539/html>, <http://syriaca.org/work/1539/tei>, <http://syriaca.org/work/1539/ttl>, <http://syriaca.org/work/1539/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1539/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1539/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1539/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1539/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/712>, <http://syriaca.org/bibl/870> .
 
+ rdf:about <#bib1539-4> ;
+ dcterms:relation <http://syriaca.org/work/1539> ;
+ snap:has-bond <http://syriaca.org/work/1539#lawd:embodies-#bib1539-4> .
+
+ rdf:about <http://syriaca.org/work/1539#lawd:embodies-#bib1539-4> ;
  lawd:embodies <http://syriaca.org/work/1539> ;
  lawd:hasAttestation <http://syriaca.org/work/1539> .
 
+ rdf:about <http://syriaca.org/work/1539> ;
+ dcterms:relation <http://syriaca.org/person/376> ;
+ snap:has-bond <http://syriaca.org/person/376#syriaca:commemorated-http://syriaca.org/work/1539> .
+
+ rdf:about <http://syriaca.org/person/376#syriaca:commemorated-http://syriaca.org/work/1539> ;
  syriaca:commemorated <http://syriaca.org/person/376> ;
  lawd:hasAttestation <http://syriaca.org/work/1539> .
 

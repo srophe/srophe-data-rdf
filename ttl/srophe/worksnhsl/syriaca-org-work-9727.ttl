@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/9727> a lawd:conceptualWork ;
  rdfs:label "On Interpretation (version of George, bishop of the Arabs)"@en, "ܟܬܒܐ ܕܬܪܝܢ ܕܐܪܝܣܛܘܛܠܝܣ ܦܝܠܣܘܦܐ ܕܝܘܢ̈ܝܐ. ܕܡܬܩܪܐ ܡܛܠ ܦܘܫܩܐ"@syr ;
@@ -27,31 +31,91 @@
  dcterms:relation <#bib9727-8> ; 
  dcterms:relation <#bib9727-7> ; 
  dcterms:relation <http://syriaca.org/work/9727> ; 
- dcterms:relation <http://syriaca.org/work/9732> ;
- dcterms:relation <http://syriaca.org/work/9727/html>, <http://syriaca.org/work/9727/tei>, <http://syriaca.org/work/9727/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9732> ; 
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-1> ; 
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-2> ; 
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-3> ; 
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-4> ; 
+ snap:has-bond <#bib9727-7#lawd:hasCitation-#bib9727-4> ; 
+ snap:has-bond <#bib9727-7#dcterms:source-#bib9727-8> ; 
+ snap:has-bond <http://syriaca.org/work/9732#skos:broadMatch-http://syriaca.org/work/9727> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2472> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2463> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2456> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/427> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2463> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2463> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/427> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2456> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2485> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2474> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2487> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2523> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2460> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2470> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2475> ;
+ dcterms:hasFormat <http://syriaca.org/work/9727/html>, <http://syriaca.org/work/9727/tei>, <http://syriaca.org/work/9727/ttl>, <http://syriaca.org/work/9727/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9727/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9727/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9727/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9727/rdf> ;
  dcterms:relation <http://syriaca.org/person/342>, <http://syriaca.org/person/122>, <http://syriaca.org/bibl/2472>, <http://syriaca.org/bibl/2463>, <http://syriaca.org/bibl/2456>, <http://syriaca.org/manuscript/427>, <http://syriaca.org/bibl/8>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/427#b2>, <http://syriaca.org/bibl/2485>, <http://syriaca.org/bibl/2474>, <http://syriaca.org/bibl/2487>, <http://syriaca.org/bibl/2523>, <http://syriaca.org/bibl/2460>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/2470>, <http://syriaca.org/bibl/2475> .
 
+ rdf:about <#bib9727-1> ;
+ dcterms:relation <http://syriaca.org/work/9727> ;
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-1> .
+
+ rdf:about <http://syriaca.org/work/9727#lawd:embodies-#bib9727-1> ;
  lawd:embodies <http://syriaca.org/work/9727> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 
+ rdf:about <#bib9727-2> ;
+ dcterms:relation <http://syriaca.org/work/9727> ;
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-2> .
+
+ rdf:about <http://syriaca.org/work/9727#lawd:embodies-#bib9727-2> ;
  lawd:embodies <http://syriaca.org/work/9727> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 
+ rdf:about <#bib9727-3> ;
+ dcterms:relation <http://syriaca.org/work/9727> ;
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-3> .
+
+ rdf:about <http://syriaca.org/work/9727#lawd:embodies-#bib9727-3> ;
  lawd:embodies <http://syriaca.org/work/9727> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 
+ rdf:about <#bib9727-4> ;
+ dcterms:relation <http://syriaca.org/work/9727> ;
+ snap:has-bond <http://syriaca.org/work/9727#lawd:embodies-#bib9727-4> .
+
+ rdf:about <http://syriaca.org/work/9727#lawd:embodies-#bib9727-4> ;
  lawd:embodies <http://syriaca.org/work/9727> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 
+ rdf:about <#bib9727-4> ;
+ dcterms:relation <#bib9727-7> ;
+ snap:has-bond <#bib9727-7#lawd:hasCitation-#bib9727-4> .
+
+ rdf:about <#bib9727-7#lawd:hasCitation-#bib9727-4> ;
  lawd:hasCitation <#bib9727-7> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 
+ rdf:about <#bib9727-8> ;
+ dcterms:relation <#bib9727-7> ;
+ snap:has-bond <#bib9727-7#dcterms:source-#bib9727-8> .
+
+ rdf:about <#bib9727-7#dcterms:source-#bib9727-8> ;
  dcterms:source <#bib9727-7> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 
+ rdf:about <http://syriaca.org/work/9727> ;
+ dcterms:relation <http://syriaca.org/work/9732> ;
+ snap:has-bond <http://syriaca.org/work/9732#skos:broadMatch-http://syriaca.org/work/9727> .
+
+ rdf:about <http://syriaca.org/work/9732#skos:broadMatch-http://syriaca.org/work/9727> ;
  skos:broadMatch <http://syriaca.org/work/9732> ;
  lawd:hasAttestation <http://syriaca.org/work/9727> .
 

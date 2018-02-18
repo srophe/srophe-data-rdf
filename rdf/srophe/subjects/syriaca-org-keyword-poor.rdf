@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
         <rdf:type rdf:resource=""/>
         <rdfs:label xml:lang="en">Poor</rdfs:label>
@@ -9,26 +9,40 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/persons"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/poor"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/poor"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/poor"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/poor"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/poor/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/poor/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/poor/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/poor/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/poor/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/poor/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/poor/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/rdf"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/poor"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/poor">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/poor"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/persons"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/poor"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/poor">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/persons"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/poor"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/poor"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/poor">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/poor"/>
     </rdf:Description>

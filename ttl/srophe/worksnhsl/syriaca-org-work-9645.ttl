@@ -1,28 +1,46 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/9645> a  ;
  rdfs:label "The Four Gospels (literary tradition)"@en, "ܛܛܪܐܘܢܓܠܝܘܢ"@syr ;
  skos:related <http://syriaca.org/person/44> ;
  dcterms:relation <http://syriaca.org/work/9645> ; 
- dcterms:relation <http://syriaca.org/work/9587> ;
- dcterms:relation <http://syriaca.org/work/9645/html>, <http://syriaca.org/work/9645/tei>, <http://syriaca.org/work/9645/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9587> ; 
+ snap:has-bond <http://syriaca.org/work/9587#dcterms:isPartOf-http://syriaca.org/work/9645> ;
+ lawd:hasCitation <http://syriaca.org/work/9645> ;
+ lawd:hasCitation <http://syriaca.org/work/10537> ;
+ lawd:hasCitation <http://syriaca.org/work/9512> ;
+ lawd:hasCitation <http://syriaca.org/work/71> ;
+ lawd:hasCitation <http://syriaca.org/work/161> ;
+ lawd:hasCitation <http://syriaca.org/work/10536> ;
+ lawd:hasCitation <http://syriaca.org/bibl/113> ;
+ dcterms:hasFormat <http://syriaca.org/work/9645/html>, <http://syriaca.org/work/9645/tei>, <http://syriaca.org/work/9645/ttl>, <http://syriaca.org/work/9645/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9645/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9645/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9645/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9645/rdf> ;
  dcterms:relation <http://syriaca.org/work/9645>, <http://syriaca.org/work/10537>, <http://syriaca.org/work/9512>, <http://syriaca.org/work/71>, <http://syriaca.org/work/161>, <http://syriaca.org/work/10536>, <http://syriaca.org/person/44>, <http://syriaca.org/bibl/113> .
 
+ rdf:about <http://syriaca.org/work/9645> ;
+ dcterms:relation <http://syriaca.org/work/9587> ;
+ snap:has-bond <http://syriaca.org/work/9587#dcterms:isPartOf-http://syriaca.org/work/9645> .
+
+ rdf:about <http://syriaca.org/work/9587#dcterms:isPartOf-http://syriaca.org/work/9645> ;
  dcterms:isPartOf <http://syriaca.org/work/9587> ;
  lawd:hasAttestation <http://syriaca.org/work/9645> .
 

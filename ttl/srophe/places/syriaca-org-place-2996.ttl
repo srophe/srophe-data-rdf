@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/place/2996> a lawd:Place ;
  rdfs:label "Naysābūr"@en, "نيسابور"@ar ;
@@ -20,12 +24,22 @@
  lawd:primaryForm "نيسابور"@ar ;
  lawd:hasAttestation <http://syriaca.org/bibl/2501> ;]; 
  skos:related <http://syriaca.org/place/603> ;
+geo:location [
+ geo:lat "36.202448" ;
+ geo:long "58.798373" ;];
  skos:closeMatch <https://pleiades.stoa.org/places/952092>, <https://en.wikipedia.org/wiki/Nishapur>, <https://dbpedia.org/resource/Nishapur> ; 
  dcterms:relation <https://pleiades.stoa.org/places/952092>, <https://en.wikipedia.org/wiki/Nishapur>, <https://dbpedia.org/resource/Nishapur> ;
- dcterms:relation <http://syriaca.org/place/2996/html>, <http://syriaca.org/place/2996/tei>, <http://syriaca.org/place/2996/ttl> ;
+ time:hasDateTimeDescription [
+ skos:prefLabel "" ;
+ periodo:earliestYear "2017"^^xsd:gYear ;
+ periodo:latestYear "2017"^^xsd:gYear ;];
+ lawd:hasCitation <https://pleiades.stoa.org/places/952092> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2501> ;
+ dcterms:hasFormat <http://syriaca.org/place/2996/html>, <http://syriaca.org/place/2996/tei>, <http://syriaca.org/place/2996/ttl>, <http://syriaca.org/place/2996/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2996/html> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2996/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/place/2996/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/place/2996/rdf> ;
  dcterms:relation <http://syriaca.org/place/603>, <http://syriaca.org/bibl/2501> .
 
 <http://syriaca.org/place/2996/html> a rdfs:Resource; ;

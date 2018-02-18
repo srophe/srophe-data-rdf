@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/2502> a lawd:conceptualWork ;
  rdfs:label "ܟܬܒܐ ܕܐܩܠܣܝܣܛܝܩܝ"@syr ;
@@ -22,16 +26,45 @@
  dcterms:relation <http://syriaca.org/work/2502> ; 
  dcterms:relation <http://syriaca.org/work/2500> ; 
  dcterms:relation <#bib2502-1> ; 
- dcterms:relation <#bib2502-18> ;
- dcterms:relation <http://syriaca.org/work/2502/html>, <http://syriaca.org/work/2502/tei>, <http://syriaca.org/work/2502/ttl> ;
+ dcterms:relation <#bib2502-18> ; 
+ snap:has-bond <http://syriaca.org/work/2500#dcterms:isPartOf-http://syriaca.org/work/2502> ; 
+ snap:has-bond <#bib2502-18#dcterms:source-#bib2502-1> ;
+ lawd:hasCitation <http://syriaca.org/work/2500> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2275> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2276> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2277> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2290> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2291> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2291> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2292> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1694> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1694> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2275> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2277> ;
+ lawd:hasCitation <http://syriaca.org/bibl/83> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2278> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/639> ;
+ dcterms:hasFormat <http://syriaca.org/work/2502/html>, <http://syriaca.org/work/2502/tei>, <http://syriaca.org/work/2502/ttl>, <http://syriaca.org/work/2502/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/2502/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/2502/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/2502/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/2502/rdf> ;
  dcterms:relation <http://syriaca.org/person/239>, <http://syriaca.org/work/2500>, <http://syriaca.org/person/1534>, <http://syriaca.org/bibl/2275>, <http://syriaca.org/bibl/2276>, <http://syriaca.org/bibl/2277>, <http://syriaca.org/place/1449>, <http://syriaca.org/bibl/2290>, <http://syriaca.org/bibl/2291>, <http://syriaca.org/place/592>, <http://syriaca.org/place/820>, <http://syriaca.org/bibl/2292>, <http://syriaca.org/place/700>, <http://syriaca.org/place/701>, <http://syriaca.org/place/702>, <http://syriaca.org/place/844>, <http://syriaca.org/bibl/1694>, <http://syriaca.org/bibl/83>, <http://syriaca.org/bibl/2278>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/639> .
 
+ rdf:about <http://syriaca.org/work/2502> ;
+ dcterms:relation <http://syriaca.org/work/2500> ;
+ snap:has-bond <http://syriaca.org/work/2500#dcterms:isPartOf-http://syriaca.org/work/2502> .
+
+ rdf:about <http://syriaca.org/work/2500#dcterms:isPartOf-http://syriaca.org/work/2502> ;
  dcterms:isPartOf <http://syriaca.org/work/2500> ;
  lawd:hasAttestation <http://syriaca.org/work/2502> .
 
+ rdf:about <#bib2502-1> ;
+ dcterms:relation <#bib2502-18> ;
+ snap:has-bond <#bib2502-18#dcterms:source-#bib2502-1> .
+
+ rdf:about <#bib2502-18#dcterms:source-#bib2502-1> ;
  dcterms:source <#bib2502-18> ;
  lawd:hasAttestation <http://syriaca.org/work/2502> .
 

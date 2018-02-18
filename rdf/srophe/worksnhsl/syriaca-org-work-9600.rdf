@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/work/9600">
         <rdf:type rdf:resource=""/>
         <rdfs:label xml:lang="en">Colossians (literary tradition)</rdfs:label>
@@ -20,21 +20,36 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9600"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9600"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9643"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9600#lawd:embodies-#bib9600-1"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9643#dcterms:isPartOf-http://syriaca.org/work/9600"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9600/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9600/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9600/ttl"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/work/9600"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/work/9643"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/work/83"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/work/10528"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2450"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9600/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9600/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9600/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9600/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9600/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9600/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9600/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9600/rdf"/>
     </rdf:Description>
     <rdf:Description rdf:about="#bib9600-1">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9600"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9600#lawd:embodies-#bib9600-1"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9600#lawd:embodies-#bib9600-1">
         <lawd:embodies rdf:resource="http://syriaca.org/work/9600"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9600"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/work/9600">
         <dcterms:relation rdf:resource="http://syriaca.org/work/9643"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/work/9643#dcterms:isPartOf-http://syriaca.org/work/9600"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/work/9643#dcterms:isPartOf-http://syriaca.org/work/9600">
         <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9643"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9600"/>
     </rdf:Description>

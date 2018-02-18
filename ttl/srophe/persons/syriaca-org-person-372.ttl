@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/372> a lawd:Person ;
  rdfs:label "Barsoum , Ignatius Afram"@en, "ܐܝܓܢܐܛܝܘܣ ܐܦܪܝܡ ܩܕܡܝܐ ܕܒܝܬ ܒܪܨܘܡ"@syr ;
@@ -40,10 +44,16 @@
  lawd:variantForm "Ephrem Barsaum"@en ;];
  skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_372>, <http://viaf.org/viaf/4908928>, <http://worldcat.org/identities/lccn-n83-169215>, <http://worldcat.org/identities/viaf-25324613>, <http://viaf.org/viaf/25324613>, <http://viaf.org/viaf/161037454>, <http://worldcat.org/identities/viaf-161037454>, <http://viaf.org/viaf/25324613>, <http://worldcat.org/identities/viaf-25324613>, <http://viaf.org/viaf/232449288>, <http://viaf.org/viaf/222014627>, <http://viaf.org/viaf/211583469>, <http://viaf.org/viaf/201808673>, <http://viaf.org/viaf/194422959>, <http://viaf.org/viaf/192705509>, <http://viaf.org/viaf/188224811>, <http://viaf.org/viaf/88652375>, <http://viaf.org/viaf/39632257>, <http://viaf.org/viaf/31706450>, <http://viaf.org/viaf/62290708>, <http://viaf.org/viaf/88652628> ; 
  dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_372>, <http://viaf.org/viaf/4908928>, <http://worldcat.org/identities/lccn-n83-169215>, <http://worldcat.org/identities/viaf-25324613>, <http://viaf.org/viaf/25324613>, <http://viaf.org/viaf/161037454>, <http://worldcat.org/identities/viaf-161037454>, <http://viaf.org/viaf/25324613>, <http://worldcat.org/identities/viaf-25324613>, <http://viaf.org/viaf/232449288>, <http://viaf.org/viaf/222014627>, <http://viaf.org/viaf/211583469>, <http://viaf.org/viaf/201808673>, <http://viaf.org/viaf/194422959>, <http://viaf.org/viaf/192705509>, <http://viaf.org/viaf/188224811>, <http://viaf.org/viaf/88652375>, <http://viaf.org/viaf/39632257>, <http://viaf.org/viaf/31706450>, <http://viaf.org/viaf/62290708>, <http://viaf.org/viaf/88652628> ;
- dcterms:relation <http://syriaca.org/person/372/html>, <http://syriaca.org/person/372/tei>, <http://syriaca.org/person/372/ttl> ;
+ lawd:hasCitation <http://syriaca.org/bibl/92> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/645> ;
+ dcterms:hasFormat <http://syriaca.org/person/372/html>, <http://syriaca.org/person/372/tei>, <http://syriaca.org/person/372/ttl>, <http://syriaca.org/person/372/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/372/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/372/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/372/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/372/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/92>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/645> .
 
 <http://syriaca.org/person/372/html> a rdfs:Resource; ;

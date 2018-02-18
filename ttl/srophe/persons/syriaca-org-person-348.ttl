@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/348> a lawd:Person ;
  rdfs:label "Assemani , Joseph Aloysius"@en, "Assemani , Joseph Aloysius"@en-x-gedsh, "ܝܘܣܦ ܫܡܥܘܢܝܐ"@syr ;
@@ -23,10 +27,12 @@
  lawd:primaryForm ""@syr ;];
  skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_348>, <http://viaf.org/viaf/233489446>, <http://viaf.org/viaf/238986568>, <http://viaf.org/viaf/207711688>, <http://viaf.org/viaf/209568597> ; 
  dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_348>, <http://viaf.org/viaf/233489446>, <http://viaf.org/viaf/238986568>, <http://viaf.org/viaf/207711688>, <http://viaf.org/viaf/209568597> ;
- dcterms:relation <http://syriaca.org/person/348/html>, <http://syriaca.org/person/348/tei>, <http://syriaca.org/person/348/ttl> ;
+ lawd:hasCitation <http://syriaca.org/bibl/62> ;
+ dcterms:hasFormat <http://syriaca.org/person/348/html>, <http://syriaca.org/person/348/tei>, <http://syriaca.org/person/348/ttl>, <http://syriaca.org/person/348/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/348/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/348/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/348/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/348/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/62> .
 
 <http://syriaca.org/person/348/html> a rdfs:Resource; ;

@@ -1,40 +1,26 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/spear/119-536">
         <rdf:type rdf:resource="http://syriaca.org/schema#/personFactoid"/>
         <rdfs:label>Rufinus was a patrician.</rdfs:label>
-        <dcterms:source rdf:resource="http://syriaca.org/bibl/633"/>
-        <dcterms:source rdf:resource="urn:cts:syriacLit:nhsl8559.syriacCorpus57:13"/>
-        <dcterms:source rdf:resource="http://syriaca.org/bibl/657"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/spear/119"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/spear"/>
         <dcterms:subject rdf:resource="http://syriaca.org/person/2300"/>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/patrician"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/spear/119-536/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/spear/119-536/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/spear/119-536/ttl"/>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/633"/>
+        <lawd:hasAttestation rdf:resource="urn:cts:syriacLit:nhsl8559.syriacCorpus57:13"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/657"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-536/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-536/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-536/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/spear/119-536/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-536/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-536/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-536/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/spear/119-536/rdf"/>
     </rdf:Description>
-    <rdf:Description rdf:resource="http://syriaca.org/person/2300">
+    <rdf:Description rdf:about="http://syriaca.org/person/2300">
         <syriaca:hasSocialRank rdf:resource="http://syriaca.org/keyword/patrician"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/spear/119-536"/>
     </rdf:Description>
-    <rdfs:Resource rdf:about="http://syriaca.org/spear/119-536/html">
-        <dcterms:title>Rufinus was a patrician.</dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/spear/119-536"/>
-        <dcterms:format>text/html</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
-    </rdfs:Resource>
-    <rdfs:Resource rdf:about="http://syriaca.org/spear/119-536/tei">
-        <dcterms:title>Rufinus was a patrician.</dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/spear/119-536"/>
-        <dcterms:format>text/xml</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
-    </rdfs:Resource>
-    <rdfs:Resource rdf:about="http://syriaca.org/spear/119-536/ttl">
-        <dcterms:title>Rufinus was a patrician.</dcterms:title>
-        <dcterms:subject rdf:resource="http://syriaca.org/spear/119-536"/>
-        <dcterms:format>text/turle</dcterms:format>
-        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Chronicle of Edessa" in SPEAR: Syriac Persons, Events, and Relations last modified , http://syriaca.org/spear/119</dcterms:bibliographicCitation>
-    </rdfs:Resource>
 </rdf:RDF>

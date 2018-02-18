@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/9717> a lawd:conceptualWork ;
  rdfs:label "Additions to Esther (Peshitta version)"@en, "ܣܦܪܐ ܕܐܣܬܝܪ"@syr ;
@@ -19,16 +23,31 @@
  dcterms:relation <#bib9717-1> ; 
  dcterms:relation <http://syriaca.org/work/9717> ; 
  dcterms:relation <http://syriaca.org/work/9717> ; 
- dcterms:relation <http://syriaca.org/work/9718> ;
- dcterms:relation <http://syriaca.org/work/9717/html>, <http://syriaca.org/work/9717/tei>, <http://syriaca.org/work/9717/ttl> ;
+ dcterms:relation <http://syriaca.org/work/9718> ; 
+ snap:has-bond <http://syriaca.org/work/9717#lawd:embodies-#bib9717-1> ; 
+ snap:has-bond <http://syriaca.org/work/9718#skos:broadMatch-http://syriaca.org/work/9717> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2335> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2432> ;
+ dcterms:hasFormat <http://syriaca.org/work/9717/html>, <http://syriaca.org/work/9717/tei>, <http://syriaca.org/work/9717/ttl>, <http://syriaca.org/work/9717/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9717/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9717/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/9717/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/9717/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/2335>, <http://syriaca.org/bibl/2432> .
 
+ rdf:about <#bib9717-1> ;
+ dcterms:relation <http://syriaca.org/work/9717> ;
+ snap:has-bond <http://syriaca.org/work/9717#lawd:embodies-#bib9717-1> .
+
+ rdf:about <http://syriaca.org/work/9717#lawd:embodies-#bib9717-1> ;
  lawd:embodies <http://syriaca.org/work/9717> ;
  lawd:hasAttestation <http://syriaca.org/work/9717> .
 
+ rdf:about <http://syriaca.org/work/9717> ;
+ dcterms:relation <http://syriaca.org/work/9718> ;
+ snap:has-bond <http://syriaca.org/work/9718#skos:broadMatch-http://syriaca.org/work/9717> .
+
+ rdf:about <http://syriaca.org/work/9718#skos:broadMatch-http://syriaca.org/work/9717> ;
  skos:broadMatch <http://syriaca.org/work/9718> ;
  lawd:hasAttestation <http://syriaca.org/work/9717> .
 

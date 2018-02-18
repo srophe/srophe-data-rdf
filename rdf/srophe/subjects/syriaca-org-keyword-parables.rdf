@@ -1,4 +1,4 @@
-<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:lawd="http://lawd.info/ontology/" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="http://syriaca.org/person/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1" xmlns:snap="http://syriaca.org/snap#">
+<rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
     <rdf:Description rdf:about="http://syriaca.org/keyword/parables">
         <rdf:type rdf:resource=""/>
         <rdfs:label xml:lang="en">Parables</rdfs:label>
@@ -7,21 +7,31 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/parables"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/parables"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/parables"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/parables/html"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/parables/tei"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/parables/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/parables/html"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/parables/tei"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/parables/ttl"/>
+        <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/parables/rdf"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/parables/html"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/parables/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/parables/ttl"/>
+        <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/parables/rdf"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/parables">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/parables"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/parables">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/parables"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://syriaca.org/keyword/parables">
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
+        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/parables"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/parables">
         <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/parables"/>
     </rdf:Description>

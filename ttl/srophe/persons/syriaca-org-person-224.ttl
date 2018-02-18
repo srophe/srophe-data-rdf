@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/224> a lawd:Person ;
  rdfs:label "John XII (XI, XIII, or XIV) , patriarch"@en, "ܝܘܚܢܢ ܕܬܪܥܣܪ"@syr ;
@@ -60,20 +64,52 @@
  dcterms:relation <http://syriaca.org/person/224> ; 
  dcterms:relation <http://syriaca.org/place/396> ; 
  dcterms:relation <http://syriaca.org/place/319> ; 
- dcterms:relation <http://syriaca.org/place/364> ;
- dcterms:relation <http://syriaca.org/person/224/html>, <http://syriaca.org/person/224/tei>, <http://syriaca.org/person/224/ttl> ;
+ dcterms:relation <http://syriaca.org/place/364> ; 
+ snap:has-bond <http://syriaca.org/place/296#syriaca:bornAt-http://syriaca.org/person/224> ; 
+ snap:has-bond <http://syriaca.org/place/396#syriaca:hasRelationToPlace-http://syriaca.org/person/224> ; 
+ snap:has-bond <http://syriaca.org/place/319#syriaca:hasRelationToPlace-http://syriaca.org/person/224> ; 
+ snap:has-bond <http://syriaca.org/place/364#syriaca:hasRelationToPlace-http://syriaca.org/person/224> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2499> ;
+ dcterms:hasFormat <http://syriaca.org/person/224/html>, <http://syriaca.org/person/224/tei>, <http://syriaca.org/person/224/ttl>, <http://syriaca.org/person/224/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/224/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/224/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/224/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/224/rdf> ;
  dcterms:relation <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/638>, <http://syriaca.org/bibl/2499> .
 
+ rdf:about <http://syriaca.org/person/224> ;
+ dcterms:relation <http://syriaca.org/place/296> ;
+ snap:has-bond <http://syriaca.org/place/296#syriaca:bornAt-http://syriaca.org/person/224> .
+
+ rdf:about <http://syriaca.org/place/296#syriaca:bornAt-http://syriaca.org/person/224> ;
  syriaca:bornAt <http://syriaca.org/place/296> ;
  lawd:hasAttestation <http://syriaca.org/person/224> .
 
+ rdf:about <http://syriaca.org/person/224> ;
+ dcterms:relation <http://syriaca.org/place/396> ;
+ snap:has-bond <http://syriaca.org/place/396#syriaca:hasRelationToPlace-http://syriaca.org/person/224> .
+
+ rdf:about <http://syriaca.org/person/224> ;
+ dcterms:relation <http://syriaca.org/place/319> ;
+ snap:has-bond <http://syriaca.org/place/319#syriaca:hasRelationToPlace-http://syriaca.org/person/224> .
+
+ rdf:about <http://syriaca.org/person/224> ;
+ dcterms:relation <http://syriaca.org/place/364> ;
+ snap:has-bond <http://syriaca.org/place/364#syriaca:hasRelationToPlace-http://syriaca.org/person/224> .
+
+ rdf:about <http://syriaca.org/place/396#syriaca:hasRelationToPlace-http://syriaca.org/person/224> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/396> ;
- lawd:hasAttestation <http://syriaca.org/person/224> ;
+ lawd:hasAttestation <http://syriaca.org/person/224> .
+
+ rdf:about <http://syriaca.org/place/319#syriaca:hasRelationToPlace-http://syriaca.org/person/224> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/319> ;
- lawd:hasAttestation <http://syriaca.org/person/224> ;
+ lawd:hasAttestation <http://syriaca.org/person/224> .
+
+ rdf:about <http://syriaca.org/place/364#syriaca:hasRelationToPlace-http://syriaca.org/person/224> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/364> ;
  lawd:hasAttestation <http://syriaca.org/person/224> .
 

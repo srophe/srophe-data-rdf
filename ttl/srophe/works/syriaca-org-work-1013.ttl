@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/1013> a lawd:conceptualWork ;
  rdfs:label "The Martyrs (text)"@en ;
@@ -20,19 +24,41 @@
  dcterms:relation <http://syriaca.org/work/1013> ; 
  dcterms:relation <#bib1013-4> ; 
  dcterms:relation <http://syriaca.org/work/1013> ; 
- dcterms:relation <http://syriaca.org/work/1013> ;
- dcterms:relation <http://syriaca.org/work/1013/html>, <http://syriaca.org/work/1013/tei>, <http://syriaca.org/work/1013/ttl> ;
+ dcterms:relation <http://syriaca.org/work/1013> ; 
+ snap:has-bond <http://syriaca.org/work/1013#lawd:embodies-#bib1013-2> ; 
+ snap:has-bond <http://syriaca.org/work/1013#lawd:embodies-#bib1013-3> ; 
+ snap:has-bond <http://syriaca.org/work/1013#lawd:embodies-#bib1013-4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1742> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1742> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ dcterms:hasFormat <http://syriaca.org/work/1013/html>, <http://syriaca.org/work/1013/tei>, <http://syriaca.org/work/1013/ttl>, <http://syriaca.org/work/1013/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1013/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1013/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/1013/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/1013/rdf> ;
  dcterms:relation <http://syriaca.org/person/13>, <http://syriaca.org/bibl/1742>, <http://syriaca.org/bibl/649> .
 
+ rdf:about <#bib1013-2> ;
+ dcterms:relation <http://syriaca.org/work/1013> ;
+ snap:has-bond <http://syriaca.org/work/1013#lawd:embodies-#bib1013-2> .
+
+ rdf:about <http://syriaca.org/work/1013#lawd:embodies-#bib1013-2> ;
  lawd:embodies <http://syriaca.org/work/1013> ;
  lawd:hasAttestation <http://syriaca.org/work/1013> .
 
+ rdf:about <#bib1013-3> ;
+ dcterms:relation <http://syriaca.org/work/1013> ;
+ snap:has-bond <http://syriaca.org/work/1013#lawd:embodies-#bib1013-3> .
+
+ rdf:about <http://syriaca.org/work/1013#lawd:embodies-#bib1013-3> ;
  lawd:embodies <http://syriaca.org/work/1013> ;
  lawd:hasAttestation <http://syriaca.org/work/1013> .
 
+ rdf:about <#bib1013-4> ;
+ dcterms:relation <http://syriaca.org/work/1013> ;
+ snap:has-bond <http://syriaca.org/work/1013#lawd:embodies-#bib1013-4> .
+
+ rdf:about <http://syriaca.org/work/1013#lawd:embodies-#bib1013-4> ;
  lawd:embodies <http://syriaca.org/work/1013> ;
  lawd:hasAttestation <http://syriaca.org/work/1013> .
 

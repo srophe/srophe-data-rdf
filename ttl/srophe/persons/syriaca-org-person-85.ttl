@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/85> a lawd:Person ;
  rdfs:label "ܩܘܪܝܐܩܘܣ ܕܐܡܝܕ"@syr, "Cyriacus of Amida"@en ;
@@ -57,21 +61,55 @@
  dcterms:relation <http://syriaca.org/person/145> ; 
  dcterms:relation <http://syriaca.org/person/85> ; 
  dcterms:relation <http://syriaca.org/place/8> ; 
- dcterms:relation <http://syriaca.org/place/356> ;
- dcterms:relation <http://syriaca.org/person/85/html>, <http://syriaca.org/person/85/tei>, <http://syriaca.org/person/85/ttl> ;
+ dcterms:relation <http://syriaca.org/place/356> ; 
+ snap:has-bond <http://syriaca.org/person/145#syriaca:differentFrom-http://syriaca.org/person/85> ; 
+ snap:has-bond <http://syriaca.org/person/85#syriaca:differentFrom-http://syriaca.org/person/145> ; 
+ snap:has-bond <http://syriaca.org/place/8#syriaca:hasRelationToPlace-http://syriaca.org/person/85> ; 
+ snap:has-bond <http://syriaca.org/place/356#syriaca:hasRelationToPlace-http://syriaca.org/person/85> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/650> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1426> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ dcterms:hasFormat <http://syriaca.org/person/85/html>, <http://syriaca.org/person/85/tei>, <http://syriaca.org/person/85/ttl>, <http://syriaca.org/person/85/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/85/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/85/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/85/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/85/rdf> ;
  dcterms:relation <http://syriaca.org/place/8>, <http://syriaca.org/place/78>, <http://syriaca.org/person/85>, <http://syriaca.org/work/1891>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qyriaqos of Amid&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1426>, <http://syriaca.org/bibl/638> .
 
+ rdf:about <http://syriaca.org/person/85> ;
+ dcterms:relation <http://syriaca.org/person/145> ;
+ snap:has-bond <http://syriaca.org/person/145#syriaca:differentFrom-http://syriaca.org/person/85> .
+
+ rdf:about <http://syriaca.org/person/145#syriaca:differentFrom-http://syriaca.org/person/85> ;
  syriaca:differentFrom <http://syriaca.org/person/145> ;
  lawd:hasAttestation <http://syriaca.org/person/85> .
 
+ rdf:about <http://syriaca.org/person/145> ;
+ dcterms:relation <http://syriaca.org/person/85> ;
+ snap:has-bond <http://syriaca.org/person/85#syriaca:differentFrom-http://syriaca.org/person/145> .
+
+ rdf:about <http://syriaca.org/person/85#syriaca:differentFrom-http://syriaca.org/person/145> ;
  syriaca:differentFrom <http://syriaca.org/person/85> ;
  lawd:hasAttestation <http://syriaca.org/person/85> .
 
+ rdf:about <http://syriaca.org/person/85> ;
+ dcterms:relation <http://syriaca.org/place/8> ;
+ snap:has-bond <http://syriaca.org/place/8#syriaca:hasRelationToPlace-http://syriaca.org/person/85> .
+
+ rdf:about <http://syriaca.org/person/85> ;
+ dcterms:relation <http://syriaca.org/place/356> ;
+ snap:has-bond <http://syriaca.org/place/356#syriaca:hasRelationToPlace-http://syriaca.org/person/85> .
+
+ rdf:about <http://syriaca.org/place/8#syriaca:hasRelationToPlace-http://syriaca.org/person/85> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/8> ;
- lawd:hasAttestation <http://syriaca.org/person/85> ;
+ lawd:hasAttestation <http://syriaca.org/person/85> .
+
+ rdf:about <http://syriaca.org/place/356#syriaca:hasRelationToPlace-http://syriaca.org/person/85> ;
  syriaca:hasRelationToPlace <http://syriaca.org/place/356> ;
  lawd:hasAttestation <http://syriaca.org/person/85> .
 

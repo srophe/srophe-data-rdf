@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/person/958> a lawd:Person ;
  rdfs:label "Eusebius of Samosata"@en, "ܐܘܣܒܝܘܣ ܕܫܡܝܫܛ"@syr ;
@@ -64,10 +68,23 @@
  skos:related <http://syriaca.org/person/958> ;
  skos:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_958>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eusebius of Samosata&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eusebius%20of%20Samosata&sT=keywords> ; 
  dcterms:relation <http://viaf.org/viaf/sourceID/SRP|person_958>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eusebius of Samosata&sT=keywords>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eusebius%20of%20Samosata&sT=keywords> ;
- dcterms:relation <http://syriaca.org/person/958/html>, <http://syriaca.org/person/958/tei>, <http://syriaca.org/person/958/ttl> ;
+ lawd:hasCitation <http://wwwb.library.vanderbilt.edu/work/383> ;
+ lawd:hasCitation <http://syriaca.org/bibl/4> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2> ;
+ lawd:hasCitation <http://syriaca.org/bibl/3> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ lawd:hasCitation <http://syriaca.org/bibl/650> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1381> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1425> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2273> ;
+ lawd:hasCitation <http://syriaca.org/bibl/638> ;
+ lawd:hasCitation <http://syriaca.org/bibl/5> ;
+ dcterms:hasFormat <http://syriaca.org/person/958/html>, <http://syriaca.org/person/958/tei>, <http://syriaca.org/person/958/ttl>, <http://syriaca.org/person/958/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/person/958/html> ;
  foaf:primaryTopicOf <http://syriaca.org/person/958/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/person/958/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/person/958/rdf> ;
  dcterms:relation <http://wwwb.library.vanderbilt.edu/work/383>, <http://syriaca.org/person/811>, <http://syriaca.org/person/958>, <http://syriaca.org/work/383>, <http://syriaca.org/bibl/4>, <http://syriaca.org/bibl/2>, <http://syriaca.org/bibl/3>, <http://syriaca.org/bibl/5>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eusebius of Samosata&sT=keywords>, <http://syriaca.org/bibl/649>, <http://syriaca.org/bibl/650>, <http://syriaca.org/bibl/1381>, <http://syriaca.org/bibl/1425>, <http://syriaca.org/bibl/2273>, <http://www.oxfordreference.com/view/10.1093/acref/9780192802903.001.0001/acref-9780192802903-e-2434>, <http://syriaca.org/bibl/638>, <http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eusebius%20of%20Samosata&sT=keywords> .
 
 <http://syriaca.org/person/958/html> a rdfs:Resource; ;

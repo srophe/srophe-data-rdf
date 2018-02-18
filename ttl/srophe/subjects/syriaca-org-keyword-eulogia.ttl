@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/keyword/eulogia> a  ;
  rdfs:label "Eulogia"@en ;
@@ -19,15 +23,28 @@
  dcterms:relation <http://syriaca.org/keyword/eulogia> ; 
  dcterms:relation <http://syriaca.org/keyword/ritual> ; 
  dcterms:relation <http://syriaca.org/keyword/eulogia> ; 
- dcterms:relation <http://syriaca.org/keyword/speech-acts> ;
- dcterms:relation <http://syriaca.org/keyword/eulogia/html>, <http://syriaca.org/keyword/eulogia/tei>, <http://syriaca.org/keyword/eulogia/ttl> ;
+ dcterms:relation <http://syriaca.org/keyword/speech-acts> ; 
+ snap:has-bond <http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/eulogia> ; 
+ snap:has-bond <http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/eulogia> ;
+ dcterms:hasFormat <http://syriaca.org/keyword/eulogia/html>, <http://syriaca.org/keyword/eulogia/tei>, <http://syriaca.org/keyword/eulogia/ttl>, <http://syriaca.org/keyword/eulogia/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/eulogia/html> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/eulogia/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/keyword/eulogia/ttl> .
+ foaf:primaryTopicOf <http://syriaca.org/keyword/eulogia/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/eulogia/rdf> .
 
+ rdf:about <http://syriaca.org/keyword/eulogia> ;
+ dcterms:relation <http://syriaca.org/keyword/ritual> ;
+ snap:has-bond <http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/eulogia> .
+
+ rdf:about <http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/eulogia> ;
  skos:broadMatch <http://syriaca.org/keyword/ritual> ;
  lawd:hasAttestation <http://syriaca.org/keyword/eulogia> .
 
+ rdf:about <http://syriaca.org/keyword/eulogia> ;
+ dcterms:relation <http://syriaca.org/keyword/speech-acts> ;
+ snap:has-bond <http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/eulogia> .
+
+ rdf:about <http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/eulogia> ;
  skos:broadMatch <http://syriaca.org/keyword/speech-acts> ;
  lawd:hasAttestation <http://syriaca.org/keyword/eulogia> .
 

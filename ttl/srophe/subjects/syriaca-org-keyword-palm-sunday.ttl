@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/keyword/palm-sunday> a  ;
  rdfs:label "Palm Sunday"@en ;
@@ -23,21 +27,46 @@
  dcterms:relation <http://syriaca.org/keyword/palm-sunday> ; 
  dcterms:relation <http://syriaca.org/keyword/ritual> ; 
  dcterms:relation <http://syriaca.org/keyword/palm-sunday> ; 
- dcterms:relation <http://syriaca.org/keyword/time> ;
- dcterms:relation <http://syriaca.org/keyword/palm-sunday/html>, <http://syriaca.org/keyword/palm-sunday/tei>, <http://syriaca.org/keyword/palm-sunday/ttl> ;
+ dcterms:relation <http://syriaca.org/keyword/time> ; 
+ snap:has-bond <http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ; 
+ snap:has-bond <http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ; 
+ snap:has-bond <http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ; 
+ snap:has-bond <http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ;
+ dcterms:hasFormat <http://syriaca.org/keyword/palm-sunday/html>, <http://syriaca.org/keyword/palm-sunday/tei>, <http://syriaca.org/keyword/palm-sunday/ttl>, <http://syriaca.org/keyword/palm-sunday/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/palm-sunday/html> ;
  foaf:primaryTopicOf <http://syriaca.org/keyword/palm-sunday/tei> ;
- foaf:primaryTopicOf <http://syriaca.org/keyword/palm-sunday/ttl> .
+ foaf:primaryTopicOf <http://syriaca.org/keyword/palm-sunday/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/keyword/palm-sunday/rdf> .
 
+ rdf:about <http://syriaca.org/keyword/palm-sunday> ;
+ dcterms:relation <http://syriaca.org/keyword/christianity> ;
+ snap:has-bond <http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> .
+
+ rdf:about <http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ;
  skos:broadMatch <http://syriaca.org/keyword/christianity> ;
  lawd:hasAttestation <http://syriaca.org/keyword/palm-sunday> .
 
+ rdf:about <http://syriaca.org/keyword/palm-sunday> ;
+ dcterms:relation <http://syriaca.org/keyword/events> ;
+ snap:has-bond <http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> .
+
+ rdf:about <http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ;
  skos:broadMatch <http://syriaca.org/keyword/events> ;
  lawd:hasAttestation <http://syriaca.org/keyword/palm-sunday> .
 
+ rdf:about <http://syriaca.org/keyword/palm-sunday> ;
+ dcterms:relation <http://syriaca.org/keyword/ritual> ;
+ snap:has-bond <http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> .
+
+ rdf:about <http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ;
  skos:broadMatch <http://syriaca.org/keyword/ritual> ;
  lawd:hasAttestation <http://syriaca.org/keyword/palm-sunday> .
 
+ rdf:about <http://syriaca.org/keyword/palm-sunday> ;
+ dcterms:relation <http://syriaca.org/keyword/time> ;
+ snap:has-bond <http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> .
+
+ rdf:about <http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/palm-sunday> ;
  skos:broadMatch <http://syriaca.org/keyword/time> ;
  lawd:hasAttestation <http://syriaca.org/keyword/palm-sunday> .
 

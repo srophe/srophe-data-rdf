@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/154> a lawd:conceptualWork ;
  rdfs:label "Second Samuel (Jacob of Edessa's recension)"@en ;
@@ -23,25 +27,59 @@
  dcterms:relation <http://syriaca.org/work/154> ; 
  dcterms:relation <http://syriaca.org/work/9527> ; 
  dcterms:relation <http://syriaca.org/work/154> ; 
- dcterms:relation <http://syriaca.org/work/153> ;
- dcterms:relation <http://syriaca.org/work/154/html>, <http://syriaca.org/work/154/tei>, <http://syriaca.org/work/154/ttl> ;
+ dcterms:relation <http://syriaca.org/work/153> ; 
+ snap:has-bond <http://syriaca.org/work/154#lawd:embodies-#bib154-3> ; 
+ snap:has-bond <#bib154-2#dcterms:source-#bib154-1> ; 
+ snap:has-bond <#bib154-2#lawd:hasCitation-http://syriaca.org/manuscript/85> ; 
+ snap:has-bond <http://syriaca.org/work/9527#skos:broadMatch-http://syriaca.org/work/154> ; 
+ snap:has-bond <http://syriaca.org/work/153#dcterms:isPartOf-http://syriaca.org/work/154> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/85> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/85> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ dcterms:hasFormat <http://syriaca.org/work/154/html>, <http://syriaca.org/work/154/tei>, <http://syriaca.org/work/154/ttl>, <http://syriaca.org/work/154/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/154/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/154/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/154/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/154/rdf> ;
  dcterms:relation <http://syriaca.org/manuscript/85>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/85#d1>, <http://syriaca.org/bibl/8> .
 
+ rdf:about <#bib154-3> ;
+ dcterms:relation <http://syriaca.org/work/154> ;
+ snap:has-bond <http://syriaca.org/work/154#lawd:embodies-#bib154-3> .
+
+ rdf:about <http://syriaca.org/work/154#lawd:embodies-#bib154-3> ;
  lawd:embodies <http://syriaca.org/work/154> ;
  lawd:hasAttestation <http://syriaca.org/work/154> .
 
+ rdf:about <#bib154-1> ;
+ dcterms:relation <#bib154-2> ;
+ snap:has-bond <#bib154-2#dcterms:source-#bib154-1> .
+
+ rdf:about <#bib154-2#dcterms:source-#bib154-1> ;
  dcterms:source <#bib154-2> ;
  lawd:hasAttestation <http://syriaca.org/work/154> .
 
+ rdf:about <http://syriaca.org/manuscript/85> ;
+ dcterms:relation <#bib154-2> ;
+ snap:has-bond <#bib154-2#lawd:hasCitation-http://syriaca.org/manuscript/85> .
+
+ rdf:about <#bib154-2#lawd:hasCitation-http://syriaca.org/manuscript/85> ;
  lawd:hasCitation <#bib154-2> ;
  lawd:hasAttestation <http://syriaca.org/work/154> .
 
+ rdf:about <http://syriaca.org/work/154> ;
+ dcterms:relation <http://syriaca.org/work/9527> ;
+ snap:has-bond <http://syriaca.org/work/9527#skos:broadMatch-http://syriaca.org/work/154> .
+
+ rdf:about <http://syriaca.org/work/9527#skos:broadMatch-http://syriaca.org/work/154> ;
  skos:broadMatch <http://syriaca.org/work/9527> ;
  lawd:hasAttestation <http://syriaca.org/work/154> .
 
+ rdf:about <http://syriaca.org/work/154> ;
+ dcterms:relation <http://syriaca.org/work/153> ;
+ snap:has-bond <http://syriaca.org/work/153#dcterms:isPartOf-http://syriaca.org/work/154> .
+
+ rdf:about <http://syriaca.org/work/153#dcterms:isPartOf-http://syriaca.org/work/154> ;
  dcterms:isPartOf <http://syriaca.org/work/153> ;
  lawd:hasAttestation <http://syriaca.org/work/154> .
 

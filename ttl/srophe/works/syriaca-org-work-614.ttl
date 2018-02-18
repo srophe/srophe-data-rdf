@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/614> a lawd:conceptualWork ;
  rdfs:label "Confessors (text)"@en ;
@@ -29,34 +33,88 @@
  dcterms:relation <#bib614-6> ; 
  dcterms:relation <http://syriaca.org/work/614> ; 
  dcterms:relation <#bib614-7> ; 
- dcterms:relation <http://syriaca.org/work/614> ;
- dcterms:relation <http://syriaca.org/work/614/html>, <http://syriaca.org/work/614/tei>, <http://syriaca.org/work/614/ttl> ;
+ dcterms:relation <http://syriaca.org/work/614> ; 
+ snap:has-bond <#bib614-4#dcterms:source-#bib614-2> ; 
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-2> ; 
+ snap:has-bond <#bib614-7#dcterms:source-#bib614-3> ; 
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-3> ; 
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-4> ; 
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-5> ; 
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-6> ; 
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-7> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1770> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1742> ;
+ lawd:hasCitation <http://syriaca.org/bibl/1742> ;
+ lawd:hasCitation <http://syriaca.org/bibl/2087> ;
+ lawd:hasCitation <http://syriaca.org/bibl/649> ;
+ dcterms:hasFormat <http://syriaca.org/work/614/html>, <http://syriaca.org/work/614/tei>, <http://syriaca.org/work/614/ttl>, <http://syriaca.org/work/614/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/614/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/614/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/614/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/614/rdf> ;
  dcterms:relation <http://syriaca.org/person/13>, <http://syriaca.org/bibl/1770>, <http://syriaca.org/bibl/1742>, <http://syriaca.org/bibl/2087>, <http://syriaca.org/bibl/649> .
 
+ rdf:about <#bib614-2> ;
+ dcterms:relation <#bib614-4> ;
+ snap:has-bond <#bib614-4#dcterms:source-#bib614-2> .
+
+ rdf:about <#bib614-4#dcterms:source-#bib614-2> ;
  dcterms:source <#bib614-4> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-2> ;
+ dcterms:relation <http://syriaca.org/work/614> ;
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-2> .
+
+ rdf:about <http://syriaca.org/work/614#lawd:embodies-#bib614-2> ;
  lawd:embodies <http://syriaca.org/work/614> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-3> ;
+ dcterms:relation <#bib614-7> ;
+ snap:has-bond <#bib614-7#dcterms:source-#bib614-3> .
+
+ rdf:about <#bib614-7#dcterms:source-#bib614-3> ;
  dcterms:source <#bib614-7> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-3> ;
+ dcterms:relation <http://syriaca.org/work/614> ;
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-3> .
+
+ rdf:about <http://syriaca.org/work/614#lawd:embodies-#bib614-3> ;
  lawd:embodies <http://syriaca.org/work/614> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-4> ;
+ dcterms:relation <http://syriaca.org/work/614> ;
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-4> .
+
+ rdf:about <http://syriaca.org/work/614#lawd:embodies-#bib614-4> ;
  lawd:embodies <http://syriaca.org/work/614> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-5> ;
+ dcterms:relation <http://syriaca.org/work/614> ;
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-5> .
+
+ rdf:about <http://syriaca.org/work/614#lawd:embodies-#bib614-5> ;
  lawd:embodies <http://syriaca.org/work/614> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-6> ;
+ dcterms:relation <http://syriaca.org/work/614> ;
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-6> .
+
+ rdf:about <http://syriaca.org/work/614#lawd:embodies-#bib614-6> ;
  lawd:embodies <http://syriaca.org/work/614> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 
+ rdf:about <#bib614-7> ;
+ dcterms:relation <http://syriaca.org/work/614> ;
+ snap:has-bond <http://syriaca.org/work/614#lawd:embodies-#bib614-7> .
+
+ rdf:about <http://syriaca.org/work/614#lawd:embodies-#bib614-7> ;
  lawd:embodies <http://syriaca.org/work/614> ;
  lawd:hasAttestation <http://syriaca.org/work/614> .
 

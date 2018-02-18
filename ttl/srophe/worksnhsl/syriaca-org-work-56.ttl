@@ -1,16 +1,20 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
-@prefix gn: <http://www.geonames.org/ontology#> .
 @prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix schema: <http://schema.org/> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix syriaca: <http://syriaca.org/schema#> .
-@prefix snap: <http://syriaca.org/snap#> .
-@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
 
 <http://syriaca.org/work/56> a lawd:conceptualWork ;
  rdfs:label "Book of Holy Women (Peshitta version)"@en ;
@@ -23,25 +27,59 @@
  dcterms:relation <http://syriaca.org/work/56> ; 
  dcterms:relation <http://syriaca.org/work/9573> ; 
  dcterms:relation <http://syriaca.org/work/56> ; 
- dcterms:relation <http://syriaca.org/work/69> ;
- dcterms:relation <http://syriaca.org/work/56/html>, <http://syriaca.org/work/56/tei>, <http://syriaca.org/work/56/ttl> ;
+ dcterms:relation <http://syriaca.org/work/69> ; 
+ snap:has-bond <http://syriaca.org/work/56#lawd:embodies-#bib56-3> ; 
+ snap:has-bond <#bib56-2#dcterms:source-#bib56-1> ; 
+ snap:has-bond <#bib56-2#lawd:hasCitation-http://syriaca.org/manuscript/1153> ; 
+ snap:has-bond <http://syriaca.org/work/9573#skos:broadMatch-http://syriaca.org/work/56> ; 
+ snap:has-bond <http://syriaca.org/work/69#dcterms:isPartOf-http://syriaca.org/work/56> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1153> ;
+ lawd:hasCitation <http://syriaca.org/manuscript/1153> ;
+ lawd:hasCitation <http://syriaca.org/bibl/8> ;
+ dcterms:hasFormat <http://syriaca.org/work/56/html>, <http://syriaca.org/work/56/tei>, <http://syriaca.org/work/56/ttl>, <http://syriaca.org/work/56/rdf> ;
  foaf:primaryTopicOf <http://syriaca.org/work/56/html> ;
  foaf:primaryTopicOf <http://syriaca.org/work/56/tei> ;
  foaf:primaryTopicOf <http://syriaca.org/work/56/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/56/rdf> ;
  dcterms:relation <http://syriaca.org/manuscript/1153>, <http://syriaca.org/documentation/editors.xml#dmichelson>, <http://syriaca.org/manuscript/1153#b18>, <http://syriaca.org/bibl/8> .
 
+ rdf:about <#bib56-3> ;
+ dcterms:relation <http://syriaca.org/work/56> ;
+ snap:has-bond <http://syriaca.org/work/56#lawd:embodies-#bib56-3> .
+
+ rdf:about <http://syriaca.org/work/56#lawd:embodies-#bib56-3> ;
  lawd:embodies <http://syriaca.org/work/56> ;
  lawd:hasAttestation <http://syriaca.org/work/56> .
 
+ rdf:about <#bib56-1> ;
+ dcterms:relation <#bib56-2> ;
+ snap:has-bond <#bib56-2#dcterms:source-#bib56-1> .
+
+ rdf:about <#bib56-2#dcterms:source-#bib56-1> ;
  dcterms:source <#bib56-2> ;
  lawd:hasAttestation <http://syriaca.org/work/56> .
 
+ rdf:about <http://syriaca.org/manuscript/1153> ;
+ dcterms:relation <#bib56-2> ;
+ snap:has-bond <#bib56-2#lawd:hasCitation-http://syriaca.org/manuscript/1153> .
+
+ rdf:about <#bib56-2#lawd:hasCitation-http://syriaca.org/manuscript/1153> ;
  lawd:hasCitation <#bib56-2> ;
  lawd:hasAttestation <http://syriaca.org/work/56> .
 
+ rdf:about <http://syriaca.org/work/56> ;
+ dcterms:relation <http://syriaca.org/work/9573> ;
+ snap:has-bond <http://syriaca.org/work/9573#skos:broadMatch-http://syriaca.org/work/56> .
+
+ rdf:about <http://syriaca.org/work/9573#skos:broadMatch-http://syriaca.org/work/56> ;
  skos:broadMatch <http://syriaca.org/work/9573> ;
  lawd:hasAttestation <http://syriaca.org/work/56> .
 
+ rdf:about <http://syriaca.org/work/56> ;
+ dcterms:relation <http://syriaca.org/work/69> ;
+ snap:has-bond <http://syriaca.org/work/69#dcterms:isPartOf-http://syriaca.org/work/56> .
+
+ rdf:about <http://syriaca.org/work/69#dcterms:isPartOf-http://syriaca.org/work/56> ;
  dcterms:isPartOf <http://syriaca.org/work/69> ;
  lawd:hasAttestation <http://syriaca.org/work/56> .
 
