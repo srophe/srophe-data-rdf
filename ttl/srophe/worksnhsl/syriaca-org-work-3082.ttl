@@ -1,0 +1,95 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
+
+<http://syriaca.org/work/3082> a lawd:conceptualWork ;
+ rdfs:label "To the Wife of Calliopius the Patrician"@en ;
+ dcterms:relation <#bib3082-1> ; 
+ dcterms:relation <http://syriaca.org/work/3082> ; 
+ dcterms:relation <#bib3082-2> ; 
+ dcterms:relation <http://syriaca.org/work/3082> ; 
+ dcterms:relation <http://syriaca.org/work/3082> ; 
+ dcterms:relation <http://syriaca.org/work/10541> ; 
+ dcterms:relation <http://syriaca.org/work/3082> ; 
+ dcterms:relation <http://syriaca.org/work/10543> ; 
+ snap:has-bond <http://syriaca.org/work/3082#lawd:embodies-#bib3082-1> ; 
+ snap:has-bond <http://syriaca.org/work/3082#lawd:embodies-#bib3082-2> ; 
+ snap:has-bond <http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3082> ; 
+ snap:has-bond <http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3082> ;
+ lawd:hasCitation <http://syriaca.org/bibl/667> ;
+ lawd:hasCitation <http://syriaca.org/bibl/669> ;
+ lawd:hasCitation <http://syriaca.org/bibl/669> ;
+ dcterms:hasFormat <http://syriaca.org/work/3082/html>, <http://syriaca.org/work/3082/tei>, <http://syriaca.org/work/3082/ttl>, <http://syriaca.org/work/3082/rdf> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3082/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3082/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3082/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3082/rdf> ;
+ dcterms:relation <http://syriaca.org/person/51>, <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669> .
+
+ rdf:about <#bib3082-1> ;
+ dcterms:relation <http://syriaca.org/work/3082> ;
+ snap:has-bond <http://syriaca.org/work/3082#lawd:embodies-#bib3082-1> .
+
+ rdf:about <http://syriaca.org/work/3082#lawd:embodies-#bib3082-1> ;
+ lawd:embodies <http://syriaca.org/work/3082> ;
+ lawd:hasAttestation <http://syriaca.org/work/3082> .
+
+ rdf:about <#bib3082-2> ;
+ dcterms:relation <http://syriaca.org/work/3082> ;
+ snap:has-bond <http://syriaca.org/work/3082#lawd:embodies-#bib3082-2> .
+
+ rdf:about <http://syriaca.org/work/3082#lawd:embodies-#bib3082-2> ;
+ lawd:embodies <http://syriaca.org/work/3082> ;
+ lawd:hasAttestation <http://syriaca.org/work/3082> .
+
+ rdf:about <http://syriaca.org/work/3082> ;
+ dcterms:relation <http://syriaca.org/work/10541> ;
+ snap:has-bond <http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3082> .
+
+ rdf:about <http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3082> ;
+ dcterms:isPartOf <http://syriaca.org/work/10541> ;
+ lawd:hasAttestation <http://syriaca.org/work/3082> .
+
+ rdf:about <http://syriaca.org/work/3082> ;
+ dcterms:relation <http://syriaca.org/work/10543> ;
+ snap:has-bond <http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3082> .
+
+ rdf:about <http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3082> ;
+ dcterms:isPartOf <http://syriaca.org/work/10543> ;
+ lawd:hasAttestation <http://syriaca.org/work/3082> .
+
+<http://syriaca.org/work/3082/html> a rdfs:Resource; ;
+ dcterms:title "To the Wife of Calliopius the Patrician"@en ;
+ dcterms:subject <http://syriaca.org/work/3082> ;
+ dcterms:source <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), To the Wife of Calliopius the Patrician in last modified February 15, 2018, http://syriaca.org/work/3082" .
+
+<http://syriaca.org/work/3082/tei> a rdfs:Resource; ;
+ dcterms:title "To the Wife of Calliopius the Patrician"@en ;
+ dcterms:subject <http://syriaca.org/work/3082> ;
+ dcterms:source <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), To the Wife of Calliopius the Patrician in last modified February 15, 2018, http://syriaca.org/work/3082" .
+
+<http://syriaca.org/work/3082/ttl> a rdfs:Resource; ;
+ dcterms:title "To the Wife of Calliopius the Patrician"@en ;
+ dcterms:subject <http://syriaca.org/work/3082> ;
+ dcterms:subject <http://syriaca.org/work/3082> ;
+ dcterms:source <http://syriaca.org/bibl/667>, <http://syriaca.org/bibl/669>, <http://syriaca.org/bibl/669> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), To the Wife of Calliopius the Patrician in last modified February 15, 2018, http://syriaca.org/work/3082" .

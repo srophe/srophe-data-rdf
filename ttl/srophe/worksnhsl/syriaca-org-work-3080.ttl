@@ -1,0 +1,84 @@
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd: <http://lawd.info/ontology/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix periodo: <http://n2t.net/ark:/99152/p0v#>.
+@prefix person: <https://www.w3.org/ns/person>,
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca: <http://syriaca.org/schema#> .
+@prefix snap: <http://data.snapdrgn.net/ontology/snap#> .
+@prefix time: <http://www.w3.org/2006/time#>.
+@prefix wdata: <https://www.wikidata.org/wiki/Special:EntityData/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>. 
+
+<http://syriaca.org/work/3080> a lawd:conceptualWork ;
+ rdfs:label "To the Monks of the Monastery of Mar Isaac"@en ;
+ dcterms:relation <#bib3080-1> ; 
+ dcterms:relation <http://syriaca.org/work/3080> ; 
+ dcterms:relation <#bib3080-2> ; 
+ dcterms:relation <http://syriaca.org/work/3080> ; 
+ dcterms:relation <http://syriaca.org/work/3080> ; 
+ dcterms:relation <http://syriaca.org/work/10541> ; 
+ snap:has-bond <http://syriaca.org/work/3080#lawd:embodies-#bib3080-1> ; 
+ snap:has-bond <http://syriaca.org/work/3080#lawd:embodies-#bib3080-2> ; 
+ snap:has-bond <http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3080> ;
+ lawd:hasCitation <http://syriaca.org/bibl/671> ;
+ lawd:hasCitation <http://syriaca.org/bibl/671> ;
+ lawd:hasCitation <http://syriaca.org/bibl/671> ;
+ dcterms:hasFormat <http://syriaca.org/work/3080/html>, <http://syriaca.org/work/3080/tei>, <http://syriaca.org/work/3080/ttl>, <http://syriaca.org/work/3080/rdf> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3080/html> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3080/tei> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3080/ttl> ;
+ foaf:primaryTopicOf <http://syriaca.org/work/3080/rdf> ;
+ dcterms:relation <http://syriaca.org/person/51>, <http://syriaca.org/bibl/671> .
+
+ rdf:about <#bib3080-1> ;
+ dcterms:relation <http://syriaca.org/work/3080> ;
+ snap:has-bond <http://syriaca.org/work/3080#lawd:embodies-#bib3080-1> .
+
+ rdf:about <http://syriaca.org/work/3080#lawd:embodies-#bib3080-1> ;
+ lawd:embodies <http://syriaca.org/work/3080> ;
+ lawd:hasAttestation <http://syriaca.org/work/3080> .
+
+ rdf:about <#bib3080-2> ;
+ dcterms:relation <http://syriaca.org/work/3080> ;
+ snap:has-bond <http://syriaca.org/work/3080#lawd:embodies-#bib3080-2> .
+
+ rdf:about <http://syriaca.org/work/3080#lawd:embodies-#bib3080-2> ;
+ lawd:embodies <http://syriaca.org/work/3080> ;
+ lawd:hasAttestation <http://syriaca.org/work/3080> .
+
+ rdf:about <http://syriaca.org/work/3080> ;
+ dcterms:relation <http://syriaca.org/work/10541> ;
+ snap:has-bond <http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3080> .
+
+ rdf:about <http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3080> ;
+ dcterms:isPartOf <http://syriaca.org/work/10541> ;
+ lawd:hasAttestation <http://syriaca.org/work/3080> .
+
+<http://syriaca.org/work/3080/html> a rdfs:Resource; ;
+ dcterms:title "To the Monks of the Monastery of Mar Isaac"@en ;
+ dcterms:subject <http://syriaca.org/work/3080> ;
+ dcterms:source <http://syriaca.org/bibl/671>, <http://syriaca.org/bibl/671>, <http://syriaca.org/bibl/671> ;
+ dcterms:format "text/html" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), To the Monks of the Monastery of Mar Isaac in last modified February 15, 2018, http://syriaca.org/work/3080" .
+
+<http://syriaca.org/work/3080/tei> a rdfs:Resource; ;
+ dcterms:title "To the Monks of the Monastery of Mar Isaac"@en ;
+ dcterms:subject <http://syriaca.org/work/3080> ;
+ dcterms:source <http://syriaca.org/bibl/671>, <http://syriaca.org/bibl/671>, <http://syriaca.org/bibl/671> ;
+ dcterms:format "text/xml" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), To the Monks of the Monastery of Mar Isaac in last modified February 15, 2018, http://syriaca.org/work/3080" .
+
+<http://syriaca.org/work/3080/ttl> a rdfs:Resource; ;
+ dcterms:title "To the Monks of the Monastery of Mar Isaac"@en ;
+ dcterms:subject <http://syriaca.org/work/3080> ;
+ dcterms:subject <http://syriaca.org/work/3080> ;
+ dcterms:source <http://syriaca.org/bibl/671>, <http://syriaca.org/bibl/671>, <http://syriaca.org/bibl/671> ;
+ dcterms:format "text/turtle" ;
+ dcterms:bibliographicCitation "Daniel L. Schwartz (eds.), To the Monks of the Monastery of Mar Isaac in last modified February 15, 2018, http://syriaca.org/work/3080" .
