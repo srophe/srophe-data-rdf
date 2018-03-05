@@ -16,7 +16,7 @@
                      Grâces te soient rendues, Seigneur, par toutes les troupes invisibles de feu; et de toutes les bouches du monde, que la terre te chante des louanges. 
                 </dcterms:description>
         <dcterms:description>partielle</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib999-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
         <dcterms:relation rdf:resource="#bib999-4"/>
@@ -27,11 +27,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
         <dcterms:relation rdf:resource="#bib999-7"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-7"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1741"/>
@@ -48,46 +48,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/999/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/999/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/999/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib999-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/999#lawd:embodies-#bib999-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/999"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib999-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/999#lawd:embodies-#bib999-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/999"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib999-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/999#lawd:embodies-#bib999-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/999"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib999-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/999#lawd:embodies-#bib999-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/999"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib999-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/999"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/999#lawd:embodies-#bib999-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/999#lawd:embodies-#bib999-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/999"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/999"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/999/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -126,6 +86,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/999</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/999/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/999"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1968"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1988"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/999</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

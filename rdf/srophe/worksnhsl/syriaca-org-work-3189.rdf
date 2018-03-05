@@ -3,13 +3,13 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">To Soteric, Bishop of Caesarea in Cappadocia</rdfs:label>
         <dcterms:description>A letter of Severus of Antioch preserved in fragment without a clear indication of its place in the various ancient collection of his letters.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3189-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3189"/>
         <dcterms:relation rdf:resource="#bib3189-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3189"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3189#lawd:embodies-#bib3189-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3189#lawd:embodies-#bib3189-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3189"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3189"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
@@ -22,22 +22,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3189/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3189/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3189/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3189-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3189"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3189#lawd:embodies-#bib3189-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3189#lawd:embodies-#bib3189-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3189"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3189"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3189-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3189"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3189#lawd:embodies-#bib3189-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3189#lawd:embodies-#bib3189-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3189"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3189"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3189/html">
         <dcterms:title xml:lang="en">To Soteric, Bishop of Caesarea in Cappadocia</dcterms:title>

@@ -15,16 +15,16 @@
         <dcterms:description>
                      Et accordez-moi vos prières, en demandant au Christ Dieu au-dessus de tout qu’il m’accorde un retour joyeux vers la ville d’Antioche, lui à qui convient… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib1963-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1963"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1963"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1466"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1963#lawd:embodies-#bib1963-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1466#syriaca:commemorated-http://syriaca.org/work/1963"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1153#syriaca:commemorated-http://syriaca.org/work/1963"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1963"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1466"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1153"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -36,28 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1963/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1963/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1963/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1963-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1963"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1963#lawd:embodies-#bib1963-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1963#lawd:embodies-#bib1963-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1963"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1963"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1963">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1466"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1466#syriaca:commemorated-http://syriaca.org/work/1963"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1153#syriaca:commemorated-http://syriaca.org/work/1963"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1466#syriaca:commemorated-http://syriaca.org/work/1963">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1466"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1963"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1153#syriaca:commemorated-http://syriaca.org/work/1963">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1153"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1963"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1963/html">
         <dcterms:title xml:lang="syr">ܣܐܪܓܝܣ ܘܒܐܟܘܣ</dcterms:title>
@@ -81,6 +59,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1963"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Sergius and Bacchus (text) — ܣܐܪܓܝܣ ܘܒܐܟܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1963</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1963/rdf">
+        <dcterms:title xml:lang="syr">ܣܐܪܓܝܣ ܘܒܐܟܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Sergius and Bacchus (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1963"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Sergius and Bacchus (text) — ܣܐܪܓܝܣ ܘܒܐܟܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1963</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

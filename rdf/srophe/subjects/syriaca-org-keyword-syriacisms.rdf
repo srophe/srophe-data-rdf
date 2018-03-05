@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/intertextuality"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/syriacisms"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriacisms"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/syriacisms"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/intertextuality"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/syriacisms/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/syriacisms/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/syriacisms/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/syriacisms/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/syriacisms/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/syriacisms">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriacisms"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriacisms">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/syriacisms"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/syriacisms">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/syriacisms"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/syriacisms">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/syriacisms"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/syriacisms/html">
         <dcterms:title xml:lang="en">Syriacisms</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Syriacisms</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/syriacisms"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Syriacisms" in last modified May 5, 2017, http://syriaca.org/keyword/syriacisms</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/syriacisms/rdf">
+        <dcterms:title xml:lang="en">Syriacisms</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/syriacisms"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Syriacisms" in last modified May 5, 2017, http://syriaca.org/keyword/syriacisms</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

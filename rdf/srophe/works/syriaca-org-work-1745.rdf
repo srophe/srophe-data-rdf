@@ -15,7 +15,7 @@
         <dcterms:description>
                      Par la prostituée et par l’adultère le sauveur a été crucifié; béni soi celui qui en Osée a formé une image pleine de taches. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib1745-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
         <dcterms:relation rdf:resource="#bib1745-3"/>
@@ -26,11 +26,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1952"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1952#syriaca:commemorated-http://syriaca.org/work/1745"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1952"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1955"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1745/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1745/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1745/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1745-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1745#lawd:embodies-#bib1745-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1745"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1745-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1745#lawd:embodies-#bib1745-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1745"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1745-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1745#lawd:embodies-#bib1745-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1745"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1745-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1745"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1745#lawd:embodies-#bib1745-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1745#lawd:embodies-#bib1745-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1745"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1745"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1745">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1952"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1952#syriaca:commemorated-http://syriaca.org/work/1745"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1952#syriaca:commemorated-http://syriaca.org/work/1745">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1952"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1745"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1745/html">
         <dcterms:title xml:lang="syr">ܗܘܫܥ</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1955"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Hosea (text) — ܗܘܫܥ" in last modified December 12, 2016, http://syriaca.org/work/1745</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1745/rdf">
+        <dcterms:title xml:lang="syr">ܗܘܫܥ</dcterms:title>
+        <dcterms:title xml:lang="en">Hosea (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1745"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1955"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1955"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Hosea (text) — ܗܘܫܥ" in last modified December 12, 2016, http://syriaca.org/work/1745</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

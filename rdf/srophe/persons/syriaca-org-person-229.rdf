@@ -86,8 +86,6 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Metropolitan</dcterms:description>
-        <dcterms:description>Not the same as Yaʿqub bar Shakko (http://syriaca.org/person/231)</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_229"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/229"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/231"/>
@@ -97,13 +95,13 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/142"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/332"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/231#syriaca:differentFrom-http://syriaca.org/person/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/229#syriaca:differentFrom-http://syriaca.org/person/231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/142#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/332#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/216#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/231"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/229"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/130"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/142"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/332"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/216"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -117,54 +115,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/229/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/229/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/229/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/229">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/231#syriaca:differentFrom-http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/231#syriaca:differentFrom-http://syriaca.org/person/229">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/231"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/231">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/229#syriaca:differentFrom-http://syriaca.org/person/231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/229#syriaca:differentFrom-http://syriaca.org/person/231">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/229"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/229">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/69"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/142"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/142#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/332"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/332#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/216#syriaca:hasRelationToPlace-http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/229">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/229">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/130"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/142#syriaca:hasRelationToPlace-http://syriaca.org/person/229">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/142"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/332#syriaca:hasRelationToPlace-http://syriaca.org/person/229">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/332"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/216#syriaca:hasRelationToPlace-http://syriaca.org/person/229">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/216"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/229"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/229/html">
         <dcterms:title xml:lang="syr">
@@ -203,6 +153,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Jacob bar Tashkako — ܝܥܩܘܒ ܒܪ ܬܫܟܟܐ" in last modified December 9, 2016, http://syriaca.org/person/229</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/229/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܝܥܩܘܒ 
+                         ܒܪ ܬܫܟܟܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/229"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Jacob bar Tashkako — ܝܥܩܘܒ ܒܪ ܬܫܟܟܐ" in last modified December 9, 2016, http://syriaca.org/person/229</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

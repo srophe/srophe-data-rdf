@@ -29,10 +29,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/398"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/398"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1213"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/398#lawd:embodies-#bib398-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/398#lawd:embodies-#bib398-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/398#lawd:embodies-#bib398-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1213#syriaca:commemorated-http://syriaca.org/work/398"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/398"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/398"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/398"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1213"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -46,38 +46,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/398/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/398/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/398/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib398-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/398"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/398#lawd:embodies-#bib398-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/398#lawd:embodies-#bib398-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/398"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/398"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib398-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/398"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/398#lawd:embodies-#bib398-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/398#lawd:embodies-#bib398-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/398"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/398"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib398-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/398"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/398#lawd:embodies-#bib398-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/398#lawd:embodies-#bib398-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/398"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/398"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/398">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1213"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1213#syriaca:commemorated-http://syriaca.org/work/398"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1213#syriaca:commemorated-http://syriaca.org/work/398">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1213"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/398"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/398/html">
         <dcterms:title xml:lang="syr">ܕܘܡܛ</dcterms:title>
@@ -107,6 +75,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/859"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Domitius (text) — ܕܘܡܛ" in last modified December 12, 2016, http://syriaca.org/work/398</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/398/rdf">
+        <dcterms:title xml:lang="syr">ܕܘܡܛ</dcterms:title>
+        <dcterms:title xml:lang="en">Domitius (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/398"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/859"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Domitius (text) — ܕܘܡܛ" in last modified December 12, 2016, http://syriaca.org/work/398</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

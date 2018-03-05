@@ -79,8 +79,6 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author died at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_187"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/187"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/394"/>
@@ -89,11 +87,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/359"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/336"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/318"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/394#syriaca:diedAt-http://syriaca.org/person/187"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/319#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/336#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/318#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
+        <syriaca:diedAt rdf:resource="http://syriaca.org/place/394"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/319"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/359"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/336"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/318"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -109,40 +107,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/187/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/187/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/187/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/187">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/394"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/394#syriaca:diedAt-http://syriaca.org/person/187"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/394#syriaca:diedAt-http://syriaca.org/person/187">
-        <syriaca:diedAt rdf:resource="http://syriaca.org/place/394"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/187"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/187">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/319"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/319#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/359"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/336"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/336#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/318"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/318#syriaca:hasRelationToPlace-http://syriaca.org/person/187"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/319#syriaca:hasRelationToPlace-http://syriaca.org/person/187">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/319"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/187"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/187">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/359"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/187"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/336#syriaca:hasRelationToPlace-http://syriaca.org/person/187">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/336"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/187"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/318#syriaca:hasRelationToPlace-http://syriaca.org/person/187">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/318"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/187"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/187/html">
         <dcterms:title xml:lang="syr">
@@ -187,6 +151,21 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/709"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John, the disciple of Marun — ܝܘܚܢܢ ܬܠܡܝܕ ܡܐܪܘܢ" in last modified August 17, 2016, http://syriaca.org/person/187</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/187/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܝܘܚܢܢ 
+                         ܬܠܡܝܕ ܡܐܪܘܢ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/187"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/709"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John, the disciple of Marun — ܝܘܚܢܢ ܬܠܡܝܕ ܡܐܪܘܢ" in last modified August 17, 2016, http://syriaca.org/person/187</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

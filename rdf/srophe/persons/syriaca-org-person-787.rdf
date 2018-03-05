@@ -57,15 +57,14 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>Maron.</dcterms:description>
-        <dcterms:description>Not the same as the 4th cent. Theophilus of Edessa in Barsoum (http://syriaca.org/person/6).</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_787"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/42197189"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/280596465"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=T&amp;sK=Theophilus of Edessa&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/787"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/6#syriaca:differentFrom-http://syriaca.org/person/787"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/787#syriaca:differentFrom-http://syriaca.org/person/6"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/6"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/787"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/562"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/5"/>
@@ -81,22 +80,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/787/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/787/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/787/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/787">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/6#syriaca:differentFrom-http://syriaca.org/person/787"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/6#syriaca:differentFrom-http://syriaca.org/person/787">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/6"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/787"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/6">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/787"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/787#syriaca:differentFrom-http://syriaca.org/person/6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/787#syriaca:differentFrom-http://syriaca.org/person/6">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/787"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/787"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/787/html">
         <dcterms:title xml:lang="en">
@@ -153,6 +136,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/709"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Theophilos of Edessa — ܬܐܘܦܝܠܘܣ ܕܐܘܪܗܝ" in last modified August 17, 2016, http://syriaca.org/person/787</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/787/rdf">
+        <dcterms:title xml:lang="en">
+                         Theophilos 
+                         of Edessa 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܬܐܘܦܝܠܘܣ 
+                         ܕܐܘܪܗܝ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/787"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/562"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/643"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/709"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Theophilos of Edessa — ܬܐܘܦܝܠܘܣ ܕܐܘܪܗܝ" in last modified August 17, 2016, http://syriaca.org/person/787</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

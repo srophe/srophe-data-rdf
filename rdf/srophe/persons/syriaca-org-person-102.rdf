@@ -81,14 +81,13 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Metropolitan of Aleppo</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_102"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/18"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
         <dcterms:relation rdf:resource="#person-102"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/358"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/358#syriaca:hasRelationToPlace-#person-102"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/18#syriaca:hasRelationToPlace-#person-102"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/358"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/18"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -101,20 +100,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/102/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/102/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/102/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-102">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/358"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/358#syriaca:hasRelationToPlace-#person-102"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/18#syriaca:hasRelationToPlace-#person-102"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/358#syriaca:hasRelationToPlace-#person-102">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/358"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/102"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/18#syriaca:hasRelationToPlace-#person-102">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/18"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/102"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/102/html">
         <dcterms:title xml:lang="en">
@@ -162,6 +147,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Matthew, metropolitan of Aleppo — ܡܬܝ ܕܚܠܒ" in last modified August 17, 2016, http://syriaca.org/person/102</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/102/rdf">
+        <dcterms:title xml:lang="en">
+                         Matthew ,  metropolitan of  Aleppo 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܡܬܝ 
+                         ܕܚܠܒ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/102"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Matthew, metropolitan of Aleppo — ܡܬܝ ܕܚܠܒ" in last modified August 17, 2016, http://syriaca.org/person/102</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

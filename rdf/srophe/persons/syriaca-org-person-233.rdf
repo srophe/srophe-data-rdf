@@ -73,17 +73,15 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Bishop of St. Matthew’s Monastery</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_233"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/233"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/260"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/233"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/260#syriaca:bornAt-http://syriaca.org/person/233"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-http://syriaca.org/person/233"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/5#syriaca:hasRelationToPlace-http://syriaca.org/person/233"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/260"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/5"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -97,28 +95,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/233/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/233/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/233/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/233">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/260"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/260#syriaca:bornAt-http://syriaca.org/person/233"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/260#syriaca:bornAt-http://syriaca.org/person/233">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/260"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/233"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/233">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-http://syriaca.org/person/233"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/5#syriaca:hasRelationToPlace-http://syriaca.org/person/233"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/227#syriaca:hasRelationToPlace-http://syriaca.org/person/233">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/233"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/5#syriaca:hasRelationToPlace-http://syriaca.org/person/233">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/5"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/233"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/233/html">
         <dcterms:title xml:lang="en">
@@ -166,6 +142,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Gregorius John, bishop of Mor Matay Monastery — ܓܪܝܓܘܪܝܘܣ ܝܘܚܢܢ ܕܡܪܝ ܡܬܝ" in last modified August 17, 2016, http://syriaca.org/person/233</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/233/rdf">
+        <dcterms:title xml:lang="en">
+                         Gregorius John ,  bishop of Mor Matay Monastery 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܓܪܝܓܘܪܝܘܣ ܝܘܚܢܢ 
+                         ܕܡܪܝ ܡܬܝ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/233"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Gregorius John, bishop of Mor Matay Monastery — ܓܪܝܓܘܪܝܘܣ ܝܘܚܢܢ ܕܡܪܝ ܡܬܝ" in last modified August 17, 2016, http://syriaca.org/person/233</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -15,7 +15,7 @@
         <dcterms:description>
                      Vous voyez le signe de l’Ancien Testament et du Nouveau: c’était en effet la croix qui sauva le monde par Jésus-Christ notre Seigneur, à qui… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/2784"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2784"/>
         <dcterms:relation rdf:resource="#bib1273-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1273"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1273"/>
@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/624"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1273"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/624"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1273#lawd:embodies-#bib1273-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1590#syriaca:commemorated-http://syriaca.org/work/1273"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/624#syriaca:commemorated-http://syriaca.org/work/1273"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/624#syriaca:commemorated-http://syriaca.org/work/1273"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1273"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1590"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/624"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/624"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -38,36 +38,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1273/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1273/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1273/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1273-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1273"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1273#lawd:embodies-#bib1273-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1273#lawd:embodies-#bib1273-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1273"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1273"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1273">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1590#syriaca:commemorated-http://syriaca.org/work/1273"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/624"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/624#syriaca:commemorated-http://syriaca.org/work/1273"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1590#syriaca:commemorated-http://syriaca.org/work/1273">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1273"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/624#syriaca:commemorated-http://syriaca.org/work/1273">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/624"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1273"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1273">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/624"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/624#syriaca:commemorated-http://syriaca.org/work/1273"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/624#syriaca:commemorated-http://syriaca.org/work/1273">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/624"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1273"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1273/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ ܘܫܡܥܘܢ ܘܚܢܐ</dcterms:title>
@@ -91,6 +61,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1273"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary, Mother of God, Simeon, and Anna (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ ܘܫܡܥܘܢ ܘܚܢܐ" in last modified December 12, 2016, http://syriaca.org/work/1273</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1273/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ ܘܫܡܥܘܢ ܘܚܢܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary, Mother of God, Simeon, and Anna (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1273"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary, Mother of God, Simeon, and Anna (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ ܘܫܡܥܘܢ ܘܚܢܐ" in last modified December 12, 2016, http://syriaca.org/work/1273</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

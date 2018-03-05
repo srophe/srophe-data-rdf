@@ -6,7 +6,7 @@
         <dcterms:description>
                              part 1 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib219-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/219"/>
         <dcterms:relation rdf:resource="#bib219-1"/>
@@ -17,11 +17,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9702"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/219"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/219#lawd:embodies-#bib219-3"/>
-        <snap:has-bond rdf:resource="#bib219-2#dcterms:source-#bib219-1"/>
-        <snap:has-bond rdf:resource="#bib219-2#lawd:hasCitation-http://syriaca.org/manuscript/159"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9702#skos:broadMatch-http://syriaca.org/work/219"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#dcterms:isPartOf-http://syriaca.org/work/219"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/219"/>
+        <dcterms:source rdf:resource="#bib219-2"/>
+        <lawd:hasCitation rdf:resource="#bib219-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9702"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/210"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/159"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/159"/>
@@ -34,46 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/219/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/219/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/219/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib219-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/219"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/219#lawd:embodies-#bib219-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/219#lawd:embodies-#bib219-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/219"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib219-1">
-        <dcterms:relation rdf:resource="#bib219-2"/>
-        <snap:has-bond rdf:resource="#bib219-2#dcterms:source-#bib219-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib219-2#dcterms:source-#bib219-1">
-        <dcterms:source rdf:resource="#bib219-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/159">
-        <dcterms:relation rdf:resource="#bib219-2"/>
-        <snap:has-bond rdf:resource="#bib219-2#lawd:hasCitation-http://syriaca.org/manuscript/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib219-2#lawd:hasCitation-http://syriaca.org/manuscript/159">
-        <lawd:hasCitation rdf:resource="#bib219-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/219">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9702"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9702#skos:broadMatch-http://syriaca.org/work/219"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9702#skos:broadMatch-http://syriaca.org/work/219">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9702"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/219">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#dcterms:isPartOf-http://syriaca.org/work/219"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/210#dcterms:isPartOf-http://syriaca.org/work/219">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/210"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/219"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/219/html">
         <dcterms:title xml:lang="en">James (Harklensian version)</dcterms:title>

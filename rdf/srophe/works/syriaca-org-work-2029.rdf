@@ -10,10 +10,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/2029"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/2029"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1749"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2029#lawd:embodies-#bib2029-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2029#lawd:embodies-#bib2029-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2029#lawd:embodies-#bib2029-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1749#syriaca:commemorated-http://syriaca.org/work/2029"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2029"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2029"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2029"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1749"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1888"/>
@@ -27,38 +27,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2029/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2029/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2029/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2029-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2029"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2029#lawd:embodies-#bib2029-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2029#lawd:embodies-#bib2029-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2029"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2029"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2029-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2029"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2029#lawd:embodies-#bib2029-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2029#lawd:embodies-#bib2029-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2029"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2029"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2029-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2029"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2029#lawd:embodies-#bib2029-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2029#lawd:embodies-#bib2029-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2029"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2029"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2029">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1749"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1749#syriaca:commemorated-http://syriaca.org/work/2029"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1749#syriaca:commemorated-http://syriaca.org/work/2029">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1749"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2029"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/2029/html">
         <dcterms:title xml:lang="en">George (text)</dcterms:title>
@@ -85,6 +53,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1888"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "George (text)" in last modified December 12, 2016, http://syriaca.org/work/2029</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/2029/rdf">
+        <dcterms:title xml:lang="en">George (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/2029"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1888"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1888"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "George (text)" in last modified December 12, 2016, http://syriaca.org/work/2029</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/judaism"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/jewish-background"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/jewish-background"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/jewish-background"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/judaism"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/jewish-background/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/jewish-background/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/jewish-background/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/jewish-background/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/jewish-background/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/jewish-background">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/judaism"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/jewish-background"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/jewish-background">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/judaism"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/jewish-background"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/jewish-background">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/jewish-background"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/jewish-background">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/jewish-background"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/jewish-background/html">
         <dcterms:title xml:lang="en">Jewish background</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Jewish background</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/jewish-background"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Jewish background" in last modified May 5, 2017, http://syriaca.org/keyword/jewish-background</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/jewish-background/rdf">
+        <dcterms:title xml:lang="en">Jewish background</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/jewish-background"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Jewish background" in last modified May 5, 2017, http://syriaca.org/keyword/jewish-background</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

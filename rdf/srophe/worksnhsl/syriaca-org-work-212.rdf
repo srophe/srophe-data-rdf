@@ -8,7 +8,7 @@
                              book 4 
                              part 4 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib212-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/212"/>
         <dcterms:relation rdf:resource="#bib212-1"/>
@@ -19,11 +19,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9696"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/57"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/211"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/212#lawd:embodies-#bib212-3"/>
-        <snap:has-bond rdf:resource="#bib212-2#dcterms:source-#bib212-1"/>
-        <snap:has-bond rdf:resource="#bib212-2#lawd:hasCitation-http://syriaca.org/manuscript/119"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9696#skos:broadMatch-http://syriaca.org/work/212"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/211#dcterms:isPartOf-http://syriaca.org/work/57"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/212"/>
+        <dcterms:source rdf:resource="#bib212-2"/>
+        <lawd:hasCitation rdf:resource="#bib212-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9696"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/211"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/119"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/119"/>
@@ -36,46 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/212/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/212/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/212/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib212-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/212"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/212#lawd:embodies-#bib212-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/212#lawd:embodies-#bib212-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/212"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/212"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib212-1">
-        <dcterms:relation rdf:resource="#bib212-2"/>
-        <snap:has-bond rdf:resource="#bib212-2#dcterms:source-#bib212-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib212-2#dcterms:source-#bib212-1">
-        <dcterms:source rdf:resource="#bib212-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/212"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/119">
-        <dcterms:relation rdf:resource="#bib212-2"/>
-        <snap:has-bond rdf:resource="#bib212-2#lawd:hasCitation-http://syriaca.org/manuscript/119"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib212-2#lawd:hasCitation-http://syriaca.org/manuscript/119">
-        <lawd:hasCitation rdf:resource="#bib212-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/212"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/212">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9696"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9696#skos:broadMatch-http://syriaca.org/work/212"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9696#skos:broadMatch-http://syriaca.org/work/212">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9696"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/212"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/57">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/211"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/211#dcterms:isPartOf-http://syriaca.org/work/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/211#dcterms:isPartOf-http://syriaca.org/work/57">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/211"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/212"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/212/html">
         <dcterms:title xml:lang="en">Thecla (Peshitta)</dcterms:title>

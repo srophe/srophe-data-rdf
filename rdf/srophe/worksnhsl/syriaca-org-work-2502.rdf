@@ -69,21 +69,21 @@
         <skos:closeMatch rdf:resource="http://digi.vatlib.it/mss/detail/Vat.sir.388"/>
         <skos:closeMatch rdf:resource="http://mss.bmlonline.it/s.aspx?Id=AVKpZgTlfJ8ZMCf2i5w5#/book"/>
         <skos:closeMatch rdf:resource="http://www.e-corpus.org/eng/ref/163871/Firenze_BML_Or._366_[Assemani_118]/"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/239"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/1534"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/1449"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/592"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/820"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/700"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/701"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/702"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/844"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/239"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/1534"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/1449"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/592"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/820"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/700"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/701"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/702"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/844"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/2502"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/2500"/>
         <dcterms:relation rdf:resource="#bib2502-1"/>
         <dcterms:relation rdf:resource="#bib2502-18"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2500#dcterms:isPartOf-http://syriaca.org/work/2502"/>
-        <snap:has-bond rdf:resource="#bib2502-18#dcterms:source-#bib2502-1"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/2500"/>
+        <dcterms:source rdf:resource="#bib2502-18"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/2500"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2275"/>
@@ -109,22 +109,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2502/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2502/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2502/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2502">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2500"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2500#dcterms:isPartOf-http://syriaca.org/work/2502"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2500#dcterms:isPartOf-http://syriaca.org/work/2502">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/2500"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2502"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2502-1">
-        <dcterms:relation rdf:resource="#bib2502-18"/>
-        <snap:has-bond rdf:resource="#bib2502-18#dcterms:source-#bib2502-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2502-18#dcterms:source-#bib2502-1">
-        <dcterms:source rdf:resource="#bib2502-18"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2502"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/2502/html">
         <dcterms:title xml:lang="syr">ܟܬܒܐ ܕܐܩܠܣܝܣܛܝܩܝ</dcterms:title>

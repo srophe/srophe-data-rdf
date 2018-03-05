@@ -12,13 +12,13 @@
         <dcterms:description>
                      Je voulais les voir et baiser les membres, car ils distribuent la sainteté à ceux qui s’approchent d’eux, ils chassent les maladies, ils poursuivent les démons, ils rendent le Christ ??? pour ceux qui ??? à qui… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/573"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/573"/>
         <dcterms:relation rdf:resource="#bib1281-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1281"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1281"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1983"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1281#lawd:embodies-#bib1281-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1983#syriaca:commemorated-http://syriaca.org/work/1281"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1281"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1983"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -30,22 +30,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1281/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1281/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1281/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1281-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1281#lawd:embodies-#bib1281-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1281#lawd:embodies-#bib1281-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1281"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1281">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1983"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1983#syriaca:commemorated-http://syriaca.org/work/1281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1983#syriaca:commemorated-http://syriaca.org/work/1281">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1983"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1281"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1281/html">
         <dcterms:title xml:lang="syr">ܦܘܠܘܣ</dcterms:title>
@@ -69,6 +53,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1281"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Paul, the Apostle (text) — ܦܘܠܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1281</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1281/rdf">
+        <dcterms:title xml:lang="syr">ܦܘܠܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Paul, the Apostle (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1281"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Paul, the Apostle (text) — ܦܘܠܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1281</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

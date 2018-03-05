@@ -7,9 +7,9 @@
         <dcterms:description>Ὁμώνυμα λέγεται ὧν ὄνομα μόνον κοινόν, ὁ δὲ κατὰ τοὔνομα λόγος τῆς οὐσίας ἕτερος</dcterms:description>
         <dcterms:description>ܟܒܪ ܕܝܢ ܘܙ̈ܢܝܐ ܡܕܡ ܐܚܪ̈ܢܐ ܕܗܿܝ ܕܐܝܬ ܠܗ ܢܬܚܙܘܢ. ܗܠܝܢ ܕܝܢ ܕܡܥܕܝܢ ܕܢܬܐܡܪܘܢ܆ ܒܨܝܪ ܩܠܝܠ ܟܠܗܘܢ ܐܬܡܢܝܘ</dcterms:description>
         <dcterms:description>ἴσως δ’ ἂν καὶ ἄλλοι τινὲς φανείησαν τοῦ ἔχειν τρόποι, οἱ δὲ εἰωθότες λέγεσθαι σχεδὸν ἅπαντες κατηρίθμηνται.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/342"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/122"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/342"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/122"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib9724-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9724"/>
         <dcterms:relation rdf:resource="#bib9724-2"/>
@@ -24,13 +24,13 @@
         <dcterms:relation rdf:resource="#bib9724-8"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9724"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9731"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-4"/>
-        <snap:has-bond rdf:resource="#bib9724-8#lawd:hasCitation-#bib9724-4"/>
-        <snap:has-bond rdf:resource="#bib9724-8#dcterms:source-#bib9724-9"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9731#skos:broadMatch-http://syriaca.org/work/9724"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
+        <lawd:hasCitation rdf:resource="#bib9724-8"/>
+        <dcterms:source rdf:resource="#bib9724-8"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9731"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2472"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2465"/>
@@ -56,62 +56,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9724/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9724/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9724/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9724"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9724#lawd:embodies-#bib9724-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9724"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9724#lawd:embodies-#bib9724-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9724"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9724#lawd:embodies-#bib9724-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9724"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9724#lawd:embodies-#bib9724-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9724#lawd:embodies-#bib9724-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9724"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-4">
-        <dcterms:relation rdf:resource="#bib9724-8"/>
-        <snap:has-bond rdf:resource="#bib9724-8#lawd:hasCitation-#bib9724-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-8#lawd:hasCitation-#bib9724-4">
-        <lawd:hasCitation rdf:resource="#bib9724-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-9">
-        <dcterms:relation rdf:resource="#bib9724-8"/>
-        <snap:has-bond rdf:resource="#bib9724-8#dcterms:source-#bib9724-9"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9724-8#dcterms:source-#bib9724-9">
-        <dcterms:source rdf:resource="#bib9724-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9724">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9731"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9731#skos:broadMatch-http://syriaca.org/work/9724"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9731#skos:broadMatch-http://syriaca.org/work/9724">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9731"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9724"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/9724/html">
         <dcterms:title xml:lang="en">Categories (version of George, bishop of the Arabs)</dcterms:title>

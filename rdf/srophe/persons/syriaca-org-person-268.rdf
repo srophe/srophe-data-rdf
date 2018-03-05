@@ -98,8 +98,6 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Patriarch</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_268"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=A&amp;sK=Aziz b. Sobto&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/268"/>
@@ -108,10 +106,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/226"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/217"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1484#syriaca:bornAt-http://syriaca.org/person/268"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/226#syriaca:hasRelationToPlace-http://syriaca.org/person/268"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/217#syriaca:hasRelationToPlace-http://syriaca.org/person/268"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/268"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1484"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/226"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/217"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -127,34 +125,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/268/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/268/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/268/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/268">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1484"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1484#syriaca:bornAt-http://syriaca.org/person/268"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1484#syriaca:bornAt-http://syriaca.org/person/268">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1484"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/268"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/268">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/226"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/226#syriaca:hasRelationToPlace-http://syriaca.org/person/268"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/217"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/217#syriaca:hasRelationToPlace-http://syriaca.org/person/268"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/268"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/226#syriaca:hasRelationToPlace-http://syriaca.org/person/268">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/226"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/268"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/217#syriaca:hasRelationToPlace-http://syriaca.org/person/268">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/217"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/268"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/268">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/268"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/268/html">
         <dcterms:title xml:lang="en">
@@ -214,6 +184,26 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius ʿAziz bar Sobto, patriarch — ܥܙܝܙ ܒܪ ܣܒܬܐ" in last modified December 9, 2016, http://syriaca.org/person/268</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/268/rdf">
+        <dcterms:title xml:lang="en">
+                         Ignatius ʿAziz 
+                         bar Sobto , 
+                     patriarch 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܥܙܝܙ 
+                         ܒܪ ܣܒܬܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/268"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius ʿAziz bar Sobto, patriarch — ܥܙܝܙ ܒܪ ܣܒܬܐ" in last modified December 9, 2016, http://syriaca.org/person/268</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

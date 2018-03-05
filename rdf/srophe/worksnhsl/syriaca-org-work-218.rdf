@@ -8,7 +8,7 @@
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib218-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/218"/>
         <dcterms:relation rdf:resource="#bib218-6"/>
@@ -23,13 +23,13 @@
         <dcterms:relation rdf:resource="#bib218-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/218"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9648"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/218#lawd:embodies-#bib218-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/218#lawd:embodies-#bib218-6"/>
-        <snap:has-bond rdf:resource="#bib218-2#dcterms:source-#bib218-1"/>
-        <snap:has-bond rdf:resource="#bib218-2#lawd:hasCitation-http://syriaca.org/manuscript/1184"/>
-        <snap:has-bond rdf:resource="#bib218-4#dcterms:source-#bib218-3"/>
-        <snap:has-bond rdf:resource="#bib218-4#lawd:hasCitation-http://syriaca.org/manuscript/1184"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/218"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/218"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/218"/>
+        <dcterms:source rdf:resource="#bib218-2"/>
+        <lawd:hasCitation rdf:resource="#bib218-2"/>
+        <dcterms:source rdf:resource="#bib218-4"/>
+        <lawd:hasCitation rdf:resource="#bib218-4"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9648"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9648"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1184"/>
@@ -46,62 +46,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/218/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/218/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/218/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/218"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/218#lawd:embodies-#bib218-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/218#lawd:embodies-#bib218-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/218"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/218"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/218#lawd:embodies-#bib218-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/218#lawd:embodies-#bib218-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/218"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-1">
-        <dcterms:relation rdf:resource="#bib218-2"/>
-        <snap:has-bond rdf:resource="#bib218-2#dcterms:source-#bib218-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-2#dcterms:source-#bib218-1">
-        <dcterms:source rdf:resource="#bib218-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1184">
-        <dcterms:relation rdf:resource="#bib218-2"/>
-        <snap:has-bond rdf:resource="#bib218-2#lawd:hasCitation-http://syriaca.org/manuscript/1184"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-2#lawd:hasCitation-http://syriaca.org/manuscript/1184">
-        <lawd:hasCitation rdf:resource="#bib218-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-3">
-        <dcterms:relation rdf:resource="#bib218-4"/>
-        <snap:has-bond rdf:resource="#bib218-4#dcterms:source-#bib218-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-4#dcterms:source-#bib218-3">
-        <dcterms:source rdf:resource="#bib218-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1184">
-        <dcterms:relation rdf:resource="#bib218-4"/>
-        <snap:has-bond rdf:resource="#bib218-4#lawd:hasCitation-http://syriaca.org/manuscript/1184"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib218-4#lawd:hasCitation-http://syriaca.org/manuscript/1184">
-        <lawd:hasCitation rdf:resource="#bib218-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/218">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9648"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/218"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/218">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9648"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/218"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/218/html">
         <dcterms:title xml:lang="en">Luke (unidentified Latin version)</dcterms:title>

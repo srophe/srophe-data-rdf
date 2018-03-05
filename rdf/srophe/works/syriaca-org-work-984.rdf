@@ -15,7 +15,7 @@
         <dcterms:description>
                      En Marie est apparue la lumière; elle a chassé les ténèbres introduites par Ève et qui avaient troublés l’humanité; la création obscurcie a été illuminée par Marie. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib984-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
         <dcterms:relation rdf:resource="#bib984-4"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
         <dcterms:relation rdf:resource="#bib984-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-6"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1741"/>
@@ -43,38 +43,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/984/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/984/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/984/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib984-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/984#lawd:embodies-#bib984-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/984"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib984-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/984#lawd:embodies-#bib984-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/984"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib984-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/984#lawd:embodies-#bib984-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/984"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib984-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/984"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/984#lawd:embodies-#bib984-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/984#lawd:embodies-#bib984-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/984"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/984"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/984/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -110,6 +78,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/984</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/984/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/984"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1968"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/984</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

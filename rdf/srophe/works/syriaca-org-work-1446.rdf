@@ -17,10 +17,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/376"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1446"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2793"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1446#lawd:embodies-#bib1446-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1446#lawd:embodies-#bib1446-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/376#syriaca:commemorated-http://syriaca.org/work/1446"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2793#syriaca:commemorated-http://syriaca.org/work/1446"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1446"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1446"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/376"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2793"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -34,38 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1446/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1446/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1446/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1446-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1446"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1446#lawd:embodies-#bib1446-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1446#lawd:embodies-#bib1446-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1446"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1446"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1446-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1446"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1446#lawd:embodies-#bib1446-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1446#lawd:embodies-#bib1446-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1446"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1446"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1446">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/376"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/376#syriaca:commemorated-http://syriaca.org/work/1446"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/376#syriaca:commemorated-http://syriaca.org/work/1446">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/376"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1446"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1446">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2793"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2793#syriaca:commemorated-http://syriaca.org/work/1446"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2793#syriaca:commemorated-http://syriaca.org/work/1446">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2793"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1446"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1446/html">
         <dcterms:title xml:lang="syr">ܒܣܝܠܝܘܣ</dcterms:title>
@@ -95,6 +63,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/712"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/870"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Basil the Great (text) — ܒܣܝܠܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1446</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1446/rdf">
+        <dcterms:title xml:lang="syr">ܒܣܝܠܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Basil the Great (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1446"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/712"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/870"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Basil the Great (text) — ܒܣܝܠܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1446</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

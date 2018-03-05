@@ -3,13 +3,13 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">To Dorotheus the Count</rdfs:label>
         <dcterms:description>A letter of Severus of Antioch preserved in fragment without a clear indication of its place in the various ancient collection of his letters.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3214-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3214"/>
         <dcterms:relation rdf:resource="#bib3214-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3214"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3214#lawd:embodies-#bib3214-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3214#lawd:embodies-#bib3214-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3214"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3214"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/671"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/671"/>
@@ -22,22 +22,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3214/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3214/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3214/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3214-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3214"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3214#lawd:embodies-#bib3214-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3214#lawd:embodies-#bib3214-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3214"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3214"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3214-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3214"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3214#lawd:embodies-#bib3214-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3214#lawd:embodies-#bib3214-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3214"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3214"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3214/html">
         <dcterms:title xml:lang="en">To Dorotheus the Count</dcterms:title>

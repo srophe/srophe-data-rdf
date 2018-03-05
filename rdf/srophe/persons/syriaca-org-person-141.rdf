@@ -85,19 +85,17 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_141"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=E&amp;sK=Elijah%20of%20Harran&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/216"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/141"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/141"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/411"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/216#syriaca:bornAt-http://syriaca.org/person/141"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/141"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/411#syriaca:hasRelationToPlace-http://syriaca.org/person/141"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/216"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/411"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -112,28 +110,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/141/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/141/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/141/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/141">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/216#syriaca:bornAt-http://syriaca.org/person/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/216#syriaca:bornAt-http://syriaca.org/person/141">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/216"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/141">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/141"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/411"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/411#syriaca:hasRelationToPlace-http://syriaca.org/person/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/141">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/411#syriaca:hasRelationToPlace-http://syriaca.org/person/141">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/411"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/141"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/141/html">
         <dcterms:title xml:lang="en">
@@ -190,6 +166,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Elijah of Harran — ܐܠܝܐ ܚܪܢܝܐ" in last modified August 17, 2016, http://syriaca.org/person/141</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/141/rdf">
+        <dcterms:title xml:lang="en">
+                         Elijah 
+                         of  Harran 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܠܝܐ 
+                         ܚܪܢܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/141"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Elijah of Harran — ܐܠܝܐ ܚܪܢܝܐ" in last modified August 17, 2016, http://syriaca.org/person/141</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

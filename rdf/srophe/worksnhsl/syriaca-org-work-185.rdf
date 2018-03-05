@@ -6,8 +6,8 @@
         <dcterms:description>
                              part 3 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib185-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/185"/>
         <dcterms:relation rdf:resource="#bib185-1"/>
@@ -18,11 +18,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9666"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/185"/>
         <dcterms:relation rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/185#lawd:embodies-#bib185-3"/>
-        <snap:has-bond rdf:resource="#bib185-2#dcterms:source-#bib185-1"/>
-        <snap:has-bond rdf:resource="#bib185-2#lawd:hasCitation-http://syriaca.org/manuscript/3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9666#skos:broadMatch-http://syriaca.org/work/185"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/3#p2a1#dcterms:isPartOf-http://syriaca.org/work/185"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/185"/>
+        <dcterms:source rdf:resource="#bib185-2"/>
+        <lawd:hasCitation rdf:resource="#bib185-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9666"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/3"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/3"/>
@@ -35,46 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/185/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/185/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/185/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib185-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/185"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/185#lawd:embodies-#bib185-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/185#lawd:embodies-#bib185-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/185"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/185"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib185-1">
-        <dcterms:relation rdf:resource="#bib185-2"/>
-        <snap:has-bond rdf:resource="#bib185-2#dcterms:source-#bib185-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib185-2#dcterms:source-#bib185-1">
-        <dcterms:source rdf:resource="#bib185-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/185"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/3">
-        <dcterms:relation rdf:resource="#bib185-2"/>
-        <snap:has-bond rdf:resource="#bib185-2#lawd:hasCitation-http://syriaca.org/manuscript/3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib185-2#lawd:hasCitation-http://syriaca.org/manuscript/3">
-        <lawd:hasCitation rdf:resource="#bib185-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/185"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/185">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9666"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9666#skos:broadMatch-http://syriaca.org/work/185"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9666#skos:broadMatch-http://syriaca.org/work/185">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9666"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/185"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/185">
-        <dcterms:relation rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/3#p2a1#dcterms:isPartOf-http://syriaca.org/work/185"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/3#p2a1#dcterms:isPartOf-http://syriaca.org/work/185">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/185"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/185/html">
         <dcterms:title xml:lang="en">Joshua (Hexapla)</dcterms:title>

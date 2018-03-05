@@ -104,7 +104,6 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>Ch. of E.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_555"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/68049266"/>
         <skos:closeMatch rdf:resource="http://worldcat.org/identities/lccn-n88-648903"/>
@@ -115,7 +114,7 @@
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=I&amp;sK=Ishodad of Merv&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/http://syriaca.org/person/555"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/607"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/607#syriaca:hasRelationToPlace-http://syriaca.org/person/http://syriaca.org/person/555"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/607"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/292"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -136,14 +135,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/555/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/555/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/555/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/http://syriaca.org/person/555">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/607"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/607#syriaca:hasRelationToPlace-http://syriaca.org/person/http://syriaca.org/person/555"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/607#syriaca:hasRelationToPlace-http://syriaca.org/person/http://syriaca.org/person/555">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/607"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/555"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/555/html">
         <dcterms:title xml:lang="syr">
@@ -206,6 +197,27 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ishoʿdad of Merv — ܝܫܘܥܕܕ ܡܪܘܙܝܐ" in last modified December 9, 2016, http://syriaca.org/person/555</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/555/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܝܫܘܥܕܕ 
+                         ܡܪܘܙܝܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">Ishoʿdad of Merv</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/555"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/292"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ishoʿdad of Merv — ܝܫܘܥܕܕ ܡܪܘܙܝܐ" in last modified December 9, 2016, http://syriaca.org/person/555</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

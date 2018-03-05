@@ -21,7 +21,7 @@
         <dcterms:description>
                      Par la suite il administra son Église dans la paix et la tranquillité, sans qu’il y eût de satan ni d’événement malheureux. Cex exemples de la vertu du bienheureux Flavien suffisent car nous ne pouvons pas les rassembler tous. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/367"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/367"/>
         <dcterms:relation rdf:resource="#bib876-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/876"/>
         <dcterms:relation rdf:resource="#bib876-3"/>
@@ -30,10 +30,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/876"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/876"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1737"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/876#lawd:embodies-#bib876-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/876#lawd:embodies-#bib876-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/876#lawd:embodies-#bib876-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1737#syriaca:commemorated-http://syriaca.org/work/876"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/876"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/876"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/876"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1737"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1935"/>
@@ -47,38 +47,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/876/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/876/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/876/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib876-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/876"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/876#lawd:embodies-#bib876-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/876#lawd:embodies-#bib876-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/876"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/876"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib876-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/876"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/876#lawd:embodies-#bib876-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/876#lawd:embodies-#bib876-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/876"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/876"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib876-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/876"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/876#lawd:embodies-#bib876-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/876#lawd:embodies-#bib876-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/876"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/876"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/876">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1737"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1737#syriaca:commemorated-http://syriaca.org/work/876"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1737#syriaca:commemorated-http://syriaca.org/work/876">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1737"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/876"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/876/html">
         <dcterms:title xml:lang="syr">ܦܠܘܝܢܘܣ</dcterms:title>
@@ -108,6 +76,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1935"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Flavian (text) — ܦܠܘܝܢܘܣ" in last modified December 12, 2016, http://syriaca.org/work/876</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/876/rdf">
+        <dcterms:title xml:lang="syr">ܦܠܘܝܢܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Flavian (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/876"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1935"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1935"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Flavian (text) — ܦܠܘܝܢܘܣ" in last modified December 12, 2016, http://syriaca.org/work/876</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

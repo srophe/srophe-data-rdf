@@ -16,8 +16,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/education"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/rhetors"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/rhetors"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/rhetors"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/education"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/rhetors/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/rhetors/tei"/>
@@ -27,22 +27,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/rhetors/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/rhetors/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/rhetors/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/rhetors">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/education"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/rhetors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/rhetors">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/education"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/rhetors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/rhetors">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/rhetors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/rhetors">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/rhetors"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/rhetors/html">
         <dcterms:title xml:lang="en">Rhetors</dcterms:title>
@@ -78,6 +62,18 @@
         <dcterms:title xml:lang="ru">ритор</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/rhetors"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Rhetors" in last modified May 5, 2017, http://syriaca.org/keyword/rhetors</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/rhetors/rdf">
+        <dcterms:title xml:lang="en">Rhetors</dcterms:title>
+        <dcterms:title xml:lang="syr">ܪܗܛܪܐ</dcterms:title>
+        <dcterms:title xml:lang="fr">Rhéteur</dcterms:title>
+        <dcterms:title xml:lang="de">Rhetor</dcterms:title>
+        <dcterms:title xml:lang="la">Rhetor</dcterms:title>
+        <dcterms:title xml:lang="grc">ῥήτωρ</dcterms:title>
+        <dcterms:title xml:lang="ru">ритор</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/rhetors"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Rhetors" in last modified May 5, 2017, http://syriaca.org/keyword/rhetors</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

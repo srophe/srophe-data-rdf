@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1036"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1036"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1826"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1036#lawd:embodies-#bib1036-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1036#lawd:embodies-#bib1036-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1036#lawd:embodies-#bib1036-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1826#syriaca:commemorated-http://syriaca.org/work/1036"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1036"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1036"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1036"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1826"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1841"/>
@@ -40,38 +40,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1036/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1036/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1036/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1036-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1036"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1036#lawd:embodies-#bib1036-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1036#lawd:embodies-#bib1036-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1036"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1036"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1036-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1036"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1036#lawd:embodies-#bib1036-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1036#lawd:embodies-#bib1036-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1036"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1036"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1036-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1036"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1036#lawd:embodies-#bib1036-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1036#lawd:embodies-#bib1036-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1036"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1036"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1036">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1826"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1826#syriaca:commemorated-http://syriaca.org/work/1036"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1826#syriaca:commemorated-http://syriaca.org/work/1036">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1826"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1036"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1036/html">
         <dcterms:title xml:lang="syr">ܝܘܚܢܢ</dcterms:title>
@@ -101,6 +69,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1841"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Apocalypse of John, the Evangelist (text) — ܝܘܚܢܢ" in last modified December 12, 2016, http://syriaca.org/work/1036</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1036/rdf">
+        <dcterms:title xml:lang="syr">ܝܘܚܢܢ</dcterms:title>
+        <dcterms:title xml:lang="en">Apocalypse of John, the Evangelist (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1036"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1841"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1841"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Apocalypse of John, the Evangelist (text) — ܝܘܚܢܢ" in last modified December 12, 2016, http://syriaca.org/work/1036</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

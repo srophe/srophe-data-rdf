@@ -8,7 +8,7 @@
         <dcterms:description>
                      Le Livre de Job a été écrit par Moïse, et les livres de Moïse par Aaron. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/477"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/477"/>
         <dcterms:relation rdf:resource="#bib1544-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
         <dcterms:relation rdf:resource="#bib1544-5"/>
@@ -19,11 +19,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2028"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1544"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2028"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2025"/>
@@ -38,46 +38,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1544/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1544/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1544/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1544-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1544#lawd:embodies-#bib1544-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1544"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1544-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1544#lawd:embodies-#bib1544-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1544"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1544-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1544#lawd:embodies-#bib1544-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1544"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1544-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1544"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1544#lawd:embodies-#bib1544-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1544#lawd:embodies-#bib1544-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1544"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1544"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1544">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2028"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1544"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1544">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2028"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1544"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1544/html">
         <dcterms:title xml:lang="en">Prophets (text)</dcterms:title>
@@ -107,6 +67,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1067"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1068"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Prophets (text)" in last modified December 12, 2016, http://syriaca.org/work/1544</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1544/rdf">
+        <dcterms:title xml:lang="en">Prophets (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1544"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2025"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1067"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1068"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Prophets (text)" in last modified December 12, 2016, http://syriaca.org/work/1544</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -15,13 +15,13 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/1227"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/2035"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/3018"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2035#lawd:embodies-#bib2035-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2035#lawd:embodies-#bib2035-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1227#syriaca:commemorated-http://syriaca.org/work/2035"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1227#syriaca:commemorated-http://syriaca.org/work/2035"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2035"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2035"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3018"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1227"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3018"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1227"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3018"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -33,60 +33,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2035/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2035/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2035/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2035-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2035"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2035#lawd:embodies-#bib2035-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2035#lawd:embodies-#bib2035-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2035"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2035-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2035"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2035#lawd:embodies-#bib2035-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2035#lawd:embodies-#bib2035-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2035"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2035">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3018"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1227#syriaca:commemorated-http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3018"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1227#syriaca:commemorated-http://syriaca.org/work/2035">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2035">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3018"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3018"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2035">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1227#syriaca:commemorated-http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1227#syriaca:commemorated-http://syriaca.org/work/2035">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2035">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3018"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3018#syriaca:commemorated-http://syriaca.org/work/2035">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3018"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2035"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/2035/html">
         <dcterms:title xml:lang="en">Children of Ephesus (variation) (text)</dcterms:title>
@@ -107,6 +53,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/2035"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Children of Ephesus (variation) (text)" in last modified December 12, 2016, http://syriaca.org/work/2035</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/2035/rdf">
+        <dcterms:title xml:lang="en">Children of Ephesus (variation) (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/2035"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Children of Ephesus (variation) (text)" in last modified December 12, 2016, http://syriaca.org/work/2035</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

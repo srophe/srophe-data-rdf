@@ -8,9 +8,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1665"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1817"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1825"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1665#lawd:embodies-#bib1665-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1817#syriaca:commemorated-http://syriaca.org/work/1665"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1825#syriaca:commemorated-http://syriaca.org/work/1665"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1665"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1817"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1825"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -22,28 +22,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1665/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1665/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1665/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1665-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1665"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1665#lawd:embodies-#bib1665-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1665#lawd:embodies-#bib1665-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1665"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1665"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1665">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1817"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1817#syriaca:commemorated-http://syriaca.org/work/1665"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1825"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1825#syriaca:commemorated-http://syriaca.org/work/1665"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1817#syriaca:commemorated-http://syriaca.org/work/1665">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1817"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1665"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1825#syriaca:commemorated-http://syriaca.org/work/1665">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1825"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1665"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1665/html">
         <dcterms:title xml:lang="syr">ܝܘܚܢܢ ܢܚܠܝܐ</dcterms:title>
@@ -67,6 +45,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1665"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "John Nakhlaya (text) — ܝܘܚܢܢ ܢܚܠܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1665</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1665/rdf">
+        <dcterms:title xml:lang="syr">ܝܘܚܢܢ ܢܚܠܝܐ</dcterms:title>
+        <dcterms:title xml:lang="en">John Nakhlaya (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1665"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "John Nakhlaya (text) — ܝܘܚܢܢ ܢܚܠܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1665</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -40,12 +40,12 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2044"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2044#syriaca:commemorated-http://syriaca.org/work/294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2044"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -60,54 +60,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/294/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/294/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/294/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib294-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/294#lawd:embodies-#bib294-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib294-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/294#lawd:embodies-#bib294-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib294-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/294#lawd:embodies-#bib294-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib294-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/294#lawd:embodies-#bib294-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib294-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/294#lawd:embodies-#bib294-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/294#lawd:embodies-#bib294-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/294">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2044"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2044#syriaca:commemorated-http://syriaca.org/work/294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2044#syriaca:commemorated-http://syriaca.org/work/294">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2044"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/294"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/294/html">
         <dcterms:title xml:lang="syr">ܣܒܐ ܓܘܫܢܙܕܕ</dcterms:title>
@@ -140,6 +92,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/779"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Saba Goushnazdad (text) — ܣܒܐ ܓܘܫܢܙܕܕ" in last modified December 12, 2016, http://syriaca.org/work/294</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/294/rdf">
+        <dcterms:title xml:lang="syr">ܣܒܐ ܓܘܫܢܙܕܕ</dcterms:title>
+        <dcterms:title xml:lang="en">Saba Goushnazdad (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/294"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1350"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/779"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Saba Goushnazdad (text) — ܣܒܐ ܓܘܫܢܙܕܕ" in last modified December 12, 2016, http://syriaca.org/work/294</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

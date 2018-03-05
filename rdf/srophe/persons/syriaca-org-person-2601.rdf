@@ -15,13 +15,10 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description>A deacon mentioned in a letter from Severus of Antioch to Oecumenius</dcterms:description>
-        <dcterms:description>This person is possibly identical
-                                                with one or more persons represented in another
-                                                record</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2601"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2516"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2516#syriaca:possiblyIdentical-http://syriaca.org/person/2601"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2601#syriaca:possiblyIdentical-http://syriaca.org/person/2516"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2516"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2601"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
@@ -35,22 +32,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2601/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2601/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2601/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2601">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2516"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2516#syriaca:possiblyIdentical-http://syriaca.org/person/2601"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2516#syriaca:possiblyIdentical-http://syriaca.org/person/2601">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2516"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2601"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2516">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2601"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2601#syriaca:possiblyIdentical-http://syriaca.org/person/2516"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2601#syriaca:possiblyIdentical-http://syriaca.org/person/2516">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2601"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2601"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/2601/html">
         <dcterms:title xml:lang="en">Anatolius</dcterms:title>
@@ -83,6 +64,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/670"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/670"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Anatolius — ܐܢܛܠܝܘܣ ܡܫܡܫܢܐ" in last modified August 17, 2016, http://syriaca.org/person/2601</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2601/rdf">
+        <dcterms:title xml:lang="en">Anatolius</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܢܛܠܝܘܣ ܡܫܡܫܢܐ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2601"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/670"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/670"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/670"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/670"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Anatolius — ܐܢܛܠܝܘܣ ܡܫܡܫܢܐ" in last modified August 17, 2016, http://syriaca.org/person/2601</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

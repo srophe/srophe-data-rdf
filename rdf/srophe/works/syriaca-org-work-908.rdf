@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/908"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/908"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1113"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/908#lawd:embodies-#bib908-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/908#lawd:embodies-#bib908-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1113#syriaca:commemorated-http://syriaca.org/work/908"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/908"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/908"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1113"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1832"/>
@@ -25,30 +25,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/908/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/908/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/908/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib908-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/908"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/908#lawd:embodies-#bib908-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/908#lawd:embodies-#bib908-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/908"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/908"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib908-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/908"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/908#lawd:embodies-#bib908-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/908#lawd:embodies-#bib908-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/908"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/908"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/908">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1113"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1113#syriaca:commemorated-http://syriaca.org/work/908"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1113#syriaca:commemorated-http://syriaca.org/work/908">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1113"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/908"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/908/html">
         <dcterms:title xml:lang="syr">ܐܒܪܗܡ ܩܝܕܘܢܝܐ</dcterms:title>
@@ -78,6 +54,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/776"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham Qidounaya (text) — ܐܒܪܗܡ ܩܝܕܘܢܝܐ" in last modified December 12, 2016, http://syriaca.org/work/908</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/908/rdf">
+        <dcterms:title xml:lang="syr">ܐܒܪܗܡ ܩܝܕܘܢܝܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Abraham Qidounaya (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/908"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1832"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/776"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham Qidounaya (text) — ܐܒܪܗܡ ܩܝܕܘܢܝܐ" in last modified December 12, 2016, http://syriaca.org/work/908</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

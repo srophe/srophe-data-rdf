@@ -4,8 +4,8 @@
         <rdfs:label xml:lang="en">Commentary on Aristotle's De interpretatione</rdfs:label>
         <dcterms:description>ܒܪܢܫܐ ܡ̣ܢ ܗܢܝ̈ܢ ܕܠܐ ܡܠܬܐ ܒܡܠܝܠܘܬܐ ܡܝܬܪ</dcterms:description>
         <dcterms:description>ܘܩܢܘܢܐ ܐܚܪܢܐ ܕܡܐܡܪܐ ܕܫܪܪܐ ܘܕܓܠܘܬܐ ܗܘ̇ܐ ܒܗ ܠܝܬ ܘܟܠ ܡܐܡܪܐ ܕܫܪܟܐ ܕܒܦܣܘܩܐ ܡܬܐܡܪ ܡ̣ܢ ܗܢܐ ܩܢܘܢܐ ܫܦܝܪܐܝܬ ܡܬܝܕܥ</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/674"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/99"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/674"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/99"/>
         <dcterms:relation rdf:resource="#bib9738-1"/>
         <dcterms:relation rdf:resource="#bib9738-3"/>
         <dcterms:relation rdf:resource="#bib9738-1"/>
@@ -16,11 +16,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9738"/>
         <dcterms:relation rdf:resource="#bib9738-3"/>
         <dcterms:relation rdf:resource="#bib9738-4"/>
-        <snap:has-bond rdf:resource="#bib9738-3#dcterms:source-#bib9738-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9738#lawd:embodies-#bib9738-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9738#lawd:embodies-#bib9738-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9738#lawd:embodies-#bib9738-3"/>
-        <snap:has-bond rdf:resource="#bib9738-4#lawd:hasCitation-#bib9738-3"/>
+        <dcterms:source rdf:resource="#bib9738-3"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9738"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9738"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9738"/>
+        <lawd:hasCitation rdf:resource="#bib9738-4"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2513"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2513"/>
@@ -34,46 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9738/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9738/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9738/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-1">
-        <dcterms:relation rdf:resource="#bib9738-3"/>
-        <snap:has-bond rdf:resource="#bib9738-3#dcterms:source-#bib9738-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-3#dcterms:source-#bib9738-1">
-        <dcterms:source rdf:resource="#bib9738-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9738"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9738"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9738#lawd:embodies-#bib9738-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9738#lawd:embodies-#bib9738-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9738"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9738"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9738"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9738#lawd:embodies-#bib9738-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9738#lawd:embodies-#bib9738-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9738"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9738"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9738"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9738#lawd:embodies-#bib9738-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9738#lawd:embodies-#bib9738-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9738"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9738"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-3">
-        <dcterms:relation rdf:resource="#bib9738-4"/>
-        <snap:has-bond rdf:resource="#bib9738-4#lawd:hasCitation-#bib9738-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9738-4#lawd:hasCitation-#bib9738-3">
-        <lawd:hasCitation rdf:resource="#bib9738-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9738"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/9738/html">
         <dcterms:title xml:lang="en">Commentary on Aristotle's De interpretatione</dcterms:title>

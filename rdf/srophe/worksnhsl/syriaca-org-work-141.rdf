@@ -7,8 +7,8 @@
         <dcterms:description>
                              part 2 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib141-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/141"/>
         <dcterms:relation rdf:resource="#bib141-1"/>
@@ -19,11 +19,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9666"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/141"/>
         <dcterms:relation rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/141#lawd:embodies-#bib141-3"/>
-        <snap:has-bond rdf:resource="#bib141-2#dcterms:source-#bib141-1"/>
-        <snap:has-bond rdf:resource="#bib141-2#lawd:hasCitation-http://syriaca.org/manuscript/3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9666#skos:broadMatch-http://syriaca.org/work/141"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/3#p2a1#dcterms:isPartOf-http://syriaca.org/work/141"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/141"/>
+        <dcterms:source rdf:resource="#bib141-2"/>
+        <lawd:hasCitation rdf:resource="#bib141-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9666"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/3"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/3"/>
@@ -36,46 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/141/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/141/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/141/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib141-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/141"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/141#lawd:embodies-#bib141-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/141#lawd:embodies-#bib141-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/141"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib141-1">
-        <dcterms:relation rdf:resource="#bib141-2"/>
-        <snap:has-bond rdf:resource="#bib141-2#dcterms:source-#bib141-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib141-2#dcterms:source-#bib141-1">
-        <dcterms:source rdf:resource="#bib141-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/3">
-        <dcterms:relation rdf:resource="#bib141-2"/>
-        <snap:has-bond rdf:resource="#bib141-2#lawd:hasCitation-http://syriaca.org/manuscript/3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib141-2#lawd:hasCitation-http://syriaca.org/manuscript/3">
-        <lawd:hasCitation rdf:resource="#bib141-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/141">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9666"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9666#skos:broadMatch-http://syriaca.org/work/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9666#skos:broadMatch-http://syriaca.org/work/141">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9666"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/141">
-        <dcterms:relation rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/3#p2a1#dcterms:isPartOf-http://syriaca.org/work/141"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/3#p2a1#dcterms:isPartOf-http://syriaca.org/work/141">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/3#p2a1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/141"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/141/html">
         <dcterms:title xml:lang="en">Joshua (LXX/Septuagint version)</dcterms:title>

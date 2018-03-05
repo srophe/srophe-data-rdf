@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/clergy"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/clergy"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/clergy"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/clergy"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/clergy/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/clergy/tei"/>
@@ -21,30 +21,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/clergy/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/clergy/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/clergy/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/clergy">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/clergy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/clergy">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/clergy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/clergy">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/clergy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/clergy">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/clergy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/clergy">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/clergy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/clergy">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/clergy"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/clergy/html">
         <dcterms:title xml:lang="en">Clergy</dcterms:title>
@@ -62,6 +38,12 @@
         <dcterms:title xml:lang="en">Clergy</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/clergy"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Clergy" in last modified May 5, 2017, http://syriaca.org/keyword/clergy</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/clergy/rdf">
+        <dcterms:title xml:lang="en">Clergy</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/clergy"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Clergy" in last modified May 5, 2017, http://syriaca.org/keyword/clergy</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

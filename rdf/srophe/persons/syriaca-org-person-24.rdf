@@ -73,13 +73,12 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>the Catholicos</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_24"/>
         <dcterms:relation rdf:resource="#person-24"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/58"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasRelationToPlace-#person-24"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/58#syriaca:hasRelationToPlace-#person-24"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/78"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/58"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -92,20 +91,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/24/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/24/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/24/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-24">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasRelationToPlace-#person-24"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/58"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/58#syriaca:hasRelationToPlace-#person-24"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/78#syriaca:hasRelationToPlace-#person-24">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/78"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/24"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/58#syriaca:hasRelationToPlace-#person-24">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/58"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/24"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/24/html">
         <dcterms:title xml:lang="en"> Maʿna,  catholicos 
@@ -144,6 +129,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), " Maʿna, catholicos — ܡܥܢܐ" in last modified December 9, 2016, http://syriaca.org/person/24</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/24/rdf">
+        <dcterms:title xml:lang="en"> Maʿna,  catholicos 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܡܥܢܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/24"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), " Maʿna, catholicos — ܡܥܢܐ" in last modified December 9, 2016, http://syriaca.org/person/24</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

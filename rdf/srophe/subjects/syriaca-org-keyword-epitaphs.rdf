@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/epitaphs"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/epitaphs"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/epitaphs"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/epitaphs/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/epitaphs/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/epitaphs/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/epitaphs/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/epitaphs/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/epitaphs">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/epitaphs"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/epitaphs">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/epitaphs"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/epitaphs">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/epitaphs"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/epitaphs">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/epitaphs"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/epitaphs/html">
         <dcterms:title xml:lang="en">Epitaphs</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Epitaphs</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/epitaphs"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Epitaphs" in last modified May 5, 2017, http://syriaca.org/keyword/epitaphs</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/epitaphs/rdf">
+        <dcterms:title xml:lang="en">Epitaphs</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/epitaphs"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Epitaphs" in last modified May 5, 2017, http://syriaca.org/keyword/epitaphs</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

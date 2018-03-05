@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://d-nb.info/gnd/4136179-9"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/angelology"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/angelology"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/angelology/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/angelology/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/angelology/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/angelology/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/angelology/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/angelology">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/angelology"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/angelology">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/angelology"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/angelology/html">
         <dcterms:title xml:lang="en">Angelology</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Angelology</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/angelology"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Angelology" in last modified May 5, 2017, http://syriaca.org/keyword/angelology</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/angelology/rdf">
+        <dcterms:title xml:lang="en">Angelology</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/angelology"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Angelology" in last modified May 5, 2017, http://syriaca.org/keyword/angelology</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

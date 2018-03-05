@@ -54,12 +54,11 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>Not the same as the Theodolus (http://syriaca.org/person/843) mentioned by ʿAbdishoʿ.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_1085"/>
         <dcterms:relation rdf:resource="#person-1085"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/843"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/843#syriaca:differentFrom-#person-1085"/>
-        <snap:has-bond rdf:resource="#person-1085#syriaca:differentFrom-http://syriaca.org/person/843"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/843"/>
+        <syriaca:differentFrom rdf:resource="#person-1085"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -72,22 +71,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1085/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1085/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1085/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-1085">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/843"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/843#syriaca:differentFrom-#person-1085"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/843#syriaca:differentFrom-#person-1085">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/843"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/1085"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/843">
-        <dcterms:relation rdf:resource="#person-1085"/>
-        <snap:has-bond rdf:resource="#person-1085#syriaca:differentFrom-http://syriaca.org/person/843"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-1085#syriaca:differentFrom-http://syriaca.org/person/843">
-        <syriaca:differentFrom rdf:resource="#person-1085"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/1085"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/1085/html">
         <dcterms:title xml:lang="en">
@@ -129,6 +112,20 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Theodulos ʿAbd Allah — ܬܐܘܕܘܠܘܣ ܥܒܕ ܐܠܗܐ" in last modified August 17, 2016, http://syriaca.org/person/1085</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/1085/rdf">
+        <dcterms:title xml:lang="en">
+                         Theodulos ʿAbd Allah 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܬܐܘܕܘܠܘܣ ܥܒܕ ܐܠܗܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/1085"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Theodulos ʿAbd Allah — ܬܐܘܕܘܠܘܣ ܥܒܕ ܐܠܗܐ" in last modified August 17, 2016, http://syriaca.org/person/1085</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

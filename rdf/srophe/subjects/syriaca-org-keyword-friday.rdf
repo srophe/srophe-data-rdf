@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Friday</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/friday"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/friday"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/friday/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/friday/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/friday/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/friday/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/friday/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/friday">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/friday"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/friday">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/friday"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/friday/html">
         <dcterms:title xml:lang="en">Friday</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Friday</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/friday"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Friday" in last modified May 5, 2017, http://syriaca.org/keyword/friday</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/friday/rdf">
+        <dcterms:title xml:lang="en">Friday</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/friday"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Friday" in last modified May 5, 2017, http://syriaca.org/keyword/friday</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

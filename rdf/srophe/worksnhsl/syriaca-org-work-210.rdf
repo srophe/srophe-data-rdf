@@ -9,7 +9,7 @@
         <dcterms:description>
                              collection 4 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib210-7"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
         <dcterms:relation rdf:resource="#bib210-8"/>
@@ -32,17 +32,17 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9694"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/70"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#lawd:embodies-#bib210-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#lawd:embodies-#bib210-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#lawd:embodies-#bib210-9"/>
-        <snap:has-bond rdf:resource="#bib210-2#dcterms:source-#bib210-1"/>
-        <snap:has-bond rdf:resource="#bib210-2#lawd:hasCitation-http://syriaca.org/manuscript/159"/>
-        <snap:has-bond rdf:resource="#bib210-4#dcterms:source-#bib210-3"/>
-        <snap:has-bond rdf:resource="#bib210-4#lawd:hasCitation-http://syriaca.org/manuscript/158"/>
-        <snap:has-bond rdf:resource="#bib210-6#dcterms:source-#bib210-5"/>
-        <snap:has-bond rdf:resource="#bib210-6#lawd:hasCitation-http://syriaca.org/manuscript/147"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9694#skos:broadMatch-http://syriaca.org/work/210"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/70#dcterms:isPartOf-http://syriaca.org/work/210"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/210"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/210"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/210"/>
+        <dcterms:source rdf:resource="#bib210-2"/>
+        <lawd:hasCitation rdf:resource="#bib210-2"/>
+        <dcterms:source rdf:resource="#bib210-4"/>
+        <lawd:hasCitation rdf:resource="#bib210-4"/>
+        <dcterms:source rdf:resource="#bib210-6"/>
+        <lawd:hasCitation rdf:resource="#bib210-6"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9694"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/70"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/159"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/158"/>
@@ -61,94 +61,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/210/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/210/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/210/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#lawd:embodies-#bib210-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/210#lawd:embodies-#bib210-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/210"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#lawd:embodies-#bib210-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/210#lawd:embodies-#bib210-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/210"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-9">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/210"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/210#lawd:embodies-#bib210-9"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/210#lawd:embodies-#bib210-9">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/210"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-1">
-        <dcterms:relation rdf:resource="#bib210-2"/>
-        <snap:has-bond rdf:resource="#bib210-2#dcterms:source-#bib210-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-2#dcterms:source-#bib210-1">
-        <dcterms:source rdf:resource="#bib210-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/159">
-        <dcterms:relation rdf:resource="#bib210-2"/>
-        <snap:has-bond rdf:resource="#bib210-2#lawd:hasCitation-http://syriaca.org/manuscript/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-2#lawd:hasCitation-http://syriaca.org/manuscript/159">
-        <lawd:hasCitation rdf:resource="#bib210-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-3">
-        <dcterms:relation rdf:resource="#bib210-4"/>
-        <snap:has-bond rdf:resource="#bib210-4#dcterms:source-#bib210-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-4#dcterms:source-#bib210-3">
-        <dcterms:source rdf:resource="#bib210-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/158">
-        <dcterms:relation rdf:resource="#bib210-4"/>
-        <snap:has-bond rdf:resource="#bib210-4#lawd:hasCitation-http://syriaca.org/manuscript/158"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-4#lawd:hasCitation-http://syriaca.org/manuscript/158">
-        <lawd:hasCitation rdf:resource="#bib210-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-5">
-        <dcterms:relation rdf:resource="#bib210-6"/>
-        <snap:has-bond rdf:resource="#bib210-6#dcterms:source-#bib210-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-6#dcterms:source-#bib210-5">
-        <dcterms:source rdf:resource="#bib210-6"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/147">
-        <dcterms:relation rdf:resource="#bib210-6"/>
-        <snap:has-bond rdf:resource="#bib210-6#lawd:hasCitation-http://syriaca.org/manuscript/147"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib210-6#lawd:hasCitation-http://syriaca.org/manuscript/147">
-        <lawd:hasCitation rdf:resource="#bib210-6"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/210">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9694"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9694#skos:broadMatch-http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9694#skos:broadMatch-http://syriaca.org/work/210">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9694"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/210">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/70"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/70#dcterms:isPartOf-http://syriaca.org/work/210"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/70#dcterms:isPartOf-http://syriaca.org/work/210">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/70"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/210"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/210/html">
         <dcterms:title xml:lang="en">The Apostolic Epistles</dcterms:title>

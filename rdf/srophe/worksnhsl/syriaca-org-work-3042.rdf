@@ -9,7 +9,7 @@
         <dcterms:description>
                       part 11.1 
                   </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3042-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3042"/>
         <dcterms:relation rdf:resource="#bib3042-2"/>
@@ -18,10 +18,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3042"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3042#lawd:embodies-#bib3042-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3042#lawd:embodies-#bib3042-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3042"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3042"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3042"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3042"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/667"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/669"/>
@@ -34,38 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3042/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3042/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3042/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3042-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3042"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3042#lawd:embodies-#bib3042-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3042#lawd:embodies-#bib3042-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3042"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3042"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3042-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3042"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3042#lawd:embodies-#bib3042-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3042#lawd:embodies-#bib3042-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3042"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3042"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3042">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3042"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3042">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3042"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3042">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3042"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3042">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3042"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3042/html">
         <dcterms:title xml:lang="en">To Misael the Chamberlain</dcterms:title>

@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/confession"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/confession"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/confession"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/confession/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/confession/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/confession/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/confession/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/confession/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/confession">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/confession"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/confession">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/confession"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/confession">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/confession"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/confession">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/confession"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/confession/html">
         <dcterms:title xml:lang="en">Confession</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Confession</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/confession"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Confession" in last modified May 5, 2017, http://syriaca.org/keyword/confession</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/confession/rdf">
+        <dcterms:title xml:lang="en">Confession</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/confession"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Confession" in last modified May 5, 2017, http://syriaca.org/keyword/confession</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

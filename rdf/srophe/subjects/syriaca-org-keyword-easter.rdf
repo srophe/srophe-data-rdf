@@ -11,10 +11,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/liturgy"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/easter"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/liturgy#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/easter"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/liturgy"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/easter/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/easter/tei"/>
@@ -24,38 +24,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/easter/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/easter/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/easter/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/easter">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/easter">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/easter">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/events"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/easter">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/easter">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/liturgy"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/liturgy#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/liturgy#skos:broadMatch-http://syriaca.org/keyword/easter">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/liturgy"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/easter">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/easter"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/easter">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/easter"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/easter/html">
         <dcterms:title xml:lang="en">Easter</dcterms:title>
@@ -73,6 +41,12 @@
         <dcterms:title xml:lang="en">Easter</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/easter"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Easter" in last modified May 5, 2017, http://syriaca.org/keyword/easter</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/easter/rdf">
+        <dcterms:title xml:lang="en">Easter</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/easter"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Easter" in last modified May 5, 2017, http://syriaca.org/keyword/easter</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

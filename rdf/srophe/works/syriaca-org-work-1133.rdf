@@ -12,8 +12,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1133"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1133"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2147"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1133#lawd:embodies-#bib1133-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2147#syriaca:commemorated-http://syriaca.org/work/1133"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1133"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2147"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -26,22 +26,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1133/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1133/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1133/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1133-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1133"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1133#lawd:embodies-#bib1133-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1133#lawd:embodies-#bib1133-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1133"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1133"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1133">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2147"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2147#syriaca:commemorated-http://syriaca.org/work/1133"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2147#syriaca:commemorated-http://syriaca.org/work/1133">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2147"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1133"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1133/html">
         <dcterms:title xml:lang="en">Virgin of Jerusalem (text)</dcterms:title>
@@ -65,6 +49,14 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1121"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Virgin of Jerusalem (text)" in last modified December 12, 2016, http://syriaca.org/work/1133</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1133/rdf">
+        <dcterms:title xml:lang="en">Virgin of Jerusalem (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1133"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1121"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Virgin of Jerusalem (text)" in last modified December 12, 2016, http://syriaca.org/work/1133</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -77,18 +77,16 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Metropolitan of Samosata</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_158"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/178"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/158"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/158"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/229"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/10#syriaca:bornAt-http://syriaca.org/person/158"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/229#syriaca:hasRelationToPlace-http://syriaca.org/person/158"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/178#syriaca:hasRelationToPlace-http://syriaca.org/person/158"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/10"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/229"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/178"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -101,28 +99,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/158/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/158/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/158/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/158">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/10#syriaca:bornAt-http://syriaca.org/person/158"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/10#syriaca:bornAt-http://syriaca.org/person/158">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/10"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/158"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/158">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/229"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/229#syriaca:hasRelationToPlace-http://syriaca.org/person/158"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/178#syriaca:hasRelationToPlace-http://syriaca.org/person/158"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/229#syriaca:hasRelationToPlace-http://syriaca.org/person/158">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/229"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/158"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/178#syriaca:hasRelationToPlace-http://syriaca.org/person/158">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/158"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/158/html">
         <dcterms:title xml:lang="en">
@@ -170,6 +146,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Arabi, metropolitan of Samosata — ܐܪܐܒܝ ܕܫܡܝܫܛ" in last modified August 17, 2016, http://syriaca.org/person/158</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/158/rdf">
+        <dcterms:title xml:lang="en">
+                         Arabi ,  metropolitan of  Samosata 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܪܐܒܝ 
+                         ܕܫܡܝܫܛ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/158"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Arabi, metropolitan of Samosata — ܐܪܐܒܝ ܕܫܡܝܫܛ" in last modified August 17, 2016, http://syriaca.org/person/158</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

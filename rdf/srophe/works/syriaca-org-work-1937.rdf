@@ -14,13 +14,13 @@
         <dcterms:description>
                      Et de toute notre âme confessons et glorifions Dieu qui nous a sauvés de la main des Barbares impies. Et après avoir dit cela et beaucoup d’autres choses, ??? Moi, Ammonios, faible et pécheur, je suis retourné au pays d’Égypte et j’ai consigné tout cela par écrit, méditant constamment ces mémoires des bienheureux et me réjouissant pour leurs passions victorieuses qu’ils ont affrontées pour leur Seigneur avec courage. À lui… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/1577"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/1577"/>
         <dcterms:relation rdf:resource="#bib1937-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1937"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1937"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1904"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1937#lawd:embodies-#bib1937-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1904#syriaca:commemorated-http://syriaca.org/work/1937"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1937"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1904"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -32,22 +32,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1937/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1937/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1937/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1937-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1937"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1937#lawd:embodies-#bib1937-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1937#lawd:embodies-#bib1937-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1937"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1937"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1937">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1904"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1904#syriaca:commemorated-http://syriaca.org/work/1937"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1904#syriaca:commemorated-http://syriaca.org/work/1937">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1904"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1937"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1937/html">
         <dcterms:title xml:lang="en">The 40 Martyrs of Sinai (text)</dcterms:title>
@@ -68,6 +52,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1937"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The 40 Martyrs of Sinai (text)" in last modified December 12, 2016, http://syriaca.org/work/1937</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1937/rdf">
+        <dcterms:title xml:lang="en">The 40 Martyrs of Sinai (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1937"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The 40 Martyrs of Sinai (text)" in last modified December 12, 2016, http://syriaca.org/work/1937</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

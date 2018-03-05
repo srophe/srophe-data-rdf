@@ -15,16 +15,16 @@
         <dcterms:description>
                      Que notre Seigneur nous donne dans sa miséricorde de nous comporter selon sa volonté, et de le confesser alors qu’il nous corrige, et de le louer alors qu’il nous guérit. Gloire à lui et que sa miséricorde soit sur nous en tout temps. Amen et amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/981"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/981"/>
         <dcterms:relation rdf:resource="#bib1235-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1235"/>
         <dcterms:relation rdf:resource="#bib1235-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1235"/>
         <dcterms:relation rdf:resource="#bib1235-7"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1235"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1235#lawd:embodies-#bib1235-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1235#lawd:embodies-#bib1235-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1235#lawd:embodies-#bib1235-7"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1235"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1235"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1235"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1796"/>
@@ -41,30 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1235/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1235/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1235/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1235-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1235"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1235#lawd:embodies-#bib1235-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1235#lawd:embodies-#bib1235-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1235"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1235"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1235-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1235"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1235#lawd:embodies-#bib1235-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1235#lawd:embodies-#bib1235-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1235"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1235"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1235-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1235"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1235#lawd:embodies-#bib1235-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1235#lawd:embodies-#bib1235-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1235"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1235"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1235/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -103,6 +79,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1098"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/809"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary, Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1235</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1235/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary, Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1235"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1796"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1796"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/729"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1098"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/809"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary, Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1235</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -8,7 +8,7 @@
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from
                                 the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib10538-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10538"/>
         <dcterms:relation rdf:resource="#bib10538-2"/>
@@ -17,10 +17,10 @@
         <dcterms:relation rdf:resource="#bib10538-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10538"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9645"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10538#lawd:embodies-#bib10538-1"/>
-        <snap:has-bond rdf:resource="#bib10538-3#dcterms:source-#bib10538-2"/>
-        <snap:has-bond rdf:resource="#bib10538-3#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/10538"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/10538"/>
+        <dcterms:source rdf:resource="#bib10538-3"/>
+        <lawd:hasCitation rdf:resource="#bib10538-3"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9645"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1112"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1112"/>
@@ -33,38 +33,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10538/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10538/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10538/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10538-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10538"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10538#lawd:embodies-#bib10538-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10538#lawd:embodies-#bib10538-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/10538"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10538"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10538-2">
-        <dcterms:relation rdf:resource="#bib10538-3"/>
-        <snap:has-bond rdf:resource="#bib10538-3#dcterms:source-#bib10538-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10538-3#dcterms:source-#bib10538-2">
-        <dcterms:source rdf:resource="#bib10538-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10538"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1112">
-        <dcterms:relation rdf:resource="#bib10538-3"/>
-        <snap:has-bond rdf:resource="#bib10538-3#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10538-3#lawd:hasCitation-http://syriaca.org/manuscript/1112">
-        <lawd:hasCitation rdf:resource="#bib10538-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10538"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10538">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9645"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/10538"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/10538">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9645"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10538"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/10538/html">
         <dcterms:title xml:lang="en">The Four Gospels, 

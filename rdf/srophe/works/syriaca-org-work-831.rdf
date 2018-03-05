@@ -15,11 +15,8 @@
         <dcterms:description>
                      Au même moment lui aussi fut conduit vers le terme de la mort et il fut jugé digne d’être placé sur les os de son père le saint vieillard. 
                 </dcterms:description>
-        <dcterms:description>
-                             part 40 
-                        </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/74"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/623"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/74"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/623"/>
         <dcterms:relation rdf:resource="#bib831-2"/>
         <dcterms:relation rdf:resource="#bib831-4"/>
         <dcterms:relation rdf:resource="#bib831-2"/>
@@ -42,17 +39,17 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/1554"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="#bib831-4#dcterms:source-#bib831-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-2"/>
-        <snap:has-bond rdf:resource="#bib831-5#dcterms:source-#bib831-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1554#syriaca:commemorated-http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/831"/>
+        <dcterms:source rdf:resource="#bib831-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <dcterms:source rdf:resource="#bib831-5"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1554"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2032"/>
@@ -68,94 +65,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/831/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/831/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/831/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-2">
-        <dcterms:relation rdf:resource="#bib831-4"/>
-        <snap:has-bond rdf:resource="#bib831-4#dcterms:source-#bib831-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-4#dcterms:source-#bib831-2">
-        <dcterms:source rdf:resource="#bib831-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-3">
-        <dcterms:relation rdf:resource="#bib831-5"/>
-        <snap:has-bond rdf:resource="#bib831-5#dcterms:source-#bib831-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-5#dcterms:source-#bib831-3">
-        <dcterms:source rdf:resource="#bib831-5"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib831-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/831"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/831#lawd:embodies-#bib831-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831#lawd:embodies-#bib831-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/831"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1554"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1554#syriaca:commemorated-http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1554#syriaca:commemorated-http://syriaca.org/work/831">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1554"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/831">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/831"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/831">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/831"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/831/html">
         <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
@@ -191,6 +100,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2032"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham the Priest (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/831</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/831/rdf">
+        <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
+        <dcterms:title xml:lang="en">Abraham the Priest (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/831"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2032"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1744"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1728"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2032"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham the Priest (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/831</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

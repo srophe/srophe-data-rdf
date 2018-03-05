@@ -3,7 +3,7 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">The first two books of the Maccabees (Peshitta)</rdfs:label>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib213-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/213"/>
         <dcterms:relation rdf:resource="#bib213-1"/>
@@ -12,10 +12,10 @@
         <dcterms:relation rdf:resource="#bib213-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/213"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9697"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/213#lawd:embodies-#bib213-3"/>
-        <snap:has-bond rdf:resource="#bib213-2#dcterms:source-#bib213-1"/>
-        <snap:has-bond rdf:resource="#bib213-2#lawd:hasCitation-http://syriaca.org/manuscript/118"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9697#skos:broadMatch-http://syriaca.org/work/213"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/213"/>
+        <dcterms:source rdf:resource="#bib213-2"/>
+        <lawd:hasCitation rdf:resource="#bib213-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9697"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/118"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/118"/>
@@ -28,38 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/213/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/213/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/213/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib213-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/213"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/213#lawd:embodies-#bib213-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/213#lawd:embodies-#bib213-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/213"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/213"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib213-1">
-        <dcterms:relation rdf:resource="#bib213-2"/>
-        <snap:has-bond rdf:resource="#bib213-2#dcterms:source-#bib213-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib213-2#dcterms:source-#bib213-1">
-        <dcterms:source rdf:resource="#bib213-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/213"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/118">
-        <dcterms:relation rdf:resource="#bib213-2"/>
-        <snap:has-bond rdf:resource="#bib213-2#lawd:hasCitation-http://syriaca.org/manuscript/118"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib213-2#lawd:hasCitation-http://syriaca.org/manuscript/118">
-        <lawd:hasCitation rdf:resource="#bib213-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/213"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/213">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9697"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9697#skos:broadMatch-http://syriaca.org/work/213"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9697#skos:broadMatch-http://syriaca.org/work/213">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9697"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/213"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/213/html">
         <dcterms:title xml:lang="en">The first two books of the Maccabees (Peshitta)</dcterms:title>

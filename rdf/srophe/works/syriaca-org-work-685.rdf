@@ -15,7 +15,7 @@
         <dcterms:description>
                      Par ses prères, Dieu tout-puissant, rassemble les membres dispersés de l’Église, ramène-les à la concorde et sauve nous dans ta miséricorde en tant qu’ami des hommes. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/52"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/52"/>
         <dcterms:relation rdf:resource="#bib685-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/685"/>
         <dcterms:relation rdf:resource="#bib685-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/685"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/685"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/685#lawd:embodies-#bib685-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/685#lawd:embodies-#bib685-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/685#lawd:embodies-#bib685-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/51#syriaca:commemorated-http://syriaca.org/work/685"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/685"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/685"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/685"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1838"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/685/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/685/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/685/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib685-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/685"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/685#lawd:embodies-#bib685-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/685#lawd:embodies-#bib685-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/685"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/685"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib685-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/685"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/685#lawd:embodies-#bib685-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/685#lawd:embodies-#bib685-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/685"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/685"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib685-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/685"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/685#lawd:embodies-#bib685-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/685#lawd:embodies-#bib685-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/685"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/685"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/685">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/51#syriaca:commemorated-http://syriaca.org/work/685"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/51#syriaca:commemorated-http://syriaca.org/work/685">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/51"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/685"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/685/html">
         <dcterms:title xml:lang="syr">ܣܐܘܝܪܐ</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1838"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Severus of Antioch (text) — ܣܐܘܝܪܐ" in last modified December 12, 2016, http://syriaca.org/work/685</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/685/rdf">
+        <dcterms:title xml:lang="syr">ܣܐܘܝܪܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Severus of Antioch (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/685"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1838"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1838"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Severus of Antioch (text) — ܣܐܘܝܪܐ" in last modified December 12, 2016, http://syriaca.org/work/685</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

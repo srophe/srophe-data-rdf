@@ -47,12 +47,11 @@
         </dcterms:description>
         <dcterms:description>1917-1932</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>Not the same as Eliya III (http://syriaca.org/person/933)</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_469"/>
         <dcterms:relation rdf:resource="#person-469"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/933"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/933#syriaca:differentFrom-#person-469"/>
-        <snap:has-bond rdf:resource="#person-469#syriaca:differentFrom-http://syriaca.org/person/933"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/933"/>
+        <syriaca:differentFrom rdf:resource="#person-469"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/198"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/person/469/html"/>
@@ -63,22 +62,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/469/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/469/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/469/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-469">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/933"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/933#syriaca:differentFrom-#person-469"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/933#syriaca:differentFrom-#person-469">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/933"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/469"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/933">
-        <dcterms:relation rdf:resource="#person-469"/>
-        <snap:has-bond rdf:resource="#person-469#syriaca:differentFrom-http://syriaca.org/person/933"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-469#syriaca:differentFrom-http://syriaca.org/person/933">
-        <syriaca:differentFrom rdf:resource="#person-469"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/469"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/469/html">
         <dcterms:title xml:lang="syr">
@@ -123,6 +106,21 @@
         <dcterms:subject rdf:resource="http://syriaca.org/person/469"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/198"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Elijah III Shakir — ܐܠܝܐ ܬܠܝܬܝܐ" in last modified August 17, 2016, http://syriaca.org/person/469</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/469/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܐܠܝܐ 
+                         ܬܠܝܬܝܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Elijah 
+                         III 
+                         Shakir 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/469"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/198"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Elijah III Shakir — ܐܠܝܐ ܬܠܝܬܝܐ" in last modified August 17, 2016, http://syriaca.org/person/469</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

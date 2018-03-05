@@ -3,10 +3,9 @@
         <rdf:type rdf:resource="http://purl.org/dc/terms/bibliographicResource"/>
         <rdfs:label xml:lang="it">I Martiri di Palestina di Eusebio di Cesarea nel
                      codice Sinaitico</rdfs:label>
-        <dcterms:description>This was reprinted in  Opere Minori 2 (Vatican, 1937), 1-16 .</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/bibl/1203"/>
         <dcterms:relation rdf:resource="http://syriaca.org/bibl/1044"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/bibl/1044#alternate-printing-of-http://syriaca.org/bibl/1203"/>
+        <alternate-printing-of xmlns="" rdf:resource="http://syriaca.org/bibl/1044"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/bibl/1044/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/bibl/1044/tei"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/bibl/1044/ttl"/>
@@ -15,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/bibl/1044/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/bibl/1044/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/bibl/1044/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/bibl/1203">
-        <dcterms:relation rdf:resource="http://syriaca.org/bibl/1044"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/bibl/1044#alternate-printing-of-http://syriaca.org/bibl/1203"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/bibl/1044#alternate-printing-of-http://syriaca.org/bibl/1203">
-        <alternate-printing-of xmlns="" rdf:resource="http://syriaca.org/bibl/1044"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1044"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/bibl/1044/html">
         <dcterms:title xml:lang="it">I Martiri di Palestina di Eusebio di Cesarea nel
@@ -43,6 +34,13 @@
                      codice Sinaitico</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/bibl/1044"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">G. Mercati, "I Martiri di Palestina di Eusebio di Cesarea nel codice Sinaitico."Rendiconti del R. Istituto Lombardo di Scienze e Lettere vol. 30 (1897, )</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/bibl/1044/rdf">
+        <dcterms:title xml:lang="it">I Martiri di Palestina di Eusebio di Cesarea nel
+                     codice Sinaitico</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/bibl/1044"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">G. Mercati, "I Martiri di Palestina di Eusebio di Cesarea nel codice Sinaitico."Rendiconti del R. Istituto Lombardo di Scienze e Lettere vol. 30 (1897, )</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

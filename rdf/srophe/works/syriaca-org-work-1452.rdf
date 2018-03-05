@@ -6,16 +6,16 @@
         <dcterms:description>
                      Le dessein du discours est de raconter le chemin de mes malheurs et de mes bonheurs; les uns diraient ainsi, les autres autrement, selon leur inclination, à mon avis. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/511"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/511"/>
         <dcterms:relation rdf:resource="#bib1452-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1452"/>
         <dcterms:relation rdf:resource="#bib1452-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1452"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1452"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/511"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1452#lawd:embodies-#bib1452-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1452#lawd:embodies-#bib1452-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/511#syriaca:commemorated-http://syriaca.org/work/1452"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1452"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1452"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/511"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1853"/>
@@ -28,30 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1452/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1452/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1452/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1452-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1452"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1452#lawd:embodies-#bib1452-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1452#lawd:embodies-#bib1452-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1452"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1452"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1452-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1452"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1452#lawd:embodies-#bib1452-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1452#lawd:embodies-#bib1452-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1452"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1452"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1452">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/511"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/511#syriaca:commemorated-http://syriaca.org/work/1452"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/511#syriaca:commemorated-http://syriaca.org/work/1452">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/511"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1452"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1452/html">
         <dcterms:title xml:lang="syr">ܓܪܝܓܘܪܝܘܣ</dcterms:title>
@@ -78,6 +54,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1853"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Gregory Nazianzus (text) — ܓܪܝܓܘܪܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1452</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1452/rdf">
+        <dcterms:title xml:lang="syr">ܓܪܝܓܘܪܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Gregory Nazianzus (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1452"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1853"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Gregory Nazianzus (text) — ܓܪܝܓܘܪܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1452</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

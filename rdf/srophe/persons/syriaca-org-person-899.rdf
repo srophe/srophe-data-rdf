@@ -61,13 +61,12 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>Not the same as Quryaqos (http://syriaca.org/person/145)</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_899"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=Q&amp;sK=Qyriaqos of Nisibis&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/899"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/145"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/145#syriaca:differentFrom-http://syriaca.org/person/899"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/899#syriaca:differentFrom-http://syriaca.org/person/145"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/145"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/899"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/6"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/7"/>
@@ -81,22 +80,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/899/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/899/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/899/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/899">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/145"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/145#syriaca:differentFrom-http://syriaca.org/person/899"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/145#syriaca:differentFrom-http://syriaca.org/person/899">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/145"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/899"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/145">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/899"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/899#syriaca:differentFrom-http://syriaca.org/person/145"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/899#syriaca:differentFrom-http://syriaca.org/person/145">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/899"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/899"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/899/html">
         <dcterms:title xml:lang="en">Cyriacus of Nisibis</dcterms:title>
@@ -135,6 +118,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Cyriacus of Nisibis — ܩܘܪܝܩܘܣ" in last modified August 17, 2016, http://syriaca.org/person/899</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/899/rdf">
+        <dcterms:title xml:lang="en">Cyriacus of Nisibis</dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܩܘܪܝܩܘܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/899"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Cyriacus of Nisibis — ܩܘܪܝܩܘܣ" in last modified August 17, 2016, http://syriaca.org/person/899</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

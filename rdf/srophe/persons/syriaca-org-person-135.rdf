@@ -71,11 +71,8 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Metropolitan of Tur ‛Abdin</dcterms:description>
-        <dcterms:description>Not the same as Quryaqos (http://syriaca.org/person/145).</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_135"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/221"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
         <dcterms:relation rdf:resource="#person-135"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/145"/>
         <dcterms:relation rdf:resource="#person-135"/>
@@ -83,11 +80,11 @@
         <dcterms:relation rdf:resource="#person-135"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/409"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/145#syriaca:differentFrom-#person-135"/>
-        <snap:has-bond rdf:resource="#person-135#syriaca:differentFrom-http://syriaca.org/person/145"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/172#syriaca:hasLiteraryConnectionToPlace-#person-135"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/409#syriaca:hasRelationToPlace-#person-135"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-#person-135"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/145"/>
+        <syriaca:differentFrom rdf:resource="#person-135"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/172"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/409"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -100,44 +97,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/135/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/135/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/135/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-135">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/145"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/145#syriaca:differentFrom-#person-135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/145#syriaca:differentFrom-#person-135">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/145"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/145">
-        <dcterms:relation rdf:resource="#person-135"/>
-        <snap:has-bond rdf:resource="#person-135#syriaca:differentFrom-http://syriaca.org/person/145"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-135#syriaca:differentFrom-http://syriaca.org/person/145">
-        <syriaca:differentFrom rdf:resource="#person-135"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-135">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/172"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/172#syriaca:hasLiteraryConnectionToPlace-#person-135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/172#syriaca:hasLiteraryConnectionToPlace-#person-135">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/172"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-135">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/409"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/409#syriaca:hasRelationToPlace-#person-135"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-#person-135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/409#syriaca:hasRelationToPlace-#person-135">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/409"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/135"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/221#syriaca:hasRelationToPlace-#person-135">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/135"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/135/html">
         <dcterms:title xml:lang="en">
@@ -185,6 +144,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Cyriacus, metropolitan of Tur ʿAbdin — ܩܘܪܝܐܩܘܣ ܕܣܝܓܣܬܐܢ" in last modified August 17, 2016, http://syriaca.org/person/135</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/135/rdf">
+        <dcterms:title xml:lang="en">
+                         Cyriacus ,  metropolitan of  Tur ʿAbdin 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܩܘܪܝܐܩܘܣ 
+                         ܕܣܝܓܣܬܐܢ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/135"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Cyriacus, metropolitan of Tur ʿAbdin — ܩܘܪܝܐܩܘܣ ܕܣܝܓܣܬܐܢ" in last modified August 17, 2016, http://syriaca.org/person/135</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

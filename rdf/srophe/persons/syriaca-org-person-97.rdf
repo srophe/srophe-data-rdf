@@ -116,21 +116,20 @@
         <dcterms:description>In hagiography: Denha I was a monk of the monastery of  Mor Matay . He was a disciple of  Marutha of Tagrit  and the hagiographer of his life. He became the Maphrian of the Syrian Orthodox Church in the  Sasanian empire  in 649.</dcterms:description>
         <dcterms:description>Barsaum, Lu 'lu '2 , 352.</dcterms:description>
         <dcterms:description>Maphryono of the East</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_97"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/227440900"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/203855192"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/56754203"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/311182947"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/2617"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/93"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/227"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/150"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/97"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/work/1069"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/2617"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/93"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/150"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/97"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/1069"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/97"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-http://syriaca.org/person/97"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -148,14 +147,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/97/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/97/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/97/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/97">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-http://syriaca.org/person/97"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/227#syriaca:hasRelationToPlace-http://syriaca.org/person/97">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/97"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/97/html">
         <dcterms:title xml:lang="syr">
@@ -212,6 +203,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Denha I, maphrian — ܕܢܚܐ" in last modified August 17, 2016, http://syriaca.org/person/97</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/97/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܕܢܚܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Denha 
+                         I ,  maphrian 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/97"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Denha I, maphrian — ܕܢܚܐ" in last modified August 17, 2016, http://syriaca.org/person/97</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

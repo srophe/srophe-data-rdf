@@ -83,13 +83,10 @@
         </lawd:hasName>
         <dcterms:description>Thomas was a miaphysite Bishop of  Marʿash (ancient Germanicea) . He was in correspondence with  Severus of Antioch  and was banished to  Egypt .</dcterms:description>
         <dcterms:description>bishop of Germanicia</dcterms:description>
-        <dcterms:description>This author died at a known location.</dcterms:description>
-        <dcterms:description>This author has a literary connection to places.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_57"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/89"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51 "/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/715"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/89"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51 "/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/715"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/57"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/57"/>
@@ -97,10 +94,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/340"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/57"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/178#syriaca:diedAt-http://syriaca.org/person/57"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/57"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/340#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/57"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/57"/>
+        <syriaca:diedAt rdf:resource="http://syriaca.org/place/178"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/130"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/340"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -117,36 +114,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/57/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/57/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/57/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/57">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/178#syriaca:diedAt-http://syriaca.org/person/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/178#syriaca:diedAt-http://syriaca.org/person/57">
-        <syriaca:diedAt rdf:resource="http://syriaca.org/place/178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/57">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/57"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/340"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/340#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/130#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/57">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/130"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/340#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/57">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/340"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/57">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/57"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/57">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/57"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/57/html">
         <dcterms:title xml:lang="syr">
@@ -203,6 +170,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1379"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Thomas of Germanicea — ܬܐܘܡܐ ܕܓܪܡܐܢܝܩܝ" in last modified August 17, 2016, http://syriaca.org/person/57</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/57/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܬܐܘܡܐ 
+                         ܕܓܪܡܐܢܝܩܝ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Thomas 
+                         of Germanicea 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/57"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1379"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Thomas of Germanicea — ܬܐܘܡܐ ܕܓܪܡܐܢܝܩܝ" in last modified August 17, 2016, http://syriaca.org/person/57</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -11,7 +11,7 @@
         <dcterms:description>
                              book 3 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib206-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/206"/>
         <dcterms:relation rdf:resource="#bib206-1"/>
@@ -22,11 +22,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9648"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/206"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/206#lawd:embodies-#bib206-3"/>
-        <snap:has-bond rdf:resource="#bib206-2#dcterms:source-#bib206-1"/>
-        <snap:has-bond rdf:resource="#bib206-2#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/196#dcterms:isPartOf-http://syriaca.org/work/206"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/206"/>
+        <dcterms:source rdf:resource="#bib206-2"/>
+        <lawd:hasCitation rdf:resource="#bib206-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9648"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/196"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/206"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9648"/>
@@ -41,46 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/206/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib206-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/206#lawd:embodies-#bib206-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/206#lawd:embodies-#bib206-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/206"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib206-1">
-        <dcterms:relation rdf:resource="#bib206-2"/>
-        <snap:has-bond rdf:resource="#bib206-2#dcterms:source-#bib206-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib206-2#dcterms:source-#bib206-1">
-        <dcterms:source rdf:resource="#bib206-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1112">
-        <dcterms:relation rdf:resource="#bib206-2"/>
-        <snap:has-bond rdf:resource="#bib206-2#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib206-2#lawd:hasCitation-http://syriaca.org/manuscript/1112">
-        <lawd:hasCitation rdf:resource="#bib206-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/206">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9648"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9648#skos:broadMatch-http://syriaca.org/work/206">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9648"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/206">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/196#dcterms:isPartOf-http://syriaca.org/work/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/196#dcterms:isPartOf-http://syriaca.org/work/206">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/196"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/206"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/206/html">
         <dcterms:title xml:lang="en">Luke, Arabic (literary tradition)</dcterms:title>

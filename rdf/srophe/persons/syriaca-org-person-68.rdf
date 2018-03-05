@@ -75,15 +75,13 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>the Ascetic Monk</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_68"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/68"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/343"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/68"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/621"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/343#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/68"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/621#syriaca:hasRelationToPlace-http://syriaca.org/person/68"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/343"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/621"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -96,22 +94,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/68/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/68/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/68/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/68">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/343"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/343#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/68"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/343#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/68">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/343"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/68"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/68">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/621"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/621#syriaca:hasRelationToPlace-http://syriaca.org/person/68"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/621#syriaca:hasRelationToPlace-http://syriaca.org/person/68">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/621"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/68"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/68/html">
         <dcterms:title xml:lang="syr">
@@ -147,6 +129,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Sergius the Monk — ܕܝܪܝܐ ܣܪܓܝܣ" in last modified August 17, 2016, http://syriaca.org/person/68</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/68/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܕܝܪܝܐ 
+                         ܣܪܓܝܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/68"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Sergius the Monk — ܕܝܪܝܐ ܣܪܓܝܣ" in last modified August 17, 2016, http://syriaca.org/person/68</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

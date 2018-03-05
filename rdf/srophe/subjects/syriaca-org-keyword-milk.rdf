@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Milk</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/milk"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/milk"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/milk/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/milk/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/milk/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/milk/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/milk/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/milk">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/milk"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/milk">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/milk"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/milk/html">
         <dcterms:title xml:lang="en">Milk</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Milk</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/milk"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Milk" in last modified May 5, 2017, http://syriaca.org/keyword/milk</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/milk/rdf">
+        <dcterms:title xml:lang="en">Milk</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/milk"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Milk" in last modified May 5, 2017, http://syriaca.org/keyword/milk</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh99001794"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/question-and-answer"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/question-and-answer"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/question-and-answer/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/question-and-answer/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/question-and-answer/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/question-and-answer/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/question-and-answer/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/question-and-answer">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/question-and-answer"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/question-and-answer">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/question-and-answer"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/question-and-answer/html">
         <dcterms:title xml:lang="en">Question-and-answer</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Question-and-answer</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/question-and-answer"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Question-and-answer" in last modified May 5, 2017, http://syriaca.org/keyword/question-and-answer</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/question-and-answer/rdf">
+        <dcterms:title xml:lang="en">Question-and-answer</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/question-and-answer"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Question-and-answer" in last modified May 5, 2017, http://syriaca.org/keyword/question-and-answer</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

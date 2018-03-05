@@ -14,7 +14,7 @@
         <dcterms:description>
                      Mais écoutez, mes frères, voici la véritable pratique du monachisme et le lien de l’intelligence en Dieu et la destruction des pensées étrangères qui pénètrent son corps; et quiconque a son coeur tourné vers Dieu acquerra pour son âme le repos et la vie pour les siècles des siècles. Amen et amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/668"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/668"/>
         <dcterms:relation rdf:resource="#bib976-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/976"/>
         <dcterms:relation rdf:resource="#bib976-6"/>
@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/976"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/976"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1992"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/976#lawd:embodies-#bib976-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/976#lawd:embodies-#bib976-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/976#lawd:embodies-#bib976-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1992#syriaca:commemorated-http://syriaca.org/work/976"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/976"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/976"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/976"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1992"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1717"/>
@@ -43,38 +43,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/976/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/976/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/976/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib976-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/976#lawd:embodies-#bib976-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/976#lawd:embodies-#bib976-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/976"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/976"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib976-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/976#lawd:embodies-#bib976-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/976#lawd:embodies-#bib976-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/976"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/976"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib976-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/976#lawd:embodies-#bib976-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/976#lawd:embodies-#bib976-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/976"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/976"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/976">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1992"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1992#syriaca:commemorated-http://syriaca.org/work/976"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1992#syriaca:commemorated-http://syriaca.org/work/976">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1992"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/976"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/976/html">
         <dcterms:title xml:lang="en">The Fathers (text)</dcterms:title>
@@ -110,6 +78,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/836"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/716"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Fathers (text)" in last modified December 12, 2016, http://syriaca.org/work/976</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/976/rdf">
+        <dcterms:title xml:lang="en">The Fathers (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/976"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/714"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/836"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/716"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Fathers (text)" in last modified December 12, 2016, http://syriaca.org/work/976</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/nestorians"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/nestorians"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/nestorians"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/nestorians/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/nestorians/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/nestorians/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/nestorians/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/nestorians/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/nestorians">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/nestorians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/nestorians">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/nestorians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/nestorians">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/nestorians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/nestorians">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/nestorians"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/nestorians/html">
         <dcterms:title xml:lang="en">Nestorians</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Nestorians</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/nestorians"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Nestorians" in last modified May 5, 2017, http://syriaca.org/keyword/nestorians</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/nestorians/rdf">
+        <dcterms:title xml:lang="en">Nestorians</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/nestorians"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Nestorians" in last modified May 5, 2017, http://syriaca.org/keyword/nestorians</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

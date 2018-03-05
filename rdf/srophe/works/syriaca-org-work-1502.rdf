@@ -14,16 +14,16 @@
         <dcterms:description>
                      Quant aux guérisons en tous genres de maladies graves et aux secours abondants qui proviennent du lieu saint où les saints martyrs sont inhumés; ces faits prêchent plus que des paroles. Voilà brièvement l’histoire des exploits des athlètes vaillants, les martyrs du Christ… Ces sains douze martyrs ont été couronnés au mois de Kanôn II. Que leur prière… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/998"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/998"/>
         <dcterms:relation rdf:resource="#bib1502-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1502"/>
         <dcterms:relation rdf:resource="#bib1502-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1502"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1502"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1905"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1502#lawd:embodies-#bib1502-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1502#lawd:embodies-#bib1502-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1905#syriaca:commemorated-http://syriaca.org/work/1502"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1502"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1502"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1905"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1718"/>
@@ -36,30 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1502/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1502/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1502/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1502-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1502"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1502#lawd:embodies-#bib1502-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1502#lawd:embodies-#bib1502-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1502"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1502"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1502-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1502"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1502#lawd:embodies-#bib1502-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1502#lawd:embodies-#bib1502-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1502"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1502"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1502">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1905"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1905#syriaca:commemorated-http://syriaca.org/work/1502"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1905#syriaca:commemorated-http://syriaca.org/work/1502">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1905"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1502"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1502/html">
         <dcterms:title xml:lang="en">Martyrs of Tur Berʿain (text)</dcterms:title>
@@ -83,6 +59,14 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1718"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Martyrs of Tur Berʿain (text)" in last modified December 12, 2016, http://syriaca.org/work/1502</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1502/rdf">
+        <dcterms:title xml:lang="en">Martyrs of Tur Berʿain (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1502"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1718"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Martyrs of Tur Berʿain (text)" in last modified December 12, 2016, http://syriaca.org/work/1502</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

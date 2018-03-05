@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/culture"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/syriac-influence-china"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/culture"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/intertextuality"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/syriac-influence-china/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/syriac-influence-china/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/syriac-influence-china/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/syriac-influence-china/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/syriac-influence-china/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/syriac-influence-china">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/culture"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/culture#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/culture"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/syriac-influence-china"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/syriac-influence-china">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/syriac-influence-china">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/syriac-influence-china"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/syriac-influence-china/html">
         <dcterms:title xml:lang="en">Syriac influence [China]</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Syriac influence [China]</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/syriac-influence-china"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Syriac influence [China]" in last modified May 5, 2017, http://syriaca.org/keyword/syriac-influence-china</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/syriac-influence-china/rdf">
+        <dcterms:title xml:lang="en">Syriac influence [China]</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/syriac-influence-china"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Syriac influence [China]" in last modified May 5, 2017, http://syriaca.org/keyword/syriac-influence-china</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

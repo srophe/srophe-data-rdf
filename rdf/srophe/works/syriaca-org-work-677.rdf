@@ -15,7 +15,7 @@
         <dcterms:description>
                      On fit connaître une fois à ce saint la mort de son père; aussitôt il dit à celui qui lui avait porté la nouvelle: “Tais-toi, car tu blasphèmes; en effet, mon père est immortel.” 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/668"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/668"/>
         <dcterms:relation rdf:resource="#bib677-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
         <dcterms:relation rdf:resource="#bib677-3"/>
@@ -26,11 +26,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/483"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/483#syriaca:commemorated-http://syriaca.org/work/677"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/483"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1731"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/677/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/677/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/677/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib677-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/677#lawd:embodies-#bib677-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/677"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib677-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/677#lawd:embodies-#bib677-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/677"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib677-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/677#lawd:embodies-#bib677-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/677"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib677-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/677"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/677#lawd:embodies-#bib677-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/677#lawd:embodies-#bib677-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/677"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/677"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/677">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/483"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/483#syriaca:commemorated-http://syriaca.org/work/677"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/483#syriaca:commemorated-http://syriaca.org/work/677">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/483"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/677"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/677/html">
         <dcterms:title xml:lang="syr">ܐܘܓܪܝܣ</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2096"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Evagrius (text) — ܐܘܓܪܝܣ" in last modified December 12, 2016, http://syriaca.org/work/677</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/677/rdf">
+        <dcterms:title xml:lang="syr">ܐܘܓܪܝܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Evagrius (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/677"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1731"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2096"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Evagrius (text) — ܐܘܓܪܝܣ" in last modified December 12, 2016, http://syriaca.org/work/677</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

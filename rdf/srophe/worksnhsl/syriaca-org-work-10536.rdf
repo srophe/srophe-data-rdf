@@ -12,11 +12,11 @@
         <skos:closeMatch rdf:resource="https://en.wikipedia.org/wiki/New_Testament"/>
         <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q18813"/>
         <skos:closeMatch rdf:resource="https://viaf.org/viaf/185488588"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/44"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/35"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/44"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/35"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10536"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9587"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9587#skos:broadMatch-http://syriaca.org/work/10536"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9587"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/10536"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/70"/>
@@ -31,14 +31,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10536/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10536/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10536/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10536">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9587"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9587#skos:broadMatch-http://syriaca.org/work/10536"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9587#skos:broadMatch-http://syriaca.org/work/10536">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9587"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10536"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/10536/html">
         <dcterms:title xml:lang="en">New Testament (Philoxenian version)</dcterms:title>

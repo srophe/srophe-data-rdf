@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Persians</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/persians"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/persians"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethnicity"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/persians/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/persians/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/persians/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/persians/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/persians/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/persians">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/persians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/persians">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/persians"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/persians/html">
         <dcterms:title xml:lang="en">Persians</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Persians</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/persians"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Persians" in last modified May 5, 2017, http://syriaca.org/keyword/persians</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/persians/rdf">
+        <dcterms:title xml:lang="en">Persians</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/persians"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Persians" in last modified May 5, 2017, http://syriaca.org/keyword/persians</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

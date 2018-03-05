@@ -15,7 +15,7 @@
         <dcterms:description>
                      Et plus tard il arriva à sa première mesure. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/668"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/668"/>
         <dcterms:relation rdf:resource="#bib508-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
         <dcterms:relation rdf:resource="#bib508-3"/>
@@ -26,11 +26,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2138"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2138#syriaca:commemorated-http://syriaca.org/work/508"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2138"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/508/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/508/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/508/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib508-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/508#lawd:embodies-#bib508-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/508"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib508-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/508#lawd:embodies-#bib508-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/508"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib508-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/508#lawd:embodies-#bib508-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/508"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib508-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/508"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/508#lawd:embodies-#bib508-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/508#lawd:embodies-#bib508-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/508"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/508"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/508">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2138"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2138#syriaca:commemorated-http://syriaca.org/work/508"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2138#syriaca:commemorated-http://syriaca.org/work/508">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2138"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/508"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/508/html">
         <dcterms:title xml:lang="syr">ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Elder from Scete (text) — ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ" in last modified December 12, 2016, http://syriaca.org/work/508</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/508/rdf">
+        <dcterms:title xml:lang="syr">ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Elder from Scete (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/508"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Elder from Scete (text) — ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ" in last modified December 12, 2016, http://syriaca.org/work/508</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

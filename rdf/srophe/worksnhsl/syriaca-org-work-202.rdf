@@ -9,7 +9,7 @@
                         </dcterms:description>
         <skos:closeMatch rdf:resource="https://en.wikipedia.org/wiki/Book_of_Tobit"/>
         <skos:closeMatch rdf:resource="https://www.wikidata.org/wiki/Q131737"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib202-1"/>
         <dcterms:relation rdf:resource="#bib202-3"/>
         <dcterms:relation rdf:resource="#bib202-1"/>
@@ -30,16 +30,16 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9686"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/202"/>
         <dcterms:relation rdf:resource="http://syriaca.org/manuscript/1116#a1"/>
-        <snap:has-bond rdf:resource="#bib202-3#dcterms:source-#bib202-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-1"/>
-        <snap:has-bond rdf:resource="#bib202-1#dcterms:source-#bib202-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-7"/>
-        <snap:has-bond rdf:resource="#bib202-9#dcterms:source-#bib202-8"/>
-        <snap:has-bond rdf:resource="#bib202-9#lawd:hasCitation-http://syriaca.org/manuscript/1116"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9686#skos:broadMatch-http://syriaca.org/work/202"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/1116#a1#dcterms:isPartOf-http://syriaca.org/work/202"/>
+        <dcterms:source rdf:resource="#bib202-3"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
+        <dcterms:source rdf:resource="#bib202-1"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
+        <dcterms:source rdf:resource="#bib202-9"/>
+        <lawd:hasCitation rdf:resource="#bib202-9"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9686"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/1116#a1"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2438"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2439"/>
@@ -57,86 +57,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/202/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/202/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/202/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-1">
-        <dcterms:relation rdf:resource="#bib202-3"/>
-        <snap:has-bond rdf:resource="#bib202-3#dcterms:source-#bib202-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-3#dcterms:source-#bib202-1">
-        <dcterms:source rdf:resource="#bib202-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/202"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/202#lawd:embodies-#bib202-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-2">
-        <dcterms:relation rdf:resource="#bib202-1"/>
-        <snap:has-bond rdf:resource="#bib202-1#dcterms:source-#bib202-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-1#dcterms:source-#bib202-2">
-        <dcterms:source rdf:resource="#bib202-1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/202"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/202#lawd:embodies-#bib202-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/202"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/202#lawd:embodies-#bib202-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/202"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/202#lawd:embodies-#bib202-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/202#lawd:embodies-#bib202-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/202"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-8">
-        <dcterms:relation rdf:resource="#bib202-9"/>
-        <snap:has-bond rdf:resource="#bib202-9#dcterms:source-#bib202-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-9#dcterms:source-#bib202-8">
-        <dcterms:source rdf:resource="#bib202-9"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1116">
-        <dcterms:relation rdf:resource="#bib202-9"/>
-        <snap:has-bond rdf:resource="#bib202-9#lawd:hasCitation-http://syriaca.org/manuscript/1116"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib202-9#lawd:hasCitation-http://syriaca.org/manuscript/1116">
-        <lawd:hasCitation rdf:resource="#bib202-9"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/202">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9686"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9686#skos:broadMatch-http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9686#skos:broadMatch-http://syriaca.org/work/202">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9686"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/202">
-        <dcterms:relation rdf:resource="http://syriaca.org/manuscript/1116#a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/1116#a1#dcterms:isPartOf-http://syriaca.org/work/202"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1116#a1#dcterms:isPartOf-http://syriaca.org/work/202">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/1116#a1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/202"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/202/html">
         <dcterms:title xml:lang="en">Tobit (LXX/Septuagint version)</dcterms:title>

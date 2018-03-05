@@ -15,8 +15,8 @@
         <dcterms:description>
                      Puisse-t-il arriver que la grâce ne nous soit pas mesurée, mais qu’elle nous reste sans fin, et que la force des supplications ne soit pas affaiblie ni vaincue par nos péchés, par la grâce et l’amour pour les hommes du grand Dieu… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib862-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
         <dcterms:relation rdf:resource="#bib862-3"/>
@@ -27,11 +27,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1213"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1213#syriaca:commemorated-http://syriaca.org/work/862"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1213"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2045"/>
@@ -45,46 +45,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/862/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/862/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/862/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib862-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/862#lawd:embodies-#bib862-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/862"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib862-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/862#lawd:embodies-#bib862-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/862"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib862-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/862#lawd:embodies-#bib862-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/862"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib862-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/862"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/862#lawd:embodies-#bib862-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/862#lawd:embodies-#bib862-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/862"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/862"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/862">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1213"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1213#syriaca:commemorated-http://syriaca.org/work/862"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1213#syriaca:commemorated-http://syriaca.org/work/862">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1213"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/862"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/862/html">
         <dcterms:title xml:lang="syr">ܕܘܡܛܝܘܣ</dcterms:title>
@@ -114,6 +74,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2045"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Dometius (text) — ܕܘܡܛܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/862</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/862/rdf">
+        <dcterms:title xml:lang="syr">ܕܘܡܛܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Dometius (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/862"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2045"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2045"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Dometius (text) — ܕܘܡܛܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/862</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

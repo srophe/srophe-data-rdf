@@ -10,10 +10,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ritual"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/sanctus"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/liturgy#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/liturgy"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ritual"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sanctus/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sanctus/tei"/>
@@ -23,38 +23,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sanctus/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sanctus/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sanctus/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sanctus">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/sanctus">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sanctus">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/liturgy"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/liturgy#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/liturgy#skos:broadMatch-http://syriaca.org/keyword/sanctus">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/liturgy"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sanctus">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ritual"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/sanctus">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ritual"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sanctus">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/sanctus"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/sanctus">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sanctus"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/sanctus/html">
         <dcterms:title xml:lang="en">Sanctus</dcterms:title>
@@ -72,6 +40,12 @@
         <dcterms:title xml:lang="en">Sanctus</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/sanctus"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sanctus" in last modified May 5, 2017, http://syriaca.org/keyword/sanctus</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/sanctus/rdf">
+        <dcterms:title xml:lang="en">Sanctus</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/sanctus"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sanctus" in last modified May 5, 2017, http://syriaca.org/keyword/sanctus</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

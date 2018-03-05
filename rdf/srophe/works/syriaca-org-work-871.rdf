@@ -14,8 +14,8 @@
         <dcterms:description>
                      Car nous aussi nous avons dit ce peu de chose à partir de ce qui est à lui; et comme vous êtes contents et joyeux, louez le Christ qui est la source de toute connaissance et sagesse; à lui la gloire… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib871-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/871"/>
         <dcterms:relation rdf:resource="#bib871-4"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/871"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/871"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/871#lawd:embodies-#bib871-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/871#lawd:embodies-#bib871-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/871#lawd:embodies-#bib871-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1901#syriaca:commemorated-http://syriaca.org/work/871"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/871"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/871"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/871"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1901"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2042"/>
@@ -42,38 +42,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/871/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/871/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/871/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib871-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/871"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/871#lawd:embodies-#bib871-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/871#lawd:embodies-#bib871-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/871"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/871"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib871-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/871"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/871#lawd:embodies-#bib871-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/871#lawd:embodies-#bib871-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/871"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/871"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib871-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/871"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/871#lawd:embodies-#bib871-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/871#lawd:embodies-#bib871-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/871"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/871"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/871">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1901#syriaca:commemorated-http://syriaca.org/work/871"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1901#syriaca:commemorated-http://syriaca.org/work/871">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1901"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/871"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/871/html">
         <dcterms:title xml:lang="en">Martyrs of Sebaste (text)</dcterms:title>
@@ -103,6 +71,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/811"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Martyrs of Sebaste (text)" in last modified December 12, 2016, http://syriaca.org/work/871</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/871/rdf">
+        <dcterms:title xml:lang="en">Martyrs of Sebaste (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/871"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2042"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2042"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/811"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Martyrs of Sebaste (text)" in last modified December 12, 2016, http://syriaca.org/work/871</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

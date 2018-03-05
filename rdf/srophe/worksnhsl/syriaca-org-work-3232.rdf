@@ -3,13 +3,13 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">To Caesaria</rdfs:label>
         <dcterms:description>A letter of Severus of Antioch preserved in fragment without a clear indication of its place in the various ancient collection of his letters.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3232-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3232"/>
         <dcterms:relation rdf:resource="#bib3232-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3232"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3232#lawd:embodies-#bib3232-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3232#lawd:embodies-#bib3232-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3232"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3232"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/671"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/671"/>
@@ -22,22 +22,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3232/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3232/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3232/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3232-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3232"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3232#lawd:embodies-#bib3232-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3232#lawd:embodies-#bib3232-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3232"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3232"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3232-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3232"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3232#lawd:embodies-#bib3232-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3232#lawd:embodies-#bib3232-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3232"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3232"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3232/html">
         <dcterms:title xml:lang="en">To Caesaria</dcterms:title>

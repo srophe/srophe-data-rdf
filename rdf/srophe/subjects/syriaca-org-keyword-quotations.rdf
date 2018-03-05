@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/quotations"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/quotations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/quotations"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/quotations/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/quotations/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/quotations/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/quotations/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/quotations/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/quotations">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/quotations"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/quotations">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/quotations"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/quotations">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/quotations"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/quotations">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/quotations"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/quotations/html">
         <dcterms:title xml:lang="en">Quotations</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Quotations</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/quotations"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Quotations" in last modified May 5, 2017, http://syriaca.org/keyword/quotations</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/quotations/rdf">
+        <dcterms:title xml:lang="en">Quotations</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/quotations"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Quotations" in last modified May 5, 2017, http://syriaca.org/keyword/quotations</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

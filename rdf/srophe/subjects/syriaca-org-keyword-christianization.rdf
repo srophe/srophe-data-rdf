@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianization"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/events"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/christianization"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/christianization"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/christianization/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/christianization/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/christianization/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/christianization/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/christianization/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianization">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/christianization"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/christianization">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/christianization"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianization">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/events"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/christianization"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/christianization">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/christianization"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/christianization/html">
         <dcterms:title xml:lang="en">Christianization</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Christianization</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/christianization"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Christianization" in last modified May 5, 2017, http://syriaca.org/keyword/christianization</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/christianization/rdf">
+        <dcterms:title xml:lang="en">Christianization</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/christianization"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Christianization" in last modified May 5, 2017, http://syriaca.org/keyword/christianization</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

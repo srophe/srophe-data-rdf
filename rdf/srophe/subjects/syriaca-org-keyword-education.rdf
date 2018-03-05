@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85040989"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/education"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/education"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/education/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/education/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/education/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/education/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/education/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/education">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/education"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/education">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/education"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/education/html">
         <dcterms:title xml:lang="en">Education</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Education</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/education"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Education" in last modified May 5, 2017, http://syriaca.org/keyword/education</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/education/rdf">
+        <dcterms:title xml:lang="en">Education</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/education"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Education" in last modified May 5, 2017, http://syriaca.org/keyword/education</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

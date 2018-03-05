@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1810"/>
         <dcterms:relation rdf:resource="#bib1810-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1810"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1810#lawd:embodies-#bib1810-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1810#lawd:embodies-#bib1810-3"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1810"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1810"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -19,22 +19,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1810/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1810/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1810/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1810-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1810"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1810#lawd:embodies-#bib1810-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1810#lawd:embodies-#bib1810-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1810"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1810"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1810-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1810"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1810#lawd:embodies-#bib1810-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1810#lawd:embodies-#bib1810-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1810"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1810"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1810/html">
         <dcterms:title xml:lang="en">The Patriarchs of Antioch (text)</dcterms:title>
@@ -55,6 +39,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1810"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Patriarchs of Antioch (text)" in last modified December 12, 2016, http://syriaca.org/work/1810</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1810/rdf">
+        <dcterms:title xml:lang="en">The Patriarchs of Antioch (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1810"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Patriarchs of Antioch (text)" in last modified December 12, 2016, http://syriaca.org/work/1810</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/anti-nestorian"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/anti-nestorian"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/anti-nestorian"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/anti-nestorian/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/anti-nestorian/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/anti-nestorian/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/anti-nestorian/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/anti-nestorian/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/anti-nestorian">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/anti-nestorian"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/anti-nestorian">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/anti-nestorian"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/anti-nestorian">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/anti-nestorian"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/anti-nestorian">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/anti-nestorian"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/anti-nestorian/html">
         <dcterms:title xml:lang="en">Anti-Nestorian</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Anti-Nestorian</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/anti-nestorian"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Anti-Nestorian" in last modified May 5, 2017, http://syriaca.org/keyword/anti-nestorian</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/anti-nestorian/rdf">
+        <dcterms:title xml:lang="en">Anti-Nestorian</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/anti-nestorian"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Anti-Nestorian" in last modified May 5, 2017, http://syriaca.org/keyword/anti-nestorian</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

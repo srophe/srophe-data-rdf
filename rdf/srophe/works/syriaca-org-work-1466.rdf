@@ -15,13 +15,13 @@
         <dcterms:description>
                      Ainsi celui aussi qui honore les martyrs est compté au nombre des martyrs par le Christ, lui à qui avec son Père… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/573"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/573"/>
         <dcterms:relation rdf:resource="#bib1466-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1466"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1466"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1709"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1466#lawd:embodies-#bib1466-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1709#syriaca:commemorated-http://syriaca.org/work/1466"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1466"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1709"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -33,22 +33,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1466/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1466/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1466/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1466-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1466"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1466#lawd:embodies-#bib1466-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1466#lawd:embodies-#bib1466-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1466"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1466"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1466">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1709"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1709#syriaca:commemorated-http://syriaca.org/work/1466"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1709#syriaca:commemorated-http://syriaca.org/work/1466">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1709"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1466"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1466/html">
         <dcterms:title xml:lang="syr">ܐܣܛܦܢܘܣ</dcterms:title>
@@ -72,6 +56,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1466"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Steven (text) — ܐܣܛܦܢܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1466</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1466/rdf">
+        <dcterms:title xml:lang="syr">ܐܣܛܦܢܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Steven (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1466"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Steven (text) — ܐܣܛܦܢܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1466</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

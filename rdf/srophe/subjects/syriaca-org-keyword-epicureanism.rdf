@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh96001809"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/epicureanism"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/epicureanism"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/epicureanism/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/epicureanism/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/epicureanism/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/epicureanism/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/epicureanism/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/epicureanism">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/epicureanism"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/epicureanism">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/epicureanism"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/epicureanism/html">
         <dcterms:title xml:lang="en">Epicureanism</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Epicureanism</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/epicureanism"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Epicureanism" in last modified May 5, 2017, http://syriaca.org/keyword/epicureanism</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/epicureanism/rdf">
+        <dcterms:title xml:lang="en">Epicureanism</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/epicureanism"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Epicureanism" in last modified May 5, 2017, http://syriaca.org/keyword/epicureanism</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

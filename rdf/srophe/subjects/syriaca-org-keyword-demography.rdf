@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/economics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/demography"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/demography"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/demography"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/economics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/demography/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/demography/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/demography/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/demography/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/demography/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/demography">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/economics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/demography"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/demography">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/economics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/demography"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/demography">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/demography"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/demography">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/demography"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/demography/html">
         <dcterms:title xml:lang="en">Demography</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Demography</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/demography"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Demography" in last modified May 5, 2017, http://syriaca.org/keyword/demography</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/demography/rdf">
+        <dcterms:title xml:lang="en">Demography</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/demography"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Demography" in last modified May 5, 2017, http://syriaca.org/keyword/demography</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

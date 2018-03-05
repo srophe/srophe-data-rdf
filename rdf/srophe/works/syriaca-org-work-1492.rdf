@@ -21,16 +21,16 @@
         <dcterms:description>
                      Et ils ordonnèrent qu’il y ait une nouvelle fête, et que l’empereur et le patriarche descendent à l’église, baptisent ce marchand et qu’il l’acceptent comme partriarche (???) et que le dimanche suivant il baptise cet enfant et l’acceptent comme marchand (???) et ainsi selon l’économie divine tous les deux furent baptisés. (Ces choses ont été racontées devant vous, mes frères, pour que personne ne doute de la vraie foi des chrétiens… Que notre Seigneur nous donne… Amen.) 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/216"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
         <dcterms:relation rdf:resource="#bib1492-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1492"/>
         <dcterms:relation rdf:resource="#bib1492-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1492"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1492"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1874"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1492#lawd:embodies-#bib1492-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1492#lawd:embodies-#bib1492-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1874#syriaca:commemorated-http://syriaca.org/work/1492"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1492"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1492"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1874"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -42,30 +42,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1492/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1492/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1492/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1492-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1492"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1492#lawd:embodies-#bib1492-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1492#lawd:embodies-#bib1492-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1492"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1492"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1492-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1492"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1492#lawd:embodies-#bib1492-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1492#lawd:embodies-#bib1492-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1492"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1492"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1492">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1874"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1874#syriaca:commemorated-http://syriaca.org/work/1492"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1874#syriaca:commemorated-http://syriaca.org/work/1492">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1874"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1492"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1492/html">
         <dcterms:title xml:lang="en">A Merchant of Harran in
@@ -89,6 +65,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1492"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "A Merchant of Harran in Constantinople (text)" in last modified December 12, 2016, http://syriaca.org/work/1492</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1492/rdf">
+        <dcterms:title xml:lang="en">A Merchant of Harran in
+                    Constantinople (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1492"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "A Merchant of Harran in Constantinople (text)" in last modified December 12, 2016, http://syriaca.org/work/1492</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

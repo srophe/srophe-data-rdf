@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85049168"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/flood"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/events"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/flood"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/flood/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/flood/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/flood/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/flood/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/flood/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/flood">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/events"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/flood"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/flood">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/flood"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/flood/html">
         <dcterms:title xml:lang="en">Flood</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Flood</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/flood"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Flood" in last modified May 5, 2017, http://syriaca.org/keyword/flood</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/flood/rdf">
+        <dcterms:title xml:lang="en">Flood</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/flood"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Flood" in last modified May 5, 2017, http://syriaca.org/keyword/flood</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

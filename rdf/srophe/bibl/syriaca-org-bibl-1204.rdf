@@ -2,10 +2,9 @@
     <rdf:Description rdf:about="http://syriaca.org/bibl/1204">
         <rdf:type rdf:resource="http://purl.org/dc/terms/bibliographicResource"/>
         <rdfs:label xml:lang="fr">Notes on the Indo-Scythians</rdfs:label>
-        <dcterms:description>This is a condensed translation of  Notes sur les Indo-Scythes, Journal Asiatique (Series 9) (1896) 8:444-484 and (1896) 9:5-42 .</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/bibl/1204"/>
         <dcterms:relation rdf:resource="http://syriaca.org/bibl/948"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/bibl/948#condensed-translation-of-http://syriaca.org/bibl/1204"/>
+        <condensed-translation-of xmlns="" rdf:resource="http://syriaca.org/bibl/948"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/bibl/1204/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/bibl/1204/tei"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/bibl/1204/ttl"/>
@@ -14,14 +13,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/bibl/1204/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/bibl/1204/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/bibl/1204/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/bibl/1204">
-        <dcterms:relation rdf:resource="http://syriaca.org/bibl/948"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/bibl/948#condensed-translation-of-http://syriaca.org/bibl/1204"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/bibl/948#condensed-translation-of-http://syriaca.org/bibl/1204">
-        <condensed-translation-of xmlns="" rdf:resource="http://syriaca.org/bibl/948"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1204"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/bibl/1204/html">
         <dcterms:title xml:lang="fr">Notes on the Indo-Scythians</dcterms:title>
@@ -39,6 +30,12 @@
         <dcterms:title xml:lang="fr">Notes on the Indo-Scythians</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/bibl/1204"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">S. Lévi, "Notes on the Indo-Scythians.", trans. The Indian AntiquaryThe Indian Antiquary vol. 32vol. 33 ,</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/bibl/1204/rdf">
+        <dcterms:title xml:lang="fr">Notes on the Indo-Scythians</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/bibl/1204"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">S. Lévi, "Notes on the Indo-Scythians.", trans. The Indian AntiquaryThe Indian Antiquary vol. 32vol. 33 ,</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

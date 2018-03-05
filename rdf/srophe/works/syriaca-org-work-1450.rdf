@@ -14,7 +14,7 @@
         <dcterms:description>
                      Et ses amis qui vinrent à lui, Éliphaz, un des fils d’Ésaü roi de Témân, et Bildad tyran de Shouah, et Sophar de Na‘ama. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/477"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/477"/>
         <dcterms:relation rdf:resource="#bib1450-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
         <dcterms:relation rdf:resource="#bib1450-5"/>
@@ -25,11 +25,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2028"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1450"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2028"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1898"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1450/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1450/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1450/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1450-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1450#lawd:embodies-#bib1450-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1450"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1450-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1450#lawd:embodies-#bib1450-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1450"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1450-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1450#lawd:embodies-#bib1450-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1450"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1450-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1450"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1450#lawd:embodies-#bib1450-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1450#lawd:embodies-#bib1450-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1450"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1450"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1450">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2028"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1450"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1450">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2028"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1450"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1450/html">
         <dcterms:title xml:lang="en">Prophets (text)</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1067"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1073"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Prophets (text)" in last modified December 12, 2016, http://syriaca.org/work/1450</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1450/rdf">
+        <dcterms:title xml:lang="en">Prophets (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1450"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1898"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1067"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1073"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Prophets (text)" in last modified December 12, 2016, http://syriaca.org/work/1450</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

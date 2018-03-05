@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">XIII CE</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/xiii-ce"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/xiii-ce"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/xiii-ce/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/xiii-ce/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/xiii-ce/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/xiii-ce/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/xiii-ce/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/xiii-ce">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/xiii-ce"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/xiii-ce">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/xiii-ce"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/xiii-ce/html">
         <dcterms:title xml:lang="en">XIII CE</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">XIII CE</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/xiii-ce"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "XIII CE" in last modified May 5, 2017, http://syriaca.org/keyword/xiii-ce</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/xiii-ce/rdf">
+        <dcterms:title xml:lang="en">XIII CE</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/xiii-ce"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "XIII CE" in last modified May 5, 2017, http://syriaca.org/keyword/xiii-ce</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

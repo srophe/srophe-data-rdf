@@ -7,8 +7,8 @@
                              book 1 
                              part 1 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib166-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/166"/>
         <dcterms:relation rdf:resource="#bib166-1"/>
@@ -19,11 +19,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9650"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/166"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/165"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/166#lawd:embodies-#bib166-3"/>
-        <snap:has-bond rdf:resource="#bib166-2#dcterms:source-#bib166-1"/>
-        <snap:has-bond rdf:resource="#bib166-2#lawd:hasCitation-http://syriaca.org/manuscript/730"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9650#skos:broadMatch-http://syriaca.org/work/166"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/165#dcterms:isPartOf-http://syriaca.org/work/166"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/166"/>
+        <dcterms:source rdf:resource="#bib166-2"/>
+        <lawd:hasCitation rdf:resource="#bib166-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9650"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/165"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/730"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/730"/>
@@ -36,46 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/166/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/166/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/166/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib166-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/166"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/166#lawd:embodies-#bib166-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/166#lawd:embodies-#bib166-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/166"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/166"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib166-1">
-        <dcterms:relation rdf:resource="#bib166-2"/>
-        <snap:has-bond rdf:resource="#bib166-2#dcterms:source-#bib166-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib166-2#dcterms:source-#bib166-1">
-        <dcterms:source rdf:resource="#bib166-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/166"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/730">
-        <dcterms:relation rdf:resource="#bib166-2"/>
-        <snap:has-bond rdf:resource="#bib166-2#lawd:hasCitation-http://syriaca.org/manuscript/730"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib166-2#lawd:hasCitation-http://syriaca.org/manuscript/730">
-        <lawd:hasCitation rdf:resource="#bib166-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/166"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/166">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9650"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9650#skos:broadMatch-http://syriaca.org/work/166"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9650#skos:broadMatch-http://syriaca.org/work/166">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9650"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/166"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/166">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/165"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/165#dcterms:isPartOf-http://syriaca.org/work/166"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/165#dcterms:isPartOf-http://syriaca.org/work/166">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/165"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/166"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/166/html">
         <dcterms:title xml:lang="en">Judges (LXX/Septuagint version)</dcterms:title>

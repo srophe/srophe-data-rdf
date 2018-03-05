@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Farmers</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/farmers"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/farmers"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/farmers/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/farmers/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/farmers/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/farmers/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/farmers/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/farmers">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/farmers"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/farmers">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/farmers"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/farmers/html">
         <dcterms:title xml:lang="en">Farmers</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Farmers</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/farmers"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Farmers" in last modified May 5, 2017, http://syriaca.org/keyword/farmers</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/farmers/rdf">
+        <dcterms:title xml:lang="en">Farmers</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/farmers"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Farmers" in last modified May 5, 2017, http://syriaca.org/keyword/farmers</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

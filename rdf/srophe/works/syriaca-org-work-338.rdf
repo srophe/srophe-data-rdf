@@ -20,11 +20,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/1194"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/338"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2815"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/338#lawd:embodies-#bib338-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/338#lawd:embodies-#bib338-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/338#lawd:embodies-#bib338-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1194#syriaca:commemorated-http://syriaca.org/work/338"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2815#syriaca:commemorated-http://syriaca.org/work/338"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/338"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/338"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/338"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1194"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2815"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -41,46 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/338/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/338/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/338/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib338-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/338"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/338#lawd:embodies-#bib338-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/338#lawd:embodies-#bib338-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/338"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/338"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib338-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/338"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/338#lawd:embodies-#bib338-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/338#lawd:embodies-#bib338-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/338"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/338"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib338-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/338"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/338#lawd:embodies-#bib338-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/338#lawd:embodies-#bib338-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/338"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/338"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/338">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1194"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1194#syriaca:commemorated-http://syriaca.org/work/338"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1194#syriaca:commemorated-http://syriaca.org/work/338">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1194"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/338"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/338">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2815"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2815#syriaca:commemorated-http://syriaca.org/work/338"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2815#syriaca:commemorated-http://syriaca.org/work/338">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2815"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/338"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/338/html">
         <dcterms:title xml:lang="syr">ܕܕܘ</dcterms:title>
@@ -119,6 +79,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/896"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Dodo (text) — ܕܕܘ" in last modified December 12, 2016, http://syriaca.org/work/338</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/338/rdf">
+        <dcterms:title xml:lang="syr">ܕܕܘ</dcterms:title>
+        <dcterms:title xml:lang="en">Dodo (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/338"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1350"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/779"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/896"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Dodo (text) — ܕܕܘ" in last modified December 12, 2016, http://syriaca.org/work/338</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -15,7 +15,7 @@
         <dcterms:description>
                      Ce confesseur fut donc le premier à être mis à mort dans la ville de Césarée. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/480"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/480"/>
         <dcterms:relation rdf:resource="#bib1938-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1938"/>
         <dcterms:relation rdf:resource="#bib1938-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1938"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1938"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2026"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1938#lawd:embodies-#bib1938-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1938#lawd:embodies-#bib1938-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1938#lawd:embodies-#bib1938-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2026#syriaca:commemorated-http://syriaca.org/work/1938"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1938"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1938"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1938"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2026"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2081"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1938/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1938/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1938/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1938-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1938"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1938#lawd:embodies-#bib1938-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1938#lawd:embodies-#bib1938-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1938"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1938"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1938-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1938"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1938#lawd:embodies-#bib1938-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1938#lawd:embodies-#bib1938-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1938"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1938"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1938-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1938"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1938#lawd:embodies-#bib1938-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1938#lawd:embodies-#bib1938-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1938"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1938"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1938">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2026"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2026#syriaca:commemorated-http://syriaca.org/work/1938"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2026#syriaca:commemorated-http://syriaca.org/work/1938">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2026"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1938"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1938/html">
         <dcterms:title xml:lang="syr">ܦܪܘܩܘܦܝܘܣ</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Procopius (text) — ܦܪܘܩܘܦܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1938</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1938/rdf">
+        <dcterms:title xml:lang="syr">ܦܪܘܩܘܦܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Procopius (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1938"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Procopius (text) — ܦܪܘܩܘܦܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1938</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

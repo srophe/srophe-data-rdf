@@ -3,10 +3,10 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</rdfs:label>
         <rdfs:label xml:lang="en">Ḥimyarite Martyrs (text)</rdfs:label>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/53"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/305"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/2783"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/165"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/53"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/305"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2783"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/165"/>
         <dcterms:relation rdf:resource="#bib1178-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1178"/>
         <dcterms:relation rdf:resource="#bib1178-7"/>
@@ -15,10 +15,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1178"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1178"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1907"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1178#lawd:embodies-#bib1178-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1178#lawd:embodies-#bib1178-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1178#lawd:embodies-#bib1178-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1907#syriaca:commemorated-http://syriaca.org/work/1178"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1178"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1178"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1178"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1907"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1712"/>
@@ -37,38 +37,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1178/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1178/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1178/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1178-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1178#lawd:embodies-#bib1178-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1178#lawd:embodies-#bib1178-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1178"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1178-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1178#lawd:embodies-#bib1178-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1178#lawd:embodies-#bib1178-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1178"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1178-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1178#lawd:embodies-#bib1178-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1178#lawd:embodies-#bib1178-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1178"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1178">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1907"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1907#syriaca:commemorated-http://syriaca.org/work/1178"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1907#syriaca:commemorated-http://syriaca.org/work/1178">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1907"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1178"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1178/html">
         <dcterms:title xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</dcterms:title>
@@ -113,6 +81,21 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1027"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/269"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Ḥimyarite Martyrs (text) — ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1178</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1178/rdf">
+        <dcterms:title xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Ḥimyarite Martyrs (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1178"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1712"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1712"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1102"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1103"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1012"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1027"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/269"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Ḥimyarite Martyrs (text) — ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1178</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

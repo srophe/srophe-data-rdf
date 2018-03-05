@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/philo-judaism"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/philo-judaism"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/philo-judaism"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/philo-judaism/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/philo-judaism/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/philo-judaism/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/philo-judaism/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/philo-judaism/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/philo-judaism">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/philo-judaism"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/philo-judaism">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/philo-judaism"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/philo-judaism">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/philo-judaism"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/philo-judaism">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/philo-judaism"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/philo-judaism/html">
         <dcterms:title xml:lang="en">Philo-Judaism</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Philo-Judaism</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/philo-judaism"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Philo-Judaism" in last modified May 5, 2017, http://syriaca.org/keyword/philo-judaism</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/philo-judaism/rdf">
+        <dcterms:title xml:lang="en">Philo-Judaism</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/philo-judaism"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Philo-Judaism" in last modified May 5, 2017, http://syriaca.org/keyword/philo-judaism</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

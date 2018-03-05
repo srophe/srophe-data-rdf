@@ -103,13 +103,12 @@
         </dcterms:description>
         <dcterms:description>the Priest</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_259"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=I&amp;sK=Ishaia of Beth Sebrina&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/49"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/49"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/259"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/104"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/259"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/104"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/288"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -127,14 +126,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/259/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/259/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/259/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/259">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/104"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/259"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/259">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/104"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/259"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/259/html">
         <dcterms:title xml:lang="syr">
@@ -185,6 +176,23 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Isaiah of Beth Sbirino — ܐܫܥܝܐ ܣܒܝܪܝܢܝܐ" in last modified December 9, 2016, http://syriaca.org/person/259</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/259/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܐܫܥܝܐ 
+                         ܣܒܝܪܝܢܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/259"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/288"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Isaiah of Beth Sbirino — ܐܫܥܝܐ ܣܒܝܪܝܢܝܐ" in last modified December 9, 2016, http://syriaca.org/person/259</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -95,8 +95,6 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>bishop of Mayoma</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_39"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/49367734"/>
         <skos:closeMatch rdf:resource="http://worldcat.org/identities/lccn-nr2003-23260"/>
@@ -107,9 +105,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/39"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/46"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/456"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/674#syriaca:bornAt-http://syriaca.org/person/39"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/46#syriaca:hasRelationToPlace-http://syriaca.org/person/39"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/456#syriaca:hasRelationToPlace-http://syriaca.org/person/39"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/674"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/46"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/456"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/316"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -126,28 +124,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/39/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/39/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/39/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/39">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/674"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/674#syriaca:bornAt-http://syriaca.org/person/39"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/674#syriaca:bornAt-http://syriaca.org/person/39">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/674"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/39"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/39">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/46"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/46#syriaca:hasRelationToPlace-http://syriaca.org/person/39"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/456"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/456#syriaca:hasRelationToPlace-http://syriaca.org/person/39"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/46#syriaca:hasRelationToPlace-http://syriaca.org/person/39">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/46"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/39"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/456#syriaca:hasRelationToPlace-http://syriaca.org/person/39">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/456"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/39"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/39/html">
         <dcterms:title xml:lang="en">
@@ -204,6 +180,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1703"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John Rufus — ܝܘܚܢܢ ܪܘܦܘܣ" in last modified August 17, 2016, http://syriaca.org/person/39</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/39/rdf">
+        <dcterms:title xml:lang="en">
+                         John 
+                         Rufus 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܝܘܚܢܢ ܪܘܦܘܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/39"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/316"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1703"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John Rufus — ܝܘܚܢܢ ܪܘܦܘܣ" in last modified August 17, 2016, http://syriaca.org/person/39</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

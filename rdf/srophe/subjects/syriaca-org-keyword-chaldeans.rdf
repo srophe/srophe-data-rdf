@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethnicity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/chaldeans"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/chaldeans"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/chaldeans"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/chaldeans"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethnicity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/chaldeans/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/chaldeans/tei"/>
@@ -21,30 +21,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/chaldeans/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/chaldeans/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/chaldeans/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/chaldeans">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/chaldeans"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/chaldeans">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/chaldeans"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/chaldeans">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/chaldeans"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/chaldeans">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/chaldeans"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/chaldeans">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/chaldeans"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/chaldeans">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/chaldeans"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/chaldeans/html">
         <dcterms:title xml:lang="en">Chaldeans</dcterms:title>
@@ -62,6 +38,12 @@
         <dcterms:title xml:lang="en">Chaldeans</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/chaldeans"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Chaldeans" in last modified May 5, 2017, http://syriaca.org/keyword/chaldeans</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/chaldeans/rdf">
+        <dcterms:title xml:lang="en">Chaldeans</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/chaldeans"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Chaldeans" in last modified May 5, 2017, http://syriaca.org/keyword/chaldeans</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

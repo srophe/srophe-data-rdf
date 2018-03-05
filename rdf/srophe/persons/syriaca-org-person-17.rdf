@@ -88,11 +88,8 @@
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/283"/>
             </rdf:Description>
         </dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
-        <dcterms:description>Not the same as Isḥaq of Antioch (http://syriaca.org/person/33) or Isḥaq of Edessa (http://syriaca.org/person/34).</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_17"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/8"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/17"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/17"/>
@@ -101,15 +98,15 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/17"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/33"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/34"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/8#syriaca:bornAt-http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/641#syriaca:hasRelationToPlace-http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/586#syriaca:hasRelationToPlace-http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/33#syriaca:differentFrom-http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/34#syriaca:differentFrom-http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/17#syriaca:differentFrom-http://syriaca.org/person/33"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/34#syriaca:differentFrom-http://syriaca.org/person/33"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/17#syriaca:differentFrom-http://syriaca.org/person/34"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/33#syriaca:differentFrom-http://syriaca.org/person/34"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/8"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/641"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/586"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/33"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/34"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/17"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/34"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/17"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/33"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/283"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -128,70 +125,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/17/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/17/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/17/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/17">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/8#syriaca:bornAt-http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/8#syriaca:bornAt-http://syriaca.org/person/17">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/17">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/641"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/641#syriaca:hasRelationToPlace-http://syriaca.org/person/17"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/586"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/586#syriaca:hasRelationToPlace-http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/641#syriaca:hasRelationToPlace-http://syriaca.org/person/17">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/641"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/586#syriaca:hasRelationToPlace-http://syriaca.org/person/17">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/586"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/17">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/33"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/33#syriaca:differentFrom-http://syriaca.org/person/17"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/34"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/34#syriaca:differentFrom-http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/33#syriaca:differentFrom-http://syriaca.org/person/17">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/33"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/34#syriaca:differentFrom-http://syriaca.org/person/17">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/34"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/33">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/17#syriaca:differentFrom-http://syriaca.org/person/33"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/34"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/34#syriaca:differentFrom-http://syriaca.org/person/33"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/17#syriaca:differentFrom-http://syriaca.org/person/33">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/17"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/34#syriaca:differentFrom-http://syriaca.org/person/33">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/34"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/34">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/17#syriaca:differentFrom-http://syriaca.org/person/34"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/33"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/33#syriaca:differentFrom-http://syriaca.org/person/34"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/17#syriaca:differentFrom-http://syriaca.org/person/34">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/17"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/33#syriaca:differentFrom-http://syriaca.org/person/34">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/33"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/17"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/17/html">
         <dcterms:title xml:lang="en">
@@ -260,6 +193,29 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Isaac of Amid — ܐܝܣܚܩ ܐܡܝܕܝܐ" in last modified August 17, 2016, http://syriaca.org/person/17</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/17/rdf">
+        <dcterms:title xml:lang="en">
+                         Isaac 
+                         of  Amid 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܝܣܚܩ 
+                         ܐܡܝܕܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/17"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/283"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/709"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Isaac of Amid — ܐܝܣܚܩ ܐܡܝܕܝܐ" in last modified August 17, 2016, http://syriaca.org/person/17</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

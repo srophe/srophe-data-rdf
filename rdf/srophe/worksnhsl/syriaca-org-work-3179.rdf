@@ -3,13 +3,13 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">To Elisha, the Presbyter and Archimandrite, and the Rest</rdfs:label>
         <dcterms:description>A letter of Severus of Antioch preserved in fragment without a clear indication of its place in the various ancient collection of his letters.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3179-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3179"/>
         <dcterms:relation rdf:resource="#bib3179-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3179"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3179#lawd:embodies-#bib3179-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3179#lawd:embodies-#bib3179-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3179"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3179"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
@@ -22,22 +22,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3179/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3179/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3179/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3179-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3179"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3179#lawd:embodies-#bib3179-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3179#lawd:embodies-#bib3179-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3179"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3179"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3179-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3179"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3179#lawd:embodies-#bib3179-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3179#lawd:embodies-#bib3179-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3179"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3179"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3179/html">
         <dcterms:title xml:lang="en">To Elisha, the Presbyter and Archimandrite, and the Rest</dcterms:title>

@@ -12,7 +12,7 @@
         <dcterms:description>
                      Et dans ce travail spirituel il acheva sa vie et il partit vers son Seigneur en l’an douze de Yezdegerd. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/901"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/901"/>
         <dcterms:relation rdf:resource="#bib1100-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1100"/>
         <dcterms:relation rdf:resource="#bib1100-3"/>
@@ -21,10 +21,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1100"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1100"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2036"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1100#lawd:embodies-#bib1100-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1100#lawd:embodies-#bib1100-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1100#lawd:embodies-#bib1100-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2036#syriaca:commemorated-http://syriaca.org/work/1100"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1100"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1100"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1100"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2036"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1883"/>
@@ -38,38 +38,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1100/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1100/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1100/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1100-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1100"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1100#lawd:embodies-#bib1100-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1100#lawd:embodies-#bib1100-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1100"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1100"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1100-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1100"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1100#lawd:embodies-#bib1100-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1100#lawd:embodies-#bib1100-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1100"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1100"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1100-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1100"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1100#lawd:embodies-#bib1100-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1100#lawd:embodies-#bib1100-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1100"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1100"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1100">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2036"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2036#syriaca:commemorated-http://syriaca.org/work/1100"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2036#syriaca:commemorated-http://syriaca.org/work/1100">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2036"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1100"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1100/html">
         <dcterms:title xml:lang="syr">ܪܚܝܡܐ</dcterms:title>
@@ -99,6 +67,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Reḥima of Adiabene (text) — ܪܚܝܡܐ" in last modified December 12, 2016, http://syriaca.org/work/1100</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1100/rdf">
+        <dcterms:title xml:lang="syr">ܪܚܝܡܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Reḥima of Adiabene (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1100"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Reḥima of Adiabene (text) — ܪܚܝܡܐ" in last modified December 12, 2016, http://syriaca.org/work/1100</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

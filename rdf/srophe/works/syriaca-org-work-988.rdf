@@ -9,7 +9,7 @@
         <dcterms:description>
                      Voilà que les eaux réunies à l’intérieur du voile sont l’enfant dans la Vierge sans union; en Marie ont été accomplies toutes les comparaisons, les signes et les annonces ont eu en elle leur terme. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib988-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
         <dcterms:relation rdf:resource="#bib988-4"/>
@@ -18,10 +18,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
         <dcterms:relation rdf:resource="#bib988-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-6"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1741"/>
@@ -37,38 +37,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/988/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/988/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/988/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib988-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/988#lawd:embodies-#bib988-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/988"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib988-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/988#lawd:embodies-#bib988-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/988"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib988-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/988#lawd:embodies-#bib988-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/988"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib988-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/988"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/988#lawd:embodies-#bib988-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/988#lawd:embodies-#bib988-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/988"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/988"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/988/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -104,6 +72,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/988</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/988/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/988"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1968"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/988</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

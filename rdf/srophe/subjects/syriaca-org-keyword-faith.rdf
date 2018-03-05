@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/faith"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/faith"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/faith"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/faith/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/faith/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/faith/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/faith/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/faith/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/faith">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/faith"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/faith">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/faith"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/faith">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/faith"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/faith">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/faith"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/faith/html">
         <dcterms:title xml:lang="en">Faith</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Faith</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/faith"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Faith" in last modified May 5, 2017, http://syriaca.org/keyword/faith</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/faith/rdf">
+        <dcterms:title xml:lang="en">Faith</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/faith"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Faith" in last modified May 5, 2017, http://syriaca.org/keyword/faith</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -3,8 +3,8 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">Ezekiel (LXX/Septuagint version)</rdfs:label>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib137-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/137"/>
         <dcterms:relation rdf:resource="#bib137-1"/>
@@ -13,10 +13,10 @@
         <dcterms:relation rdf:resource="#bib137-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/137"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9621"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/137#lawd:embodies-#bib137-3"/>
-        <snap:has-bond rdf:resource="#bib137-2#dcterms:source-#bib137-1"/>
-        <snap:has-bond rdf:resource="#bib137-2#lawd:hasCitation-http://syriaca.org/manuscript/488"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9621#skos:broadMatch-http://syriaca.org/work/137"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/137"/>
+        <dcterms:source rdf:resource="#bib137-2"/>
+        <lawd:hasCitation rdf:resource="#bib137-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9621"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/488"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/488"/>
@@ -29,38 +29,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/137/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/137/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/137/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib137-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/137"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/137#lawd:embodies-#bib137-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/137#lawd:embodies-#bib137-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/137"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/137"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib137-1">
-        <dcterms:relation rdf:resource="#bib137-2"/>
-        <snap:has-bond rdf:resource="#bib137-2#dcterms:source-#bib137-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib137-2#dcterms:source-#bib137-1">
-        <dcterms:source rdf:resource="#bib137-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/137"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/488">
-        <dcterms:relation rdf:resource="#bib137-2"/>
-        <snap:has-bond rdf:resource="#bib137-2#lawd:hasCitation-http://syriaca.org/manuscript/488"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib137-2#lawd:hasCitation-http://syriaca.org/manuscript/488">
-        <lawd:hasCitation rdf:resource="#bib137-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/137"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/137">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9621"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9621#skos:broadMatch-http://syriaca.org/work/137"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9621#skos:broadMatch-http://syriaca.org/work/137">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9621"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/137"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/137/html">
         <dcterms:title xml:lang="en">Ezekiel (LXX/Septuagint version)</dcterms:title>

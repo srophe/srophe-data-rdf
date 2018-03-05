@@ -9,8 +9,8 @@
         <dcterms:description>
                      Je ne sais pas si l’on ne nous accuserait pas à juste titre de manque de logique si nous passions sous silence le pasteur éloquent et martyr Babylas. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib885-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/885"/>
         <dcterms:relation rdf:resource="#bib885-3"/>
@@ -19,10 +19,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/885"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/885"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1152"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/885#lawd:embodies-#bib885-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/885#lawd:embodies-#bib885-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/885#lawd:embodies-#bib885-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1152#syriaca:commemorated-http://syriaca.org/work/885"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/885"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/885"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/885"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1152"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1397"/>
@@ -36,38 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/885/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/885/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/885/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib885-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/885"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/885#lawd:embodies-#bib885-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/885#lawd:embodies-#bib885-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/885"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/885"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib885-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/885"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/885#lawd:embodies-#bib885-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/885#lawd:embodies-#bib885-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/885"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/885"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib885-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/885"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/885#lawd:embodies-#bib885-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/885#lawd:embodies-#bib885-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/885"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/885"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/885">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1152"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1152#syriaca:commemorated-http://syriaca.org/work/885"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1152#syriaca:commemorated-http://syriaca.org/work/885">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1152"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/885"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/885/html">
         <dcterms:title xml:lang="syr">ܒܐܒܘܠܐ</dcterms:title>
@@ -97,6 +65,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1397"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Babylas (text) — ܒܐܒܘܠܐ" in last modified December 12, 2016, http://syriaca.org/work/885</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/885/rdf">
+        <dcterms:title xml:lang="syr">ܒܐܒܘܠܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Babylas (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/885"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1397"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1397"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Babylas (text) — ܒܐܒܘܠܐ" in last modified December 12, 2016, http://syriaca.org/work/885</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

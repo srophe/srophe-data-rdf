@@ -14,7 +14,7 @@
         <dcterms:description>
                      Béni soit celui qui nous a donné le jeûne pur pour en purifier nos âmes et nous a en plus donné comme refuge les quarante saints martyrs. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib1022-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1022"/>
         <dcterms:relation rdf:resource="#bib1022-4"/>
@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1022"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1022"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1022#lawd:embodies-#bib1022-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1022#lawd:embodies-#bib1022-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1022#lawd:embodies-#bib1022-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1901#syriaca:commemorated-http://syriaca.org/work/1022"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1022"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1022"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1022"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1901"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1742"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1022/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1022/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1022/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1022-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1022"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1022#lawd:embodies-#bib1022-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1022#lawd:embodies-#bib1022-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1022"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1022"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1022-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1022"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1022#lawd:embodies-#bib1022-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1022#lawd:embodies-#bib1022-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1022"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1022"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1022-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1022"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1022#lawd:embodies-#bib1022-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1022#lawd:embodies-#bib1022-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1022"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1022"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1022">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1901#syriaca:commemorated-http://syriaca.org/work/1022"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1901#syriaca:commemorated-http://syriaca.org/work/1022">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1901"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1022"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1022/html">
         <dcterms:title xml:lang="en">The Forty Martyrs of Sebaste (text)</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/811"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Forty Martyrs of Sebaste (text)" in last modified December 12, 2016, http://syriaca.org/work/1022</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1022/rdf">
+        <dcterms:title xml:lang="en">The Forty Martyrs of Sebaste (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1022"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/811"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Forty Martyrs of Sebaste (text)" in last modified December 12, 2016, http://syriaca.org/work/1022</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

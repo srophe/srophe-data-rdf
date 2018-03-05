@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/paronomasia"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/paronomasia"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/paronomasia"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/paronomasia/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/paronomasia/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/paronomasia/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/paronomasia/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/paronomasia/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/paronomasia">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/paronomasia"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/paronomasia">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/paronomasia"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/paronomasia">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/paronomasia"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/paronomasia">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/paronomasia"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/paronomasia/html">
         <dcterms:title xml:lang="en">Paronomasia</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Paronomasia</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/paronomasia"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Paronomasia" in last modified May 5, 2017, http://syriaca.org/keyword/paronomasia</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/paronomasia/rdf">
+        <dcterms:title xml:lang="en">Paronomasia</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/paronomasia"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Paronomasia" in last modified May 5, 2017, http://syriaca.org/keyword/paronomasia</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

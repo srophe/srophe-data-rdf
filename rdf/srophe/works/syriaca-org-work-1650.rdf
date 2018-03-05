@@ -14,7 +14,7 @@
         <dcterms:description>
                      À moi, pauvre pécheur qui me réfugie dans leur prière, et à tous ceux qui confessent Jésus leur Seigneur, donne-nous de chanter gloire à ta divinité avec eux dans ton Royaume. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/504"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/504"/>
         <dcterms:relation rdf:resource="#bib1650-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
         <dcterms:relation rdf:resource="#bib1650-3"/>
@@ -25,11 +25,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2028"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1650"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2028"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -41,46 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1650/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1650/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1650/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1650-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1650#lawd:embodies-#bib1650-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1650"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1650-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1650#lawd:embodies-#bib1650-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1650"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1650-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1650#lawd:embodies-#bib1650-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1650"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1650-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1650"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1650#lawd:embodies-#bib1650-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1650#lawd:embodies-#bib1650-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1650"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1650"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1650">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2028"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1650"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2028#syriaca:commemorated-http://syriaca.org/work/1650">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2028"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1650"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1650/html">
         <dcterms:title xml:lang="en">The Prophets (text)</dcterms:title>
@@ -101,6 +61,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1650"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Prophets (text)" in last modified December 12, 2016, http://syriaca.org/work/1650</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1650/rdf">
+        <dcterms:title xml:lang="en">The Prophets (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Prophets (text)" in last modified December 12, 2016, http://syriaca.org/work/1650</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

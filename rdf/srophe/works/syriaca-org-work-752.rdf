@@ -14,10 +14,10 @@
         <dcterms:description>
                      Dans l’allégresse ils ont accepté la mort pour la crainte de Dieu. Par leurs prières, notre Sauveur, prends pitié de nous. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/113"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/78"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/113"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="#bib752-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
         <dcterms:relation rdf:resource="#bib752-3"/>
@@ -29,11 +29,11 @@
         <dcterms:relation rdf:resource="#bib752-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-6"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1727"/>
@@ -48,47 +48,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/752/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/752/rdf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#bib752-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/752#lawd:embodies-#bib752-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/752"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib752-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/752#lawd:embodies-#bib752-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/752"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib752-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/752#lawd:embodies-#bib752-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/752"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib752-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/752#lawd:embodies-#bib752-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/752"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib752-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/752"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/752#lawd:embodies-#bib752-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/752#lawd:embodies-#bib752-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/752"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/752"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/752"/>
     <rdfs:Resource rdf:about="http://syriaca.org/work/752/html">
         <dcterms:title xml:lang="en">Martyrs (text)</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/work/752"/>
@@ -114,6 +73,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1727"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/752</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/752/rdf">
+        <dcterms:title xml:lang="en">Martyrs (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/752"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1727"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1727"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/752</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

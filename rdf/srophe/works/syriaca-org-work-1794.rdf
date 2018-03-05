@@ -10,10 +10,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1794"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1794"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2050"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1794#lawd:embodies-#bib1794-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1794#lawd:embodies-#bib1794-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1794#lawd:embodies-#bib1794-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2050#syriaca:commemorated-http://syriaca.org/work/1794"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1794"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1794"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1794"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2050"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -25,38 +25,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1794/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1794/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1794/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1794-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1794"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1794#lawd:embodies-#bib1794-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1794#lawd:embodies-#bib1794-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1794"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1794"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1794-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1794"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1794#lawd:embodies-#bib1794-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1794#lawd:embodies-#bib1794-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1794"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1794"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1794-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1794"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1794#lawd:embodies-#bib1794-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1794#lawd:embodies-#bib1794-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1794"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1794"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1794">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2050"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2050#syriaca:commemorated-http://syriaca.org/work/1794"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2050#syriaca:commemorated-http://syriaca.org/work/1794">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2050"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1794"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1794/html">
         <dcterms:title xml:lang="en">Sabrisho‘ of Beth Qoqa (text)</dcterms:title>
@@ -77,6 +45,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1794"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Sabrisho‘ of Beth Qoqa (text)" in last modified December 12, 2016, http://syriaca.org/work/1794</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1794/rdf">
+        <dcterms:title xml:lang="en">Sabrisho‘ of Beth Qoqa (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1794"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Sabrisho‘ of Beth Qoqa (text)" in last modified December 12, 2016, http://syriaca.org/work/1794</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

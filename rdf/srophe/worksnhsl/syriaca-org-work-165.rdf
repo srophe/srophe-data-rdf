@@ -6,8 +6,8 @@
         <dcterms:description>
                              part 2 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib165-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/165"/>
         <dcterms:relation rdf:resource="#bib165-1"/>
@@ -18,11 +18,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9649"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/165"/>
         <dcterms:relation rdf:resource="http://syriaca.org/manuscript/730#a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/165#lawd:embodies-#bib165-3"/>
-        <snap:has-bond rdf:resource="#bib165-2#dcterms:source-#bib165-1"/>
-        <snap:has-bond rdf:resource="#bib165-2#lawd:hasCitation-http://syriaca.org/manuscript/730"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9649#skos:broadMatch-http://syriaca.org/work/165"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/730#a1#dcterms:isPartOf-http://syriaca.org/work/165"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/165"/>
+        <dcterms:source rdf:resource="#bib165-2"/>
+        <lawd:hasCitation rdf:resource="#bib165-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9649"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/730#a1"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/730"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/730"/>
@@ -35,46 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/165/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/165/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/165/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib165-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/165"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/165#lawd:embodies-#bib165-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/165#lawd:embodies-#bib165-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/165"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib165-1">
-        <dcterms:relation rdf:resource="#bib165-2"/>
-        <snap:has-bond rdf:resource="#bib165-2#dcterms:source-#bib165-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib165-2#dcterms:source-#bib165-1">
-        <dcterms:source rdf:resource="#bib165-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/730">
-        <dcterms:relation rdf:resource="#bib165-2"/>
-        <snap:has-bond rdf:resource="#bib165-2#lawd:hasCitation-http://syriaca.org/manuscript/730"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib165-2#lawd:hasCitation-http://syriaca.org/manuscript/730">
-        <lawd:hasCitation rdf:resource="#bib165-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/165">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9649"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9649#skos:broadMatch-http://syriaca.org/work/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9649#skos:broadMatch-http://syriaca.org/work/165">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9649"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/165">
-        <dcterms:relation rdf:resource="http://syriaca.org/manuscript/730#a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/730#a1#dcterms:isPartOf-http://syriaca.org/work/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/730#a1#dcterms:isPartOf-http://syriaca.org/work/165">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/730#a1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/165"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/165/html">
         <dcterms:title xml:lang="en">"The books of Judges and Ruth, translated from the Septuagint version by Paul of Tell��"</dcterms:title>

@@ -66,14 +66,13 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>Not the same as the 8th century Theophilus of Edessa in GEDSH (http://syriaca.org/person/787).</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_6"/>
         <skos:closeMatch rdf:resource="http://www.worldcat.org/search?q=au%3ATheophilus+Edessenus.&amp;qt=hot_author"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/78"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="#person-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/787"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/787#syriaca:differentFrom-#person-6"/>
-        <snap:has-bond rdf:resource="#person-6#syriaca:differentFrom-http://syriaca.org/person/787"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/787"/>
+        <syriaca:differentFrom rdf:resource="#person-6"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -86,22 +85,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/6/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/6/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/6/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/787"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/787#syriaca:differentFrom-#person-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/787#syriaca:differentFrom-#person-6">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/787"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/787">
-        <dcterms:relation rdf:resource="#person-6"/>
-        <snap:has-bond rdf:resource="#person-6#syriaca:differentFrom-http://syriaca.org/person/787"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-6#syriaca:differentFrom-http://syriaca.org/person/787">
-        <syriaca:differentFrom rdf:resource="#person-6"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/6"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/6/html">
         <dcterms:title xml:lang="en">
@@ -152,6 +135,23 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Theophilos of Edessa — ܬܐܘܦܝܠ ܐܘܪܗܝܐ" in last modified August 17, 2016, http://syriaca.org/person/6</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/6/rdf">
+        <dcterms:title xml:lang="en">
+                         Theophilos 
+                         of  Edessa 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܬܐܘܦܝܠ 
+                         ܐܘܪܗܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Theophilos of Edessa — ܬܐܘܦܝܠ ܐܘܪܗܝܐ" in last modified August 17, 2016, http://syriaca.org/person/6</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

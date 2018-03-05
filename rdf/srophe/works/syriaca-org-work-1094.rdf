@@ -15,7 +15,7 @@
         <dcterms:description>
                      Et après une grande peine et des tourments sans nombre, il décéda un vendredi de l’été de l’année 627 des Grecs et il fut enterré dans l’église en grande pompe. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/901"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/901"/>
         <dcterms:relation rdf:resource="#bib1094-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1094"/>
         <dcterms:relation rdf:resource="#bib1094-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1094"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1094"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2084"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1094#lawd:embodies-#bib1094-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1094#lawd:embodies-#bib1094-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1094#lawd:embodies-#bib1094-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2084#syriaca:commemorated-http://syriaca.org/work/1094"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1094"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1094"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1094"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2084"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1883"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1094/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1094/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1094/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1094-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1094"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1094#lawd:embodies-#bib1094-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1094#lawd:embodies-#bib1094-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1094"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1094"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1094-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1094"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1094#lawd:embodies-#bib1094-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1094#lawd:embodies-#bib1094-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1094"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1094"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1094-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1094"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1094#lawd:embodies-#bib1094-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1094#lawd:embodies-#bib1094-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1094"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1094"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1094">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2084"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2084#syriaca:commemorated-http://syriaca.org/work/1094"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2084#syriaca:commemorated-http://syriaca.org/work/1094">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2084"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1094"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1094/html">
         <dcterms:title xml:lang="syr">ܫܪܝܥܐ</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Shriʿa of Adiabene (text) — ܫܪܝܥܐ" in last modified December 12, 2016, http://syriaca.org/work/1094</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1094/rdf">
+        <dcterms:title xml:lang="syr">ܫܪܝܥܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Shriʿa of Adiabene (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1094"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Shriʿa of Adiabene (text) — ܫܪܝܥܐ" in last modified December 12, 2016, http://syriaca.org/work/1094</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

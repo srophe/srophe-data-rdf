@@ -92,12 +92,11 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>The name in GEDSH has an erroneous diacritic under the 't' of Batin: Daniel of Beth Baṭin</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_165"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/306"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/306"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/165"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/306"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/306#syriaca:bornAt-http://syriaca.org/person/165"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/306"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -112,14 +111,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/165/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/165/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/165/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/165">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/306"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/306#syriaca:bornAt-http://syriaca.org/person/165"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/306#syriaca:bornAt-http://syriaca.org/person/165">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/306"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/165"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/165/html">
         <dcterms:title xml:lang="en">
@@ -176,6 +167,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Daniel of Beth Batin — ܕܢܝܐܝܠ ܕܒܝܬ ܒ̈ܬܝܢ" in last modified August 17, 2016, http://syriaca.org/person/165</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/165/rdf">
+        <dcterms:title xml:lang="en">
+                         Daniel 
+                         of  Beth Batin 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܕܢܝܐܝܠ 
+                         ܕܒܝܬ ܒ̈ܬܝܢ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/165"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Daniel of Beth Batin — ܕܢܝܐܝܠ ܕܒܝܬ ܒ̈ܬܝܢ" in last modified August 17, 2016, http://syriaca.org/person/165</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

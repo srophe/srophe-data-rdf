@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Loan-words [Persian]</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/loan-words-persian"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/loan-words-persian"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/loan-words-persian/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/loan-words-persian/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/loan-words-persian/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/loan-words-persian/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/loan-words-persian/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/loan-words-persian">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/loan-words-persian"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/linguistics#skos:broadMatch-http://syriaca.org/keyword/loan-words-persian">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/linguistics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/loan-words-persian"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/loan-words-persian/html">
         <dcterms:title xml:lang="en">Loan-words [Persian]</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Loan-words [Persian]</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/loan-words-persian"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Loan-words [Persian]" in last modified May 5, 2017, http://syriaca.org/keyword/loan-words-persian</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/loan-words-persian/rdf">
+        <dcterms:title xml:lang="en">Loan-words [Persian]</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/loan-words-persian"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Loan-words [Persian]" in last modified May 5, 2017, http://syriaca.org/keyword/loan-words-persian</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

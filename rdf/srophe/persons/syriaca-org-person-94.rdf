@@ -75,18 +75,16 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Metropolitan of Buṣra</dcterms:description>
-        <dcterms:description>This author died at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_94"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/40"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/40"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/94"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/94"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/40"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1520"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/8#syriaca:diedAt-http://syriaca.org/person/94"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/40#syriaca:hasRelationToPlace-http://syriaca.org/person/94"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1520#syriaca:hasRelationToPlace-http://syriaca.org/person/94"/>
+        <syriaca:diedAt rdf:resource="http://syriaca.org/place/8"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/40"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/1520"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -99,28 +97,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/94/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/94/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/94/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/94">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/8#syriaca:diedAt-http://syriaca.org/person/94"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/8#syriaca:diedAt-http://syriaca.org/person/94">
-        <syriaca:diedAt rdf:resource="http://syriaca.org/place/8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/94"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/94">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/40"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/40#syriaca:hasRelationToPlace-http://syriaca.org/person/94"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1520"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1520#syriaca:hasRelationToPlace-http://syriaca.org/person/94"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/40#syriaca:hasRelationToPlace-http://syriaca.org/person/94">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/40"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/94"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1520#syriaca:hasRelationToPlace-http://syriaca.org/person/94">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/1520"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/94"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/94/html">
         <dcterms:title xml:lang="syr">
@@ -156,6 +132,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John of Busra — ܝܘܚܢܢ ܕܒܘܨܪ" in last modified August 17, 2016, http://syriaca.org/person/94</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/94/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܝܘܚܢܢ 
+                         ܕܒܘܨܪ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/94"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John of Busra — ܝܘܚܢܢ ܕܒܘܨܪ" in last modified August 17, 2016, http://syriaca.org/person/94</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

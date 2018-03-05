@@ -10,10 +10,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/patronage"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/economics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/patronage/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/patronage/tei"/>
@@ -23,38 +23,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/patronage/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/patronage/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/patronage/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/patronage">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/administration"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/patronage">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/patronage">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/economics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/patronage">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/economics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/patronage">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/patronage">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/patronage">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/patronage"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/patronage">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/patronage"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/patronage/html">
         <dcterms:title xml:lang="en">Patronage</dcterms:title>
@@ -72,6 +40,12 @@
         <dcterms:title xml:lang="en">Patronage</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/patronage"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Patronage" in last modified May 5, 2017, http://syriaca.org/keyword/patronage</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/patronage/rdf">
+        <dcterms:title xml:lang="en">Patronage</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/patronage"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Patronage" in last modified May 5, 2017, http://syriaca.org/keyword/patronage</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

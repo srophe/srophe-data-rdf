@@ -22,10 +22,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/330"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1538"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/330#lawd:embodies-#bib330-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/330#lawd:embodies-#bib330-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1538#syriaca:commemorated-http://syriaca.org/work/330"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1178#syriaca:commemorated-http://syriaca.org/work/330"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/330"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/330"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1538"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1178"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -39,36 +39,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/330/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/330/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/330/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib330-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/330"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/330#lawd:embodies-#bib330-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/330#lawd:embodies-#bib330-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/330"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/330"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib330-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/330"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/330#lawd:embodies-#bib330-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/330#lawd:embodies-#bib330-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/330"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/330"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/330">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1538"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1538#syriaca:commemorated-http://syriaca.org/work/330"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1178#syriaca:commemorated-http://syriaca.org/work/330"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1538#syriaca:commemorated-http://syriaca.org/work/330">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1538"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/330"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1178#syriaca:commemorated-http://syriaca.org/work/330">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/330"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/330/html">
         <dcterms:title xml:lang="syr">ܒܪܝܟܝܫܘܥ ܘܥܒܕܝܫܘܥ</dcterms:title>
@@ -98,6 +68,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Berikhisho and ʿAbdisho (text) — ܒܪܝܟܝܫܘܥ ܘܥܒܕܝܫܘܥ" in last modified December 12, 2016, http://syriaca.org/work/330</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/330/rdf">
+        <dcterms:title xml:lang="syr">ܒܪܝܟܝܫܘܥ ܘܥܒܕܝܫܘܥ</dcterms:title>
+        <dcterms:title xml:lang="en">Berikhisho and ʿAbdisho (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/330"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Berikhisho and ʿAbdisho (text) — ܒܪܝܟܝܫܘܥ ܘܥܒܕܝܫܘܥ" in last modified December 12, 2016, http://syriaca.org/work/330</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

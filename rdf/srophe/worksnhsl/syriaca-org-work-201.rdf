@@ -10,7 +10,7 @@
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
         <dcterms:description>Manuscripts, editions, and titles for the individual parts are found in the records linked above.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib201-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/201"/>
         <dcterms:relation rdf:resource="#bib201-1"/>
@@ -19,10 +19,10 @@
         <dcterms:relation rdf:resource="#bib201-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/201"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9685"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/201#lawd:embodies-#bib201-3"/>
-        <snap:has-bond rdf:resource="#bib201-2#dcterms:source-#bib201-1"/>
-        <snap:has-bond rdf:resource="#bib201-2#lawd:hasCitation-http://syriaca.org/manuscript/127"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9685#skos:broadMatch-http://syriaca.org/work/201"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/201"/>
+        <dcterms:source rdf:resource="#bib201-2"/>
+        <lawd:hasCitation rdf:resource="#bib201-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9685"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/72"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/73"/>
@@ -38,38 +38,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/201/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/201/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/201/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib201-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/201"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/201#lawd:embodies-#bib201-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/201#lawd:embodies-#bib201-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/201"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib201-1">
-        <dcterms:relation rdf:resource="#bib201-2"/>
-        <snap:has-bond rdf:resource="#bib201-2#dcterms:source-#bib201-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib201-2#dcterms:source-#bib201-1">
-        <dcterms:source rdf:resource="#bib201-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/127">
-        <dcterms:relation rdf:resource="#bib201-2"/>
-        <snap:has-bond rdf:resource="#bib201-2#lawd:hasCitation-http://syriaca.org/manuscript/127"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib201-2#lawd:hasCitation-http://syriaca.org/manuscript/127">
-        <lawd:hasCitation rdf:resource="#bib201-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/201">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9685"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9685#skos:broadMatch-http://syriaca.org/work/201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9685#skos:broadMatch-http://syriaca.org/work/201">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9685"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/201"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/201/html">
         <dcterms:title xml:lang="en">The Synoptic Gospels (Peshitta version)</dcterms:title>

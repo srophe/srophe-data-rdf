@@ -56,17 +56,15 @@
         </dcterms:description>
         <dcterms:description>the Philosopher</dcterms:description>
         <dcterms:description>Ch. of E.</dcterms:description>
-        <dcterms:description>This author is possibly identical with the author represented in another record</dcterms:description>
-        <dcterms:description>This author is possibly identical with the author represented in another record</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_675"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/675"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/673"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/675"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/673"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/673#syriaca:possiblyIdentical-http://syriaca.org/person/675"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/675#syriaca:possiblyIdentical-http://syriaca.org/person/673"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/673#syriaca:possiblyIdentical-http://syriaca.org/person/675"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/675#syriaca:possiblyIdentical-http://syriaca.org/person/673"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/673"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/675"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/673"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/675"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/429"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/638"/>
@@ -78,38 +76,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/675/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/675/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/675/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/675">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/673"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/673#syriaca:possiblyIdentical-http://syriaca.org/person/675"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/673#syriaca:possiblyIdentical-http://syriaca.org/person/675">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/673"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/675"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/673">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/675"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/675#syriaca:possiblyIdentical-http://syriaca.org/person/673"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/675#syriaca:possiblyIdentical-http://syriaca.org/person/673">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/675"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/675"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/675">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/673"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/673#syriaca:possiblyIdentical-http://syriaca.org/person/675"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/673#syriaca:possiblyIdentical-http://syriaca.org/person/675">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/673"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/675"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/673">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/675"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/675#syriaca:possiblyIdentical-http://syriaca.org/person/673"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/675#syriaca:possiblyIdentical-http://syriaca.org/person/673">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/675"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/675"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/675/html">
         <dcterms:title xml:lang="syr">
@@ -154,6 +120,21 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/429"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Paul the Philosopher — ܦܘܠܘܣ ܦܝܠܘܣܘܦܐ" in last modified August 17, 2016, http://syriaca.org/person/675</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/675/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܦܘܠܘܣ 
+                         ܦܝܠܘܣܘܦܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Paul 
+                         the Philosopher 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/675"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/429"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Paul the Philosopher — ܦܘܠܘܣ ܦܝܠܘܣܘܦܐ" in last modified August 17, 2016, http://syriaca.org/person/675</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

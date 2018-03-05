@@ -10,7 +10,7 @@
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
         <dcterms:description>Manuscripts, editions, and titles for the individual parts are found in the records linked above.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib196-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
         <dcterms:relation rdf:resource="#bib196-1"/>
@@ -21,11 +21,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9645"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10538"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/196#lawd:embodies-#bib196-3"/>
-        <snap:has-bond rdf:resource="#bib196-2#dcterms:source-#bib196-1"/>
-        <snap:has-bond rdf:resource="#bib196-2#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/196"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10538#dcterms:isPartOf-http://syriaca.org/work/196"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/196"/>
+        <dcterms:source rdf:resource="#bib196-2"/>
+        <lawd:hasCitation rdf:resource="#bib196-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9645"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10538"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/196"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9645"/>
@@ -40,46 +40,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/196/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/196/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/196/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib196-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/196"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/196#lawd:embodies-#bib196-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/196#lawd:embodies-#bib196-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/196"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/196"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib196-1">
-        <dcterms:relation rdf:resource="#bib196-2"/>
-        <snap:has-bond rdf:resource="#bib196-2#dcterms:source-#bib196-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib196-2#dcterms:source-#bib196-1">
-        <dcterms:source rdf:resource="#bib196-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/196"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1112">
-        <dcterms:relation rdf:resource="#bib196-2"/>
-        <snap:has-bond rdf:resource="#bib196-2#lawd:hasCitation-http://syriaca.org/manuscript/1112"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib196-2#lawd:hasCitation-http://syriaca.org/manuscript/1112">
-        <lawd:hasCitation rdf:resource="#bib196-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/196"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/196">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9645"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/196"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/196">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9645"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/196"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/196">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10538"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10538#dcterms:isPartOf-http://syriaca.org/work/196"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10538#dcterms:isPartOf-http://syriaca.org/work/196">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10538"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/196"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/196/html">
         <dcterms:title xml:lang="en">The Four Gospels, Arabic (literary tradition)</dcterms:title>

@@ -15,10 +15,10 @@
         <dcterms:description>
                      Mystère des natures sans distinction, fin de la malédiction, abrogation de la sentence, du Fils unique et seul l’existence sans commencement, la naissance selon la chair de la Vierge et l’adoration de toute la création donné et annoncé à tout le peuple. À lui… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/688"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/688"/>
         <dcterms:relation rdf:resource="#bib1272-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1272"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1272#lawd:embodies-#bib1272-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1272"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -30,14 +30,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1272/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1272/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1272/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1272-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1272"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1272#lawd:embodies-#bib1272-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1272#lawd:embodies-#bib1272-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1272"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1272"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1272/html">
         <dcterms:title xml:lang="syr">ܐܣܛܦܢܘܣ ܘܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -61,6 +53,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1272"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Steven and Mary the Mother of God (text) — ܐܣܛܦܢܘܣ ܘܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1272</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1272/rdf">
+        <dcterms:title xml:lang="syr">ܐܣܛܦܢܘܣ ܘܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Steven and Mary the Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1272"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Steven and Mary the Mother of God (text) — ܐܣܛܦܢܘܣ ܘܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1272</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://lccn.loc.gov/sh85102839"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/plants"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/plants"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/plants/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/plants/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/plants/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/plants/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/plants/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/plants">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/plants"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/plants">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/plants"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/plants/html">
         <dcterms:title xml:lang="en">Plants</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Plants</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/plants"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Plants" in last modified May 5, 2017, http://syriaca.org/keyword/plants</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/plants/rdf">
+        <dcterms:title xml:lang="en">Plants</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/plants"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Plants" in last modified May 5, 2017, http://syriaca.org/keyword/plants</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

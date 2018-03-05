@@ -95,19 +95,18 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author has a literary connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_148"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/35496021"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/57427058"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/34429345"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/209790048"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=A&amp;sK=Abu Raita&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/193"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/193"/>
         <dcterms:relation rdf:resource="#person-148"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/142"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1507"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/142#syriaca:hasLiteraryConnectionToPlace-#person-148"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1507#syriaca:hasLiteraryConnectionToPlace-#person-148"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/142"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/1507"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -121,20 +120,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/148/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/148/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/148/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-148">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/142"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/142#syriaca:hasLiteraryConnectionToPlace-#person-148"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1507"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1507#syriaca:hasLiteraryConnectionToPlace-#person-148"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/142#syriaca:hasLiteraryConnectionToPlace-#person-148">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/142"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/148"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1507#syriaca:hasLiteraryConnectionToPlace-#person-148">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/1507"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/148"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/148/html">
         <dcterms:title xml:lang="en">
@@ -191,6 +176,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Habib b. Khidma Abu Raʾita of Tagrit — ܚܒܝܒ ܐܒܘ ܪܐܝܛܗ" in last modified December 9, 2016, http://syriaca.org/person/148</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/148/rdf">
+        <dcterms:title xml:lang="en">
+                         Habib 
+                         b. Khidma Abu Raʾita 
+                         of  Tagrit 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܚܒܝܒ 
+                         ܐܒܘ ܪܐܝܛܗ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/148"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Habib b. Khidma Abu Raʾita of Tagrit — ܚܒܝܒ ܐܒܘ ܪܐܝܛܗ" in last modified December 9, 2016, http://syriaca.org/person/148</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

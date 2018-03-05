@@ -9,7 +9,7 @@
         <dcterms:description>
                       part 8.4 
                   </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3129-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3129"/>
         <dcterms:relation rdf:resource="#bib3129-2"/>
@@ -18,10 +18,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3129"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3129#lawd:embodies-#bib3129-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3129#lawd:embodies-#bib3129-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3129"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3129"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3129"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3129"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/667"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/669"/>
@@ -34,38 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3129/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3129/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3129/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3129-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3129"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3129#lawd:embodies-#bib3129-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3129#lawd:embodies-#bib3129-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3129"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3129"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3129-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3129"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3129#lawd:embodies-#bib3129-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3129#lawd:embodies-#bib3129-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3129"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3129"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3129">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3129"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3129">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3129"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3129">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3129"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3129">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3129"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3129/html">
         <dcterms:title xml:lang="en">To John, Scholastic of Bostra</dcterms:title>

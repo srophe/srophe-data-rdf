@@ -96,8 +96,6 @@
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/529"/>
             </rdf:Description>
         </dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_36"/>
         <skos:closeMatch rdf:resource="http://www.viaf.net/viaf/20614507"/>
         <skos:closeMatch rdf:resource="http://www.viaf.net/viaf/22121783"/>
@@ -108,9 +106,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/36"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/7"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/124"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:bornAt-http://syriaca.org/person/36"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/7#syriaca:hasRelationToPlace-http://syriaca.org/person/36"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/124#syriaca:hasRelationToPlace-http://syriaca.org/person/36"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/78"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/7"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/124"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/529"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -130,28 +128,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/36/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/36/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/36/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/36">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:bornAt-http://syriaca.org/person/36"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/78#syriaca:bornAt-http://syriaca.org/person/36">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/78"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/36"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/36">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/7#syriaca:hasRelationToPlace-http://syriaca.org/person/36"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/124"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/124#syriaca:hasRelationToPlace-http://syriaca.org/person/36"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/7#syriaca:hasRelationToPlace-http://syriaca.org/person/36">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/7"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/36"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/124#syriaca:hasRelationToPlace-http://syriaca.org/person/36">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/124"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/36"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/36/html">
         <dcterms:title xml:lang="en">
@@ -220,6 +196,29 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Stephen Bar Sudayli — ܐܣܛܦܐܢ ܒܪ ܨܘܕܐܝ̈ܠܐ" in last modified August 17, 2016, http://syriaca.org/person/36</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/36/rdf">
+        <dcterms:title xml:lang="en">
+                         Stephen 
+                         Bar Sudayli 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܣܛܦܐܢ 
+                         ܒܪ ܨܘܕܐܝ̈ܠܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/36"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/529"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Stephen Bar Sudayli — ܐܣܛܦܐܢ ܒܪ ܨܘܕܐܝ̈ܠܐ" in last modified August 17, 2016, http://syriaca.org/person/36</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

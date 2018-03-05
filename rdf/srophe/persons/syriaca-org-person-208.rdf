@@ -84,8 +84,6 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Maphryono of the East</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_208"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/208"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1490"/>
@@ -93,10 +91,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/136"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/359"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1490#syriaca:bornAt-http://syriaca.org/person/208"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/136#syriaca:hasRelationToPlace-http://syriaca.org/person/208"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/208"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/139#syriaca:hasRelationToPlace-http://syriaca.org/person/208"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1490"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/136"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/359"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/139"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -109,34 +107,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/208/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/208/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/208/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/208">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1490"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1490#syriaca:bornAt-http://syriaca.org/person/208"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1490#syriaca:bornAt-http://syriaca.org/person/208">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1490"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/208"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/208">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/136"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/136#syriaca:hasRelationToPlace-http://syriaca.org/person/208"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/359"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/208"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/139#syriaca:hasRelationToPlace-http://syriaca.org/person/208"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/136#syriaca:hasRelationToPlace-http://syriaca.org/person/208">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/136"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/208"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/208">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/359"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/208"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/139#syriaca:hasRelationToPlace-http://syriaca.org/person/208">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/139"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/208"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/208/html">
         <dcterms:title xml:lang="en">
@@ -181,6 +151,21 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius II, maphrian of the East — ܐܝܓܢܐܛܝܘܣ ܠܥܙܪ" in last modified December 9, 2016, http://syriaca.org/person/208</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/208/rdf">
+        <dcterms:title xml:lang="en">
+                         Ignatius 
+                         II ,  maphrian of the East 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܝܓܢܐܛܝܘܣ ܠܥܙܪ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/208"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius II, maphrian of the East — ܐܝܓܢܐܛܝܘܣ ܠܥܙܪ" in last modified December 9, 2016, http://syriaca.org/person/208</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

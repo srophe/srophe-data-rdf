@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/codicology"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/codicology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/codicology"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/codicology/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/codicology/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/codicology/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/codicology/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/codicology/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/codicology">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/codicology"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/codicology">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/codicology"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/codicology">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/codicology"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/codicology">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/codicology"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/codicology/html">
         <dcterms:title xml:lang="en">Codicology</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Codicology</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/codicology"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Codicology" in last modified May 5, 2017, http://syriaca.org/keyword/codicology</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/codicology/rdf">
+        <dcterms:title xml:lang="en">Codicology</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/codicology"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Codicology" in last modified May 5, 2017, http://syriaca.org/keyword/codicology</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

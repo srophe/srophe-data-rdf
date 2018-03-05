@@ -81,16 +81,15 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Metropolitan of Karkar</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_205"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/86"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/86"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/205"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/359"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/86"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/104"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/205"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/86#syriaca:hasRelationToPlace-http://syriaca.org/person/205"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/205"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/359"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/86"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/104"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -105,26 +104,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/205/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/205/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/205/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/205">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/359"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/205"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/86"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/86#syriaca:hasRelationToPlace-http://syriaca.org/person/205"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/104"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/205"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/359#syriaca:hasRelationToPlace-http://syriaca.org/person/205">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/359"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/205"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/86#syriaca:hasRelationToPlace-http://syriaca.org/person/205">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/86"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/205"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/205">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/104"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/205"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/205/html">
         <dcterms:title xml:lang="syr">
@@ -166,6 +145,20 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Timothy of Gargar — ܛܝܡܬܐܘܣ ܕܓܪܓܪ" in last modified August 17, 2016, http://syriaca.org/person/205</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/205/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܛܝܡܬܐܘܣ 
+                         ܕܓܪܓܪ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/205"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Timothy of Gargar — ܛܝܡܬܐܘܣ ܕܓܪܓܪ" in last modified August 17, 2016, http://syriaca.org/person/205</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -15,7 +15,7 @@
         <dcterms:description>
                      Que sa bouche méprise les sots qui scrutent ta glorieuse naissance; que par elle soient méprisés les savants qui font de toi un objet de discussion; que les hésitants se repentent par elle qui a enfanté sans être connue. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib985-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
         <dcterms:relation rdf:resource="#bib985-4"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
         <dcterms:relation rdf:resource="#bib985-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-6"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1741"/>
@@ -43,38 +43,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/985/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/985/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/985/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib985-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/985#lawd:embodies-#bib985-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/985"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib985-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/985#lawd:embodies-#bib985-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/985"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib985-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/985#lawd:embodies-#bib985-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/985"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib985-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/985"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/985#lawd:embodies-#bib985-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/985#lawd:embodies-#bib985-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/985"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/985"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/985/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -110,6 +78,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/985</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/985/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/985"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1968"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/985</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

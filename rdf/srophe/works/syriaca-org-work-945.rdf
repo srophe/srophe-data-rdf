@@ -15,7 +15,7 @@
         <dcterms:description>
                      Sa porte est ouverte et son amour abondant pour les pénitents; bénie soit la clémence dont le récit de la miséricorde est illimité. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib945-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/945"/>
         <dcterms:relation rdf:resource="#bib945-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/945"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/945"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1884"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/945#lawd:embodies-#bib945-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/945#lawd:embodies-#bib945-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/945#lawd:embodies-#bib945-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1884#syriaca:commemorated-http://syriaca.org/work/945"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/945"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/945"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/945"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1884"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1743"/>
@@ -40,38 +40,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/945/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/945/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/945/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib945-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/945"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/945#lawd:embodies-#bib945-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/945#lawd:embodies-#bib945-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/945"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/945"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib945-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/945"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/945#lawd:embodies-#bib945-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/945#lawd:embodies-#bib945-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/945"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/945"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib945-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/945"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/945#lawd:embodies-#bib945-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/945#lawd:embodies-#bib945-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/945"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/945"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/945">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1884"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1884#syriaca:commemorated-http://syriaca.org/work/945"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1884#syriaca:commemorated-http://syriaca.org/work/945">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1884"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/945"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/945/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܡܓܕܠܝܬܐ</dcterms:title>
@@ -98,6 +66,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1743"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Magdalene (text) — ܡܪܝܡ ܡܓܕܠܝܬܐ" in last modified December 12, 2016, http://syriaca.org/work/945</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/945/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܡܓܕܠܝܬܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Magdalene (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/945"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1743"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Magdalene (text) — ܡܪܝܡ ܡܓܕܠܝܬܐ" in last modified December 12, 2016, http://syriaca.org/work/945</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

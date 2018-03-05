@@ -96,16 +96,15 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>bishop of Balsh</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_27"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/68465360"/>
         <skos:closeMatch rdf:resource="http://worldcat.org/identities/lccn-nb2008-27376"/>
         <skos:closeMatch rdf:resource="http://worldcat.org/identities/np-balaeus$chorepiscopum"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=B&amp;sK=Balai&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/299"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/299"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/27"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/18#syriaca:hasRelationToPlace-http://syriaca.org/person/27"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/18"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/80"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -128,14 +127,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/27/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/27/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/27/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/27">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/18#syriaca:hasRelationToPlace-http://syriaca.org/person/27"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/18#syriaca:hasRelationToPlace-http://syriaca.org/person/27">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/18"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/27"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/27/html">
         <dcterms:title xml:lang="en">
@@ -210,6 +201,31 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Balai, bishop of Balsh — ܒܠܝ" in last modified August 17, 2016, http://syriaca.org/person/27</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/27/rdf">
+        <dcterms:title xml:lang="en">
+                         Balai ,  bishop of  Balsh 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܒܠܝ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/27"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/80"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/709"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Balai, bishop of Balsh — ܒܠܝ" in last modified August 17, 2016, http://syriaca.org/person/27</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

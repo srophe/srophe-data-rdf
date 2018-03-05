@@ -15,7 +15,7 @@
         <dcterms:description>
                      En plus puissions-nous être jugés dignes avec elle de profiter du bonheur céleste, de confesser et d’adorer ta Seigneurie et de louer ton saint nom. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/734"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/734"/>
         <dcterms:relation rdf:resource="#bib1358-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
         <dcterms:relation rdf:resource="#bib1358-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
         <dcterms:relation rdf:resource="#bib1358-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-5"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1746"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1358/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1358/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1358/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1358-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1358#lawd:embodies-#bib1358-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1358"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1358-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1358#lawd:embodies-#bib1358-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1358"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1358-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1358#lawd:embodies-#bib1358-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1358"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1358-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1358"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1358#lawd:embodies-#bib1358-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1358#lawd:embodies-#bib1358-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1358"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1358"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1358/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1923"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary, Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1358</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1358/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary, Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1358"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1746"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1923"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary, Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1358</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

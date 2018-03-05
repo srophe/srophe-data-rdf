@@ -15,9 +15,9 @@
         <dcterms:description>
                      Et affermis-nous dans ta foi, compte-nous parmi tes élus, et sauve-nous, Seigneur ami des hommes. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/78"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/113"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/78"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/78"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/113"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="#bib735-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
         <dcterms:relation rdf:resource="#bib735-3"/>
@@ -30,12 +30,12 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1907"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1907#syriaca:commemorated-http://syriaca.org/work/735"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1907"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1727"/>
@@ -49,54 +49,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/735/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/735/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/735/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib735-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/735#lawd:embodies-#bib735-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib735-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/735#lawd:embodies-#bib735-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib735-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/735#lawd:embodies-#bib735-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib735-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/735#lawd:embodies-#bib735-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib735-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/735"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/735#lawd:embodies-#bib735-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/735#lawd:embodies-#bib735-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/735"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/735">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1907"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1907#syriaca:commemorated-http://syriaca.org/work/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1907#syriaca:commemorated-http://syriaca.org/work/735">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1907"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/735"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/735/html">
         <dcterms:title xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</dcterms:title>
@@ -126,6 +78,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1727"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Himyarite Martyrs (text) — ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ" in last modified December 12, 2016, http://syriaca.org/work/735</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/735/rdf">
+        <dcterms:title xml:lang="syr">ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ</dcterms:title>
+        <dcterms:title xml:lang="en">The Himyarite Martyrs (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/735"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1727"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1727"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Himyarite Martyrs (text) — ܣܗ̈ܕܐ ܚܡܝܪ̈ܝܐ" in last modified December 12, 2016, http://syriaca.org/work/735</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

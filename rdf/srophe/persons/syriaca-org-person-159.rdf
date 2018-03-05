@@ -63,21 +63,19 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>the Monk</dcterms:description>
-        <dcterms:description>Not the same as Barḥadbshabba ʿArbaya (http://syriaca.org/person/367) or Barḥadbshabba of Ḥulwān (http://syriaca.org/person/976).</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_159"/>
         <dcterms:relation rdf:resource="#person-159"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/367"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/976"/>
         <dcterms:relation rdf:resource="#person-159"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/367#syriaca:differentFrom-#person-159"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/976#syriaca:differentFrom-#person-159"/>
-        <snap:has-bond rdf:resource="#person-159#syriaca:differentFrom-http://syriaca.org/person/367"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/976#syriaca:differentFrom-http://syriaca.org/person/367"/>
-        <snap:has-bond rdf:resource="#person-159#syriaca:differentFrom-http://syriaca.org/person/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/367#syriaca:differentFrom-http://syriaca.org/person/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-#person-159"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/367"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/976"/>
+        <syriaca:differentFrom rdf:resource="#person-159"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/976"/>
+        <syriaca:differentFrom rdf:resource="#person-159"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/367"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -90,56 +88,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/159/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/159/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/159/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-159">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/367"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/367#syriaca:differentFrom-#person-159"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/976#syriaca:differentFrom-#person-159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/367#syriaca:differentFrom-#person-159">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/367"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/976#syriaca:differentFrom-#person-159">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/976"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/367">
-        <dcterms:relation rdf:resource="#person-159"/>
-        <snap:has-bond rdf:resource="#person-159#syriaca:differentFrom-http://syriaca.org/person/367"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/976"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/976#syriaca:differentFrom-http://syriaca.org/person/367"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-159#syriaca:differentFrom-http://syriaca.org/person/367">
-        <syriaca:differentFrom rdf:resource="#person-159"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/976#syriaca:differentFrom-http://syriaca.org/person/367">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/976"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/976">
-        <dcterms:relation rdf:resource="#person-159"/>
-        <snap:has-bond rdf:resource="#person-159#syriaca:differentFrom-http://syriaca.org/person/976"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/367"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/367#syriaca:differentFrom-http://syriaca.org/person/976"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-159#syriaca:differentFrom-http://syriaca.org/person/976">
-        <syriaca:differentFrom rdf:resource="#person-159"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/367#syriaca:differentFrom-http://syriaca.org/person/976">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/367"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-159">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-#person-159"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/227#syriaca:hasRelationToPlace-#person-159">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/159"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/159/html">
         <dcterms:title xml:lang="en">
@@ -187,6 +135,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Barhadbshabba of Mor Matay — ܕܝܪܝܐ ܒܪ ܚܕ ܒܫܒܐ" in last modified August 17, 2016, http://syriaca.org/person/159</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/159/rdf">
+        <dcterms:title xml:lang="en">
+                         Barhadbshabba 
+                         of Mor Matay 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܕܝܪܝܐ 
+                         ܒܪ ܚܕ ܒܫܒܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/159"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Barhadbshabba of Mor Matay — ܕܝܪܝܐ ܒܪ ܚܕ ܒܫܒܐ" in last modified August 17, 2016, http://syriaca.org/person/159</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

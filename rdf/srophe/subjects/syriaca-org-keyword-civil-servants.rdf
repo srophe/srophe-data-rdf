@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85026387"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/civil-servants"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/administration"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/civil-servants"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/civil-servants/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/civil-servants/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/civil-servants/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/civil-servants/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/civil-servants/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/civil-servants">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/administration"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/civil-servants"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/civil-servants">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/civil-servants"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/civil-servants/html">
         <dcterms:title xml:lang="en">Civil servants</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Civil servants</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/civil-servants"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Civil servants" in last modified May 5, 2017, http://syriaca.org/keyword/civil-servants</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/civil-servants/rdf">
+        <dcterms:title xml:lang="en">Civil servants</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/civil-servants"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Civil servants" in last modified May 5, 2017, http://syriaca.org/keyword/civil-servants</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

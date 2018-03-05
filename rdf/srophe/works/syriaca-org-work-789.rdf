@@ -15,8 +15,8 @@
         <dcterms:description>
                      Car c’est pour cela que nous renouvelons en nous les souvenirs des martyrs lors de leurs fêtes, pour la gloire du Christ. À lui convient la gloire… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib789-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
         <dcterms:relation rdf:resource="#bib789-3"/>
@@ -29,12 +29,12 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2164"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2164#syriaca:commemorated-http://syriaca.org/work/789"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2164"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2051"/>
@@ -48,54 +48,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/789/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/789/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/789/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib789-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/789#lawd:embodies-#bib789-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/789"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib789-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/789#lawd:embodies-#bib789-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/789"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib789-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/789#lawd:embodies-#bib789-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/789"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib789-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/789#lawd:embodies-#bib789-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/789"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib789-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/789"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/789#lawd:embodies-#bib789-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/789#lawd:embodies-#bib789-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/789"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/789"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/789">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2164"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2164#syriaca:commemorated-http://syriaca.org/work/789"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2164#syriaca:commemorated-http://syriaca.org/work/789">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2164"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/789"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/789/html">
         <dcterms:title xml:lang="syr">ܝܘܠܝܐܢܘܣ</dcterms:title>
@@ -125,6 +77,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2051"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Julian (text) — ܝܘܠܝܐܢܘܣ" in last modified December 12, 2016, http://syriaca.org/work/789</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/789/rdf">
+        <dcterms:title xml:lang="syr">ܝܘܠܝܐܢܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Julian (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/789"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2051"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2051"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Julian (text) — ܝܘܠܝܐܢܘܣ" in last modified December 12, 2016, http://syriaca.org/work/789</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

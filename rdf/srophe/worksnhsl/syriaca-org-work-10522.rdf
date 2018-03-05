@@ -36,16 +36,16 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9595"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10522"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10520"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-5"/>
-        <snap:has-bond rdf:resource="#bib10522-1#dcterms:source-#bib10522-5"/>
-        <snap:has-bond rdf:resource="#bib10522-2#dcterms:source-#bib10522-5"/>
-        <snap:has-bond rdf:resource="#bib10522-3#dcterms:source-#bib10522-5"/>
-        <snap:has-bond rdf:resource="#bib10522-6#lawd:hasCitation-#bib10522-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9595#skos:broadMatch-http://syriaca.org/work/10522"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10520#dcterms:isPartOf-http://syriaca.org/work/10522"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
+        <dcterms:source rdf:resource="#bib10522-1"/>
+        <dcterms:source rdf:resource="#bib10522-2"/>
+        <dcterms:source rdf:resource="#bib10522-3"/>
+        <lawd:hasCitation rdf:resource="#bib10522-6"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9595"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10520"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/10522"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/10520"/>
@@ -63,86 +63,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10522/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10522/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/10522/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10522"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10522#lawd:embodies-#bib10522-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10522"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10522#lawd:embodies-#bib10522-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10522"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10522#lawd:embodies-#bib10522-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10522"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10522#lawd:embodies-#bib10522-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10522#lawd:embodies-#bib10522-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/10522"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-5">
-        <dcterms:relation rdf:resource="#bib10522-1"/>
-        <snap:has-bond rdf:resource="#bib10522-1#dcterms:source-#bib10522-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-1#dcterms:source-#bib10522-5">
-        <dcterms:source rdf:resource="#bib10522-1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-5">
-        <dcterms:relation rdf:resource="#bib10522-2"/>
-        <snap:has-bond rdf:resource="#bib10522-2#dcterms:source-#bib10522-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-2#dcterms:source-#bib10522-5">
-        <dcterms:source rdf:resource="#bib10522-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-5">
-        <dcterms:relation rdf:resource="#bib10522-3"/>
-        <snap:has-bond rdf:resource="#bib10522-3#dcterms:source-#bib10522-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-3#dcterms:source-#bib10522-5">
-        <dcterms:source rdf:resource="#bib10522-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-2">
-        <dcterms:relation rdf:resource="#bib10522-6"/>
-        <snap:has-bond rdf:resource="#bib10522-6#lawd:hasCitation-#bib10522-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib10522-6#lawd:hasCitation-#bib10522-2">
-        <lawd:hasCitation rdf:resource="#bib10522-6"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10522">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9595"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9595#skos:broadMatch-http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9595#skos:broadMatch-http://syriaca.org/work/10522">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9595"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10522">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10520"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10520#dcterms:isPartOf-http://syriaca.org/work/10522"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10520#dcterms:isPartOf-http://syriaca.org/work/10522">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10520"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/10522"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/10522/html">
         <dcterms:title xml:lang="en">1 Corinthians (Harqlean version)</dcterms:title>

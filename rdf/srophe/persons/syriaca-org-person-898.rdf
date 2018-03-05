@@ -60,12 +60,11 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author is possibly identical with the person represented in another record</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_898"/>
         <dcterms:relation rdf:resource="#person-898"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/433"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/433#syriaca:possiblyIdentical-#person-898"/>
-        <snap:has-bond rdf:resource="#person-898#syriaca:possiblyIdentical-http://syriaca.org/person/433"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/433"/>
+        <syriaca:possiblyIdentical rdf:resource="#person-898"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/6"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/7"/>
@@ -77,22 +76,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/898/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/898/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/898/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-898">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/433"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/433#syriaca:possiblyIdentical-#person-898"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/433#syriaca:possiblyIdentical-#person-898">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/433"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/898"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/433">
-        <dcterms:relation rdf:resource="#person-898"/>
-        <snap:has-bond rdf:resource="#person-898#syriaca:possiblyIdentical-http://syriaca.org/person/433"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-898#syriaca:possiblyIdentical-http://syriaca.org/person/433">
-        <syriaca:possiblyIdentical rdf:resource="#person-898"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/898"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/898/html">
         <dcterms:title xml:lang="en">
@@ -140,6 +123,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Dadishoʿ — ܕܕܝܫܘܥ" in last modified December 9, 2016, http://syriaca.org/person/898</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/898/rdf">
+        <dcterms:title xml:lang="en">
+                         Dadishoʿ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܕܕܝܫܘܥ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en-x-gedsh">
+                         Dadishoʿ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/898"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Dadishoʿ — ܕܕܝܫܘܥ" in last modified December 9, 2016, http://syriaca.org/person/898</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

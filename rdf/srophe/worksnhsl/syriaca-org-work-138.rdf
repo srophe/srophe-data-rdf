@@ -5,7 +5,7 @@
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib138-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/138"/>
         <dcterms:relation rdf:resource="#bib138-6"/>
@@ -20,13 +20,13 @@
         <dcterms:relation rdf:resource="#bib138-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/138"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9640"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/138#lawd:embodies-#bib138-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/138#lawd:embodies-#bib138-6"/>
-        <snap:has-bond rdf:resource="#bib138-2#dcterms:source-#bib138-1"/>
-        <snap:has-bond rdf:resource="#bib138-2#lawd:hasCitation-http://syriaca.org/manuscript/735"/>
-        <snap:has-bond rdf:resource="#bib138-4#dcterms:source-#bib138-3"/>
-        <snap:has-bond rdf:resource="#bib138-4#lawd:hasCitation-http://syriaca.org/manuscript/875"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9640#skos:broadMatch-http://syriaca.org/work/138"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/138"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/138"/>
+        <dcterms:source rdf:resource="#bib138-2"/>
+        <lawd:hasCitation rdf:resource="#bib138-2"/>
+        <dcterms:source rdf:resource="#bib138-4"/>
+        <lawd:hasCitation rdf:resource="#bib138-4"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9640"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/735"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/875"/>
@@ -42,62 +42,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/138/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/138/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/138/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/138"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/138#lawd:embodies-#bib138-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/138#lawd:embodies-#bib138-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/138"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/138"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/138#lawd:embodies-#bib138-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/138#lawd:embodies-#bib138-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/138"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-1">
-        <dcterms:relation rdf:resource="#bib138-2"/>
-        <snap:has-bond rdf:resource="#bib138-2#dcterms:source-#bib138-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-2#dcterms:source-#bib138-1">
-        <dcterms:source rdf:resource="#bib138-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/735">
-        <dcterms:relation rdf:resource="#bib138-2"/>
-        <snap:has-bond rdf:resource="#bib138-2#lawd:hasCitation-http://syriaca.org/manuscript/735"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-2#lawd:hasCitation-http://syriaca.org/manuscript/735">
-        <lawd:hasCitation rdf:resource="#bib138-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-3">
-        <dcterms:relation rdf:resource="#bib138-4"/>
-        <snap:has-bond rdf:resource="#bib138-4#dcterms:source-#bib138-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-4#dcterms:source-#bib138-3">
-        <dcterms:source rdf:resource="#bib138-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/875">
-        <dcterms:relation rdf:resource="#bib138-4"/>
-        <snap:has-bond rdf:resource="#bib138-4#lawd:hasCitation-http://syriaca.org/manuscript/875"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib138-4#lawd:hasCitation-http://syriaca.org/manuscript/875">
-        <lawd:hasCitation rdf:resource="#bib138-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/138">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9640"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9640#skos:broadMatch-http://syriaca.org/work/138"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9640#skos:broadMatch-http://syriaca.org/work/138">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9640"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/138"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/138/html">
         <dcterms:title xml:lang="en">Isaiah (LXX/Septuagint version)</dcterms:title>

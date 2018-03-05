@@ -14,7 +14,7 @@
         <dcterms:description>
                      Les noces des époux et des épouses durent seulement sept jours et puis elles sont passées. Les noces des hommes et des femmes chastes ne cessent pas pour les siècles des générations; leur noces résonnent de louange et leurs ornements resplendissent dans le Royaume. Leurs banquets sont étendus dans les délices. Bienheureux celui à qui il a été promis d’y avoir accès. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib1017-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1017"/>
         <dcterms:relation rdf:resource="#bib1017-3"/>
@@ -22,9 +22,9 @@
         <dcterms:relation rdf:resource="#bib1017-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1017"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1017"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1017#lawd:embodies-#bib1017-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1017#lawd:embodies-#bib1017-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1017#lawd:embodies-#bib1017-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1017"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1017"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1017"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1742"/>
@@ -39,31 +39,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1017/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1017/rdf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#bib1017-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1017"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1017#lawd:embodies-#bib1017-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1017#lawd:embodies-#bib1017-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1017"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1017"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1017-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1017"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1017#lawd:embodies-#bib1017-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1017#lawd:embodies-#bib1017-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1017"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1017"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1017-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1017"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1017#lawd:embodies-#bib1017-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1017#lawd:embodies-#bib1017-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1017"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1017"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1017"/>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1017/html">
         <dcterms:title xml:lang="en">The Martyrs (text)</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/work/1017"/>
@@ -89,6 +64,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/1017</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1017/rdf">
+        <dcterms:title xml:lang="en">The Martyrs (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1017"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/1017</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

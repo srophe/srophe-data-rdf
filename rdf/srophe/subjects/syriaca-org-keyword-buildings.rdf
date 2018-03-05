@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/art"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/buildings"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/places"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/buildings"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/places#skos:broadMatch-http://syriaca.org/keyword/buildings"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/art"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/places"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/buildings/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/buildings/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/buildings/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/buildings/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/buildings/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/buildings">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/art"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/buildings"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/buildings">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/art"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/buildings"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/buildings">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/places"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/places#skos:broadMatch-http://syriaca.org/keyword/buildings"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/places#skos:broadMatch-http://syriaca.org/keyword/buildings">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/places"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/buildings"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/buildings/html">
         <dcterms:title xml:lang="en">Buildings</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Buildings</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/buildings"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Buildings" in last modified May 5, 2017, http://syriaca.org/keyword/buildings</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/buildings/rdf">
+        <dcterms:title xml:lang="en">Buildings</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/buildings"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Buildings" in last modified May 5, 2017, http://syriaca.org/keyword/buildings</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

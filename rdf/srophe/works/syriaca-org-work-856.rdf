@@ -15,8 +15,8 @@
         <dcterms:description>
                      Cela prépare le royaume des cieux; cela, Athanase l’enseigne aujourd’hui par mon intermédiaire comme une première mise en garde. Supplions-le de nous visiter aussi et de présenter des prières pour nous, avec les prophètes, les apôtres et les martyrs, pour que nous soyons gardés affranchis de tous les filets du Calomniateur, par la grâce et l’amour pour les hommes du grand Dieu… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib856-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
         <dcterms:relation rdf:resource="#bib856-3"/>
@@ -27,11 +27,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/354"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/354#syriaca:commemorated-http://syriaca.org/work/856"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/354"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2048"/>
@@ -45,46 +45,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/856/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/856/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/856/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib856-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/856#lawd:embodies-#bib856-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/856"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib856-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/856#lawd:embodies-#bib856-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/856"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib856-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/856#lawd:embodies-#bib856-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/856"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib856-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/856"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/856#lawd:embodies-#bib856-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/856#lawd:embodies-#bib856-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/856"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/856"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/856">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/354"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/354#syriaca:commemorated-http://syriaca.org/work/856"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/354#syriaca:commemorated-http://syriaca.org/work/856">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/354"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/856"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/856/html">
         <dcterms:title xml:lang="syr">ܐܬܐܢܐܣܝܘܣ</dcterms:title>
@@ -114,6 +74,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2048"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Athanasius of Alexandria (text) — ܐܬܐܢܐܣܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/856</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/856/rdf">
+        <dcterms:title xml:lang="syr">ܐܬܐܢܐܣܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Athanasius of Alexandria (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/856"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2048"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2048"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Athanasius of Alexandria (text) — ܐܬܐܢܐܣܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/856</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

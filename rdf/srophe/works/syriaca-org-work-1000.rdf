@@ -12,7 +12,7 @@
         <dcterms:description>
                      Bénie es-tu Marie, fille de David et béni est le fruit que tu nous a donné; béni est le Père qui a envoyé son Fils pour notre salut et béni est l’Esprit Paraclet qui nous a instruits de son mystère. Béni est son nom. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib1000-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
         <dcterms:relation rdf:resource="#bib1000-4"/>
@@ -21,10 +21,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
         <dcterms:relation rdf:resource="#bib1000-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-6"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1741"/>
@@ -40,38 +40,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1000/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1000/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1000/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1000-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1000#lawd:embodies-#bib1000-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1000"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1000-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1000#lawd:embodies-#bib1000-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1000"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1000-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1000#lawd:embodies-#bib1000-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1000"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1000-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1000"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1000#lawd:embodies-#bib1000-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1000#lawd:embodies-#bib1000-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1000"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1000"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1000/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -107,6 +75,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1000</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1000/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1000"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1741"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1968"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/703"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1000</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

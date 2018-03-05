@@ -92,13 +92,12 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_186"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/186"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/395"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/342"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/395#syriaca:hasRelationToPlace-http://syriaca.org/person/186"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/342#syriaca:hasRelationToPlace-http://syriaca.org/person/186"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/395"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/342"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -112,20 +111,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/186/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/186/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/186/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/186">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/395"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/395#syriaca:hasRelationToPlace-http://syriaca.org/person/186"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/342"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/342#syriaca:hasRelationToPlace-http://syriaca.org/person/186"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/395#syriaca:hasRelationToPlace-http://syriaca.org/person/186">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/395"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/186"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/342#syriaca:hasRelationToPlace-http://syriaca.org/person/186">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/342"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/186"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/186/html">
         <dcterms:title xml:lang="en">
@@ -182,6 +167,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Athanasius V Lazarus Salhoyo — ܐܬܢܐܣܝܘܣ ܨܠܚܝܐ" in last modified December 9, 2016, http://syriaca.org/person/186</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/186/rdf">
+        <dcterms:title xml:lang="en">
+                         Athanasius 
+                         V 
+                         Lazarus 
+                         Salhoyo 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܬܢܐܣܝܘܣ 
+                         ܨܠܚܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/186"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Athanasius V Lazarus Salhoyo — ܐܬܢܐܣܝܘܣ ܨܠܚܝܐ" in last modified December 9, 2016, http://syriaca.org/person/186</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

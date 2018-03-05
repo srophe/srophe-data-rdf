@@ -9,7 +9,7 @@
         <dcterms:description>
                       part 1.23 
                   </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3052-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3052"/>
         <dcterms:relation rdf:resource="#bib3052-2"/>
@@ -18,10 +18,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3052"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3052#lawd:embodies-#bib3052-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3052#lawd:embodies-#bib3052-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3052"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3052"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3052"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3052"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/666"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/668"/>
@@ -34,38 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3052/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3052/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3052/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3052-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3052"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3052#lawd:embodies-#bib3052-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3052#lawd:embodies-#bib3052-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3052"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3052"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3052-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3052"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3052#lawd:embodies-#bib3052-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3052#lawd:embodies-#bib3052-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3052"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3052"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3052">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3052"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3052">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3052"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3052">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3052"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3052">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3052"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3052/html">
         <dcterms:title xml:lang="en">To Solon, Bishop of Seleucia in Isauria</dcterms:title>

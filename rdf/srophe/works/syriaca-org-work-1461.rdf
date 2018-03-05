@@ -14,11 +14,11 @@
         <dcterms:description>
                      Pourquoi pleures-tu la membrane d’où est sorti le bébé? Pleure sur l’âme qui a péché et dont est brisée l’aile et qui ne pourra voler; par le péché elle a brisé ses ailes et ne pourra monter au ciel. Celui qui se fâche contre son prochain brise l’aile de son âme. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib1461-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1461"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1461"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1461#lawd:embodies-#bib1461-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1461"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -31,15 +31,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1461/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1461/rdf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#bib1461-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1461"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1461#lawd:embodies-#bib1461-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1461#lawd:embodies-#bib1461-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1461"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1461"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1461"/>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1461/html">
         <dcterms:title xml:lang="en">The Martyrs (text)</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/work/1461"/>
@@ -59,6 +50,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1461"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/1461</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1461/rdf">
+        <dcterms:title xml:lang="en">The Martyrs (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1461"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/1461</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

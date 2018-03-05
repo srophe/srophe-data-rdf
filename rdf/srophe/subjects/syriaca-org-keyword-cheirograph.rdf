@@ -8,9 +8,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/cheirograph"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/cheirograph"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/cheirograph"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/cheirograph"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/cheirograph/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/cheirograph/tei"/>
@@ -20,30 +20,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/cheirograph/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/cheirograph/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/cheirograph/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/cheirograph">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/administration"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/cheirograph"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/cheirograph">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/cheirograph"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/cheirograph">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/cheirograph"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/cheirograph">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/cheirograph"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/cheirograph">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/cheirograph"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/cheirograph">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/cheirograph"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/cheirograph/html">
         <dcterms:title xml:lang="en">Cheirograph</dcterms:title>
@@ -61,6 +37,12 @@
         <dcterms:title xml:lang="en">Cheirograph</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/cheirograph"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Cheirograph" in last modified May 5, 2017, http://syriaca.org/keyword/cheirograph</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/cheirograph/rdf">
+        <dcterms:title xml:lang="en">Cheirograph</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/cheirograph"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Cheirograph" in last modified May 5, 2017, http://syriaca.org/keyword/cheirograph</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

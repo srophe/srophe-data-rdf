@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?)</rdfs:label>
         <dcterms:description>ܡܛܠ ܗ̇ܝ ܕܩܕܡ ܕܢܦܓܥ ܐܢܫ ܒܣܟܘܠܝܘܢ ܕܐܣܛܪܘܠܒܘܢ ܐܝܟܢܐ ܕܡܢܘ ܢܐܠܦ ܕܐܝܟܢܐ ܙܕܩ ܠܡܬܚܫܚܘ ܒܗ ܠܘܬ ܢܣܝܒܘܬܐ ܕܫܥܬܐ</dcterms:description>
         <dcterms:description>ܟܕ ܫܘܪܝܐ ܡܢ ܗܐ ܡܟܐ</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/99"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/99"/>
         <dcterms:relation rdf:resource="#bib9747-1"/>
         <dcterms:relation rdf:resource="#bib9747-3"/>
         <dcterms:relation rdf:resource="#bib9747-1"/>
@@ -15,11 +15,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9747"/>
         <dcterms:relation rdf:resource="#bib9747-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9747"/>
-        <snap:has-bond rdf:resource="#bib9747-3#dcterms:source-#bib9747-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-4"/>
+        <dcterms:source rdf:resource="#bib9747-3"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1394"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/work/9747/html"/>
@@ -30,46 +30,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9747/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9747/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9747/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9747-1">
-        <dcterms:relation rdf:resource="#bib9747-3"/>
-        <snap:has-bond rdf:resource="#bib9747-3#dcterms:source-#bib9747-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9747-3#dcterms:source-#bib9747-1">
-        <dcterms:source rdf:resource="#bib9747-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9747"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9747-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9747"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9747#lawd:embodies-#bib9747-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9747"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9747-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9747"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9747#lawd:embodies-#bib9747-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9747"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9747-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9747"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9747#lawd:embodies-#bib9747-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9747"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9747-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9747"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9747#lawd:embodies-#bib9747-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9747#lawd:embodies-#bib9747-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9747"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9747"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/9747/html">
         <dcterms:title xml:lang="en">Treatise on the Astrolabe - prooemion and scholion (based on Ammonius?)</dcterms:title>

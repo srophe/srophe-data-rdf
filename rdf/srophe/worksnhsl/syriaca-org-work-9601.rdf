@@ -19,8 +19,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9601"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9601"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9643"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9601#lawd:embodies-#bib9601-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9643#dcterms:isPartOf-http://syriaca.org/work/9601"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9601"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9643"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9601"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9643"/>
@@ -35,22 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9601/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9601/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9601/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9601-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9601"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9601#lawd:embodies-#bib9601-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9601#lawd:embodies-#bib9601-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9601"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9601"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9601">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9643"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9643#dcterms:isPartOf-http://syriaca.org/work/9601"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9643#dcterms:isPartOf-http://syriaca.org/work/9601">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9643"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9601"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/9601/html">
         <dcterms:title xml:lang="en">1 Thessalonians (literary tradition)</dcterms:title>

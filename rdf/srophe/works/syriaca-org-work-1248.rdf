@@ -15,7 +15,7 @@
         <dcterms:description>
                      Et vraiment, comme il est écrit, «La mémoire du juste est éternelle», auprès de ceux qui sont au ciel et de ceux qui sont sur terre; faisons monter louange et honneur vers le Père… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/376"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/376"/>
         <dcterms:relation rdf:resource="#bib1248-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
         <dcterms:relation rdf:resource="#bib1248-3"/>
@@ -26,11 +26,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1756"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1756#syriaca:commemorated-http://syriaca.org/work/1248"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1756"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2081"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1248/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1248/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1248/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1248-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1248#lawd:embodies-#bib1248-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1248"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1248-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1248#lawd:embodies-#bib1248-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1248"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1248-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1248#lawd:embodies-#bib1248-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1248"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1248-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1248"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1248#lawd:embodies-#bib1248-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1248#lawd:embodies-#bib1248-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1248"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1248"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1248">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1756"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1756#syriaca:commemorated-http://syriaca.org/work/1248"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1756#syriaca:commemorated-http://syriaca.org/work/1248">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1756"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1248"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1248/html">
         <dcterms:title xml:lang="syr">ܓܪܕܝܘܣ</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Gordios (text) — ܓܪܕܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1248</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1248/rdf">
+        <dcterms:title xml:lang="syr">ܓܪܕܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Gordios (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1248"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Gordios (text) — ܓܪܕܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1248</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

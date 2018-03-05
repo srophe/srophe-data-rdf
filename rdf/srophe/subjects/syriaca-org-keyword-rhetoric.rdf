@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/rhetoric"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/rhetoric"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/rhetoric"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/rhetoric/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/rhetoric/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/rhetoric/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/rhetoric/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/rhetoric/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/rhetoric">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/rhetoric"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/rhetoric">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/rhetoric"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/rhetoric">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/rhetoric"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/rhetoric">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/rhetoric"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/rhetoric/html">
         <dcterms:title xml:lang="en">Rhetoric</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Rhetoric</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/rhetoric"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Rhetoric" in last modified May 5, 2017, http://syriaca.org/keyword/rhetoric</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/rhetoric/rdf">
+        <dcterms:title xml:lang="en">Rhetoric</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/rhetoric"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Rhetoric" in last modified May 5, 2017, http://syriaca.org/keyword/rhetoric</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

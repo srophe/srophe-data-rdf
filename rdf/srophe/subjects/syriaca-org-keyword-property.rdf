@@ -11,10 +11,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/places"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/property"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/property"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/property"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/places#skos:broadMatch-http://syriaca.org/keyword/property"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/property"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/economics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/places"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/property/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/property/tei"/>
@@ -24,38 +24,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/property/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/property/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/property/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/property">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/economics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/economics#skos:broadMatch-http://syriaca.org/keyword/property">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/economics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/property">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/property">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/property">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/places"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/places#skos:broadMatch-http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/places#skos:broadMatch-http://syriaca.org/keyword/property">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/places"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/property">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/property"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/property">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/property"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/property/html">
         <dcterms:title xml:lang="en">Property</dcterms:title>
@@ -73,6 +41,12 @@
         <dcterms:title xml:lang="en">Property</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/property"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Property" in last modified May 5, 2017, http://syriaca.org/keyword/property</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/property/rdf">
+        <dcterms:title xml:lang="en">Property</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/property"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Property" in last modified May 5, 2017, http://syriaca.org/keyword/property</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

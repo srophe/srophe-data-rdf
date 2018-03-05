@@ -6,7 +6,7 @@
         <dcterms:description>
                              part 18 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib56-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/56"/>
         <dcterms:relation rdf:resource="#bib56-1"/>
@@ -17,11 +17,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9573"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/56"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/69"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/56#lawd:embodies-#bib56-3"/>
-        <snap:has-bond rdf:resource="#bib56-2#dcterms:source-#bib56-1"/>
-        <snap:has-bond rdf:resource="#bib56-2#lawd:hasCitation-http://syriaca.org/manuscript/1153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9573#skos:broadMatch-http://syriaca.org/work/56"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/69#dcterms:isPartOf-http://syriaca.org/work/56"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/56"/>
+        <dcterms:source rdf:resource="#bib56-2"/>
+        <lawd:hasCitation rdf:resource="#bib56-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9573"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/69"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1153"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/1153"/>
@@ -34,46 +34,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/56/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/56/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/56/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib56-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/56"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/56#lawd:embodies-#bib56-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/56#lawd:embodies-#bib56-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/56"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/56"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib56-1">
-        <dcterms:relation rdf:resource="#bib56-2"/>
-        <snap:has-bond rdf:resource="#bib56-2#dcterms:source-#bib56-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib56-2#dcterms:source-#bib56-1">
-        <dcterms:source rdf:resource="#bib56-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/56"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/1153">
-        <dcterms:relation rdf:resource="#bib56-2"/>
-        <snap:has-bond rdf:resource="#bib56-2#lawd:hasCitation-http://syriaca.org/manuscript/1153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib56-2#lawd:hasCitation-http://syriaca.org/manuscript/1153">
-        <lawd:hasCitation rdf:resource="#bib56-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/56"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/56">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9573"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9573#skos:broadMatch-http://syriaca.org/work/56"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9573#skos:broadMatch-http://syriaca.org/work/56">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9573"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/56"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/56">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/69"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/69#dcterms:isPartOf-http://syriaca.org/work/56"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/69#dcterms:isPartOf-http://syriaca.org/work/56">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/69"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/56"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/56/html">
         <dcterms:title xml:lang="en">Book of Holy Women (Peshitta version)</dcterms:title>

@@ -14,9 +14,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1131"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1131"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2012"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1131#lawd:embodies-#bib1131-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1131#lawd:embodies-#bib1131-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2012#syriaca:commemorated-http://syriaca.org/work/1131"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1131"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1131"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2012"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -29,30 +29,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1131/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1131/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1131/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1131-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1131"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1131#lawd:embodies-#bib1131-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1131#lawd:embodies-#bib1131-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1131"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1131"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1131-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1131"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1131#lawd:embodies-#bib1131-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1131#lawd:embodies-#bib1131-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1131"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1131"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1131">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2012"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2012#syriaca:commemorated-http://syriaca.org/work/1131"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2012#syriaca:commemorated-http://syriaca.org/work/1131">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2012"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1131"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1131/html">
         <dcterms:title xml:lang="en">Peter the Publican (text)</dcterms:title>
@@ -76,6 +52,14 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1121"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Peter the Publican (text)" in last modified December 12, 2016, http://syriaca.org/work/1131</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1131/rdf">
+        <dcterms:title xml:lang="en">Peter the Publican (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1131"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1121"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Peter the Publican (text)" in last modified December 12, 2016, http://syriaca.org/work/1131</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

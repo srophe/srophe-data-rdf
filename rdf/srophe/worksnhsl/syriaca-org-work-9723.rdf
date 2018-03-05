@@ -11,9 +11,9 @@
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/177838764"/>
         <skos:closeMatch rdf:resource="http://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0086.tlg028"/>
         <skos:closeMatch rdf:resource="https://en.wikipedia.org/wiki/On_the_Universe"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/342"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/49"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/342"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/49"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib9723-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9723"/>
         <dcterms:relation rdf:resource="#bib9723-2"/>
@@ -28,13 +28,13 @@
         <dcterms:relation rdf:resource="#bib9723-9"/>
         <dcterms:relation rdf:resource="#bib9723-10"/>
         <dcterms:relation rdf:resource="#bib9723-9"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-5"/>
-        <snap:has-bond rdf:resource="#bib9723-9#lawd:hasCitation-#bib9723-5"/>
-        <snap:has-bond rdf:resource="#bib9723-9#dcterms:source-#bib9723-10"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
+        <lawd:hasCitation rdf:resource="#bib9723-9"/>
+        <dcterms:source rdf:resource="#bib9723-9"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1818"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2357"/>
@@ -61,62 +61,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9723/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9723/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9723/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9723"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9723#lawd:embodies-#bib9723-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9723"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9723#lawd:embodies-#bib9723-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9723"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9723#lawd:embodies-#bib9723-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9723"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9723#lawd:embodies-#bib9723-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9723"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9723#lawd:embodies-#bib9723-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9723#lawd:embodies-#bib9723-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9723"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-5">
-        <dcterms:relation rdf:resource="#bib9723-9"/>
-        <snap:has-bond rdf:resource="#bib9723-9#lawd:hasCitation-#bib9723-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-9#lawd:hasCitation-#bib9723-5">
-        <lawd:hasCitation rdf:resource="#bib9723-9"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-10">
-        <dcterms:relation rdf:resource="#bib9723-9"/>
-        <snap:has-bond rdf:resource="#bib9723-9#dcterms:source-#bib9723-10"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9723-9#dcterms:source-#bib9723-10">
-        <dcterms:source rdf:resource="#bib9723-9"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9723"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/9723/html">
         <dcterms:title xml:lang="en">On the Universe (De mundo)</dcterms:title>

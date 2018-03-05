@@ -72,12 +72,11 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Abbot of the Monastery of Qenneshrin</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_61"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/230"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
         <dcterms:relation rdf:resource="#person-61"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/10#syriaca:hasLiteraryConnectionToPlace-#person-61"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -90,14 +89,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/61/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/61/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/61/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-61">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/10#syriaca:hasLiteraryConnectionToPlace-#person-61"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/10#syriaca:hasLiteraryConnectionToPlace-#person-61">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/10"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/61"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/61/html">
         <dcterms:title xml:lang="syr">
@@ -133,6 +124,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John II of Qenneshre — ܝܘܚܢܢ ܬܪܝܢܐ ܕܩܢܫܪܝܢ" in last modified August 17, 2016, http://syriaca.org/person/61</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/61/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܝܘܚܢܢ 
+                         ܬܪܝܢܐ ܕܩܢܫܪܝܢ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/61"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John II of Qenneshre — ܝܘܚܢܢ ܬܪܝܢܐ ܕܩܢܫܪܝܢ" in last modified August 17, 2016, http://syriaca.org/person/61</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

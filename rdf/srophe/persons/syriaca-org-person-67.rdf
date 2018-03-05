@@ -127,9 +127,6 @@
         </dcterms:description>
         <dcterms:description>In hagiography: Aḥūdemmeh was Bishop of Beth ʿArbaye and Catholicos of the Syrian Orthodox Church in the Sasanian Empire. Aḥūdemmeh also converted tribes of Arabs and died in prison.</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
-        <dcterms:description>This author is possibly identical with the author represented in another record</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_67"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/89786411"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/45521124"/>
@@ -137,9 +134,9 @@
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/49367723"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/216293174"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/201354194"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/42"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/67"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/work/689"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/67"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/689"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/67"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/42"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/67"/>
@@ -148,12 +145,12 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/423"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/67"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/325"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/42#syriaca:bornAt-http://syriaca.org/person/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/31#syriaca:hasRelationToPlace-http://syriaca.org/person/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/321#syriaca:hasRelationToPlace-http://syriaca.org/person/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/423#syriaca:hasRelationToPlace-http://syriaca.org/person/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/325#syriaca:possiblyIdentical-http://syriaca.org/person/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/67#syriaca:possiblyIdentical-http://syriaca.org/person/325"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/42"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/31"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/321"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/423"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/325"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/67"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/34"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -174,50 +171,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/67/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/67/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/67/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/67">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/42"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/42#syriaca:bornAt-http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/42#syriaca:bornAt-http://syriaca.org/person/67">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/42"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/67">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/31"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/31#syriaca:hasRelationToPlace-http://syriaca.org/person/67"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/321"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/321#syriaca:hasRelationToPlace-http://syriaca.org/person/67"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/423"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/423#syriaca:hasRelationToPlace-http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/31#syriaca:hasRelationToPlace-http://syriaca.org/person/67">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/31"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/321#syriaca:hasRelationToPlace-http://syriaca.org/person/67">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/321"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/423#syriaca:hasRelationToPlace-http://syriaca.org/person/67">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/423"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/67">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/325"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/325#syriaca:possiblyIdentical-http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/325#syriaca:possiblyIdentical-http://syriaca.org/person/67">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/325"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/67"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/325">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/67#syriaca:possiblyIdentical-http://syriaca.org/person/325"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/67#syriaca:possiblyIdentical-http://syriaca.org/person/325">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/67"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/67"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/67/html">
         <dcterms:title xml:lang="en">
@@ -298,6 +251,33 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ahudemmeh — ܐܚܘܕܐܡܗ" in last modified August 17, 2016, http://syriaca.org/person/67</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/67/rdf">
+        <dcterms:title xml:lang="en">
+                         Ahudemmeh 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en-x-gedsh">
+                         Aḥudemmeh 
+                         of  Balad 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܚܘܕܐܡܗ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/67"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/34"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ahudemmeh — ܐܚܘܕܐܡܗ" in last modified August 17, 2016, http://syriaca.org/person/67</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

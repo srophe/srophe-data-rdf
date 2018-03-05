@@ -27,9 +27,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1493"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1493"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1471"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1493#lawd:embodies-#bib1493-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1493#lawd:embodies-#bib1493-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1471#syriaca:commemorated-http://syriaca.org/work/1493"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1493"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1493"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1471"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -42,30 +42,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1493/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1493/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1493/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1493-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1493"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1493#lawd:embodies-#bib1493-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1493#lawd:embodies-#bib1493-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1493"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1493"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1493-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1493"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1493#lawd:embodies-#bib1493-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1493#lawd:embodies-#bib1493-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1493"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1493"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1493">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1471"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1471#syriaca:commemorated-http://syriaca.org/work/1493"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1471#syriaca:commemorated-http://syriaca.org/work/1493">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1471"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1493"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1493/html">
         <dcterms:title xml:lang="syr">ܫܡܥܘܢ</dcterms:title>
@@ -92,6 +68,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1072"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Simeon of Kfar-‘Abdin (text) — ܫܡܥܘܢ" in last modified December 12, 2016, http://syriaca.org/work/1493</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1493/rdf">
+        <dcterms:title xml:lang="syr">ܫܡܥܘܢ</dcterms:title>
+        <dcterms:title xml:lang="en">Simeon of Kfar-‘Abdin (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1493"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1072"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Simeon of Kfar-‘Abdin (text) — ܫܡܥܘܢ" in last modified December 12, 2016, http://syriaca.org/work/1493</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

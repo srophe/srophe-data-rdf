@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://lccn.loc.gov/sh85083064"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/medicine"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/medicine"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/medicine/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/medicine/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/medicine/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/medicine/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/medicine/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/medicine">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/medicine"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/medicine">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/medicine"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/medicine/html">
         <dcterms:title xml:lang="en">Medicine</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Medicine</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/medicine"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Medicine" in last modified May 5, 2017, http://syriaca.org/keyword/medicine</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/medicine/rdf">
+        <dcterms:title xml:lang="en">Medicine</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/medicine"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Medicine" in last modified May 5, 2017, http://syriaca.org/keyword/medicine</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

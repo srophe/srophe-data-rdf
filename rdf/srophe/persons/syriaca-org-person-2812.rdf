@@ -38,18 +38,18 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description>The author of a hagiography about the martyr  Habib .</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/1258"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/2812"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/work/228"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/1258"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2812"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/228"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2120"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2121"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1958"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2121#syriaca:differentFrom-http://syriaca.org/person/2120"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1958#syriaca:differentFrom-http://syriaca.org/person/2120"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2120#syriaca:differentFrom-http://syriaca.org/person/2121"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1958#syriaca:differentFrom-http://syriaca.org/person/2121"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2120#syriaca:differentFrom-http://syriaca.org/person/1958"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2121#syriaca:differentFrom-http://syriaca.org/person/1958"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2121"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1958"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2120"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1958"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2120"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2121"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/person/2812/html"/>
@@ -60,48 +60,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2812/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2812/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2812/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2120">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2121"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2121#syriaca:differentFrom-http://syriaca.org/person/2120"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1958"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1958#syriaca:differentFrom-http://syriaca.org/person/2120"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2121#syriaca:differentFrom-http://syriaca.org/person/2120">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2121"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2812"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1958#syriaca:differentFrom-http://syriaca.org/person/2120">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1958"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2812"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2121">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2120"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2120#syriaca:differentFrom-http://syriaca.org/person/2121"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1958"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1958#syriaca:differentFrom-http://syriaca.org/person/2121"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2120#syriaca:differentFrom-http://syriaca.org/person/2121">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2120"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2812"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1958#syriaca:differentFrom-http://syriaca.org/person/2121">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1958"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2812"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1958">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2120"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2120#syriaca:differentFrom-http://syriaca.org/person/1958"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2121"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2121#syriaca:differentFrom-http://syriaca.org/person/1958"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2120#syriaca:differentFrom-http://syriaca.org/person/1958">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2120"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2812"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2121#syriaca:differentFrom-http://syriaca.org/person/1958">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/2121"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2812"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/2812/html">
         <dcterms:title xml:lang="syr">
@@ -137,6 +95,18 @@
         <dcterms:subject rdf:resource="http://syriaca.org/person/2812"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Nathan P. Gibson (eds.), "Theophilus — ܬܐܘܦܝܠܐ" in last modified August 17, 2016, http://syriaca.org/person/2812</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2812/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܬܐܘܦܝܠܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Theophilus 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2812"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Nathan P. Gibson (eds.), "Theophilus — ܬܐܘܦܝܠܐ" in last modified August 17, 2016, http://syriaca.org/person/2812</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

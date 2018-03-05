@@ -77,14 +77,13 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>Not the same as the Athenian philosopher Socrates (http://viaf.org/viaf/88039167)</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_849"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/55571017"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=S&amp;sK=Socrates Scholasticus&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="#person-849"/>
         <dcterms:relation rdf:resource="http://viaf.org/viaf/88039167"/>
-        <snap:has-bond rdf:resource="http://viaf.org/viaf/88039167#syriaca:differentFrom-#person-849"/>
-        <snap:has-bond rdf:resource="#person-849#syriaca:differentFrom-http://viaf.org/viaf/88039167"/>
+        <syriaca:differentFrom rdf:resource="http://viaf.org/viaf/88039167"/>
+        <syriaca:differentFrom rdf:resource="#person-849"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -100,22 +99,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/849/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/849/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/849/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-849">
-        <dcterms:relation rdf:resource="http://viaf.org/viaf/88039167"/>
-        <snap:has-bond rdf:resource="http://viaf.org/viaf/88039167#syriaca:differentFrom-#person-849"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://viaf.org/viaf/88039167#syriaca:differentFrom-#person-849">
-        <syriaca:differentFrom rdf:resource="http://viaf.org/viaf/88039167"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/849"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://viaf.org/viaf/88039167">
-        <dcterms:relation rdf:resource="#person-849"/>
-        <snap:has-bond rdf:resource="#person-849#syriaca:differentFrom-http://viaf.org/viaf/88039167"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-849#syriaca:differentFrom-http://viaf.org/viaf/88039167">
-        <syriaca:differentFrom rdf:resource="#person-849"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/849"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/849/html">
         <dcterms:title xml:lang="en">Socrates
@@ -163,6 +146,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Socrates Scholasticus — ܣܘܩܪܛܝܣ" in last modified August 17, 2016, http://syriaca.org/person/849</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/849/rdf">
+        <dcterms:title xml:lang="en">Socrates
+               Scholasticus</dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܣܘܩܪܛܝܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/849"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Socrates Scholasticus — ܣܘܩܪܛܝܣ" in last modified August 17, 2016, http://syriaca.org/person/849</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

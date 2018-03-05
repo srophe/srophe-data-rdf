@@ -15,13 +15,10 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description>Bishop after whom a monastery was named</dcterms:description>
-        <dcterms:description>This person is possibly identical
-                                                        with one or more persons represented in another
-                                                        record</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/3094"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/621"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/621#syriaca:possiblyIdentical-http://syriaca.org/person/3094"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3094#syriaca:possiblyIdentical-http://syriaca.org/person/621"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/621"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/3094"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/668"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/668"/>
@@ -34,22 +31,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/3094/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/3094/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/3094/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3094">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/621"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/621#syriaca:possiblyIdentical-http://syriaca.org/person/3094"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/621#syriaca:possiblyIdentical-http://syriaca.org/person/3094">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/621"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/3094"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/621">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3094"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3094#syriaca:possiblyIdentical-http://syriaca.org/person/621"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3094#syriaca:possiblyIdentical-http://syriaca.org/person/621">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/3094"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/3094"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/3094/html">
         <dcterms:title xml:lang="en">Maron</dcterms:title>
@@ -79,6 +60,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Maron — ܡܪܘܢ" in last modified August 17, 2016, http://syriaca.org/person/3094</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/3094/rdf">
+        <dcterms:title xml:lang="en">Maron</dcterms:title>
+        <dcterms:title xml:lang="syr">ܡܪܘܢ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/3094"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Maron — ܡܪܘܢ" in last modified August 17, 2016, http://syriaca.org/person/3094</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -2,17 +2,17 @@
     <rdf:Description rdf:about="http://syriaca.org/work/1048">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">Theodute of Amida (text)</rdfs:label>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/116"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/178"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/116"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
         <dcterms:relation rdf:resource="#bib1048-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1048"/>
         <dcterms:relation rdf:resource="#bib1048-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1048"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1048"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/785"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1048#lawd:embodies-#bib1048-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1048#lawd:embodies-#bib1048-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/785#syriaca:commemorated-http://syriaca.org/work/1048"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1048"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1048"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/785"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1967"/>
@@ -27,30 +27,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1048/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1048/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1048/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1048-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1048"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1048#lawd:embodies-#bib1048-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1048#lawd:embodies-#bib1048-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1048"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1048"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1048-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1048"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1048#lawd:embodies-#bib1048-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1048#lawd:embodies-#bib1048-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1048"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1048"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1048">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/785"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/785#syriaca:commemorated-http://syriaca.org/work/1048"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/785#syriaca:commemorated-http://syriaca.org/work/1048">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/785"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1048"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1048/html">
         <dcterms:title xml:lang="en">Theodute of Amida (text)</dcterms:title>
@@ -80,6 +56,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1141"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/851"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Theodute of Amida (text)" in last modified December 12, 2016, http://syriaca.org/work/1048</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1048/rdf">
+        <dcterms:title xml:lang="en">Theodute of Amida (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1048"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1967"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1141"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/851"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Theodute of Amida (text)" in last modified December 12, 2016, http://syriaca.org/work/1048</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

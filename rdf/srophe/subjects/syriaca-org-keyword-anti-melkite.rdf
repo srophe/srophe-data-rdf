@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/anti-melkite"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/anti-melkite"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/anti-melkite"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/anti-melkite/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/anti-melkite/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/anti-melkite/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/anti-melkite/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/anti-melkite/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/anti-melkite">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/anti-melkite"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/anti-melkite">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/anti-melkite"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/anti-melkite">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/anti-melkite"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/anti-melkite">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/anti-melkite"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/anti-melkite/html">
         <dcterms:title xml:lang="en">Anti-Melkite</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Anti-Melkite</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/anti-melkite"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Anti-Melkite" in last modified May 5, 2017, http://syriaca.org/keyword/anti-melkite</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/anti-melkite/rdf">
+        <dcterms:title xml:lang="en">Anti-Melkite</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/anti-melkite"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Anti-Melkite" in last modified May 5, 2017, http://syriaca.org/keyword/anti-melkite</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

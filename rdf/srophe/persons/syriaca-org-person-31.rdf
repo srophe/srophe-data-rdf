@@ -105,12 +105,11 @@
                     </dcterms:description>
         <dcterms:description>Disciple de Siméon le Stylite</dcterms:description>
         <dcterms:description>the Priest</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_31"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/744"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/744"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/31"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1454"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1454#syriaca:bornAt-http://syriaca.org/person/31"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1454"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -126,14 +125,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/31/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/31/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/31/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/31">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1454"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1454#syriaca:bornAt-http://syriaca.org/person/31"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1454#syriaca:bornAt-http://syriaca.org/person/31">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1454"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/31"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/31/html">
         <dcterms:title xml:lang="syr">
@@ -193,6 +184,26 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Cosmas, the priest — ܩܘܙܡܐ" in last modified August 17, 2016, http://syriaca.org/person/31</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/31/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܩܘܙܡܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en-x-gedsh">
+                         Cosmas 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Cosmas, the priest 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/31"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Cosmas, the priest — ܩܘܙܡܐ" in last modified August 17, 2016, http://syriaca.org/person/31</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

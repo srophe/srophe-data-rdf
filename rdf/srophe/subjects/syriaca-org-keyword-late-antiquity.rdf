@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://lccn.loc.gov/no97043630"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/late-antiquity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/late-antiquity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/late-antiquity/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/late-antiquity/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/late-antiquity/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/late-antiquity/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/late-antiquity/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/late-antiquity">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/late-antiquity"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/late-antiquity">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/late-antiquity"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/late-antiquity/html">
         <dcterms:title xml:lang="en">Late Antiquity</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Late Antiquity</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/late-antiquity"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Late Antiquity" in last modified May 5, 2017, http://syriaca.org/keyword/late-antiquity</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/late-antiquity/rdf">
+        <dcterms:title xml:lang="en">Late Antiquity</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/late-antiquity"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Late Antiquity" in last modified May 5, 2017, http://syriaca.org/keyword/late-antiquity</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

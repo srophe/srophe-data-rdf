@@ -15,7 +15,7 @@
         <dcterms:description>
                      Vers le Père, le Fils et l’Esprit Saint que tu as aimé faisons monter la louange au jour de te fête; que ta prière soit avec nous. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib1294-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1294"/>
         <dcterms:relation rdf:resource="#bib1294-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1294"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1294"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/744"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1294#lawd:embodies-#bib1294-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1294#lawd:embodies-#bib1294-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1294#lawd:embodies-#bib1294-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/744#syriaca:commemorated-http://syriaca.org/work/1294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1294"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1294"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/744"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -39,38 +39,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1294/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1294/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1294/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1294-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1294#lawd:embodies-#bib1294-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1294#lawd:embodies-#bib1294-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1294-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1294#lawd:embodies-#bib1294-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1294#lawd:embodies-#bib1294-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1294-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1294"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1294#lawd:embodies-#bib1294-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1294#lawd:embodies-#bib1294-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1294"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1294">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/744"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/744#syriaca:commemorated-http://syriaca.org/work/1294"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/744#syriaca:commemorated-http://syriaca.org/work/1294">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/744"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1294"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1294/html">
         <dcterms:title xml:lang="syr">ܫܡܥܘܢ ܕܐܣܛܘܢܗ</dcterms:title>
@@ -94,6 +62,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1294"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Simeon the Stylite (text) — ܫܡܥܘܢ ܕܐܣܛܘܢܗ" in last modified December 12, 2016, http://syriaca.org/work/1294</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1294/rdf">
+        <dcterms:title xml:lang="syr">ܫܡܥܘܢ ܕܐܣܛܘܢܗ</dcterms:title>
+        <dcterms:title xml:lang="en">Simeon the Stylite (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1294"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Simeon the Stylite (text) — ܫܡܥܘܢ ܕܐܣܛܘܢܗ" in last modified December 12, 2016, http://syriaca.org/work/1294</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Memory</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/memory"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/mental-states"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/mental-states#skos:broadMatch-http://syriaca.org/keyword/memory"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/mental-states"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/memory/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/memory/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/memory/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/memory/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/memory/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/memory">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/mental-states"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/mental-states#skos:broadMatch-http://syriaca.org/keyword/memory"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/mental-states#skos:broadMatch-http://syriaca.org/keyword/memory">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/mental-states"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/memory"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/memory/html">
         <dcterms:title xml:lang="en">Memory</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Memory</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/memory"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Memory" in last modified May 5, 2017, http://syriaca.org/keyword/memory</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/memory/rdf">
+        <dcterms:title xml:lang="en">Memory</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/memory"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Memory" in last modified May 5, 2017, http://syriaca.org/keyword/memory</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

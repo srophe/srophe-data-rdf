@@ -89,9 +89,6 @@
         </dcterms:description>
         <dcterms:description>Patriarch</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>This author died at a known location.</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_277"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Ignatius_Nuh_of_Lebanon"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/277"/>
@@ -101,10 +98,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/277"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/298"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/228"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/215#syriaca:diedAt-http://syriaca.org/person/277"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/459#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/277"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/298#syriaca:hasRelationToPlace-http://syriaca.org/person/277"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/228#syriaca:hasRelationToPlace-http://syriaca.org/person/277"/>
+        <syriaca:diedAt rdf:resource="http://syriaca.org/place/215"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/459"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/298"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/228"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/413"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -121,36 +118,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/277/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/277/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/277/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/277">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/215"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/215#syriaca:diedAt-http://syriaca.org/person/277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/215#syriaca:diedAt-http://syriaca.org/person/277">
-        <syriaca:diedAt rdf:resource="http://syriaca.org/place/215"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/277">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/459"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/459#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/459#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/277">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/459"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/277">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/298"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/298#syriaca:hasRelationToPlace-http://syriaca.org/person/277"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/228"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/228#syriaca:hasRelationToPlace-http://syriaca.org/person/277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/298#syriaca:hasRelationToPlace-http://syriaca.org/person/277">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/298"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/228#syriaca:hasRelationToPlace-http://syriaca.org/person/277">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/228"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/277"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/277/html">
         <dcterms:title xml:lang="en">
@@ -210,6 +177,26 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Nuh the Lebanese, patriarch — ܢܘܚ ܠܒܢܢܝܐ" in last modified August 17, 2016, http://syriaca.org/person/277</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/277/rdf">
+        <dcterms:title xml:lang="en">
+                         Nuh 
+                         the Lebanese ,  patriarch 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܢܘܚ 
+                         ܠܒܢܢܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/277"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/413"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Nuh the Lebanese, patriarch — ܢܘܚ ܠܒܢܢܝܐ" in last modified August 17, 2016, http://syriaca.org/person/277</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

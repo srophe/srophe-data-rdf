@@ -8,13 +8,13 @@
         <dcterms:description>
                      La Parole divine nous ordonne de bénir en tout temps le Seigneur et de chanter gloire au Seigneur à tout moment par notre bouche. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib1068-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1068"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1068"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1198"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1068#lawd:embodies-#bib1068-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1198#syriaca:commemorated-http://syriaca.org/work/1068"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1068"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1198"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -28,22 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1068/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1068/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1068/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1068-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1068"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1068#lawd:embodies-#bib1068-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1068#lawd:embodies-#bib1068-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1068"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1068"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1068">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1198"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1198#syriaca:commemorated-http://syriaca.org/work/1068"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1198#syriaca:commemorated-http://syriaca.org/work/1068">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1198"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1068"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1068/html">
         <dcterms:title xml:lang="en">Daniel of Galash (text)</dcterms:title>
@@ -70,6 +54,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/880"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1121"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Daniel of Galash (text)" in last modified December 12, 2016, http://syriaca.org/work/1068</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1068/rdf">
+        <dcterms:title xml:lang="en">Daniel of Galash (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1068"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/880"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1121"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Daniel of Galash (text)" in last modified December 12, 2016, http://syriaca.org/work/1068</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

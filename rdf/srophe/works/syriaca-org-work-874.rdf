@@ -21,7 +21,7 @@
         <dcterms:description>
                      Il ne se trompera pas parce que lui aussi a gardé tout cela. Voilà les actions glorieuses du saint, car ce n’est pas notre but de les raconter toutes ici. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/367"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/367"/>
         <dcterms:relation rdf:resource="#bib874-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/874"/>
         <dcterms:relation rdf:resource="#bib874-4"/>
@@ -30,10 +30,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/874"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/874"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/513"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/874#lawd:embodies-#bib874-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/874#lawd:embodies-#bib874-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/874#lawd:embodies-#bib874-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/513#syriaca:commemorated-http://syriaca.org/work/874"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/874"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/874"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/874"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/513"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1935"/>
@@ -48,38 +48,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/874/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/874/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/874/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib874-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/874"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/874#lawd:embodies-#bib874-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/874#lawd:embodies-#bib874-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/874"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/874"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib874-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/874"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/874#lawd:embodies-#bib874-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/874#lawd:embodies-#bib874-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/874"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/874"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib874-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/874"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/874#lawd:embodies-#bib874-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/874#lawd:embodies-#bib874-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/874"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/874"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/874">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/513"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/513#syriaca:commemorated-http://syriaca.org/work/874"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/513#syriaca:commemorated-http://syriaca.org/work/874">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/513"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/874"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/874/html">
         <dcterms:title xml:lang="syr">ܓܪܝܓܪܝܘܣ</dcterms:title>
@@ -112,6 +80,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/810"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Gregory the Wonderworker (text) — ܓܪܝܓܪܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/874</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/874/rdf">
+        <dcterms:title xml:lang="syr">ܓܪܝܓܪܝܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Gregory the Wonderworker (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/874"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1935"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1935"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/810"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Gregory the Wonderworker (text) — ܓܪܝܓܪܝܘܣ" in last modified December 12, 2016, http://syriaca.org/work/874</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

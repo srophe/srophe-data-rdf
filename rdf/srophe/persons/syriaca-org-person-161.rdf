@@ -107,19 +107,18 @@
         </dcterms:description>
         <dcterms:description>Metropolitan of Dara</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_161"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/48370261"/>
         <skos:closeMatch rdf:resource="http://worldcat.org/identities/lccn-n89-614859"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/32931212"/>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/242513861"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=J&amp;sK=John of Dara&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/67"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/67"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/161"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/69"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/67#syriaca:hasRelationToPlace-http://syriaca.org/person/161"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/67"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/304"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -139,20 +138,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/161/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/161/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/161/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/161">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/69"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/161"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/67"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/67#syriaca:hasRelationToPlace-http://syriaca.org/person/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/161">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/67#syriaca:hasRelationToPlace-http://syriaca.org/person/161">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/67"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/161"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/161/html">
         <dcterms:title xml:lang="en">
@@ -221,6 +206,29 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John, metropolitan of Dara — ܐܝܘܐܢܝܣ ܕܕܪܐ" in last modified August 17, 2016, http://syriaca.org/person/161</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/161/rdf">
+        <dcterms:title xml:lang="en">
+                         John ,  metropolitan of  Dara 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܝܘܐܢܝܣ 
+                         ܕܕܪܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/161"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/304"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1700"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/645"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John, metropolitan of Dara — ܐܝܘܐܢܝܣ ܕܕܪܐ" in last modified August 17, 2016, http://syriaca.org/person/161</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

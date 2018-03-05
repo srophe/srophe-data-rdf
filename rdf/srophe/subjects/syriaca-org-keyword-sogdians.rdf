@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethnicity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/sogdians"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/sogdians"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/sogdians"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethnicity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sogdians/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sogdians/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sogdians/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sogdians/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sogdians/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sogdians">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/sogdians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethnicity#skos:broadMatch-http://syriaca.org/keyword/sogdians">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethnicity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sogdians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sogdians">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/sogdians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/institutions#skos:broadMatch-http://syriaca.org/keyword/sogdians">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/institutions"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sogdians"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/sogdians/html">
         <dcterms:title xml:lang="en">Sogdians</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Sogdians</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/sogdians"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sogdians" in last modified May 5, 2017, http://syriaca.org/keyword/sogdians</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/sogdians/rdf">
+        <dcterms:title xml:lang="en">Sogdians</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/sogdians"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sogdians" in last modified May 5, 2017, http://syriaca.org/keyword/sogdians</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

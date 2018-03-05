@@ -107,19 +107,17 @@
         <dcterms:description>In hagiography: Severus II Bar Mashqa is commemorated as a monk from the convent of  Asphulos (also known as Dayro da-Pgimto) . He had correspondence and tensions over ordination rights with  John the Persian  which were not resolved until Severus' successor, Athanasius.</dcterms:description>
         <dcterms:description>Patriarch</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_106"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=S&amp;sK=Severus bar Mashqa&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/338                             "/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/338"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/982"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/338                             "/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/338"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/982"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/106"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/106"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/338"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/106"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/338#syriaca:hasRelationToPlace-http://syriaca.org/person/106"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/227"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/338"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/496"/>
@@ -141,22 +139,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/106/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/106/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/106/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/106">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/106"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/227#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/106">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/106"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/106">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/338"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/338#syriaca:hasRelationToPlace-http://syriaca.org/person/106"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/338#syriaca:hasRelationToPlace-http://syriaca.org/person/106">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/338"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/106"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/106/html">
         <dcterms:title xml:lang="syr">
@@ -228,6 +210,30 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Severus bar Mashqo — ܣܘܝܪܐ ܕܬܪܝܢ" in last modified August 17, 2016, http://syriaca.org/person/106</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/106/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܣܘܝܪܐ 
+                         ܕܬܪܝܢ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Severus 
+                         bar Mashqo 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/106"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/496"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1386"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1316"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1368"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Severus bar Mashqo — ܣܘܝܪܐ ܕܬܪܝܢ" in last modified August 17, 2016, http://syriaca.org/person/106</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

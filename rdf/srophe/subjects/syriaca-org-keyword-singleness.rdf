@@ -8,9 +8,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/singleness"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/singleness"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/singleness"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/singleness"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/singleness/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/singleness/tei"/>
@@ -20,30 +20,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/singleness/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/singleness/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/singleness/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/singleness">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/singleness"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/singleness">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/singleness"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/singleness">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/singleness"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/singleness">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/singleness"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/singleness">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/singleness"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/singleness">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/singleness"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/singleness/html">
         <dcterms:title xml:lang="en">Singleness</dcterms:title>
@@ -61,6 +37,12 @@
         <dcterms:title xml:lang="en">Singleness</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/singleness"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Singleness" in last modified May 5, 2017, http://syriaca.org/keyword/singleness</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/singleness/rdf">
+        <dcterms:title xml:lang="en">Singleness</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/singleness"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Singleness" in last modified May 5, 2017, http://syriaca.org/keyword/singleness</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

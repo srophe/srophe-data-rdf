@@ -21,8 +21,8 @@
         <dcterms:description>
                      Et on lui donna un nom qui ne passe pas, martyr couronné; que ses prières soient sur nous tous, amen et amen. Telles sont donc les moeurs admirables, louables, remarquables et sulimes de ce martyr couronné qui s’est illustré dans ses combats, ô amis de la vérité… Et que la pitié et la miséricorde soient sur toutes ses créatures, et surtout sur tout ce peuple aujoud’hui rassemblé pour honorer ce saint martyr Mâr Georges, par la grâce… Amen et amen. Priez pour celui qui a écrit. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/359"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/100"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/359"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/100"/>
         <dcterms:relation rdf:resource="#bib901-5"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/901"/>
         <dcterms:relation rdf:resource="#bib901-6"/>
@@ -31,10 +31,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/901"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/901"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1250"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/901#lawd:embodies-#bib901-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/901#lawd:embodies-#bib901-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/901#lawd:embodies-#bib901-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1250#syriaca:commemorated-http://syriaca.org/work/901"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/901"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/901"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/901"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1250"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1698"/>
@@ -51,38 +51,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/901/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/901/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/901/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib901-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/901#lawd:embodies-#bib901-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/901#lawd:embodies-#bib901-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/901"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/901"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib901-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/901#lawd:embodies-#bib901-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/901#lawd:embodies-#bib901-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/901"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/901"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib901-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/901"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/901#lawd:embodies-#bib901-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/901#lawd:embodies-#bib901-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/901"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/901"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/901">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1250"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1250#syriaca:commemorated-http://syriaca.org/work/901"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1250#syriaca:commemorated-http://syriaca.org/work/901">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1250"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/901"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/901/html">
         <dcterms:title xml:lang="syr">ܓܝܘܪܓܝܣ</dcterms:title>
@@ -121,6 +89,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/780"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "George the Priest (text) — ܓܝܘܪܓܝܣ" in last modified December 12, 2016, http://syriaca.org/work/901</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/901/rdf">
+        <dcterms:title xml:lang="syr">ܓܝܘܪܓܝܣ</dcterms:title>
+        <dcterms:title xml:lang="en">George the Priest (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/901"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1698"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1747"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/779"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/780"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "George the Priest (text) — ܓܝܘܪܓܝܣ" in last modified December 12, 2016, http://syriaca.org/work/901</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

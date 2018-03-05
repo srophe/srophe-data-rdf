@@ -10,10 +10,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1731"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1731"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1528"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1731#lawd:embodies-#bib1731-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1731#lawd:embodies-#bib1731-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1731#lawd:embodies-#bib1731-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1528#syriaca:commemorated-http://syriaca.org/work/1731"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1731"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1731"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1731"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1528"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -25,38 +25,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1731/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1731/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1731/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1731-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1731"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1731#lawd:embodies-#bib1731-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1731#lawd:embodies-#bib1731-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1731"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1731"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1731-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1731"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1731#lawd:embodies-#bib1731-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1731#lawd:embodies-#bib1731-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1731"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1731"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1731-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1731"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1731#lawd:embodies-#bib1731-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1731#lawd:embodies-#bib1731-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1731"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1731"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1731">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1528"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1528#syriaca:commemorated-http://syriaca.org/work/1731"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1528#syriaca:commemorated-http://syriaca.org/work/1731">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1528"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1731"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1731/html">
         <dcterms:title xml:lang="en">Cyriaque (text)</dcterms:title>
@@ -77,6 +45,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1731"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Cyriaque (text)" in last modified December 12, 2016, http://syriaca.org/work/1731</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1731/rdf">
+        <dcterms:title xml:lang="en">Cyriaque (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1731"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Cyriaque (text)" in last modified December 12, 2016, http://syriaca.org/work/1731</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -11,10 +11,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/mosaics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/techne"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/techne#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/art"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/techne"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/mosaics/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/mosaics/tei"/>
@@ -24,38 +24,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/mosaics/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/mosaics/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/mosaics/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/mosaics">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/art"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/mosaics">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/art"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/mosaics">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/mosaics">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/mosaics">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/mosaics">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/mosaics">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/techne"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/techne#skos:broadMatch-http://syriaca.org/keyword/mosaics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/techne#skos:broadMatch-http://syriaca.org/keyword/mosaics">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/techne"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/mosaics"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/mosaics/html">
         <dcterms:title xml:lang="en">Mosaics</dcterms:title>
@@ -73,6 +41,12 @@
         <dcterms:title xml:lang="en">Mosaics</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/mosaics"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Mosaics" in last modified May 5, 2017, http://syriaca.org/keyword/mosaics</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/mosaics/rdf">
+        <dcterms:title xml:lang="en">Mosaics</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/mosaics"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Mosaics" in last modified May 5, 2017, http://syriaca.org/keyword/mosaics</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

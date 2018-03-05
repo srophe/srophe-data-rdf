@@ -91,10 +91,8 @@
         </dcterms:description>
         <dcterms:description>Metropolitan of Jerusalem</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_281"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/2321"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/2321"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/281"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/281"/>
@@ -104,13 +102,13 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/66"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/203"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/18#syriaca:bornAt-http://syriaca.org/person/281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/215#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/66#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/203#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/18"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/104"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/215"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/66"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/203"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/130"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/249"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -125,52 +123,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/281/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/281/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/281/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/281">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/18"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/18#syriaca:bornAt-http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/18#syriaca:bornAt-http://syriaca.org/person/281">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/18"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/281">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/69"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/104"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/215"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/215#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/66"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/66#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/203"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/203#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/281">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/104#syriaca:hasRelationToPlace-http://syriaca.org/person/281">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/104"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/215#syriaca:hasRelationToPlace-http://syriaca.org/person/281">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/215"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/66#syriaca:hasRelationToPlace-http://syriaca.org/person/281">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/66"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/203#syriaca:hasRelationToPlace-http://syriaca.org/person/281">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/203"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/281">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/130"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/281"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/281/html">
         <dcterms:title xml:lang="en">
@@ -221,6 +173,23 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Gregorius Joseph, metropolitan of Jerusalem — ܝܘܣܦ ܐܝܒܪܝܐ" in last modified August 17, 2016, http://syriaca.org/person/281</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/281/rdf">
+        <dcterms:title xml:lang="en">
+                         Gregorius Joseph ,  metropolitan of Jerusalem 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܝܘܣܦ 
+                         ܐܝܒܪܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/281"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/249"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Gregorius Joseph, metropolitan of Jerusalem — ܝܘܣܦ ܐܝܒܪܝܐ" in last modified August 17, 2016, http://syriaca.org/person/281</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

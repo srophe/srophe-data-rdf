@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/324"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/324"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1108"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/324#lawd:embodies-#bib324-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/324#lawd:embodies-#bib324-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/324#lawd:embodies-#bib324-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1108#syriaca:commemorated-http://syriaca.org/work/324"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/324"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/324"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/324"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1108"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -44,38 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/324/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/324/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/324/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib324-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/324"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/324#lawd:embodies-#bib324-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/324#lawd:embodies-#bib324-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/324"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/324"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib324-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/324"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/324#lawd:embodies-#bib324-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/324#lawd:embodies-#bib324-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/324"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/324"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib324-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/324"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/324#lawd:embodies-#bib324-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/324#lawd:embodies-#bib324-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/324"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/324"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/324">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1108"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1108#syriaca:commemorated-http://syriaca.org/work/324"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1108#syriaca:commemorated-http://syriaca.org/work/324">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1108"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/324"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/324/html">
         <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
@@ -117,6 +85,20 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/910"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham, Bishop of Arbela (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/324</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/324/rdf">
+        <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
+        <dcterms:title xml:lang="en">Abraham, Bishop of Arbela (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/324"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2078"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/909"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/723"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/910"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham, Bishop of Arbela (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/324</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

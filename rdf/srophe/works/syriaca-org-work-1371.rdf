@@ -14,7 +14,7 @@
         <dcterms:description>
                      Ces saints subirent le martyre au temps de Dioclétien, empereur des Grecs, qui était un infidèle parmi les païens sans Dieu. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/1577"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/1577"/>
         <dcterms:relation rdf:resource="#bib1371-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1371"/>
         <dcterms:relation rdf:resource="#bib1371-4"/>
@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1371"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1371"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1904"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1371#lawd:embodies-#bib1371-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1371#lawd:embodies-#bib1371-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1371#lawd:embodies-#bib1371-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1904#syriaca:commemorated-http://syriaca.org/work/1371"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1371"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1371"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1371"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1904"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2081"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1371/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1371/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1371/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1371-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1371"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1371#lawd:embodies-#bib1371-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1371#lawd:embodies-#bib1371-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1371"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1371"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1371-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1371"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1371#lawd:embodies-#bib1371-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1371#lawd:embodies-#bib1371-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1371"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1371"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1371-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1371"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1371#lawd:embodies-#bib1371-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1371#lawd:embodies-#bib1371-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1371"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1371"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1371">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1904"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1904#syriaca:commemorated-http://syriaca.org/work/1371"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1904#syriaca:commemorated-http://syriaca.org/work/1371">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1904"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1371"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1371/html">
         <dcterms:title xml:lang="en">The Forty Martyrs of Sinai (text)</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1086"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Forty Martyrs of Sinai (text)" in last modified December 12, 2016, http://syriaca.org/work/1371</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1371/rdf">
+        <dcterms:title xml:lang="en">The Forty Martyrs of Sinai (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1371"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1086"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Forty Martyrs of Sinai (text)" in last modified December 12, 2016, http://syriaca.org/work/1371</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://lccn.loc.gov/sh85087066"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/months"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/months"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/months/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/months/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/months/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/months/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/months/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/months">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/months"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/months">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/months"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/months/html">
         <dcterms:title xml:lang="en">Months</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Months</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/months"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Months" in last modified May 5, 2017, http://syriaca.org/keyword/months</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/months/rdf">
+        <dcterms:title xml:lang="en">Months</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/months"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Months" in last modified May 5, 2017, http://syriaca.org/keyword/months</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

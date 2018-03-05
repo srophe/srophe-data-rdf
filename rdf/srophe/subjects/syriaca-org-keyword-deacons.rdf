@@ -11,10 +11,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/deacons"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/persons"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/persons"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/deacons/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/deacons/tei"/>
@@ -24,38 +24,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/deacons/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/deacons/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/deacons/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/deacons">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/administration"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/deacons">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/deacons">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/deacons">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/deacons">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/deacons">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/deacons">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/persons"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/deacons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/deacons">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/persons"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/deacons"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/deacons/html">
         <dcterms:title xml:lang="en">Deacons</dcterms:title>
@@ -73,6 +41,12 @@
         <dcterms:title xml:lang="en">Deacons</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/deacons"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Deacons" in last modified May 5, 2017, http://syriaca.org/keyword/deacons</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/deacons/rdf">
+        <dcterms:title xml:lang="en">Deacons</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/deacons"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Deacons" in last modified May 5, 2017, http://syriaca.org/keyword/deacons</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

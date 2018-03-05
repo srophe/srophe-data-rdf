@@ -63,9 +63,6 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has a literary connection to places.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_206"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/206"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/435"/>
@@ -78,14 +75,14 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/122"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/333"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/435#syriaca:bornAt-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/14#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/224#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/698#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/122#syriaca:hasRelationToPlace-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/333#syriaca:hasRelationToPlace-http://syriaca.org/person/206"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/206"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/435"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/14"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/224"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/698"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/130"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/122"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/333"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -99,60 +96,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/206/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/206/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/206/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/206">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/435"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/435#syriaca:bornAt-http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/435#syriaca:bornAt-http://syriaca.org/person/206">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/435"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/206">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/14"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/14#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/224"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/224#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/698"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/698#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/14#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/14"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/224#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/224"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/698#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/698"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/130#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/206">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/130"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/206">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/122"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/122#syriaca:hasRelationToPlace-http://syriaca.org/person/206"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/333"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/333#syriaca:hasRelationToPlace-http://syriaca.org/person/206"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/122#syriaca:hasRelationToPlace-http://syriaca.org/person/206">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/122"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/333#syriaca:hasRelationToPlace-http://syriaca.org/person/206">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/333"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/206">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/206"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/206/html">
         <dcterms:title xml:lang="syr">
@@ -191,6 +134,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John bar Andrawos — ܝܘܚܢܢ ܒܪ ܐܢܕܪܐܘܣ" in last modified August 17, 2016, http://syriaca.org/person/206</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/206/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܝܘܚܢܢ 
+                         ܒܪ ܐܢܕܪܐܘܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/206"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "John bar Andrawos — ܝܘܚܢܢ ܒܪ ܐܢܕܪܐܘܣ" in last modified August 17, 2016, http://syriaca.org/person/206</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -98,12 +98,11 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>Ch. of E.</dcterms:description>
-        <dcterms:description>Not the same as Shaliṭa, Mar (http://syriaca.org/person/733)</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_734"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/734"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/733"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/733#syriaca:differentFrom-http://syriaca.org/person/734"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/734#syriaca:differentFrom-http://syriaca.org/person/733"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/733"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/734"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/502"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/6"/>
@@ -118,22 +117,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/734/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/734/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/734/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/734">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/733"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/733#syriaca:differentFrom-http://syriaca.org/person/734"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/733#syriaca:differentFrom-http://syriaca.org/person/734">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/733"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/734"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/733">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/734"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/734#syriaca:differentFrom-http://syriaca.org/person/733"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/734#syriaca:differentFrom-http://syriaca.org/person/733">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/734"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/734"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/734/html">
         <dcterms:title xml:lang="en">
@@ -199,6 +182,28 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Shalita of Reshʿayna — ܫܠܝܛܐ ܕܪܫܥܝܢܐ" in last modified December 9, 2016, http://syriaca.org/person/734</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/734/rdf">
+        <dcterms:title xml:lang="en">
+                         Shalita 
+                         of Reshʿayna 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en-x-gedsh">
+                         Shalliṭa 
+                         of Reshʿayna 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܫܠܝܛܐ 
+                         ܕܪܫܥܝܢܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/734"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/502"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Shalita of Reshʿayna — ܫܠܝܛܐ ܕܪܫܥܝܢܐ" in last modified December 9, 2016, http://syriaca.org/person/734</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

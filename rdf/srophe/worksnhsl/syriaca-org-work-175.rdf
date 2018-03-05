@@ -6,8 +6,8 @@
         <dcterms:description>
                              part 3 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib175-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/175"/>
         <dcterms:relation rdf:resource="#bib175-1"/>
@@ -18,11 +18,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9662"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/175"/>
         <dcterms:relation rdf:resource="http://syriaca.org/manuscript/99#p2a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/175#lawd:embodies-#bib175-3"/>
-        <snap:has-bond rdf:resource="#bib175-2#dcterms:source-#bib175-1"/>
-        <snap:has-bond rdf:resource="#bib175-2#lawd:hasCitation-http://syriaca.org/manuscript/99"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9662#skos:broadMatch-http://syriaca.org/work/175"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/99#p2a1#dcterms:isPartOf-http://syriaca.org/work/175"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/175"/>
+        <dcterms:source rdf:resource="#bib175-2"/>
+        <lawd:hasCitation rdf:resource="#bib175-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9662"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/99#p2a1"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/99"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/99"/>
@@ -35,46 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/175/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/175/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/175/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib175-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/175"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/175#lawd:embodies-#bib175-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/175#lawd:embodies-#bib175-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/175"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/175"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib175-1">
-        <dcterms:relation rdf:resource="#bib175-2"/>
-        <snap:has-bond rdf:resource="#bib175-2#dcterms:source-#bib175-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib175-2#dcterms:source-#bib175-1">
-        <dcterms:source rdf:resource="#bib175-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/175"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/99">
-        <dcterms:relation rdf:resource="#bib175-2"/>
-        <snap:has-bond rdf:resource="#bib175-2#lawd:hasCitation-http://syriaca.org/manuscript/99"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib175-2#lawd:hasCitation-http://syriaca.org/manuscript/99">
-        <lawd:hasCitation rdf:resource="#bib175-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/175"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/175">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9662"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9662#skos:broadMatch-http://syriaca.org/work/175"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9662#skos:broadMatch-http://syriaca.org/work/175">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9662"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/175"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/175">
-        <dcterms:relation rdf:resource="http://syriaca.org/manuscript/99#p2a1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/manuscript/99#p2a1#dcterms:isPartOf-http://syriaca.org/work/175"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/99#p2a1#dcterms:isPartOf-http://syriaca.org/work/175">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/manuscript/99#p2a1"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/175"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/175/html">
         <dcterms:title xml:lang="en">1 Kings (Aquila)</dcterms:title>

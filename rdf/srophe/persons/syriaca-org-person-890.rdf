@@ -76,12 +76,11 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author is possibly identical with the author represented in another record</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_890"/>
         <dcterms:relation rdf:resource="#person-890"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1010"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1010#syriaca:possiblyIdentical-#person-890"/>
-        <snap:has-bond rdf:resource="#person-890#syriaca:possiblyIdentical-http://syriaca.org/person/1010"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/1010"/>
+        <syriaca:possiblyIdentical rdf:resource="#person-890"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/6"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/7"/>
@@ -93,22 +92,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/890/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/890/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/890/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-890">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1010"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1010#syriaca:possiblyIdentical-#person-890"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1010#syriaca:possiblyIdentical-#person-890">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/1010"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/890"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1010">
-        <dcterms:relation rdf:resource="#person-890"/>
-        <snap:has-bond rdf:resource="#person-890#syriaca:possiblyIdentical-http://syriaca.org/person/1010"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-890#syriaca:possiblyIdentical-http://syriaca.org/person/1010">
-        <syriaca:possiblyIdentical rdf:resource="#person-890"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/890"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/890/html">
         <dcterms:title xml:lang="en">
@@ -165,6 +148,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "ʿAbdishoʿ bar ʿEqarbe — ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܒܐ" in last modified December 9, 2016, http://syriaca.org/person/890</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/890/rdf">
+        <dcterms:title xml:lang="en">
+                         ʿAbdishoʿ 
+                         bar ʿEqarbe 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܥܒܕܝܫܘܥ 
+                         ܒܪ ܥܩܪ̈ܒܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en-x-gedsh">
+                         ʿAbdishoʿ 
+                         bar ʿEqarbe 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/890"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/6"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/7"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "ʿAbdishoʿ bar ʿEqarbe — ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܒܐ" in last modified December 9, 2016, http://syriaca.org/person/890</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

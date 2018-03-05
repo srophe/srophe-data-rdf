@@ -15,7 +15,7 @@
         <dcterms:description>
                      Béni soit celui qui a élevé la paire de colonnes dans le corps temple de l’Esprit Saint. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib590-2"/>
         <dcterms:relation rdf:resource="#bib590-4"/>
         <dcterms:relation rdf:resource="#bib590-2"/>
@@ -37,17 +37,17 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/834"/>
-        <snap:has-bond rdf:resource="#bib590-4#dcterms:source-#bib590-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-2"/>
-        <snap:has-bond rdf:resource="#bib590-5#dcterms:source-#bib590-3"/>
-        <snap:has-bond rdf:resource="bib590-8#dcterms:source-#bib590-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/834#syriaca:commemorated-http://syriaca.org/work/590"/>
+        <dcterms:source rdf:resource="#bib590-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <dcterms:source rdf:resource="#bib590-5"/>
+        <dcterms:source rdf:resource="bib590-8"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/834"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1801"/>
@@ -63,92 +63,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/590/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/590/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/590/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-2">
-        <dcterms:relation rdf:resource="#bib590-4"/>
-        <snap:has-bond rdf:resource="#bib590-4#dcterms:source-#bib590-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-4#dcterms:source-#bib590-2">
-        <dcterms:source rdf:resource="#bib590-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-3">
-        <dcterms:relation rdf:resource="#bib590-5"/>
-        <snap:has-bond rdf:resource="#bib590-5#dcterms:source-#bib590-3"/>
-        <dcterms:relation rdf:resource="bib590-8"/>
-        <snap:has-bond rdf:resource="bib590-8#dcterms:source-#bib590-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-5#dcterms:source-#bib590-3">
-        <dcterms:source rdf:resource="#bib590-5"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="bib590-8#dcterms:source-#bib590-3">
-        <dcterms:source rdf:resource="bib590-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib590-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/590"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/590#lawd:embodies-#bib590-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590#lawd:embodies-#bib590-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/590"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/590">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/834"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/834#syriaca:commemorated-http://syriaca.org/work/590"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/834#syriaca:commemorated-http://syriaca.org/work/590">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/834"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/590"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/590/html">
         <dcterms:title xml:lang="syr">ܝܘܠܝܢܐ ܣܒܐ</dcterms:title>
@@ -184,6 +98,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2086"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Julian Saba (text) — ܝܘܠܝܢܐ ܣܒܐ" in last modified December 12, 2016, http://syriaca.org/work/590</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/590/rdf">
+        <dcterms:title xml:lang="syr">ܝܘܠܝܢܐ ܣܒܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Julian Saba (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/590"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1801"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2086"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Julian Saba (text) — ܝܘܠܝܢܐ ܣܒܐ" in last modified December 12, 2016, http://syriaca.org/work/590</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -8,7 +8,7 @@
                     to a more specific work.</dcterms:description>
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib217-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/217"/>
         <dcterms:relation rdf:resource="#bib217-1"/>
@@ -17,10 +17,10 @@
         <dcterms:relation rdf:resource="#bib217-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/217"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9687"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/217#lawd:embodies-#bib217-3"/>
-        <snap:has-bond rdf:resource="#bib217-2#dcterms:source-#bib217-1"/>
-        <snap:has-bond rdf:resource="#bib217-2#lawd:hasCitation-http://syriaca.org/manuscript/994"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9687#skos:broadMatch-http://syriaca.org/work/217"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/217"/>
+        <dcterms:source rdf:resource="#bib217-2"/>
+        <lawd:hasCitation rdf:resource="#bib217-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9687"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/217"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9687"/>
@@ -35,38 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/217/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/217/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/217/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib217-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/217"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/217#lawd:embodies-#bib217-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/217#lawd:embodies-#bib217-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/217"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/217"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib217-1">
-        <dcterms:relation rdf:resource="#bib217-2"/>
-        <snap:has-bond rdf:resource="#bib217-2#dcterms:source-#bib217-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib217-2#dcterms:source-#bib217-1">
-        <dcterms:source rdf:resource="#bib217-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/217"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/994">
-        <dcterms:relation rdf:resource="#bib217-2"/>
-        <snap:has-bond rdf:resource="#bib217-2#lawd:hasCitation-http://syriaca.org/manuscript/994"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib217-2#lawd:hasCitation-http://syriaca.org/manuscript/994">
-        <lawd:hasCitation rdf:resource="#bib217-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/217"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/217">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9687"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9687#skos:broadMatch-http://syriaca.org/work/217"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9687#skos:broadMatch-http://syriaca.org/work/217">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9687"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/217"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/217/html">
         <dcterms:title xml:lang="en">Matthew and Mark, Arabic (literary tradition)</dcterms:title>

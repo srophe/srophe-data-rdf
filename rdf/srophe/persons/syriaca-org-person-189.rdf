@@ -88,17 +88,15 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_189"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/189"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/41"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/189"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/139"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/336"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/41#syriaca:bornAt-http://syriaca.org/person/189"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/139#syriaca:hasRelationToPlace-http://syriaca.org/person/189"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/336#syriaca:hasRelationToPlace-http://syriaca.org/person/189"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/41"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/139"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/336"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -114,28 +112,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/189/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/189/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/189/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/189">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/41"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/41#syriaca:bornAt-http://syriaca.org/person/189"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/41#syriaca:bornAt-http://syriaca.org/person/189">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/41"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/189"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/189">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/139#syriaca:hasRelationToPlace-http://syriaca.org/person/189"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/336"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/336#syriaca:hasRelationToPlace-http://syriaca.org/person/189"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/139#syriaca:hasRelationToPlace-http://syriaca.org/person/189">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/139"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/189"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/336#syriaca:hasRelationToPlace-http://syriaca.org/person/189">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/336"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/189"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/189/html">
         <dcterms:title xml:lang="en">
@@ -192,6 +168,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius bar Qiqi — ܐܝܓܢܐܛܝܘܣ ܒܪ ܩܝܩܝ" in last modified August 17, 2016, http://syriaca.org/person/189</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/189/rdf">
+        <dcterms:title xml:lang="en">
+                         Ignatius 
+                         bar Qiqi 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܝܓܢܐܛܝܘܣ 
+                         ܒܪ ܩܝܩܝ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/189"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/640"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius bar Qiqi — ܐܝܓܢܐܛܝܘܣ ܒܪ ܩܝܩܝ" in last modified August 17, 2016, http://syriaca.org/person/189</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

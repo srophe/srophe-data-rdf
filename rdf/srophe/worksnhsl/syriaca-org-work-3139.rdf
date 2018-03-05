@@ -6,16 +6,16 @@
         <dcterms:description>
                       part 9.27 
                   </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3139-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3139"/>
         <dcterms:relation rdf:resource="#bib3139-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3139"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3139"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3139#lawd:embodies-#bib3139-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3139#lawd:embodies-#bib3139-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3139"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3139"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3139"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/671"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/671"/>
@@ -28,30 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3139/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3139/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3139/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3139-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3139#lawd:embodies-#bib3139-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3139#lawd:embodies-#bib3139-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3139"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3139"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3139-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3139#lawd:embodies-#bib3139-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3139#lawd:embodies-#bib3139-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3139"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3139"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3139">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3139"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3139">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3139"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3139/html">
         <dcterms:title xml:lang="en">To Thomas, Bishop of Germanicea</dcterms:title>

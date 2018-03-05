@@ -11,10 +11,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ritual"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/purim"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/purim"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/judaism"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ritual"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/purim/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/purim/tei"/>
@@ -24,38 +24,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/purim/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/purim/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/purim/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/purim">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/events"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/events#skos:broadMatch-http://syriaca.org/keyword/purim">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/events"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/purim">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/judaism"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/purim">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/judaism"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/purim">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ritual"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ritual#skos:broadMatch-http://syriaca.org/keyword/purim">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ritual"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/purim">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/time"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/purim"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/time#skos:broadMatch-http://syriaca.org/keyword/purim">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/time"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/purim"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/purim/html">
         <dcterms:title xml:lang="en">Purim</dcterms:title>
@@ -73,6 +41,12 @@
         <dcterms:title xml:lang="en">Purim</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/purim"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Purim" in last modified May 5, 2017, http://syriaca.org/keyword/purim</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/purim/rdf">
+        <dcterms:title xml:lang="en">Purim</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/purim"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Purim" in last modified May 5, 2017, http://syriaca.org/keyword/purim</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

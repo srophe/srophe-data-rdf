@@ -15,7 +15,7 @@
         <dcterms:description>
                      Mais tout d’abord il nous faut dire comment fut l’enseignement de cette sainte martyre qui, quand elle était païenne, s’appelait Yazdouy, et qui, dans sa nouvelle naissance de l’adoption gage de vie, choisit de s’appeler Christine, dénomination qui ne passe pas. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/359"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/359"/>
         <dcterms:relation rdf:resource="#bib336-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/336"/>
         <dcterms:relation rdf:resource="#bib336-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/336"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/336"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1183"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/336#lawd:embodies-#bib336-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/336#lawd:embodies-#bib336-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/336#lawd:embodies-#bib336-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1183#syriaca:commemorated-http://syriaca.org/work/336"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/336"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/336"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/336"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1183"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/336/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/336/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/336/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib336-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/336"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/336#lawd:embodies-#bib336-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/336#lawd:embodies-#bib336-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/336"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/336"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib336-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/336"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/336#lawd:embodies-#bib336-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/336#lawd:embodies-#bib336-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/336"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/336"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib336-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/336"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/336#lawd:embodies-#bib336-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/336#lawd:embodies-#bib336-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/336"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/336"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/336">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1183"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1183#syriaca:commemorated-http://syriaca.org/work/336"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1183#syriaca:commemorated-http://syriaca.org/work/336">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1183"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/336"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/336/html">
         <dcterms:title xml:lang="syr">ܟܪܣܛܝܢܐ ܝܙܕܘܝ</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2078"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Christine Yazdouy (text) — ܟܪܣܛܝܢܐ ܝܙܕܘܝ" in last modified December 12, 2016, http://syriaca.org/work/336</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/336/rdf">
+        <dcterms:title xml:lang="syr">ܟܪܣܛܝܢܐ ܝܙܕܘܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Christine Yazdouy (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/336"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2078"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Christine Yazdouy (text) — ܟܪܣܛܝܢܐ ܝܙܕܘܝ" in last modified December 12, 2016, http://syriaca.org/work/336</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

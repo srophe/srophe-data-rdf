@@ -15,7 +15,7 @@
         <dcterms:description>
                      Que te soient soumises les hauteurs, les profondeurs, et tout ce qui est en elles, toi qui es les prémices de la divinité, béni soit celui qui t’a envoyé. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib955-5"/>
         <dcterms:relation rdf:resource="#bib955-7"/>
         <dcterms:relation rdf:resource="#bib955-5"/>
@@ -34,15 +34,15 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2123"/>
-        <snap:has-bond rdf:resource="#bib955-7#dcterms:source-#bib955-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-5"/>
-        <snap:has-bond rdf:resource="#bib955-8#dcterms:source-#bib955-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-9"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-10"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2123#syriaca:commemorated-http://syriaca.org/work/955"/>
+        <dcterms:source rdf:resource="#bib955-7"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
+        <dcterms:source rdf:resource="#bib955-8"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2123"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1734"/>
@@ -61,78 +61,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/955/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/955/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/955/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-5">
-        <dcterms:relation rdf:resource="#bib955-7"/>
-        <snap:has-bond rdf:resource="#bib955-7#dcterms:source-#bib955-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-7#dcterms:source-#bib955-5">
-        <dcterms:source rdf:resource="#bib955-7"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955#lawd:embodies-#bib955-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-6">
-        <dcterms:relation rdf:resource="#bib955-8"/>
-        <snap:has-bond rdf:resource="#bib955-8#dcterms:source-#bib955-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-8#dcterms:source-#bib955-6">
-        <dcterms:source rdf:resource="#bib955-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955#lawd:embodies-#bib955-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955#lawd:embodies-#bib955-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955#lawd:embodies-#bib955-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-9">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-9"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955#lawd:embodies-#bib955-9">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib955-10">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/955"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/955#lawd:embodies-#bib955-10"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955#lawd:embodies-#bib955-10">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/955"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/955">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2123"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2123#syriaca:commemorated-http://syriaca.org/work/955"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2123#syriaca:commemorated-http://syriaca.org/work/955">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2123"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/955"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/955/html">
         <dcterms:title xml:lang="syr">ܬܐܘܡܐ</dcterms:title>
@@ -177,6 +105,21 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/733"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/731"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Thomas the Apostle (text) — ܬܐܘܡܐ" in last modified December 12, 2016, http://syriaca.org/work/955</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/955/rdf">
+        <dcterms:title xml:lang="syr">ܬܐܘܡܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Thomas the Apostle (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/955"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1734"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1929"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1929"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2016"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/732"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/733"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/731"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Thomas the Apostle (text) — ܬܐܘܡܐ" in last modified December 12, 2016, http://syriaca.org/work/955</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

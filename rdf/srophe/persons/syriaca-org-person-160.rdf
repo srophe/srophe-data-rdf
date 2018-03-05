@@ -77,24 +77,21 @@
                         identification, and should also be held loosely.
                     </dcterms:description>
         <dcterms:description>the Priest-Philosopher</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
-        <dcterms:description>This person is possibly identical to the person represented in another record.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_160"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/1503"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/137"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/160"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/444"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/1503"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/137"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/160"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/444"/>
         <dcterms:relation rdf:resource="#person-160"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1503"/>
         <dcterms:relation rdf:resource="#person-160"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/350"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/160"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/444"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1503#syriaca:hasLiteraryConnectionToPlace-#person-160"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/350#syriaca:hasRelationToPlace-#person-160"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/444#syriaca:possiblyIdentical-http://syriaca.org/person/160"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/160#syriaca:possiblyIdentical-http://syriaca.org/person/444"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/1503"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/350"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/444"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/160"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -107,38 +104,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/160/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/160/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/160/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-160">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1503"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1503#syriaca:hasLiteraryConnectionToPlace-#person-160"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1503#syriaca:hasLiteraryConnectionToPlace-#person-160">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/1503"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/160"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-160">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/350"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/350#syriaca:hasRelationToPlace-#person-160"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/350#syriaca:hasRelationToPlace-#person-160">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/350"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/160"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/160">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/444"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/444#syriaca:possiblyIdentical-http://syriaca.org/person/160"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/444#syriaca:possiblyIdentical-http://syriaca.org/person/160">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/444"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/160"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/444">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/160"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/160#syriaca:possiblyIdentical-http://syriaca.org/person/444"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/160#syriaca:possiblyIdentical-http://syriaca.org/person/444">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/160"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/160"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/160/html">
         <dcterms:title xml:lang="en">
@@ -180,6 +145,20 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Denha — ܕܢܚܐ" in last modified August 17, 2016, http://syriaca.org/person/160</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/160/rdf">
+        <dcterms:title xml:lang="en">
+                         Denha 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܕܢܚܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/160"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Denha — ܕܢܚܐ" in last modified August 17, 2016, http://syriaca.org/person/160</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

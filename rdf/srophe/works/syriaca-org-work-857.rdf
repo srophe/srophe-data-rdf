@@ -15,8 +15,8 @@
         <dcterms:description>
                      Mais vous, qui êtes sous le joug du mariage, vous pouvez aussi cueillir de la même image une vie honnête et chaste, pour que, alors que le nom du Christ est glorifié par vous toutes, il vous prépare la gloire et la grâce d’en haut. Car celui qui dit: “Ceux qui me glorifient, je les glorifierai” ne ment pas. À lui convient… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/10"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="#bib857-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
         <dcterms:relation rdf:resource="#bib857-3"/>
@@ -27,11 +27,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2416"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2416#syriaca:commemorated-http://syriaca.org/work/857"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2416"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2048"/>
@@ -45,46 +45,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/857/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/857/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/857/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib857-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/857#lawd:embodies-#bib857-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/857"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib857-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/857#lawd:embodies-#bib857-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/857"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib857-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/857#lawd:embodies-#bib857-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/857"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib857-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/857"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/857#lawd:embodies-#bib857-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/857#lawd:embodies-#bib857-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/857"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/857"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/857">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2416"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2416#syriaca:commemorated-http://syriaca.org/work/857"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2416#syriaca:commemorated-http://syriaca.org/work/857">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2416"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/857"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/857/html">
         <dcterms:title xml:lang="syr">ܬܩܠܐ</dcterms:title>
@@ -114,6 +74,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2048"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Thecla (text) — ܬܩܠܐ" in last modified December 12, 2016, http://syriaca.org/work/857</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/857/rdf">
+        <dcterms:title xml:lang="syr">ܬܩܠܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Thecla (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/857"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2048"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2048"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Thecla (text) — ܬܩܠܐ" in last modified December 12, 2016, http://syriaca.org/work/857</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Encratism</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/encratism"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/encratism"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/encratism/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/encratism/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/encratism/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/encratism/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/encratism/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/encratism">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/encratism"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/encratism">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/encratism"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/encratism/html">
         <dcterms:title xml:lang="en">Encratism</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Encratism</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/encratism"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Encratism" in last modified May 5, 2017, http://syriaca.org/keyword/encratism</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/encratism/rdf">
+        <dcterms:title xml:lang="en">Encratism</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/encratism"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Encratism" in last modified May 5, 2017, http://syriaca.org/keyword/encratism</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

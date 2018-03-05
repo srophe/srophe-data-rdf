@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://lccn.loc.gov/sh85098730"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/patricians"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/patricians"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/patricians/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/patricians/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/patricians/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/patricians/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/patricians/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/patricians">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/patricians"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/patricians">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/patricians"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/patricians/html">
         <dcterms:title xml:lang="en">Patricians</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Patricians</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/patricians"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Patricians" in last modified May 5, 2017, http://syriaca.org/keyword/patricians</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/patricians/rdf">
+        <dcterms:title xml:lang="en">Patricians</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/patricians"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Patricians" in last modified May 5, 2017, http://syriaca.org/keyword/patricians</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

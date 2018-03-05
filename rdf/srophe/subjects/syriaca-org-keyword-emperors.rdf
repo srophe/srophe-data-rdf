@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/emperors"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/emperors"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/emperors"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/emperors"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/emperors/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/emperors/tei"/>
@@ -21,30 +21,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/emperors/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/emperors/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/emperors/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/emperors">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/administration"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/emperors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/administration#skos:broadMatch-http://syriaca.org/keyword/emperors">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/administration"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/emperors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/emperors">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/emperors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/emperors">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/emperors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/emperors">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/emperors"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/emperors">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/emperors"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/emperors/html">
         <dcterms:title xml:lang="en">Emperors</dcterms:title>
@@ -62,6 +38,12 @@
         <dcterms:title xml:lang="en">Emperors</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/emperors"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Emperors" in last modified May 5, 2017, http://syriaca.org/keyword/emperors</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/emperors/rdf">
+        <dcterms:title xml:lang="en">Emperors</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/emperors"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Emperors" in last modified May 5, 2017, http://syriaca.org/keyword/emperors</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -15,7 +15,7 @@
         <dcterms:description>
                      Quand il entendit cela, le prêtre loua Dieu, Seigneur de l’univers, et il admira ce vieillard qui accomplissait ces oeuvres de justice, à l’insu de tous. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/668"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/668"/>
         <dcterms:relation rdf:resource="#bib499-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
         <dcterms:relation rdf:resource="#bib499-3"/>
@@ -26,11 +26,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2137"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2137#syriaca:commemorated-http://syriaca.org/work/499"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2137"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/499/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/499/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/499/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib499-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/499#lawd:embodies-#bib499-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/499"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib499-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/499#lawd:embodies-#bib499-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/499"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib499-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/499#lawd:embodies-#bib499-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/499"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib499-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/499"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/499#lawd:embodies-#bib499-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/499#lawd:embodies-#bib499-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/499"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/499"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/499">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2137"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2137#syriaca:commemorated-http://syriaca.org/work/499"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2137#syriaca:commemorated-http://syriaca.org/work/499">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2137"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/499"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/499/html">
         <dcterms:title xml:lang="syr">ܐܢܫ ܡܢ ܣܒܐ</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "An Elder (text) — ܐܢܫ ܡܢ ܣܒܐ" in last modified December 12, 2016, http://syriaca.org/work/499</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/499/rdf">
+        <dcterms:title xml:lang="syr">ܐܢܫ ܡܢ ܣܒܐ</dcterms:title>
+        <dcterms:title xml:lang="en">An Elder (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/499"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "An Elder (text) — ܐܢܫ ܡܢ ܣܒܐ" in last modified December 12, 2016, http://syriaca.org/work/499</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

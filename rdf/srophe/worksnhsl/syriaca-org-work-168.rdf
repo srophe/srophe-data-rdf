@@ -3,7 +3,7 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">Numbers (Aquila)</rdfs:label>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib168-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/168"/>
         <dcterms:relation rdf:resource="#bib168-1"/>
@@ -12,10 +12,10 @@
         <dcterms:relation rdf:resource="#bib168-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/168"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9652"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/168#lawd:embodies-#bib168-3"/>
-        <snap:has-bond rdf:resource="#bib168-2#dcterms:source-#bib168-1"/>
-        <snap:has-bond rdf:resource="#bib168-2#lawd:hasCitation-http://syriaca.org/manuscript/98"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9652#skos:broadMatch-http://syriaca.org/work/168"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/168"/>
+        <dcterms:source rdf:resource="#bib168-2"/>
+        <lawd:hasCitation rdf:resource="#bib168-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9652"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/98"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/98"/>
@@ -28,38 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/168/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/168/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/168/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib168-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/168"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/168#lawd:embodies-#bib168-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/168#lawd:embodies-#bib168-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/168"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/168"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib168-1">
-        <dcterms:relation rdf:resource="#bib168-2"/>
-        <snap:has-bond rdf:resource="#bib168-2#dcterms:source-#bib168-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib168-2#dcterms:source-#bib168-1">
-        <dcterms:source rdf:resource="#bib168-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/168"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/98">
-        <dcterms:relation rdf:resource="#bib168-2"/>
-        <snap:has-bond rdf:resource="#bib168-2#lawd:hasCitation-http://syriaca.org/manuscript/98"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib168-2#lawd:hasCitation-http://syriaca.org/manuscript/98">
-        <lawd:hasCitation rdf:resource="#bib168-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/168"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/168">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9652"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9652#skos:broadMatch-http://syriaca.org/work/168"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9652#skos:broadMatch-http://syriaca.org/work/168">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9652"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/168"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/168/html">
         <dcterms:title xml:lang="en">Numbers (Aquila)</dcterms:title>

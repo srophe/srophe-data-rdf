@@ -15,7 +15,7 @@
         <dcterms:description>
                      Il lui dit: «Éloigne-toi des hommes, tais-toi, et tu vivras.» 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/668"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/668"/>
         <dcterms:relation rdf:resource="#bib489-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
         <dcterms:relation rdf:resource="#bib489-3"/>
@@ -26,11 +26,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2139#syriaca:commemorated-http://syriaca.org/work/489"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2139"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/489/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/489/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/489/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib489-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/489#lawd:embodies-#bib489-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/489"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib489-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/489#lawd:embodies-#bib489-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/489"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib489-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/489#lawd:embodies-#bib489-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/489"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib489-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/489"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/489#lawd:embodies-#bib489-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/489#lawd:embodies-#bib489-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/489"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/489"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/489">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2139"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2139#syriaca:commemorated-http://syriaca.org/work/489"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2139#syriaca:commemorated-http://syriaca.org/work/489">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2139"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/489"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/489/html">
         <dcterms:title xml:lang="syr">ܣܒܐ ܚܕ ܕܫܠܝܚܐ</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Naked Elder (text) — ܣܒܐ ܚܕ ܕܫܠܝܚܐ" in last modified December 12, 2016, http://syriaca.org/work/489</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/489/rdf">
+        <dcterms:title xml:lang="syr">ܣܒܐ ܚܕ ܕܫܠܝܚܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Naked Elder (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/489"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1717"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Naked Elder (text) — ܣܒܐ ܚܕ ܕܫܠܝܚܐ" in last modified December 12, 2016, http://syriaca.org/work/489</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

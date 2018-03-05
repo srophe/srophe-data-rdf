@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/art"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/illustrations"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/illustrations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/illustrations"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/art"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/illustrations/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/illustrations/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/illustrations/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/illustrations/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/illustrations/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/illustrations">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/art"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/illustrations"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/art#skos:broadMatch-http://syriaca.org/keyword/illustrations">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/art"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/illustrations"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/illustrations">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/illustrations"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/illustrations">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/illustrations"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/illustrations/html">
         <dcterms:title xml:lang="en">Illustrations</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Illustrations</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/illustrations"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Illustrations" in last modified May 5, 2017, http://syriaca.org/keyword/illustrations</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/illustrations/rdf">
+        <dcterms:title xml:lang="en">Illustrations</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/illustrations"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Illustrations" in last modified May 5, 2017, http://syriaca.org/keyword/illustrations</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

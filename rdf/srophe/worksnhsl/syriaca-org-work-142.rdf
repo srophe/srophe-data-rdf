@@ -4,8 +4,8 @@
         <rdfs:label xml:lang="en">Genesis (LXX/Septuagint version)</rdfs:label>
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/82"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/82"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib142-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/142"/>
         <dcterms:relation rdf:resource="#bib142-1"/>
@@ -14,10 +14,10 @@
         <dcterms:relation rdf:resource="#bib142-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/142"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9628"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/142#lawd:embodies-#bib142-3"/>
-        <snap:has-bond rdf:resource="#bib142-2#dcterms:source-#bib142-1"/>
-        <snap:has-bond rdf:resource="#bib142-2#lawd:hasCitation-http://syriaca.org/manuscript/107"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9628#skos:broadMatch-http://syriaca.org/work/142"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/142"/>
+        <dcterms:source rdf:resource="#bib142-2"/>
+        <lawd:hasCitation rdf:resource="#bib142-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9628"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/107"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/107"/>
@@ -30,38 +30,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/142/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/142/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/142/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib142-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/142"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/142#lawd:embodies-#bib142-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/142#lawd:embodies-#bib142-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/142"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/142"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib142-1">
-        <dcterms:relation rdf:resource="#bib142-2"/>
-        <snap:has-bond rdf:resource="#bib142-2#dcterms:source-#bib142-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib142-2#dcterms:source-#bib142-1">
-        <dcterms:source rdf:resource="#bib142-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/142"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/107">
-        <dcterms:relation rdf:resource="#bib142-2"/>
-        <snap:has-bond rdf:resource="#bib142-2#lawd:hasCitation-http://syriaca.org/manuscript/107"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib142-2#lawd:hasCitation-http://syriaca.org/manuscript/107">
-        <lawd:hasCitation rdf:resource="#bib142-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/142"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/142">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9628"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9628#skos:broadMatch-http://syriaca.org/work/142"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9628#skos:broadMatch-http://syriaca.org/work/142">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9628"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/142"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/142/html">
         <dcterms:title xml:lang="en">Genesis (LXX/Septuagint version)</dcterms:title>

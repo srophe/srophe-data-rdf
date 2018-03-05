@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/335"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/335"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1297"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/335#lawd:embodies-#bib335-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/335#lawd:embodies-#bib335-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/335#lawd:embodies-#bib335-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1297#syriaca:commemorated-http://syriaca.org/work/335"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/335"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/335"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/335"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1297"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -42,38 +42,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/335/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/335/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/335/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib335-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/335"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/335#lawd:embodies-#bib335-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/335#lawd:embodies-#bib335-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/335"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/335"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib335-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/335"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/335#lawd:embodies-#bib335-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/335#lawd:embodies-#bib335-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/335"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/335"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib335-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/335"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/335#lawd:embodies-#bib335-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/335#lawd:embodies-#bib335-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/335"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/335"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/335">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1297"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1297#syriaca:commemorated-http://syriaca.org/work/335"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1297#syriaca:commemorated-http://syriaca.org/work/335">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1297"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/335"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/335/html">
         <dcterms:title xml:lang="syr">ܝܥܩܘܒ ܢܘܛܪܐ</dcterms:title>
@@ -109,6 +77,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/908"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Jacob the Notary (text) — ܝܥܩܘܒ ܢܘܛܪܐ" in last modified December 12, 2016, http://syriaca.org/work/335</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/335/rdf">
+        <dcterms:title xml:lang="syr">ܝܥܩܘܒ ܢܘܛܪܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Jacob the Notary (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/335"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1747"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/908"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/781"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Jacob the Notary (text) — ܝܥܩܘܒ ܢܘܛܪܐ" in last modified December 12, 2016, http://syriaca.org/work/335</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

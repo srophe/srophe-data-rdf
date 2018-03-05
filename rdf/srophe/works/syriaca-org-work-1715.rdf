@@ -9,13 +9,13 @@
         <dcterms:description>
                      Mon esprit m’a exhorté à marcher sur le chemin des paroles et je ne suis pas capable de bien me fortifier dans la demeure des paroles. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/531"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/531"/>
         <dcterms:relation rdf:resource="#bib1715-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1715"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1715"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/561"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1715#lawd:embodies-#bib1715-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/561#syriaca:commemorated-http://syriaca.org/work/1715"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1715"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/561"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -28,22 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1715/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1715/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1715/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1715-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1715"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1715#lawd:embodies-#bib1715-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1715#lawd:embodies-#bib1715-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1715"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1715"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1715">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/561"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/561#syriaca:commemorated-http://syriaca.org/work/1715"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/561#syriaca:commemorated-http://syriaca.org/work/1715">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/561"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1715"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1715/html">
         <dcterms:title xml:lang="syr">ܝܫܘܥܝܗܒ ܒܪ ܒܣܛܘܗܡܓ</dcterms:title>
@@ -70,6 +54,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1050"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Isho‘yahb bar Bestohmag, Catholicos (text) — ܝܫܘܥܝܗܒ ܒܪ ܒܣܛܘܗܡܓ" in last modified December 12, 2016, http://syriaca.org/work/1715</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1715/rdf">
+        <dcterms:title xml:lang="syr">ܝܫܘܥܝܗܒ ܒܪ ܒܣܛܘܗܡܓ</dcterms:title>
+        <dcterms:title xml:lang="en">Isho‘yahb bar Bestohmag, Catholicos (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1715"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1050"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Isho‘yahb bar Bestohmag, Catholicos (text) — ܝܫܘܥܝܗܒ ܒܪ ܒܣܛܘܗܡܓ" in last modified December 12, 2016, http://syriaca.org/work/1715</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

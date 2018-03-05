@@ -15,16 +15,16 @@
         <dcterms:description>
                      Que le bon ne sorte pas sur la terre car un faible a vaincu notre côté; avec vigueur ils ont combattu avec lui et voilà il est tombé rapidement devant vous. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib1743-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1743"/>
         <dcterms:relation rdf:resource="#bib1743-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1743"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1743"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1829"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1743#lawd:embodies-#bib1743-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1743#lawd:embodies-#bib1743-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1829#syriaca:commemorated-http://syriaca.org/work/1743"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1743"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1743"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1829"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1726"/>
@@ -37,30 +37,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1743/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1743/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1743/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1743-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1743"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1743#lawd:embodies-#bib1743-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1743#lawd:embodies-#bib1743-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1743"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1743"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1743-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1743"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1743#lawd:embodies-#bib1743-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1743#lawd:embodies-#bib1743-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1743"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1743"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1743">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1829"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1829#syriaca:commemorated-http://syriaca.org/work/1743"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1829#syriaca:commemorated-http://syriaca.org/work/1743">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1829"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1743"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1743/html">
         <dcterms:title xml:lang="syr">ܐܝܘܒ</dcterms:title>
@@ -87,6 +63,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1726"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Job (text) — ܐܝܘܒ" in last modified December 12, 2016, http://syriaca.org/work/1743</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1743/rdf">
+        <dcterms:title xml:lang="syr">ܐܝܘܒ</dcterms:title>
+        <dcterms:title xml:lang="en">Job (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1743"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1726"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Job (text) — ܐܝܘܒ" in last modified December 12, 2016, http://syriaca.org/work/1743</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -14,7 +14,7 @@
         <dcterms:description>
                      Dans la grande paix de l’Éden, la gloire d’Adam a été volée parce que le péché est arrivé par un brigandage, dont le serpent et Ève furent les instigateurs. Mais notre Mère au milieu des chemins tomba sur le marchand et lui vola le médicament de vie qui était caché en lui. Le péché qui avait volé fut victime d’un vol, il fut vaincu par le juge grâce auquel il avait vaincu, quand la mort fut dépouillée et que notre Seigneur déroba ses trésors. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib1016-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1016"/>
         <dcterms:relation rdf:resource="#bib1016-3"/>
@@ -22,9 +22,9 @@
         <dcterms:relation rdf:resource="#bib1016-4"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1016"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1016"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1016#lawd:embodies-#bib1016-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1016#lawd:embodies-#bib1016-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1016#lawd:embodies-#bib1016-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1016"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1016"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1016"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1742"/>
@@ -39,31 +39,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1016/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1016/rdf"/>
     </rdf:Description>
-    <rdf:Description rdf:about="#bib1016-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1016"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1016#lawd:embodies-#bib1016-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1016#lawd:embodies-#bib1016-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1016"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1016"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1016-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1016"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1016#lawd:embodies-#bib1016-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1016#lawd:embodies-#bib1016-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1016"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1016"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1016-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1016"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1016#lawd:embodies-#bib1016-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1016#lawd:embodies-#bib1016-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1016"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1016"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1016"/>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1016/html">
         <dcterms:title xml:lang="en">The Martyrs (text)</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/work/1016"/>
@@ -89,6 +64,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/1016</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1016/rdf">
+        <dcterms:title xml:lang="en">The Martyrs (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1016"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Martyrs (text)" in last modified December 12, 2016, http://syriaca.org/work/1016</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85005735"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/antiphons"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/antiphons"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/antiphons/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/antiphons/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/antiphons/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/antiphons/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/antiphons/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/antiphons">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/antiphons"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/antiphons">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/antiphons"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/antiphons/html">
         <dcterms:title xml:lang="en">Antiphons</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Antiphons</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/antiphons"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Antiphons" in last modified May 5, 2017, http://syriaca.org/keyword/antiphons</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/antiphons/rdf">
+        <dcterms:title xml:lang="en">Antiphons</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/antiphons"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Antiphons" in last modified May 5, 2017, http://syriaca.org/keyword/antiphons</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

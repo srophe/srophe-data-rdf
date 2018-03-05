@@ -90,23 +90,21 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>the Priest</dcterms:description>
-        <dcterms:description>Not the same as Qiyore of Edessa (http://syriaca.org/person/697) or Cyrus the Greek (http://syriaca.org/person/846).</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_73"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=C&amp;sK=Cyrus of Batnae&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/45"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/45"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/73"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/697"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/846"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/73"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/697#syriaca:differentFrom-http://syriaca.org/person/73"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/846#syriaca:differentFrom-http://syriaca.org/person/73"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/73#syriaca:differentFrom-http://syriaca.org/person/697"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/846#syriaca:differentFrom-http://syriaca.org/person/697"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/73#syriaca:differentFrom-http://syriaca.org/person/846"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/697#syriaca:differentFrom-http://syriaca.org/person/846"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasRelationToPlace-http://syriaca.org/person/73"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/697"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/846"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/73"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/846"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/73"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/697"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -121,56 +119,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/73/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/73/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/73/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/73">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/697"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/697#syriaca:differentFrom-http://syriaca.org/person/73"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/846"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/846#syriaca:differentFrom-http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/697#syriaca:differentFrom-http://syriaca.org/person/73">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/697"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/846#syriaca:differentFrom-http://syriaca.org/person/73">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/846"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/697">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/73"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/73#syriaca:differentFrom-http://syriaca.org/person/697"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/846"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/846#syriaca:differentFrom-http://syriaca.org/person/697"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/73#syriaca:differentFrom-http://syriaca.org/person/697">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/73"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/846#syriaca:differentFrom-http://syriaca.org/person/697">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/846"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/846">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/73"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/73#syriaca:differentFrom-http://syriaca.org/person/846"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/697"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/697#syriaca:differentFrom-http://syriaca.org/person/846"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/73#syriaca:differentFrom-http://syriaca.org/person/846">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/73"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/697#syriaca:differentFrom-http://syriaca.org/person/846">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/697"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/73">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasRelationToPlace-http://syriaca.org/person/73"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/78#syriaca:hasRelationToPlace-http://syriaca.org/person/73">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/78"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/73"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/73/html">
         <dcterms:title xml:lang="syr">
@@ -227,6 +175,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Cyrus of Batnan — ܩܘܪܐ ܕܒܛܢܢ" in last modified August 17, 2016, http://syriaca.org/person/73</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/73/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܩܘܪܐ 
+                         ܕܒܛܢܢ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Cyrus 
+                         of  Batnan 
+                         
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/73"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Cyrus of Batnan — ܩܘܪܐ ܕܒܛܢܢ" in last modified August 17, 2016, http://syriaca.org/person/73</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

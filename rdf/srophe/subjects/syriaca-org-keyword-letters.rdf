@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/letters"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/letters"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/letters"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/letters/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/letters/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/letters/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/letters/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/letters/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/letters">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/letters"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/letters">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/letters"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/letters">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/writing"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/letters"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/writing#skos:broadMatch-http://syriaca.org/keyword/letters">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/writing"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/letters"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/letters/html">
         <dcterms:title xml:lang="en">Letters</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Letters</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/letters"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Letters" in last modified May 5, 2017, http://syriaca.org/keyword/letters</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/letters/rdf">
+        <dcterms:title xml:lang="en">Letters</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/letters"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Letters" in last modified May 5, 2017, http://syriaca.org/keyword/letters</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

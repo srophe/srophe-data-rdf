@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Testimonia</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/testimonia"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/testimonia"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/testimonia/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/testimonia/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/testimonia/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/testimonia/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/testimonia/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/testimonia">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/testimonia"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/testimonia">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/testimonia"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/testimonia/html">
         <dcterms:title xml:lang="en">Testimonia</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Testimonia</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/testimonia"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Testimonia" in last modified May 5, 2017, http://syriaca.org/keyword/testimonia</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/testimonia/rdf">
+        <dcterms:title xml:lang="en">Testimonia</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/testimonia"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Testimonia" in last modified May 5, 2017, http://syriaca.org/keyword/testimonia</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

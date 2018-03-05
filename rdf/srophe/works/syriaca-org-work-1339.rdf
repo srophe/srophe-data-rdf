@@ -11,7 +11,7 @@
         <dcterms:description>
                      Fils de Dieu qui as souffert pour nous à cause de ton amour, juge-nous dignes de te voir avec tes saints quand tu viendras. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/650"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/650"/>
         <dcterms:relation rdf:resource="#bib1339-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1339"/>
         <dcterms:relation rdf:resource="#bib1339-3"/>
@@ -20,10 +20,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1339"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1339"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1661"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1339#lawd:embodies-#bib1339-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1339#lawd:embodies-#bib1339-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1339#lawd:embodies-#bib1339-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/1339"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1339"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1339"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1339"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1661"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -35,38 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1339/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1339/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1339/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1339-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1339"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1339#lawd:embodies-#bib1339-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1339#lawd:embodies-#bib1339-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1339"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1339"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1339-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1339"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1339#lawd:embodies-#bib1339-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1339#lawd:embodies-#bib1339-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1339"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1339"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1339-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1339"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1339#lawd:embodies-#bib1339-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1339#lawd:embodies-#bib1339-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1339"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1339"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1339">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1661"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/1339"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/1339">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1661"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1339"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1339/html">
         <dcterms:title xml:lang="en">The Discovery of the Cross (text)</dcterms:title>
@@ -87,6 +55,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1339"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Discovery of the Cross (text)" in last modified December 12, 2016, http://syriaca.org/work/1339</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1339/rdf">
+        <dcterms:title xml:lang="en">The Discovery of the Cross (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1339"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Discovery of the Cross (text)" in last modified December 12, 2016, http://syriaca.org/work/1339</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

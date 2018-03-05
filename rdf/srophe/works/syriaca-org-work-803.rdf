@@ -15,11 +15,8 @@
         <dcterms:description>
                      Et il se soumit à partir de ce moment à des travaux doubles, à tel point qu’après une période de sept ans nous revînmes chez lui et nous le trouvâmes ainsi menant une vie dure et il finit ainsi dans un grand triomphe. 
                 </dcterms:description>
-        <dcterms:description>
-                             part 12 
-                        </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/74"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/623"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/74"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/623"/>
         <dcterms:relation rdf:resource="#bib803-2"/>
         <dcterms:relation rdf:resource="#bib803-4"/>
         <dcterms:relation rdf:resource="#bib803-2"/>
@@ -43,18 +40,18 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/1771"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="#bib803-4#dcterms:source-#bib803-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-2"/>
-        <snap:has-bond rdf:resource="#bib803-5#dcterms:source-#bib803-3"/>
-        <snap:has-bond rdf:resource="bib803-8#dcterms:source-#bib803-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1771#syriaca:commemorated-http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/803"/>
+        <dcterms:source rdf:resource="#bib803-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <dcterms:source rdf:resource="#bib803-5"/>
+        <dcterms:source rdf:resource="bib803-8"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1771"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1409"/>
@@ -70,100 +67,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/803/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/803/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/803/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-2">
-        <dcterms:relation rdf:resource="#bib803-4"/>
-        <snap:has-bond rdf:resource="#bib803-4#dcterms:source-#bib803-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-4#dcterms:source-#bib803-2">
-        <dcterms:source rdf:resource="#bib803-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-3">
-        <dcterms:relation rdf:resource="#bib803-5"/>
-        <snap:has-bond rdf:resource="#bib803-5#dcterms:source-#bib803-3"/>
-        <dcterms:relation rdf:resource="bib803-8"/>
-        <snap:has-bond rdf:resource="bib803-8#dcterms:source-#bib803-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-5#dcterms:source-#bib803-3">
-        <dcterms:source rdf:resource="#bib803-5"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="bib803-8#dcterms:source-#bib803-3">
-        <dcterms:source rdf:resource="bib803-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib803-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/803"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/803#lawd:embodies-#bib803-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803#lawd:embodies-#bib803-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/803"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1771"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1771#syriaca:commemorated-http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1771#syriaca:commemorated-http://syriaca.org/work/803">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1771"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/803">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/803"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/803">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/803"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/803/html">
         <dcterms:title xml:lang="syr">ܚܪܦܛ</dcterms:title>
@@ -199,6 +102,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1409"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Ḥarphat (text) — ܚܪܦܛ" in last modified December 12, 2016, http://syriaca.org/work/803</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/803/rdf">
+        <dcterms:title xml:lang="syr">ܚܪܦܛ</dcterms:title>
+        <dcterms:title xml:lang="en">Ḥarphat (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/803"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1409"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1744"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1728"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1409"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Ḥarphat (text) — ܚܪܦܛ" in last modified December 12, 2016, http://syriaca.org/work/803</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

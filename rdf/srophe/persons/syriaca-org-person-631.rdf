@@ -61,13 +61,12 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>the Philosopher</dcterms:description>
-        <dcterms:description>This author is possibly identical with the author represented in another record</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_631"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=M&amp;sK=Melito&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/631"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1083"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1083#syriaca:possiblyIdentical-http://syriaca.org/person/631"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/631#syriaca:possiblyIdentical-http://syriaca.org/person/1083"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/1083"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/631"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/377"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/5"/>
@@ -80,22 +79,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/631/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/631/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/631/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/631">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1083"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1083#syriaca:possiblyIdentical-http://syriaca.org/person/631"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1083#syriaca:possiblyIdentical-http://syriaca.org/person/631">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/1083"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/631"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1083">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/631"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/631#syriaca:possiblyIdentical-http://syriaca.org/person/1083"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/631#syriaca:possiblyIdentical-http://syriaca.org/person/1083">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/631"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/631"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/631/html">
         <dcterms:title xml:lang="en">Melito of Sardis</dcterms:title>
@@ -131,6 +114,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Melito of Sardis — ܡܝܠܝܛܘܢ" in last modified August 17, 2016, http://syriaca.org/person/631</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/631/rdf">
+        <dcterms:title xml:lang="en">Melito of Sardis</dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܡܝܠܝܛܘܢ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/631"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/377"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Melito of Sardis — ܡܝܠܝܛܘܢ" in last modified August 17, 2016, http://syriaca.org/person/631</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

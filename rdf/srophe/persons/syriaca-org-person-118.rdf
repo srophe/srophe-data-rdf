@@ -74,18 +74,16 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>the Historian</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_118"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/24"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/24"/>
         <dcterms:relation rdf:resource="#person-118"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="#person-118"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/24"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-#person-118"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/24#syriaca:hasRelationToPlace-#person-118"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-#person-118"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/78"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/24"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -98,28 +96,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/118/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/118/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/118/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-118">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-#person-118"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-#person-118">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/78"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/118"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-118">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/24"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/24#syriaca:hasRelationToPlace-#person-118"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-#person-118"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/24#syriaca:hasRelationToPlace-#person-118">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/24"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/118"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/221#syriaca:hasRelationToPlace-#person-118">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/118"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/118/html">
         <dcterms:title xml:lang="syr">
@@ -155,6 +131,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Moses of Anhil — ܡܘܫܐ ܕܒܝܬ ܢܚ̈ܠܐ" in last modified August 17, 2016, http://syriaca.org/person/118</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/118/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܡܘܫܐ 
+                         ܕܒܝܬ ܢܚ̈ܠܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/118"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Moses of Anhil — ܡܘܫܐ ܕܒܝܬ ܢܚ̈ܠܐ" in last modified August 17, 2016, http://syriaca.org/person/118</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

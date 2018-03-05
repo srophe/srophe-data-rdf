@@ -65,9 +65,6 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>the Monk</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_215"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/215"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/1452"/>
@@ -75,9 +72,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/586"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/215"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/224"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1452#syriaca:bornAt-http://syriaca.org/person/215"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/586#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/215"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/224#syriaca:hasRelationToPlace-http://syriaca.org/person/215"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1452"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/586"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/224"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -90,30 +87,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/215/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/215/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/215/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/215">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/1452"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/1452#syriaca:bornAt-http://syriaca.org/person/215"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/1452#syriaca:bornAt-http://syriaca.org/person/215">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/1452"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/215"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/215">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/586"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/586#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/215"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/586#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/215">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/586"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/215"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/215">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/224"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/224#syriaca:hasRelationToPlace-http://syriaca.org/person/215"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/224#syriaca:hasRelationToPlace-http://syriaca.org/person/215">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/224"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/215"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/215/html">
         <dcterms:title xml:lang="syr">
@@ -152,6 +125,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Aaron the Monk — ܕܝܪܝܐ ܐܗܪܘܢ" in last modified August 17, 2016, http://syriaca.org/person/215</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/215/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܕܝܪܝܐ 
+                         ܐܗܪܘܢ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">Aaron the Monk</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/215"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Aaron the Monk — ܕܝܪܝܐ ܐܗܪܘܢ" in last modified August 17, 2016, http://syriaca.org/person/215</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

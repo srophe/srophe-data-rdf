@@ -15,11 +15,8 @@
         <dcterms:description>
                      Et ainsi l’étonnement saisit tout le monde à tel point que longtemps après tout le monde parlait de cela avec admiration. 
                 </dcterms:description>
-        <dcterms:description>
-                             part 14 
-                        </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/74"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/623"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/74"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/623"/>
         <dcterms:relation rdf:resource="#bib805-2"/>
         <dcterms:relation rdf:resource="#bib805-4"/>
         <dcterms:relation rdf:resource="#bib805-2"/>
@@ -45,20 +42,20 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/3011"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="#bib805-4#dcterms:source-#bib805-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-2"/>
-        <snap:has-bond rdf:resource="#bib805-5#dcterms:source-#bib805-3"/>
-        <snap:has-bond rdf:resource="bib805-8#dcterms:source-#bib805-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2127#syriaca:commemorated-http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3010#syriaca:commemorated-http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3011#syriaca:commemorated-http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/805"/>
+        <dcterms:source rdf:resource="#bib805-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <dcterms:source rdf:resource="#bib805-5"/>
+        <dcterms:source rdf:resource="bib805-8"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2127"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3010"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3011"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1409"/>
@@ -74,112 +71,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/805/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/805/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/805/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-2">
-        <dcterms:relation rdf:resource="#bib805-4"/>
-        <snap:has-bond rdf:resource="#bib805-4#dcterms:source-#bib805-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-4#dcterms:source-#bib805-2">
-        <dcterms:source rdf:resource="#bib805-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-3">
-        <dcterms:relation rdf:resource="#bib805-5"/>
-        <snap:has-bond rdf:resource="#bib805-5#dcterms:source-#bib805-3"/>
-        <dcterms:relation rdf:resource="bib805-8"/>
-        <snap:has-bond rdf:resource="bib805-8#dcterms:source-#bib805-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-5#dcterms:source-#bib805-3">
-        <dcterms:source rdf:resource="#bib805-5"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="bib805-8#dcterms:source-#bib805-3">
-        <dcterms:source rdf:resource="bib805-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib805-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/805"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/805#lawd:embodies-#bib805-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805#lawd:embodies-#bib805-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/805"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2127"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2127#syriaca:commemorated-http://syriaca.org/work/805"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3010"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3010#syriaca:commemorated-http://syriaca.org/work/805"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3011"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3011#syriaca:commemorated-http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2127#syriaca:commemorated-http://syriaca.org/work/805">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2127"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3010#syriaca:commemorated-http://syriaca.org/work/805">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3010"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3011#syriaca:commemorated-http://syriaca.org/work/805">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3011"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/805">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/805"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/805">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/805"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/805/html">
         <dcterms:title xml:lang="syr">ܬܐܘܡܐ ܘܐܣܛܦܢܐ ܘܙܘܛܐ</dcterms:title>
@@ -215,6 +106,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1409"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Thomas, Stephen, and Zota (text) — ܬܐܘܡܐ ܘܐܣܛܦܢܐ ܘܙܘܛܐ" in last modified December 12, 2016, http://syriaca.org/work/805</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/805/rdf">
+        <dcterms:title xml:lang="syr">ܬܐܘܡܐ ܘܐܣܛܦܢܐ ܘܙܘܛܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Thomas, Stephen, and Zota (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/805"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1409"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1744"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1728"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1409"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Thomas, Stephen, and Zota (text) — ܬܐܘܡܐ ܘܐܣܛܦܢܐ ܘܙܘܛܐ" in last modified December 12, 2016, http://syriaca.org/work/805</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

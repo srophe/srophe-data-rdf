@@ -73,17 +73,15 @@
         <dcterms:description/>
         <dcterms:description>1090 – 1129</dcterms:description>
         <dcterms:description>GEDSH refers to this person as Athanasios (VII) Abulfaraj bar Kamoro (pg. 22, 60, 283).</dcterms:description>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_201"/>
         <dcterms:relation rdf:resource="#person-201"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
         <dcterms:relation rdf:resource="#person-201"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/224"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/8#syriaca:bornAt-#person-201"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/224#syriaca:hasRelationToPlace-#person-201"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/10#syriaca:hasRelationToPlace-#person-201"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/8"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/224"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -97,28 +95,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/201/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/201/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/201/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-201">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/8#syriaca:bornAt-#person-201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/8#syriaca:bornAt-#person-201">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-201">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/224"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/224#syriaca:hasRelationToPlace-#person-201"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/10#syriaca:hasRelationToPlace-#person-201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/224#syriaca:hasRelationToPlace-#person-201">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/224"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/201"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/10#syriaca:hasRelationToPlace-#person-201">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/10"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/201"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/201/html">
         <dcterms:title xml:lang="en">
@@ -166,6 +142,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Athanasius VII — ܐܬܐܢܐܣܝܘܣ" in last modified August 17, 2016, http://syriaca.org/person/201</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/201/rdf">
+        <dcterms:title xml:lang="en">
+                         Athanasius 
+                         VII 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܬܐܢܐܣܝܘܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/201"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Athanasius VII — ܐܬܐܢܐܣܝܘܣ" in last modified August 17, 2016, http://syriaca.org/person/201</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

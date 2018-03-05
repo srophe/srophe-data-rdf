@@ -10,10 +10,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/judaism"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/judaism"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/polyglot-bible/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/polyglot-bible/tei"/>
@@ -23,38 +23,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/polyglot-bible/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/polyglot-bible/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/polyglot-bible/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/polyglot-bible">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/polyglot-bible">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/polyglot-bible">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/judaism"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/judaism#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/judaism"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/polyglot-bible">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/polyglot-bible">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/polyglot-bible/html">
         <dcterms:title xml:lang="en">Polyglot Bible</dcterms:title>
@@ -72,6 +40,12 @@
         <dcterms:title xml:lang="en">Polyglot Bible</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Polyglot Bible" in last modified May 5, 2017, http://syriaca.org/keyword/polyglot-bible</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/polyglot-bible/rdf">
+        <dcterms:title xml:lang="en">Polyglot Bible</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/polyglot-bible"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Polyglot Bible" in last modified May 5, 2017, http://syriaca.org/keyword/polyglot-bible</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

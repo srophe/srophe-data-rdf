@@ -15,11 +15,8 @@
         <dcterms:description>
                      Et elles habitent un monastère dans le village de Nânas, arrivées à un âge avancé et vivant dans les labeurs de la perfection. 
                 </dcterms:description>
-        <dcterms:description>
-                             part 32 
-                        </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/74"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/623"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/74"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/623"/>
         <dcterms:relation rdf:resource="#bib823-2"/>
         <dcterms:relation rdf:resource="#bib823-4"/>
         <dcterms:relation rdf:resource="#bib823-2"/>
@@ -43,18 +40,18 @@
         <dcterms:relation rdf:resource="http://syriaca.org/person/1705"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="#bib823-4#dcterms:source-#bib823-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-2"/>
-        <snap:has-bond rdf:resource="#bib823-5#dcterms:source-#bib823-3"/>
-        <snap:has-bond rdf:resource="bib823-8#dcterms:source-#bib823-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-7"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-8"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1705#syriaca:commemorated-http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/823"/>
+        <dcterms:source rdf:resource="#bib823-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <dcterms:source rdf:resource="#bib823-5"/>
+        <dcterms:source rdf:resource="bib823-8"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1705"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2032"/>
@@ -70,100 +67,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/823/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/823/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/823/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-2">
-        <dcterms:relation rdf:resource="#bib823-4"/>
-        <snap:has-bond rdf:resource="#bib823-4#dcterms:source-#bib823-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-4#dcterms:source-#bib823-2">
-        <dcterms:source rdf:resource="#bib823-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-3">
-        <dcterms:relation rdf:resource="#bib823-5"/>
-        <snap:has-bond rdf:resource="#bib823-5#dcterms:source-#bib823-3"/>
-        <dcterms:relation rdf:resource="bib823-8"/>
-        <snap:has-bond rdf:resource="bib823-8#dcterms:source-#bib823-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-5#dcterms:source-#bib823-3">
-        <dcterms:source rdf:resource="#bib823-5"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="bib823-8#dcterms:source-#bib823-3">
-        <dcterms:source rdf:resource="bib823-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib823-8">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/823"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/823#lawd:embodies-#bib823-8"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823#lawd:embodies-#bib823-8">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/823"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1705"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1705#syriaca:commemorated-http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1705#syriaca:commemorated-http://syriaca.org/work/823">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1705"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/823">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9501"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/823"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9501#dcterms:isPartOf-http://syriaca.org/work/823">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/9501"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/823"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/823/html">
         <dcterms:title xml:lang="syr">ܐܠܝܐ ܘܬܐܘܕܘܪܐ</dcterms:title>
@@ -199,6 +102,18 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2032"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Elijah and Theodore (text) — ܐܠܝܐ ܘܬܐܘܕܘܪܐ" in last modified December 12, 2016, http://syriaca.org/work/823</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/823/rdf">
+        <dcterms:title xml:lang="syr">ܐܠܝܐ ܘܬܐܘܕܘܪܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Elijah and Theodore (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/823"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2032"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1744"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1728"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2032"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Elijah and Theodore (text) — ܐܠܝܐ ܘܬܐܘܕܘܪܐ" in last modified December 12, 2016, http://syriaca.org/work/823</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

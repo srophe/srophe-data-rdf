@@ -86,14 +86,13 @@
         </lawd:hasName>
         <dcterms:description/>
         <dcterms:description>Bishop of Sinjar</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_133"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/184"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/184"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/133"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/184"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/122"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/184#syriaca:hasRelationToPlace-http://syriaca.org/person/133"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/122#syriaca:hasRelationToPlace-http://syriaca.org/person/133"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/184"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/122"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -107,20 +106,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/133/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/133/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/133/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/133">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/184"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/184#syriaca:hasRelationToPlace-http://syriaca.org/person/133"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/122"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/122#syriaca:hasRelationToPlace-http://syriaca.org/person/133"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/184#syriaca:hasRelationToPlace-http://syriaca.org/person/133">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/184"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/133"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/122#syriaca:hasRelationToPlace-http://syriaca.org/person/133">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/122"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/133"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/133/html">
         <dcterms:title xml:lang="en">
@@ -171,6 +156,23 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Elijah, bishop of Sinjar — ܐܠܝܐ ܕܫܝܓܪ" in last modified August 17, 2016, http://syriaca.org/person/133</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/133/rdf">
+        <dcterms:title xml:lang="en">
+                         Elijah ,  bishop of  Sinjar 
+                         
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܐܠܝܐ 
+                         ܕܫܝܓܪ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/133"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Elijah, bishop of Sinjar — ܐܠܝܐ ܕܫܝܓܪ" in last modified August 17, 2016, http://syriaca.org/person/133</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

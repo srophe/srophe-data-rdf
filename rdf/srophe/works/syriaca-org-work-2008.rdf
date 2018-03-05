@@ -8,9 +8,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/2008"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/2008"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1948"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2008#lawd:embodies-#bib2008-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2008#lawd:embodies-#bib2008-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1948#syriaca:commemorated-http://syriaca.org/work/2008"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2008"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/2008"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1948"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -22,30 +22,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2008/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2008/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2008/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2008-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2008"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2008#lawd:embodies-#bib2008-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2008#lawd:embodies-#bib2008-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2008"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2008"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib2008-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/2008"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/2008#lawd:embodies-#bib2008-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2008#lawd:embodies-#bib2008-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/2008"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2008"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/2008">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1948"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1948#syriaca:commemorated-http://syriaca.org/work/2008"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1948#syriaca:commemorated-http://syriaca.org/work/2008">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1948"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/2008"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/2008/html">
         <dcterms:title xml:lang="en">Nilus the Anchorite (text)</dcterms:title>
@@ -66,6 +42,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/2008"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Nilus the Anchorite (text)" in last modified December 12, 2016, http://syriaca.org/work/2008</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/2008/rdf">
+        <dcterms:title xml:lang="en">Nilus the Anchorite (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/2008"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Nilus the Anchorite (text)" in last modified December 12, 2016, http://syriaca.org/work/2008</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

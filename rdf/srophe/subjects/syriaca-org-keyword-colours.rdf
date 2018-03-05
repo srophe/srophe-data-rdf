@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85028700"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/colours"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/colours"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/colours/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/colours/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/colours/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/colours/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/colours/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/colours">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/objects"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/colours"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/objects#skos:broadMatch-http://syriaca.org/keyword/colours">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/objects"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/colours"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/colours/html">
         <dcterms:title xml:lang="en">Colours</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Colours</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/colours"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Colours" in last modified May 5, 2017, http://syriaca.org/keyword/colours</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/colours/rdf">
+        <dcterms:title xml:lang="en">Colours</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/colours"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Colours" in last modified May 5, 2017, http://syriaca.org/keyword/colours</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

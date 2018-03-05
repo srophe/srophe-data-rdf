@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1146"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1146"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/360"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1146#lawd:embodies-#bib1146-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1146#lawd:embodies-#bib1146-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1146#lawd:embodies-#bib1146-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/360#syriaca:commemorated-http://syriaca.org/work/1146"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1146"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1146"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1146"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/360"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1865"/>
@@ -40,38 +40,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1146/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1146/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1146/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1146-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1146"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1146#lawd:embodies-#bib1146-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1146#lawd:embodies-#bib1146-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1146"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1146"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1146-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1146"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1146#lawd:embodies-#bib1146-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1146#lawd:embodies-#bib1146-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1146"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1146"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1146-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1146"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1146#lawd:embodies-#bib1146-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1146#lawd:embodies-#bib1146-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1146"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1146"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1146">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/360"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/360#syriaca:commemorated-http://syriaca.org/work/1146"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/360#syriaca:commemorated-http://syriaca.org/work/1146">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/360"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1146"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1146/html">
         <dcterms:title xml:lang="syr">ܒܒܝ</dcterms:title>
@@ -101,6 +69,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1865"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Babai of Nisibis (text) — ܒܒܝ" in last modified December 12, 2016, http://syriaca.org/work/1146</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1146/rdf">
+        <dcterms:title xml:lang="syr">ܒܒܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Babai of Nisibis (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1146"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1865"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1865"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Babai of Nisibis (text) — ܒܒܝ" in last modified December 12, 2016, http://syriaca.org/work/1146</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

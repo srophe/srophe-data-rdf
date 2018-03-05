@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Fishers</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/fishers"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/fishers"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/fishers/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/fishers/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/fishers/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/fishers/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/fishers/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fishers">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/fishers"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/occupations#skos:broadMatch-http://syriaca.org/keyword/fishers">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/occupations"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/fishers"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/fishers/html">
         <dcterms:title xml:lang="en">Fishers</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Fishers</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/fishers"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Fishers" in last modified May 5, 2017, http://syriaca.org/keyword/fishers</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/fishers/rdf">
+        <dcterms:title xml:lang="en">Fishers</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/fishers"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Fishers" in last modified May 5, 2017, http://syriaca.org/keyword/fishers</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

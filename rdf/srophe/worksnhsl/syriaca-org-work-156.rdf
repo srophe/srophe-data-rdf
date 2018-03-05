@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Isaiah (Jacob of Edessa's recension)</rdfs:label>
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib156-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/156"/>
         <dcterms:relation rdf:resource="#bib156-1"/>
@@ -13,10 +13,10 @@
         <dcterms:relation rdf:resource="#bib156-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/156"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9640"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/156#lawd:embodies-#bib156-3"/>
-        <snap:has-bond rdf:resource="#bib156-2#dcterms:source-#bib156-1"/>
-        <snap:has-bond rdf:resource="#bib156-2#lawd:hasCitation-http://syriaca.org/manuscript/105"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9640#skos:broadMatch-http://syriaca.org/work/156"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/156"/>
+        <dcterms:source rdf:resource="#bib156-2"/>
+        <lawd:hasCitation rdf:resource="#bib156-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9640"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/105"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/105"/>
@@ -29,38 +29,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/156/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/156/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/156/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib156-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/156"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/156#lawd:embodies-#bib156-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/156#lawd:embodies-#bib156-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/156"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/156"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib156-1">
-        <dcterms:relation rdf:resource="#bib156-2"/>
-        <snap:has-bond rdf:resource="#bib156-2#dcterms:source-#bib156-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib156-2#dcterms:source-#bib156-1">
-        <dcterms:source rdf:resource="#bib156-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/156"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/105">
-        <dcterms:relation rdf:resource="#bib156-2"/>
-        <snap:has-bond rdf:resource="#bib156-2#lawd:hasCitation-http://syriaca.org/manuscript/105"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib156-2#lawd:hasCitation-http://syriaca.org/manuscript/105">
-        <lawd:hasCitation rdf:resource="#bib156-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/156"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/156">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9640"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9640#skos:broadMatch-http://syriaca.org/work/156"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9640#skos:broadMatch-http://syriaca.org/work/156">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9640"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/156"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/156/html">
         <dcterms:title xml:lang="en">Isaiah (Jacob of Edessa's recension)</dcterms:title>

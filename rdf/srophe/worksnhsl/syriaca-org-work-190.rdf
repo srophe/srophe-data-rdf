@@ -3,7 +3,7 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">Psalms (Theodotion)</rdfs:label>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib190-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/190"/>
         <dcterms:relation rdf:resource="#bib190-1"/>
@@ -12,10 +12,10 @@
         <dcterms:relation rdf:resource="#bib190-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/190"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9672"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/190#lawd:embodies-#bib190-3"/>
-        <snap:has-bond rdf:resource="#bib190-2#dcterms:source-#bib190-1"/>
-        <snap:has-bond rdf:resource="#bib190-2#lawd:hasCitation-http://syriaca.org/manuscript/91"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9672#skos:broadMatch-http://syriaca.org/work/190"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/190"/>
+        <dcterms:source rdf:resource="#bib190-2"/>
+        <lawd:hasCitation rdf:resource="#bib190-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9672"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/91"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/91"/>
@@ -28,38 +28,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/190/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/190/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/190/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib190-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/190"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/190#lawd:embodies-#bib190-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/190#lawd:embodies-#bib190-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/190"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/190"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib190-1">
-        <dcterms:relation rdf:resource="#bib190-2"/>
-        <snap:has-bond rdf:resource="#bib190-2#dcterms:source-#bib190-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib190-2#dcterms:source-#bib190-1">
-        <dcterms:source rdf:resource="#bib190-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/190"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/91">
-        <dcterms:relation rdf:resource="#bib190-2"/>
-        <snap:has-bond rdf:resource="#bib190-2#lawd:hasCitation-http://syriaca.org/manuscript/91"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib190-2#lawd:hasCitation-http://syriaca.org/manuscript/91">
-        <lawd:hasCitation rdf:resource="#bib190-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/190"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/190">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9672"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9672#skos:broadMatch-http://syriaca.org/work/190"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9672#skos:broadMatch-http://syriaca.org/work/190">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9672"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/190"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/190/html">
         <dcterms:title xml:lang="en">Psalms (Theodotion)</dcterms:title>

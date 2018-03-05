@@ -14,7 +14,7 @@
         <dcterms:description>
                      Et ces apôtres écrivirent aussi et apprirent à Jacques tout ce que le Seigneur avait accompli par leurs mains, et ils furent lus devant toute l’assemblée de l’Église et devant tout le peuple. Celui qui a écrit cette histoire est le bienheureux Adday, un des soixante-dix apôtres. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/1118"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/1118"/>
         <dcterms:relation rdf:resource="#bib298-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
         <dcterms:relation rdf:resource="#bib298-4"/>
@@ -25,11 +25,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1661"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/298"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1661"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -44,46 +44,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/298/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/298/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/298/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib298-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/298#lawd:embodies-#bib298-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/298"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib298-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/298#lawd:embodies-#bib298-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/298"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib298-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/298#lawd:embodies-#bib298-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/298"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib298-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/298"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/298#lawd:embodies-#bib298-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/298#lawd:embodies-#bib298-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/298"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/298"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/298">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1661"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/298"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/298">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1661"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/298"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/298/html">
         <dcterms:title xml:lang="en">The First Finding of the Cross (text)</dcterms:title>
@@ -113,6 +73,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/717"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The First Finding of the Cross (text)" in last modified December 12, 2016, http://syriaca.org/work/298</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/298/rdf">
+        <dcterms:title xml:lang="en">The First Finding of the Cross (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/298"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1993"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/717"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The First Finding of the Cross (text)" in last modified December 12, 2016, http://syriaca.org/work/298</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

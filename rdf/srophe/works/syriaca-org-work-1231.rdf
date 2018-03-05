@@ -20,12 +20,12 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1231"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/3004"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1682"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3004#syriaca:commemorated-http://syriaca.org/work/1231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1682#syriaca:commemorated-http://syriaca.org/work/1231"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3004"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1682"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1905"/>
@@ -40,52 +40,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1231/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1231/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1231/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1231-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1231#lawd:embodies-#bib1231-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1231-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1231#lawd:embodies-#bib1231-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1231-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1231#lawd:embodies-#bib1231-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1231-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1231"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1231#lawd:embodies-#bib1231-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1231#lawd:embodies-#bib1231-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1231"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1231">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/3004"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/3004#syriaca:commemorated-http://syriaca.org/work/1231"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1682"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1682#syriaca:commemorated-http://syriaca.org/work/1231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/3004#syriaca:commemorated-http://syriaca.org/work/1231">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/3004"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1231"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1682#syriaca:commemorated-http://syriaca.org/work/1231">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1682"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1231"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1231/html">
         <dcterms:title xml:lang="syr">ܕܝܣܩܪܘܣ</dcterms:title>
@@ -118,6 +72,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1905"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Dioscorus (text) — ܕܝܣܩܪܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1231</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1231/rdf">
+        <dcterms:title xml:lang="syr">ܕܝܣܩܪܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Dioscorus (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1231"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1905"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2079"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1905"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Dioscorus (text) — ܕܝܣܩܪܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1231</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

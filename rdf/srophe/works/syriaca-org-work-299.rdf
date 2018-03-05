@@ -22,10 +22,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/299"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/299"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1661"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/299#lawd:embodies-#bib299-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/299#lawd:embodies-#bib299-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/299#lawd:embodies-#bib299-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/299"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/299"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/299"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/299"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1661"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1697"/>
@@ -39,38 +39,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/299/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/299/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/299/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib299-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/299"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/299#lawd:embodies-#bib299-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/299#lawd:embodies-#bib299-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/299"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/299"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib299-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/299"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/299#lawd:embodies-#bib299-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/299#lawd:embodies-#bib299-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/299"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/299"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib299-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/299"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/299#lawd:embodies-#bib299-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/299#lawd:embodies-#bib299-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/299"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/299"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/299">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1661"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/299"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1661#syriaca:commemorated-http://syriaca.org/work/299">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1661"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/299"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/299/html">
         <dcterms:title xml:lang="en">The Cross Narrative (How it was Thrown into a Pit by Jews) (text)</dcterms:title>
@@ -97,6 +65,15 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1993"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Cross Narrative (How it was Thrown into a Pit by Jews) (text)" in last modified December 12, 2016, http://syriaca.org/work/299</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/299/rdf">
+        <dcterms:title xml:lang="en">The Cross Narrative (How it was Thrown into a Pit by Jews) (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/299"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1993"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "The Cross Narrative (How it was Thrown into a Pit by Jews) (text)" in last modified December 12, 2016, http://syriaca.org/work/299</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

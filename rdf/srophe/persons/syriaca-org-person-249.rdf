@@ -66,8 +66,6 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author was born at a known location.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_249"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/249"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
@@ -76,11 +74,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/69"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:bornAt-http://syriaca.org/person/249"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/451#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
+        <syriaca:bornAt rdf:resource="http://syriaca.org/place/130"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/451"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/130"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -96,40 +94,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/249/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/249/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/249/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/249">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:bornAt-http://syriaca.org/person/249"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/130#syriaca:bornAt-http://syriaca.org/person/249">
-        <syriaca:bornAt rdf:resource="http://syriaca.org/place/130"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/249"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/249">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/451"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/451#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/221"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/69"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/130"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/249"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/451#syriaca:hasRelationToPlace-http://syriaca.org/person/249">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/451"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/249"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/221#syriaca:hasRelationToPlace-http://syriaca.org/person/249">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/221"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/249"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/69#syriaca:hasRelationToPlace-http://syriaca.org/person/249">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/69"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/249"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/130#syriaca:hasRelationToPlace-http://syriaca.org/person/249">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/130"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/249"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/249/html">
         <dcterms:title xml:lang="syr">
@@ -177,6 +141,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius I (V) bar Wahib — ܒܪ ܘܗܝܒ" in last modified August 17, 2016, http://syriaca.org/person/249</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/249/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܒܪ ܘܗܝܒ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">Ignatius I (V) bar
+                    Wahib</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/249"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2499"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ignatius I (V) bar Wahib — ܒܪ ܘܗܝܒ" in last modified August 17, 2016, http://syriaca.org/person/249</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

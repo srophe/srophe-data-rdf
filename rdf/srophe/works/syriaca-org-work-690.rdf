@@ -21,7 +21,7 @@
         <dcterms:description>
                      Et qu’il nous garde tous dans la foi orthodoxe et l’observance des saints commandements, jusqu’au dernier souffle, et que dans toute notre vie nous fassions ce qui lui plait et qu’en imitant les actes vertueux de notre Père nous pavenions aussi avec lui à la fin heureuse et à la part échue aux sains dans la lumière. Et tous ensemble en tout temps rendons gloire… Amen 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/97"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/97"/>
         <dcterms:relation rdf:resource="#bib690-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
         <dcterms:relation rdf:resource="#bib690-4"/>
@@ -32,11 +32,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/93"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/93#syriaca:commemorated-http://syriaca.org/work/690"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/93"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1881"/>
@@ -51,46 +51,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/690/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/690/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/690/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib690-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/690#lawd:embodies-#bib690-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/690"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib690-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/690#lawd:embodies-#bib690-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/690"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib690-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/690#lawd:embodies-#bib690-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/690"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib690-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/690"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/690#lawd:embodies-#bib690-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/690#lawd:embodies-#bib690-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/690"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/690"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/690">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/93"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/93#syriaca:commemorated-http://syriaca.org/work/690"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/93#syriaca:commemorated-http://syriaca.org/work/690">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/93"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/690"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/690/html">
         <dcterms:title xml:lang="syr">ܡܪܘܬܐ</dcterms:title>
@@ -123,6 +83,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/829"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Marutha of Tagrit (text) — ܡܪܘܬܐ" in last modified December 12, 2016, http://syriaca.org/work/690</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/690/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܘܬܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Marutha of Tagrit (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/690"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1881"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1881"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/829"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Marutha of Tagrit (text) — ܡܪܘܬܐ" in last modified December 12, 2016, http://syriaca.org/work/690</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

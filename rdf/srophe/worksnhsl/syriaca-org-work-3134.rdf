@@ -9,7 +9,7 @@
         <dcterms:description>
                       part 1.60 
                   </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="#bib3134-1"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3134"/>
         <dcterms:relation rdf:resource="#bib3134-2"/>
@@ -22,12 +22,12 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/3134"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3134"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3134"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/670"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/666"/>
@@ -42,54 +42,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3134/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3134/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/3134/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3134-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3134"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3134#lawd:embodies-#bib3134-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3134-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3134"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3134#lawd:embodies-#bib3134-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3134-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3134"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3134#lawd:embodies-#bib3134-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib3134-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/3134"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/3134#lawd:embodies-#bib3134-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3134#lawd:embodies-#bib3134-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/3134"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3134">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10541"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10541#dcterms:isPartOf-http://syriaca.org/work/3134">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10541"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/3134">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10543"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3134"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10543#dcterms:isPartOf-http://syriaca.org/work/3134">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10543"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/3134"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/3134/html">
         <dcterms:title xml:lang="en">To Photius and Andrew, Archimandrites of the Monasteries in Caria</dcterms:title>

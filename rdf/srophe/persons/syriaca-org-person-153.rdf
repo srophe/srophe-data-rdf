@@ -57,18 +57,16 @@
         <dcterms:description/>
         <dcterms:description>In the Syriac text of Barsoum, the description of Basilius has been appended to the end of the previous entry (Benjamin of Edessa) without a heading, and the entry (as it is) does not include Basilius' name.</dcterms:description>
         <dcterms:description>bishop of Samosata</dcterms:description>
-        <dcterms:description>This author has a literary connection to a place.</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_153"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/178"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/153"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/153"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/178#syriaca:hasRelationToPlace-http://syriaca.org/person/153"/>
+        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/78"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/178"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -80,28 +78,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/153/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/153/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/153/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/153">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/78"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/78#syriaca:hasLiteraryConnectionToPlace-http://syriaca.org/person/153">
-        <syriaca:hasLiteraryConnectionToPlace rdf:resource="http://syriaca.org/place/78"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/153">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/153"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/178"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/178#syriaca:hasRelationToPlace-http://syriaca.org/person/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/153">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/178#syriaca:hasRelationToPlace-http://syriaca.org/person/153">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/178"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/153"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/153/html">
         <dcterms:title xml:lang="syr">
@@ -134,6 +110,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Basil of Samosata — ܒܣܝܠܝܘܣ ܕܫܡܝܫܛ" in last modified August 17, 2016, http://syriaca.org/person/153</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/153/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܒܣܝܠܝܘܣ 
+                         ܕܫܡܝܫܛ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/153"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Basil of Samosata — ܒܣܝܠܝܘܣ ܕܫܡܝܫܛ" in last modified August 17, 2016, http://syriaca.org/person/153</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -74,12 +74,11 @@
         <dcterms:description/>
         <dcterms:description>St.</dcterms:description>
         <dcterms:description>bishop of Sardis</dcterms:description>
-        <dcterms:description>This author is possibly identical with the author represented in another record</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_1083"/>
         <dcterms:relation rdf:resource="#person-1083"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/631"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/631#syriaca:possiblyIdentical-#person-1083"/>
-        <snap:has-bond rdf:resource="#person-1083#syriaca:possiblyIdentical-http://syriaca.org/person/631"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/631"/>
+        <syriaca:possiblyIdentical rdf:resource="#person-1083"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
@@ -93,22 +92,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1083/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1083/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1083/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-1083">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/631"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/631#syriaca:possiblyIdentical-#person-1083"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/631#syriaca:possiblyIdentical-#person-1083">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/631"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/1083"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/631">
-        <dcterms:relation rdf:resource="#person-1083"/>
-        <snap:has-bond rdf:resource="#person-1083#syriaca:possiblyIdentical-http://syriaca.org/person/631"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-1083#syriaca:possiblyIdentical-http://syriaca.org/person/631">
-        <syriaca:possiblyIdentical rdf:resource="#person-1083"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/1083"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/1083/html">
         <dcterms:title xml:lang="en">
@@ -156,6 +139,22 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Melito, bishop of Sardis — ܡܝܠܝܛܘܢ ܕܣܐܪܕܝܣ" in last modified August 17, 2016, http://syriaca.org/person/1083</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/1083/rdf">
+        <dcterms:title xml:lang="en">
+                         Melito ,  bishop of Sardis 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܡܝܠܝܛܘܢ 
+                         ܕܣܐܪܕܝܣ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/1083"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Melito, bishop of Sardis — ܡܝܠܝܛܘܢ ܕܣܐܪܕܝܣ" in last modified August 17, 2016, http://syriaca.org/person/1083</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

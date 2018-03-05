@@ -8,9 +8,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount/tei"/>
@@ -20,30 +20,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sermon-on-the-mount">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/christianity#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/christianity"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sermon-on-the-mount">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sermon-on-the-mount">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/sermon-on-the-mount">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/sermon-on-the-mount/html">
         <dcterms:title xml:lang="en">Sermon on the Mount</dcterms:title>
@@ -61,6 +37,12 @@
         <dcterms:title xml:lang="en">Sermon on the Mount</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sermon on the Mount" in last modified May 5, 2017, http://syriaca.org/keyword/sermon-on-the-mount</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/sermon-on-the-mount/rdf">
+        <dcterms:title xml:lang="en">Sermon on the Mount</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/sermon-on-the-mount"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sermon on the Mount" in last modified May 5, 2017, http://syriaca.org/keyword/sermon-on-the-mount</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

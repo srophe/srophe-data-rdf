@@ -5,7 +5,7 @@
         <rdfs:label xml:lang="en">Antigone and Eupraxia (text)</rdfs:label>
         <dcterms:relation rdf:resource="#bib1641-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1641"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1641#lawd:embodies-#bib1641-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1641"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -17,14 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1641/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1641/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1641/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1641-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1641"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1641#lawd:embodies-#bib1641-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1641#lawd:embodies-#bib1641-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1641"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1641"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1641/html">
         <dcterms:title xml:lang="syr">ܐܢܛܝܓܘܢܘܣ ܘܐܘܦܪܐܟܣܝܐ</dcterms:title>
@@ -48,6 +40,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1641"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Antigone and Eupraxia (text) — ܐܢܛܝܓܘܢܘܣ ܘܐܘܦܪܐܟܣܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1641</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1641/rdf">
+        <dcterms:title xml:lang="syr">ܐܢܛܝܓܘܢܘܣ ܘܐܘܦܪܐܟܣܝܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Antigone and Eupraxia (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1641"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Antigone and Eupraxia (text) — ܐܢܛܝܓܘܢܘܣ ܘܐܘܦܪܐܟܣܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1641</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -83,17 +83,16 @@
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>In hagiography: Shallitha was a monk of Beth Zabdai on the mountain of Shaba.</dcterms:description>
-        <dcterms:description>Not the same as Shalliṭa of Reshʿayna (http://syriaca.org/person/734)</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_733"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=M&amp;sK=Mar Shalita&amp;sT=keywords"/>
         <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=S&amp;sK=St Shalita&amp;sT=keywords"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/733"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/work/256"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/work/1592"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/733"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/256"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/work/1592"/>
         <dcterms:relation rdf:resource="#person-733"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/734"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/734#syriaca:differentFrom-#person-733"/>
-        <snap:has-bond rdf:resource="#person-733#syriaca:differentFrom-http://syriaca.org/person/734"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/734"/>
+        <syriaca:differentFrom rdf:resource="#person-733"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/501"/>
@@ -114,22 +113,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/733/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/733/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/733/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-733">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/734"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/734#syriaca:differentFrom-#person-733"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/734#syriaca:differentFrom-#person-733">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/734"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/733"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/734">
-        <dcterms:relation rdf:resource="#person-733"/>
-        <snap:has-bond rdf:resource="#person-733#syriaca:differentFrom-http://syriaca.org/person/734"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-733#syriaca:differentFrom-http://syriaca.org/person/734">
-        <syriaca:differentFrom rdf:resource="#person-733"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/733"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/733/html">
         <dcterms:title xml:lang="syr">
@@ -189,6 +172,26 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1414"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Shalita — ܡܪܝ ܫܠܝܛܐ" in last modified August 17, 2016, http://syriaca.org/person/733</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/733/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܡܪܝ 
+                         ܫܠܝܛܐ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">Shalita</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/733"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/501"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/650"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1697"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1314"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1340"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1345"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1414"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Nathan P. Gibson, (eds.), "Shalita — ܡܪܝ ܫܠܝܛܐ" in last modified August 17, 2016, http://syriaca.org/person/733</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

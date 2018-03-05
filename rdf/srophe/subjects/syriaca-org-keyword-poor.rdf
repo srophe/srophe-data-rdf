@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/persons"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/poor"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/poor"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/poor"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/poor"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/persons"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/poor/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/poor/tei"/>
@@ -21,30 +21,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/poor/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/poor"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/poor">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/poor"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/persons"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/poor"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/persons#skos:broadMatch-http://syriaca.org/keyword/poor">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/persons"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/poor"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/poor">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/poor"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/socioeconomic-status#skos:broadMatch-http://syriaca.org/keyword/poor">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/socioeconomic-status"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/poor"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/poor/html">
         <dcterms:title xml:lang="en">Poor</dcterms:title>
@@ -62,6 +38,12 @@
         <dcterms:title xml:lang="en">Poor</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/poor"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Poor" in last modified May 5, 2017, http://syriaca.org/keyword/poor</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/poor/rdf">
+        <dcterms:title xml:lang="en">Poor</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/poor"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Poor" in last modified May 5, 2017, http://syriaca.org/keyword/poor</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

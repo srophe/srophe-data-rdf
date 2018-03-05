@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Zena (text)</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1404"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2159"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2159#syriaca:commemorated-http://syriaca.org/work/1404"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2159"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -17,14 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1404/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1404/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1404/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1404">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2159"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2159#syriaca:commemorated-http://syriaca.org/work/1404"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2159#syriaca:commemorated-http://syriaca.org/work/1404">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2159"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1404"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1404/html">
         <dcterms:title xml:lang="en">Zena (text)</dcterms:title>
@@ -48,6 +40,14 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1082"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Zena (text)" in last modified December 12, 2016, http://syriaca.org/work/1404</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1404/rdf">
+        <dcterms:title xml:lang="en">Zena (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1404"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1082"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Zena (text)" in last modified December 12, 2016, http://syriaca.org/work/1404</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

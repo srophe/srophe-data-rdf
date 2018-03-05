@@ -5,7 +5,7 @@
         <skos:closeMatch rdf:resource="http://id.loc.gov/authorities/subjects/sh85059867"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/hebrew-language"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/languages"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/languages#skos:broadMatch-http://syriaca.org/keyword/hebrew-language"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/languages"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/hebrew-language/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/hebrew-language/tei"/>
@@ -15,14 +15,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/hebrew-language/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/hebrew-language/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/hebrew-language/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/hebrew-language">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/languages"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/languages#skos:broadMatch-http://syriaca.org/keyword/hebrew-language"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/languages#skos:broadMatch-http://syriaca.org/keyword/hebrew-language">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/languages"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/hebrew-language"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/hebrew-language/html">
         <dcterms:title xml:lang="en">Hebrew language</dcterms:title>
@@ -40,6 +32,12 @@
         <dcterms:title xml:lang="en">Hebrew language</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/hebrew-language"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Hebrew language" in last modified May 5, 2017, http://syriaca.org/keyword/hebrew-language</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/hebrew-language/rdf">
+        <dcterms:title xml:lang="en">Hebrew language</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/hebrew-language"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Hebrew language" in last modified May 5, 2017, http://syriaca.org/keyword/hebrew-language</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

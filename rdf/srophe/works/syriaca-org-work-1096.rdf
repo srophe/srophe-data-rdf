@@ -15,7 +15,7 @@
         <dcterms:description>
                      Comme il méprisait grandement leurs coups et leurs menaces, il fut décapité dans le village même où il s’était enfui, le cinq Shbat. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/901"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/901"/>
         <dcterms:relation rdf:resource="#bib1096-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1096"/>
         <dcterms:relation rdf:resource="#bib1096-3"/>
@@ -24,10 +24,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1096"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1096"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1552"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1096#lawd:embodies-#bib1096-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1096#lawd:embodies-#bib1096-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1096#lawd:embodies-#bib1096-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1552#syriaca:commemorated-http://syriaca.org/work/1096"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1096"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1096"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1096"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1552"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1883"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1096/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1096/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1096/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1096-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1096"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1096#lawd:embodies-#bib1096-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1096#lawd:embodies-#bib1096-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1096"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1096"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1096-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1096"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1096#lawd:embodies-#bib1096-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1096#lawd:embodies-#bib1096-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1096"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1096"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1096-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1096"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1096#lawd:embodies-#bib1096-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1096#lawd:embodies-#bib1096-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1096"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1096"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1096">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1552"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1552#syriaca:commemorated-http://syriaca.org/work/1096"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1552#syriaca:commemorated-http://syriaca.org/work/1096">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1552"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1096"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1096/html">
         <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
@@ -102,6 +70,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham II of Adiabene (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/1096</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1096/rdf">
+        <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
+        <dcterms:title xml:lang="en">Abraham II of Adiabene (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1096"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1883"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham II of Adiabene (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/1096</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

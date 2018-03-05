@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">The Book of Women (Peshitta)</rdfs:label>
         <dcterms:description>defective</dcterms:description>
         <dcterms:description>Digital catalogue based on William Wright. See the citation from the print catalogue.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib211-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/211"/>
         <dcterms:relation rdf:resource="#bib211-1"/>
@@ -13,10 +13,10 @@
         <dcterms:relation rdf:resource="#bib211-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/211"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/9695"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/211#lawd:embodies-#bib211-3"/>
-        <snap:has-bond rdf:resource="#bib211-2#dcterms:source-#bib211-1"/>
-        <snap:has-bond rdf:resource="#bib211-2#lawd:hasCitation-http://syriaca.org/manuscript/119"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9695#skos:broadMatch-http://syriaca.org/work/211"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/211"/>
+        <dcterms:source rdf:resource="#bib211-2"/>
+        <lawd:hasCitation rdf:resource="#bib211-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9695"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/119"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/119"/>
@@ -29,38 +29,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/211/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/211/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/211/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib211-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/211"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/211#lawd:embodies-#bib211-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/211#lawd:embodies-#bib211-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/211"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/211"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib211-1">
-        <dcterms:relation rdf:resource="#bib211-2"/>
-        <snap:has-bond rdf:resource="#bib211-2#dcterms:source-#bib211-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib211-2#dcterms:source-#bib211-1">
-        <dcterms:source rdf:resource="#bib211-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/211"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/119">
-        <dcterms:relation rdf:resource="#bib211-2"/>
-        <snap:has-bond rdf:resource="#bib211-2#lawd:hasCitation-http://syriaca.org/manuscript/119"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib211-2#lawd:hasCitation-http://syriaca.org/manuscript/119">
-        <lawd:hasCitation rdf:resource="#bib211-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/211"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/211">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9695"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9695#skos:broadMatch-http://syriaca.org/work/211"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9695#skos:broadMatch-http://syriaca.org/work/211">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9695"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/211"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/211/html">
         <dcterms:title xml:lang="en">The Book of Women (Peshitta)</dcterms:title>

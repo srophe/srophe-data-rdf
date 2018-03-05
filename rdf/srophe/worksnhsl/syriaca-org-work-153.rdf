@@ -7,7 +7,7 @@
                              book 2 
                              part 4 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib153-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/153"/>
         <dcterms:relation rdf:resource="#bib153-1"/>
@@ -18,11 +18,11 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9527"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/153"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/151"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/153#lawd:embodies-#bib153-3"/>
-        <snap:has-bond rdf:resource="#bib153-2#dcterms:source-#bib153-1"/>
-        <snap:has-bond rdf:resource="#bib153-2#lawd:hasCitation-http://syriaca.org/manuscript/85"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9527#skos:broadMatch-http://syriaca.org/work/153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/151#dcterms:isPartOf-http://syriaca.org/work/153"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/153"/>
+        <dcterms:source rdf:resource="#bib153-2"/>
+        <lawd:hasCitation rdf:resource="#bib153-2"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9527"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/151"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/85"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/manuscript/85"/>
@@ -35,46 +35,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/153/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/153/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/153/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib153-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/153"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/153#lawd:embodies-#bib153-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/153#lawd:embodies-#bib153-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/153"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib153-1">
-        <dcterms:relation rdf:resource="#bib153-2"/>
-        <snap:has-bond rdf:resource="#bib153-2#dcterms:source-#bib153-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib153-2#dcterms:source-#bib153-1">
-        <dcterms:source rdf:resource="#bib153-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/85">
-        <dcterms:relation rdf:resource="#bib153-2"/>
-        <snap:has-bond rdf:resource="#bib153-2#lawd:hasCitation-http://syriaca.org/manuscript/85"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib153-2#lawd:hasCitation-http://syriaca.org/manuscript/85">
-        <lawd:hasCitation rdf:resource="#bib153-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/153">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9527"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9527#skos:broadMatch-http://syriaca.org/work/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9527#skos:broadMatch-http://syriaca.org/work/153">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9527"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/153">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/151"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/151#dcterms:isPartOf-http://syriaca.org/work/153"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/151#dcterms:isPartOf-http://syriaca.org/work/153">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/151"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/153"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/153/html">
         <dcterms:title xml:lang="en">Second Samuel including First Kings (Jacob of Edessa's recension)</dcterms:title>

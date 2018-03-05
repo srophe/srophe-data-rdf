@@ -63,13 +63,12 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_71"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/71"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/71"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/216#syriaca:hasRelationToPlace-http://syriaca.org/person/71"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/216"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -83,20 +82,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/71/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/71/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/71/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/71">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/230"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/71"/>
-        <dcterms:relation rdf:resource="http://syriaca.org/place/216"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/216#syriaca:hasRelationToPlace-http://syriaca.org/person/71"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/230#syriaca:hasRelationToPlace-http://syriaca.org/person/71">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/230"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/71"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/216#syriaca:hasRelationToPlace-http://syriaca.org/person/71">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/216"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/71"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/71/html">
         <dcterms:title xml:lang="syr">
@@ -135,6 +120,19 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Sergius bar Karyo — ܣܪܓܝܣ ܒܪ ܟܪܝܐ" in last modified August 17, 2016, http://syriaca.org/person/71</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/71/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܣܪܓܝܣ 
+                         ܒܪ ܟܪܝܐ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/71"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Sergius bar Karyo — ܣܪܓܝܣ ܒܪ ܟܪܝܐ" in last modified August 17, 2016, http://syriaca.org/person/71</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

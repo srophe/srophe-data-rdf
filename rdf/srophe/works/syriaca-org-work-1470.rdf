@@ -12,13 +12,13 @@
         <dcterms:description>
                      … alors lors qu’elle seule parmi toutes les tribus du monde a été jugée digne d’être la Mère du Dieu Verbe qui a pris chair d’elle et s’est fait homme, et qui a accompli tout ce que les prophètes avaient d’avance prophétise à son sujet. À lui… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/173"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/173"/>
         <dcterms:relation rdf:resource="#bib1470-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1470"/>
         <dcterms:relation rdf:resource="#bib1470-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1470"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1470#lawd:embodies-#bib1470-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1470#lawd:embodies-#bib1470-3"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1470"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1470"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -30,22 +30,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1470/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1470/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1470/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1470-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1470"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1470#lawd:embodies-#bib1470-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1470#lawd:embodies-#bib1470-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1470"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1470"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1470-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1470"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1470#lawd:embodies-#bib1470-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1470#lawd:embodies-#bib1470-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1470"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1470"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1470/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
@@ -69,6 +53,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1470"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (the Visitation) (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1470</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1470/rdf">
+        <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Mary Mother of God (the Visitation) (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1470"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Mary Mother of God (the Visitation) (text) — ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ" in last modified December 12, 2016, http://syriaca.org/work/1470</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

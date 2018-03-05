@@ -15,13 +15,10 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description>A presbyter of Antioch and recipient of a letter from Peter, Bishop of Apamea.</dcterms:description>
-        <dcterms:description>This person is possibly identical
-                                                with one or more persons represented in another
-                                                record</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2515"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2770"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2770#syriaca:possiblyIdentical-http://syriaca.org/person/2515"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2515#syriaca:possiblyIdentical-http://syriaca.org/person/2770"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2770"/>
+        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2515"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/666"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/668"/>
@@ -35,22 +32,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2515/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2515/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2515/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2515">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2770"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2770#syriaca:possiblyIdentical-http://syriaca.org/person/2515"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2770#syriaca:possiblyIdentical-http://syriaca.org/person/2515">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2770"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2515"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2770">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2515"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2515#syriaca:possiblyIdentical-http://syriaca.org/person/2770"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2515#syriaca:possiblyIdentical-http://syriaca.org/person/2770">
-        <syriaca:possiblyIdentical rdf:resource="http://syriaca.org/person/2515"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2515"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/2515/html">
         <dcterms:title xml:lang="en">Thomas</dcterms:title>
@@ -83,6 +64,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Thomas — ܬܐܘܡܐ ܩܫܝܫܐ" in last modified August 17, 2016, http://syriaca.org/person/2515</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2515/rdf">
+        <dcterms:title xml:lang="en">Thomas</dcterms:title>
+        <dcterms:title xml:lang="syr">ܬܐܘܡܐ ܩܫܝܫܐ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2515"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/666"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/668"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Daniel L. Schwartz (eds.), "Thomas — ܬܐܘܡܐ ܩܫܝܫܐ" in last modified August 17, 2016, http://syriaca.org/person/2515</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

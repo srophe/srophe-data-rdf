@@ -92,15 +92,14 @@
                         of  Ibn Kullāb  in 854/855. 
                         For more details, see the entries linked above.</dcterms:description>
         <dcterms:description>East Syrian</dcterms:description>
-        <dcterms:description>Not the same as Pethion (http://syriaca.org/person/1409)</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_996"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/472"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/1409"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/35"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/472"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/1409"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/35"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/http://syriaca.org/person/996"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1409"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1409#syriaca:differentFrom-http://syriaca.org/person/http://syriaca.org/person/996"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/http://syriaca.org/person/996#syriaca:differentFrom-http://syriaca.org/person/1409"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1409"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/http://syriaca.org/person/996"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1601"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2203"/>
@@ -115,22 +114,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/996/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/996/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/996/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/http://syriaca.org/person/996">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1409"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1409#syriaca:differentFrom-http://syriaca.org/person/http://syriaca.org/person/996"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1409#syriaca:differentFrom-http://syriaca.org/person/http://syriaca.org/person/996">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1409"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/996"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1409">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/http://syriaca.org/person/996"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/http://syriaca.org/person/996#syriaca:differentFrom-http://syriaca.org/person/1409"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/http://syriaca.org/person/996#syriaca:differentFrom-http://syriaca.org/person/1409">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/http://syriaca.org/person/996"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/996"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/996/html">
         <dcterms:title xml:lang="en">
@@ -187,6 +170,25 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Pethion — ܦܬܝܘܢ" in last modified August 17, 2016, http://syriaca.org/person/996</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/996/rdf">
+        <dcterms:title xml:lang="en">
+                         Pethion 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܦܬܝܘܢ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en-x-gedsh">
+                         Pethion 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/996"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1601"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2203"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2204"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/639"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Pethion — ܦܬܝܘܢ" in last modified August 17, 2016, http://syriaca.org/person/996</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

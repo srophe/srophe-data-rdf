@@ -39,12 +39,11 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>Not the Maronite Patriarch Sarkīs al-Rizzī (http://syriaca.org/person/1082) but his nephew.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_1073"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1073"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1082"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1082#syriaca:differentFrom-http://syriaca.org/person/1073"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1073#syriaca:differentFrom-http://syriaca.org/person/1082"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1082"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1073"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/person/1073/html"/>
@@ -55,22 +54,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1073/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1073/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/1073/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1073">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1082"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1082#syriaca:differentFrom-http://syriaca.org/person/1073"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1082#syriaca:differentFrom-http://syriaca.org/person/1073">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1082"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/1073"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1082">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1073"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1073#syriaca:differentFrom-http://syriaca.org/person/1082"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1073#syriaca:differentFrom-http://syriaca.org/person/1082">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/1073"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/1073"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/1073/html">
         <dcterms:title xml:lang="syr">
@@ -112,6 +95,20 @@
         <dcterms:subject rdf:resource="http://syriaca.org/person/1073"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Sergius al-Rizzi — ܣܪܓܝܣ ܪܙܝ" in last modified August 17, 2016, http://syriaca.org/person/1073</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/1073/rdf">
+        <dcterms:title xml:lang="syr">
+                         ܣܪܓܝܣ 
+                         ܪܙܝ 
+                    </dcterms:title>
+        <dcterms:title xml:lang="en">
+                         Sergius 
+                         al-Rizzi 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/1073"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/642"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson, Thomas A. Carlson and Nathan P. Gibson, (eds.), "Sergius al-Rizzi — ܣܪܓܝܣ ܪܙܝ" in last modified August 17, 2016, http://syriaca.org/person/1073</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

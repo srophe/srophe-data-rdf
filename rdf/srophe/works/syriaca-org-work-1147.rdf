@@ -23,10 +23,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1147"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1147"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1191"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1147#lawd:embodies-#bib1147-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1147#lawd:embodies-#bib1147-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1147#lawd:embodies-#bib1147-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1191#syriaca:commemorated-http://syriaca.org/work/1147"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1147"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1147"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1147"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1191"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1761"/>
@@ -41,38 +41,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1147/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1147/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1147/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1147-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1147"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1147#lawd:embodies-#bib1147-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1147#lawd:embodies-#bib1147-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1147"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1147"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1147-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1147"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1147#lawd:embodies-#bib1147-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1147#lawd:embodies-#bib1147-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1147"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1147"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1147-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1147"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1147#lawd:embodies-#bib1147-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1147#lawd:embodies-#bib1147-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1147"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1147"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1147">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1191"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1191#syriaca:commemorated-http://syriaca.org/work/1147"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1191#syriaca:commemorated-http://syriaca.org/work/1147">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1191"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1147"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1147/html">
         <dcterms:title xml:lang="syr">ܝܗܘܕܐ ܩܘܪܝܩܘܣ</dcterms:title>
@@ -105,6 +73,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1116"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Judas Cyriacus (text) — ܝܗܘܕܐ ܩܘܪܝܩܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1147</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1147/rdf">
+        <dcterms:title xml:lang="syr">ܝܗܘܕܐ ܩܘܪܝܩܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Judas Cyriacus (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1147"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1761"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1761"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1116"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Judas Cyriacus (text) — ܝܗܘܕܐ ܩܘܪܝܩܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1147</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

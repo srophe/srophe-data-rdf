@@ -21,7 +21,7 @@
         <dcterms:description>
                      Et il devint un bel exemple pour ceux qui le virent et cause de vie pour ceux qui l’entendirent; et à cause de cela lui est gardée la couronne de la justice auprès du Christ qu’il a aimé plus que tout. À lui la gloire et sur nout souts sa miséricorde pour les siècles de siècles. Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/781"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/781"/>
         <dcterms:relation rdf:resource="#bib1484-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1484"/>
         <dcterms:relation rdf:resource="#bib1484-3"/>
@@ -30,10 +30,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/1484"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1484"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1549"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1484#lawd:embodies-#bib1484-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1484#lawd:embodies-#bib1484-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1484#lawd:embodies-#bib1484-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1549#syriaca:commemorated-http://syriaca.org/work/1484"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1484"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1484"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1484"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1549"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2081"/>
@@ -47,38 +47,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1484/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1484/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1484/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1484-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1484"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1484#lawd:embodies-#bib1484-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1484#lawd:embodies-#bib1484-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1484"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1484"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1484-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1484"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1484#lawd:embodies-#bib1484-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1484#lawd:embodies-#bib1484-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1484"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1484"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1484-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1484"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1484#lawd:embodies-#bib1484-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1484#lawd:embodies-#bib1484-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1484"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1484"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1484">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1549"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1549#syriaca:commemorated-http://syriaca.org/work/1484"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1549#syriaca:commemorated-http://syriaca.org/work/1484">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1549"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1484"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1484/html">
         <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
@@ -108,6 +76,16 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham of Harran (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/1484</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1484/rdf">
+        <dcterms:title xml:lang="syr">ܐܒܪܗܡ</dcterms:title>
+        <dcterms:title xml:lang="en">Abraham of Harran (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1484"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2081"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Abraham of Harran (text) — ܐܒܪܗܡ" in last modified December 12, 2016, http://syriaca.org/work/1484</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

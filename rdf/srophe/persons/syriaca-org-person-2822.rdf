@@ -51,12 +51,11 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description>Rabban Sliba (father of  Rabban Joshua ) was a monastic author who composed a martyrology in the late thirteenth century or early fourteenth century (some time after the death of  Bar ʿEbroyo ). One source describes him as being from  Ḥaḥ .</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to places.</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/239"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/place/217"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/239"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/place/217"/>
         <dcterms:relation rdf:resource="#person-2822"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/217"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/217#syriaca:hasRelationToPlace-#person-2822"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/217"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1396"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/person/2822/html"/>
@@ -67,14 +66,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2822/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2822/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/2822/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-2822">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/217"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/217#syriaca:hasRelationToPlace-#person-2822"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/217#syriaca:hasRelationToPlace-#person-2822">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/217"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/2822"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/2822/html">
         <dcterms:title xml:lang="en">
@@ -107,6 +98,17 @@
         <dcterms:subject rdf:resource="http://syriaca.org/person/2822"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1396"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson (eds.), "Sliba of Hah, Rabban" in last modified August 17, 2016, http://syriaca.org/person/2822</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/2822/rdf">
+        <dcterms:title xml:lang="en">
+                         Sliba 
+                         of Hah ,  Rabban 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr-Syrj">ܪܒܢ ܨܠܝܒܐ ܚܐܚܝܐ</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/2822"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1396"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">David A. Michelson (eds.), "Sliba of Hah, Rabban" in last modified August 17, 2016, http://syriaca.org/person/2822</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -14,13 +14,13 @@
         <dcterms:description>
                      Et tout comme eux ont couru vers une glorification indicible, nous aussi courons courageusement et souffrons avec eux pour être aussi couronnés glorieusement avec eux dans le Christ Jésus notre Seigneur, à qui… des siècles. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/573"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/573"/>
         <dcterms:relation rdf:resource="#bib1277-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1277"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1277"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1605"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1277#lawd:embodies-#bib1277-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1605#syriaca:commemorated-http://syriaca.org/work/1277"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1277"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1605"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -32,22 +32,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1277/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1277/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1277/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1277-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1277"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1277#lawd:embodies-#bib1277-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1277#lawd:embodies-#bib1277-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1277"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1277">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1605"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1605#syriaca:commemorated-http://syriaca.org/work/1277"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1605#syriaca:commemorated-http://syriaca.org/work/1277">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1605"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1277"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1277/html">
         <dcterms:title xml:lang="en">Apostles (text)</dcterms:title>
@@ -68,6 +52,13 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1277"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Apostles (text)" in last modified December 12, 2016, http://syriaca.org/work/1277</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1277/rdf">
+        <dcterms:title xml:lang="en">Apostles (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1277"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Apostles (text)" in last modified December 12, 2016, http://syriaca.org/work/1277</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

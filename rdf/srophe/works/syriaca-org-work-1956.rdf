@@ -15,16 +15,16 @@
         <dcterms:description>
                      Et quand toutes les foules eurent été jugées dignes des grandes grâces, elles rentrèrent chez elles joyeux et louant Dieu. Bryènè, la supérieure du monastère, vécut deux ans après la dédicace du temple de Fébornie… Moi la pauvre Thomaïs, après Bryènè, j’ai reçu la charge… Pour qu’eux aussi soient jugés dignes du royaume céleste dans le Christ Jésus notre Seigneur, à qui… Amen. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/2807"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2807"/>
         <dcterms:relation rdf:resource="#bib1956-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1956"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1956"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1240"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1956"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2807"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1956#lawd:embodies-#bib1956-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1240#syriaca:commemorated-http://syriaca.org/work/1956"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2807#syriaca:commemorated-http://syriaca.org/work/1956"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1956"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1240"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2807"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -36,30 +36,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1956/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1956/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1956/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1956-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1956"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1956#lawd:embodies-#bib1956-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1956#lawd:embodies-#bib1956-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1956"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1956"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1956">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1240"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1240#syriaca:commemorated-http://syriaca.org/work/1956"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1240#syriaca:commemorated-http://syriaca.org/work/1956">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1240"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1956"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1956">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/2807"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/2807#syriaca:commemorated-http://syriaca.org/work/1956"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/2807#syriaca:commemorated-http://syriaca.org/work/1956">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/2807"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1956"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1956/html">
         <dcterms:title xml:lang="syr">ܦܒܪܘܢܝܐ</dcterms:title>
@@ -83,6 +59,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1956"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Febronia (text) — ܦܒܪܘܢܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1956</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1956/rdf">
+        <dcterms:title xml:lang="syr">ܦܒܪܘܢܝܐ</dcterms:title>
+        <dcterms:title xml:lang="en">Febronia (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1956"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Febronia (text) — ܦܒܪܘܢܝܐ" in last modified December 12, 2016, http://syriaca.org/work/1956</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

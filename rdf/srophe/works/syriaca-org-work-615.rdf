@@ -14,7 +14,7 @@
         <dcterms:description>
                      Parce que vous avez fait sa volonté, lui fait vos volontés, par ce qu’il vous a appelés et que vous lui avez répondu, il répondra par vous à celui qui l’a appelé; puisse-t-il par vous me répondre à moi qui l’ai appelé. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib615-2"/>
         <dcterms:relation rdf:resource="#bib615-4"/>
         <dcterms:relation rdf:resource="#bib615-2"/>
@@ -31,14 +31,14 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
         <dcterms:relation rdf:resource="#bib615-7"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="#bib615-4#dcterms:source-#bib615-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-2"/>
-        <snap:has-bond rdf:resource="#bib615-7#dcterms:source-#bib615-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-3"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-4"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-7"/>
+        <dcterms:source rdf:resource="#bib615-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
+        <dcterms:source rdf:resource="#bib615-7"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1770"/>
@@ -54,70 +54,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/615/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/615/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/615/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-2">
-        <dcterms:relation rdf:resource="#bib615-4"/>
-        <snap:has-bond rdf:resource="#bib615-4#dcterms:source-#bib615-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-4#dcterms:source-#bib615-2">
-        <dcterms:source rdf:resource="#bib615-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/615#lawd:embodies-#bib615-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-3">
-        <dcterms:relation rdf:resource="#bib615-7"/>
-        <snap:has-bond rdf:resource="#bib615-7#dcterms:source-#bib615-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-7#dcterms:source-#bib615-3">
-        <dcterms:source rdf:resource="#bib615-7"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-3">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/615#lawd:embodies-#bib615-3">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-4">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-4"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/615#lawd:embodies-#bib615-4">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/615#lawd:embodies-#bib615-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/615#lawd:embodies-#bib615-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib615-7">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/615"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/615#lawd:embodies-#bib615-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/615#lawd:embodies-#bib615-7">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/615"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/615"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/615/html">
         <dcterms:title xml:lang="en">Confessors (text)</dcterms:title>
@@ -150,6 +86,17 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2087"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Confessors (text)" in last modified December 12, 2016, http://syriaca.org/work/615</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/615/rdf">
+        <dcterms:title xml:lang="en">Confessors (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/615"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1770"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/1742"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2087"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Confessors (text)" in last modified December 12, 2016, http://syriaca.org/work/615</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

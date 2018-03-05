@@ -68,16 +68,14 @@
             </rdf:Description>
         </lawd:hasName>
         <dcterms:description/>
-        <dcterms:description>Not the same as Sabrishoʿ I (http://syriaca.org/person/708).</dcterms:description>
-        <dcterms:description>This author has an unspecified connection to a place.</dcterms:description>
         <skos:closeMatch rdf:resource="http://viaf.org/viaf/sourceID/SRP|person_123"/>
         <dcterms:relation rdf:resource="#person-123"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/708"/>
         <dcterms:relation rdf:resource="#person-123"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/708#syriaca:differentFrom-#person-123"/>
-        <snap:has-bond rdf:resource="#person-123#syriaca:differentFrom-http://syriaca.org/person/708"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-#person-123"/>
+        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/708"/>
+        <syriaca:differentFrom rdf:resource="#person-123"/>
+        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/persons"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/4"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -90,30 +88,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/123/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/123/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/123/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-123">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/708"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/708#syriaca:differentFrom-#person-123"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/708#syriaca:differentFrom-#person-123">
-        <syriaca:differentFrom rdf:resource="http://syriaca.org/person/708"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/123"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/708">
-        <dcterms:relation rdf:resource="#person-123"/>
-        <snap:has-bond rdf:resource="#person-123#syriaca:differentFrom-http://syriaca.org/person/708"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-123#syriaca:differentFrom-http://syriaca.org/person/708">
-        <syriaca:differentFrom rdf:resource="#person-123"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/123"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#person-123">
-        <dcterms:relation rdf:resource="http://syriaca.org/place/227"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/place/227#syriaca:hasRelationToPlace-#person-123"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/place/227#syriaca:hasRelationToPlace-#person-123">
-        <syriaca:hasRelationToPlace rdf:resource="http://syriaca.org/place/227"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/person/123"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/person/123/html">
         <dcterms:title xml:lang="en">
@@ -158,6 +132,21 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Sabrishoʿ of Beth Rabban — ܣܒܪ ܝܫܘܥ" in last modified December 9, 2016, http://syriaca.org/person/123</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/person/123/rdf">
+        <dcterms:title xml:lang="en">
+                         Sabrishoʿ 
+                         of Beth Rabban 
+                    </dcterms:title>
+        <dcterms:title xml:lang="syr">
+                         ܣܒܪ ܝܫܘܥ 
+                    </dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/person/123"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/3"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Sabrishoʿ of Beth Rabban — ܣܒܪ ܝܫܘܥ" in last modified December 9, 2016, http://syriaca.org/person/123</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

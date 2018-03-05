@@ -9,13 +9,13 @@
         <dcterms:description>
                      Et là Satan fut couvert de honte, lui qui désirait leurs personnes et triompha notre Sauveur qui fit la volonté de son serviteur (?). Louange à toi, Dieu, car ceux qui espèrent en toi ne sont pas couverts de honte. 
                 </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib1978-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1978"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1978"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/1585"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1978#lawd:embodies-#bib1978-2"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1585#syriaca:commemorated-http://syriaca.org/work/1978"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/1978"/>
+        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1585"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/saints"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/649"/>
@@ -27,22 +27,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1978/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1978/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1978/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib1978-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/1978"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/1978#lawd:embodies-#bib1978-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1978#lawd:embodies-#bib1978-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/1978"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1978"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/1978">
-        <dcterms:relation rdf:resource="http://syriaca.org/person/1585"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/person/1585#syriaca:commemorated-http://syriaca.org/work/1978"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/person/1585#syriaca:commemorated-http://syriaca.org/work/1978">
-        <syriaca:commemorated rdf:resource="http://syriaca.org/person/1585"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/1978"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1978/html">
         <dcterms:title xml:lang="syr">ܐܢܕܪܐܘܣ</dcterms:title>
@@ -66,6 +50,14 @@
         <dcterms:subject rdf:resource="http://syriaca.org/work/1978"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Andrew the Apostle (text) — ܐܢܕܪܐܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1978</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/work/1978/rdf">
+        <dcterms:title xml:lang="syr">ܐܢܕܪܐܘܣ</dcterms:title>
+        <dcterms:title xml:lang="en">Andrew the Apostle (text)</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/work/1978"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/649"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Jeanne-Nicole Mellon Saint-Laurent, David A. Michelson and Ugo Zanetti, (eds.), "Andrew the Apostle (text) — ܐܢܕܪܐܘܣ" in last modified December 12, 2016, http://syriaca.org/work/1978</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

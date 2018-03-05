@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/didactic"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/didactic"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/didactic"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/didactic"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/education"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/didactic/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/didactic/tei"/>
@@ -21,30 +21,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/didactic/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/didactic/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/didactic/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/didactic">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/education"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/didactic"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/didactic">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/education"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/didactic"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/didactic">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/didactic"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/didactic">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/didactic"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/didactic">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/didactic"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/speech-acts#skos:broadMatch-http://syriaca.org/keyword/didactic">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/speech-acts"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/didactic"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/didactic/html">
         <dcterms:title xml:lang="en">Didactic</dcterms:title>
@@ -62,6 +38,12 @@
         <dcterms:title xml:lang="en">Didactic</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/didactic"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Didactic" in last modified May 5, 2017, http://syriaca.org/keyword/didactic</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/didactic/rdf">
+        <dcterms:title xml:lang="en">Didactic</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/didactic"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Didactic" in last modified May 5, 2017, http://syriaca.org/keyword/didactic</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

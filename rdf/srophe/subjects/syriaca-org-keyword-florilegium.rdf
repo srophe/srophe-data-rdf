@@ -6,8 +6,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/intertextuality"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/florilegium"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/florilegium"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/florilegium"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/intertextuality"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/florilegium/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/florilegium/tei"/>
@@ -17,22 +17,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/florilegium/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/florilegium/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/florilegium/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/florilegium">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/florilegium"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/intertextuality#skos:broadMatch-http://syriaca.org/keyword/florilegium">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/intertextuality"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/florilegium"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/florilegium">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/literature"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/florilegium"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/literature#skos:broadMatch-http://syriaca.org/keyword/florilegium">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/literature"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/florilegium"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/florilegium/html">
         <dcterms:title xml:lang="en">Florilegium</dcterms:title>
@@ -50,6 +34,12 @@
         <dcterms:title xml:lang="en">Florilegium</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/florilegium"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Florilegium" in last modified May 5, 2017, http://syriaca.org/keyword/florilegium</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/florilegium/rdf">
+        <dcterms:title xml:lang="en">Florilegium</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/florilegium"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Florilegium" in last modified May 5, 2017, http://syriaca.org/keyword/florilegium</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/education"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/linguistics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/linguistics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/linguistics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/education"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/linguistics/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/linguistics/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/linguistics/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/linguistics/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/linguistics/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/linguistics">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/education"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/linguistics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/education#skos:broadMatch-http://syriaca.org/keyword/linguistics">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/education"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/linguistics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/linguistics">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/linguistics"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/fields-of-study#skos:broadMatch-http://syriaca.org/keyword/linguistics">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/fields-of-study"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/linguistics"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/linguistics/html">
         <dcterms:title xml:lang="en">Linguistics</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Linguistics</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/linguistics"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Linguistics" in last modified May 5, 2017, http://syriaca.org/keyword/linguistics</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/linguistics/rdf">
+        <dcterms:title xml:lang="en">Linguistics</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/linguistics"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Linguistics" in last modified May 5, 2017, http://syriaca.org/keyword/linguistics</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

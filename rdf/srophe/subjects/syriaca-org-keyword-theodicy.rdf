@@ -9,9 +9,9 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/theodicy"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/theodicy"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/theodicy"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/theodicy"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/theodicy/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/theodicy/tei"/>
@@ -21,30 +21,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/theodicy/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/theodicy/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/theodicy/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/theodicy">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/theodicy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/theodicy">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/theodicy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/theodicy">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/theodicy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ideology#skos:broadMatch-http://syriaca.org/keyword/theodicy">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ideology"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/theodicy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/theodicy">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/theodicy"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/theodicy">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/theodicy"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/theodicy/html">
         <dcterms:title xml:lang="en">Theodicy</dcterms:title>
@@ -62,6 +38,12 @@
         <dcterms:title xml:lang="en">Theodicy</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/theodicy"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Theodicy" in last modified May 5, 2017, http://syriaca.org/keyword/theodicy</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/theodicy/rdf">
+        <dcterms:title xml:lang="en">Theodicy</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/theodicy"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Theodicy" in last modified May 5, 2017, http://syriaca.org/keyword/theodicy</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

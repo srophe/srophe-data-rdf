@@ -3,7 +3,7 @@
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="en">Commentary on Aristotle's Prior Analytics II</rdfs:label>
         <dcterms:description>ܡܟܢܫ ܒܚܕ ܩܦܠܐܘܢ ܒܪܝܫܐ ... ܗܢܐ ܗܠܝܢ ܕܐܡܪܝܢ ܠܗ ܒܡܐܡܪܐ [ܩܕܡܝܐ] ܘܥܒܕ ܥܘܗܕܢܐ ܕܩ̈ܦܠܐܐ ܗܠܝܢ ܕܬ[ܡܢ] ܐܫܬܠܡܘ ܘܕܗ̇ܘܝܐ ܕܣܘܠܘܓܝܣ̈ܡܘ ܘܕܡܫܪܬܚܘܬܐ ܕܦܪ̈ܘܛܣܝܣ ܘܬܘܒ ܘܕܫܪܝܐ ܕܣܘܠܘܓܝܣܡ̈ܘܣ</dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/122"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/122"/>
         <dcterms:relation rdf:resource="#bib9744-1"/>
         <dcterms:relation rdf:resource="#bib9744-2"/>
         <dcterms:relation rdf:resource="#bib9744-1"/>
@@ -12,10 +12,10 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9744"/>
         <dcterms:relation rdf:resource="#bib9744-2"/>
         <dcterms:relation rdf:resource="#bib9744-3"/>
-        <snap:has-bond rdf:resource="#bib9744-2#dcterms:source-#bib9744-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9744#lawd:embodies-#bib9744-1"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9744#lawd:embodies-#bib9744-2"/>
-        <snap:has-bond rdf:resource="#bib9744-3#lawd:hasCitation-#bib9744-2"/>
+        <dcterms:source rdf:resource="#bib9744-2"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9744"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/9744"/>
+        <lawd:hasCitation rdf:resource="#bib9744-3"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2519"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/8"/>
@@ -27,38 +27,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9744/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9744/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/9744/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9744-1">
-        <dcterms:relation rdf:resource="#bib9744-2"/>
-        <snap:has-bond rdf:resource="#bib9744-2#dcterms:source-#bib9744-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9744-2#dcterms:source-#bib9744-1">
-        <dcterms:source rdf:resource="#bib9744-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9744"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9744-1">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9744"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9744#lawd:embodies-#bib9744-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9744#lawd:embodies-#bib9744-1">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9744"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9744"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9744-2">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9744"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9744#lawd:embodies-#bib9744-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9744#lawd:embodies-#bib9744-2">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/9744"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9744"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9744-2">
-        <dcterms:relation rdf:resource="#bib9744-3"/>
-        <snap:has-bond rdf:resource="#bib9744-3#lawd:hasCitation-#bib9744-2"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib9744-3#lawd:hasCitation-#bib9744-2">
-        <lawd:hasCitation rdf:resource="#bib9744-3"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/9744"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/9744/html">
         <dcterms:title xml:lang="en">Commentary on Aristotle's Prior Analytics II</dcterms:title>

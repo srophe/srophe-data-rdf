@@ -20,10 +20,10 @@
         <dcterms:description>
                              1 
                         </dcterms:description>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/87"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/2728"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/person/212"/>
-        <dcterms:subject rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/87"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/2728"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/person/212"/>
+        <dcterms:relation rdf:resource="http://syriaca.org/documentation/editors.xml#dmichelson"/>
         <dcterms:relation rdf:resource="#bib161-6"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
         <dcterms:relation rdf:resource="#bib161-6"/>
@@ -61,25 +61,25 @@
         <dcterms:relation rdf:resource="http://syriaca.org/work/9645"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/10519"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-6"/>
-        <snap:has-bond rdf:resource="#bib161-10#dcterms:source-#bib161-6"/>
-        <snap:has-bond rdf:resource="#bib161-12#dcterms:source-#bib161-6"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-10"/>
-        <snap:has-bond rdf:resource="#bib161-8#dcterms:source-#bib161-7"/>
-        <snap:has-bond rdf:resource="#bib161-8#lawd:hasCitation-#bib161-9"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-12"/>
-        <snap:has-bond rdf:resource="#bib161-14#dcterms:source-#bib161-13"/>
-        <snap:has-bond rdf:resource="#bib161-14#lawd:hasCitation-#bib161-12"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-5"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-16"/>
-        <snap:has-bond rdf:resource="#bib161-2#dcterms:source-#bib161-1"/>
-        <snap:has-bond rdf:resource="#bib161-2#lawd:hasCitation-http://syriaca.org/manuscript/753"/>
-        <snap:has-bond rdf:resource="#bib161-4#dcterms:source-#bib161-3"/>
-        <snap:has-bond rdf:resource="#bib161-4#lawd:hasCitation-http://syriaca.org/manuscript/152"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-17"/>
-        <snap:has-bond rdf:resource="#bib161-18#lawd:hasCitation-#bib161-17"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10519#dcterms:isPartOf-http://syriaca.org/work/161"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
+        <dcterms:source rdf:resource="#bib161-10"/>
+        <dcterms:source rdf:resource="#bib161-12"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
+        <dcterms:source rdf:resource="#bib161-8"/>
+        <lawd:hasCitation rdf:resource="#bib161-8"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
+        <dcterms:source rdf:resource="#bib161-14"/>
+        <lawd:hasCitation rdf:resource="#bib161-14"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
+        <dcterms:source rdf:resource="#bib161-2"/>
+        <lawd:hasCitation rdf:resource="#bib161-2"/>
+        <dcterms:source rdf:resource="#bib161-4"/>
+        <lawd:hasCitation rdf:resource="#bib161-4"/>
+        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
+        <lawd:hasCitation rdf:resource="#bib161-18"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/work/9645"/>
+        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10519"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/nhsl"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/161"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/work/9645"/>
@@ -107,156 +107,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/161/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/161/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/161/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-6">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161#lawd:embodies-#bib161-6">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-6">
-        <dcterms:relation rdf:resource="#bib161-10"/>
-        <snap:has-bond rdf:resource="#bib161-10#dcterms:source-#bib161-6"/>
-        <dcterms:relation rdf:resource="#bib161-12"/>
-        <snap:has-bond rdf:resource="#bib161-12#dcterms:source-#bib161-6"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-10#dcterms:source-#bib161-6">
-        <dcterms:source rdf:resource="#bib161-10"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-12#dcterms:source-#bib161-6">
-        <dcterms:source rdf:resource="#bib161-12"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-10">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-10"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161#lawd:embodies-#bib161-10">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-7">
-        <dcterms:relation rdf:resource="#bib161-8"/>
-        <snap:has-bond rdf:resource="#bib161-8#dcterms:source-#bib161-7"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-8#dcterms:source-#bib161-7">
-        <dcterms:source rdf:resource="#bib161-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-9">
-        <dcterms:relation rdf:resource="#bib161-8"/>
-        <snap:has-bond rdf:resource="#bib161-8#lawd:hasCitation-#bib161-9"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-8#lawd:hasCitation-#bib161-9">
-        <lawd:hasCitation rdf:resource="#bib161-8"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-12">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-12"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161#lawd:embodies-#bib161-12">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-13">
-        <dcterms:relation rdf:resource="#bib161-14"/>
-        <snap:has-bond rdf:resource="#bib161-14#dcterms:source-#bib161-13"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-14#dcterms:source-#bib161-13">
-        <dcterms:source rdf:resource="#bib161-14"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-12">
-        <dcterms:relation rdf:resource="#bib161-14"/>
-        <snap:has-bond rdf:resource="#bib161-14#lawd:hasCitation-#bib161-12"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-14#lawd:hasCitation-#bib161-12">
-        <lawd:hasCitation rdf:resource="#bib161-14"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-5">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-5"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161#lawd:embodies-#bib161-5">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-16">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-16"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161#lawd:embodies-#bib161-16">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-1">
-        <dcterms:relation rdf:resource="#bib161-2"/>
-        <snap:has-bond rdf:resource="#bib161-2#dcterms:source-#bib161-1"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-2#dcterms:source-#bib161-1">
-        <dcterms:source rdf:resource="#bib161-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/753">
-        <dcterms:relation rdf:resource="#bib161-2"/>
-        <snap:has-bond rdf:resource="#bib161-2#lawd:hasCitation-http://syriaca.org/manuscript/753"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-2#lawd:hasCitation-http://syriaca.org/manuscript/753">
-        <lawd:hasCitation rdf:resource="#bib161-2"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-3">
-        <dcterms:relation rdf:resource="#bib161-4"/>
-        <snap:has-bond rdf:resource="#bib161-4#dcterms:source-#bib161-3"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-4#dcterms:source-#bib161-3">
-        <dcterms:source rdf:resource="#bib161-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/manuscript/152">
-        <dcterms:relation rdf:resource="#bib161-4"/>
-        <snap:has-bond rdf:resource="#bib161-4#lawd:hasCitation-http://syriaca.org/manuscript/152"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-4#lawd:hasCitation-http://syriaca.org/manuscript/152">
-        <lawd:hasCitation rdf:resource="#bib161-4"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-17">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/161"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/161#lawd:embodies-#bib161-17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161#lawd:embodies-#bib161-17">
-        <lawd:embodies rdf:resource="http://syriaca.org/work/161"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-17">
-        <dcterms:relation rdf:resource="#bib161-18"/>
-        <snap:has-bond rdf:resource="#bib161-18#lawd:hasCitation-#bib161-17"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="#bib161-18#lawd:hasCitation-#bib161-17">
-        <lawd:hasCitation rdf:resource="#bib161-18"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/9645"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/9645#skos:broadMatch-http://syriaca.org/work/161">
-        <skos:broadMatch rdf:resource="http://syriaca.org/work/9645"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/161">
-        <dcterms:relation rdf:resource="http://syriaca.org/work/10519"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/work/10519#dcterms:isPartOf-http://syriaca.org/work/161"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/work/10519#dcterms:isPartOf-http://syriaca.org/work/161">
-        <dcterms:isPartOf rdf:resource="http://syriaca.org/work/10519"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/work/161"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/work/161/html">
         <dcterms:title xml:lang="en">The Four Gospels (Harqlean version)</dcterms:title>

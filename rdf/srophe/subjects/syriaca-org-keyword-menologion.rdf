@@ -4,7 +4,7 @@
         <rdfs:label xml:lang="en">Menologion</rdfs:label>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/menologion"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/menologion"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/menologion/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/menologion/tei"/>
@@ -14,14 +14,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/menologion/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/menologion/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/menologion/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/menologion">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/genres"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/menologion"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/genres#skos:broadMatch-http://syriaca.org/keyword/menologion">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/genres"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/menologion"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/menologion/html">
         <dcterms:title xml:lang="en">Menologion</dcterms:title>
@@ -39,6 +31,12 @@
         <dcterms:title xml:lang="en">Menologion</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/menologion"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Menologion" in last modified May 5, 2017, http://syriaca.org/keyword/menologion</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/menologion/rdf">
+        <dcterms:title xml:lang="en">Menologion</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/menologion"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Menologion" in last modified May 5, 2017, http://syriaca.org/keyword/menologion</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>

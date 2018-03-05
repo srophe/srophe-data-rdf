@@ -7,8 +7,8 @@
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/sanctity"/>
         <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sanctity"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/sanctity"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
+        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/taxonomy"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sanctity/html"/>
         <dcterms:hasFormat rdf:resource="http://syriaca.org/keyword/sanctity/tei"/>
@@ -18,22 +18,6 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sanctity/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sanctity/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/keyword/sanctity/rdf"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sanctity">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sanctity"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/ethics#skos:broadMatch-http://syriaca.org/keyword/sanctity">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/ethics"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sanctity"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/sanctity">
-        <dcterms:relation rdf:resource="http://syriaca.org/keyword/religion"/>
-        <snap:has-bond rdf:resource="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/sanctity"/>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://syriaca.org/keyword/religion#skos:broadMatch-http://syriaca.org/keyword/sanctity">
-        <skos:broadMatch rdf:resource="http://syriaca.org/keyword/religion"/>
-        <lawd:hasAttestation rdf:resource="http://syriaca.org/keyword/sanctity"/>
     </rdf:Description>
     <rdfs:Resource rdf:about="http://syriaca.org/keyword/sanctity/html">
         <dcterms:title xml:lang="en">Sanctity</dcterms:title>
@@ -51,6 +35,12 @@
         <dcterms:title xml:lang="en">Sanctity</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/keyword/sanctity"/>
         <dcterms:format>text/turle</dcterms:format>
+        <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sanctity" in last modified May 5, 2017, http://syriaca.org/keyword/sanctity</dcterms:bibliographicCitation>
+    </rdfs:Resource>
+    <rdfs:Resource rdf:about="http://syriaca.org/keyword/sanctity/rdf">
+        <dcterms:title xml:lang="en">Sanctity</dcterms:title>
+        <dcterms:subject rdf:resource="http://syriaca.org/keyword/sanctity"/>
+        <dcterms:format>text/xml</dcterms:format>
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">Sergey Minov and Daniel L. Schwartz (eds.), "Sanctity" in last modified May 5, 2017, http://syriaca.org/keyword/sanctity</dcterms:bibliographicCitation>
     </rdfs:Resource>
 </rdf:RDF>
