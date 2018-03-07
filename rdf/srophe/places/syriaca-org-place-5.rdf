@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/5">
+    <skos:Concept rdf:about="http://syriaca.org/place/5">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Adharbayjān</rdfs:label>
         <rdfs:label xml:lang="syr">ܐܕܪܒܝܓܐܢ</rdfs:label>
@@ -51,25 +51,19 @@
         <dcterms:description>A region west of the Caspian Sea, encompassing the modern country of Azerbaijan and the provinces of northwest Iran.</dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܩܠܺܝܡܐ ܪܘܺܝܚܐ ܕܡܶܬܬܰܚܰܡ ܗܘܳܐ ܒܝܰܡܐ ܕܩܳܙܒܝܢ ܠܡܰܕܢܚܐ ܘܰܒܝܰܡܬܐ ܕܘܰܐܢ ܠܡܰܥܪܒܐ 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܩܠܺܝܡܐ ܪܘܺܝܚܐ ܕܡܶܬܬܰܚܰܡ ܗܘܳܐ ܒܝܰܡܐ ܕܩܳܙܒܝܢ ܠܡܰܕܢܚܐ ܘܰܒܝܰܡܬܐ ܕܘܰܐܢ ܠܡܰܥܪܒܐ</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         اقليم واسع كان حدّه من بحر قزبين مشرقاً الى بحيرة وان مغرباً 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">اقليم واسع كان حدّه من بحر قزبين مشرقاً الى بحيرة وان مغرباً</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         a vast territory whose boundaries extended from the Caspian Sea in the east to Lake Van in the west. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">a vast territory whose boundaries extended from the Caspian Sea in the east to Lake Van in the west.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
@@ -82,7 +76,7 @@
         </time:hasDateTimeDescription>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Azerbaijan"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Azerbaijan_(Iran)"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=A&amp;sK=Azerbaijan&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=A&amp;sK=Azerbaijan&amp;sT=keywords"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/bethqatraye"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
@@ -100,7 +94,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/5/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/5/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/5/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/5/html">
         <dcterms:title xml:lang="en">Adharbayjān</dcterms:title>
         <dcterms:title xml:lang="syr">ܐܕܪܒܝܓܐܢ</dcterms:title>

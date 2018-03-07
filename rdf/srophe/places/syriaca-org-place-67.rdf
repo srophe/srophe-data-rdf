@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/67">
+    <skos:Concept rdf:about="http://syriaca.org/place/67">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Dara</rdfs:label>
         <rdfs:label xml:lang="syr">ܕܪܐ</rdfs:label>
@@ -38,25 +38,19 @@
         <dcterms:description>A Roman city between Mardin and Nisibis.</dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܡܕܝܺܢܬܐ ܗܝ ܕܒܰܦܫܦܘܽܠܐ ܕܛܘܪܐ ܒܶܝܬ ܢܨܺܝܒܝܺܢ ܠܡܰܪܕܺܝܢ ܐܶܬܝܰܬܒܰܬ ܫܢܰܬ  506  ܘܩܰܘܝܰܬ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܠܣܘܪ̈ܝܳܝܐ ܥܕܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܳܐ ܕܝ̄ܒ ܘܝܰܘܡܳܢ ܩܪܺܝܬܳܐ ܗܝ ܙܥܘܽܪܬܐ. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܡܕܝܺܢܬܐ ܗܝ ܕܒܰܦܫܦܘܽܠܐ ܕܛܘܪܐ ܒܶܝܬ ܢܨܺܝܒܝܺܢ ܠܡܰܪܕܺܝܢ ܐܶܬܝܰܬܒܰܬ ܫܢܰܬ 506 ܘܩܰܘܝܰܬ ܟܘܪܣܝܳܐ ܐܶܦܝܣܩܘܦܳܝܐ ܠܣܘܪ̈ܝܳܝܐ ܥܕܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܳܐ ܕܝ̄ܒ ܘܝܰܘܡܳܢ ܩܪܺܝܬܳܐ ܗܝ ܙܥܘܽܪܬܐ.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         بلدة في لحف جبل بين نصيبين وماردين مُصّرت عام 506م وظلت كرسيا اسقفيا للسريان حتى اواسط المئة الثانية عشرة وهي اليوم قرية حقيرة 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">بلدة في لحف جبل بين نصيبين وماردين مُصّرت عام 506م وظلت كرسيا اسقفيا للسريان حتى اواسط المئة الثانية عشرة وهي اليوم قرية حقيرة</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         a town situated at the foot of the mountain between Nisibin and Mardin. Built in 506, it remained a seat of Syrian bishops until the middle of the twelfth century. Today it is an insignificant village. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">a town situated at the foot of the mountain between Nisibin and Mardin. Built in 506, it remained a seat of Syrian bishops until the middle of the twelfth century. Today it is an insignificant village.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
@@ -70,7 +64,7 @@
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/874444"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Dara_(Mesopotamia)"/>
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Dara_(Mesopotamia)"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=D&amp;sK=Dara&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=D&amp;sK=Dara&amp;sT=keywords"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -85,7 +79,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/67/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/67/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/67/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/67/html">
         <dcterms:title xml:lang="en">Dara</dcterms:title>
         <dcterms:title xml:lang="syr">ܕܪܐ</dcterms:title>

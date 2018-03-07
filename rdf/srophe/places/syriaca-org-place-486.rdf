@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/486">
+    <skos:Concept rdf:about="http://syriaca.org/place/486">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Syria</rdfs:label>
         <rdfs:label xml:lang="syr">ܣܘܪܝܐ</rdfs:label>
@@ -46,7 +46,7 @@
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2501"/>
             </rdf:Description>
         </lawd:hasName>
-        <dcterms:description>A historical region bounded on the north by the  Euphrates River  and the Taurus Mountains, on the west by the  Mediterranean Sea , on the east by the desert, and on the south by  Palestine , which during the medieval period was considered the southernmost district of Syria.</dcterms:description>
+        <dcterms:description>A historical region bounded on the north by the Euphrates River and the Taurus Mountains, on the west by the Mediterranean Sea , on the east by the desert, and on the south by Palestine , which during the medieval period was considered the southernmost district of Syria.</dcterms:description>
         <time:hasDateTimeDescription>
             <rdf:Description>
                 <skos:prefLabel/>
@@ -56,9 +56,9 @@
         </time:hasDateTimeDescription>
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/1306"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Syria"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=H&amp;sK=Hellenistic Syria&amp;sT=keywords&#xA;                                        "/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=B&amp;sK=Byzantine Syria&amp;sT=keywords&#xA;                                        "/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=R&amp;sK=Roman Syria&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=H&amp;sK=Hellenistic Syria&amp;sT=keywords"/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=B&amp;sK=Byzantine Syria&amp;sT=keywords"/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=R&amp;sK=Roman Syria&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/82"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/135"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/698"/>
@@ -79,7 +79,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/486/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/486/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/486/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/486/html">
         <dcterms:title xml:lang="en">Syria</dcterms:title>
         <dcterms:title xml:lang="syr">ܣܘܪܝܐ</dcterms:title>

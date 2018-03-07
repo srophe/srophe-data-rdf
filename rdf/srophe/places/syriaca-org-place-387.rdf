@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/387">
+    <skos:Concept rdf:about="http://syriaca.org/place/387">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Mary Magdalene</rdfs:label>
         <rdfs:label xml:lang="syr">ܕܝܪܐ ܕܡܓܕܠܝܬܐ</rdfs:label>
@@ -40,25 +40,19 @@
         <dcterms:description/>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܒܐܘܪܫܠܶܡ ܒܡܰܫܪܝܬܐ ܕܬܰܪܥܐ ܕܥܰܡܘܼܕܐ. ܕܝܪܐ ܥܰܬܝܩܐ ܕܟܺܝܪ ܫܢܰܬ  1000  ܘܐܝܬܰܘܗܝ ܗܘܐ ܟܘܪܣܝܳܐ ܕܡܝܛܪܘܦܘܠܝܛܘܬܐ ܘܐܝܬ ܗܘܳܐ ܒܗ ܫܢܰܬ  1235  ܫܰܒܥܝܢ ܕܰܝܪ̈ܝܐ ܘܐܶܬܢܰܦܩܘ ܒܗ ܐܰܪܒܥܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ ܐܰܚܕܘܗܝ ܐܢܳܫܝ̈ܢ ܡܰܫܠܡܳܢ̈ܐ ܒܚܰܝܠܐ ܕܡܰܡܐܠܝܟ ܒܕܳܪܐ ܕܐܰܪܒܥܣܪ ܟܶܢ ܥܰܒܕܘܗܝ ܠܗܘܢ ܡܰܕܪܰܫܬܐ ܒܫܶܡ ܡܰܝܡܘܢܝܗ. ܩܰܘܝ̣ ܡܶܢܗ ܐܳܬܘ̈ܬ ܚܰܪ̈ܒܳܬܐ ܥܕܰܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܰܥܒܪ. ܒܳܬܰܪܟܢ ܐܶܬܠܰܝܬܝܰܬ ܕܘܟܬܗ.  
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܒܐܘܪܫܠܶܡ ܒܡܰܫܪܝܬܐ ܕܬܰܪܥܐ ܕܥܰܡܘܼܕܐ. ܕܝܪܐ ܥܰܬܝܩܐ ܕܟܺܝܪ ܫܢܰܬ 1000 ܘܐܝܬܰܘܗܝ ܗܘܐ ܟܘܪܣܝܳܐ ܕܡܝܛܪܘܦܘܠܝܛܘܬܐ ܘܐܝܬ ܗܘܳܐ ܒܗ ܫܢܰܬ 1235 ܫܰܒܥܝܢ ܕܰܝܪ̈ܝܐ ܘܐܶܬܢܰܦܩܘ ܒܗ ܐܰܪܒܥܐ ܡܝܛܪ̈ܘܦܘܠܝܛܐ ܐܰܚܕܘܗܝ ܐܢܳܫܝ̈ܢ ܡܰܫܠܡܳܢ̈ܐ ܒܚܰܝܠܐ ܕܡܰܡܐܠܝܟ ܒܕܳܪܐ ܕܐܰܪܒܥܣܪ ܟܶܢ ܥܰܒܕܘܗܝ ܠܗܘܢ ܡܰܕܪܰܫܬܐ ܒܫܶܡ ܡܰܝܡܘܢܝܗ. ܩܰܘܝ̣ ܡܶܢܗ ܐܳܬܘ̈ܬ ܚܰܪ̈ܒܳܬܐ ܥܕܰܡܐ ܠܡܶܨܥܝ̈ܬܗ ܕܕܳܪܐ ܕܰܥܒܪ. ܒܳܬܰܪܟܢ ܐܶܬܠܰܝܬܝܰܬ ܕܘܟܬܗ.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         باورشليم في حي باب العمود، دير قديم ذكر سنة 1000 وكان كرسي المطرانية وحوى عام 1235 سبعين راهبا وتخرج فيه اربعة مطارنة، اغتصبه قوم من المسلمين بنفوذ المماليك في القرن الرابع عشر ثم جعلوه مدرسة لهم باسم الميمونية، بقيت منه اطلال ظاهرة الى اواسط القرن الماضي ثم عفا اثره. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">باورشليم في حي باب العمود، دير قديم ذكر سنة 1000 وكان كرسي المطرانية وحوى عام 1235 سبعين راهبا وتخرج فيه اربعة مطارنة، اغتصبه قوم من المسلمين بنفوذ المماليك في القرن الرابع عشر ثم جعلوه مدرسة لهم باسم الميمونية، بقيت منه اطلال ظاهرة الى اواسط القرن الماضي ثم عفا اثره.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         in the Bab al-ʿĀmūd district of Jerusalem, is an old monastery, first mentioned in history in 1000. It was the seat of the metropolitan of Jerusalem. In 1235, it housed seventy monks. Four metropolitans graduated from it. In the fourteenth century it was usurped by a group of Muslims, with the help of the Mamluks; they then converted it into a school called al-Maymūna. Parts of its ruins were still to be seen until the last century, but they no longer exist. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">in the Bab al-ʿĀmūd district of Jerusalem, is an old monastery, first mentioned in history in 1000. It was the seat of the metropolitan of Jerusalem. In 1235, it housed seventy monks. Four metropolitans graduated from it. In the fourteenth century it was usurped by a group of Muslims, with the help of the Mamluks; they then converted it into a school called al-Maymūna. Parts of its ruins were still to be seen until the last century, but they no longer exist.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
@@ -81,7 +75,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/387/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/387/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/387/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/387/html">
         <dcterms:title xml:lang="en">Mary Magdalene</dcterms:title>
         <dcterms:title xml:lang="syr">ܕܝܪܐ ܕܡܓܕܠܝܬܐ</dcterms:title>

@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/1453">
+    <skos:Concept rdf:about="http://syriaca.org/work/1453">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܐܦܝܦܢ</rdfs:label>
         <rdfs:label xml:lang="en">Epiphansius of Cyprus (text)</rdfs:label>
-        <dcterms:description>
-                     ܐܦܝܦܢ ܛܘܒܢܐ ܗܘܐ ܡܢ ܥܡܐ ܕܝܗ̈ܘܕܝܐ. ܐܬܝܠܕ ܕܝܢ ܒܩܪܝܬܐ ܚܕܐ ܡܢ ܟܘܪܐ ܕܠܘܬ ܪܘܦܘܠܝܣ ܕܪܚܝܩܐ ܗܘܬ ܡܢܗܿ ܡܢ ܡܕܝܢܬܐ ܬܠܬܐ ܡ̈ܠܝܢ ܘܣܝܡܐ ܒܐܬܪܐ ܕܦܘܢܝܩܐ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Le bienheureux Épiphane était d’origine juive. Il fut élevé dans un village de la campagne de Ropolis, éloigné de la ville de trois milles, et situé dans le pays de Phénicie. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܘܡܢ ܗܝܕܝܢ ܠܐ ܡܨܛܒܐ ܗܘܐ ܐܦܝܦܢ ܕܢܥܒܕ ܩܠܝܪܝܩܐ ܐܠܐ ܐܢ ܐܝܬ ܗܘܐ ܥܠܘܗܝ ܣܗܕܘܬܐ ܕܐܝܬܘܗܝ ܗܘܐ ܒܩܕܝܫܘܬܐ ܘܒܢܟܦܘܬܐ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Et dès lors Épiphane ne voulut plus ordonner de clerc sans qu’il y ait en sa faveur un témoignage de sa sainteté et de sa chasteté. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/2794"/>
+        <dcterms:description>ܐܦܝܦܢ ܛܘܒܢܐ ܗܘܐ ܡܢ ܥܡܐ ܕܝܗ̈ܘܕܝܐ. ܐܬܝܠܕ ܕܝܢ ܒܩܪܝܬܐ ܚܕܐ ܡܢ ܟܘܪܐ ܕܠܘܬ ܪܘܦܘܠܝܣ ܕܪܚܝܩܐ ܗܘܬ ܡܢܗܿ ܡܢ ܡܕܝܢܬܐ ܬܠܬܐ ܡ̈ܠܝܢ ܘܣܝܡܐ ܒܐܬܪܐ ܕܦܘܢܝܩܐ.</dcterms:description>
+        <dcterms:description>Le bienheureux Épiphane était d’origine juive. Il fut élevé dans un village de la campagne de Ropolis, éloigné de la ville de trois milles, et situé dans le pays de Phénicie.</dcterms:description>
+        <dcterms:description>ܘܡܢ ܗܝܕܝܢ ܠܐ ܡܨܛܒܐ ܗܘܐ ܐܦܝܦܢ ܕܢܥܒܕ ܩܠܝܪܝܩܐ ܐܠܐ ܐܢ ܐܝܬ ܗܘܐ ܥܠܘܗܝ ܣܗܕܘܬܐ ܕܐܝܬܘܗܝ ܗܘܐ ܒܩܕܝܫܘܬܐ ܘܒܢܟܦܘܬܐ.</dcterms:description>
+        <dcterms:description>Et dès lors Épiphane ne voulut plus ordonner de clerc sans qu’il y ait en sa faveur un témoignage de sa sainteté et de sa chasteté.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/2794"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/477"/>
         <dcterms:relation rdf:resource="#bib1453-2"/>
@@ -37,7 +30,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1453/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1453/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1453/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1453/html">
         <dcterms:title xml:lang="syr">ܐܦܝܦܢ</dcterms:title>
         <dcterms:title xml:lang="en">Epiphansius of Cyprus (text)</dcterms:title>

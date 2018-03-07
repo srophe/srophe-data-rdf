@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/592">
+    <skos:Concept rdf:about="http://syriaca.org/place/592">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Italy</rdfs:label>
         <rdfs:label xml:lang="syr">ܐܝܛܐܠܝ</rdfs:label>
@@ -28,14 +28,14 @@
                 <geo:long>12.5</geo:long>
             </rdf:Description>
         </geo:location>
-        <dcterms:description>A Mediterranean nation in southern  Europe .</dcterms:description>
+        <dcterms:description>A Mediterranean nation in southern Europe .</dcterms:description>
         <time:hasDateTimeDescription>
             <rdf:Description/>
         </time:hasDateTimeDescription>
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/1052"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Italy"/>
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Italy"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=I&amp;sK=Italy&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=I&amp;sK=Italy&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/591"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2"/>
@@ -50,7 +50,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/592/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/592/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/592/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/592/html">
         <dcterms:title xml:lang="en">Italy</dcterms:title>
         <dcterms:title xml:lang="syr">ܐܝܛܐܠܝ</dcterms:title>

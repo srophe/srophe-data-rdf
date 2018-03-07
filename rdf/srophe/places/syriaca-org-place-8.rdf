@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/8">
+    <skos:Concept rdf:about="http://syriaca.org/place/8">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Amida</rdfs:label>
         <rdfs:label xml:lang="syr">ܐܡܝܕ</rdfs:label>
@@ -55,7 +55,7 @@
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="ar"> ديار بكر</lawd:variantForm>
+                <lawd:variantForm xml:lang="ar">ديار بكر</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </lawd:hasName>
@@ -85,41 +85,31 @@
         </geo:location>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         City in upper Mesopotamia. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">City in upper Mesopotamia.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         32. Amid 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">32. Amid</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܡܕܺܝܢܬܐ ܚܰܣܝ̣ܢܬܐ ܕܕܶܩܠܰܬ ܚܳܕܰܪ ܠܣܘܓܐܗ̇. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܡܕܺܝܢܬܐ ܚܰܣܝ̣ܢܬܐ ܕܕܶܩܠܰܬ ܚܳܕܰܪ ܠܣܘܓܐܗ̇.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         مدينة قديمة حصينة دجلة محيطة باكثرها 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">مدينة قديمة حصينة دجلة محيطة باكثرها</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         an ancient fortified city, virtually surrounded by the Tigris. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">an ancient fortified city, virtually surrounded by the Tigris.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
@@ -133,7 +123,7 @@
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/874298"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Amida_(Mesopotamia)"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Diyarbakır"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=A&amp;sK=Amida&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=A&amp;sK=Amida&amp;sT=keywords"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
@@ -150,7 +140,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/8/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/8/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/8/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/8/html">
         <dcterms:title xml:lang="en">Amida</dcterms:title>
         <dcterms:title xml:lang="syr">ܐܡܝܕ</dcterms:title>

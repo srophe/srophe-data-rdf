@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/1463">
+    <skos:Concept rdf:about="http://syriaca.org/work/1463">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܘܩܛܠܐ ܕܝܠܘ̈ܕܐ</rdfs:label>
         <rdfs:label xml:lang="en">Holy Innocents (text)</rdfs:label>
-        <dcterms:description>
-                     ܗܝܕܝܢ ܥܝܪܐ ܠܝܘܣܦ ܐܡܪ ܒܬܪ ܗܠܝܢ: ܕܩܘܡ ܠܟ ܘܫܩܘܠ ܠܛܠܝܐ ܘܠܐܡܗ ܘܫܢܐ ܠܡܨܪܝܢ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Alors, après cela, l’ange dit à Joseph: «Lève-toi, prends l’enfant et sa mère et pars en Égypte.» 
-                </dcterms:description>
-        <dcterms:description>
-                     ܚܬܘܡ ܒܨܠܝܒܟ ܠܗܿ ܘܠܝܠܕ̈ܝܗܿ ܕܚܬܝܪܐ ܒܟ ܘܢܡܛܝܢܝ ܐܦ ܠܝ ܗܘܦܐ ܕܪܚܡܐ ܘܐܬܚܣܐ ܒܗ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Marque-la elle et ses enfants par ta Croix, car elle a en toi son orgueil; et que le souffle de la miséricorde me parvienne à moi aussi et prends pitié de lui. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:description>ܗܝܕܝܢ ܥܝܪܐ ܠܝܘܣܦ ܐܡܪ ܒܬܪ ܗܠܝܢ: ܕܩܘܡ ܠܟ ܘܫܩܘܠ ܠܛܠܝܐ ܘܠܐܡܗ ܘܫܢܐ ܠܡܨܪܝܢ.</dcterms:description>
+        <dcterms:description>Alors, après cela, l’ange dit à Joseph: «Lève-toi, prends l’enfant et sa mère et pars en Égypte.»</dcterms:description>
+        <dcterms:description>ܚܬܘܡ ܒܨܠܝܒܟ ܠܗܿ ܘܠܝܠܕ̈ܝܗܿ ܕܚܬܝܪܐ ܒܟ ܘܢܡܛܝܢܝ ܐܦ ܠܝ ܗܘܦܐ ܕܪܚܡܐ ܘܐܬܚܣܐ ܒܗ.</dcterms:description>
+        <dcterms:description>Marque-la elle et ses enfants par ta Croix, car elle a en toi son orgueil; et que le souffle de la miséricorde me parvienne à moi aussi et prends pitié de lui.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib1463-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1463"/>
@@ -42,7 +35,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1463/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1463/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1463/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1463/html">
         <dcterms:title xml:lang="syr">ܘܩܛܠܐ ܕܝܠܘ̈ܕܐ</dcterms:title>
         <dcterms:title xml:lang="en">Holy Innocents (text)</dcterms:title>

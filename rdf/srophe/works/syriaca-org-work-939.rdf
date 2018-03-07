@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/939">
+    <skos:Concept rdf:about="http://syriaca.org/work/939">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܐܗܪܘܢ</rdfs:label>
         <rdfs:label xml:lang="en">Aaron (text)</rdfs:label>
-        <dcterms:description>
-                     ܡܢ ܫܘܪܝܐ ܟܕ ܒܪܐ ܠܗ ܡܪܝܐ ܠܐܕܡ: ܟܗܢܐ ܥܒܕܗ ܕܢܗܘܐ ܩܐܿܡ ܥܠ ܬܫܡܫܬܗ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Au début, quand le Seigneur créait Adam, il le fit prêtre pour qu’il se tienne à son service. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܡܪܝܐ ܕܐܬܐ ܘܫܝܢ ܒܕܡܗ ܪܘܡܐ ܘܥܘܡܩܐ: ܫܝܢ ܠܥܕܬܟ ܕܡܝܬܬ ܥܠ ܐܦܝ̈ܗܿ ܘܠܟ ܬܫܒܘܚܬܐ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Seigneur, toi qui es venu pacifier par ton sang les hauteurs et les profondeurs, pacifie ton Église pour laquelle tu es mort et à toi la gloire. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/42"/>
+        <dcterms:description>ܡܢ ܫܘܪܝܐ ܟܕ ܒܪܐ ܠܗ ܡܪܝܐ ܠܐܕܡ: ܟܗܢܐ ܥܒܕܗ ܕܢܗܘܐ ܩܐܿܡ ܥܠ ܬܫܡܫܬܗ.</dcterms:description>
+        <dcterms:description>Au début, quand le Seigneur créait Adam, il le fit prêtre pour qu’il se tienne à son service.</dcterms:description>
+        <dcterms:description>ܡܪܝܐ ܕܐܬܐ ܘܫܝܢ ܒܕܡܗ ܪܘܡܐ ܘܥܘܡܩܐ: ܫܝܢ ܠܥܕܬܟ ܕܡܝܬܬ ܥܠ ܐܦܝ̈ܗܿ ܘܠܟ ܬܫܒܘܚܬܐ.</dcterms:description>
+        <dcterms:description>Seigneur, toi qui es venu pacifier par ton sang les hauteurs et les profondeurs, pacifie ton Église pour laquelle tu es mort et à toi la gloire.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/42"/>
         <dcterms:relation rdf:resource="#bib939-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/939"/>
@@ -46,7 +39,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/939/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/939/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/939/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/939/html">
         <dcterms:title xml:lang="syr">ܐܗܪܘܢ</dcterms:title>
         <dcterms:title xml:lang="en">Aaron (text)</dcterms:title>

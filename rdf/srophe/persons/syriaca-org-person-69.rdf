@@ -1,11 +1,8 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/person/69">
+    <skos:Concept rdf:about="http://syriaca.org/person/69">
         <rdf:type rdf:resource="http://lawd.info/ontology/Person"/>
         <rdfs:label xml:lang="en">Jacob Baradaeus</rdfs:label>
-        <rdfs:label xml:lang="syr">
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܝܐ 
-                    </rdfs:label>
+        <rdfs:label xml:lang="syr">ܝܥܩܘܒ ܒܘܪܕܥܝܐ</rdfs:label>
         <lawd:hasName>
             <rdf:Description>
                 <lawd:primaryForm xml:lang="en">Jacob Baradaeus</lawd:primaryForm>
@@ -13,67 +10,42 @@
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en-x-gedsh">
-                         Yaʿqub 
-                         Burdʿoyo 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="en-x-gedsh">Yaʿqub Burdʿoyo</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/590"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en">
-                         Mar 
-                         Jacob 
-                         Baradaeus 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="en">Mar Jacob Baradaeus</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="ar">
-                         مار 
-                         يعقوب 
-                         البرادعي 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="ar">مار يعقوب البرادعي</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="syr">
-                         ܡܪܝ 
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܢܐ 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="syr">ܡܪܝ ܝܥܩܘܒ ܒܘܪܕܥܢܐ</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="syr-Syrj">
-                         ܡܪܝ 
-                         ܝܰܥܩܘܒ 
-                         ܒܘܪܕܥܳܢܐ 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="syr-Syrj">ܡܪܝ ܝܰܥܩܘܒ ܒܘܪܕܥܳܢܐ</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:primaryForm xml:lang="syr">
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܝܐ 
-                    </lawd:primaryForm>
+                <lawd:primaryForm xml:lang="syr">ܝܥܩܘܒ ܒܘܪܕܥܝܐ</lawd:primaryForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en">
-                         Jacob 
-                         Burdʿoyo 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="en">Jacob Burdʿoyo</lawd:variantForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
@@ -157,13 +129,11 @@
         </lawd:hasName>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description>
-                         Bp. of  Edessa  (542–578) and missionary. 
-                    </dcterms:description>
+                <dcterms:description>Bp. of Edessa (542–578) and missionary.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/590"/>
             </rdf:Description>
         </dcterms:description>
-        <dcterms:description>In hagiography: Jacob Baradaeus is commemorated as a monk educated at the monastery of  Phesilta . During the sixth-century struggle between miaphysite clergy and Chalcedonian bishops, Jacob ordained a separate hierarchy of miaphysite clergy. Because of his efforts, The Syrian Orthodox Church was sometimes called "The Jacobite church".  He also negotiated with the  empress Theodora  and Harith, the Ghassanid client king. He was ordained by  Theodosius of Alexandria  and travelled extensively to revive the miaphysite clergy.</dcterms:description>
+        <dcterms:description>In hagiography: Jacob Baradaeus is commemorated as a monk educated at the monastery of Phesilta . During the sixth-century struggle between miaphysite clergy and Chalcedonian bishops, Jacob ordained a separate hierarchy of miaphysite clergy. Because of his efforts, The Syrian Orthodox Church was sometimes called "The Jacobite church". He also negotiated with the empress Theodora and Harith, the Ghassanid client king. He was ordained by Theodosius of Alexandria and travelled extensively to revive the miaphysite clergy.</dcterms:description>
         <dcterms:description>542-578</dcterms:description>
         <dcterms:description>Syr. Orth.</dcterms:description>
         <dcterms:description>On the theft of his body, see</dcterms:description>
@@ -245,7 +215,7 @@
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1386"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1426"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/814"/>
-        <lawd:hasCitation rdf:resource=" http://syriaca.org/bibl/2006"/>
+        <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/2006"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/638"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/641"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1700"/>
@@ -259,13 +229,10 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/69/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/69/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/69/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/person/69/html">
         <dcterms:title xml:lang="en">Jacob Baradaeus</dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܝܐ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܥܩܘܒ ܒܘܪܕܥܝܐ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/69"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/590"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
@@ -278,7 +245,7 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1386"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/814"/>
-        <dcterms:source rdf:resource=" http://syriaca.org/bibl/2006"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2006"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1700"/>
@@ -289,10 +256,7 @@
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/69/tei">
         <dcterms:title xml:lang="en">Jacob Baradaeus</dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܝܐ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܥܩܘܒ ܒܘܪܕܥܝܐ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/69"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/590"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
@@ -305,7 +269,7 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1386"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/814"/>
-        <dcterms:source rdf:resource=" http://syriaca.org/bibl/2006"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2006"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1700"/>
@@ -316,10 +280,7 @@
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/69/ttl">
         <dcterms:title xml:lang="en">Jacob Baradaeus</dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܝܐ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܥܩܘܒ ܒܘܪܕܥܝܐ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/69"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/590"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
@@ -332,7 +293,7 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1386"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/814"/>
-        <dcterms:source rdf:resource=" http://syriaca.org/bibl/2006"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2006"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1700"/>
@@ -343,10 +304,7 @@
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/69/rdf">
         <dcterms:title xml:lang="en">Jacob Baradaeus</dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܝܥܩܘܒ 
-                         ܒܘܪܕܥܝܐ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܝܥܩܘܒ ܒܘܪܕܥܝܐ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/69"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/590"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
@@ -359,7 +317,7 @@
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1386"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1426"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/814"/>
-        <dcterms:source rdf:resource=" http://syriaca.org/bibl/2006"/>
+        <dcterms:source rdf:resource="http://syriaca.org/bibl/2006"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/638"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/641"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/1700"/>

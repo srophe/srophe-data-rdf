@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/993">
+    <skos:Concept rdf:about="http://syriaca.org/work/993">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</rdfs:label>
         <rdfs:label xml:lang="en">Mary Mother of God (text)</rdfs:label>
-        <dcterms:description>
-                     ܒܬܘܠܬܐ ܒܪܬ ܕܘܝܕ ܩܪܬܢܝ ܝܘܡܢ ܠܚܠܘܠܐ. ܒܚܘܒܐ ܕܠܐ ܒܨܬܐ. ܬܘ ܢܬܒܣܡ ܒܣܡܟܗܿ. ܘܢܚܕܐ ܥܡܗܿ ܟܕ ܐܡܪܝܢܢ. ܕܦܐܪܐ ܕܝܠܕܬ ܐܠܗܐ ܗܘ. 
-                </dcterms:description>
-        <dcterms:description>
-                     La Vierge fille de David m’a appelé aujourd’hui à un banquet sans examen; venez, profitons de sa table et réjouissons-nous avec elle en disant que le fruit qu’elle a enfanté est Dieu. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܐܘܪܗܝ ܫܠܚܬ ܠܗ. ܠܡܠܟܐ ܡܫܝܚܐ ܕܬܐ ܨܝܕܝ. ܘܐܝܬܐ ܠܝ ܥܡܟ. ܨܠܝܒܐ ܚܝܐ ܐܣܓܘܕ ܠܗ. ܬܐ ܐܣܝܢܝ ܬܐ ܐܚܠܡܝܢܝ. ܬܐ ܥܨܘܒ ܟܐܒܝ̈ ܕܟܪܝܗܢܝ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Édesse a envoyé dire au Christ roi: “Viens chez moi, apporte-moi avec toi la croix vivante que je l’adore, viens me soigner, viens me guérir, viens panser les blessures qui me font souffrir.” 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/13"/>
+        <dcterms:description>ܒܬܘܠܬܐ ܒܪܬ ܕܘܝܕ ܩܪܬܢܝ ܝܘܡܢ ܠܚܠܘܠܐ. ܒܚܘܒܐ ܕܠܐ ܒܨܬܐ. ܬܘ ܢܬܒܣܡ ܒܣܡܟܗܿ. ܘܢܚܕܐ ܥܡܗܿ ܟܕ ܐܡܪܝܢܢ. ܕܦܐܪܐ ܕܝܠܕܬ ܐܠܗܐ ܗܘ.</dcterms:description>
+        <dcterms:description>La Vierge fille de David m’a appelé aujourd’hui à un banquet sans examen; venez, profitons de sa table et réjouissons-nous avec elle en disant que le fruit qu’elle a enfanté est Dieu.</dcterms:description>
+        <dcterms:description>ܐܘܪܗܝ ܫܠܚܬ ܠܗ. ܠܡܠܟܐ ܡܫܝܚܐ ܕܬܐ ܨܝܕܝ. ܘܐܝܬܐ ܠܝ ܥܡܟ. ܨܠܝܒܐ ܚܝܐ ܐܣܓܘܕ ܠܗ. ܬܐ ܐܣܝܢܝ ܬܐ ܐܚܠܡܝܢܝ. ܬܐ ܥܨܘܒ ܟܐܒܝ̈ ܕܟܪܝܗܢܝ.</dcterms:description>
+        <dcterms:description>Édesse a envoyé dire au Christ roi: “Viens chez moi, apporte-moi avec toi la croix vivante que je l’adore, viens me soigner, viens me guérir, viens panser les blessures qui me font souffrir.”</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/13"/>
         <dcterms:relation rdf:resource="#bib993-3"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/993"/>
@@ -46,7 +39,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/993/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/993/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/993/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/993/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
         <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>

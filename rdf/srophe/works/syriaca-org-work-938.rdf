@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/938">
+    <skos:Concept rdf:about="http://syriaca.org/work/938">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܩܐܝܢ ܘܗܒܝܠ</rdfs:label>
         <rdfs:label xml:lang="en">Cain and Abel (text)</rdfs:label>
-        <dcterms:description>
-                     ܒܫܪܒܗ ܕܗܒܝܠ ܪܥܝܢܝ ܬܗܪ: ܘܠܕܘܡܪܐ ܪܒܐ ܫܪܟ: ܘܐܬܬܥܝܪ ܪܥܝܢܝ ܕܢܡܠܠܝܘܗܝ: ܠܗܿܘ ܬܟܬܘܫܐ ܕܐܚ̈ܐ ܣܥܪܘ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Mon esprit s’est étonné de l’histoire d’Abel et en est arrivé à une grande stupeur; et mon esprit a été poussé à parler de ce combat mené par les frères. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܬܘܕܝܬܐ ܠܟ ܡܪܐ ܕܟܠ: ܕܪܘܡܐ ܘܥܘܡܩܐ ܒܪܡܙܟ ܬܠܝܢ. ܘܕܘܟܪܢ ܟܐܢ̈ܐ ܐܢܬ ܢܛܪܬ: ܘܠܥܘ̈ܠܐ ܐܢܬ ܐܘܒܕܬ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Grâces te soient rendues, Seigneur de tout, car les hauteurs et les profondeus sont suspendues à ta volonté; c’est toi qui as gardé le souvenir des justes et anéanti les impies. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/650"/>
+        <dcterms:description>ܒܫܪܒܗ ܕܗܒܝܠ ܪܥܝܢܝ ܬܗܪ: ܘܠܕܘܡܪܐ ܪܒܐ ܫܪܟ: ܘܐܬܬܥܝܪ ܪܥܝܢܝ ܕܢܡܠܠܝܘܗܝ: ܠܗܿܘ ܬܟܬܘܫܐ ܕܐܚ̈ܐ ܣܥܪܘ.</dcterms:description>
+        <dcterms:description>Mon esprit s’est étonné de l’histoire d’Abel et en est arrivé à une grande stupeur; et mon esprit a été poussé à parler de ce combat mené par les frères.</dcterms:description>
+        <dcterms:description>ܬܘܕܝܬܐ ܠܟ ܡܪܐ ܕܟܠ: ܕܪܘܡܐ ܘܥܘܡܩܐ ܒܪܡܙܟ ܬܠܝܢ. ܘܕܘܟܪܢ ܟܐܢ̈ܐ ܐܢܬ ܢܛܪܬ: ܘܠܥܘ̈ܠܐ ܐܢܬ ܐܘܒܕܬ.</dcterms:description>
+        <dcterms:description>Grâces te soient rendues, Seigneur de tout, car les hauteurs et les profondeus sont suspendues à ta volonté; c’est toi qui as gardé le souvenir des justes et anéanti les impies.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/650"/>
         <dcterms:relation rdf:resource="#bib938-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/938"/>
@@ -41,7 +34,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/938/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/938/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/938/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/938/html">
         <dcterms:title xml:lang="syr">ܩܐܝܢ ܘܗܒܝܠ</dcterms:title>
         <dcterms:title xml:lang="en">Cain and Abel (text)</dcterms:title>

@@ -1,26 +1,11 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/2500">
+    <skos:Concept rdf:about="http://syriaca.org/work/2500">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܡܟܬܒܢܘܬ ܙܒ̈ܢܐ</rdfs:label>
-        <dcterms:description>A two-part universal history composed originally by  Bar Hebraeus  and 
-                    continued by later authors.  Part 1 
-                      deals with secular history and  Part 2 
-                      
-                    with church history. For editions and translations, see the bibliography of each of these parts, which have been published separately.</dcterms:description>
-        <dcterms:description>Described in 
-                         
-                             Bibliothecae apostolicae vaticanae codicum manuscriptorum catalogus 
-                             
-                             338-341 
-                         
-                    </dcterms:description>
-        <dcterms:description>Described in 
-                         
-                             Bibliothecae Mediceae Lavrentianae et Palatinae codicum mms. orientalium catalogus 
-                             
-                             190-197 
-                         
-                    </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/239"/>
+        <dcterms:description>A two-part universal history composed originally by Bar Hebraeus and continued by later authors. Part 1 deals with secular history and Part 2 with church history. For editions and translations, see the bibliography of each of these parts, which have been published separately.</dcterms:description>
+        <dcterms:description>Described in Bibliothecae apostolicae vaticanae codicum manuscriptorum catalogus 338-341</dcterms:description>
+        <dcterms:description>Described in Bibliothecae Mediceae Lavrentianae et Palatinae codicum mms. orientalium catalogus 190-197</dcterms:description>
         <skos:closeMatch rdf:resource="http://digi.vatlib.it/mss/detail/Vat.sir.166"/>
         <skos:closeMatch rdf:resource="http://mss.bmlonline.it/s.aspx?Id=AVKpZgTlfJ8ZMCf2i5w5#/book"/>
         <skos:closeMatch rdf:resource="http://www.e-corpus.org/eng/ref/163871/Firenze_BML_Or._366_[Assemani_118]/"/>
@@ -49,7 +34,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2500/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2500/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/2500/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/2500/html">
         <dcterms:title xml:lang="syr">ܡܟܬܒܢܘܬ ܙܒ̈ܢܐ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/work/2500"/>

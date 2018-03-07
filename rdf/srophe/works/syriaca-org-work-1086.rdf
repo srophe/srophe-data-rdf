@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/1086">
+    <skos:Concept rdf:about="http://syriaca.org/work/1086">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܐܝܣܚܩ</rdfs:label>
         <rdfs:label xml:lang="en">Isaac of Adiabene (text)</rdfs:label>
-        <dcterms:description>
-                     ܒܬܪܗ ܕܝܢ ܕܗܢܐ ܐܬܠܝܛܐ ܕܡܫܝܚܐ ܗܘܐ ܪܫܐ ܠܟܪ̈ܣܛܝܢܐ ܣܓܝ̈ܐܐ ܕܐܝܬ ܗܘܐ ܡܪܝ ܐܝܣܚܩ ܓܒܪܐ ܛܢܢܐ ܘܢܟܦܐ ܗܘܿ ܕܒܕܡܘܬ ܐܝܣܚܩ ܐܬܩܪܒ ܗܘܐ ܐܝܟ ܕܒܚܐ ܚܝܐ ܠܡܪܝܐ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Après cet athlète du Christ, le chef des nombreux chrétiens qu’il y avait fut Mar Isaac, homme zélé et modeste, qui fut offert comme sacrifice vivant au Seigneur à l’instar d’Isaac. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܘܒܢܐ ܗܘܐ ܗܢܐ ܝܨܘܦܬܢܐ ܕܛܢܢܗ ܕܒܝܬܗ ܕܡܪܝܐ ܐܟܠܗ ܗܘܐ ܥܕܬܐ ܚܕܐ ܪܒܬܐ ܘܡܛܟܣܬܐ ܕܫܟܝܚܐ ܥܕܡܐ ܠܝܘܡܢܐ ܘܡܬܩܪܝܐ ܒܫܡܗ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Et cet homme diligent, que le zèle de la maison du Seigneur dévora, construisit une église grande et ordonnée qui existe jusqu’à aujourd’hui et est appelée de son nom. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/901"/>
+        <dcterms:description>ܒܬܪܗ ܕܝܢ ܕܗܢܐ ܐܬܠܝܛܐ ܕܡܫܝܚܐ ܗܘܐ ܪܫܐ ܠܟܪ̈ܣܛܝܢܐ ܣܓܝ̈ܐܐ ܕܐܝܬ ܗܘܐ ܡܪܝ ܐܝܣܚܩ ܓܒܪܐ ܛܢܢܐ ܘܢܟܦܐ ܗܘܿ ܕܒܕܡܘܬ ܐܝܣܚܩ ܐܬܩܪܒ ܗܘܐ ܐܝܟ ܕܒܚܐ ܚܝܐ ܠܡܪܝܐ.</dcterms:description>
+        <dcterms:description>Après cet athlète du Christ, le chef des nombreux chrétiens qu’il y avait fut Mar Isaac, homme zélé et modeste, qui fut offert comme sacrifice vivant au Seigneur à l’instar d’Isaac.</dcterms:description>
+        <dcterms:description>ܘܒܢܐ ܗܘܐ ܗܢܐ ܝܨܘܦܬܢܐ ܕܛܢܢܗ ܕܒܝܬܗ ܕܡܪܝܐ ܐܟܠܗ ܗܘܐ ܥܕܬܐ ܚܕܐ ܪܒܬܐ ܘܡܛܟܣܬܐ ܕܫܟܝܚܐ ܥܕܡܐ ܠܝܘܡܢܐ ܘܡܬܩܪܝܐ ܒܫܡܗ.</dcterms:description>
+        <dcterms:description>Et cet homme diligent, que le zèle de la maison du Seigneur dévora, construisit une église grande et ordonnée qui existe jusqu’à aujourd’hui et est appelée de son nom.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/901"/>
         <dcterms:relation rdf:resource="#bib1086-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1086"/>
@@ -41,7 +34,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1086/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1086/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1086/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1086/html">
         <dcterms:title xml:lang="syr">ܐܝܣܚܩ</dcterms:title>
         <dcterms:title xml:lang="en">Isaac of Adiabene (text)</dcterms:title>

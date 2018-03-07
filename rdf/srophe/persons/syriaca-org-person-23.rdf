@@ -1,66 +1,45 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/person/23">
+    <skos:Concept rdf:about="http://syriaca.org/person/23">
         <rdf:type rdf:resource="http://lawd.info/ontology/Person"/>
-        <rdfs:label xml:lang="en">
-                         Ahai ,  catholicos 
-                    </rdfs:label>
-        <rdfs:label xml:lang="syr">
-                         ܐܚܝ 
-                    </rdfs:label>
+        <rdfs:label xml:lang="en">Ahai , catholicos</rdfs:label>
+        <rdfs:label xml:lang="syr">ܐܚܝ</rdfs:label>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:primaryForm xml:lang="en">
-                         Ahai ,  catholicos 
-                    </lawd:primaryForm>
+                <lawd:primaryForm xml:lang="en">Ahai , catholicos</lawd:primaryForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en">
-                         Aḥai ,  Catholicos of Ctesiphon 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="en">Aḥai , Catholicos of Ctesiphon</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="ar">
-                         آحى 
-                         جاثليق المداىٔن 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="ar">آحى جاثليق المداىٔن</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="syr">
-                         ܐܚܝ 
-                         ܩܬܘܠܝܩܐ ܕܣܠܝܩ ܘܩܛܣܝܦܘܢ 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="syr">ܐܚܝ ܩܬܘܠܝܩܐ ܕܣܠܝܩ ܘܩܛܣܝܦܘܢ</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="syr-Syrj">
-                         ܐܰܚܝ 
-                         ܩܰܬܘܠܝܩܳܐ ܕܣܰܠܝܩ ܘܩܰܛܣܝܦܘܢ 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="syr-Syrj">ܐܰܚܝ ܩܰܬܘܠܝܩܳܐ ܕܣܰܠܝܩ ܘܩܰܛܣܝܦܘܢ</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:primaryForm xml:lang="syr">
-                         ܐܚܝ 
-                    </lawd:primaryForm>
+                <lawd:primaryForm xml:lang="syr">ܐܚܝ</lawd:primaryForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en-x-gedsh">
-                         Aḥai 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="en-x-gedsh">Aḥai</lawd:variantForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
@@ -70,10 +49,7 @@
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="de-x-baumstrk">
-                         Katholikos 
-                         Aḥai 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="de-x-baumstrk">Katholikos Aḥai</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/638"/>
             </rdf:Description>
         </lawd:hasName>
@@ -96,14 +72,10 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/23/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/23/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/23/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/person/23/html">
-        <dcterms:title xml:lang="en">
-                         Ahai ,  catholicos 
-                    </dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܐܚܝ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="en">Ahai , catholicos</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܚܝ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/23"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
@@ -113,12 +85,8 @@
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ahai, catholicos — ܐܚܝ" in last modified August 17, 2016, http://syriaca.org/person/23</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/23/tei">
-        <dcterms:title xml:lang="en">
-                         Ahai ,  catholicos 
-                    </dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܐܚܝ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="en">Ahai , catholicos</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܚܝ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/23"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
@@ -128,12 +96,8 @@
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ahai, catholicos — ܐܚܝ" in last modified August 17, 2016, http://syriaca.org/person/23</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/23/ttl">
-        <dcterms:title xml:lang="en">
-                         Ahai ,  catholicos 
-                    </dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܐܚܝ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="en">Ahai , catholicos</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܚܝ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/23"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>
@@ -143,12 +107,8 @@
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Ahai, catholicos — ܐܚܝ" in last modified August 17, 2016, http://syriaca.org/person/23</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/23/rdf">
-        <dcterms:title xml:lang="en">
-                         Ahai ,  catholicos 
-                    </dcterms:title>
-        <dcterms:title xml:lang="syr">
-                         ܐܚܝ 
-                    </dcterms:title>
+        <dcterms:title xml:lang="en">Ahai , catholicos</dcterms:title>
+        <dcterms:title xml:lang="syr">ܐܚܝ</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/23"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/4"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/2"/>

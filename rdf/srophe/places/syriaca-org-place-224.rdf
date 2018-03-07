@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/224">
+    <skos:Concept rdf:about="http://syriaca.org/place/224">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Mor Barṣawmo</rdfs:label>
         <rdfs:label xml:lang="syr">ܕܝܪܐ ܕܡܪܝ ܒܪܨܘܡܐ</rdfs:label>
@@ -46,41 +46,31 @@
         </lawd:hasName>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         The monastery, situated in the mountains to the southeast of Melitene and named after the 5th-cent. ascetic Barṣawmo, rose to prominence as the regular residence of Syr. Orth. Patriarchs in the 11th-13th cent., the period often referred to as the Syriac Renaissance. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">The monastery, situated in the mountains to the southeast of Melitene and named after the 5th-cent. ascetic Barṣawmo, rose to prominence as the regular residence of Syr. Orth. Patriarchs in the 11th-13th cent., the period often referred to as the Syriac Renaissance.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         81. Barṣawmo, Dayro d-Mor 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">81. Barṣawmo, Dayro d-Mor</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܕܡܽܘܬ ܩܶܠܥܳܐ ܥܰܠ ܪܝܫ ܛܘܪܐ. ܥܰܠܗܳܝ ܫܰܡܗܘܗܝ ܐܢܳܫܝ̈ܢ ܕܰܝܪܳܐ ܕܰܫܩܝܦܳܐ ܒܩܘܪܒܳܐ ܕܡܝܺܠܝܛܝܺܢܝ ܥܗܺܝܕ ܒܡܰܟܬܰܒܙܰܒܢ̈ܐ ܥܺܕܬܳܢܳܝ̈ܐ ܫܢܰܬ  790  ܘܰܗܘܳܐ ܟܘܪܣܝܳܐ ܦܰܛܪܝܰܪܟܳܝܳܐ ܒܕܳܪܳܐ ܕܰܚܕܰܥܣܪ ܥܕܰܡܐ ܠܰܬܠܳܬܰܥܣܪ ܘܕܰܝܪܳܐ ܪܒܐ ܗܘܐ ܣܡܟ ܠܥܺܕܬܳܐ ܒܚܰܡܫܳܐ ܦܰܛܪܝܰܪ̈ܟܐ  ܘ:  34  ܡܺܝܛܪ̈ܘܦܘܠܝܛܶܐ ܘܥܰܡܝܪ ܗܘܐ ܥܕܰܡܳܐ ܠܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܰܫܒܰܥܣܪ. ܠܚܰܪܬܐ ܥܰܠܥܶܠ ܙܰܒܢܳܐ ܐܢܳܫܘ̈ܗܝ. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܕܡܽܘܬ ܩܶܠܥܳܐ ܥܰܠ ܪܝܫ ܛܘܪܐ. ܥܰܠܗܳܝ ܫܰܡܗܘܗܝ ܐܢܳܫܝ̈ܢ ܕܰܝܪܳܐ ܕܰܫܩܝܦܳܐ ܒܩܘܪܒܳܐ ܕܡܝܺܠܝܛܝܺܢܝ ܥܗܺܝܕ ܒܡܰܟܬܰܒܙܰܒܢ̈ܐ ܥܺܕܬܳܢܳܝ̈ܐ ܫܢܰܬ 790 ܘܰܗܘܳܐ ܟܘܪܣܝܳܐ ܦܰܛܪܝܰܪܟܳܝܳܐ ܒܕܳܪܳܐ ܕܰܚܕܰܥܣܪ ܥܕܰܡܐ ܠܰܬܠܳܬܰܥܣܪ ܘܕܰܝܪܳܐ ܪܒܐ ܗܘܐ ܣܡܟ ܠܥܺܕܬܳܐ ܒܚܰܡܫܳܐ ܦܰܛܪܝܰܪ̈ܟܐ ܘ: 34 ܡܺܝܛܪ̈ܘܦܘܠܝܛܶܐ ܘܥܰܡܝܪ ܗܘܐ ܥܕܰܡܳܐ ܠܡܶܨܥܳܝ̈ܬܗ ܕܕܳܪܐ ܕܰܫܒܰܥܣܪ. ܠܚܰܪܬܐ ܥܰܠܥܶܠ ܙܰܒܢܳܐ ܐܢܳܫܘ̈ܗܝ.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         على رأس جبل يشبه القلعة ولذلك سماه بعضهم دير الكهف بقرب ملطية ذكر في التاريخ الكنسي سنة 790 وصار كرسيا بطريركياً  في القرن الحادي عشر حتى اواخر الثالث عشر، وكان ديرا عظيماً دعم اللكنيسة  بخمسة بطاركة واربعة وثلاثين مطراناً، وظلّ عامراً آهلاً حتى اواسط القرن السابع عشر ثم عصف الدهر باهله 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">على رأس جبل يشبه القلعة ولذلك سماه بعضهم دير الكهف بقرب ملطية ذكر في التاريخ الكنسي سنة 790 وصار كرسيا بطريركياً في القرن الحادي عشر حتى اواخر الثالث عشر، وكان ديرا عظيماً دعم اللكنيسة بخمسة بطاركة واربعة وثلاثين مطراناً، وظلّ عامراً آهلاً حتى اواسط القرن السابع عشر ثم عصف الدهر باهله</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         built on top of a mountain near Melitene, it looks like a citadel, a fact which has led some writers to call it the Monastery of the Cave. It was first mentioned in church history in 790. It was the Patriarchal see from the eleventh century until the thirteenth century. A great monastery, it produced five patriarchs and forty-three metropolitans. It remained populated until the middle of the seventeenth century, when it was abandoned. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">built on top of a mountain near Melitene, it looks like a citadel, a fact which has led some writers to call it the Monastery of the Cave. It was first mentioned in church history in 790. It was the Patriarchal see from the eleventh century until the thirteenth century. A great monastery, it produced five patriarchs and forty-three metropolitans. It remained populated until the middle of the seventeenth century, when it was abandoned.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
@@ -91,7 +81,7 @@
                 <periodo:latestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">1675</periodo:latestYear>
             </rdf:Description>
         </time:hasDateTimeDescription>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=m&amp;sK=monastery of Mar Barsauma&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=m&amp;sK=monastery of Mar Barsauma&amp;sT=keywords"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
@@ -107,7 +97,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/224/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/224/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/224/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/224/html">
         <dcterms:title xml:lang="en">Mor Barṣawmo</dcterms:title>
         <dcterms:title xml:lang="syr">ܕܝܪܐ ܕܡܪܝ ܒܪܨܘܡܐ</dcterms:title>

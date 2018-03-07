@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/339">
+    <skos:Concept rdf:about="http://syriaca.org/place/339">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Mar Awgen</rdfs:label>
         <rdfs:label xml:lang="syr">ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ</rdfs:label>
@@ -49,33 +49,26 @@
                 <geo:long>41.409741</geo:long>
             </rdf:Description>
         </geo:location>
-        <dcterms:description>A monastery north of  Nisibis .</dcterms:description>
+        <dcterms:description>A monastery north of Nisibis .</dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܐܝܺܙܠܐ ܗ̇ܘ ܕܚܳܐܰܪ ܠܰܢܨܝܒܝܢ ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ ܐܰܘ ܒܪܺܝܫܐ ܕܰܚܡܝܫܳܝܬܐ ܘܐܶܫܬܰܚܠܦܘ ܙܰܒ̈ܢܐ ܥܠܰܘܗܝ ܘܐܶܫܬܰܠܛܘ ܥܠܰܘܗܝ ܢܰܣܛܘܪ̈ܝܰܢܘ ܙܰܒܢܳܐ ܢܰܓܝܪܐ ܘܰܗܦܟ ܠܘܳܬܢ ܒܰܐܚܪ̈ܝܬܗ̇ ܕܡܰܐܬܐ ܕܰܬܡܳܢܰܥܶܣܪ̈ܐ ܢܦܰܩܘ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܥܕܰܡܐ ܠܗܳܫܐ ܥܰܡܝܪ ܘܰܫܟܝܺܚ ܒܗ ܕܰܝܪܳܝܐ ܚܰܕ. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܒܰܫܦܘܠܳܐ ܕܛܘܪܳܐ ܕܐܝܺܙܠܐ ܗ̇ܘ ܕܚܳܐܰܪ ܠܰܢܨܝܒܝܢ ܐܶܫܬܰܬܐܣ ܒܡܰܐܬܐ ܪܒܝܥܳܝܬܐ ܐܰܘ ܒܪܺܝܫܐ ܕܰܚܡܝܫܳܝܬܐ ܘܐܶܫܬܰܚܠܦܘ ܙܰܒ̈ܢܐ ܥܠܰܘܗܝ ܘܐܶܫܬܰܠܛܘ ܥܠܰܘܗܝ ܢܰܣܛܘܪ̈ܝܰܢܘ ܙܰܒܢܳܐ ܢܰܓܝܪܐ ܘܰܗܦܟ ܠܘܳܬܢ ܒܰܐܚܪ̈ܝܬܗ̇ ܕܡܰܐܬܐ ܕܰܬܡܳܢܰܥܶܣܪ̈ܐ ܢܦܰܩܘ ܡܶܢܗ ܬܪܶܝܢ ܐܶܦܝܣܩܘܦ̈ܐ ܘܰܥܕܰܡܐ ܠܗܳܫܐ ܥܰܡܝܪ ܘܰܫܟܝܺܚ ܒܗ ܕܰܝܪܳܝܐ ܚܰܕ.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         في سفح جبل الإزل المطلّ على نصيبين شيد بناؤه اواخر المئة الرابعة او صدر الخامسة، وتقلبت به الاحوال فاستولى عليه النساطرة دهراً مديداً ثم عاد الينا اواخر المئة الثامنة عشرة. نشأ منه اسقفان ولم يزل عامراً يقطنه راهب واحد 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">في سفح جبل الإزل المطلّ على نصيبين شيد بناؤه اواخر المئة الرابعة او صدر الخامسة، وتقلبت به الاحوال فاستولى عليه النساطرة دهراً مديداً ثم عاد الينا اواخر المئة الثامنة عشرة. نشأ منه اسقفان ولم يزل عامراً يقطنه راهب واحد</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         at the foot of the Izla mountain, which overlooks Nisibin. Built at the end of the fourth or the start of the fifth century, it suffered many vicissitudes. The Nestorians held it for a long time, but we regained it at the end of the eighteenth century. It produced two bishops. At present it is inhabited by only one monk. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">at the foot of the Izla mountain, which overlooks Nisibin. Built at the end of the fourth or the start of the fifth century, it suffered many vicissitudes. The Nestorians held it for a long time, but we regained it at the end of the eighteenth century. It produced two bishops. At present it is inhabited by only one monk.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
-        <dcterms:description>In Dolabani's translation of Barsoum's description  ܘܐܶܫܬܰܚܠܦܘ  and  ܘܐܶܫܬܰܠܛܘ  
-                        should read  ܘܶܐܫܬܰܚܠܦܘ  and  ܘܶܐܫܬܰܠܛܘ  respectively.</dcterms:description>
+        <dcterms:description>In Dolabani's translation of Barsoum's description ܘܐܶܫܬܰܚܠܦܘ and ܘܐܶܫܬܰܠܛܘ should read ܘܶܐܫܬܰܚܠܦܘ and ܘܶܐܫܬܰܠܛܘ respectively.</dcterms:description>
         <time:hasDateTimeDescription>
             <rdf:Description>
                 <skos:prefLabel/>
@@ -84,7 +77,7 @@
             </rdf:Description>
         </time:hasDateTimeDescription>
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/874579"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=m&amp;sK=monastery of Mar Awgen&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=m&amp;sK=monastery of Mar Awgen&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/142"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/723"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/3"/>
@@ -101,7 +94,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/339/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/339/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/339/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/339/html">
         <dcterms:title xml:lang="en">Mar Awgen</dcterms:title>
         <dcterms:title xml:lang="syr">ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ</dcterms:title>

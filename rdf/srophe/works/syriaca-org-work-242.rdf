@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/242">
+    <skos:Concept rdf:about="http://syriaca.org/work/242">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܐܢܛܘܢܝܢܘܣ ܘܙܒܝܢܐ ܘܓܪܡܢܘܣ ܘܡܢܢܬܘܣ</rdfs:label>
         <rdfs:label xml:lang="en">Antoninus, Zebinas, Germanus, and Mannathus (text)</rdfs:label>
-        <dcterms:description>
-                     ܘܟܕ ܕܝܢ ܙܒܢܐ ܣܓܝܐܐ ܥܒܪ ܗܘ̣ܐ ܡܢ ܒܬܪ ܗܠܝܢ ܕܐܫܬܥܝܢ: ܬܘܒ ܡܢ ܐܪܥܐ ܕܐܓܦܛܘܣ ܣܕܪܐ ܐܚܪܢܐ ܕܬܪܝܢ ܕܣܗ̈ܕܐ ܕܐܠܗܐ: ܕܐܝܬܝܗܘܢ ܗܘ̣ܘ ܡܐܐ ܘܬܠܬܝܢ ܒܡܢܝܢܐ: ܠܐܬܪܢ ܐܫܬܕܪܘ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Longtemps après ces choses qui viennent d’être racontées, à nouveau une autre série de martyrs de Dieu venant de la terre d’Égypte fut envoyée dans notre pays, au nombre de cent trente. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܗܢܐ ܗܟܝܠ ܫܘܠܡܐ ܗܘܐ ܒܣܗ̈ܕܐ ܩܕܝ̈ܫܐ ܕܐܠܗܐ: ܐܝܠܝܢ ܕܐܓܘܢܝ̈ܗܘܢ ܘܬܟܬܘ̈ܫܝܗܘܢ ܕܠܘܩܒܠ ܛܥܝܘܬܐ ܩܕܡ ܥܝ̈ܢܝܢ ܐܣܬܥܪܘ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Telle fut la fin des saints martyrs de Dieu, dont les combats et les luttes contre l’erreur furent menés sous nos yeux. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/480"/>
+        <dcterms:description>ܘܟܕ ܕܝܢ ܙܒܢܐ ܣܓܝܐܐ ܥܒܪ ܗܘ̣ܐ ܡܢ ܒܬܪ ܗܠܝܢ ܕܐܫܬܥܝܢ: ܬܘܒ ܡܢ ܐܪܥܐ ܕܐܓܦܛܘܣ ܣܕܪܐ ܐܚܪܢܐ ܕܬܪܝܢ ܕܣܗ̈ܕܐ ܕܐܠܗܐ: ܕܐܝܬܝܗܘܢ ܗܘ̣ܘ ܡܐܐ ܘܬܠܬܝܢ ܒܡܢܝܢܐ: ܠܐܬܪܢ ܐܫܬܕܪܘ.</dcterms:description>
+        <dcterms:description>Longtemps après ces choses qui viennent d’être racontées, à nouveau une autre série de martyrs de Dieu venant de la terre d’Égypte fut envoyée dans notre pays, au nombre de cent trente.</dcterms:description>
+        <dcterms:description>ܗܢܐ ܗܟܝܠ ܫܘܠܡܐ ܗܘܐ ܒܣܗ̈ܕܐ ܩܕܝ̈ܫܐ ܕܐܠܗܐ: ܐܝܠܝܢ ܕܐܓܘܢܝ̈ܗܘܢ ܘܬܟܬܘ̈ܫܝܗܘܢ ܕܠܘܩܒܠ ܛܥܝܘܬܐ ܩܕܡ ܥܝ̈ܢܝܢ ܐܣܬܥܪܘ.</dcterms:description>
+        <dcterms:description>Telle fut la fin des saints martyrs de Dieu, dont les combats et les luttes contre l’erreur furent menés sous nos yeux.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/480"/>
         <dcterms:relation rdf:resource="#bib242-2"/>
         <dcterms:relation rdf:resource="#bib242-9"/>
@@ -72,7 +65,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/242/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/242/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/242/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/242/html">
         <dcterms:title xml:lang="syr">ܐܢܛܘܢܝܢܘܣ ܘܙܒܝܢܐ ܘܓܪܡܢܘܣ ܘܡܢܢܬܘܣ</dcterms:title>
         <dcterms:title xml:lang="en">Antoninus, Zebinas, Germanus, and Mannathus (text)</dcterms:title>

@@ -1,20 +1,13 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/1427">
+    <skos:Concept rdf:about="http://syriaca.org/work/1427">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܐܬܐܢܐܣܝܘܣ</rdfs:label>
         <rdfs:label xml:lang="en">Athanasius of Alexandria (text)</rdfs:label>
-        <dcterms:description>
-                     ܟܕ ܠܐܬܢܣܝܘܣ ܡܩܠܣ ܐܢܐ ܠܡܝܬܪܘܬܐ ܡܩܠܣ ܐܢܐ. ܗܝ ܓܝܪ ܟܕ ܗܝ ܐܝܬܝܗܿ ܘܕܗܿܘ ܐܡܪ ܘܕܡܝܬܪܘܬܐ ܐܩܠܣ. 
-                </dcterms:description>
-        <dcterms:description>
-                     En faisant l’éloge d’Athanase, je fais l’éloge de la vertu, car parler de lui et faire l’éloge de la vertu, c’est la même chose. 
-                </dcterms:description>
-        <dcterms:description>
-                     ܘܠܢ ܐܢ ܡܢ ܡܫܝܢܐܝܬ ܠܒܘܟ ܘܐܟܚܕܐ ܪܥܝ ܐܢ ܕܝܢ ܡܬܬܩܪܒܢܐܝܬ ܐܦܢܐ ܐܘ ܩܒܠ ܘܐܩܝܡ ܥܡܟ ܘܥܡ ܗܿܢܘܢ ܕܐܟܘܬܟ ܐܦܢ ܪܒܐ ܫܐܠܬܐ ܒܗ ܒܡܫܝܚܐ ܡܪܢ... ܐܡܝܢ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Et nous, si c’est pour la paix, tiens-nus et sois pasteur avec nous; si c’est pour la guerre, reprends-nous et place-nous avec toi et avec tes semblables même si la demande est grande, dans le Christ notre Seigneur… Amen. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/511"/>
+        <dcterms:description>ܟܕ ܠܐܬܢܣܝܘܣ ܡܩܠܣ ܐܢܐ ܠܡܝܬܪܘܬܐ ܡܩܠܣ ܐܢܐ. ܗܝ ܓܝܪ ܟܕ ܗܝ ܐܝܬܝܗܿ ܘܕܗܿܘ ܐܡܪ ܘܕܡܝܬܪܘܬܐ ܐܩܠܣ.</dcterms:description>
+        <dcterms:description>En faisant l’éloge d’Athanase, je fais l’éloge de la vertu, car parler de lui et faire l’éloge de la vertu, c’est la même chose.</dcterms:description>
+        <dcterms:description>ܘܠܢ ܐܢ ܡܢ ܡܫܝܢܐܝܬ ܠܒܘܟ ܘܐܟܚܕܐ ܪܥܝ ܐܢ ܕܝܢ ܡܬܬܩܪܒܢܐܝܬ ܐܦܢܐ ܐܘ ܩܒܠ ܘܐܩܝܡ ܥܡܟ ܘܥܡ ܗܿܢܘܢ ܕܐܟܘܬܟ ܐܦܢ ܪܒܐ ܫܐܠܬܐ ܒܗ ܒܡܫܝܚܐ ܡܪܢ... ܐܡܝܢ.</dcterms:description>
+        <dcterms:description>Et nous, si c’est pour la paix, tiens-nus et sois pasteur avec nous; si c’est pour la guerre, reprends-nous et place-nous avec toi et avec tes semblables même si la demande est grande, dans le Christ notre Seigneur… Amen.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/511"/>
         <dcterms:relation rdf:resource="#bib1427-2"/>
         <dcterms:relation rdf:resource="http://syriaca.org/work/1427"/>
@@ -72,7 +65,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1427/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1427/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/1427/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/1427/html">
         <dcterms:title xml:lang="syr">ܐܬܐܢܐܣܝܘܣ</dcterms:title>
         <dcterms:title xml:lang="en">Athanasius of Alexandria (text)</dcterms:title>

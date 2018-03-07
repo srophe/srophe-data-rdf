@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/165">
+    <skos:Concept rdf:about="http://syriaca.org/place/165">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Sergiopolis</rdfs:label>
         <lawd:hasName>
@@ -32,7 +32,7 @@
                 <geo:long>38.75</geo:long>
             </rdf:Description>
         </geo:location>
-        <dcterms:description>A town southwest of  Kallinikos .</dcterms:description>
+        <dcterms:description>A town southwest of Kallinikos .</dcterms:description>
         <dcterms:description>GEDSH Map 2 omits dot under the s in the name "Resafa."</dcterms:description>
         <time:hasDateTimeDescription>
             <rdf:Description>
@@ -44,7 +44,7 @@
         <skos:closeMatch rdf:resource="http://pleiades.stoa.org/places/668354"/>
         <skos:closeMatch rdf:resource="http://en.wikipedia.org/wiki/Resafa"/>
         <skos:closeMatch rdf:resource="http://dbpedia.org/resource/Resafa"/>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=R&amp;sK=Rusafa&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=R&amp;sK=Rusafa&amp;sT=keywords"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/109"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/5"/>
@@ -57,7 +57,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/165/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/165/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/165/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/165/html">
         <dcterms:title xml:lang="en">Sergiopolis</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/place/165"/>

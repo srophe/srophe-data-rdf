@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/378">
+    <skos:Concept rdf:about="http://syriaca.org/place/378">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Monastery of Prophet Elijah</rdfs:label>
         <rdfs:label xml:lang="syr">ܕܝܪܐ ܕܩܢܩܪܬ</rdfs:label>
@@ -50,32 +50,26 @@
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </lawd:hasName>
-        <dcterms:description>A monastery near  Qanqart  about 8 km. southwest of  Amid .</dcterms:description>
+        <dcterms:description>A monastery near Qanqart about 8 km. southwest of Amid .</dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܒܫܶܡ ܐܠܝܐ ܢܺܒܝܐ. ܠܒܰܪ ܡܶܢ ܐܳܡܝ̣ܕ ܗܘ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܠܘܳܬ ܩܰܢܩܪܰܬ ܩܪܝܬܳܐ ܕܟܺܝܪ ܫܢܰܬ  1050  ܘܚܰܕܶܬܘ ܒܶܢܝܳܢܰܘ̈ܗܝ ܡܝܟܳܐܝܠ ܪܰܒܐ ܫܢܬ  1173  ܘܐܝܓܢܰܐܛܝܘܣ ܫܟܪܐܠܠܗ ܫܢܰܬ 1730  ܘܐܶܬܓܰܙܝ ܡܶܢ ܐܢ̈ܫܰܘܗܝ ܒܫܘܪܳܝܐ ܕܡܰܐܬܐ ܬܫܰܥܣܝܪܳܝܬܐ. ܘܩܳܡܰܬ ܒܕܘܟܬܗ ܩܪܝܬܐ ܕܡܶܬܐܡܰܪ ܠܗ ܬܘܪܟܳܐܝܬ ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ ܗܳܢܰܘ ܥܕܬܐ ܐܘܟܳܡܬܐ. ܡܶܛܠ ܐܘܟܳܡܘܬܐ ܕܐܰܬܪ̈ܘܳܬܐ ܗܳܢܘܢ ܘܰܥܕܰܡܐ ܠܝܰܘܡܳܢ ܩܳܝ̈ܡܝܢ ܚܰܪ̈ܒܬܳܗ̇ 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܒܫܶܡ ܐܠܝܐ ܢܺܒܝܐ. ܠܒܰܪ ܡܶܢ ܐܳܡܝ̣ܕ ܗܘ ܡܰܪܕܶܐ ܫܳܥܐ ܘܦܶܠܓܳܐ ܠܘܳܬ ܩܰܢܩܪܰܬ ܩܪܝܬܳܐ ܕܟܺܝܪ ܫܢܰܬ 1050 ܘܚܰܕܶܬܘ ܒܶܢܝܳܢܰܘ̈ܗܝ ܡܝܟܳܐܝܠ ܪܰܒܐ ܫܢܬ 1173 ܘܐܝܓܢܰܐܛܝܘܣ ܫܟܪܐܠܠܗ ܫܢܰܬ 1730 ܘܐܶܬܓܰܙܝ ܡܶܢ ܐܢ̈ܫܰܘܗܝ ܒܫܘܪܳܝܐ ܕܡܰܐܬܐ ܬܫܰܥܣܝܪܳܝܬܐ. ܘܩܳܡܰܬ ܒܕܘܟܬܗ ܩܪܝܬܐ ܕܡܶܬܐܡܰܪ ܠܗ ܬܘܪܟܳܐܝܬ ܩܰܪܰܗ ܟܺܝܠܺܝܣܰܐ ܗܳܢܰܘ ܥܕܬܐ ܐܘܟܳܡܬܐ. ܡܶܛܠ ܐܘܟܳܡܘܬܐ ܕܐܰܬܪ̈ܘܳܬܐ ܗܳܢܘܢ ܘܰܥܕܰܡܐ ܠܝܰܘܡܳܢ ܩܳܝ̈ܡܝܢ ܚܰܪ̈ܒܬܳܗ̇</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         باسم ايليا النبي بظاهر مدينة ديار بكر مسيرة ساعة ونصف عنها عند قرية قنقرت ذكر سنة 1050 وجدد ميخائيل الكبير عمارته عام 1173 ثم اغناطيوس شكرالله سنة 1730 وخلا من اهله في اوائل المئة التاسعة عشرة وقامت مكانه قرية يقال لها قره كليسا (الكنيسة السوداء لسواد حجارة تلك الديار) ولا تزال اطلاله ماثلة. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">باسم ايليا النبي بظاهر مدينة ديار بكر مسيرة ساعة ونصف عنها عند قرية قنقرت ذكر سنة 1050 وجدد ميخائيل الكبير عمارته عام 1173 ثم اغناطيوس شكرالله سنة 1730 وخلا من اهله في اوائل المئة التاسعة عشرة وقامت مكانه قرية يقال لها قره كليسا (الكنيسة السوداء لسواد حجارة تلك الديار) ولا تزال اطلاله ماثلة.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         built in the name of the prophet Elijah near Qanqart, a journey of an hour and a half from Diyarbakir, was first mentioned in history in 1050. It was twice renovated, once by Patriarch Michael the Great in 1173 and again in 1730 by Patriarch Ignatius Shukr Allah. It was abandoned at the start of the nineteenth century and on its site today stands a village called Qara Kelisa (“The Black Church,” because of the black stones of the area). Its remains are still visible. See the Patriarchal Magazine, VI, 144-153. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">built in the name of the prophet Elijah near Qanqart, a journey of an hour and a half from Diyarbakir, was first mentioned in history in 1050. It was twice renovated, once by Patriarch Michael the Great in 1173 and again in 1730 by Patriarch Ignatius Shukr Allah. It was abandoned at the start of the nineteenth century and on its site today stands a village called Qara Kelisa (“The Black Church,” because of the black stones of the area). Its remains are still visible. See the Patriarchal Magazine, VI, 144-153.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
-        <dcterms:description>In Dolabani's translation of Barsoum's description  ܐܠܝܐ ܢܺܒܝܐ  should read  ܐܠܝܐ ܢܒܺܝܐ .</dcterms:description>
+        <dcterms:description>In Dolabani's translation of Barsoum's description ܐܠܝܐ ܢܺܒܝܐ should read ܐܠܝܐ ܢܒܺܝܐ .</dcterms:description>
         <time:hasDateTimeDescription>
             <rdf:Description>
                 <skos:prefLabel/>
@@ -97,7 +91,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/378/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/378/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/378/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/378/html">
         <dcterms:title xml:lang="en">Monastery of Prophet Elijah</dcterms:title>
         <dcterms:title xml:lang="syr">ܕܝܪܐ ܕܩܢܩܪܬ</dcterms:title>

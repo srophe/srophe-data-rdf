@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/37">
+    <skos:Concept rdf:about="http://syriaca.org/place/37">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Beth Qaṭraye</rdfs:label>
         <rdfs:label xml:lang="ar">قطر</rdfs:label>
@@ -48,17 +48,13 @@
         </lawd:hasName>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         The region known in Syriac as Beth Qaṭraye includes not only the peninsula of Qaṭar, but also its hinterland Yamāma, and the entire coast of northeast Arabia as far as the peninsula of Musandam, in present-day Oman, along with the islands. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">The region known in Syriac as Beth Qaṭraye includes not only the peninsula of Qaṭar, but also its hinterland Yamāma, and the entire coast of northeast Arabia as far as the peninsula of Musandam, in present-day Oman, along with the islands.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         102. Beth Qaṭraye 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">102. Beth Qaṭraye</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/1"/>
             </rdf:Description>
         </dcterms:description>
@@ -69,7 +65,7 @@
                 <periodo:latestYear rdf:datatype="http://www.w3.org/2001/XMLSchema#gYear">0800</periodo:latestYear>
             </rdf:Description>
         </time:hasDateTimeDescription>
-        <skos:closeMatch rdf:resource="&#xA;                                            http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=B&amp;sK=Bet Qatraye&amp;sT=keywords&#xA;                                        "/>
+        <skos:closeMatch rdf:resource="http://www.csc.org.il/db/browse.aspx?db=SB&amp;sL=B&amp;sK=Bet Qatraye&amp;sT=keywords"/>
         <dcterms:isPartOf rdf:resource="http://syriaca.org/bethqatraye"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
         <lawd:hasCitation rdf:resource="http://syriaca.org/bibl/1"/>
@@ -84,7 +80,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/37/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/37/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/37/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/37/html">
         <dcterms:title xml:lang="en">Beth Qaṭraye</dcterms:title>
         <dcterms:title xml:lang="ar">قطر</dcterms:title>

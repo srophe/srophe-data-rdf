@@ -1,20 +1,14 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/work/699">
+    <skos:Concept rdf:about="http://syriaca.org/work/699">
         <rdf:type rdf:resource="http://lawd.info/ontology/conceptualWork"/>
         <rdfs:label xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</rdfs:label>
         <rdfs:label xml:lang="en">Mary Mother of God (text)</rdfs:label>
-        <dcterms:description>
-                     ܪܒ ܕܘܡܪܐ. ܗܿܝ ܕܝܙܦܬ ܐܠܥܗ ܕܐܕܡ ܪܝܫܐ ܕܓܒܝܠܬܢ. ܘܡܢܗܿ ܐܬܒܢܝܬ ܘܐܬܬܩܢܬ ܐܢܬܬܐ... 
-                </dcterms:description>
-        <dcterms:description>
-                     Grande est la merveille! Celle qui a emprunté la côte d’Adam, principe de notre création, et en a été construite et fondée comme femme… 
-                </dcterms:description>
-        <dcterms:description>
-                     ܠܗܿܘ ܕܐܦ ܚܢܢ ܡܫܒܚܝܢܢ̣. ܠܗܿܘ ܕܚܠܦ ܦܘܪܩܢܐ ܘܚܝ̈ܐ ܕܓܢܣܐ ܕܝܠܢ ܒܚܟܡܬܐ ܟܠܡܕܡ ܦܪܢܣ ܘܕܒܪ. 
-                </dcterms:description>
-        <dcterms:description>
-                     Nous le louons aussi, lui qui pour le salut de notre race a tout pourvu et conduit avec sagesse. 
-                </dcterms:description>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/51"/>
+        <dcterms:contributor rdf:resource="http://syriaca.org/person/113"/>
+        <dcterms:description>ܪܒ ܕܘܡܪܐ. ܗܿܝ ܕܝܙܦܬ ܐܠܥܗ ܕܐܕܡ ܪܝܫܐ ܕܓܒܝܠܬܢ. ܘܡܢܗܿ ܐܬܒܢܝܬ ܘܐܬܬܩܢܬ ܐܢܬܬܐ...</dcterms:description>
+        <dcterms:description>Grande est la merveille! Celle qui a emprunté la côte d’Adam, principe de notre création, et en a été construite et fondée comme femme…</dcterms:description>
+        <dcterms:description>ܠܗܿܘ ܕܐܦ ܚܢܢ ܡܫܒܚܝܢܢ̣. ܠܗܿܘ ܕܚܠܦ ܦܘܪܩܢܐ ܘܚܝ̈ܐ ܕܓܢܣܐ ܕܝܠܢ ܒܚܟܡܬܐ ܟܠܡܕܡ ܦܪܢܣ ܘܕܒܪ.</dcterms:description>
+        <dcterms:description>Nous le louons aussi, lui qui pour le salut de notre race a tout pourvu et conduit avec sagesse.</dcterms:description>
         <dcterms:relation rdf:resource="http://syriaca.org/person/51"/>
         <dcterms:relation rdf:resource="http://syriaca.org/place/10"/>
         <dcterms:relation rdf:resource="http://syriaca.org/person/113"/>
@@ -47,7 +41,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/699/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/699/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/work/699/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/work/699/html">
         <dcterms:title xml:lang="syr">ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ</dcterms:title>
         <dcterms:title xml:lang="en">Mary Mother of God (text)</dcterms:title>

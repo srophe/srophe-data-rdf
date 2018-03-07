@@ -1,50 +1,33 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/person/741">
+    <skos:Concept rdf:about="http://syriaca.org/person/741">
         <rdf:type rdf:resource="http://lawd.info/ontology/Person"/>
-        <rdfs:label xml:lang="syr">
-                         ܫܡܥܘܢ 
-                         ܫܢܩܠܘܝ 
-                    </rdfs:label>
-        <rdfs:label xml:lang="en">
-                         Simeon 
-                         Shanqlawi 
-                    </rdfs:label>
+        <rdfs:label xml:lang="syr">ܫܡܥܘܢ ܫܢܩܠܘܝ</rdfs:label>
+        <rdfs:label xml:lang="en">Simeon Shanqlawi</rdfs:label>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en-x-gedsh">
-                         Shemʿon 
-                         Shanqlawi 
-                    </lawd:variantForm>
+                <lawd:variantForm xml:lang="en-x-gedsh">Shemʿon Shanqlawi</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/510"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:primaryForm xml:lang="syr">
-                         ܫܡܥܘܢ 
-                         ܫܢܩܠܘܝ 
-                    </lawd:primaryForm>
+                <lawd:primaryForm xml:lang="syr">ܫܡܥܘܢ ܫܢܩܠܘܝ</lawd:primaryForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:primaryForm xml:lang="en">
-                         Simeon 
-                         Shanqlawi 
-                    </lawd:primaryForm>
+                <lawd:primaryForm xml:lang="en">Simeon Shanqlawi</lawd:primaryForm>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en">Simeon of
-               Shanqlabad</lawd:variantForm>
+                <lawd:variantForm xml:lang="en">Simeon of Shanqlabad</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/5"/>
             </rdf:Description>
         </lawd:hasName>
         <lawd:hasName>
             <rdf:Description>
-                <lawd:variantForm xml:lang="en">Shemʿon of
-               Shanqlabad</lawd:variantForm>
+                <lawd:variantForm xml:lang="en">Shemʿon of Shanqlabad</lawd:variantForm>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/510"/>
             </rdf:Description>
         </lawd:hasName>
@@ -70,9 +53,7 @@
         </lawd:hasName>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description>
-                         Author, teacher of Yoḥannan bar Zoʿbi. 
-                    </dcterms:description>
+                <dcterms:description>Author, teacher of Yoḥannan bar Zoʿbi.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/510"/>
             </rdf:Description>
         </dcterms:description>
@@ -92,16 +73,10 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/741/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/741/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/person/741/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/person/741/html">
-        <dcterms:title xml:lang="syr">
-                         ܫܡܥܘܢ 
-                         ܫܢܩܠܘܝ 
-                    </dcterms:title>
-        <dcterms:title xml:lang="en">
-                         Simeon 
-                         Shanqlawi 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܫܡܥܘܢ ܫܢܩܠܘܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Simeon Shanqlawi</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/741"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/510"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
@@ -111,14 +86,8 @@
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Simeon Shanqlawi — ܫܡܥܘܢ ܫܢܩܠܘܝ" in last modified December 9, 2016, http://syriaca.org/person/741</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/741/tei">
-        <dcterms:title xml:lang="syr">
-                         ܫܡܥܘܢ 
-                         ܫܢܩܠܘܝ 
-                    </dcterms:title>
-        <dcterms:title xml:lang="en">
-                         Simeon 
-                         Shanqlawi 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܫܡܥܘܢ ܫܢܩܠܘܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Simeon Shanqlawi</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/741"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/510"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
@@ -128,14 +97,8 @@
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Simeon Shanqlawi — ܫܡܥܘܢ ܫܢܩܠܘܝ" in last modified December 9, 2016, http://syriaca.org/person/741</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/741/ttl">
-        <dcterms:title xml:lang="syr">
-                         ܫܡܥܘܢ 
-                         ܫܢܩܠܘܝ 
-                    </dcterms:title>
-        <dcterms:title xml:lang="en">
-                         Simeon 
-                         Shanqlawi 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܫܡܥܘܢ ܫܢܩܠܘܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Simeon Shanqlawi</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/741"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/510"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>
@@ -145,14 +108,8 @@
         <dcterms:bibliographicCitation xmlns:dc="http://purl.org/dc/terms/">James E. Walters, David A. Michelson and Thomas A. Carlson, (eds.), "Simeon Shanqlawi — ܫܡܥܘܢ ܫܢܩܠܘܝ" in last modified December 9, 2016, http://syriaca.org/person/741</dcterms:bibliographicCitation>
     </rdfs:Resource>
     <rdfs:Resource rdf:about="http://syriaca.org/person/741/rdf">
-        <dcterms:title xml:lang="syr">
-                         ܫܡܥܘܢ 
-                         ܫܢܩܠܘܝ 
-                    </dcterms:title>
-        <dcterms:title xml:lang="en">
-                         Simeon 
-                         Shanqlawi 
-                    </dcterms:title>
+        <dcterms:title xml:lang="syr">ܫܡܥܘܢ ܫܢܩܠܘܝ</dcterms:title>
+        <dcterms:title xml:lang="en">Simeon Shanqlawi</dcterms:title>
         <dcterms:subject rdf:resource="http://syriaca.org/person/741"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/510"/>
         <dcterms:source rdf:resource="http://syriaca.org/bibl/5"/>

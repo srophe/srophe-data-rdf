@@ -1,5 +1,5 @@
 <rdf:RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:schema="http://schema.org/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:periodo="http://n2t.net/ark:/99152/p0v#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:cwrc="http://sparql.cwrc.ca/ontologies/cwrc#" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:lawd="http://lawd.info/ontology/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:person="https://www.w3.org/ns/person" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:time="http://www.w3.org/2006/time#" xmlns:syriaca="http://syriaca.org/schema#" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:snap="http://data.snapdrgn.net/ontology/snap#">
-    <rdf:Description rdf:about="http://syriaca.org/place/385">
+    <skos:Concept rdf:about="http://syriaca.org/place/385">
         <rdf:type rdf:resource="http://lawd.info/ontology/Place"/>
         <rdfs:label xml:lang="en">Gawikat</rdfs:label>
         <rdfs:label xml:lang="syr">ܕܝܪܐ ܕܓܘܝܟܐܬ</rdfs:label>
@@ -47,25 +47,19 @@
         <dcterms:description>A monastery in Cilicia.</dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="syr-Syrj">
-                         ܒܓܶܢܒ ܡܣܝܣܛܐ ܒܩܝܺܠܝܩܝܰܐ  ܕܟܺܝܪ ܫܢܬ  1208  ܘܡܶܢܗ ܗܘܰܘ ܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܐ ܐܺܝܓܢܰܐܛܝܘܣ ܪܒܺܝܥܳܝܐ  1282  ܘܡܝܟܳܐܝܠ ܬܪܰܝܳܢܐ  1312 .  ܘܒܗ ܐܶܬܬܰܫܠܡ ܦܝܠܠܘܟܣܝܢ ܬܪܰܝܳܢܐ ܙܡܳܡܐ ܕܦܰܛܪܝܰܪܟܘܬܐ ܫܢܰܬ  1389 
-                    </dcterms:description>
+                <dcterms:description xml:lang="syr-Syrj">ܒܓܶܢܒ ܡܣܝܣܛܐ ܒܩܝܺܠܝܩܝܰܐ ܕܟܺܝܪ ܫܢܬ 1208 ܘܡܶܢܗ ܗܘܰܘ ܬܪܶܝܢ ܦܰܛܪܝܰܪ̈ܟܐ ܐܺܝܓܢܰܐܛܝܘܣ ܪܒܺܝܥܳܝܐ 1282 ܘܡܝܟܳܐܝܠ ܬܪܰܝܳܢܐ 1312 . ܘܒܗ ܐܶܬܬܰܫܠܡ ܦܝܠܠܘܟܣܝܢ ܬܪܰܝܳܢܐ ܙܡܳܡܐ ܕܦܰܛܪܝܰܪܟܘܬܐ ܫܢܰܬ 1389</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/3"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="ar">
-                         بجانب المصيصة في قيليقية ذكر سنة 1208 ومنه نشأ البطريركان اغناطيوس الرابع 1282+ وميخائيل الثاني 1312+ وفيه تقلد فيلكسين الثاني زمام البطريركية عام 1389. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="ar">بجانب المصيصة في قيليقية ذكر سنة 1208 ومنه نشأ البطريركان اغناطيوس الرابع 1282+ وميخائيل الثاني 1312+ وفيه تقلد فيلكسين الثاني زمام البطريركية عام 1389.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/2"/>
             </rdf:Description>
         </dcterms:description>
         <dcterms:description>
             <rdf:Description>
-                <dcterms:description xml:lang="en">
-                         near al-Maṣṣīṣa in Cilicia, was first mentioned in history in 1208. Two Patriarchs, Ignatius IV (d. 1282) and Michael II (d. 1312), came from it. It was in this monastery also that Phelixene II was consecrated as Patriarch in 1389. 
-                    </dcterms:description>
+                <dcterms:description xml:lang="en">near al-Maṣṣīṣa in Cilicia, was first mentioned in history in 1208. Two Patriarchs, Ignatius IV (d. 1282) and Michael II (d. 1312), came from it. It was in this monastery also that Phelixene II was consecrated as Patriarch in 1389.</dcterms:description>
                 <lawd:hasAttestation rdf:resource="http://syriaca.org/bibl/4"/>
             </rdf:Description>
         </dcterms:description>
@@ -91,7 +85,7 @@
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/385/tei"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/385/ttl"/>
         <foaf:primaryTopicOf rdf:resource="http://syriaca.org/place/385/rdf"/>
-    </rdf:Description>
+    </skos:Concept>
     <rdfs:Resource rdf:about="http://syriaca.org/place/385/html">
         <dcterms:title xml:lang="en">Gawikat</dcterms:title>
         <dcterms:title xml:lang="syr">ܕܝܪܐ ܕܓܘܝܟܐܬ</dcterms:title>
