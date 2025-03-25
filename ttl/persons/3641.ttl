@@ -1,0 +1,47 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3641> rdf:type lawd:Person . 
+<http://syriaca.org/person/3641> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3641> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/3641> rdfs:label "Anonymi 3641"@en . 
+<http://syriaca.org/person/3641> foaf:primaryTopicOf <http://syriaca.org/person/3641/tei> . 
+<http://syriaca.org/person/3641> foaf:primaryTopicOf <http://syriaca.org/person/3641/html> . 
+<http://syriaca.org/person/3641> dcterms:hasFormat <http://syriaca.org/person/3641/tei> . 
+<http://syriaca.org/person/3641> dcterms:hasFormat <http://syriaca.org/person/3641/html> . 
+<http://syriaca.org/person/3641> swdt:name-variant "Anonymi 3641"@en . 
+<http://syriaca.org/person/3641> swdt:name-variant "Chalcedonian persecutors of non-Chalcedonians who were confronted by Zeʿora"@en . 
+<http://syriaca.org/person/3641> sp:name-variant swds:Person-3641-1 . 
+swds:Person-3641-1 sps:name-variant "Anonymi 3641"@en . 
+swds:Person-3641-1 spr:reference-URL <http://syriaca.org/person/3641> . 
+<http://syriaca.org/person/3641> sp:name-variant swds:Person-3641-2 . 
+swds:Person-3641-2 sps:name-variant "Chalcedonian persecutors of non-Chalcedonians who were confronted by Zeʿora"@en . 
+swds:Person-3641-2 spr:reference-URL <http://syriaca.org/person/3641> . 
+<http://syriaca.org/person/3641> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/3641> sp:status swds:status-3641-1 . 
+swds:status-3641-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-3641-1 spr:reference-URL <http://syriaca.org/person/3641> .

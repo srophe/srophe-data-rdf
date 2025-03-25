@@ -1,0 +1,76 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/981> rdf:type lawd:Person . 
+<http://syriaca.org/person/981> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/981> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/981> rdfs:label "ܝܘܚܢܢ ܕܒܝܪܬܐ"@syr . 
+<http://syriaca.org/person/981> rdfs:label "John of Birtha"@en . 
+<http://syriaca.org/person/981> foaf:primaryTopicOf <http://syriaca.org/person/981/tei> . 
+<http://syriaca.org/person/981> foaf:primaryTopicOf <http://syriaca.org/person/981/html> . 
+<http://syriaca.org/person/981> dcterms:hasFormat <http://syriaca.org/person/981/tei> . 
+<http://syriaca.org/person/981> dcterms:hasFormat <http://syriaca.org/person/981/html> . 
+<http://syriaca.org/person/981> swdt:name-variant "ܝܘܚܢܢ ܕܒܝܪܬܐ"@syr . 
+<http://syriaca.org/person/981> swdt:name-variant "Yuḥanon of Birtha"@en-x-gedsh . 
+<http://syriaca.org/person/981> swdt:name-variant "John of Birtha"@en . 
+<http://syriaca.org/person/981> swdt:name-variant "John of Birta"@en . 
+<http://syriaca.org/person/981> swdt:name-variant "Jean de Birtha"@fr . 
+<http://syriaca.org/person/981> swdt:name-variant "John (Iwannis) of Birta"@en . 
+<http://syriaca.org/person/981> swdt:name-variant "Bischof Iwanîs von Bîrtā"@de-x-baumstrk . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-1 . 
+swds:Person-981-1 sps:name-variant "ܝܘܚܢܢ ܕܒܝܪܬܐ"@syr . 
+swds:Person-981-1 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-2 . 
+swds:Person-981-2 sps:name-variant "Yuḥanon of Birtha"@en-x-gedsh . 
+swds:Person-981-2 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-3 . 
+swds:Person-981-3 sps:name-variant "John of Birtha"@en . 
+swds:Person-981-3 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-4 . 
+swds:Person-981-4 sps:name-variant "John of Birta"@en . 
+swds:Person-981-4 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-5 . 
+swds:Person-981-5 sps:name-variant "Jean de Birtha"@fr . 
+swds:Person-981-5 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-6 . 
+swds:Person-981-6 sps:name-variant "John (Iwannis) of Birta"@en . 
+swds:Person-981-6 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> sp:name-variant swds:Person-981-7 . 
+swds:Person-981-7 sps:name-variant "Bischof Iwanîs von Bîrtā"@de-x-baumstrk . 
+swds:Person-981-7 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_981" . 
+<http://syriaca.org/person/981> sp:closeMatch swds:closeMatch-981-1 . 
+swds:closeMatch-981-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_981" . 
+swds:closeMatch-981-1 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Birta&sT=keywords" . 
+<http://syriaca.org/person/981> sp:closeMatch swds:closeMatch-981-2 . 
+swds:closeMatch-981-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Birta&sT=keywords" . 
+swds:closeMatch-981-2 spr:reference-URL <http://syriaca.org/person/981> . 
+<http://syriaca.org/person/981> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/981> sp:status swds:status-981-1 . 
+swds:status-981-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-981-1 spr:reference-URL <http://syriaca.org/person/981> .

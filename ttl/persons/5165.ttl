@@ -1,0 +1,54 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5165> rdf:type lawd:Person . 
+<http://syriaca.org/person/5165> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5165> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5165> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5165> rdfs:label "Theodore (envoy to Persia)"@en . 
+<http://syriaca.org/person/5165> rdfs:label "ܬܐܕܘܪܐ"@syr . 
+<http://syriaca.org/person/5165> foaf:primaryTopicOf <http://syriaca.org/person/5165/tei> . 
+<http://syriaca.org/person/5165> foaf:primaryTopicOf <http://syriaca.org/person/5165/html> . 
+<http://syriaca.org/person/5165> dcterms:hasFormat <http://syriaca.org/person/5165/tei> . 
+<http://syriaca.org/person/5165> dcterms:hasFormat <http://syriaca.org/person/5165/html> . 
+<http://syriaca.org/person/5165> schema:description "Theodore, son of Peter the Patrician, hailed from Roman Mesopotamia and held some of the highest offices under Justin II. He had the rank of a patricius and led, in 576, an embassy to the Persian border for peace negotiations, as is attested by Joh. Eph., EH 4.35 and 6.12. He was a miaphysite and favoured Paul of Antioch in his dispute with Jacob Burd'oyo."@en . 
+<http://syriaca.org/person/5165> swdt:name-variant "Theodore (envoy to Persia)"@en . 
+<http://syriaca.org/person/5165> swdt:name-variant "ܬܐܕܘܪܐ"@syr . 
+<http://syriaca.org/person/5165> swdt:name-variant "Theodorus"@en . 
+<http://syriaca.org/person/5165> sp:name-variant swds:Person-5165-1 . 
+swds:Person-5165-1 sps:name-variant "Theodore (envoy to Persia)"@en . 
+swds:Person-5165-1 spr:reference-URL <http://syriaca.org/person/5165> . 
+<http://syriaca.org/person/5165> sp:name-variant swds:Person-5165-2 . 
+swds:Person-5165-2 sps:name-variant "ܬܐܕܘܪܐ"@syr . 
+swds:Person-5165-2 spr:reference-URL <http://syriaca.org/person/5165> . 
+<http://syriaca.org/person/5165> sp:name-variant swds:Person-5165-3 . 
+swds:Person-5165-3 sps:name-variant "Theodorus"@en . 
+swds:Person-5165-3 spr:reference-URL <http://syriaca.org/person/5165> . 
+<http://syriaca.org/person/5165> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/5165> sp:gender swds:gender-5165-1 . 
+swds:gender-5165-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-5165-1 spr:reference-URL <http://syriaca.org/person/5165> .

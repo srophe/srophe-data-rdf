@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/505> rdf:type lawd:Person . 
+<http://syriaca.org/person/505> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/505> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/505> rdfs:label "George II , Ignatius"@en . 
+<http://syriaca.org/person/505> rdfs:label "ܓܘܪܓܝܣ ܬܪܝܢܐ"@syr . 
+<http://syriaca.org/person/505> foaf:primaryTopicOf <http://syriaca.org/person/505/tei> . 
+<http://syriaca.org/person/505> foaf:primaryTopicOf <http://syriaca.org/person/505/html> . 
+<http://syriaca.org/person/505> dcterms:hasFormat <http://syriaca.org/person/505/tei> . 
+<http://syriaca.org/person/505> dcterms:hasFormat <http://syriaca.org/person/505/html> . 
+<http://syriaca.org/person/505> schema:description "Patr. (1687-1708) whose patriarchate was contested by five anti-patriarchs during various parts of his life."@en . 
+<http://syriaca.org/person/505> swdt:name-variant "George II , Ignatius"@en . 
+<http://syriaca.org/person/505> swdt:name-variant "Giwargis II , Ignatius"@en-x-gedsh . 
+<http://syriaca.org/person/505> swdt:name-variant "Patriarch George II , son of ‛Abd al-Karīm of Mosul"@en . 
+<http://syriaca.org/person/505> swdt:name-variant "البطريرك جرجس الثاني ابن عبدالكريم الموصلي"@ar . 
+<http://syriaca.org/person/505> swdt:name-variant "ܦܛܪܝܪܟܐ ܓܘܪܓܝܣ ܬܪܝܢܐ ܒܪ ܥܒܕ ܐܠܟܪܝܡ ܡܘܨܠܝܐ"@syr . 
+<http://syriaca.org/person/505> swdt:name-variant "ܦܰܛܪܝܰܪܟܳܐ ܓܶܘܰܪܓܝܣ ܬܪܰܝܳܢܐ ܒܰܪ ܥܰܒܕ ܐܠܟܪܝܡ ܡܘܨܠܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/505> swdt:name-variant "ܓܘܪܓܝܣ ܬܪܝܢܐ"@syr . 
+<http://syriaca.org/person/505> swdt:name-variant "George II , Ignatius"@en . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-1 . 
+swds:Person-505-1 sps:name-variant "George II , Ignatius"@en . 
+swds:Person-505-1 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-2 . 
+swds:Person-505-2 sps:name-variant "Giwargis II , Ignatius"@en-x-gedsh . 
+swds:Person-505-2 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-3 . 
+swds:Person-505-3 sps:name-variant "Patriarch George II , son of ‛Abd al-Karīm of Mosul"@en . 
+swds:Person-505-3 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-4 . 
+swds:Person-505-4 sps:name-variant "البطريرك جرجس الثاني ابن عبدالكريم الموصلي"@ar . 
+swds:Person-505-4 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-5 . 
+swds:Person-505-5 sps:name-variant "ܦܛܪܝܪܟܐ ܓܘܪܓܝܣ ܬܪܝܢܐ ܒܪ ܥܒܕ ܐܠܟܪܝܡ ܡܘܨܠܝܐ"@syr . 
+swds:Person-505-5 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-6 . 
+swds:Person-505-6 sps:name-variant "ܦܰܛܪܝܰܪܟܳܐ ܓܶܘܰܪܓܝܣ ܬܪܰܝܳܢܐ ܒܰܪ ܥܰܒܕ ܐܠܟܪܝܡ ܡܘܨܠܳܝܐ"@syr-Syrj . 
+swds:Person-505-6 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-7 . 
+swds:Person-505-7 sps:name-variant "ܓܘܪܓܝܣ ܬܪܝܢܐ"@syr . 
+swds:Person-505-7 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> sp:name-variant swds:Person-505-8 . 
+swds:Person-505-8 sps:name-variant "George II , Ignatius"@en . 
+swds:Person-505-8 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_505" . 
+<http://syriaca.org/person/505> sp:closeMatch swds:closeMatch-505-1 . 
+swds:closeMatch-505-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_505" . 
+swds:closeMatch-505-1 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> swdt:birth-when "1648"^^xsd:gYear . 
+<http://syriaca.org/person/505> sp:birth-when swds:birth-when-505-1 . 
+swds:birth-when-505-1 sps:birth-when "1648"^^xsd:gYear . 
+swds:birth-when-505-1 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> swdt:death-when "1708"^^xsd:gYear . 
+<http://syriaca.org/person/505> sp:death-when swds:death-when-505-1 . 
+swds:death-when-505-1 sps:death-when "1708"^^xsd:gYear . 
+swds:death-when-505-1 spr:reference-URL <http://syriaca.org/person/505> . 
+<http://syriaca.org/person/505> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/505> sp:occupation swds:occupation-505-1 . 
+swds:occupation-505-1 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-505-1 spr:reference-URL <http://syriaca.org/person/505> . 
+swds:occupation-505-1 spq:from "1687"^^xsd:gYear . 
+<http://syriaca.org/person/505> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/505> sp:status swds:status-505-1 . 
+swds:status-505-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-505-1 spr:reference-URL <http://syriaca.org/person/505> .

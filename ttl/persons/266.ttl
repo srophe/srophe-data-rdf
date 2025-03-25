@@ -1,0 +1,91 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/266> rdf:type lawd:Person . 
+<http://syriaca.org/person/266> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/266> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/266> rdfs:label "Hasan bar Zurʿo of Mosul"@en . 
+<http://syriaca.org/person/266> rdfs:label "ܚܣܢ ܒܪ ܙܘܪܥܐ ܡܘܨܠܝܐ"@syr . 
+<http://syriaca.org/person/266> foaf:primaryTopicOf <http://syriaca.org/person/266/tei> . 
+<http://syriaca.org/person/266> foaf:primaryTopicOf <http://syriaca.org/person/266/html> . 
+<http://syriaca.org/person/266> dcterms:hasFormat <http://syriaca.org/person/266/tei> . 
+<http://syriaca.org/person/266> dcterms:hasFormat <http://syriaca.org/person/266/html> . 
+<http://syriaca.org/person/266> foaf:primaryTopicOf <http://syriaca.org/place/139> . 
+<http://syriaca.org/person/266> foaf:primaryTopicOf <http://syriaca.org/place/139> . 
+<http://syriaca.org/person/266> foaf:primaryTopicOf <http://syriaca.org/place/139> . 
+<http://syriaca.org/person/266> swdt:name-variant "Hasan bar Zurʿo of Mosul"@en . 
+<http://syriaca.org/person/266> swdt:name-variant "Ḥasan of Mosul"@en . 
+<http://syriaca.org/person/266> swdt:name-variant "حسن الموصلي"@ar . 
+<http://syriaca.org/person/266> swdt:name-variant "ܚܣܢ ܒܪ ܙܘܪܥܐ ܡܘܨܠܝܐ"@syr . 
+<http://syriaca.org/person/266> swdt:name-variant "ܚܰܣܢ ܒܰܪ ܙܘܪܥܐ ܡܰܘܨܠܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/266> swdt:name-variant "Ḥasan bar Zurʿo of Mosul"@en-x-gedsh . 
+<http://syriaca.org/person/266> swdt:name-variant "Ḥasan bar Zuro of Mosul"@en-x-srp1 . 
+<http://syriaca.org/person/266> swdt:name-variant "Ḥasan bar Zur‘o of Mosul"@en-x-srp1 . 
+<http://syriaca.org/person/266> swdt:name-variant "Hasan bar Zurqo of Mosul"@en . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-1 . 
+swds:Person-266-1 sps:name-variant "Hasan bar Zurʿo of Mosul"@en . 
+swds:Person-266-1 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-2 . 
+swds:Person-266-2 sps:name-variant "Ḥasan of Mosul"@en . 
+swds:Person-266-2 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-3 . 
+swds:Person-266-3 sps:name-variant "حسن الموصلي"@ar . 
+swds:Person-266-3 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-4 . 
+swds:Person-266-4 sps:name-variant "ܚܣܢ ܒܪ ܙܘܪܥܐ ܡܘܨܠܝܐ"@syr . 
+swds:Person-266-4 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-5 . 
+swds:Person-266-5 sps:name-variant "ܚܰܣܢ ܒܰܪ ܙܘܪܥܐ ܡܰܘܨܠܳܝܐ"@syr-Syrj . 
+swds:Person-266-5 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-6 . 
+swds:Person-266-6 sps:name-variant "Ḥasan bar Zurʿo of Mosul"@en-x-gedsh . 
+swds:Person-266-6 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-7 . 
+swds:Person-266-7 sps:name-variant "Ḥasan bar Zuro of Mosul"@en-x-srp1 . 
+swds:Person-266-7 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-8 . 
+swds:Person-266-8 sps:name-variant "Ḥasan bar Zur‘o of Mosul"@en-x-srp1 . 
+swds:Person-266-8 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> sp:name-variant swds:Person-266-9 . 
+swds:Person-266-9 sps:name-variant "Hasan bar Zurqo of Mosul"@en . 
+swds:Person-266-9 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_266" . 
+<http://syriaca.org/person/266> sp:closeMatch swds:closeMatch-266-1 . 
+swds:closeMatch-266-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_266" . 
+swds:closeMatch-266-1 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> swdt:floruit-notBefore "1400"^^xsd:gYear . 
+<http://syriaca.org/person/266> sp:floruit-notBefore swds:floruit-notBefore-266-1 . 
+swds:floruit-notBefore-266-1 sps:floruit-notBefore "1400"^^xsd:gYear . 
+swds:floruit-notBefore-266-1 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> swdt:floruit-notAfter "1500"^^xsd:gYear . 
+<http://syriaca.org/person/266> sp:floruit-notAfter swds:floruit-notAfter-266-1 . 
+swds:floruit-notAfter-266-1 sps:floruit-notAfter "1500"^^xsd:gYear . 
+swds:floruit-notAfter-266-1 spr:reference-URL <http://syriaca.org/person/266> . 
+<http://syriaca.org/person/266> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/266> sp:status swds:status-266-1 . 
+swds:status-266-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-266-1 spr:reference-URL <http://syriaca.org/person/266> .

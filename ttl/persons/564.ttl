@@ -1,0 +1,126 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/564> rdf:type lawd:Person . 
+<http://syriaca.org/person/564> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/564> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/564> rdfs:label "Isidore of Pelusium"@en . 
+<http://syriaca.org/person/564> rdfs:label "ܐܝܣܝܕܘܪܐ"@syr . 
+<http://syriaca.org/person/564> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/564> foaf:primaryTopicOf <http://syriaca.org/person/564/tei> . 
+<http://syriaca.org/person/564> foaf:primaryTopicOf <http://syriaca.org/person/564/html> . 
+<http://syriaca.org/person/564> dcterms:hasFormat <http://syriaca.org/person/564/tei> . 
+<http://syriaca.org/person/564> dcterms:hasFormat <http://syriaca.org/person/564/html> . 
+<http://syriaca.org/person/564> schema:description "Greek author of 2000 short letters."@en . 
+<http://syriaca.org/person/564> swdt:name-variant "Isidore of Pelusium"@en . 
+<http://syriaca.org/person/564> swdt:name-variant "Isidore of Pelusium"@en-x-gedsh . 
+<http://syriaca.org/person/564> swdt:name-variant "Isidore of Pelusium (al-Farma)"@en . 
+<http://syriaca.org/person/564> swdt:name-variant "ايسيدورس القس البيلوزي (الفرمي)"@ar . 
+<http://syriaca.org/person/564> swdt:name-variant "ܐܝܣܝܕܘܪܐ"@syr . 
+<http://syriaca.org/person/564> swdt:name-variant "ܐܝܼܣܝܼܕܘܿܪܹܐ"@syr-Syrn . 
+<http://syriaca.org/person/564> swdt:name-variant "ܐܺܝܣܺܝܕܳܘܪܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-1 . 
+swds:Person-564-1 sps:name-variant "Isidore of Pelusium"@en . 
+swds:Person-564-1 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-2 . 
+swds:Person-564-2 sps:name-variant "Isidore of Pelusium"@en-x-gedsh . 
+swds:Person-564-2 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-3 . 
+swds:Person-564-3 sps:name-variant "Isidore of Pelusium (al-Farma)"@en . 
+swds:Person-564-3 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-4 . 
+swds:Person-564-4 sps:name-variant "ايسيدورس القس البيلوزي (الفرمي)"@ar . 
+swds:Person-564-4 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-5 . 
+swds:Person-564-5 sps:name-variant "ܐܝܣܝܕܘܪܐ"@syr . 
+swds:Person-564-5 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-6 . 
+swds:Person-564-6 sps:name-variant "ܐܝܼܣܝܼܕܘܿܪܹܐ"@syr-Syrn . 
+swds:Person-564-6 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> sp:name-variant swds:Person-564-7 . 
+swds:Person-564-7 sps:name-variant "ܐܺܝܣܺܝܕܳܘܪܳܐ"@syr-Syrj . 
+swds:Person-564-7 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_564" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-1 . 
+swds:closeMatch-564-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_564" . 
+swds:closeMatch-564-1 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/158160202" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-2 . 
+swds:closeMatch-564-2 sps:closeMatch "http://viaf.org/viaf/158160202" . 
+swds:closeMatch-564-2 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://worldcat.org/identities/lccn-nr92-22373" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-3 . 
+swds:closeMatch-564-3 sps:closeMatch "http://worldcat.org/identities/lccn-nr92-22373" . 
+swds:closeMatch-564-3 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/63872189" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-4 . 
+swds:closeMatch-564-4 sps:closeMatch "http://viaf.org/viaf/63872189" . 
+swds:closeMatch-564-4 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/205194811" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-5 . 
+swds:closeMatch-564-5 sps:closeMatch "http://viaf.org/viaf/205194811" . 
+swds:closeMatch-564-5 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/85426376" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-6 . 
+swds:closeMatch-564-6 sps:closeMatch "http://viaf.org/viaf/85426376" . 
+swds:closeMatch-564-6 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/202850352" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-7 . 
+swds:closeMatch-564-7 sps:closeMatch "http://viaf.org/viaf/202850352" . 
+swds:closeMatch-564-7 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/36906749" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-8 . 
+swds:closeMatch-564-8 sps:closeMatch "http://viaf.org/viaf/36906749" . 
+swds:closeMatch-564-8 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/189439844" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-9 . 
+swds:closeMatch-564-9 sps:closeMatch "http://viaf.org/viaf/189439844" . 
+swds:closeMatch-564-9 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/97925154" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-10 . 
+swds:closeMatch-564-10 sps:closeMatch "http://viaf.org/viaf/97925154" . 
+swds:closeMatch-564-10 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/158160202" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-11 . 
+swds:closeMatch-564-11 sps:closeMatch "http://viaf.org/viaf/158160202" . 
+swds:closeMatch-564-11 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:closeMatch "http://viaf.org/viaf/8193191" . 
+<http://syriaca.org/person/564> sp:closeMatch swds:closeMatch-564-12 . 
+swds:closeMatch-564-12 sps:closeMatch "http://viaf.org/viaf/8193191" . 
+swds:closeMatch-564-12 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:floruit-notBefore "0350"^^xsd:gYear . 
+<http://syriaca.org/person/564> sp:floruit-notBefore swds:floruit-notBefore-564-1 . 
+swds:floruit-notBefore-564-1 sps:floruit-notBefore "0350"^^xsd:gYear . 
+swds:floruit-notBefore-564-1 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:floruit-notAfter "0500"^^xsd:gYear . 
+<http://syriaca.org/person/564> sp:floruit-notAfter swds:floruit-notAfter-564-1 . 
+swds:floruit-notAfter-564-1 sps:floruit-notAfter "0500"^^xsd:gYear . 
+swds:floruit-notAfter-564-1 spr:reference-URL <http://syriaca.org/person/564> . 
+<http://syriaca.org/person/564> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/564> sp:status swds:status-564-1 . 
+swds:status-564-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-564-1 spr:reference-URL <http://syriaca.org/person/564> .

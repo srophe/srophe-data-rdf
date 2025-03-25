@@ -1,0 +1,99 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/277> rdf:type lawd:Person . 
+<http://syriaca.org/person/277> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/277> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/277> rdfs:label "Nuh the Lebanese , patriarch"@en . 
+<http://syriaca.org/person/277> rdfs:label "ܢܘܚ ܠܒܢܢܝܐ"@syr . 
+<http://syriaca.org/person/277> foaf:primaryTopicOf <http://syriaca.org/person/277/tei> . 
+<http://syriaca.org/person/277> foaf:primaryTopicOf <http://syriaca.org/person/277/html> . 
+<http://syriaca.org/person/277> dcterms:hasFormat <http://syriaca.org/person/277/tei> . 
+<http://syriaca.org/person/277> dcterms:hasFormat <http://syriaca.org/person/277/html> . 
+<http://syriaca.org/person/277> schema:description "Author, maph. (1489/90–1493), and Patr. (1493–1509)."@en . 
+<http://syriaca.org/person/277> foaf:primaryTopicOf <http://syriaca.org/place/215> . 
+<http://syriaca.org/person/277> swdt:name-variant "Nuh the Lebanese , patriarch"@en . 
+<http://syriaca.org/person/277> swdt:name-variant "Nuḥ the Lebanese"@en-x-gedsh . 
+<http://syriaca.org/person/277> swdt:name-variant "Patriarch Nuḥ the Lebanese"@en . 
+<http://syriaca.org/person/277> swdt:name-variant "البطريرك نوح اللبناني"@ar . 
+<http://syriaca.org/person/277> swdt:name-variant "ܦܛܪܝܪܟܐ ܢܘܚ ܠܒܢܢܝܐ"@syr . 
+<http://syriaca.org/person/277> swdt:name-variant "ܦܰܛܪܝܰܪܟܐ ܢܘܚ ܠܶܒܢܳܢܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/277> swdt:name-variant "ܢܘܚ ܠܒܢܢܝܐ"@syr . 
+<http://syriaca.org/person/277> swdt:name-variant "Noah the Lebanese"@en . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-1 . 
+swds:Person-277-1 sps:name-variant "Nuh the Lebanese , patriarch"@en . 
+swds:Person-277-1 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-2 . 
+swds:Person-277-2 sps:name-variant "Nuḥ the Lebanese"@en-x-gedsh . 
+swds:Person-277-2 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-3 . 
+swds:Person-277-3 sps:name-variant "Patriarch Nuḥ the Lebanese"@en . 
+swds:Person-277-3 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-4 . 
+swds:Person-277-4 sps:name-variant "البطريرك نوح اللبناني"@ar . 
+swds:Person-277-4 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-5 . 
+swds:Person-277-5 sps:name-variant "ܦܛܪܝܪܟܐ ܢܘܚ ܠܒܢܢܝܐ"@syr . 
+swds:Person-277-5 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-6 . 
+swds:Person-277-6 sps:name-variant "ܦܰܛܪܝܰܪܟܐ ܢܘܚ ܠܶܒܢܳܢܳܝܐ"@syr-Syrj . 
+swds:Person-277-6 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-7 . 
+swds:Person-277-7 sps:name-variant "ܢܘܚ ܠܒܢܢܝܐ"@syr . 
+swds:Person-277-7 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> sp:name-variant swds:Person-277-8 . 
+swds:Person-277-8 sps:name-variant "Noah the Lebanese"@en . 
+swds:Person-277-8 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_277" . 
+<http://syriaca.org/person/277> sp:closeMatch swds:closeMatch-277-1 . 
+swds:closeMatch-277-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_277" . 
+swds:closeMatch-277-1 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> swdt:closeMatch "http://en.wikipedia.org/wiki/Ignatius_Nuh_of_Lebanon" . 
+<http://syriaca.org/person/277> sp:closeMatch swds:closeMatch-277-2 . 
+swds:closeMatch-277-2 sps:closeMatch "http://en.wikipedia.org/wiki/Ignatius_Nuh_of_Lebanon" . 
+swds:closeMatch-277-2 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> swdt:birth-when "1451"^^xsd:gYear . 
+<http://syriaca.org/person/277> sp:birth-when swds:birth-when-277-1 . 
+swds:birth-when-277-1 sps:birth-when "1451"^^xsd:gYear . 
+swds:birth-when-277-1 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> swdt:death-when "1509"^^xsd:gYear . 
+<http://syriaca.org/person/277> sp:death-when swds:death-when-277-1 . 
+swds:death-when-277-1 sps:death-when "1509"^^xsd:gYear . 
+swds:death-when-277-1 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> swdt:death-place <http://syriaca.org/place/215> . 
+<http://syriaca.org/person/277> sp:death-place swds:death-place-277-1 . 
+swds:death-place-277-1 sps:death-place <http://syriaca.org/place/215> . 
+swds:death-place-277-1 spr:reference-URL <http://syriaca.org/person/277> . 
+<http://syriaca.org/person/277> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/277> sp:occupation swds:occupation-277-1 . 
+swds:occupation-277-1 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-277-1 spr:reference-URL <http://syriaca.org/person/277> . 
+swds:occupation-277-1 spq:from "1493"^^xsd:gYear . 
+<http://syriaca.org/person/277> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/277> sp:status swds:status-277-1 . 
+swds:status-277-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-277-1 spr:reference-URL <http://syriaca.org/person/277> .

@@ -1,0 +1,50 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5107> rdf:type lawd:Person . 
+<http://syriaca.org/person/5107> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5107> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5107> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5107> rdfs:label "John of Cellia"@en . 
+<http://syriaca.org/person/5107> rdfs:label "ܝܘܚܢܢ"@syr . 
+<http://syriaca.org/person/5107> foaf:primaryTopicOf <http://syriaca.org/person/5107/tei> . 
+<http://syriaca.org/person/5107> foaf:primaryTopicOf <http://syriaca.org/person/5107/html> . 
+<http://syriaca.org/person/5107> dcterms:hasFormat <http://syriaca.org/person/5107/tei> . 
+<http://syriaca.org/person/5107> dcterms:hasFormat <http://syriaca.org/person/5107/html> . 
+<http://syriaca.org/person/5107> schema:description "The miaphysite John was bishop of Cellia in the north-western Delta. First, he accepted the ordination of Theodore as new patriarch in 575, yet only a few weeks later, he consecrated Peter together with the two Antonini from Syria. Joh. Eph., EH 4.11, doubts the validity of this ordination since John of Cellia was apparently accused of some kind of uncanonical behaviour at the time."@en . 
+<http://syriaca.org/person/5107> swdt:name-variant "John of Cellia"@en . 
+<http://syriaca.org/person/5107> swdt:name-variant "ܝܘܚܢܢ"@syr . 
+<http://syriaca.org/person/5107> sp:name-variant swds:Person-5107-1 . 
+swds:Person-5107-1 sps:name-variant "John of Cellia"@en . 
+swds:Person-5107-1 spr:reference-URL <http://syriaca.org/person/5107> . 
+<http://syriaca.org/person/5107> sp:name-variant swds:Person-5107-2 . 
+swds:Person-5107-2 sps:name-variant "ܝܘܚܢܢ"@syr . 
+swds:Person-5107-2 spr:reference-URL <http://syriaca.org/person/5107> . 
+<http://syriaca.org/person/5107> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/5107> sp:gender swds:gender-5107-1 . 
+swds:gender-5107-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-5107-1 spr:reference-URL <http://syriaca.org/person/5107> .

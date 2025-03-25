@@ -1,0 +1,80 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/504> rdf:type lawd:Person . 
+<http://syriaca.org/person/504> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/504> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/504> rdfs:label "George Warda"@en . 
+<http://syriaca.org/person/504> foaf:primaryTopicOf <http://syriaca.org/person/504/tei> . 
+<http://syriaca.org/person/504> foaf:primaryTopicOf <http://syriaca.org/person/504/html> . 
+<http://syriaca.org/person/504> dcterms:hasFormat <http://syriaca.org/person/504/tei> . 
+<http://syriaca.org/person/504> dcterms:hasFormat <http://syriaca.org/person/504/html> . 
+<http://syriaca.org/person/504> schema:description "Gewargis Warda is known as the medieval author who wrote the Kthābhā d-wardā, or 'Book of the Rose' , a collection of hymns for the liturgical year."@en . 
+<http://syriaca.org/person/504> swdt:name-variant "George Warda"@en . 
+<http://syriaca.org/person/504> swdt:name-variant "Gewargis Warda"@en-x-gedsh . 
+<http://syriaca.org/person/504> swdt:name-variant "George Warda"@en . 
+<http://syriaca.org/person/504> swdt:name-variant "Georges Warda"@fr . 
+<http://syriaca.org/person/504> swdt:name-variant "George Warda"@en . 
+<http://syriaca.org/person/504> sp:name-variant swds:Person-504-1 . 
+swds:Person-504-1 sps:name-variant "George Warda"@en . 
+swds:Person-504-1 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> sp:name-variant swds:Person-504-2 . 
+swds:Person-504-2 sps:name-variant "Gewargis Warda"@en-x-gedsh . 
+swds:Person-504-2 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> sp:name-variant swds:Person-504-3 . 
+swds:Person-504-3 sps:name-variant "George Warda"@en . 
+swds:Person-504-3 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> sp:name-variant swds:Person-504-4 . 
+swds:Person-504-4 sps:name-variant "Georges Warda"@fr . 
+swds:Person-504-4 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> sp:name-variant swds:Person-504-5 . 
+swds:Person-504-5 sps:name-variant "George Warda"@en . 
+swds:Person-504-5 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_504" . 
+<http://syriaca.org/person/504> sp:closeMatch swds:closeMatch-504-1 . 
+swds:closeMatch-504-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_504" . 
+swds:closeMatch-504-1 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> swdt:closeMatch "http://viaf.org/viaf/89433414" . 
+<http://syriaca.org/person/504> sp:closeMatch swds:closeMatch-504-2 . 
+swds:closeMatch-504-2 sps:closeMatch "http://viaf.org/viaf/89433414" . 
+swds:closeMatch-504-2 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=George Warda&sT=keywords" . 
+<http://syriaca.org/person/504> sp:closeMatch swds:closeMatch-504-3 . 
+swds:closeMatch-504-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=George Warda&sT=keywords" . 
+swds:closeMatch-504-3 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> swdt:floruit-notBefore "1150"^^xsd:gYear . 
+<http://syriaca.org/person/504> sp:floruit-notBefore swds:floruit-notBefore-504-1 . 
+swds:floruit-notBefore-504-1 sps:floruit-notBefore "1150"^^xsd:gYear . 
+swds:floruit-notBefore-504-1 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> swdt:floruit-notAfter "1350"^^xsd:gYear . 
+<http://syriaca.org/person/504> sp:floruit-notAfter swds:floruit-notAfter-504-1 . 
+swds:floruit-notAfter-504-1 sps:floruit-notAfter "1350"^^xsd:gYear . 
+swds:floruit-notAfter-504-1 spr:reference-URL <http://syriaca.org/person/504> . 
+<http://syriaca.org/person/504> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/504> sp:status swds:status-504-1 . 
+swds:status-504-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-504-1 spr:reference-URL <http://syriaca.org/person/504> .

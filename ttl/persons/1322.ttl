@@ -1,0 +1,81 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1322> rdf:type lawd:Person . 
+<http://syriaca.org/person/1322> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1322> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1322> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1322> rdfs:label "ܝܥܩܘܒ ܛܢܢܐ"@syr . 
+<http://syriaca.org/person/1322> rdfs:label "Jacob of Adiabene"@en . 
+<http://syriaca.org/person/1322> foaf:primaryTopicOf <http://syriaca.org/person/1322/tei> . 
+<http://syriaca.org/person/1322> foaf:primaryTopicOf <http://syriaca.org/person/1322/html> . 
+<http://syriaca.org/person/1322> dcterms:hasFormat <http://syriaca.org/person/1322/tei> . 
+<http://syriaca.org/person/1322> dcterms:hasFormat <http://syriaca.org/person/1322/html> . 
+<http://syriaca.org/person/1322> schema:description "Jacob, the zealot priest, was arrested with Yuḥanān bar Maryam (John), Bishop of Arbela , during the time of Shapur. They were decapitated at Beth Lapaṭ."@en . 
+<http://syriaca.org/person/1322> foaf:primaryTopicOf <http://syriaca.org/person/1323> . 
+<http://syriaca.org/person/1322> foaf:primaryTopicOf <http://syriaca.org/place/13> . 
+<http://syriaca.org/person/1322> foaf:primaryTopicOf <http://syriaca.org/place/35> . 
+<http://syriaca.org/person/1322> swdt:name-variant "ܝܥܩܘܒ ܛܢܢܐ"@syr . 
+<http://syriaca.org/person/1322> swdt:name-variant "Yaʿqub ṭanānā"@en-x-gedsh . 
+<http://syriaca.org/person/1322> swdt:name-variant "Jacob of Adiabene"@en . 
+<http://syriaca.org/person/1322> swdt:name-variant "John and Jacob"@en . 
+<http://syriaca.org/person/1322> swdt:name-variant "Yaʿqōḇ ṭanānā"@fr-x-zanetti . 
+<http://syriaca.org/person/1322> swdt:name-variant "Jacques le Zélote (d’Adiabène)"@fr . 
+<http://syriaca.org/person/1322> swdt:name-variant "JEAN ET JACQUES"@fr-x-fiey . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-1 . 
+swds:Person-1322-1 sps:name-variant "ܝܥܩܘܒ ܛܢܢܐ"@syr . 
+swds:Person-1322-1 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-2 . 
+swds:Person-1322-2 sps:name-variant "Yaʿqub ṭanānā"@en-x-gedsh . 
+swds:Person-1322-2 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-3 . 
+swds:Person-1322-3 sps:name-variant "Jacob of Adiabene"@en . 
+swds:Person-1322-3 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-4 . 
+swds:Person-1322-4 sps:name-variant "John and Jacob"@en . 
+swds:Person-1322-4 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-5 . 
+swds:Person-1322-5 sps:name-variant "Yaʿqōḇ ṭanānā"@fr-x-zanetti . 
+swds:Person-1322-5 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-6 . 
+swds:Person-1322-6 sps:name-variant "Jacques le Zélote (d’Adiabène)"@fr . 
+swds:Person-1322-6 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> sp:name-variant swds:Person-1322-7 . 
+swds:Person-1322-7 sps:name-variant "JEAN ET JACQUES"@fr-x-fiey . 
+swds:Person-1322-7 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> swdt:death-when "0344"^^xsd:gYear . 
+<http://syriaca.org/person/1322> sp:death-when swds:death-when-1322-1 . 
+swds:death-when-1322-1 sps:death-when "0344"^^xsd:gYear . 
+swds:death-when-1322-1 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1322> sp:gender swds:gender-1322-1 . 
+swds:gender-1322-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1322-1 spr:reference-URL <http://syriaca.org/person/1322> . 
+<http://syriaca.org/person/1322> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1322> sp:status swds:status-1322-1 . 
+swds:status-1322-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1322-1 spr:reference-URL <http://syriaca.org/person/1322> .

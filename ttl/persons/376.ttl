@@ -1,0 +1,199 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/376> rdf:type lawd:Person . 
+<http://syriaca.org/person/376> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/376> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/376> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/376> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/376> rdfs:label "ܒܣܝܠܠܝܘܣ ܕܩܣܪܝܐ"@syr . 
+<http://syriaca.org/person/376> rdfs:label "Basil of Caesarea"@en . 
+<http://syriaca.org/person/376> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/376> foaf:primaryTopicOf <http://syriaca.org/person/376/tei> . 
+<http://syriaca.org/person/376> foaf:primaryTopicOf <http://syriaca.org/person/376/html> . 
+<http://syriaca.org/person/376> dcterms:hasFormat <http://syriaca.org/person/376/tei> . 
+<http://syriaca.org/person/376> dcterms:hasFormat <http://syriaca.org/person/376/html> . 
+<http://syriaca.org/person/376> schema:description "Bp. of Caesarea and Greek author."@en . 
+<http://syriaca.org/person/376> foaf:primaryTopicOf <http://syriaca.org/place/2637> . 
+<http://syriaca.org/person/376> foaf:primaryTopicOf <http://syriaca.org/place/2637> . 
+<http://syriaca.org/person/376> swdt:name-variant "Basil of Caesarea"@en-x-gedsh . 
+<http://syriaca.org/person/376> swdt:name-variant "باسيليوس القيسري"@ar . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܣܝܠܠܝܘܣ ܕܩܣܪܝܐ"@syr . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܰܣܝܠܠܝܘܣ ܕܩܶܣܰܪܺܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܣܠܝܘܣ ܪܒܐ"@syr . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܵܣܹܠܝܼܘܿܣ ܪܲܒܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܣܝܠܝܘܣ ܪܒܐ"@syr . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܰܣܺܝܠܺܝܳܘܣ ܪܰܒܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/376> swdt:name-variant "Basile le Grand"@fr . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܣܝܠܝܘܣ"@syr . 
+<http://syriaca.org/person/376> swdt:name-variant "Bāsīlīyōs"@en-x-gedsh . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܣܝܠܝܣ"@syr . 
+<http://syriaca.org/person/376> swdt:name-variant "ܒܐܣܝܠܝܘܣ"@syr . 
+<http://syriaca.org/person/376> swdt:name-variant "Basil of Caesarea"@en . 
+<http://syriaca.org/person/376> swdt:name-variant "Bāsīlīs"@fr-x-zanetti . 
+<http://syriaca.org/person/376> swdt:name-variant "Bāsīlīyōs"@fr-x-zanetti . 
+<http://syriaca.org/person/376> swdt:name-variant "Basile"@fr . 
+<http://syriaca.org/person/376> swdt:name-variant "Basileios"@en . 
+<http://syriaca.org/person/376> swdt:name-variant "Basileios"@de-x-baumstrk . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-1 . 
+swds:Person-376-1 sps:name-variant "Basil of Caesarea"@en-x-gedsh . 
+swds:Person-376-1 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-2 . 
+swds:Person-376-2 sps:name-variant "باسيليوس القيسري"@ar . 
+swds:Person-376-2 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-3 . 
+swds:Person-376-3 sps:name-variant "ܒܣܝܠܠܝܘܣ ܕܩܣܪܝܐ"@syr . 
+swds:Person-376-3 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-4 . 
+swds:Person-376-4 sps:name-variant "ܒܰܣܝܠܠܝܘܣ ܕܩܶܣܰܪܺܝܐ"@syr-Syrj . 
+swds:Person-376-4 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-5 . 
+swds:Person-376-5 sps:name-variant "ܒܣܠܝܘܣ ܪܒܐ"@syr . 
+swds:Person-376-5 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-6 . 
+swds:Person-376-6 sps:name-variant "ܒܵܣܹܠܝܼܘܿܣ ܪܲܒܵܐ"@syr-Syrn . 
+swds:Person-376-6 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-7 . 
+swds:Person-376-7 sps:name-variant "ܒܣܝܠܝܘܣ ܪܒܐ"@syr . 
+swds:Person-376-7 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-8 . 
+swds:Person-376-8 sps:name-variant "ܒܰܣܺܝܠܺܝܳܘܣ ܪܰܒܳܐ"@syr-Syrj . 
+swds:Person-376-8 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-9 . 
+swds:Person-376-9 sps:name-variant "Basile le Grand"@fr . 
+swds:Person-376-9 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-10 . 
+swds:Person-376-10 sps:name-variant "ܒܣܝܠܝܘܣ"@syr . 
+swds:Person-376-10 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-11 . 
+swds:Person-376-11 sps:name-variant "Bāsīlīyōs"@en-x-gedsh . 
+swds:Person-376-11 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-12 . 
+swds:Person-376-12 sps:name-variant "ܒܣܝܠܝܣ"@syr . 
+swds:Person-376-12 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-13 . 
+swds:Person-376-13 sps:name-variant "ܒܐܣܝܠܝܘܣ"@syr . 
+swds:Person-376-13 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-14 . 
+swds:Person-376-14 sps:name-variant "Basil of Caesarea"@en . 
+swds:Person-376-14 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-15 . 
+swds:Person-376-15 sps:name-variant "Bāsīlīs"@fr-x-zanetti . 
+swds:Person-376-15 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-16 . 
+swds:Person-376-16 sps:name-variant "Bāsīlīyōs"@fr-x-zanetti . 
+swds:Person-376-16 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-17 . 
+swds:Person-376-17 sps:name-variant "Basile"@fr . 
+swds:Person-376-17 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-18 . 
+swds:Person-376-18 sps:name-variant "Basileios"@en . 
+swds:Person-376-18 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> sp:name-variant swds:Person-376-19 . 
+swds:Person-376-19 sps:name-variant "Basileios"@de-x-baumstrk . 
+swds:Person-376-19 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_376" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-1 . 
+swds:closeMatch-376-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_376" . 
+swds:closeMatch-376-1 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/88967224" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-2 . 
+swds:closeMatch-376-2 sps:closeMatch "http://viaf.org/viaf/88967224" . 
+swds:closeMatch-376-2 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://worldcat.org/identities/lccn-n80-4066" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-3 . 
+swds:closeMatch-376-3 sps:closeMatch "http://worldcat.org/identities/lccn-n80-4066" . 
+swds:closeMatch-376-3 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/248610763" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-4 . 
+swds:closeMatch-376-4 sps:closeMatch "http://viaf.org/viaf/248610763" . 
+swds:closeMatch-376-4 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/243071252" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-5 . 
+swds:closeMatch-376-5 sps:closeMatch "http://viaf.org/viaf/243071252" . 
+swds:closeMatch-376-5 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/194511919" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-6 . 
+swds:closeMatch-376-6 sps:closeMatch "http://viaf.org/viaf/194511919" . 
+swds:closeMatch-376-6 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/97654231" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-7 . 
+swds:closeMatch-376-7 sps:closeMatch "http://viaf.org/viaf/97654231" . 
+swds:closeMatch-376-7 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/90140960" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-8 . 
+swds:closeMatch-376-8 sps:closeMatch "http://viaf.org/viaf/90140960" . 
+swds:closeMatch-376-8 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/219045732" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-9 . 
+swds:closeMatch-376-9 sps:closeMatch "http://viaf.org/viaf/219045732" . 
+swds:closeMatch-376-9 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/171794355" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-10 . 
+swds:closeMatch-376-10 sps:closeMatch "http://viaf.org/viaf/171794355" . 
+swds:closeMatch-376-10 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/216792226" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-11 . 
+swds:closeMatch-376-11 sps:closeMatch "http://viaf.org/viaf/216792226" . 
+swds:closeMatch-376-11 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/204528147" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-12 . 
+swds:closeMatch-376-12 sps:closeMatch "http://viaf.org/viaf/204528147" . 
+swds:closeMatch-376-12 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://viaf.org/viaf/211655706" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-13 . 
+swds:closeMatch-376-13 sps:closeMatch "http://viaf.org/viaf/211655706" . 
+swds:closeMatch-376-13 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Basil of Caesarea&sT=keywords" . 
+<http://syriaca.org/person/376> sp:closeMatch swds:closeMatch-376-14 . 
+swds:closeMatch-376-14 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Basil of Caesarea&sT=keywords" . 
+swds:closeMatch-376-14 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:birth-notBefore "0315"^^xsd:gYear . 
+<http://syriaca.org/person/376> sp:birth-notBefore swds:birth-notBefore-376-1 . 
+swds:birth-notBefore-376-1 sps:birth-notBefore "0315"^^xsd:gYear . 
+swds:birth-notBefore-376-1 spr:reference-URL swd:person/376 . 
+<http://syriaca.org/person/376> swdt:birth-notAfter "0345"^^xsd:gYear . 
+<http://syriaca.org/person/376> sp:birth-notAfter swds:birth-notAfter-376-1 . 
+swds:birth-notAfter-376-1 sps:birth-notAfter "0345"^^xsd:gYear . 
+swds:birth-notAfter-376-1 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:death-when "0379"^^xsd:gYear . 
+<http://syriaca.org/person/376> sp:death-when swds:death-when-376-1 . 
+swds:death-when-376-1 sps:death-when "0379"^^xsd:gYear . 
+swds:death-when-376-1 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/376> sp:occupation swds:occupation-376-1 . 
+swds:occupation-376-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-376-1 spr:reference-URL <http://syriaca.org/person/376> . 
+swds:occupation-376-1 spq:from "0370"^^xsd:gYear . 
+<http://syriaca.org/person/376> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/376> sp:status swds:status-376-1 . 
+swds:status-376-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-376-1 spr:reference-URL <http://syriaca.org/person/376> . 
+<http://syriaca.org/person/376> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/376> sp:status swds:status-376-2 . 
+swds:status-376-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-376-2 spr:reference-URL <http://syriaca.org/person/376> .

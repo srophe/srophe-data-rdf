@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/830> rdf:type lawd:Person . 
+<http://syriaca.org/person/830> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/830> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/830> rdfs:label "ܝܘܚܢܢ ܒܪ ܫܝܠܠܗ"@syr . 
+<http://syriaca.org/person/830> rdfs:label "John XIV bar Shayullah"@en . 
+<http://syriaca.org/person/830> foaf:primaryTopicOf <http://syriaca.org/person/830/tei> . 
+<http://syriaca.org/person/830> foaf:primaryTopicOf <http://syriaca.org/person/830/html> . 
+<http://syriaca.org/person/830> dcterms:hasFormat <http://syriaca.org/person/830/tei> . 
+<http://syriaca.org/person/830> dcterms:hasFormat <http://syriaca.org/person/830/html> . 
+<http://syriaca.org/person/830> schema:description "Translator, scribe, minor writer, and bp."@en . 
+<http://syriaca.org/person/830> foaf:primaryTopicOf <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> swdt:name-variant "Yuḥanon XIV bar Shayullāh"@en-x-gedsh . 
+<http://syriaca.org/person/830> swdt:name-variant "ܝܘܚܢܢ ܒܪ ܫܝܠܠܗ"@syr . 
+<http://syriaca.org/person/830> swdt:name-variant "John XIV bar Shayullah"@en . 
+<http://syriaca.org/person/830> swdt:name-variant "Gregorios Yuḥanon"@en . 
+<http://syriaca.org/person/830> sp:name-variant swds:Person-830-1 . 
+swds:Person-830-1 sps:name-variant "Yuḥanon XIV bar Shayullāh"@en-x-gedsh . 
+swds:Person-830-1 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> sp:name-variant swds:Person-830-2 . 
+swds:Person-830-2 sps:name-variant "ܝܘܚܢܢ ܒܪ ܫܝܠܠܗ"@syr . 
+swds:Person-830-2 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> sp:name-variant swds:Person-830-3 . 
+swds:Person-830-3 sps:name-variant "John XIV bar Shayullah"@en . 
+swds:Person-830-3 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> sp:name-variant swds:Person-830-4 . 
+swds:Person-830-4 sps:name-variant "Gregorios Yuḥanon"@en . 
+swds:Person-830-4 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_830" . 
+<http://syriaca.org/person/830> sp:closeMatch swds:closeMatch-830-1 . 
+swds:closeMatch-830-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_830" . 
+swds:closeMatch-830-1 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> swdt:birth-notBefore "1690"^^xsd:gYear . 
+<http://syriaca.org/person/830> sp:birth-notBefore swds:birth-notBefore-830-1 . 
+swds:birth-notBefore-830-1 sps:birth-notBefore "1690"^^xsd:gYear . 
+swds:birth-notBefore-830-1 spr:reference-URL swd:person/830 . 
+<http://syriaca.org/person/830> swdt:birth-notAfter "1720"^^xsd:gYear . 
+<http://syriaca.org/person/830> sp:birth-notAfter swds:birth-notAfter-830-1 . 
+swds:birth-notAfter-830-1 sps:birth-notAfter "1720"^^xsd:gYear . 
+swds:birth-notAfter-830-1 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> swdt:death-when "1783-06"^^xsd:gYearMonth . 
+<http://syriaca.org/person/830> sp:death-when swds:death-when-830-1 . 
+swds:death-when-830-1 sps:death-when "1783-06"^^xsd:gYearMonth . 
+swds:death-when-830-1 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/830> sp:status swds:status-830-1 . 
+swds:status-830-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-830-1 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> swdt:not-to-be-confused-with <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-830-11 . 
+swds:activeRelationnot-to-be-confused-with-830-11 swd:not-to-be-confused-with <http://syriaca.org/person/271> . 
+swds:activeRelationnot-to-be-confused-with-830-11 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> swdt:not-to-be-confused-with <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-830-11 . 
+swds:activeRelationnot-to-be-confused-with-830-11 swd:not-to-be-confused-with <http://syriaca.org/person/830> . 
+swds:activeRelationnot-to-be-confused-with-830-11 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> swdt:not-to-be-confused-with <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-830-12 . 
+swds:activeRelationnot-to-be-confused-with-830-12 swd:not-to-be-confused-with <http://syriaca.org/person/830> . 
+swds:activeRelationnot-to-be-confused-with-830-12 spr:reference-URL <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/830> swdt:not-to-be-confused-with <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-830-11 . 
+swds:activeRelationnot-to-be-confused-with-830-11 swd:not-to-be-confused-with <http://syriaca.org/person/271> . 
+swds:activeRelationnot-to-be-confused-with-830-11 spr:reference-URL <http://syriaca.org/person/830> .

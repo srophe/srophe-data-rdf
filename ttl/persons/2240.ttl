@@ -1,0 +1,69 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2240> rdf:type lawd:Person . 
+<http://syriaca.org/person/2240> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2240> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/2240> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/2240> rdfs:label "Barlaha"@en . 
+<http://syriaca.org/person/2240> rdfs:label "ܒܪܠܗܐ"@syr . 
+<http://syriaca.org/person/2240> foaf:primaryTopicOf <http://syriaca.org/person/2240/tei> . 
+<http://syriaca.org/person/2240> foaf:primaryTopicOf <http://syriaca.org/person/2240/html> . 
+<http://syriaca.org/person/2240> dcterms:hasFormat <http://syriaca.org/person/2240/tei> . 
+<http://syriaca.org/person/2240> dcterms:hasFormat <http://syriaca.org/person/2240/html> . 
+<http://syriaca.org/person/2240> swdt:name-variant "Barlaha"@en . 
+<http://syriaca.org/person/2240> swdt:name-variant "ܒܪܠܗܐ"@syr . 
+<http://syriaca.org/person/2240> swdt:name-variant "Mar Barlāhā"@en . 
+<http://syriaca.org/person/2240> swdt:name-variant "Mar Barlaha"@en . 
+<http://syriaca.org/person/2240> swdt:name-variant "Mar Barlaha"@en . 
+<http://syriaca.org/person/2240> sp:name-variant swds:Person-2240-1 . 
+swds:Person-2240-1 sps:name-variant "Barlaha"@en . 
+swds:Person-2240-1 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> sp:name-variant swds:Person-2240-2 . 
+swds:Person-2240-2 sps:name-variant "ܒܪܠܗܐ"@syr . 
+swds:Person-2240-2 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> sp:name-variant swds:Person-2240-3 . 
+swds:Person-2240-3 sps:name-variant "Mar Barlāhā"@en . 
+swds:Person-2240-3 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> sp:name-variant swds:Person-2240-4 . 
+swds:Person-2240-4 sps:name-variant "Mar Barlaha"@en . 
+swds:Person-2240-4 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> sp:name-variant swds:Person-2240-5 . 
+swds:Person-2240-5 sps:name-variant "Mar Barlaha"@en . 
+swds:Person-2240-5 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Barlaha&sT=keywords" . 
+<http://syriaca.org/person/2240> sp:closeMatch swds:closeMatch-2240-1 . 
+swds:closeMatch-2240-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Barlaha&sT=keywords" . 
+swds:closeMatch-2240-1 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2240> sp:gender swds:gender-2240-1 . 
+swds:gender-2240-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2240-1 spr:reference-URL <http://syriaca.org/person/2240> . 
+<http://syriaca.org/person/2240> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/2240> sp:status swds:status-2240-1 . 
+swds:status-2240-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-2240-1 spr:reference-URL <http://syriaca.org/person/2240> .

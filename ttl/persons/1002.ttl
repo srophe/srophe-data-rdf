@@ -1,0 +1,84 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1002> rdf:type lawd:Person . 
+<http://syriaca.org/person/1002> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1002> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/1002> rdfs:label "ʿAbd al-Masih b. Naʿima of Homs"@en . 
+<http://syriaca.org/person/1002> rdfs:label "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr . 
+<http://syriaca.org/person/1002> foaf:primaryTopicOf <http://syriaca.org/person/1002/tei> . 
+<http://syriaca.org/person/1002> foaf:primaryTopicOf <http://syriaca.org/person/1002/html> . 
+<http://syriaca.org/person/1002> dcterms:hasFormat <http://syriaca.org/person/1002/tei> . 
+<http://syriaca.org/person/1002> dcterms:hasFormat <http://syriaca.org/person/1002/html> . 
+<http://syriaca.org/person/1002> swdt:name-variant "ʿAbd al-Masih b. Naʿima of Homs"@en . 
+<http://syriaca.org/person/1002> swdt:name-variant "ʿAbd al-Masīḥ b. Nāʿima al-Ḥimṣī"@en-x-gedsh . 
+<http://syriaca.org/person/1002> swdt:name-variant "‛Abd al-Masīḥ ibn ‛Abd Allah ibn Nā‛ima of Ḥomṣ"@en . 
+<http://syriaca.org/person/1002> swdt:name-variant "عبد المسيح بن عبد الله ابن ناعمة الحمصي"@ar . 
+<http://syriaca.org/person/1002> swdt:name-variant "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr . 
+<http://syriaca.org/person/1002> swdt:name-variant "ܥܒܶܕ ܡܫܺܝܚܐ ܒܰܪ ܥܒܰܕ ܐܰܠܠܗ ܒܰܪ ܢܰܐܥܡܗ ܚܶܡܨܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/1002> swdt:name-variant "Abd al-Masīḥ b. Nāima al-Ḥimṣī"@en-x-srp1 . 
+<http://syriaca.org/person/1002> swdt:name-variant "‘Abd al-Masīḥ b. Nā‘ima al-Ḥimṣī"@en-x-srp1 . 
+<http://syriaca.org/person/1002> swdt:name-variant "ʿAbd al-Masīḥ b. Nāʿima"@en . 
+<http://syriaca.org/person/1002> swdt:name-variant "ʿAbd al-Masîḥ ibn Nāʿima"@de-x-baumstrk . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-1 . 
+swds:Person-1002-1 sps:name-variant "ʿAbd al-Masih b. Naʿima of Homs"@en . 
+swds:Person-1002-1 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-2 . 
+swds:Person-1002-2 sps:name-variant "ʿAbd al-Masīḥ b. Nāʿima al-Ḥimṣī"@en-x-gedsh . 
+swds:Person-1002-2 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-3 . 
+swds:Person-1002-3 sps:name-variant "‛Abd al-Masīḥ ibn ‛Abd Allah ibn Nā‛ima of Ḥomṣ"@en . 
+swds:Person-1002-3 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-4 . 
+swds:Person-1002-4 sps:name-variant "عبد المسيح بن عبد الله ابن ناعمة الحمصي"@ar . 
+swds:Person-1002-4 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-5 . 
+swds:Person-1002-5 sps:name-variant "ܥܒܕ ܡܫܝܚܐ ܒܪ ܥܒܕ ܐܠܠܗ ܒܪ ܢܐܥܡܗ ܚܡܨܝܐ"@syr . 
+swds:Person-1002-5 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-6 . 
+swds:Person-1002-6 sps:name-variant "ܥܒܶܕ ܡܫܺܝܚܐ ܒܰܪ ܥܒܰܕ ܐܰܠܠܗ ܒܰܪ ܢܰܐܥܡܗ ܚܶܡܨܝܳܐ"@syr-Syrj . 
+swds:Person-1002-6 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-7 . 
+swds:Person-1002-7 sps:name-variant "Abd al-Masīḥ b. Nāima al-Ḥimṣī"@en-x-srp1 . 
+swds:Person-1002-7 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-8 . 
+swds:Person-1002-8 sps:name-variant "‘Abd al-Masīḥ b. Nā‘ima al-Ḥimṣī"@en-x-srp1 . 
+swds:Person-1002-8 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-9 . 
+swds:Person-1002-9 sps:name-variant "ʿAbd al-Masīḥ b. Nāʿima"@en . 
+swds:Person-1002-9 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> sp:name-variant swds:Person-1002-10 . 
+swds:Person-1002-10 sps:name-variant "ʿAbd al-Masîḥ ibn Nāʿima"@de-x-baumstrk . 
+swds:Person-1002-10 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1002" . 
+<http://syriaca.org/person/1002> sp:closeMatch swds:closeMatch-1002-1 . 
+swds:closeMatch-1002-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1002" . 
+swds:closeMatch-1002-1 spr:reference-URL <http://syriaca.org/person/1002> . 
+<http://syriaca.org/person/1002> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/1002> sp:status swds:status-1002-1 . 
+swds:status-1002-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-1002-1 spr:reference-URL <http://syriaca.org/person/1002> .

@@ -1,0 +1,165 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/320> rdf:type lawd:Person . 
+<http://syriaca.org/person/320> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/320> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/320> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/320> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/320> rdfs:label "ܐܒܪܗܡ ܟܫܟܪܝܐ"@syr . 
+<http://syriaca.org/person/320> rdfs:label "Abraham of Kashkar"@en . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/person/320/tei> . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/person/320/html> . 
+<http://syriaca.org/person/320> dcterms:hasFormat <http://syriaca.org/person/320/tei> . 
+<http://syriaca.org/person/320> dcterms:hasFormat <http://syriaca.org/person/320/html> . 
+<http://syriaca.org/person/320> schema:description "Monk, founder and abbot of the ‘Great Monastery’ on Mount Izla ."@en . 
+<http://syriaca.org/person/320> schema:description "In hagiography: Abraham of Kashkar (Abraham the Great of Kashkar, or the elder) was a celebrated reformer of monasticism in Mesopotamia and a great saint of the Church of the East. A student of the School of Nisibis , Abraham was a missionary, ascetic, and miracle-worker. He was called Father of the Monks of the Orient."@en . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/person/1086> . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/place/384> . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/place/100> . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/place/1452> . 
+<http://syriaca.org/person/320> foaf:primaryTopicOf <http://syriaca.org/place/476> . 
+<http://syriaca.org/person/320> swdt:name-variant "Abraham of Kashkar"@en-x-gedsh . 
+<http://syriaca.org/person/320> swdt:name-variant "ܐܒܪܗܡ ܟܫܟܪܝܐ"@syr . 
+<http://syriaca.org/person/320> swdt:name-variant "ܐܒܪܗܡ ܟܫܟܪܝܐ"@syr . 
+<http://syriaca.org/person/320> swdt:name-variant "Abraham Kashkaraya"@en-x-gedsh . 
+<http://syriaca.org/person/320> swdt:name-variant "ܐܒܪܗܡ"@syr . 
+<http://syriaca.org/person/320> swdt:name-variant "Abraham of Kashkar"@en . 
+<http://syriaca.org/person/320> swdt:name-variant "Abraham the Great"@en . 
+<http://syriaca.org/person/320> swdt:name-variant "ʾAḇrāhām Kaškarāyā"@fr-x-zanetti . 
+<http://syriaca.org/person/320> swdt:name-variant "ʾAḇrāhām"@fr-x-zanetti . 
+<http://syriaca.org/person/320> swdt:name-variant "Abraham de Kashkar"@fr . 
+<http://syriaca.org/person/320> swdt:name-variant "ABRAHAM DE KAŜKAR"@fr-x-fiey . 
+<http://syriaca.org/person/320> swdt:name-variant "Abraham e Kashkar"@la . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-1 . 
+swds:Person-320-1 sps:name-variant "Abraham of Kashkar"@en-x-gedsh . 
+swds:Person-320-1 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-2 . 
+swds:Person-320-2 sps:name-variant "ܐܒܪܗܡ ܟܫܟܪܝܐ"@syr . 
+swds:Person-320-2 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-3 . 
+swds:Person-320-3 sps:name-variant "ܐܒܪܗܡ ܟܫܟܪܝܐ"@syr . 
+swds:Person-320-3 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-4 . 
+swds:Person-320-4 sps:name-variant "Abraham Kashkaraya"@en-x-gedsh . 
+swds:Person-320-4 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-5 . 
+swds:Person-320-5 sps:name-variant "ܐܒܪܗܡ"@syr . 
+swds:Person-320-5 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-6 . 
+swds:Person-320-6 sps:name-variant "Abraham of Kashkar"@en . 
+swds:Person-320-6 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-7 . 
+swds:Person-320-7 sps:name-variant "Abraham the Great"@en . 
+swds:Person-320-7 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-8 . 
+swds:Person-320-8 sps:name-variant "ʾAḇrāhām Kaškarāyā"@fr-x-zanetti . 
+swds:Person-320-8 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-9 . 
+swds:Person-320-9 sps:name-variant "ʾAḇrāhām"@fr-x-zanetti . 
+swds:Person-320-9 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-10 . 
+swds:Person-320-10 sps:name-variant "Abraham de Kashkar"@fr . 
+swds:Person-320-10 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-11 . 
+swds:Person-320-11 sps:name-variant "ABRAHAM DE KAŜKAR"@fr-x-fiey . 
+swds:Person-320-11 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> sp:name-variant swds:Person-320-12 . 
+swds:Person-320-12 sps:name-variant "Abraham e Kashkar"@la . 
+swds:Person-320-12 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_320" . 
+<http://syriaca.org/person/320> sp:closeMatch swds:closeMatch-320-1 . 
+swds:closeMatch-320-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_320" . 
+swds:closeMatch-320-1 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:closeMatch "http://viaf.org/viaf/148289339" . 
+<http://syriaca.org/person/320> sp:closeMatch swds:closeMatch-320-2 . 
+swds:closeMatch-320-2 sps:closeMatch "http://viaf.org/viaf/148289339" . 
+swds:closeMatch-320-2 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:closeMatch "http://viaf.org/viaf/89776928" . 
+<http://syriaca.org/person/320> sp:closeMatch swds:closeMatch-320-3 . 
+swds:closeMatch-320-3 sps:closeMatch "http://viaf.org/viaf/89776928" . 
+swds:closeMatch-320-3 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:closeMatch "http://viaf.org/viaf/258211827" . 
+<http://syriaca.org/person/320> sp:closeMatch swds:closeMatch-320-4 . 
+swds:closeMatch-320-4 sps:closeMatch "http://viaf.org/viaf/258211827" . 
+swds:closeMatch-320-4 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Abraham of Kashkar&sT=keywords" . 
+<http://syriaca.org/person/320> sp:closeMatch swds:closeMatch-320-5 . 
+swds:closeMatch-320-5 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Abraham of Kashkar&sT=keywords" . 
+swds:closeMatch-320-5 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:birth-when "0492"^^xsd:gYear . 
+<http://syriaca.org/person/320> sp:birth-when swds:birth-when-320-1 . 
+swds:birth-when-320-1 sps:birth-when "0492"^^xsd:gYear . 
+swds:birth-when-320-1 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:birth-notBefore "0475"^^xsd:gYear . 
+<http://syriaca.org/person/320> sp:birth-notBefore swds:birth-notBefore-320-2 . 
+swds:birth-notBefore-320-2 sps:birth-notBefore "0475"^^xsd:gYear . 
+swds:birth-notBefore-320-2 spr:reference-URL swd:person/320 . 
+<http://syriaca.org/person/320> swdt:birth-notAfter "0525"^^xsd:gYear . 
+<http://syriaca.org/person/320> sp:birth-notAfter swds:birth-notAfter-320-2 . 
+swds:birth-notAfter-320-2 sps:birth-notAfter "0525"^^xsd:gYear . 
+swds:birth-notAfter-320-2 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:death-when "0586"^^xsd:gYear . 
+<http://syriaca.org/person/320> sp:death-when swds:death-when-320-1 . 
+swds:death-when-320-1 sps:death-when "0586"^^xsd:gYear . 
+swds:death-when-320-1 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:death-when "0588"^^xsd:gYear . 
+<http://syriaca.org/person/320> sp:death-when swds:death-when-320-2 . 
+swds:death-when-320-2 sps:death-when "0588"^^xsd:gYear . 
+swds:death-when-320-2 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/320> sp:gender swds:gender-320-1 . 
+swds:gender-320-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-320-1 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:status <http://syriaca.org/taxonomy/martyrs> . 
+<http://syriaca.org/person/320> sp:status swds:status-320-1 . 
+swds:status-320-1 sps:status <http://syriaca.org/taxonomy/martyrs> . 
+swds:status-320-1 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/320> sp:status swds:status-320-2 . 
+swds:status-320-2 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-320-2 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/320> sp:status swds:status-320-3 . 
+swds:status-320-3 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-320-3 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/1086> swdt:not-to-be-confused-with <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/1086> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-320-11 . 
+swds:activeRelationnot-to-be-confused-with-320-11 swd:not-to-be-confused-with <http://syriaca.org/person/320> . 
+swds:activeRelationnot-to-be-confused-with-320-11 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:not-to-be-confused-with <http://syriaca.org/person/1086> . 
+<http://syriaca.org/person/320> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-320-11 . 
+swds:activeRelationnot-to-be-confused-with-320-11 swd:not-to-be-confused-with <http://syriaca.org/person/1086> . 
+swds:activeRelationnot-to-be-confused-with-320-11 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/320> swdt:not-to-be-confused-with <http://syriaca.org/person/1086> . 
+<http://syriaca.org/person/320> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-320-12 . 
+swds:activeRelationnot-to-be-confused-with-320-12 swd:not-to-be-confused-with <http://syriaca.org/person/1086> . 
+swds:activeRelationnot-to-be-confused-with-320-12 spr:reference-URL <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/1086> swdt:not-to-be-confused-with <http://syriaca.org/person/320> . 
+<http://syriaca.org/person/1086> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-320-11 . 
+swds:activeRelationnot-to-be-confused-with-320-11 swd:not-to-be-confused-with <http://syriaca.org/person/320> . 
+swds:activeRelationnot-to-be-confused-with-320-11 spr:reference-URL <http://syriaca.org/person/320> .

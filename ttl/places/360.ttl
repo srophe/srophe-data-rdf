@@ -1,0 +1,99 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/360> rdf:type lawd:Place . 
+<http://syriaca.org/place/360> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/360> foaf:primaryTopicOf <http://syriaca.org/place/360/tei> . 
+<http://syriaca.org/place/360> foaf:primaryTopicOf <http://syriaca.org/place/360/html> . 
+<http://syriaca.org/place/360> dcterms:hasFormat <http://syriaca.org/place/360/tei> . 
+<http://syriaca.org/place/360> dcterms:hasFormat <http://syriaca.org/place/360/html> . 
+<http://syriaca.org/place/360> dcterms:relation <http://syriaca.org/place/289> . 
+<http://syriaca.org/place/360> dcterms:relation <http://syriaca.org/place/750> . 
+<http://syriaca.org/place/360> swdt:name-variant "Dayr al-Suryān"@en . 
+<http://syriaca.org/place/360> swdt:name-variant "Monastery of the Syrians"@en . 
+<http://syriaca.org/place/360> swdt:name-variant "ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ"@syr . 
+<http://syriaca.org/place/360> swdt:name-variant "ܕܰܝܪܳܐ ܕܣܘܪ̈ܝܝܐ"@syr-Syrj . 
+<http://syriaca.org/place/360> swdt:name-variant "دير السريان"@ar . 
+<http://syriaca.org/place/360> swdt:name-variant "Deir al-Surian"@en . 
+<http://syriaca.org/place/360> swdt:name-variant "Saint Mary Deipara (West Syrian)"@en . 
+<http://syriaca.org/place/360> swdt:name-variant "Convent of S. Mary Deipara, in the desert of Scete, in Egypt"@en . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-1 . 
+swds:Place-360-1 sps:name-variant "Dayr al-Suryān"@en . 
+swds:Place-360-1 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-2 . 
+swds:Place-360-2 sps:name-variant "Monastery of the Syrians"@en . 
+swds:Place-360-2 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-3 . 
+swds:Place-360-3 sps:name-variant "ܕܝܪܐ ܕܣܘܪ̈ܝܝܐ"@syr . 
+swds:Place-360-3 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-4 . 
+swds:Place-360-4 sps:name-variant "ܕܰܝܪܳܐ ܕܣܘܪ̈ܝܝܐ"@syr-Syrj . 
+swds:Place-360-4 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-5 . 
+swds:Place-360-5 sps:name-variant "دير السريان"@ar . 
+swds:Place-360-5 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-6 . 
+swds:Place-360-6 sps:name-variant "Deir al-Surian"@en . 
+swds:Place-360-6 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-7 . 
+swds:Place-360-7 sps:name-variant "Saint Mary Deipara (West Syrian)"@en . 
+swds:Place-360-7 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> sp:name-variant swds:Place-360-8 . 
+swds:Place-360-8 sps:name-variant "Convent of S. Mary Deipara, in the desert of Scete, in Egypt"@en . 
+swds:Place-360-8 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:closeMatch "http://pleiades.stoa.org/places/727108" . 
+<http://syriaca.org/place/360> sp:closeMatch swds:closeMatch-360-1 . 
+swds:closeMatch-360-1 sps:closeMatch "http://pleiades.stoa.org/places/727108" . 
+swds:closeMatch-360-1 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:closeMatch "http://en.wikipedia.org/wiki/Syrian_Monastery,_Egypt" . 
+<http://syriaca.org/place/360> sp:closeMatch swds:closeMatch-360-2 . 
+swds:closeMatch-360-2 sps:closeMatch "http://en.wikipedia.org/wiki/Syrian_Monastery,_Egypt" . 
+swds:closeMatch-360-2 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:closeMatch "http://dbpedia.org/resource/Syrian_Monastery,_Egypt" . 
+<http://syriaca.org/place/360> sp:closeMatch swds:closeMatch-360-3 . 
+swds:closeMatch-360-3 sps:closeMatch "http://dbpedia.org/resource/Syrian_Monastery,_Egypt" . 
+swds:closeMatch-360-3 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=Deir al-Surian&sT=keywords" . 
+<http://syriaca.org/place/360> sp:closeMatch swds:closeMatch-360-4 . 
+swds:closeMatch-360-4 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=Deir al-Surian&sT=keywords" . 
+swds:closeMatch-360-4 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:exist-from "0800"^^xsd:gYear . 
+<http://syriaca.org/place/360> sp:exist-from swds:exist-from-360-1 . 
+swds:exist-from-360-1 sps:exist-from "0800"^^xsd:gYear . 
+swds:exist-from-360-1 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:exist-to "2013"^^xsd:gYear . 
+<http://syriaca.org/place/360> sp:exist-to swds:exist-to-360-1 . 
+swds:exist-to-360-1 sps:exist-to "2013"^^xsd:gYear . 
+swds:exist-to-360-1 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:broader <http://syriaca.org/place/289> . 
+<http://syriaca.org/place/360> sp:broader swds:activeRelationbroader-360-11 . 
+swds:activeRelationbroader-360-11 swd:broader <http://syriaca.org/place/289> . 
+swds:activeRelationbroader-360-11 spr:reference-URL <http://syriaca.org/place/360> . 
+<http://syriaca.org/place/360> swdt:broader <http://syriaca.org/place/750> . 
+<http://syriaca.org/place/360> sp:broader swds:activeRelationbroader-360-21 . 
+swds:activeRelationbroader-360-21 swd:broader <http://syriaca.org/place/750> . 
+swds:activeRelationbroader-360-21 spr:reference-URL <http://syriaca.org/place/360> .

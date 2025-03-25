@@ -1,0 +1,102 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/250> rdf:type lawd:Person . 
+<http://syriaca.org/person/250> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/250> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/250> rdfs:label "ܝܫܘܥ ܒܪ ܟܝܪܘܢ"@syr . 
+<http://syriaca.org/person/250> rdfs:label "Yeshuʿ bar Khayrun"@en . 
+<http://syriaca.org/person/250> foaf:primaryTopicOf <http://syriaca.org/person/250/tei> . 
+<http://syriaca.org/person/250> foaf:primaryTopicOf <http://syriaca.org/person/250/html> . 
+<http://syriaca.org/person/250> dcterms:hasFormat <http://syriaca.org/person/250/tei> . 
+<http://syriaca.org/person/250> dcterms:hasFormat <http://syriaca.org/person/250/html> . 
+<http://syriaca.org/person/250> schema:description "Author. He was born in 1275 in Ḥaḥ (Ṭur ʿAbdin) as the son of the teacher and priest Ṣlibo, son of the priest Isḥoq bar Khayrun."@en . 
+<http://syriaca.org/person/250> foaf:primaryTopicOf <http://syriaca.org/place/217> . 
+<http://syriaca.org/person/250> swdt:name-variant "Yeshuʿ bar Khayrun"@en-x-gedsh . 
+<http://syriaca.org/person/250> swdt:name-variant "The Monk Yeshu‛ Bar Khayrun"@en . 
+<http://syriaca.org/person/250> swdt:name-variant "الراهب يشوع ابن خيرون"@ar . 
+<http://syriaca.org/person/250> swdt:name-variant "ܕܝܪܝܐ ܝܫܘܥ ܒܪ ܟܝܪܘܢ"@syr . 
+<http://syriaca.org/person/250> swdt:name-variant "ܕܰܝܪܳܝܳܐ ܝܶܫܘܥ ܒܰܪ ܟܰܝܪܘܢ"@syr-Syrj . 
+<http://syriaca.org/person/250> swdt:name-variant "ܝܫܘܥ ܒܪ ܟܝܪܘܢ"@syr . 
+<http://syriaca.org/person/250> swdt:name-variant "Yeshuʿ bar Khayrun"@en . 
+<http://syriaca.org/person/250> swdt:name-variant "Yeshu bar Khayrun"@en-x-srp1 . 
+<http://syriaca.org/person/250> swdt:name-variant "Yeshu‘ bar Khayrun"@en-x-srp1 . 
+<http://syriaca.org/person/250> swdt:name-variant "Ishoʿ bar Khayrun"@en . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-1 . 
+swds:Person-250-1 sps:name-variant "Yeshuʿ bar Khayrun"@en-x-gedsh . 
+swds:Person-250-1 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-2 . 
+swds:Person-250-2 sps:name-variant "The Monk Yeshu‛ Bar Khayrun"@en . 
+swds:Person-250-2 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-3 . 
+swds:Person-250-3 sps:name-variant "الراهب يشوع ابن خيرون"@ar . 
+swds:Person-250-3 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-4 . 
+swds:Person-250-4 sps:name-variant "ܕܝܪܝܐ ܝܫܘܥ ܒܪ ܟܝܪܘܢ"@syr . 
+swds:Person-250-4 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-5 . 
+swds:Person-250-5 sps:name-variant "ܕܰܝܪܳܝܳܐ ܝܶܫܘܥ ܒܰܪ ܟܰܝܪܘܢ"@syr-Syrj . 
+swds:Person-250-5 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-6 . 
+swds:Person-250-6 sps:name-variant "ܝܫܘܥ ܒܪ ܟܝܪܘܢ"@syr . 
+swds:Person-250-6 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-7 . 
+swds:Person-250-7 sps:name-variant "Yeshuʿ bar Khayrun"@en . 
+swds:Person-250-7 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-8 . 
+swds:Person-250-8 sps:name-variant "Yeshu bar Khayrun"@en-x-srp1 . 
+swds:Person-250-8 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-9 . 
+swds:Person-250-9 sps:name-variant "Yeshu‘ bar Khayrun"@en-x-srp1 . 
+swds:Person-250-9 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> sp:name-variant swds:Person-250-10 . 
+swds:Person-250-10 sps:name-variant "Ishoʿ bar Khayrun"@en . 
+swds:Person-250-10 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_250" . 
+<http://syriaca.org/person/250> sp:closeMatch swds:closeMatch-250-1 . 
+swds:closeMatch-250-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_250" . 
+swds:closeMatch-250-1 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> swdt:birth-when "1275"^^xsd:gYear . 
+<http://syriaca.org/person/250> sp:birth-when swds:birth-when-250-1 . 
+swds:birth-when-250-1 sps:birth-when "1275"^^xsd:gYear . 
+swds:birth-when-250-1 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> swdt:death-when "1335"^^xsd:gYear . 
+<http://syriaca.org/person/250> sp:death-when swds:death-when-250-1 . 
+swds:death-when-250-1 sps:death-when "1335"^^xsd:gYear . 
+swds:death-when-250-1 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> swdt:birth-place <http://syriaca.org/place/217> . 
+<http://syriaca.org/person/250> sp:birth-place swds:birth-place-250-1 . 
+swds:birth-place-250-1 sps:birth-place <http://syriaca.org/place/217> . 
+swds:birth-place-250-1 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> swdt:occupation <http://syriaca.org/taxonomy/monks> . 
+<http://syriaca.org/person/250> sp:occupation swds:occupation-250-1 . 
+swds:occupation-250-1 sps:occupation <http://syriaca.org/taxonomy/monks> . 
+swds:occupation-250-1 spr:reference-URL <http://syriaca.org/person/250> . 
+<http://syriaca.org/person/250> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/250> sp:status swds:status-250-1 . 
+swds:status-250-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-250-1 spr:reference-URL <http://syriaca.org/person/250> .

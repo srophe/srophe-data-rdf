@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/302> rdf:type lawd:Place . 
+<http://syriaca.org/place/302> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/302> foaf:primaryTopicOf <http://syriaca.org/place/302/tei> . 
+<http://syriaca.org/place/302> foaf:primaryTopicOf <http://syriaca.org/place/302/html> . 
+<http://syriaca.org/place/302> dcterms:hasFormat <http://syriaca.org/place/302/tei> . 
+<http://syriaca.org/place/302> dcterms:hasFormat <http://syriaca.org/place/302/html> . 
+<http://syriaca.org/place/302> dcterms:relation <http://syriaca.org/place/724> . 
+<http://syriaca.org/place/302> swdt:name-variant "Beth Sheriye"@en . 
+<http://syriaca.org/place/302> swdt:name-variant "al-Bsheriyyeh"@en . 
+<http://syriaca.org/place/302> swdt:name-variant "Bsheriyyeh"@en . 
+<http://syriaca.org/place/302> swdt:name-variant "ܒܝܬ ܫܐܪ̈ܝܐ"@syr . 
+<http://syriaca.org/place/302> swdt:name-variant "ܒܶܝܬ ܫܶܐܪ̈ܺܝܐ"@syr-Syrj . 
+<http://syriaca.org/place/302> swdt:name-variant "ܒܶܫܶܝܪܺܝܶܗ"@syr-Syrj . 
+<http://syriaca.org/place/302> swdt:name-variant "بشيريّة"@ar . 
+<http://syriaca.org/place/302> swdt:name-variant "اللام"@ar . 
+<http://syriaca.org/place/302> swdt:name-variant "Bushayriyya"@en . 
+<http://syriaca.org/place/302> swdt:name-variant "Bshīr"@en . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-1 . 
+swds:Place-302-1 sps:name-variant "Beth Sheriye"@en . 
+swds:Place-302-1 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-2 . 
+swds:Place-302-2 sps:name-variant "al-Bsheriyyeh"@en . 
+swds:Place-302-2 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-3 . 
+swds:Place-302-3 sps:name-variant "Bsheriyyeh"@en . 
+swds:Place-302-3 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-4 . 
+swds:Place-302-4 sps:name-variant "ܒܝܬ ܫܐܪ̈ܝܐ"@syr . 
+swds:Place-302-4 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-5 . 
+swds:Place-302-5 sps:name-variant "ܒܶܝܬ ܫܶܐܪ̈ܺܝܐ"@syr-Syrj . 
+swds:Place-302-5 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-6 . 
+swds:Place-302-6 sps:name-variant "ܒܶܫܶܝܪܺܝܶܗ"@syr-Syrj . 
+swds:Place-302-6 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-7 . 
+swds:Place-302-7 sps:name-variant "بشيريّة"@ar . 
+swds:Place-302-7 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-8 . 
+swds:Place-302-8 sps:name-variant "اللام"@ar . 
+swds:Place-302-8 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-9 . 
+swds:Place-302-9 sps:name-variant "Bushayriyya"@en . 
+swds:Place-302-9 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> sp:name-variant swds:Place-302-10 . 
+swds:Place-302-10 sps:name-variant "Bshīr"@en . 
+swds:Place-302-10 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> swdt:exist-from "1526"^^xsd:gYear . 
+<http://syriaca.org/place/302> sp:exist-from swds:exist-from-302-1 . 
+swds:exist-from-302-1 sps:exist-from "1526"^^xsd:gYear . 
+swds:exist-from-302-1 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> swdt:exist-to "1943"^^xsd:gYear . 
+<http://syriaca.org/place/302> sp:exist-to swds:exist-to-302-1 . 
+swds:exist-to-302-1 sps:exist-to "1943"^^xsd:gYear . 
+swds:exist-to-302-1 spr:reference-URL <http://syriaca.org/place/302> . 
+<http://syriaca.org/place/302> swdt:broader <http://syriaca.org/place/724> . 
+<http://syriaca.org/place/302> sp:broader swds:activeRelationbroader-302-11 . 
+swds:activeRelationbroader-302-11 swd:broader <http://syriaca.org/place/724> . 
+swds:activeRelationbroader-302-11 spr:reference-URL <http://syriaca.org/place/302> .

@@ -1,0 +1,81 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/111> rdf:type lawd:Person . 
+<http://syriaca.org/person/111> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/111> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/111> rdfs:label "ܝܘܚܢܢ ܒܪ ܟܐܦܐ"@syr . 
+<http://syriaca.org/person/111> rdfs:label "John bar Kipho"@en . 
+<http://syriaca.org/person/111> foaf:primaryTopicOf <http://syriaca.org/person/111/tei> . 
+<http://syriaca.org/person/111> foaf:primaryTopicOf <http://syriaca.org/person/111/html> . 
+<http://syriaca.org/person/111> dcterms:hasFormat <http://syriaca.org/person/111/tei> . 
+<http://syriaca.org/person/111> dcterms:hasFormat <http://syriaca.org/person/111/html> . 
+<http://syriaca.org/person/111> foaf:primaryTopicOf <http://syriaca.org/place/193> . 
+<http://syriaca.org/person/111> swdt:name-variant "John I , Maphryono of Takrit"@en . 
+<http://syriaca.org/person/111> swdt:name-variant "يوحنا الاول مفريان تكريت"@ar . 
+<http://syriaca.org/person/111> swdt:name-variant "ܝܘܚܢܢ ܩܕܡܝܐ ܡܦܪܝܢܐ ܕܬܓܪܝܬ"@syr . 
+<http://syriaca.org/person/111> swdt:name-variant "ܝܘܚܰܢܢ ܩܰܕܡܳܝܐ ܡܰܦܪܝܳܢܐ ܕܬܰܓܪܝܬ"@syr-Syrj . 
+<http://syriaca.org/person/111> swdt:name-variant "ܝܘܚܢܢ ܒܪ ܟܐܦܐ"@syr . 
+<http://syriaca.org/person/111> swdt:name-variant "Yuḥanon bar Kipho"@en-x-gedsh . 
+<http://syriaca.org/person/111> swdt:name-variant "John bar Kipho"@en . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-1 . 
+swds:Person-111-1 sps:name-variant "John I , Maphryono of Takrit"@en . 
+swds:Person-111-1 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-2 . 
+swds:Person-111-2 sps:name-variant "يوحنا الاول مفريان تكريت"@ar . 
+swds:Person-111-2 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-3 . 
+swds:Person-111-3 sps:name-variant "ܝܘܚܢܢ ܩܕܡܝܐ ܡܦܪܝܢܐ ܕܬܓܪܝܬ"@syr . 
+swds:Person-111-3 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-4 . 
+swds:Person-111-4 sps:name-variant "ܝܘܚܰܢܢ ܩܰܕܡܳܝܐ ܡܰܦܪܝܳܢܐ ܕܬܰܓܪܝܬ"@syr-Syrj . 
+swds:Person-111-4 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-5 . 
+swds:Person-111-5 sps:name-variant "ܝܘܚܢܢ ܒܪ ܟܐܦܐ"@syr . 
+swds:Person-111-5 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-6 . 
+swds:Person-111-6 sps:name-variant "Yuḥanon bar Kipho"@en-x-gedsh . 
+swds:Person-111-6 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> sp:name-variant swds:Person-111-7 . 
+swds:Person-111-7 sps:name-variant "John bar Kipho"@en . 
+swds:Person-111-7 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_111" . 
+<http://syriaca.org/person/111> sp:closeMatch swds:closeMatch-111-1 . 
+swds:closeMatch-111-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_111" . 
+swds:closeMatch-111-1 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> swdt:death-when "0688"^^xsd:gYear . 
+<http://syriaca.org/person/111> sp:death-when swds:death-when-111-1 . 
+swds:death-when-111-1 sps:death-when "0688"^^xsd:gYear . 
+swds:death-when-111-1 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> swdt:occupation <maphrian> . 
+<http://syriaca.org/person/111> sp:occupation swds:occupation-111-1 . 
+swds:occupation-111-1 sps:occupation <maphrian> . 
+swds:occupation-111-1 spr:reference-URL <http://syriaca.org/person/111> . 
+<http://syriaca.org/person/111> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/111> sp:status swds:status-111-1 . 
+swds:status-111-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-111-1 spr:reference-URL <http://syriaca.org/person/111> .

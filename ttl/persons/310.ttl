@@ -1,0 +1,162 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/310> rdf:type lawd:Person . 
+<http://syriaca.org/person/310> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/310> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/310> rdfs:label "ܥܒܕܝܫܘܥ ܕܨܘܒܐ"@syr . 
+<http://syriaca.org/person/310> rdfs:label "ʿAbdishoʿ bar Brikha"@en . 
+<http://syriaca.org/person/310> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/310> foaf:primaryTopicOf <http://syriaca.org/person/310/tei> . 
+<http://syriaca.org/person/310> foaf:primaryTopicOf <http://syriaca.org/person/310/html> . 
+<http://syriaca.org/person/310> dcterms:hasFormat <http://syriaca.org/person/310/tei> . 
+<http://syriaca.org/person/310> dcterms:hasFormat <http://syriaca.org/person/310/html> . 
+<http://syriaca.org/person/310> schema:description "Bp. and scholar."@en . 
+<http://syriaca.org/person/310> swdt:name-variant "ʿAbdishoʿ bar Brikha"@en-x-gedsh . 
+<http://syriaca.org/person/310> swdt:name-variant "ʿAbd Yeshuʿ of Ṣoba"@en . 
+<http://syriaca.org/person/310> swdt:name-variant "عبد يشوع الصوباوي"@ar . 
+<http://syriaca.org/person/310> swdt:name-variant "ܥܒܕ ܝܫܘܥ ܨܘܒܝܐ"@syr . 
+<http://syriaca.org/person/310> swdt:name-variant "ܥܒܕ ܝܶܫܘܥ ܨܰܘܒܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/310> swdt:name-variant "ܥܒܕܝܫܘܥ ܕܨܘܒܐ"@syr . 
+<http://syriaca.org/person/310> swdt:name-variant "ܥܲܒܕܝܼܫܘܿܥ ܕܨܘܿܒܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/310> swdt:name-variant "Abdisho of Nisibis"@en . 
+<http://syriaca.org/person/310> swdt:name-variant "Ebedjesus"@en . 
+<http://syriaca.org/person/310> swdt:name-variant "Abdisho bar Brikha"@en-x-srp1 . 
+<http://syriaca.org/person/310> swdt:name-variant "‘Abdisho‘ bar Brikha"@en-x-srp1 . 
+<http://syriaca.org/person/310> swdt:name-variant "Abd Yeshu of Ṣoba"@en-x-srp1 . 
+<http://syriaca.org/person/310> swdt:name-variant "‘Abd Yeshu‘ of Ṣoba"@en-x-srp1 . 
+<http://syriaca.org/person/310> swdt:name-variant "Abdišo' de Nisibe"@fr . 
+<http://syriaca.org/person/310> swdt:name-variant "'Abdišo' bar Brika"@fr . 
+<http://syriaca.org/person/310> swdt:name-variant "'Abdišo' de Ṣoba et d'Arménie"@fr . 
+<http://syriaca.org/person/310> swdt:name-variant "'Ebed Yešu'"@fr . 
+<http://syriaca.org/person/310> swdt:name-variant "ܥܒܕܝܫܘܥ ܕܨܘܒܐ ܘܕܐܪܡܢܝܐ"@syr . 
+<http://syriaca.org/person/310> swdt:name-variant "ʿAbdishoʿ bar Brikha"@en . 
+<http://syriaca.org/person/310> swdt:name-variant "‘Abdîshô‘ de Nisibe"@fr . 
+<http://syriaca.org/person/310> swdt:name-variant "ʿAbdishoʿ bar Brikha"@en . 
+<http://syriaca.org/person/310> swdt:name-variant "Ebedjesus of Ṣobā"@en . 
+<http://syriaca.org/person/310> swdt:name-variant "Abdisho Bar Berika seu Ebedjesu Sobensis"@la . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-1 . 
+swds:Person-310-1 sps:name-variant "ʿAbdishoʿ bar Brikha"@en-x-gedsh . 
+swds:Person-310-1 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-2 . 
+swds:Person-310-2 sps:name-variant "ʿAbd Yeshuʿ of Ṣoba"@en . 
+swds:Person-310-2 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-3 . 
+swds:Person-310-3 sps:name-variant "عبد يشوع الصوباوي"@ar . 
+swds:Person-310-3 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-4 . 
+swds:Person-310-4 sps:name-variant "ܥܒܕ ܝܫܘܥ ܨܘܒܝܐ"@syr . 
+swds:Person-310-4 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-5 . 
+swds:Person-310-5 sps:name-variant "ܥܒܕ ܝܶܫܘܥ ܨܰܘܒܝܐ"@syr-Syrj . 
+swds:Person-310-5 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-6 . 
+swds:Person-310-6 sps:name-variant "ܥܒܕܝܫܘܥ ܕܨܘܒܐ"@syr . 
+swds:Person-310-6 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-7 . 
+swds:Person-310-7 sps:name-variant "ܥܲܒܕܝܼܫܘܿܥ ܕܨܘܿܒܵܐ"@syr-Syrn . 
+swds:Person-310-7 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-8 . 
+swds:Person-310-8 sps:name-variant "Abdisho of Nisibis"@en . 
+swds:Person-310-8 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-9 . 
+swds:Person-310-9 sps:name-variant "Ebedjesus"@en . 
+swds:Person-310-9 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-10 . 
+swds:Person-310-10 sps:name-variant "Abdisho bar Brikha"@en-x-srp1 . 
+swds:Person-310-10 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-11 . 
+swds:Person-310-11 sps:name-variant "‘Abdisho‘ bar Brikha"@en-x-srp1 . 
+swds:Person-310-11 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-12 . 
+swds:Person-310-12 sps:name-variant "Abd Yeshu of Ṣoba"@en-x-srp1 . 
+swds:Person-310-12 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-13 . 
+swds:Person-310-13 sps:name-variant "‘Abd Yeshu‘ of Ṣoba"@en-x-srp1 . 
+swds:Person-310-13 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-14 . 
+swds:Person-310-14 sps:name-variant "Abdišo' de Nisibe"@fr . 
+swds:Person-310-14 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-15 . 
+swds:Person-310-15 sps:name-variant "'Abdišo' bar Brika"@fr . 
+swds:Person-310-15 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-16 . 
+swds:Person-310-16 sps:name-variant "'Abdišo' de Ṣoba et d'Arménie"@fr . 
+swds:Person-310-16 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-17 . 
+swds:Person-310-17 sps:name-variant "'Ebed Yešu'"@fr . 
+swds:Person-310-17 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-18 . 
+swds:Person-310-18 sps:name-variant "ܥܒܕܝܫܘܥ ܕܨܘܒܐ ܘܕܐܪܡܢܝܐ"@syr . 
+swds:Person-310-18 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-19 . 
+swds:Person-310-19 sps:name-variant "ʿAbdishoʿ bar Brikha"@en . 
+swds:Person-310-19 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-20 . 
+swds:Person-310-20 sps:name-variant "‘Abdîshô‘ de Nisibe"@fr . 
+swds:Person-310-20 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-21 . 
+swds:Person-310-21 sps:name-variant "ʿAbdishoʿ bar Brikha"@en . 
+swds:Person-310-21 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-22 . 
+swds:Person-310-22 sps:name-variant "Ebedjesus of Ṣobā"@en . 
+swds:Person-310-22 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> sp:name-variant swds:Person-310-23 . 
+swds:Person-310-23 sps:name-variant "Abdisho Bar Berika seu Ebedjesu Sobensis"@la . 
+swds:Person-310-23 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_310" . 
+<http://syriaca.org/person/310> sp:closeMatch swds:closeMatch-310-1 . 
+swds:closeMatch-310-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_310" . 
+swds:closeMatch-310-1 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:closeMatch "http://viaf.org/viaf/5985460" . 
+<http://syriaca.org/person/310> sp:closeMatch swds:closeMatch-310-2 . 
+swds:closeMatch-310-2 sps:closeMatch "http://viaf.org/viaf/5985460" . 
+swds:closeMatch-310-2 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:closeMatch "http://worldcat.org/identities/lccn-n84-228232" . 
+<http://syriaca.org/person/310> sp:closeMatch swds:closeMatch-310-3 . 
+swds:closeMatch-310-3 sps:closeMatch "http://worldcat.org/identities/lccn-n84-228232" . 
+swds:closeMatch-310-3 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:closeMatch "http://viaf.org/viaf/190685552" . 
+<http://syriaca.org/person/310> sp:closeMatch swds:closeMatch-310-4 . 
+swds:closeMatch-310-4 sps:closeMatch "http://viaf.org/viaf/190685552" . 
+swds:closeMatch-310-4 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:closeMatch "http://viaf.org/viaf/187742991" . 
+<http://syriaca.org/person/310> sp:closeMatch swds:closeMatch-310-5 . 
+swds:closeMatch-310-5 sps:closeMatch "http://viaf.org/viaf/187742991" . 
+swds:closeMatch-310-5 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Abdisho of Nisibis&sT=keywords" . 
+<http://syriaca.org/person/310> sp:closeMatch swds:closeMatch-310-6 . 
+swds:closeMatch-310-6 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Abdisho of Nisibis&sT=keywords" . 
+swds:closeMatch-310-6 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:death-when "1318"^^xsd:gYear . 
+<http://syriaca.org/person/310> sp:death-when swds:death-when-310-1 . 
+swds:death-when-310-1 sps:death-when "1318"^^xsd:gYear . 
+swds:death-when-310-1 spr:reference-URL <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/310> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/310> sp:status swds:status-310-1 . 
+swds:status-310-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-310-1 spr:reference-URL <http://syriaca.org/person/310> .

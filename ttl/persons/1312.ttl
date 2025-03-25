@@ -1,0 +1,65 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1312> rdf:type lawd:Person . 
+<http://syriaca.org/person/1312> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1312> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1312> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1312> rdfs:label "John the Camel-Driver"@en . 
+<http://syriaca.org/person/1312> foaf:primaryTopicOf <http://syriaca.org/person/1312/tei> . 
+<http://syriaca.org/person/1312> foaf:primaryTopicOf <http://syriaca.org/person/1312/html> . 
+<http://syriaca.org/person/1312> dcterms:hasFormat <http://syriaca.org/person/1312/tei> . 
+<http://syriaca.org/person/1312> dcterms:hasFormat <http://syriaca.org/person/1312/html> . 
+<http://syriaca.org/person/1312> schema:description "In hagiography: John the Camel-Driver was commemorated in Thomas of Marga 's Book of Governors . In this account, Maran Zha, bishop of Ḥadita on the Tigris , heard a camel driver singing Syriac chants among the Arab camel drivers. This man, John, had been a Syriac bishop of the Egyptian diaspora before he was captured by the Bedouins. He was entombed near Ḥadita , but only his habit was found."@en . 
+<http://syriaca.org/person/1312> foaf:primaryTopicOf <http://syriaca.org/person/796> . 
+<http://syriaca.org/person/1312> foaf:primaryTopicOf <http://syriaca.org/place/2311> . 
+<http://syriaca.org/person/1312> foaf:primaryTopicOf <http://syriaca.org/place/202> . 
+<http://syriaca.org/person/1312> foaf:primaryTopicOf <http://syriaca.org/place/2311> . 
+<http://syriaca.org/person/1312> swdt:name-variant "John the Camel-Driver"@en . 
+<http://syriaca.org/person/1312> swdt:name-variant "JEAN L'ÉVÊQUE CHAMELIER"@fr-x-fiey . 
+<http://syriaca.org/person/1312> sp:name-variant swds:Person-1312-1 . 
+swds:Person-1312-1 sps:name-variant "John the Camel-Driver"@en . 
+swds:Person-1312-1 spr:reference-URL <http://syriaca.org/person/1312> . 
+<http://syriaca.org/person/1312> sp:name-variant swds:Person-1312-2 . 
+swds:Person-1312-2 sps:name-variant "JEAN L'ÉVÊQUE CHAMELIER"@fr-x-fiey . 
+swds:Person-1312-2 spr:reference-URL <http://syriaca.org/person/1312> . 
+<http://syriaca.org/person/1312> swdt:floruit-notBefore "0700"^^xsd:gYear . 
+<http://syriaca.org/person/1312> sp:floruit-notBefore swds:floruit-notBefore-1312-1 . 
+swds:floruit-notBefore-1312-1 sps:floruit-notBefore "0700"^^xsd:gYear . 
+swds:floruit-notBefore-1312-1 spr:reference-URL <http://syriaca.org/person/1312> . 
+<http://syriaca.org/person/1312> swdt:floruit-notAfter "0800"^^xsd:gYear . 
+<http://syriaca.org/person/1312> sp:floruit-notAfter swds:floruit-notAfter-1312-1 . 
+swds:floruit-notAfter-1312-1 sps:floruit-notAfter "0800"^^xsd:gYear . 
+swds:floruit-notAfter-1312-1 spr:reference-URL <http://syriaca.org/person/1312> . 
+<http://syriaca.org/person/1312> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1312> sp:gender swds:gender-1312-1 . 
+swds:gender-1312-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1312-1 spr:reference-URL <http://syriaca.org/person/1312> . 
+<http://syriaca.org/person/1312> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1312> sp:status swds:status-1312-1 . 
+swds:status-1312-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1312-1 spr:reference-URL <http://syriaca.org/person/1312> .

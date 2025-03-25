@@ -1,0 +1,109 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/621> rdf:type lawd:Person . 
+<http://syriaca.org/person/621> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/621> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/621> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/621> rdfs:label "Maron"@en . 
+<http://syriaca.org/person/621> rdfs:label "ܡܪܘܢ"@syr . 
+<http://syriaca.org/person/621> foaf:primaryTopicOf <http://syriaca.org/person/621/tei> . 
+<http://syriaca.org/person/621> foaf:primaryTopicOf <http://syriaca.org/person/621/html> . 
+<http://syriaca.org/person/621> dcterms:hasFormat <http://syriaca.org/person/621/tei> . 
+<http://syriaca.org/person/621> dcterms:hasFormat <http://syriaca.org/person/621/html> . 
+<http://syriaca.org/person/621> schema:description "St. Maron, a charismatic hermit who lived in the region of the Orontes River valley toward the end of the 4th cent., is venerated as the Father of the Syr. Maron. Church of Antioch ."@en . 
+<http://syriaca.org/person/621> foaf:primaryTopicOf <http://syriaca.org/person/3094> . 
+<http://syriaca.org/person/621> foaf:primaryTopicOf <http://syriaca.org/place/147> . 
+<http://syriaca.org/person/621> foaf:primaryTopicOf <http://syriaca.org/place/10> . 
+<http://syriaca.org/person/621> swdt:name-variant "Maron"@en . 
+<http://syriaca.org/person/621> swdt:name-variant "Maron"@en-x-gedsh . 
+<http://syriaca.org/person/621> swdt:name-variant "Maron"@en . 
+<http://syriaca.org/person/621> swdt:name-variant "St. Maron"@en . 
+<http://syriaca.org/person/621> swdt:name-variant "Mar Marun"@en . 
+<http://syriaca.org/person/621> swdt:name-variant "مار مارون"@ar . 
+<http://syriaca.org/person/621> swdt:name-variant "ܡܪܝ ܡܪܘܢ"@syr . 
+<http://syriaca.org/person/621> swdt:name-variant "ܡܳܪܝ ܡܰܪܘܢ"@syr-Syrj . 
+<http://syriaca.org/person/621> swdt:name-variant "ܡܪܘܢ"@syr . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-1 . 
+swds:Person-621-1 sps:name-variant "Maron"@en . 
+swds:Person-621-1 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-2 . 
+swds:Person-621-2 sps:name-variant "Maron"@en-x-gedsh . 
+swds:Person-621-2 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-3 . 
+swds:Person-621-3 sps:name-variant "Maron"@en . 
+swds:Person-621-3 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-4 . 
+swds:Person-621-4 sps:name-variant "St. Maron"@en . 
+swds:Person-621-4 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-5 . 
+swds:Person-621-5 sps:name-variant "Mar Marun"@en . 
+swds:Person-621-5 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-6 . 
+swds:Person-621-6 sps:name-variant "مار مارون"@ar . 
+swds:Person-621-6 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-7 . 
+swds:Person-621-7 sps:name-variant "ܡܪܝ ܡܪܘܢ"@syr . 
+swds:Person-621-7 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-8 . 
+swds:Person-621-8 sps:name-variant "ܡܳܪܝ ܡܰܪܘܢ"@syr-Syrj . 
+swds:Person-621-8 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> sp:name-variant swds:Person-621-9 . 
+swds:Person-621-9 sps:name-variant "ܡܪܘܢ"@syr . 
+swds:Person-621-9 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_621" . 
+<http://syriaca.org/person/621> sp:closeMatch swds:closeMatch-621-1 . 
+swds:closeMatch-621-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_621" . 
+swds:closeMatch-621-1 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> swdt:floruit-notBefore "0300"^^xsd:gYear . 
+<http://syriaca.org/person/621> sp:floruit-notBefore swds:floruit-notBefore-621-1 . 
+swds:floruit-notBefore-621-1 sps:floruit-notBefore "0300"^^xsd:gYear . 
+swds:floruit-notBefore-621-1 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> swdt:floruit-notAfter "0350"^^xsd:gYear . 
+<http://syriaca.org/person/621> sp:floruit-notAfter swds:floruit-notAfter-621-1 . 
+swds:floruit-notAfter-621-1 sps:floruit-notAfter "0350"^^xsd:gYear . 
+swds:floruit-notAfter-621-1 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/621> sp:status swds:status-621-1 . 
+swds:status-621-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-621-1 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> swdt:possibly-identical <http://syriaca.org/person/3094> . 
+<http://syriaca.org/person/621> sp:possibly-identical swds:activeRelationpossibly-identical-621-11 . 
+swds:activeRelationpossibly-identical-621-11 swd:possibly-identical <http://syriaca.org/person/3094> . 
+swds:activeRelationpossibly-identical-621-11 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/3094> swdt:possibly-identical <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/3094> sp:possibly-identical swds:activeRelationpossibly-identical-621-11 . 
+swds:activeRelationpossibly-identical-621-11 swd:possibly-identical <http://syriaca.org/person/621> . 
+swds:activeRelationpossibly-identical-621-11 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/3094> swdt:possibly-identical <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/3094> sp:possibly-identical swds:activeRelationpossibly-identical-621-12 . 
+swds:activeRelationpossibly-identical-621-12 swd:possibly-identical <http://syriaca.org/person/621> . 
+swds:activeRelationpossibly-identical-621-12 spr:reference-URL <http://syriaca.org/person/621> . 
+<http://syriaca.org/person/621> swdt:possibly-identical <http://syriaca.org/person/3094> . 
+<http://syriaca.org/person/621> sp:possibly-identical swds:activeRelationpossibly-identical-621-11 . 
+swds:activeRelationpossibly-identical-621-11 swd:possibly-identical <http://syriaca.org/person/3094> . 
+swds:activeRelationpossibly-identical-621-11 spr:reference-URL <http://syriaca.org/person/621> .

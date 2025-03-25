@@ -1,0 +1,71 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2288> rdf:type lawd:Person . 
+<http://syriaca.org/person/2288> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2288> rdfs:label "Lucius Verus"@en . 
+<http://syriaca.org/person/2288> rdfs:label "ܠܘܩܝܣ"@syr . 
+<http://syriaca.org/person/2288> foaf:primaryTopicOf <http://syriaca.org/person/2288/tei> . 
+<http://syriaca.org/person/2288> foaf:primaryTopicOf <http://syriaca.org/person/2288/html> . 
+<http://syriaca.org/person/2288> dcterms:hasFormat <http://syriaca.org/person/2288/tei> . 
+<http://syriaca.org/person/2288> dcterms:hasFormat <http://syriaca.org/person/2288/html> . 
+<http://syriaca.org/person/2288> swdt:name-variant "Lucius Verus"@en . 
+<http://syriaca.org/person/2288> swdt:name-variant "Luqis"@en-x-gedsh . 
+<http://syriaca.org/person/2288> swdt:name-variant "ܠܘܩܝܣ"@syr . 
+<http://syriaca.org/person/2288> swdt:name-variant "Lucius Caesar"@en . 
+<http://syriaca.org/person/2288> sp:name-variant swds:Person-2288-1 . 
+swds:Person-2288-1 sps:name-variant "Lucius Verus"@en . 
+swds:Person-2288-1 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> sp:name-variant swds:Person-2288-2 . 
+swds:Person-2288-2 sps:name-variant "Luqis"@en-x-gedsh . 
+swds:Person-2288-2 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> sp:name-variant swds:Person-2288-3 . 
+swds:Person-2288-3 sps:name-variant "ܠܘܩܝܣ"@syr . 
+swds:Person-2288-3 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> sp:name-variant swds:Person-2288-4 . 
+swds:Person-2288-4 sps:name-variant "Lucius Caesar"@en . 
+swds:Person-2288-4 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> swdt:closeMatch "https://en.wikipedia.org/wiki/Lucius_Verus" . 
+<http://syriaca.org/person/2288> sp:closeMatch swds:closeMatch-2288-1 . 
+swds:closeMatch-2288-1 sps:closeMatch "https://en.wikipedia.org/wiki/Lucius_Verus" . 
+swds:closeMatch-2288-1 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> swdt:floruit-notBefore "0165"^^xsd:gYear . 
+<http://syriaca.org/person/2288> sp:floruit-notBefore swds:floruit-notBefore-2288-1 . 
+swds:floruit-notBefore-2288-1 sps:floruit-notBefore "0165"^^xsd:gYear . 
+swds:floruit-notBefore-2288-1 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> swdt:floruit-notAfter "0166"^^xsd:gYear . 
+<http://syriaca.org/person/2288> sp:floruit-notAfter swds:floruit-notAfter-2288-1 . 
+swds:floruit-notAfter-2288-1 sps:floruit-notAfter "0166"^^xsd:gYear . 
+swds:floruit-notAfter-2288-1 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2288> sp:gender swds:gender-2288-1 . 
+swds:gender-2288-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2288-1 spr:reference-URL <http://syriaca.org/person/2288> . 
+<http://syriaca.org/person/2288> swdt:occupation <http://syriaca.org/taxonomy/emperors> . 
+<http://syriaca.org/person/2288> sp:occupation swds:occupation-2288-1 . 
+swds:occupation-2288-1 sps:occupation <http://syriaca.org/taxonomy/emperors> . 
+swds:occupation-2288-1 spr:reference-URL <http://syriaca.org/person/2288> .

@@ -1,0 +1,84 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/294> rdf:type lawd:Person . 
+<http://syriaca.org/person/294> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/294> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/294> rdfs:label "Shukr Allah of Aleppo , maphrian"@en . 
+<http://syriaca.org/person/294> rdfs:label "ܫܟܪܐܠܠܗ ܚܠܒܝܐ"@syr . 
+<http://syriaca.org/person/294> foaf:primaryTopicOf <http://syriaca.org/person/294/tei> . 
+<http://syriaca.org/person/294> foaf:primaryTopicOf <http://syriaca.org/person/294/html> . 
+<http://syriaca.org/person/294> dcterms:hasFormat <http://syriaca.org/person/294/tei> . 
+<http://syriaca.org/person/294> dcterms:hasFormat <http://syriaca.org/person/294/html> . 
+<http://syriaca.org/person/294> swdt:name-variant "Shukr Allah of Aleppo , maphrian"@en . 
+<http://syriaca.org/person/294> swdt:name-variant "Maphryono Shukr Allah of Aleppo"@en . 
+<http://syriaca.org/person/294> swdt:name-variant "المفريان شكر اللّٰه الحلبي"@ar . 
+<http://syriaca.org/person/294> swdt:name-variant "ܡܦܪܝܢܐ ܫܟܪܐܠܠܗ ܚܠܒܝܐ"@syr . 
+<http://syriaca.org/person/294> swdt:name-variant "ܡܰܦܪܝܢܐ ܫܰܟܪܐܠܠܗ ܚܳܠܒܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/294> swdt:name-variant "ܫܟܪܐܠܠܗ ܚܠܒܝܐ"@syr . 
+<http://syriaca.org/person/294> swdt:name-variant "Shukrallāh of Aleppo"@en-x-gedsh . 
+<http://syriaca.org/person/294> swdt:name-variant "Shukr Allah of Aleppo"@en . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-1 . 
+swds:Person-294-1 sps:name-variant "Shukr Allah of Aleppo , maphrian"@en . 
+swds:Person-294-1 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-2 . 
+swds:Person-294-2 sps:name-variant "Maphryono Shukr Allah of Aleppo"@en . 
+swds:Person-294-2 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-3 . 
+swds:Person-294-3 sps:name-variant "المفريان شكر اللّٰه الحلبي"@ar . 
+swds:Person-294-3 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-4 . 
+swds:Person-294-4 sps:name-variant "ܡܦܪܝܢܐ ܫܟܪܐܠܠܗ ܚܠܒܝܐ"@syr . 
+swds:Person-294-4 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-5 . 
+swds:Person-294-5 sps:name-variant "ܡܰܦܪܝܢܐ ܫܰܟܪܐܠܠܗ ܚܳܠܒܝܐ"@syr-Syrj . 
+swds:Person-294-5 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-6 . 
+swds:Person-294-6 sps:name-variant "ܫܟܪܐܠܠܗ ܚܠܒܝܐ"@syr . 
+swds:Person-294-6 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-7 . 
+swds:Person-294-7 sps:name-variant "Shukrallāh of Aleppo"@en-x-gedsh . 
+swds:Person-294-7 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> sp:name-variant swds:Person-294-8 . 
+swds:Person-294-8 sps:name-variant "Shukr Allah of Aleppo"@en . 
+swds:Person-294-8 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_294" . 
+<http://syriaca.org/person/294> sp:closeMatch swds:closeMatch-294-1 . 
+swds:closeMatch-294-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_294" . 
+swds:closeMatch-294-1 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> swdt:death-when "1764"^^xsd:gYear . 
+<http://syriaca.org/person/294> sp:death-when swds:death-when-294-1 . 
+swds:death-when-294-1 sps:death-when "1764"^^xsd:gYear . 
+swds:death-when-294-1 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> swdt:occupation <maphrian> . 
+<http://syriaca.org/person/294> sp:occupation swds:occupation-294-1 . 
+swds:occupation-294-1 sps:occupation <maphrian> . 
+swds:occupation-294-1 spr:reference-URL <http://syriaca.org/person/294> . 
+<http://syriaca.org/person/294> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/294> sp:status swds:status-294-1 . 
+swds:status-294-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-294-1 spr:reference-URL <http://syriaca.org/person/294> .

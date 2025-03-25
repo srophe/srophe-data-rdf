@@ -1,0 +1,111 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/560> rdf:type lawd:Person . 
+<http://syriaca.org/person/560> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/560> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/560> rdfs:label "ܝܫܘܥܝܗܒ ܓܕܠܝܐ"@syr . 
+<http://syriaca.org/person/560> rdfs:label "Ishoʿyahb II of Gdala"@en . 
+<http://syriaca.org/person/560> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/560> foaf:primaryTopicOf <http://syriaca.org/person/560/tei> . 
+<http://syriaca.org/person/560> foaf:primaryTopicOf <http://syriaca.org/person/560/html> . 
+<http://syriaca.org/person/560> dcterms:hasFormat <http://syriaca.org/person/560/tei> . 
+<http://syriaca.org/person/560> dcterms:hasFormat <http://syriaca.org/person/560/html> . 
+<http://syriaca.org/person/560> schema:description "Cath. (628-45) and author."@en . 
+<http://syriaca.org/person/560> swdt:name-variant "Ishoʿyahb II of Gdala"@en-x-gedsh . 
+<http://syriaca.org/person/560> swdt:name-variant "ܝܫܘܥܝܗܒ ܓܕܠܝܐ"@syr . 
+<http://syriaca.org/person/560> swdt:name-variant "ܝܑܼܫܘܿܥܝܲܗܒ ܓܕܵܠܵܝܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/560> swdt:name-variant "Ishoyahb II"@en . 
+<http://syriaca.org/person/560> swdt:name-variant "Ishoyahb of Gedala"@en . 
+<http://syriaca.org/person/560> swdt:name-variant "Ishoyahb II of Gdala"@en-x-srp1 . 
+<http://syriaca.org/person/560> swdt:name-variant "Isho‘yahb II of Gdala"@en-x-srp1 . 
+<http://syriaca.org/person/560> swdt:name-variant "Ishoʿyahb II of Gdala"@en . 
+<http://syriaca.org/person/560> swdt:name-variant "Isho'jahb II, Katholikos"@la . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-1 . 
+swds:Person-560-1 sps:name-variant "Ishoʿyahb II of Gdala"@en-x-gedsh . 
+swds:Person-560-1 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-2 . 
+swds:Person-560-2 sps:name-variant "ܝܫܘܥܝܗܒ ܓܕܠܝܐ"@syr . 
+swds:Person-560-2 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-3 . 
+swds:Person-560-3 sps:name-variant "ܝܑܼܫܘܿܥܝܲܗܒ ܓܕܵܠܵܝܵܐ"@syr-Syrn . 
+swds:Person-560-3 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-4 . 
+swds:Person-560-4 sps:name-variant "Ishoyahb II"@en . 
+swds:Person-560-4 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-5 . 
+swds:Person-560-5 sps:name-variant "Ishoyahb of Gedala"@en . 
+swds:Person-560-5 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-6 . 
+swds:Person-560-6 sps:name-variant "Ishoyahb II of Gdala"@en-x-srp1 . 
+swds:Person-560-6 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-7 . 
+swds:Person-560-7 sps:name-variant "Isho‘yahb II of Gdala"@en-x-srp1 . 
+swds:Person-560-7 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-8 . 
+swds:Person-560-8 sps:name-variant "Ishoʿyahb II of Gdala"@en . 
+swds:Person-560-8 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> sp:name-variant swds:Person-560-9 . 
+swds:Person-560-9 sps:name-variant "Isho'jahb II, Katholikos"@la . 
+swds:Person-560-9 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_560" . 
+<http://syriaca.org/person/560> sp:closeMatch swds:closeMatch-560-1 . 
+swds:closeMatch-560-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_560" . 
+swds:closeMatch-560-1 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:closeMatch "http://viaf.org/viaf/122240910" . 
+<http://syriaca.org/person/560> sp:closeMatch swds:closeMatch-560-2 . 
+swds:closeMatch-560-2 sps:closeMatch "http://viaf.org/viaf/122240910" . 
+swds:closeMatch-560-2 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:closeMatch "http://viaf.org/viaf/284795400" . 
+<http://syriaca.org/person/560> sp:closeMatch swds:closeMatch-560-3 . 
+swds:closeMatch-560-3 sps:closeMatch "http://viaf.org/viaf/284795400" . 
+swds:closeMatch-560-3 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb II&sT=keywords" . 
+<http://syriaca.org/person/560> sp:closeMatch swds:closeMatch-560-4 . 
+swds:closeMatch-560-4 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb II&sT=keywords" . 
+swds:closeMatch-560-4 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb of Gedala&sT=keywords" . 
+<http://syriaca.org/person/560> sp:closeMatch swds:closeMatch-560-5 . 
+swds:closeMatch-560-5 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb of Gedala&sT=keywords" . 
+swds:closeMatch-560-5 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:death-notBefore "0631"^^xsd:gYear . 
+<http://syriaca.org/person/560> sp:death-notBefore swds:death-notBefore-560-1 . 
+swds:death-notBefore-560-1 sps:death-notBefore "0631"^^xsd:gYear . 
+swds:death-notBefore-560-1 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:death-notAfter "0661"^^xsd:gYear . 
+<http://syriaca.org/person/560> sp:death-notAfter swds:death-notAfter-560-1 . 
+swds:death-notAfter-560-1 sps:death-notAfter "0661"^^xsd:gYear . 
+swds:death-notAfter-560-1 spr:reference-URL <http://syriaca.org/person/560> . 
+<http://syriaca.org/person/560> swdt:occupation <catholicos> . 
+<http://syriaca.org/person/560> sp:occupation swds:occupation-560-1 . 
+swds:occupation-560-1 sps:occupation <catholicos> . 
+swds:occupation-560-1 spr:reference-URL <http://syriaca.org/person/560> . 
+swds:occupation-560-1 spq:from "0628"^^xsd:gYear . 
+<http://syriaca.org/person/560> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/560> sp:status swds:status-560-1 . 
+swds:status-560-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-560-1 spr:reference-URL <http://syriaca.org/person/560> .

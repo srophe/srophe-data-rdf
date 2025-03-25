@@ -1,0 +1,56 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2467> rdf:type lawd:Person . 
+<http://syriaca.org/person/2467> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2467> rdfs:label "Photius"@en . 
+<http://syriaca.org/person/2467> rdfs:label "ܦܘܛܝܘܣ ܩܫܝܫܐ ܘܪܝܫ ܕܕܝܪܐ ܕܥܘܡ̈ܪܐ ܕܒܩܪܝܐ"@syr . 
+<http://syriaca.org/person/2467> foaf:primaryTopicOf <http://syriaca.org/person/2467/tei> . 
+<http://syriaca.org/person/2467> foaf:primaryTopicOf <http://syriaca.org/person/2467/html> . 
+<http://syriaca.org/person/2467> dcterms:hasFormat <http://syriaca.org/person/2467/tei> . 
+<http://syriaca.org/person/2467> dcterms:hasFormat <http://syriaca.org/person/2467/html> . 
+<http://syriaca.org/person/2467> schema:description "An archimandrite in Caria and recipient of a letter from Severus of Antioch"@en . 
+<http://syriaca.org/person/2467> swdt:name-variant "Photius"@en . 
+<http://syriaca.org/person/2467> swdt:name-variant "ܦܘܛܝܘܣ ܩܫܝܫܐ ܘܪܝܫ ܕܕܝܪܐ ܕܥܘܡ̈ܪܐ ܕܒܩܪܝܐ"@syr . 
+<http://syriaca.org/person/2467> sp:name-variant swds:Person-2467-1 . 
+swds:Person-2467-1 sps:name-variant "Photius"@en . 
+swds:Person-2467-1 spr:reference-URL <http://syriaca.org/person/2467> . 
+<http://syriaca.org/person/2467> sp:name-variant swds:Person-2467-2 . 
+swds:Person-2467-2 sps:name-variant "ܦܘܛܝܘܣ ܩܫܝܫܐ ܘܪܝܫ ܕܕܝܪܐ ܕܥܘܡ̈ܪܐ ܕܒܩܪܝܐ"@syr . 
+swds:Person-2467-2 spr:reference-URL <http://syriaca.org/person/2467> . 
+<http://syriaca.org/person/2467> swdt:floruit-notBefore "0500"^^xsd:gYear . 
+<http://syriaca.org/person/2467> sp:floruit-notBefore swds:floruit-notBefore-2467-1 . 
+swds:floruit-notBefore-2467-1 sps:floruit-notBefore "0500"^^xsd:gYear . 
+swds:floruit-notBefore-2467-1 spr:reference-URL <http://syriaca.org/person/2467> . 
+<http://syriaca.org/person/2467> swdt:floruit-notAfter "0525"^^xsd:gYear . 
+<http://syriaca.org/person/2467> sp:floruit-notAfter swds:floruit-notAfter-2467-1 . 
+swds:floruit-notAfter-2467-1 sps:floruit-notAfter "0525"^^xsd:gYear . 
+swds:floruit-notAfter-2467-1 spr:reference-URL <http://syriaca.org/person/2467> . 
+<http://syriaca.org/person/2467> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2467> sp:gender swds:gender-2467-1 . 
+swds:gender-2467-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2467-1 spr:reference-URL <http://syriaca.org/person/2467> .

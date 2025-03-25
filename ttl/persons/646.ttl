@@ -1,0 +1,105 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/646> rdf:type lawd:Person . 
+<http://syriaca.org/person/646> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/646> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/646> rdfs:label "Moses of Mardin"@en . 
+<http://syriaca.org/person/646> rdfs:label "ܡܘܫܐ ܕܡܪܕܝܢ"@syr . 
+<http://syriaca.org/person/646> foaf:primaryTopicOf <http://syriaca.org/person/646/tei> . 
+<http://syriaca.org/person/646> foaf:primaryTopicOf <http://syriaca.org/person/646/html> . 
+<http://syriaca.org/person/646> dcterms:hasFormat <http://syriaca.org/person/646/tei> . 
+<http://syriaca.org/person/646> dcterms:hasFormat <http://syriaca.org/person/646/html> . 
+<http://syriaca.org/person/646> schema:description "Priest, scribe, and bp. A native of the village of Qāluq, in the region of Ṣawro, near Mardin, Mushe was sent by Patr. ʿAbdullāh I b. Sṭephanos to Rome, where he arrived with some mss. in or shortly before 1549."@en . 
+<http://syriaca.org/person/646> swdt:name-variant "Moses of Mardin"@en . 
+<http://syriaca.org/person/646> swdt:name-variant "Mushe of Mardin"@en-x-gedsh . 
+<http://syriaca.org/person/646> swdt:name-variant "Moses al-Ṣawri"@en . 
+<http://syriaca.org/person/646> swdt:name-variant "المطران موسى الصَّوري"@ar . 
+<http://syriaca.org/person/646> swdt:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܡܘܫܐ ܨܘܪܝܐ"@syr . 
+<http://syriaca.org/person/646> swdt:name-variant "ܡܺܝܛܪܘܦܘܠܝܛܐ ܡܘܫܶܐ ܨܰܘܪܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/646> swdt:name-variant "ܡܘܫܐ ܕܡܪܕܝܢ"@syr . 
+<http://syriaca.org/person/646> swdt:name-variant "Moses of Mardin"@en . 
+<http://syriaca.org/person/646> swdt:name-variant "Moses of Mardin"@en . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-1 . 
+swds:Person-646-1 sps:name-variant "Moses of Mardin"@en . 
+swds:Person-646-1 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-2 . 
+swds:Person-646-2 sps:name-variant "Mushe of Mardin"@en-x-gedsh . 
+swds:Person-646-2 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-3 . 
+swds:Person-646-3 sps:name-variant "Moses al-Ṣawri"@en . 
+swds:Person-646-3 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-4 . 
+swds:Person-646-4 sps:name-variant "المطران موسى الصَّوري"@ar . 
+swds:Person-646-4 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-5 . 
+swds:Person-646-5 sps:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܡܘܫܐ ܨܘܪܝܐ"@syr . 
+swds:Person-646-5 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-6 . 
+swds:Person-646-6 sps:name-variant "ܡܺܝܛܪܘܦܘܠܝܛܐ ܡܘܫܶܐ ܨܰܘܪܳܝܳܐ"@syr-Syrj . 
+swds:Person-646-6 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-7 . 
+swds:Person-646-7 sps:name-variant "ܡܘܫܐ ܕܡܪܕܝܢ"@syr . 
+swds:Person-646-7 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-8 . 
+swds:Person-646-8 sps:name-variant "Moses of Mardin"@en . 
+swds:Person-646-8 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> sp:name-variant swds:Person-646-9 . 
+swds:Person-646-9 sps:name-variant "Moses of Mardin"@en . 
+swds:Person-646-9 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_646" . 
+<http://syriaca.org/person/646> sp:closeMatch swds:closeMatch-646-1 . 
+swds:closeMatch-646-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_646" . 
+swds:closeMatch-646-1 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:closeMatch "http://viaf.org/viaf/63546299" . 
+<http://syriaca.org/person/646> sp:closeMatch swds:closeMatch-646-2 . 
+swds:closeMatch-646-2 sps:closeMatch "http://viaf.org/viaf/63546299" . 
+swds:closeMatch-646-2 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:closeMatch "http://worldcat.org/identities/lccn-no00-9075" . 
+<http://syriaca.org/person/646> sp:closeMatch swds:closeMatch-646-3 . 
+swds:closeMatch-646-3 sps:closeMatch "http://worldcat.org/identities/lccn-no00-9075" . 
+swds:closeMatch-646-3 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:closeMatch "http://viaf.org/viaf/40276312" . 
+<http://syriaca.org/person/646> sp:closeMatch swds:closeMatch-646-4 . 
+swds:closeMatch-646-4 sps:closeMatch "http://viaf.org/viaf/40276312" . 
+swds:closeMatch-646-4 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Moses of Mardin&sT=keywords" . 
+<http://syriaca.org/person/646> sp:closeMatch swds:closeMatch-646-5 . 
+swds:closeMatch-646-5 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Moses of Mardin&sT=keywords" . 
+swds:closeMatch-646-5 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:floruit-notBefore "1500"^^xsd:gYear . 
+<http://syriaca.org/person/646> sp:floruit-notBefore swds:floruit-notBefore-646-1 . 
+swds:floruit-notBefore-646-1 sps:floruit-notBefore "1500"^^xsd:gYear . 
+swds:floruit-notBefore-646-1 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:floruit-notAfter "1600"^^xsd:gYear . 
+<http://syriaca.org/person/646> sp:floruit-notAfter swds:floruit-notAfter-646-1 . 
+swds:floruit-notAfter-646-1 sps:floruit-notAfter "1600"^^xsd:gYear . 
+swds:floruit-notAfter-646-1 spr:reference-URL <http://syriaca.org/person/646> . 
+<http://syriaca.org/person/646> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/646> sp:status swds:status-646-1 . 
+swds:status-646-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-646-1 spr:reference-URL <http://syriaca.org/person/646> .

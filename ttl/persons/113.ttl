@@ -1,0 +1,205 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/113> rdf:type lawd:Person . 
+<http://syriaca.org/person/113> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/113> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/113> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/113> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/113> rdfs:label "Jacob of Edessa"@en . 
+<http://syriaca.org/person/113> rdfs:label "ܝܥܩܘܒ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/113> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/person/113/tei> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/person/113/html> . 
+<http://syriaca.org/person/113> dcterms:hasFormat <http://syriaca.org/person/113/tei> . 
+<http://syriaca.org/person/113> dcterms:hasFormat <http://syriaca.org/person/113/html> . 
+<http://syriaca.org/person/113> schema:description "Bp. of Edessa (ca. 684–9, 708) and scholar."@en . 
+<http://syriaca.org/person/113> schema:description "In hagiography: Jacob of Edessa was commemorated as one of the greatest Syrian orthodox scholars and biblical commentators. He joined the monastery of Qenneshre , and he studied in Alexandria and Edessa . After he became Bishop of Edessa , he retired with two students to teach Greek at the convent of Eusebona , and then he wrote commentaries on scripture. He died at the monastery of Tell ʿAda ."@en . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/2605> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/230> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/572> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/341> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/233> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/434> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/233> . 
+<http://syriaca.org/person/113> foaf:primaryTopicOf <http://syriaca.org/place/2605> . 
+<http://syriaca.org/person/113> swdt:name-variant "Jacob of Edessa"@en . 
+<http://syriaca.org/person/113> swdt:name-variant "Yaʿqub of Edessa"@en-x-gedsh . 
+<http://syriaca.org/person/113> swdt:name-variant "Mar Jacob of Edessa"@en . 
+<http://syriaca.org/person/113> swdt:name-variant "مار يعقوب الرهاوي"@ar . 
+<http://syriaca.org/person/113> swdt:name-variant "ܡܪܝ ܝܥܩܘܒ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/113> swdt:name-variant "ܡܳܪܝ ܝܰܥܩܘܒ ܕܐܘܪܗܳܝ"@syr-Syrj . 
+<http://syriaca.org/person/113> swdt:name-variant "ܝܥܩܘܒ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/113> swdt:name-variant "ܝܥܩܘܒ ܐܘܪܗܝܐ"@syr . 
+<http://syriaca.org/person/113> swdt:name-variant "ܝܲܥܩܘܿܒ ܐܘܼܪܗܵܝܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/113> swdt:name-variant "Jacob of Edessa"@en . 
+<http://syriaca.org/person/113> swdt:name-variant "Yaqub of Edessa"@en-x-srp1 . 
+<http://syriaca.org/person/113> swdt:name-variant "Ya‘qub of Edessa"@en-x-srp1 . 
+<http://syriaca.org/person/113> swdt:name-variant "Jacques d’Édesse"@fr . 
+<http://syriaca.org/person/113> swdt:name-variant "JACQUES D'EDESSE"@fr-x-fiey . 
+<http://syriaca.org/person/113> swdt:name-variant "Jacob of Edessa"@en . 
+<http://syriaca.org/person/113> swdt:name-variant "Jaʿqôb(h) von Edessa"@de-x-baumstrk . 
+<http://syriaca.org/person/113> swdt:name-variant "Jacobus Edessae"@la . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-1 . 
+swds:Person-113-1 sps:name-variant "Jacob of Edessa"@en . 
+swds:Person-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-2 . 
+swds:Person-113-2 sps:name-variant "Yaʿqub of Edessa"@en-x-gedsh . 
+swds:Person-113-2 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-3 . 
+swds:Person-113-3 sps:name-variant "Mar Jacob of Edessa"@en . 
+swds:Person-113-3 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-4 . 
+swds:Person-113-4 sps:name-variant "مار يعقوب الرهاوي"@ar . 
+swds:Person-113-4 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-5 . 
+swds:Person-113-5 sps:name-variant "ܡܪܝ ܝܥܩܘܒ ܕܐܘܪܗܝ"@syr . 
+swds:Person-113-5 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-6 . 
+swds:Person-113-6 sps:name-variant "ܡܳܪܝ ܝܰܥܩܘܒ ܕܐܘܪܗܳܝ"@syr-Syrj . 
+swds:Person-113-6 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-7 . 
+swds:Person-113-7 sps:name-variant "ܝܥܩܘܒ ܕܐܘܪܗܝ"@syr . 
+swds:Person-113-7 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-8 . 
+swds:Person-113-8 sps:name-variant "ܝܥܩܘܒ ܐܘܪܗܝܐ"@syr . 
+swds:Person-113-8 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-9 . 
+swds:Person-113-9 sps:name-variant "ܝܲܥܩܘܿܒ ܐܘܼܪܗܵܝܵܐ"@syr-Syrn . 
+swds:Person-113-9 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-10 . 
+swds:Person-113-10 sps:name-variant "Jacob of Edessa"@en . 
+swds:Person-113-10 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-11 . 
+swds:Person-113-11 sps:name-variant "Yaqub of Edessa"@en-x-srp1 . 
+swds:Person-113-11 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-12 . 
+swds:Person-113-12 sps:name-variant "Ya‘qub of Edessa"@en-x-srp1 . 
+swds:Person-113-12 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-13 . 
+swds:Person-113-13 sps:name-variant "Jacques d’Édesse"@fr . 
+swds:Person-113-13 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-14 . 
+swds:Person-113-14 sps:name-variant "JACQUES D'EDESSE"@fr-x-fiey . 
+swds:Person-113-14 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-15 . 
+swds:Person-113-15 sps:name-variant "Jacob of Edessa"@en . 
+swds:Person-113-15 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-16 . 
+swds:Person-113-16 sps:name-variant "Jaʿqôb(h) von Edessa"@de-x-baumstrk . 
+swds:Person-113-16 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> sp:name-variant swds:Person-113-17 . 
+swds:Person-113-17 sps:name-variant "Jacobus Edessae"@la . 
+swds:Person-113-17 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_113" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-1 . 
+swds:closeMatch-113-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_113" . 
+swds:closeMatch-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://viaf.org/viaf/50027842" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-2 . 
+swds:closeMatch-113-2 sps:closeMatch "http://viaf.org/viaf/50027842" . 
+swds:closeMatch-113-2 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://worldcat.org/identities/lccn-n83-171509" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-3 . 
+swds:closeMatch-113-3 sps:closeMatch "http://worldcat.org/identities/lccn-n83-171509" . 
+swds:closeMatch-113-3 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://worldcat.org/identities/np-jacob of edessa$677 710 or 708" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-4 . 
+swds:closeMatch-113-4 sps:closeMatch "http://worldcat.org/identities/np-jacob of edessa$677 710 or 708" . 
+swds:closeMatch-113-4 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://viaf.org/viaf/71466781" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-5 . 
+swds:closeMatch-113-5 sps:closeMatch "http://viaf.org/viaf/71466781" . 
+swds:closeMatch-113-5 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://viaf.org/viaf/173256905" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-6 . 
+swds:closeMatch-113-6 sps:closeMatch "http://viaf.org/viaf/173256905" . 
+swds:closeMatch-113-6 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Edessa&sT=keywords" . 
+<http://syriaca.org/person/113> sp:closeMatch swds:closeMatch-113-7 . 
+swds:closeMatch-113-7 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Edessa&sT=keywords" . 
+swds:closeMatch-113-7 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:birth-notBefore "0615"^^xsd:gYear . 
+<http://syriaca.org/person/113> sp:birth-notBefore swds:birth-notBefore-113-1 . 
+swds:birth-notBefore-113-1 sps:birth-notBefore "0615"^^xsd:gYear . 
+swds:birth-notBefore-113-1 spr:reference-URL swd:person/113 . 
+<http://syriaca.org/person/113> swdt:birth-notAfter "0645"^^xsd:gYear . 
+<http://syriaca.org/person/113> sp:birth-notAfter swds:birth-notAfter-113-1 . 
+swds:birth-notAfter-113-1 sps:birth-notAfter "0645"^^xsd:gYear . 
+swds:birth-notAfter-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:death-when "0708"^^xsd:gYear . 
+<http://syriaca.org/person/113> sp:death-when swds:death-when-113-1 . 
+swds:death-when-113-1 sps:death-when "0708"^^xsd:gYear . 
+swds:death-when-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:birth-place <http://syriaca.org/place/434> . 
+<http://syriaca.org/person/113> sp:birth-place swds:birth-place-113-1 . 
+swds:birth-place-113-1 sps:birth-place <http://syriaca.org/place/434> . 
+swds:birth-place-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:death-place <http://syriaca.org/place/233> . 
+<http://syriaca.org/person/113> sp:death-place swds:death-place-113-1 . 
+swds:death-place-113-1 sps:death-place <http://syriaca.org/place/233> . 
+swds:death-place-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/113> sp:gender swds:gender-113-1 . 
+swds:gender-113-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/113> sp:occupation swds:occupation-113-1 . 
+swds:occupation-113-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+swds:occupation-113-1 spq:from "0684"^^xsd:gYear . 
+<http://syriaca.org/person/113> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/113> sp:status swds:status-113-1 . 
+swds:status-113-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-113-1 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/113> sp:status swds:status-113-2 . 
+swds:status-113-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-113-2 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:not-to-be-confused-with <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-113-11 . 
+swds:activeRelationnot-to-be-confused-with-113-11 swd:not-to-be-confused-with <http://syriaca.org/person/28> . 
+swds:activeRelationnot-to-be-confused-with-113-11 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> swdt:not-to-be-confused-with <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-113-11 . 
+swds:activeRelationnot-to-be-confused-with-113-11 swd:not-to-be-confused-with <http://syriaca.org/person/113> . 
+swds:activeRelationnot-to-be-confused-with-113-11 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> swdt:not-to-be-confused-with <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-113-12 . 
+swds:activeRelationnot-to-be-confused-with-113-12 swd:not-to-be-confused-with <http://syriaca.org/person/113> . 
+swds:activeRelationnot-to-be-confused-with-113-12 spr:reference-URL <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/113> swdt:not-to-be-confused-with <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-113-11 . 
+swds:activeRelationnot-to-be-confused-with-113-11 swd:not-to-be-confused-with <http://syriaca.org/person/28> . 
+swds:activeRelationnot-to-be-confused-with-113-11 spr:reference-URL <http://syriaca.org/person/113> .

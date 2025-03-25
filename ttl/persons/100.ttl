@@ -1,0 +1,139 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/100> rdf:type lawd:Person . 
+<http://syriaca.org/person/100> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/100> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/100> rdfs:label "Aitalaha the Monk"@en . 
+<http://syriaca.org/person/100> rdfs:label "ܕܝܪܝܐ ܐܝܬܐܠܗܐ"@syr . 
+<http://syriaca.org/person/100> foaf:primaryTopicOf <http://syriaca.org/person/100/tei> . 
+<http://syriaca.org/person/100> foaf:primaryTopicOf <http://syriaca.org/person/100/html> . 
+<http://syriaca.org/person/100> dcterms:hasFormat <http://syriaca.org/person/100/tei> . 
+<http://syriaca.org/person/100> dcterms:hasFormat <http://syriaca.org/person/100/html> . 
+<http://syriaca.org/person/100> foaf:primaryTopicOf <http://syriaca.org/person/1016> . 
+<http://syriaca.org/person/100> foaf:primaryTopicOf <http://syriaca.org/person/326> . 
+<http://syriaca.org/person/100> foaf:primaryTopicOf <http://syriaca.org/person/1057> . 
+<http://syriaca.org/person/100> swdt:name-variant "Aitalaha the Monk"@en . 
+<http://syriaca.org/person/100> swdt:name-variant "The Monk Ithalaha"@en . 
+<http://syriaca.org/person/100> swdt:name-variant "الراهب ايثالاها"@ar . 
+<http://syriaca.org/person/100> swdt:name-variant "ܕܝܪܝܐ ܐܝܬܐܠܗܐ"@syr . 
+<http://syriaca.org/person/100> swdt:name-variant "ܕܰܝܪܳܝܐ ܐܝܬܐܠܳܗܐ"@syr-Syrj . 
+<http://syriaca.org/person/100> swdt:name-variant "Aitalaha the monk"@en-x-gedsh . 
+<http://syriaca.org/person/100> swdt:name-variant "Aitallaha of Kallinikos"@en . 
+<http://syriaca.org/person/100> swdt:name-variant "Ait(h)allàhā"@de-x-baumstrk . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-1 . 
+swds:Person-100-1 sps:name-variant "Aitalaha the Monk"@en . 
+swds:Person-100-1 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-2 . 
+swds:Person-100-2 sps:name-variant "The Monk Ithalaha"@en . 
+swds:Person-100-2 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-3 . 
+swds:Person-100-3 sps:name-variant "الراهب ايثالاها"@ar . 
+swds:Person-100-3 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-4 . 
+swds:Person-100-4 sps:name-variant "ܕܝܪܝܐ ܐܝܬܐܠܗܐ"@syr . 
+swds:Person-100-4 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-5 . 
+swds:Person-100-5 sps:name-variant "ܕܰܝܪܳܝܐ ܐܝܬܐܠܳܗܐ"@syr-Syrj . 
+swds:Person-100-5 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-6 . 
+swds:Person-100-6 sps:name-variant "Aitalaha the monk"@en-x-gedsh . 
+swds:Person-100-6 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-7 . 
+swds:Person-100-7 sps:name-variant "Aitallaha of Kallinikos"@en . 
+swds:Person-100-7 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> sp:name-variant swds:Person-100-8 . 
+swds:Person-100-8 sps:name-variant "Ait(h)allàhā"@de-x-baumstrk . 
+swds:Person-100-8 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_100" . 
+<http://syriaca.org/person/100> sp:closeMatch swds:closeMatch-100-1 . 
+swds:closeMatch-100-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_100" . 
+swds:closeMatch-100-1 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:floruit-notBefore "0600"^^xsd:gYear . 
+<http://syriaca.org/person/100> sp:floruit-notBefore swds:floruit-notBefore-100-1 . 
+swds:floruit-notBefore-100-1 sps:floruit-notBefore "0600"^^xsd:gYear . 
+swds:floruit-notBefore-100-1 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:floruit-notAfter "0700"^^xsd:gYear . 
+<http://syriaca.org/person/100> sp:floruit-notAfter swds:floruit-notAfter-100-1 . 
+swds:floruit-notAfter-100-1 sps:floruit-notAfter "0700"^^xsd:gYear . 
+swds:floruit-notAfter-100-1 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:occupation <http://syriaca.org/taxonomy/monks> . 
+<http://syriaca.org/person/100> sp:occupation swds:occupation-100-1 . 
+swds:occupation-100-1 sps:occupation <http://syriaca.org/taxonomy/monks> . 
+swds:occupation-100-1 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/100> sp:status swds:status-100-1 . 
+swds:status-100-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-100-1 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:possibly-identical <http://syriaca.org/person/1016> . 
+<http://syriaca.org/person/100> sp:possibly-identical swds:activeRelationpossibly-identical-100-11 . 
+swds:activeRelationpossibly-identical-100-11 swd:possibly-identical <http://syriaca.org/person/1016> . 
+swds:activeRelationpossibly-identical-100-11 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1016> swdt:possibly-identical <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1016> sp:possibly-identical swds:activeRelationpossibly-identical-100-11 . 
+swds:activeRelationpossibly-identical-100-11 swd:possibly-identical <http://syriaca.org/person/100> . 
+swds:activeRelationpossibly-identical-100-11 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1016> swdt:possibly-identical <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1016> sp:possibly-identical swds:activeRelationpossibly-identical-100-12 . 
+swds:activeRelationpossibly-identical-100-12 swd:possibly-identical <http://syriaca.org/person/100> . 
+swds:activeRelationpossibly-identical-100-12 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:possibly-identical <http://syriaca.org/person/1016> . 
+<http://syriaca.org/person/100> sp:possibly-identical swds:activeRelationpossibly-identical-100-11 . 
+swds:activeRelationpossibly-identical-100-11 swd:possibly-identical <http://syriaca.org/person/1016> . 
+swds:activeRelationpossibly-identical-100-11 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:not-to-be-confused-with <http://syriaca.org/person/326> . 
+<http://syriaca.org/person/100> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-21 . 
+swds:activeRelationnot-to-be-confused-with-100-21 swd:not-to-be-confused-with <http://syriaca.org/person/326> . 
+swds:activeRelationnot-to-be-confused-with-100-21 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/326> swdt:not-to-be-confused-with <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/326> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-21 . 
+swds:activeRelationnot-to-be-confused-with-100-21 swd:not-to-be-confused-with <http://syriaca.org/person/100> . 
+swds:activeRelationnot-to-be-confused-with-100-21 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/326> swdt:not-to-be-confused-with <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/326> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-22 . 
+swds:activeRelationnot-to-be-confused-with-100-22 swd:not-to-be-confused-with <http://syriaca.org/person/100> . 
+swds:activeRelationnot-to-be-confused-with-100-22 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:not-to-be-confused-with <http://syriaca.org/person/326> . 
+<http://syriaca.org/person/100> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-21 . 
+swds:activeRelationnot-to-be-confused-with-100-21 swd:not-to-be-confused-with <http://syriaca.org/person/326> . 
+swds:activeRelationnot-to-be-confused-with-100-21 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:not-to-be-confused-with <http://syriaca.org/person/1057> . 
+<http://syriaca.org/person/100> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-31 . 
+swds:activeRelationnot-to-be-confused-with-100-31 swd:not-to-be-confused-with <http://syriaca.org/person/1057> . 
+swds:activeRelationnot-to-be-confused-with-100-31 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1057> swdt:not-to-be-confused-with <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1057> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-31 . 
+swds:activeRelationnot-to-be-confused-with-100-31 swd:not-to-be-confused-with <http://syriaca.org/person/100> . 
+swds:activeRelationnot-to-be-confused-with-100-31 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1057> swdt:not-to-be-confused-with <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/1057> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-32 . 
+swds:activeRelationnot-to-be-confused-with-100-32 swd:not-to-be-confused-with <http://syriaca.org/person/100> . 
+swds:activeRelationnot-to-be-confused-with-100-32 spr:reference-URL <http://syriaca.org/person/100> . 
+<http://syriaca.org/person/100> swdt:not-to-be-confused-with <http://syriaca.org/person/1057> . 
+<http://syriaca.org/person/100> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-100-31 . 
+swds:activeRelationnot-to-be-confused-with-100-31 swd:not-to-be-confused-with <http://syriaca.org/person/1057> . 
+swds:activeRelationnot-to-be-confused-with-100-31 spr:reference-URL <http://syriaca.org/person/100> .

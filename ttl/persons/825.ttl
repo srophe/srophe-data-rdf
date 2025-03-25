@@ -1,0 +1,113 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/825> rdf:type lawd:Person . 
+<http://syriaca.org/person/825> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/825> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/825> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/825> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/825> rdfs:label "John of Dailam"@en . 
+<http://syriaca.org/person/825> rdfs:label "ܝܘܚܢܢ ܕܝܠܘܡܝܐ"@syr . 
+<http://syriaca.org/person/825> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/825> foaf:primaryTopicOf <http://syriaca.org/person/825/tei> . 
+<http://syriaca.org/person/825> foaf:primaryTopicOf <http://syriaca.org/person/825/html> . 
+<http://syriaca.org/person/825> dcterms:hasFormat <http://syriaca.org/person/825/tei> . 
+<http://syriaca.org/person/825> dcterms:hasFormat <http://syriaca.org/person/825/html> . 
+<http://syriaca.org/person/825> schema:description "Monk and missionary."@en . 
+<http://syriaca.org/person/825> schema:description "In hagiography: John of Daylam was a monk from the region of Ḥadita who converted many pagans and even travelled to Damascus and Jerusalem, where he met Caliph ʿAbd Al- Malik. He built a monastery for Persian monks in the region of ʿArragan."@en . 
+<http://syriaca.org/person/825> swdt:name-variant "John of Dailam"@en . 
+<http://syriaca.org/person/825> swdt:name-variant "Yoḥannan of Dailam"@en-x-gedsh . 
+<http://syriaca.org/person/825> swdt:name-variant "ܝܘܚܢܢ ܕܝܠܘܡܝܐ"@syr . 
+<http://syriaca.org/person/825> swdt:name-variant "ܝܘܿܚܲܢܵܢ ܕܝܼܠܘܿܡܵܝܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/825> swdt:name-variant "John of Dailam"@en . 
+<http://syriaca.org/person/825> swdt:name-variant "ܝܘܚܢܢ ܕܝܠܡܝܐ"@syr . 
+<http://syriaca.org/person/825> swdt:name-variant "Yuḥanān Daylāmāyā"@en-x-gedsh . 
+<http://syriaca.org/person/825> swdt:name-variant "John of Dailam"@en . 
+<http://syriaca.org/person/825> swdt:name-variant "John of Daylam"@en . 
+<http://syriaca.org/person/825> swdt:name-variant "Yōḥanān Daylāmāyā"@fr-x-zanetti . 
+<http://syriaca.org/person/825> swdt:name-variant "Jean de Daylam"@fr . 
+<http://syriaca.org/person/825> swdt:name-variant "JEAN DE DAYLAM"@fr-x-fiey . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-1 . 
+swds:Person-825-1 sps:name-variant "John of Dailam"@en . 
+swds:Person-825-1 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-2 . 
+swds:Person-825-2 sps:name-variant "Yoḥannan of Dailam"@en-x-gedsh . 
+swds:Person-825-2 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-3 . 
+swds:Person-825-3 sps:name-variant "ܝܘܚܢܢ ܕܝܠܘܡܝܐ"@syr . 
+swds:Person-825-3 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-4 . 
+swds:Person-825-4 sps:name-variant "ܝܘܿܚܲܢܵܢ ܕܝܼܠܘܿܡܵܝܵܐ"@syr-Syrn . 
+swds:Person-825-4 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-5 . 
+swds:Person-825-5 sps:name-variant "John of Dailam"@en . 
+swds:Person-825-5 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-6 . 
+swds:Person-825-6 sps:name-variant "ܝܘܚܢܢ ܕܝܠܡܝܐ"@syr . 
+swds:Person-825-6 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-7 . 
+swds:Person-825-7 sps:name-variant "Yuḥanān Daylāmāyā"@en-x-gedsh . 
+swds:Person-825-7 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-8 . 
+swds:Person-825-8 sps:name-variant "John of Dailam"@en . 
+swds:Person-825-8 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-9 . 
+swds:Person-825-9 sps:name-variant "John of Daylam"@en . 
+swds:Person-825-9 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-10 . 
+swds:Person-825-10 sps:name-variant "Yōḥanān Daylāmāyā"@fr-x-zanetti . 
+swds:Person-825-10 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-11 . 
+swds:Person-825-11 sps:name-variant "Jean de Daylam"@fr . 
+swds:Person-825-11 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> sp:name-variant swds:Person-825-12 . 
+swds:Person-825-12 sps:name-variant "JEAN DE DAYLAM"@fr-x-fiey . 
+swds:Person-825-12 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_825" . 
+<http://syriaca.org/person/825> sp:closeMatch swds:closeMatch-825-1 . 
+swds:closeMatch-825-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_825" . 
+swds:closeMatch-825-1 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Dailam&sT=keywords" . 
+<http://syriaca.org/person/825> sp:closeMatch swds:closeMatch-825-2 . 
+swds:closeMatch-825-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Dailam&sT=keywords" . 
+swds:closeMatch-825-2 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> swdt:death-when "0738"^^xsd:gYear . 
+<http://syriaca.org/person/825> sp:death-when swds:death-when-825-1 . 
+swds:death-when-825-1 sps:death-when "0738"^^xsd:gYear . 
+swds:death-when-825-1 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/825> sp:gender swds:gender-825-1 . 
+swds:gender-825-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-825-1 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/825> sp:status swds:status-825-1 . 
+swds:status-825-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-825-1 spr:reference-URL <http://syriaca.org/person/825> . 
+<http://syriaca.org/person/825> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/825> sp:status swds:status-825-2 . 
+swds:status-825-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-825-2 spr:reference-URL <http://syriaca.org/person/825> .

@@ -1,0 +1,56 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3754> rdf:type lawd:Person . 
+<http://syriaca.org/person/3754> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3754> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/3754> rdfs:label "Anonymous 3754"@en . 
+<http://syriaca.org/person/3754> foaf:primaryTopicOf <http://syriaca.org/person/3754/tei> . 
+<http://syriaca.org/person/3754> foaf:primaryTopicOf <http://syriaca.org/person/3754/html> . 
+<http://syriaca.org/person/3754> dcterms:hasFormat <http://syriaca.org/person/3754/tei> . 
+<http://syriaca.org/person/3754> dcterms:hasFormat <http://syriaca.org/person/3754/html> . 
+<http://syriaca.org/person/3754> schema:description "A dead boy whom Isaiah tried to resurrect"@en . 
+<http://syriaca.org/person/3754> swdt:name-variant "Anonymous 3754"@en . 
+<http://syriaca.org/person/3754> swdt:name-variant "A boy who died"@en . 
+<http://syriaca.org/person/3754> sp:name-variant swds:Person-3754-1 . 
+swds:Person-3754-1 sps:name-variant "Anonymous 3754"@en . 
+swds:Person-3754-1 spr:reference-URL <http://syriaca.org/person/3754> . 
+<http://syriaca.org/person/3754> sp:name-variant swds:Person-3754-2 . 
+swds:Person-3754-2 sps:name-variant "A boy who died"@en . 
+swds:Person-3754-2 spr:reference-URL <http://syriaca.org/person/3754> . 
+<http://syriaca.org/person/3754> swdt:floruit-notAfter "0520"^^xsd:gYear . 
+<http://syriaca.org/person/3754> sp:floruit-notAfter swds:floruit-notAfter-3754-1 . 
+swds:floruit-notAfter-3754-1 sps:floruit-notAfter "0520"^^xsd:gYear . 
+swds:floruit-notAfter-3754-1 spr:reference-URL <http://syriaca.org/person/3754> . 
+<http://syriaca.org/person/3754> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/3754> sp:gender swds:gender-3754-1 . 
+swds:gender-3754-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-3754-1 spr:reference-URL <http://syriaca.org/person/3754> . 
+<http://syriaca.org/person/3754> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/3754> sp:status swds:status-3754-1 . 
+swds:status-3754-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-3754-1 spr:reference-URL <http://syriaca.org/person/3754> .

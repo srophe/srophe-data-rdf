@@ -1,0 +1,118 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/431> rdf:type lawd:Person . 
+<http://syriaca.org/person/431> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/431> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/431> rdfs:label "Cyril of Jerusalem"@en . 
+<http://syriaca.org/person/431> rdfs:label "ܩܘܪܝܠܠܘܣ ܕܐܘܪܫܠܡ"@syr . 
+<http://syriaca.org/person/431> foaf:primaryTopicOf <http://syriaca.org/person/431/tei> . 
+<http://syriaca.org/person/431> foaf:primaryTopicOf <http://syriaca.org/person/431/html> . 
+<http://syriaca.org/person/431> dcterms:hasFormat <http://syriaca.org/person/431/tei> . 
+<http://syriaca.org/person/431> dcterms:hasFormat <http://syriaca.org/person/431/html> . 
+<http://syriaca.org/person/431> schema:description "Bp. of Jerusalem and Greek Church Father."@en . 
+<http://syriaca.org/person/431> foaf:primaryTopicOf <http://syriaca.org/place/2801> . 
+<http://syriaca.org/person/431> swdt:name-variant "Cyril of Jerusalem"@en . 
+<http://syriaca.org/person/431> swdt:name-variant "Cyril of Jerusalem"@en-x-gedsh . 
+<http://syriaca.org/person/431> swdt:name-variant "قورلس الاورشليمي"@ar . 
+<http://syriaca.org/person/431> swdt:name-variant "ܩܘܪܝܠܠܘܣ ܕܐܘܪܫܠܡ"@syr . 
+<http://syriaca.org/person/431> swdt:name-variant "ܩܘܪܝܠܠܘܣ ܕܐܘܪܶܫܠܡ"@syr-Syrj . 
+<http://syriaca.org/person/431> swdt:name-variant "Cyrille de Jérusalem"@fr . 
+<http://syriaca.org/person/431> sp:name-variant swds:Person-431-1 . 
+swds:Person-431-1 sps:name-variant "Cyril of Jerusalem"@en . 
+swds:Person-431-1 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> sp:name-variant swds:Person-431-2 . 
+swds:Person-431-2 sps:name-variant "Cyril of Jerusalem"@en-x-gedsh . 
+swds:Person-431-2 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> sp:name-variant swds:Person-431-3 . 
+swds:Person-431-3 sps:name-variant "قورلس الاورشليمي"@ar . 
+swds:Person-431-3 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> sp:name-variant swds:Person-431-4 . 
+swds:Person-431-4 sps:name-variant "ܩܘܪܝܠܠܘܣ ܕܐܘܪܫܠܡ"@syr . 
+swds:Person-431-4 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> sp:name-variant swds:Person-431-5 . 
+swds:Person-431-5 sps:name-variant "ܩܘܪܝܠܠܘܣ ܕܐܘܪܶܫܠܡ"@syr-Syrj . 
+swds:Person-431-5 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> sp:name-variant swds:Person-431-6 . 
+swds:Person-431-6 sps:name-variant "Cyrille de Jérusalem"@fr . 
+swds:Person-431-6 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_431" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-1 . 
+swds:closeMatch-431-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_431" . 
+swds:closeMatch-431-1 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/2437490" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-2 . 
+swds:closeMatch-431-2 sps:closeMatch "http://viaf.org/viaf/2437490" . 
+swds:closeMatch-431-2 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://worldcat.org/identities/lccn-n80-139106" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-3 . 
+swds:closeMatch-431-3 sps:closeMatch "http://worldcat.org/identities/lccn-n80-139106" . 
+swds:closeMatch-431-3 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/246762182" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-4 . 
+swds:closeMatch-431-4 sps:closeMatch "http://viaf.org/viaf/246762182" . 
+swds:closeMatch-431-4 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/245716237" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-5 . 
+swds:closeMatch-431-5 sps:closeMatch "http://viaf.org/viaf/245716237" . 
+swds:closeMatch-431-5 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/243801058" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-6 . 
+swds:closeMatch-431-6 sps:closeMatch "http://viaf.org/viaf/243801058" . 
+swds:closeMatch-431-6 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/206266241" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-7 . 
+swds:closeMatch-431-7 sps:closeMatch "http://viaf.org/viaf/206266241" . 
+swds:closeMatch-431-7 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/161840631" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-8 . 
+swds:closeMatch-431-8 sps:closeMatch "http://viaf.org/viaf/161840631" . 
+swds:closeMatch-431-8 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://viaf.org/viaf/5745267" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-9 . 
+swds:closeMatch-431-9 sps:closeMatch "http://viaf.org/viaf/5745267" . 
+swds:closeMatch-431-9 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=C&sK=Cyril of Jerusalem&sT=keywords" . 
+<http://syriaca.org/person/431> sp:closeMatch swds:closeMatch-431-10 . 
+swds:closeMatch-431-10 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=C&sK=Cyril of Jerusalem&sT=keywords" . 
+swds:closeMatch-431-10 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:birth-notBefore "0300"^^xsd:gYear . 
+<http://syriaca.org/person/431> sp:birth-notBefore swds:birth-notBefore-431-1 . 
+swds:birth-notBefore-431-1 sps:birth-notBefore "0300"^^xsd:gYear . 
+swds:birth-notBefore-431-1 spr:reference-URL swd:person/431 . 
+<http://syriaca.org/person/431> swdt:birth-notAfter "0330"^^xsd:gYear . 
+<http://syriaca.org/person/431> sp:birth-notAfter swds:birth-notAfter-431-1 . 
+swds:birth-notAfter-431-1 sps:birth-notAfter "0330"^^xsd:gYear . 
+swds:birth-notAfter-431-1 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:death-when "0387"^^xsd:gYear . 
+<http://syriaca.org/person/431> sp:death-when swds:death-when-431-1 . 
+swds:death-when-431-1 sps:death-when "0387"^^xsd:gYear . 
+swds:death-when-431-1 spr:reference-URL <http://syriaca.org/person/431> . 
+<http://syriaca.org/person/431> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/431> sp:status swds:status-431-1 . 
+swds:status-431-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-431-1 spr:reference-URL <http://syriaca.org/person/431> .

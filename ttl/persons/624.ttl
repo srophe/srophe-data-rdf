@@ -1,0 +1,99 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/624> rdf:type lawd:Person . 
+<http://syriaca.org/person/624> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/624> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/624> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/624> rdfs:label "ܡܪܝܡ"@syr . 
+<http://syriaca.org/person/624> rdfs:label "Mary, Mother of God"@en . 
+<http://syriaca.org/person/624> foaf:primaryTopicOf <http://syriaca.org/person/624/tei> . 
+<http://syriaca.org/person/624> foaf:primaryTopicOf <http://syriaca.org/person/624/html> . 
+<http://syriaca.org/person/624> dcterms:hasFormat <http://syriaca.org/person/624/tei> . 
+<http://syriaca.org/person/624> dcterms:hasFormat <http://syriaca.org/person/624/html> . 
+<http://syriaca.org/person/624> schema:description "Mary, mother of Jesus, features prominently in all the Syriac liturgical and literary traditions."@en . 
+<http://syriaca.org/person/624> schema:description "In hagiography: The blessed virgin Mary, mother of God."@en . 
+<http://syriaca.org/person/624> swdt:name-variant "Mary"@en-x-gedsh . 
+<http://syriaca.org/person/624> swdt:name-variant "Virgin Mary"@en . 
+<http://syriaca.org/person/624> swdt:name-variant "العذرآء مريم"@ar . 
+<http://syriaca.org/person/624> swdt:name-variant "ܡܪܝܡ"@syr . 
+<http://syriaca.org/person/624> swdt:name-variant "ܡܰܪܝܰܡ"@syr-Syrj . 
+<http://syriaca.org/person/624> swdt:name-variant "ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ"@syr . 
+<http://syriaca.org/person/624> swdt:name-variant "Maryam yāldath Alāhā"@en-x-gedsh . 
+<http://syriaca.org/person/624> swdt:name-variant "Mary, Mother of God"@en . 
+<http://syriaca.org/person/624> swdt:name-variant "Maryam yāldaṯ Alāhā"@fr-x-zanetti . 
+<http://syriaca.org/person/624> swdt:name-variant "Marie"@fr . 
+<http://syriaca.org/person/624> swdt:name-variant "Marie Mère de Dieu"@fr . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-1 . 
+swds:Person-624-1 sps:name-variant "Mary"@en-x-gedsh . 
+swds:Person-624-1 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-2 . 
+swds:Person-624-2 sps:name-variant "Virgin Mary"@en . 
+swds:Person-624-2 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-3 . 
+swds:Person-624-3 sps:name-variant "العذرآء مريم"@ar . 
+swds:Person-624-3 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-4 . 
+swds:Person-624-4 sps:name-variant "ܡܪܝܡ"@syr . 
+swds:Person-624-4 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-5 . 
+swds:Person-624-5 sps:name-variant "ܡܰܪܝܰܡ"@syr-Syrj . 
+swds:Person-624-5 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-6 . 
+swds:Person-624-6 sps:name-variant "ܡܪܝܡ ܝܠܕܬ ܐܠܗܐ"@syr . 
+swds:Person-624-6 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-7 . 
+swds:Person-624-7 sps:name-variant "Maryam yāldath Alāhā"@en-x-gedsh . 
+swds:Person-624-7 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-8 . 
+swds:Person-624-8 sps:name-variant "Mary, Mother of God"@en . 
+swds:Person-624-8 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-9 . 
+swds:Person-624-9 sps:name-variant "Maryam yāldaṯ Alāhā"@fr-x-zanetti . 
+swds:Person-624-9 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-10 . 
+swds:Person-624-10 sps:name-variant "Marie"@fr . 
+swds:Person-624-10 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> sp:name-variant swds:Person-624-11 . 
+swds:Person-624-11 sps:name-variant "Marie Mère de Dieu"@fr . 
+swds:Person-624-11 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_624" . 
+<http://syriaca.org/person/624> sp:closeMatch swds:closeMatch-624-1 . 
+swds:closeMatch-624-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_624" . 
+swds:closeMatch-624-1 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mary&sT=keywords" . 
+<http://syriaca.org/person/624> sp:closeMatch swds:closeMatch-624-2 . 
+swds:closeMatch-624-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mary&sT=keywords" . 
+swds:closeMatch-624-2 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> swdt:gender <http://syriaca.org/taxonomy/female> . 
+<http://syriaca.org/person/624> sp:gender swds:gender-624-1 . 
+swds:gender-624-1 sps:gender <http://syriaca.org/taxonomy/female> . 
+swds:gender-624-1 spr:reference-URL <http://syriaca.org/person/624> . 
+<http://syriaca.org/person/624> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/624> sp:status swds:status-624-1 . 
+swds:status-624-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-624-1 spr:reference-URL <http://syriaca.org/person/624> .

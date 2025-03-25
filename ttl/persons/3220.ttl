@@ -1,0 +1,63 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3220> rdf:type lawd:Person . 
+<http://syriaca.org/person/3220> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3220> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/3220> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/3220> rdfs:label "John of Dara"@en . 
+<http://syriaca.org/person/3220> rdfs:label "ܝܘܚܢܢ"@syr . 
+<http://syriaca.org/person/3220> foaf:primaryTopicOf <http://syriaca.org/person/3220/tei> . 
+<http://syriaca.org/person/3220> foaf:primaryTopicOf <http://syriaca.org/person/3220/html> . 
+<http://syriaca.org/person/3220> dcterms:hasFormat <http://syriaca.org/person/3220/tei> . 
+<http://syriaca.org/person/3220> dcterms:hasFormat <http://syriaca.org/person/3220/html> . 
+<http://syriaca.org/person/3220> schema:description "Bishop of Dara, from the monastery of Karthamin"@en . 
+<http://syriaca.org/person/3220> schema:description "John was a miaphysite bishop ordained by Jacob Burd'oyo in the late 560s. He was archimandrite of the monastery of Qartmin in Tur Abdin in northern Mesopotamia and probably resided there also during his time as bishop of Dara. Honigmann argues that he was bishop of Dara until the Persian sack of the city in 573, and then bishop of Amida. Joh. Eph., EH 4.33, mentions that he was, in 578, one of the eight companions of Jacob Burd'oyo on his final trip to Egypt and that he died a few days before Jacob in the monastery of Casion on the Egyptian border."@en . 
+<http://syriaca.org/person/3220> swdt:name-variant "John of Dara"@en . 
+<http://syriaca.org/person/3220> swdt:name-variant "ܝܘܚܢܢ"@syr . 
+<http://syriaca.org/person/3220> swdt:name-variant "John of Dara/Amida"@en . 
+<http://syriaca.org/person/3220> swdt:name-variant "ܪܝܫ ܕܝܪܐ ܕܩܪܬܡܝܢ"@syr . 
+<http://syriaca.org/person/3220> sp:name-variant swds:Person-3220-1 . 
+swds:Person-3220-1 sps:name-variant "John of Dara"@en . 
+swds:Person-3220-1 spr:reference-URL <http://syriaca.org/person/3220> . 
+<http://syriaca.org/person/3220> sp:name-variant swds:Person-3220-2 . 
+swds:Person-3220-2 sps:name-variant "ܝܘܚܢܢ"@syr . 
+swds:Person-3220-2 spr:reference-URL <http://syriaca.org/person/3220> . 
+<http://syriaca.org/person/3220> sp:name-variant swds:Person-3220-3 . 
+swds:Person-3220-3 sps:name-variant "John of Dara/Amida"@en . 
+swds:Person-3220-3 spr:reference-URL <http://syriaca.org/person/3220> . 
+<http://syriaca.org/person/3220> sp:name-variant swds:Person-3220-4 . 
+swds:Person-3220-4 sps:name-variant "ܪܝܫ ܕܝܪܐ ܕܩܪܬܡܝܢ"@syr . 
+swds:Person-3220-4 spr:reference-URL <http://syriaca.org/person/3220> . 
+<http://syriaca.org/person/3220> swdt:death-when "0567"^^xsd:gYear . 
+<http://syriaca.org/person/3220> sp:death-when swds:death-when-3220-2 . 
+swds:death-when-3220-2 sps:death-when "0567"^^xsd:gYear . 
+swds:death-when-3220-2 spr:reference-URL <http://syriaca.org/person/3220> . 
+<http://syriaca.org/person/3220> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/3220> sp:gender swds:gender-3220-1 . 
+swds:gender-3220-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-3220-1 spr:reference-URL <http://syriaca.org/person/3220> .

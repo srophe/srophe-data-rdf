@@ -1,0 +1,111 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/675> rdf:type lawd:Person . 
+<http://syriaca.org/person/675> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/675> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/675> rdfs:label "ܦܘܠܘܣ ܦܝܠܘܣܘܦܐ"@syr . 
+<http://syriaca.org/person/675> rdfs:label "Paul the Philosopher"@en . 
+<http://syriaca.org/person/675> foaf:primaryTopicOf <http://syriaca.org/person/675/tei> . 
+<http://syriaca.org/person/675> foaf:primaryTopicOf <http://syriaca.org/person/675/html> . 
+<http://syriaca.org/person/675> dcterms:hasFormat <http://syriaca.org/person/675/tei> . 
+<http://syriaca.org/person/675> dcterms:hasFormat <http://syriaca.org/person/675/html> . 
+<http://syriaca.org/person/675> schema:description "Author of philosophical works."@en . 
+<http://syriaca.org/person/675> foaf:primaryTopicOf <http://syriaca.org/person/673> . 
+<http://syriaca.org/person/675> foaf:primaryTopicOf <http://syriaca.org/person/674> . 
+<http://syriaca.org/person/675> swdt:name-variant "Pawlos the Philosopher"@en-x-gedsh . 
+<http://syriaca.org/person/675> swdt:name-variant "ܦܘܠܘܣ ܦܝܠܘܣܘܦܐ"@syr . 
+<http://syriaca.org/person/675> swdt:name-variant "Paul the Philosopher"@en . 
+<http://syriaca.org/person/675> swdt:name-variant "Pawlos the Persian"@en . 
+<http://syriaca.org/person/675> swdt:name-variant "Paul the Philosopher"@en . 
+<http://syriaca.org/person/675> sp:name-variant swds:Person-675-1 . 
+swds:Person-675-1 sps:name-variant "Pawlos the Philosopher"@en-x-gedsh . 
+swds:Person-675-1 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> sp:name-variant swds:Person-675-2 . 
+swds:Person-675-2 sps:name-variant "ܦܘܠܘܣ ܦܝܠܘܣܘܦܐ"@syr . 
+swds:Person-675-2 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> sp:name-variant swds:Person-675-3 . 
+swds:Person-675-3 sps:name-variant "Paul the Philosopher"@en . 
+swds:Person-675-3 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> sp:name-variant swds:Person-675-4 . 
+swds:Person-675-4 sps:name-variant "Pawlos the Persian"@en . 
+swds:Person-675-4 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> sp:name-variant swds:Person-675-5 . 
+swds:Person-675-5 sps:name-variant "Paul the Philosopher"@en . 
+swds:Person-675-5 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_675" . 
+<http://syriaca.org/person/675> sp:closeMatch swds:closeMatch-675-1 . 
+swds:closeMatch-675-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_675" . 
+swds:closeMatch-675-1 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:floruit-notBefore "0525"^^xsd:gYear . 
+<http://syriaca.org/person/675> sp:floruit-notBefore swds:floruit-notBefore-675-1 . 
+swds:floruit-notBefore-675-1 sps:floruit-notBefore "0525"^^xsd:gYear . 
+swds:floruit-notBefore-675-1 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:floruit-notAfter "0575"^^xsd:gYear . 
+<http://syriaca.org/person/675> sp:floruit-notAfter swds:floruit-notAfter-675-1 . 
+swds:floruit-notAfter-675-1 sps:floruit-notAfter "0575"^^xsd:gYear . 
+swds:floruit-notAfter-675-1 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:occupation <http://syriaca.org/taxonomy/philosophers> . 
+<http://syriaca.org/person/675> sp:occupation swds:occupation-675-1 . 
+swds:occupation-675-1 sps:occupation <http://syriaca.org/taxonomy/philosophers> . 
+swds:occupation-675-1 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/675> sp:status swds:status-675-1 . 
+swds:status-675-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-675-1 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:possibly-identical <http://syriaca.org/person/673> . 
+<http://syriaca.org/person/675> sp:possibly-identical swds:activeRelationpossibly-identical-675-11 . 
+swds:activeRelationpossibly-identical-675-11 swd:possibly-identical <http://syriaca.org/person/673> . 
+swds:activeRelationpossibly-identical-675-11 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/673> swdt:possibly-identical <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/673> sp:possibly-identical swds:activeRelationpossibly-identical-675-11 . 
+swds:activeRelationpossibly-identical-675-11 swd:possibly-identical <http://syriaca.org/person/675> . 
+swds:activeRelationpossibly-identical-675-11 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/673> swdt:possibly-identical <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/673> sp:possibly-identical swds:activeRelationpossibly-identical-675-12 . 
+swds:activeRelationpossibly-identical-675-12 swd:possibly-identical <http://syriaca.org/person/675> . 
+swds:activeRelationpossibly-identical-675-12 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:possibly-identical <http://syriaca.org/person/673> . 
+<http://syriaca.org/person/675> sp:possibly-identical swds:activeRelationpossibly-identical-675-11 . 
+swds:activeRelationpossibly-identical-675-11 swd:possibly-identical <http://syriaca.org/person/673> . 
+swds:activeRelationpossibly-identical-675-11 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:possibly-identical <http://syriaca.org/person/674> . 
+<http://syriaca.org/person/675> sp:possibly-identical swds:activeRelationpossibly-identical-675-21 . 
+swds:activeRelationpossibly-identical-675-21 swd:possibly-identical <http://syriaca.org/person/674> . 
+swds:activeRelationpossibly-identical-675-21 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/674> swdt:possibly-identical <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/674> sp:possibly-identical swds:activeRelationpossibly-identical-675-21 . 
+swds:activeRelationpossibly-identical-675-21 swd:possibly-identical <http://syriaca.org/person/675> . 
+swds:activeRelationpossibly-identical-675-21 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/674> swdt:possibly-identical <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/674> sp:possibly-identical swds:activeRelationpossibly-identical-675-22 . 
+swds:activeRelationpossibly-identical-675-22 swd:possibly-identical <http://syriaca.org/person/675> . 
+swds:activeRelationpossibly-identical-675-22 spr:reference-URL <http://syriaca.org/person/675> . 
+<http://syriaca.org/person/675> swdt:possibly-identical <http://syriaca.org/person/674> . 
+<http://syriaca.org/person/675> sp:possibly-identical swds:activeRelationpossibly-identical-675-21 . 
+swds:activeRelationpossibly-identical-675-21 swd:possibly-identical <http://syriaca.org/person/674> . 
+swds:activeRelationpossibly-identical-675-21 spr:reference-URL <http://syriaca.org/person/675> .

@@ -1,0 +1,91 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/377> rdf:type lawd:Place . 
+<http://syriaca.org/place/377> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/377> foaf:primaryTopicOf <http://syriaca.org/place/377/tei> . 
+<http://syriaca.org/place/377> foaf:primaryTopicOf <http://syriaca.org/place/377/html> . 
+<http://syriaca.org/place/377> dcterms:hasFormat <http://syriaca.org/place/377/tei> . 
+<http://syriaca.org/place/377> dcterms:hasFormat <http://syriaca.org/place/377/html> . 
+<http://syriaca.org/place/377> dcterms:relation <http://syriaca.org/place/408> . 
+<http://syriaca.org/place/377> dcterms:relation <http://syriaca.org/place/724> . 
+<http://syriaca.org/place/377> swdt:name-variant "Mor Quryaqos"@en . 
+<http://syriaca.org/place/377> swdt:name-variant "ܕܝܪܐ ܕܡܪܝ ܩܘܪܝܐܩܘܣ"@syr . 
+<http://syriaca.org/place/377> swdt:name-variant "ܕܰܝܪܐ ܕܡܳܪܝ ܩܘܽܪܝܰܐܩܘܣ"@syr-Syrj . 
+<http://syriaca.org/place/377> swdt:name-variant "دير مار قرياقس"@ar . 
+<http://syriaca.org/place/377> swdt:name-variant "Quryaqos Monastery"@en . 
+<http://syriaca.org/place/377> swdt:name-variant "Mār Quriāqōs (West Syrian)"@en . 
+<http://syriaca.org/place/377> sp:name-variant swds:Place-377-1 . 
+swds:Place-377-1 sps:name-variant "Mor Quryaqos"@en . 
+swds:Place-377-1 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> sp:name-variant swds:Place-377-2 . 
+swds:Place-377-2 sps:name-variant "ܕܝܪܐ ܕܡܪܝ ܩܘܪܝܐܩܘܣ"@syr . 
+swds:Place-377-2 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> sp:name-variant swds:Place-377-3 . 
+swds:Place-377-3 sps:name-variant "ܕܰܝܪܐ ܕܡܳܪܝ ܩܘܽܪܝܰܐܩܘܣ"@syr-Syrj . 
+swds:Place-377-3 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> sp:name-variant swds:Place-377-4 . 
+swds:Place-377-4 sps:name-variant "دير مار قرياقس"@ar . 
+swds:Place-377-4 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> sp:name-variant swds:Place-377-5 . 
+swds:Place-377-5 sps:name-variant "Quryaqos Monastery"@en . 
+swds:Place-377-5 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> sp:name-variant swds:Place-377-6 . 
+swds:Place-377-6 sps:name-variant "Mār Quriāqōs (West Syrian)"@en . 
+swds:Place-377-6 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> swdt:exist-from "1400"^^xsd:gYear . 
+<http://syriaca.org/place/377> sp:exist-from swds:exist-from-377-1 . 
+swds:exist-from-377-1 sps:exist-from "1400"^^xsd:gYear . 
+swds:exist-from-377-1 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> swdt:exist-to "1941"^^xsd:gYear . 
+<http://syriaca.org/place/377> sp:exist-to swds:exist-to-377-1 . 
+swds:exist-to-377-1 sps:exist-to "1941"^^xsd:gYear . 
+swds:exist-to-377-1 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> swdt:broader <http://syriaca.org/place/408> . 
+<http://syriaca.org/place/377> sp:broader swds:activeRelationbroader-377-11 . 
+swds:activeRelationbroader-377-11 swd:broader <http://syriaca.org/place/408> . 
+swds:activeRelationbroader-377-11 spr:reference-URL <http://syriaca.org/place/377> . 
+<http://syriaca.org/place/377> swdt:broader <http://syriaca.org/place/724> . 
+<http://syriaca.org/place/377> sp:broader swds:activeRelationbroader-377-21 . 
+swds:activeRelationbroader-377-21 swd:broader <http://syriaca.org/place/724> . 
+swds:activeRelationbroader-377-21 spr:reference-URL <http://syriaca.org/place/377> . 
+<place/377> swdt:not-to-be-confused-with <> . 
+<place/377> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-377-31 . 
+swds:activeRelationnot-to-be-confused-with-377-31 swd:not-to-be-confused-with <> . 
+swds:activeRelationnot-to-be-confused-with-377-31 spr:reference-URL <http://syriaca.org/place/377> . 
+<> swdt:not-to-be-confused-with <place/377> . 
+<> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-377-31 . 
+swds:activeRelationnot-to-be-confused-with-377-31 swd:not-to-be-confused-with <place/377> . 
+swds:activeRelationnot-to-be-confused-with-377-31 spr:reference-URL <http://syriaca.org/place/377> . 
+<> swdt:not-to-be-confused-with <place/377> . 
+<> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-377-32 . 
+swds:activeRelationnot-to-be-confused-with-377-32 swd:not-to-be-confused-with <place/377> . 
+swds:activeRelationnot-to-be-confused-with-377-32 spr:reference-URL <http://syriaca.org/place/377> . 
+<place/377> swdt:not-to-be-confused-with <> . 
+<place/377> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-377-31 . 
+swds:activeRelationnot-to-be-confused-with-377-31 swd:not-to-be-confused-with <> . 
+swds:activeRelationnot-to-be-confused-with-377-31 spr:reference-URL <http://syriaca.org/place/377> .

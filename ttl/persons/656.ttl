@@ -1,0 +1,97 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/656> rdf:type lawd:Person . 
+<http://syriaca.org/person/656> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/656> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/656> rdfs:label "ܢܝܩܘܠܐܘܣ ܕܕܪܡܣܘܩ"@syr . 
+<http://syriaca.org/person/656> rdfs:label "Nicholas of Damascus"@en . 
+<http://syriaca.org/person/656> foaf:primaryTopicOf <http://syriaca.org/person/656/tei> . 
+<http://syriaca.org/person/656> foaf:primaryTopicOf <http://syriaca.org/person/656/html> . 
+<http://syriaca.org/person/656> dcterms:hasFormat <http://syriaca.org/person/656/tei> . 
+<http://syriaca.org/person/656> dcterms:hasFormat <http://syriaca.org/person/656/html> . 
+<http://syriaca.org/person/656> schema:description "Historian and peripatetic philosopher, who served as adviser to Herod the Great (74-4 BC). Excerpts from the Syriac version of his compendium covering Aristotle’s works on natural philosophy and metaphysics (‘On the philosophy of Aristotle’) are preserved in ms. Cambridge, Gg. 2.14 (copied in 15/16th cent.?)."@en . 
+<http://syriaca.org/person/656> swdt:name-variant "Nicolaus of Damascus"@en-x-gedsh . 
+<http://syriaca.org/person/656> swdt:name-variant "ܢܝܩܘܠܐܘܣ ܕܕܪܡܣܘܩ"@syr . 
+<http://syriaca.org/person/656> swdt:name-variant "Nicholas of Damascus"@en . 
+<http://syriaca.org/person/656> sp:name-variant swds:Person-656-1 . 
+swds:Person-656-1 sps:name-variant "Nicolaus of Damascus"@en-x-gedsh . 
+swds:Person-656-1 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> sp:name-variant swds:Person-656-2 . 
+swds:Person-656-2 sps:name-variant "ܢܝܩܘܠܐܘܣ ܕܕܪܡܣܘܩ"@syr . 
+swds:Person-656-2 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> sp:name-variant swds:Person-656-3 . 
+swds:Person-656-3 sps:name-variant "Nicholas of Damascus"@en . 
+swds:Person-656-3 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_656" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-1 . 
+swds:closeMatch-656-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_656" . 
+swds:closeMatch-656-1 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://viaf.org/viaf/19649480" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-2 . 
+swds:closeMatch-656-2 sps:closeMatch "http://viaf.org/viaf/19649480" . 
+swds:closeMatch-656-2 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://worldcat.org/identities/lccn-n85-344961" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-3 . 
+swds:closeMatch-656-3 sps:closeMatch "http://worldcat.org/identities/lccn-n85-344961" . 
+swds:closeMatch-656-3 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://viaf.org/viaf/247706813" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-4 . 
+swds:closeMatch-656-4 sps:closeMatch "http://viaf.org/viaf/247706813" . 
+swds:closeMatch-656-4 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://viaf.org/viaf/172603615" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-5 . 
+swds:closeMatch-656-5 sps:closeMatch "http://viaf.org/viaf/172603615" . 
+swds:closeMatch-656-5 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://viaf.org/viaf/103645644" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-6 . 
+swds:closeMatch-656-6 sps:closeMatch "http://viaf.org/viaf/103645644" . 
+swds:closeMatch-656-6 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://viaf.org/viaf/100107187" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-7 . 
+swds:closeMatch-656-7 sps:closeMatch "http://viaf.org/viaf/100107187" . 
+swds:closeMatch-656-7 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=N&sK=Nicolaus of Damascus&sT=keywords" . 
+<http://syriaca.org/person/656> sp:closeMatch swds:closeMatch-656-8 . 
+swds:closeMatch-656-8 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=N&sK=Nicolaus of Damascus&sT=keywords" . 
+swds:closeMatch-656-8 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:birth-notBefore "-0049"^^xsd:gYear . 
+<http://syriaca.org/person/656> sp:birth-notBefore swds:birth-notBefore-656-1 . 
+swds:birth-notBefore-656-1 sps:birth-notBefore "-0049"^^xsd:gYear . 
+swds:birth-notBefore-656-1 spr:reference-URL swd:person/656 . 
+<http://syriaca.org/person/656> swdt:birth-notAfter "-0079"^^xsd:gYear . 
+<http://syriaca.org/person/656> sp:birth-notAfter swds:birth-notAfter-656-1 . 
+swds:birth-notAfter-656-1 sps:birth-notAfter "-0079"^^xsd:gYear . 
+swds:birth-notAfter-656-1 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:death-notBefore "-0003"^^xsd:gYear . 
+<http://syriaca.org/person/656> sp:death-notBefore swds:death-notBefore-656-1 . 
+swds:death-notBefore-656-1 sps:death-notBefore "-0003"^^xsd:gYear . 
+swds:death-notBefore-656-1 spr:reference-URL <http://syriaca.org/person/656> . 
+<http://syriaca.org/person/656> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/656> sp:status swds:status-656-1 . 
+swds:status-656-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-656-1 spr:reference-URL <http://syriaca.org/person/656> .

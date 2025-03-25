@@ -1,0 +1,80 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2530> rdf:type lawd:Person . 
+<http://syriaca.org/person/2530> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2530> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/2530> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/2530> rdfs:label "Flavian II of Antioch"@en . 
+<http://syriaca.org/person/2530> rdfs:label "ܦܠܒܝܢܘܣ"@syr . 
+<http://syriaca.org/person/2530> rdfs:label "ܦܠܘܝܢܐ"@syr . 
+<http://syriaca.org/person/2530> foaf:primaryTopicOf <http://syriaca.org/person/2530/tei> . 
+<http://syriaca.org/person/2530> foaf:primaryTopicOf <http://syriaca.org/person/2530/html> . 
+<http://syriaca.org/person/2530> dcterms:hasFormat <http://syriaca.org/person/2530/tei> . 
+<http://syriaca.org/person/2530> dcterms:hasFormat <http://syriaca.org/person/2530/html> . 
+<http://syriaca.org/person/2530> schema:description "Bishop of Antioch"@en . 
+<http://syriaca.org/person/2530> schema:description "Flavian represented the see of Antioch as ambassador in Constantinople before being made patriarch of Antioch by Anastasius in 498. He attempted to follow a middle course between adherents and opponents of Chalcedon until he lost imperial support in 512 and was replaced by the miaphysite champion Severus. Exiled to Petra, Flavian died in 518."@en . 
+<http://syriaca.org/person/2530> swdt:name-variant "Flavian II of Antioch"@en . 
+<http://syriaca.org/person/2530> swdt:name-variant "ܦܠܒܝܢܘܣ"@syr . 
+<http://syriaca.org/person/2530> swdt:name-variant "Flavian of Antioch"@en . 
+<http://syriaca.org/person/2530> swdt:name-variant "Flavian II (patriarch of Antioch)"@en . 
+<http://syriaca.org/person/2530> swdt:name-variant "ܦܠܘܝܢܐ"@syr . 
+<http://syriaca.org/person/2530> sp:name-variant swds:Person-2530-1 . 
+swds:Person-2530-1 sps:name-variant "Flavian II of Antioch"@en . 
+swds:Person-2530-1 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> sp:name-variant swds:Person-2530-2 . 
+swds:Person-2530-2 sps:name-variant "ܦܠܒܝܢܘܣ"@syr . 
+swds:Person-2530-2 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> sp:name-variant swds:Person-2530-3 . 
+swds:Person-2530-3 sps:name-variant "Flavian of Antioch"@en . 
+swds:Person-2530-3 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> sp:name-variant swds:Person-2530-4 . 
+swds:Person-2530-4 sps:name-variant "Flavian II (patriarch of Antioch)"@en . 
+swds:Person-2530-4 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> sp:name-variant swds:Person-2530-5 . 
+swds:Person-2530-5 sps:name-variant "ܦܠܘܝܢܐ"@syr . 
+swds:Person-2530-5 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> swdt:closeMatch "https://en.wikipedia.org/wiki/Flavian_II_of_Antioch" . 
+<http://syriaca.org/person/2530> sp:closeMatch swds:closeMatch-2530-1 . 
+swds:closeMatch-2530-1 sps:closeMatch "https://en.wikipedia.org/wiki/Flavian_II_of_Antioch" . 
+swds:closeMatch-2530-1 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=F&sK=Flavian%20of%20Antioch&sT=keywords" . 
+<http://syriaca.org/person/2530> sp:closeMatch swds:closeMatch-2530-2 . 
+swds:closeMatch-2530-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=F&sK=Flavian%20of%20Antioch&sT=keywords" . 
+swds:closeMatch-2530-2 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> swdt:floruit-notBefore "0498"^^xsd:gYear . 
+<http://syriaca.org/person/2530> sp:floruit-notBefore swds:floruit-notBefore-2530-1 . 
+swds:floruit-notBefore-2530-1 sps:floruit-notBefore "0498"^^xsd:gYear . 
+swds:floruit-notBefore-2530-1 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> swdt:floruit-notAfter "0512"^^xsd:gYear . 
+<http://syriaca.org/person/2530> sp:floruit-notAfter swds:floruit-notAfter-2530-1 . 
+swds:floruit-notAfter-2530-1 sps:floruit-notAfter "0512"^^xsd:gYear . 
+swds:floruit-notAfter-2530-1 spr:reference-URL <http://syriaca.org/person/2530> . 
+<http://syriaca.org/person/2530> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2530> sp:gender swds:gender-2530-1 . 
+swds:gender-2530-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2530-1 spr:reference-URL <http://syriaca.org/person/2530> .

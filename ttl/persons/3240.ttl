@@ -1,0 +1,75 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3240> rdf:type lawd:Person . 
+<http://syriaca.org/person/3240> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3240> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/3240> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/3240> rdfs:label "Paul of Aphrodisias"@en . 
+<http://syriaca.org/person/3240> rdfs:label "ܦܘܠܘܣ"@syr . 
+<http://syriaca.org/person/3240> foaf:primaryTopicOf <http://syriaca.org/person/3240/tei> . 
+<http://syriaca.org/person/3240> foaf:primaryTopicOf <http://syriaca.org/person/3240/html> . 
+<http://syriaca.org/person/3240> dcterms:hasFormat <http://syriaca.org/person/3240/tei> . 
+<http://syriaca.org/person/3240> dcterms:hasFormat <http://syriaca.org/person/3240/html> . 
+<http://syriaca.org/person/3240> schema:description "Bishop of Aphrodisias"@en . 
+<http://syriaca.org/person/3240> schema:description "Paul was a miaphysite bishop ordained by Jacob Burd'oyo around 558 and appears in the tritheist debate of the 560s. He was pressured into accepting the Chalcedonian communion in 571 and reordained as bishop of Antioch in Caria. He appears in Joh. Eph., EH 1.14 and 2.42-43."@en . 
+<http://syriaca.org/person/3240> swdt:name-variant "Paul of Aphrodisias"@en . 
+<http://syriaca.org/person/3240> swdt:name-variant "ܦܘܠܘܣ"@syr . 
+<http://syriaca.org/person/3240> swdt:name-variant "Paul (bishop of Aphrodisias)"@en . 
+<http://syriaca.org/person/3240> swdt:name-variant "ܣܒܐ ܗܢܐ"@syr . 
+<http://syriaca.org/person/3240> swdt:name-variant "ܦܘܠܐ"@syr . 
+<http://syriaca.org/person/3240> swdt:name-variant "Paulos"@en . 
+<http://syriaca.org/person/3240> sp:name-variant swds:Person-3240-1 . 
+swds:Person-3240-1 sps:name-variant "Paul of Aphrodisias"@en . 
+swds:Person-3240-1 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> sp:name-variant swds:Person-3240-2 . 
+swds:Person-3240-2 sps:name-variant "ܦܘܠܘܣ"@syr . 
+swds:Person-3240-2 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> sp:name-variant swds:Person-3240-3 . 
+swds:Person-3240-3 sps:name-variant "Paul (bishop of Aphrodisias)"@en . 
+swds:Person-3240-3 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> sp:name-variant swds:Person-3240-4 . 
+swds:Person-3240-4 sps:name-variant "ܣܒܐ ܗܢܐ"@syr . 
+swds:Person-3240-4 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> sp:name-variant swds:Person-3240-5 . 
+swds:Person-3240-5 sps:name-variant "ܦܘܠܐ"@syr . 
+swds:Person-3240-5 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> sp:name-variant swds:Person-3240-6 . 
+swds:Person-3240-6 sps:name-variant "Paulos"@en . 
+swds:Person-3240-6 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> swdt:floruit-notBefore "0558-01-01"^^xsd:date . 
+<http://syriaca.org/person/3240> sp:floruit-notBefore swds:floruit-notBefore-3240-1 . 
+swds:floruit-notBefore-3240-1 sps:floruit-notBefore "0558-01-01"^^xsd:date . 
+swds:floruit-notBefore-3240-1 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> swdt:floruit-notAfter "0576-12-31"^^xsd:date . 
+<http://syriaca.org/person/3240> sp:floruit-notAfter swds:floruit-notAfter-3240-1 . 
+swds:floruit-notAfter-3240-1 sps:floruit-notAfter "0576-12-31"^^xsd:date . 
+swds:floruit-notAfter-3240-1 spr:reference-URL <http://syriaca.org/person/3240> . 
+<http://syriaca.org/person/3240> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/3240> sp:gender swds:gender-3240-1 . 
+swds:gender-3240-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-3240-1 spr:reference-URL <http://syriaca.org/person/3240> .

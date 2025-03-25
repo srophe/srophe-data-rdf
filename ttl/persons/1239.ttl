@@ -1,0 +1,73 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1239> rdf:type lawd:Person . 
+<http://syriaca.org/person/1239> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1239> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1239> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1239> rdfs:label "Ezekiel the Monk"@en . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/person/1239/tei> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/person/1239/html> . 
+<http://syriaca.org/person/1239> dcterms:hasFormat <http://syriaca.org/person/1239/tei> . 
+<http://syriaca.org/person/1239> dcterms:hasFormat <http://syriaca.org/person/1239/html> . 
+<http://syriaca.org/person/1239> schema:description "In hagiography: Ezekiel was a monk who was born on the same day as the Emperor Constantine the Great . He was a Jew from the tribe of Manasseh who went to Egypt and became a disciple of Mar Awgin . Mar Awgin and his disciples left for the region of Adiabene and Beth Garmai . They went to Maḥoze and baptized the entire city, after they healed the sick. Ezekiel went around the region converting the Magians. He founded a monastery near Daduq. He ended his life in the region of Kirkuk ."@en . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/person/1655> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/person/356> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/person/356> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/place/715> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/place/993> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/place/33> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/place/852> . 
+<http://syriaca.org/person/1239> foaf:primaryTopicOf <http://syriaca.org/place/718> . 
+<http://syriaca.org/person/1239> swdt:name-variant "Ezekiel the Monk"@en . 
+<http://syriaca.org/person/1239> swdt:name-variant "Ezechial"@en . 
+<http://syriaca.org/person/1239> swdt:name-variant "Ézéchiel, moine (de Daqoq)"@fr . 
+<http://syriaca.org/person/1239> swdt:name-variant "ÉZÉCHIAL"@fr-x-fiey . 
+<http://syriaca.org/person/1239> sp:name-variant swds:Person-1239-1 . 
+swds:Person-1239-1 sps:name-variant "Ezekiel the Monk"@en . 
+swds:Person-1239-1 spr:reference-URL <http://syriaca.org/person/1239> . 
+<http://syriaca.org/person/1239> sp:name-variant swds:Person-1239-2 . 
+swds:Person-1239-2 sps:name-variant "Ezechial"@en . 
+swds:Person-1239-2 spr:reference-URL <http://syriaca.org/person/1239> . 
+<http://syriaca.org/person/1239> sp:name-variant swds:Person-1239-3 . 
+swds:Person-1239-3 sps:name-variant "Ézéchiel, moine (de Daqoq)"@fr . 
+swds:Person-1239-3 spr:reference-URL <http://syriaca.org/person/1239> . 
+<http://syriaca.org/person/1239> sp:name-variant swds:Person-1239-4 . 
+swds:Person-1239-4 sps:name-variant "ÉZÉCHIAL"@fr-x-fiey . 
+swds:Person-1239-4 spr:reference-URL <http://syriaca.org/person/1239> . 
+<http://syriaca.org/person/1239> swdt:floruit-when "0363"^^xsd:gYear . 
+<http://syriaca.org/person/1239> sp:floruit-when swds:floruit-when-1239-1 . 
+swds:floruit-when-1239-1 sps:floruit-when "0363"^^xsd:gYear . 
+swds:floruit-when-1239-1 spr:reference-URL <http://syriaca.org/person/1239> . 
+<http://syriaca.org/person/1239> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1239> sp:gender swds:gender-1239-1 . 
+swds:gender-1239-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1239-1 spr:reference-URL <http://syriaca.org/person/1239> . 
+<http://syriaca.org/person/1239> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1239> sp:status swds:status-1239-1 . 
+swds:status-1239-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1239-1 spr:reference-URL <http://syriaca.org/person/1239> .

@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/403> rdf:type lawd:Place . 
+<http://syriaca.org/place/403> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/403> foaf:primaryTopicOf <http://syriaca.org/place/403/tei> . 
+<http://syriaca.org/place/403> foaf:primaryTopicOf <http://syriaca.org/place/403/html> . 
+<http://syriaca.org/place/403> dcterms:hasFormat <http://syriaca.org/place/403/tei> . 
+<http://syriaca.org/place/403> dcterms:hasFormat <http://syriaca.org/place/403/html> . 
+<http://syriaca.org/place/403> dcterms:relation <http://syriaca.org/place/613> . 
+<http://syriaca.org/place/403> swdt:name-variant "Dayr Ilyā"@en . 
+<http://syriaca.org/place/403> swdt:name-variant "ܕܝܪܗ ܐܠܝܐ"@syr . 
+<http://syriaca.org/place/403> swdt:name-variant "ܕܶܝܪܰܗ ܐܠܝܐ"@syr-Syrj . 
+<http://syriaca.org/place/403> swdt:name-variant "ܓܶܦܬܠܶܟ"@syr-Syrj . 
+<http://syriaca.org/place/403> swdt:name-variant "دير اِليا"@ar . 
+<http://syriaca.org/place/403> swdt:name-variant "جفتلك"@ar . 
+<http://syriaca.org/place/403> swdt:name-variant "Dayr Elijah"@en . 
+<http://syriaca.org/place/403> swdt:name-variant "Çiftlik"@en . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-1 . 
+swds:Place-403-1 sps:name-variant "Dayr Ilyā"@en . 
+swds:Place-403-1 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-2 . 
+swds:Place-403-2 sps:name-variant "ܕܝܪܗ ܐܠܝܐ"@syr . 
+swds:Place-403-2 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-3 . 
+swds:Place-403-3 sps:name-variant "ܕܶܝܪܰܗ ܐܠܝܐ"@syr-Syrj . 
+swds:Place-403-3 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-4 . 
+swds:Place-403-4 sps:name-variant "ܓܶܦܬܠܶܟ"@syr-Syrj . 
+swds:Place-403-4 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-5 . 
+swds:Place-403-5 sps:name-variant "دير اِليا"@ar . 
+swds:Place-403-5 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-6 . 
+swds:Place-403-6 sps:name-variant "جفتلك"@ar . 
+swds:Place-403-6 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-7 . 
+swds:Place-403-7 sps:name-variant "Dayr Elijah"@en . 
+swds:Place-403-7 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> sp:name-variant swds:Place-403-8 . 
+swds:Place-403-8 sps:name-variant "Çiftlik"@en . 
+swds:Place-403-8 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> swdt:exist-from "1943"^^xsd:gYear . 
+<http://syriaca.org/place/403> sp:exist-from swds:exist-from-403-1 . 
+swds:exist-from-403-1 sps:exist-from "1943"^^xsd:gYear . 
+swds:exist-from-403-1 spr:reference-URL <http://syriaca.org/place/403> . 
+<http://syriaca.org/place/403> swdt:exist-to "1943"^^xsd:gYear . 
+<http://syriaca.org/place/403> sp:exist-to swds:exist-to-403-1 . 
+swds:exist-to-403-1 sps:exist-to "1943"^^xsd:gYear . 
+swds:exist-to-403-1 spr:reference-URL <http://syriaca.org/place/403> . 
+<place/403> swdt:not-to-be-confused-with <place/613> . 
+<place/403> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-403-11 . 
+swds:activeRelationnot-to-be-confused-with-403-11 swd:not-to-be-confused-with <place/613> . 
+swds:activeRelationnot-to-be-confused-with-403-11 spr:reference-URL <http://syriaca.org/place/403> . 
+<place/613> swdt:not-to-be-confused-with <place/403> . 
+<place/613> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-403-11 . 
+swds:activeRelationnot-to-be-confused-with-403-11 swd:not-to-be-confused-with <place/403> . 
+swds:activeRelationnot-to-be-confused-with-403-11 spr:reference-URL <http://syriaca.org/place/403> . 
+<place/613> swdt:not-to-be-confused-with <place/403> . 
+<place/613> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-403-12 . 
+swds:activeRelationnot-to-be-confused-with-403-12 swd:not-to-be-confused-with <place/403> . 
+swds:activeRelationnot-to-be-confused-with-403-12 spr:reference-URL <http://syriaca.org/place/403> . 
+<place/403> swdt:not-to-be-confused-with <place/613> . 
+<place/403> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-403-11 . 
+swds:activeRelationnot-to-be-confused-with-403-11 swd:not-to-be-confused-with <place/613> . 
+swds:activeRelationnot-to-be-confused-with-403-11 spr:reference-URL <http://syriaca.org/place/403> .

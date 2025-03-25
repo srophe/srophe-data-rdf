@@ -1,0 +1,50 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5108> rdf:type lawd:Person . 
+<http://syriaca.org/person/5108> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5108> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5108> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5108> rdfs:label "John of Chalcis"@en . 
+<http://syriaca.org/person/5108> rdfs:label "ܝܘܚܢܢ ܕܡܢ ܕܝܪܐ ܕܡܪܝ ܒܣ"@syr . 
+<http://syriaca.org/person/5108> foaf:primaryTopicOf <http://syriaca.org/person/5108/tei> . 
+<http://syriaca.org/person/5108> foaf:primaryTopicOf <http://syriaca.org/person/5108/html> . 
+<http://syriaca.org/person/5108> dcterms:hasFormat <http://syriaca.org/person/5108/tei> . 
+<http://syriaca.org/person/5108> dcterms:hasFormat <http://syriaca.org/person/5108/html> . 
+<http://syriaca.org/person/5108> schema:description "The miaphysite John was nominally bishop of Chalcis on the Euphrates. Joh. Eph., EH 4.10 calls him 'John from the monastery of Mar Bassos'. This monastery, located in north-western Syria, likely was his main residence. Together with George of Beth Urtaye and Longinus, John ordained Theodore of Rhamnis patriarch of Alexandria in 575."@en . 
+<http://syriaca.org/person/5108> swdt:name-variant "John of Chalcis"@en . 
+<http://syriaca.org/person/5108> swdt:name-variant "ܝܘܚܢܢ ܕܡܢ ܕܝܪܐ ܕܡܪܝ ܒܣ"@syr . 
+<http://syriaca.org/person/5108> sp:name-variant swds:Person-5108-1 . 
+swds:Person-5108-1 sps:name-variant "John of Chalcis"@en . 
+swds:Person-5108-1 spr:reference-URL <http://syriaca.org/person/5108> . 
+<http://syriaca.org/person/5108> sp:name-variant swds:Person-5108-2 . 
+swds:Person-5108-2 sps:name-variant "ܝܘܚܢܢ ܕܡܢ ܕܝܪܐ ܕܡܪܝ ܒܣ"@syr . 
+swds:Person-5108-2 spr:reference-URL <http://syriaca.org/person/5108> . 
+<http://syriaca.org/person/5108> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/5108> sp:gender swds:gender-5108-1 . 
+swds:gender-5108-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-5108-1 spr:reference-URL <http://syriaca.org/person/5108> .

@@ -1,0 +1,89 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/182> rdf:type lawd:Person . 
+<http://syriaca.org/person/182> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/182> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/182> rdfs:label "ܡܬܝ ܕܚܨܨܢܝ̈ܐ"@syr . 
+<http://syriaca.org/person/182> rdfs:label "Matthew of al-Hassasa"@en . 
+<http://syriaca.org/person/182> foaf:primaryTopicOf <http://syriaca.org/person/182/tei> . 
+<http://syriaca.org/person/182> foaf:primaryTopicOf <http://syriaca.org/person/182/html> . 
+<http://syriaca.org/person/182> dcterms:hasFormat <http://syriaca.org/person/182/tei> . 
+<http://syriaca.org/person/182> dcterms:hasFormat <http://syriaca.org/person/182/html> . 
+<http://syriaca.org/person/182> foaf:primaryTopicOf <http://syriaca.org/place/328> . 
+<http://syriaca.org/person/182> swdt:name-variant "Matthew , bishop of al-Ḥaṣṣaṣa"@en . 
+<http://syriaca.org/person/182> swdt:name-variant "متي اسقف الحصَّاصة"@ar . 
+<http://syriaca.org/person/182> swdt:name-variant "ܡܬܝ ܐܦܝܣܩܘܦܐ ܕܚܨܨܢܝ̈ܐ"@syr . 
+<http://syriaca.org/person/182> swdt:name-variant "ܡܰܬܝ ܐܶܦܝܣܩܘܦܳܐ ܕܚܰܨܨܢܝ̈ܐ"@syr-Syrj . 
+<http://syriaca.org/person/182> swdt:name-variant "ܡܬܝ ܕܚܨܨܢܝ̈ܐ"@syr . 
+<http://syriaca.org/person/182> swdt:name-variant "Matay of al-Ḥaṣṣāṣa"@en-x-gedsh . 
+<http://syriaca.org/person/182> swdt:name-variant "Matthew of al-Hassasa"@en . 
+<http://syriaca.org/person/182> swdt:name-variant "Matthew of al-Hassasa"@en . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-1 . 
+swds:Person-182-1 sps:name-variant "Matthew , bishop of al-Ḥaṣṣaṣa"@en . 
+swds:Person-182-1 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-2 . 
+swds:Person-182-2 sps:name-variant "متي اسقف الحصَّاصة"@ar . 
+swds:Person-182-2 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-3 . 
+swds:Person-182-3 sps:name-variant "ܡܬܝ ܐܦܝܣܩܘܦܐ ܕܚܨܨܢܝ̈ܐ"@syr . 
+swds:Person-182-3 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-4 . 
+swds:Person-182-4 sps:name-variant "ܡܰܬܝ ܐܶܦܝܣܩܘܦܳܐ ܕܚܰܨܨܢܝ̈ܐ"@syr-Syrj . 
+swds:Person-182-4 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-5 . 
+swds:Person-182-5 sps:name-variant "ܡܬܝ ܕܚܨܨܢܝ̈ܐ"@syr . 
+swds:Person-182-5 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-6 . 
+swds:Person-182-6 sps:name-variant "Matay of al-Ḥaṣṣāṣa"@en-x-gedsh . 
+swds:Person-182-6 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-7 . 
+swds:Person-182-7 sps:name-variant "Matthew of al-Hassasa"@en . 
+swds:Person-182-7 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> sp:name-variant swds:Person-182-8 . 
+swds:Person-182-8 sps:name-variant "Matthew of al-Hassasa"@en . 
+swds:Person-182-8 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_182" . 
+<http://syriaca.org/person/182> sp:closeMatch swds:closeMatch-182-1 . 
+swds:closeMatch-182-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_182" . 
+swds:closeMatch-182-1 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> swdt:floruit-notBefore "0900"^^xsd:gYear . 
+<http://syriaca.org/person/182> sp:floruit-notBefore swds:floruit-notBefore-182-1 . 
+swds:floruit-notBefore-182-1 sps:floruit-notBefore "0900"^^xsd:gYear . 
+swds:floruit-notBefore-182-1 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> swdt:floruit-notAfter "1000"^^xsd:gYear . 
+<http://syriaca.org/person/182> sp:floruit-notAfter swds:floruit-notAfter-182-1 . 
+swds:floruit-notAfter-182-1 sps:floruit-notAfter "1000"^^xsd:gYear . 
+swds:floruit-notAfter-182-1 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/182> sp:occupation swds:occupation-182-1 . 
+swds:occupation-182-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-182-1 spr:reference-URL <http://syriaca.org/person/182> . 
+<http://syriaca.org/person/182> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/182> sp:status swds:status-182-1 . 
+swds:status-182-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-182-1 spr:reference-URL <http://syriaca.org/person/182> .

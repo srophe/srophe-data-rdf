@@ -1,0 +1,191 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/42> rdf:type lawd:Person . 
+<http://syriaca.org/person/42> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/42> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/42> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/42> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/42> rdfs:label "ܝܥܩܘܒ ܕܣܪܘܓ"@syr . 
+<http://syriaca.org/person/42> rdfs:label "Jacob of Serugh"@en . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/person/42/tei> . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/person/42/html> . 
+<http://syriaca.org/person/42> dcterms:hasFormat <http://syriaca.org/person/42/tei> . 
+<http://syriaca.org/person/42> dcterms:hasFormat <http://syriaca.org/person/42/html> . 
+<http://syriaca.org/person/42> schema:description "Poet, known as ‘the Flute of the Holy Spirit and the Harp of the Church’; bp. of Baṭnan da-Srug (519–21)."@en . 
+<http://syriaca.org/person/42> schema:description "In hagiography: Jacob is commemorated as an author of many poems on biblical and theological topics. He had been a student of the School of Edessa . His relics were transferred to Amida (Diyarbakir) after his death."@en . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/place/48> . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/place/45> . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/place/8> . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/place/450> . 
+<http://syriaca.org/person/42> foaf:primaryTopicOf <http://syriaca.org/place/45> . 
+<http://syriaca.org/person/42> swdt:name-variant "Yaʿqub of Serugh"@en-x-gedsh . 
+<http://syriaca.org/person/42> swdt:name-variant "Mar Jacob of Sarug , the Malphono"@en . 
+<http://syriaca.org/person/42> swdt:name-variant "مار يعقوب السروجي الملفان"@ar . 
+<http://syriaca.org/person/42> swdt:name-variant "ܡܪܝ ܝܥܩܘܒ ܕܣܪܘܓ ܡܠܦܢܐ"@syr . 
+<http://syriaca.org/person/42> swdt:name-variant "ܡܳܪܝ ܝܰܥܩܘܒ ܕܰܣܪܘܓ ܡܰܠܦܳܢܐ"@syr-Syrj . 
+<http://syriaca.org/person/42> swdt:name-variant "ܝܥܩܘܒ ܕܣܪܘܓ"@syr . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacob of Serugh"@en . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacob of Sarug"@en . 
+<http://syriaca.org/person/42> swdt:name-variant "Yaqub of Serugh"@en-x-srp1 . 
+<http://syriaca.org/person/42> swdt:name-variant "Ya‘qub of Serugh"@en-x-srp1 . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacques de Serugh"@fr . 
+<http://syriaca.org/person/42> swdt:name-variant "ܝܥܩܘܒ ܕܒܛܢܢ ܕܣܪܘܓ"@syr . 
+<http://syriaca.org/person/42> swdt:name-variant "Yaʿqōb d-Batnān da-Srug"@en-x-gedsh . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacob of Serugh"@en . 
+<http://syriaca.org/person/42> swdt:name-variant "Yaʾqōḇ d-ḇatnān da-Srūg"@fr-x-bhs . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacques de Saroug"@fr . 
+<http://syriaca.org/person/42> swdt:name-variant "JACQUES DE SAROUG"@fr-x-fiey . 
+<http://syriaca.org/person/42> swdt:name-variant "Serugh"@en . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacobus Sarugensis"@la . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacob of Batnae"@en . 
+<http://syriaca.org/person/42> swdt:name-variant "Jacob of Serūg"@en . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-1 . 
+swds:Person-42-1 sps:name-variant "Yaʿqub of Serugh"@en-x-gedsh . 
+swds:Person-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-2 . 
+swds:Person-42-2 sps:name-variant "Mar Jacob of Sarug , the Malphono"@en . 
+swds:Person-42-2 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-3 . 
+swds:Person-42-3 sps:name-variant "مار يعقوب السروجي الملفان"@ar . 
+swds:Person-42-3 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-4 . 
+swds:Person-42-4 sps:name-variant "ܡܪܝ ܝܥܩܘܒ ܕܣܪܘܓ ܡܠܦܢܐ"@syr . 
+swds:Person-42-4 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-5 . 
+swds:Person-42-5 sps:name-variant "ܡܳܪܝ ܝܰܥܩܘܒ ܕܰܣܪܘܓ ܡܰܠܦܳܢܐ"@syr-Syrj . 
+swds:Person-42-5 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-6 . 
+swds:Person-42-6 sps:name-variant "ܝܥܩܘܒ ܕܣܪܘܓ"@syr . 
+swds:Person-42-6 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-7 . 
+swds:Person-42-7 sps:name-variant "Jacob of Serugh"@en . 
+swds:Person-42-7 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-8 . 
+swds:Person-42-8 sps:name-variant "Jacob of Sarug"@en . 
+swds:Person-42-8 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-9 . 
+swds:Person-42-9 sps:name-variant "Yaqub of Serugh"@en-x-srp1 . 
+swds:Person-42-9 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-10 . 
+swds:Person-42-10 sps:name-variant "Ya‘qub of Serugh"@en-x-srp1 . 
+swds:Person-42-10 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-11 . 
+swds:Person-42-11 sps:name-variant "Jacques de Serugh"@fr . 
+swds:Person-42-11 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-12 . 
+swds:Person-42-12 sps:name-variant "ܝܥܩܘܒ ܕܒܛܢܢ ܕܣܪܘܓ"@syr . 
+swds:Person-42-12 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-13 . 
+swds:Person-42-13 sps:name-variant "Yaʿqōb d-Batnān da-Srug"@en-x-gedsh . 
+swds:Person-42-13 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-14 . 
+swds:Person-42-14 sps:name-variant "Jacob of Serugh"@en . 
+swds:Person-42-14 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-15 . 
+swds:Person-42-15 sps:name-variant "Yaʾqōḇ d-ḇatnān da-Srūg"@fr-x-bhs . 
+swds:Person-42-15 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-16 . 
+swds:Person-42-16 sps:name-variant "Jacques de Saroug"@fr . 
+swds:Person-42-16 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-17 . 
+swds:Person-42-17 sps:name-variant "JACQUES DE SAROUG"@fr-x-fiey . 
+swds:Person-42-17 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-18 . 
+swds:Person-42-18 sps:name-variant "Serugh"@en . 
+swds:Person-42-18 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-19 . 
+swds:Person-42-19 sps:name-variant "Jacobus Sarugensis"@la . 
+swds:Person-42-19 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-20 . 
+swds:Person-42-20 sps:name-variant "Jacob of Batnae"@en . 
+swds:Person-42-20 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> sp:name-variant swds:Person-42-21 . 
+swds:Person-42-21 sps:name-variant "Jacob of Serūg"@en . 
+swds:Person-42-21 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_42" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-1 . 
+swds:closeMatch-42-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_42" . 
+swds:closeMatch-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://viaf.org/viaf/51661489" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-2 . 
+swds:closeMatch-42-2 sps:closeMatch "http://viaf.org/viaf/51661489" . 
+swds:closeMatch-42-2 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://worldcat.org/identities/lccn-n81-55296" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-3 . 
+swds:closeMatch-42-3 sps:closeMatch "http://worldcat.org/identities/lccn-n81-55296" . 
+swds:closeMatch-42-3 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://worldcat.org/identities/np-jacob$of sarug$449 521" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-4 . 
+swds:closeMatch-42-4 sps:closeMatch "http://worldcat.org/identities/np-jacob$of sarug$449 521" . 
+swds:closeMatch-42-4 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://worldcat.org/identities/np-jacobus$saint of serug$451 521" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-5 . 
+swds:closeMatch-42-5 sps:closeMatch "http://worldcat.org/identities/np-jacobus$saint of serug$451 521" . 
+swds:closeMatch-42-5 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://viaf.org/viaf/74895977" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-6 . 
+swds:closeMatch-42-6 sps:closeMatch "http://viaf.org/viaf/74895977" . 
+swds:closeMatch-42-6 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Sarug&sT=keywords" . 
+<http://syriaca.org/person/42> sp:closeMatch swds:closeMatch-42-7 . 
+swds:closeMatch-42-7 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Sarug&sT=keywords" . 
+swds:closeMatch-42-7 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:birth-notBefore "0436"^^xsd:gYear . 
+<http://syriaca.org/person/42> sp:birth-notBefore swds:birth-notBefore-42-1 . 
+swds:birth-notBefore-42-1 sps:birth-notBefore "0436"^^xsd:gYear . 
+swds:birth-notBefore-42-1 spr:reference-URL swd:person/42 . 
+<http://syriaca.org/person/42> swdt:birth-notAfter "0466"^^xsd:gYear . 
+<http://syriaca.org/person/42> sp:birth-notAfter swds:birth-notAfter-42-1 . 
+swds:birth-notAfter-42-1 sps:birth-notAfter "0466"^^xsd:gYear . 
+swds:birth-notAfter-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:death-when "0521"^^xsd:gYear . 
+<http://syriaca.org/person/42> sp:death-when swds:death-when-42-1 . 
+swds:death-when-42-1 sps:death-when "0521"^^xsd:gYear . 
+swds:death-when-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:birth-place <http://syriaca.org/place/450> . 
+<http://syriaca.org/person/42> sp:birth-place swds:birth-place-42-1 . 
+swds:birth-place-42-1 sps:birth-place <http://syriaca.org/place/450> . 
+swds:birth-place-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/42> sp:gender swds:gender-42-1 . 
+swds:gender-42-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/42> sp:occupation swds:occupation-42-1 . 
+swds:occupation-42-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+swds:occupation-42-1 spq:from "0519"^^xsd:gYear . 
+<http://syriaca.org/person/42> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/42> sp:status swds:status-42-1 . 
+swds:status-42-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-42-1 spr:reference-URL <http://syriaca.org/person/42> . 
+<http://syriaca.org/person/42> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/42> sp:status swds:status-42-2 . 
+swds:status-42-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-42-2 spr:reference-URL <http://syriaca.org/person/42> .

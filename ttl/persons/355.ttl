@@ -1,0 +1,113 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/355> rdf:type lawd:Person . 
+<http://syriaca.org/person/355> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/355> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/355> rdfs:label "ܬܐܘܡܐ ܐܘܕܐ"@syr . 
+<http://syriaca.org/person/355> rdfs:label "Audo , Toma"@en . 
+<http://syriaca.org/person/355> foaf:primaryTopicOf <http://syriaca.org/person/355/tei> . 
+<http://syriaca.org/person/355> foaf:primaryTopicOf <http://syriaca.org/person/355/html> . 
+<http://syriaca.org/person/355> dcterms:hasFormat <http://syriaca.org/person/355/tei> . 
+<http://syriaca.org/person/355> dcterms:hasFormat <http://syriaca.org/person/355/html> . 
+<http://syriaca.org/person/355> schema:description "Bp., lexicographer, and translator into Syriac."@en . 
+<http://syriaca.org/person/355> swdt:name-variant "Audo , Toma"@en-x-gedsh . 
+<http://syriaca.org/person/355> swdt:name-variant "Tuma Odo"@en . 
+<http://syriaca.org/person/355> swdt:name-variant "المطران توما اودو"@ar . 
+<http://syriaca.org/person/355> swdt:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܟܠܕܝܐ ܬܐܘܡܐ ܐܘܕܐ"@syr . 
+<http://syriaca.org/person/355> swdt:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܟܰܠܕܳܝܐ ܬܐܘܡܰܐ ܐܘܕܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/355> swdt:name-variant "ܬܐܘܡܐ ܐܘܕܐ"@syr . 
+<http://syriaca.org/person/355> swdt:name-variant "Audo , Toma"@en . 
+<http://syriaca.org/person/355> swdt:name-variant "Toma Audo"@en . 
+<http://syriaca.org/person/355> swdt:name-variant "Toma Odo"@en . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-1 . 
+swds:Person-355-1 sps:name-variant "Audo , Toma"@en-x-gedsh . 
+swds:Person-355-1 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-2 . 
+swds:Person-355-2 sps:name-variant "Tuma Odo"@en . 
+swds:Person-355-2 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-3 . 
+swds:Person-355-3 sps:name-variant "المطران توما اودو"@ar . 
+swds:Person-355-3 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-4 . 
+swds:Person-355-4 sps:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܟܠܕܝܐ ܬܐܘܡܐ ܐܘܕܐ"@syr . 
+swds:Person-355-4 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-5 . 
+swds:Person-355-5 sps:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܟܰܠܕܳܝܐ ܬܐܘܡܰܐ ܐܘܕܳܐ"@syr-Syrj . 
+swds:Person-355-5 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-6 . 
+swds:Person-355-6 sps:name-variant "ܬܐܘܡܐ ܐܘܕܐ"@syr . 
+swds:Person-355-6 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-7 . 
+swds:Person-355-7 sps:name-variant "Audo , Toma"@en . 
+swds:Person-355-7 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-8 . 
+swds:Person-355-8 sps:name-variant "Toma Audo"@en . 
+swds:Person-355-8 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> sp:name-variant swds:Person-355-9 . 
+swds:Person-355-9 sps:name-variant "Toma Odo"@en . 
+swds:Person-355-9 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_355" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-1 . 
+swds:closeMatch-355-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_355" . 
+swds:closeMatch-355-1 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://viaf.org/viaf/88464766" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-2 . 
+swds:closeMatch-355-2 sps:closeMatch "http://viaf.org/viaf/88464766" . 
+swds:closeMatch-355-2 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://worldcat.org/identities/lccn-no2009-67464" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-3 . 
+swds:closeMatch-355-3 sps:closeMatch "http://worldcat.org/identities/lccn-no2009-67464" . 
+swds:closeMatch-355-3 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://viaf.org/viaf/98480195" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-4 . 
+swds:closeMatch-355-4 sps:closeMatch "http://viaf.org/viaf/98480195" . 
+swds:closeMatch-355-4 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://worldcat.org/identities/viaf-98480195" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-5 . 
+swds:closeMatch-355-5 sps:closeMatch "http://worldcat.org/identities/viaf-98480195" . 
+swds:closeMatch-355-5 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://viaf.org/viaf/236268468" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-6 . 
+swds:closeMatch-355-6 sps:closeMatch "http://viaf.org/viaf/236268468" . 
+swds:closeMatch-355-6 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Toma Audo&sT=keywords" . 
+<http://syriaca.org/person/355> sp:closeMatch swds:closeMatch-355-7 . 
+swds:closeMatch-355-7 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Toma Audo&sT=keywords" . 
+swds:closeMatch-355-7 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:birth-when "1855"^^xsd:gYear . 
+<http://syriaca.org/person/355> sp:birth-when swds:birth-when-355-1 . 
+swds:birth-when-355-1 sps:birth-when "1855"^^xsd:gYear . 
+swds:birth-when-355-1 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:death-when "1918-07-27"^^xsd:date . 
+<http://syriaca.org/person/355> sp:death-when swds:death-when-355-1 . 
+swds:death-when-355-1 sps:death-when "1918-07-27"^^xsd:date . 
+swds:death-when-355-1 spr:reference-URL <http://syriaca.org/person/355> . 
+<http://syriaca.org/person/355> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/355> sp:status swds:status-355-1 . 
+swds:status-355-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-355-1 spr:reference-URL <http://syriaca.org/person/355> .

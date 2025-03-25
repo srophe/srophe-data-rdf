@@ -1,0 +1,75 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3229> rdf:type lawd:Person . 
+<http://syriaca.org/person/3229> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3229> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/3229> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/3229> rdfs:label "Justin II"@en . 
+<http://syriaca.org/person/3229> rdfs:label "ܝܘܣܛܝܢܐ"@syr . 
+<http://syriaca.org/person/3229> foaf:primaryTopicOf <http://syriaca.org/person/3229/tei> . 
+<http://syriaca.org/person/3229> foaf:primaryTopicOf <http://syriaca.org/person/3229/html> . 
+<http://syriaca.org/person/3229> dcterms:hasFormat <http://syriaca.org/person/3229/tei> . 
+<http://syriaca.org/person/3229> dcterms:hasFormat <http://syriaca.org/person/3229/html> . 
+<http://syriaca.org/person/3229> schema:description "Roman Emperor, successor of Justinian and his sister's son"@en . 
+<http://syriaca.org/person/3229> schema:description "Justin II was Roman emperor from 565 to 578. His mental illness increasingly affected his ability to rule and necessitated the installation of Tiberius as Caesar in late 574. Joh. Eph., EH 1-3, remembers Justin as a persecutor of the miaphysites in the early 570s and interprets his illness as divine punishment for his deeds."@en . 
+<http://syriaca.org/person/3229> swdt:name-variant "Justin II"@en . 
+<http://syriaca.org/person/3229> swdt:name-variant "ܝܘܣܛܝܢܐ"@syr . 
+<http://syriaca.org/person/3229> swdt:name-variant "Iustinus"@en . 
+<http://syriaca.org/person/3229> swdt:name-variant "ܡܠܟܐ / ܩܣܪ ܕܪ̈ܗܘܡܝܐ / ܒܥܠܗ̇"@syr . 
+<http://syriaca.org/person/3229> sp:name-variant swds:Person-3229-1 . 
+swds:Person-3229-1 sps:name-variant "Justin II"@en . 
+swds:Person-3229-1 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> sp:name-variant swds:Person-3229-2 . 
+swds:Person-3229-2 sps:name-variant "ܝܘܣܛܝܢܐ"@syr . 
+swds:Person-3229-2 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> sp:name-variant swds:Person-3229-3 . 
+swds:Person-3229-3 sps:name-variant "Iustinus"@en . 
+swds:Person-3229-3 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> sp:name-variant swds:Person-3229-4 . 
+swds:Person-3229-4 sps:name-variant "ܡܠܟܐ / ܩܣܪ ܕܪ̈ܗܘܡܝܐ / ܒܥܠܗ̇"@syr . 
+swds:Person-3229-4 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> swdt:closeMatch "https://en.wikipedia.org/wiki/Justin_II" . 
+<http://syriaca.org/person/3229> sp:closeMatch swds:closeMatch-3229-1 . 
+swds:closeMatch-3229-1 sps:closeMatch "https://en.wikipedia.org/wiki/Justin_II" . 
+swds:closeMatch-3229-1 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> swdt:floruit-notBefore "0565-11-14"^^xsd:date . 
+<http://syriaca.org/person/3229> sp:floruit-notBefore swds:floruit-notBefore-3229-1 . 
+swds:floruit-notBefore-3229-1 sps:floruit-notBefore "0565-11-14"^^xsd:date . 
+swds:floruit-notBefore-3229-1 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> swdt:death-notBefore "0578-10-04"^^xsd:date . 
+<http://syriaca.org/person/3229> sp:death-notBefore swds:death-notBefore-3229-2 . 
+swds:death-notBefore-3229-2 sps:death-notBefore "0578-10-04"^^xsd:date . 
+swds:death-notBefore-3229-2 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> swdt:death-notAfter "0578-10-05"^^xsd:date . 
+<http://syriaca.org/person/3229> sp:death-notAfter swds:death-notAfter-3229-2 . 
+swds:death-notAfter-3229-2 sps:death-notAfter "0578-10-05"^^xsd:date . 
+swds:death-notAfter-3229-2 spr:reference-URL <http://syriaca.org/person/3229> . 
+<http://syriaca.org/person/3229> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/3229> sp:gender swds:gender-3229-1 . 
+swds:gender-3229-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-3229-1 spr:reference-URL <http://syriaca.org/person/3229> .

@@ -1,0 +1,94 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/819> rdf:type lawd:Person . 
+<http://syriaca.org/person/819> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/819> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/819> rdfs:label "John Azraq"@en . 
+<http://syriaca.org/person/819> rdfs:label "ܝܘܚܢܢ ܐܙܪܩ"@syr . 
+<http://syriaca.org/person/819> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/819> foaf:primaryTopicOf <http://syriaca.org/person/819/tei> . 
+<http://syriaca.org/person/819> foaf:primaryTopicOf <http://syriaca.org/person/819/html> . 
+<http://syriaca.org/person/819> dcterms:hasFormat <http://syriaca.org/person/819/tei> . 
+<http://syriaca.org/person/819> dcterms:hasFormat <http://syriaca.org/person/819/html> . 
+<http://syriaca.org/person/819> schema:description "Bp. of Ḥirta (al-Ḥīra), author."@en . 
+<http://syriaca.org/person/819> swdt:name-variant "John Azraq"@en . 
+<http://syriaca.org/person/819> swdt:name-variant "Yoḥannan Azraq"@en-x-gedsh . 
+<http://syriaca.org/person/819> swdt:name-variant "ܝܘܚܢܢ ܐܙܪܩ"@syr . 
+<http://syriaca.org/person/819> swdt:name-variant "ܝܘܿܚܲܢܵܢ ܐܲܙܪܲܩ"@syr-Syrn . 
+<http://syriaca.org/person/819> swdt:name-variant "John Azraq"@en . 
+<http://syriaca.org/person/819> swdt:name-variant "Zroqa"@en . 
+<http://syriaca.org/person/819> swdt:name-variant "al-Azraq"@en . 
+<http://syriaca.org/person/819> swdt:name-variant "John Azraq"@en . 
+<http://syriaca.org/person/819> swdt:name-variant "Ioannes (Johannan) Azraq"@la . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-1 . 
+swds:Person-819-1 sps:name-variant "John Azraq"@en . 
+swds:Person-819-1 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-2 . 
+swds:Person-819-2 sps:name-variant "Yoḥannan Azraq"@en-x-gedsh . 
+swds:Person-819-2 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-3 . 
+swds:Person-819-3 sps:name-variant "ܝܘܚܢܢ ܐܙܪܩ"@syr . 
+swds:Person-819-3 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-4 . 
+swds:Person-819-4 sps:name-variant "ܝܘܿܚܲܢܵܢ ܐܲܙܪܲܩ"@syr-Syrn . 
+swds:Person-819-4 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-5 . 
+swds:Person-819-5 sps:name-variant "John Azraq"@en . 
+swds:Person-819-5 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-6 . 
+swds:Person-819-6 sps:name-variant "Zroqa"@en . 
+swds:Person-819-6 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-7 . 
+swds:Person-819-7 sps:name-variant "al-Azraq"@en . 
+swds:Person-819-7 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-8 . 
+swds:Person-819-8 sps:name-variant "John Azraq"@en . 
+swds:Person-819-8 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> sp:name-variant swds:Person-819-9 . 
+swds:Person-819-9 sps:name-variant "Ioannes (Johannan) Azraq"@la . 
+swds:Person-819-9 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_819" . 
+<http://syriaca.org/person/819> sp:closeMatch swds:closeMatch-819-1 . 
+swds:closeMatch-819-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_819" . 
+swds:closeMatch-819-1 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Azraq&sT=keywords" . 
+<http://syriaca.org/person/819> sp:closeMatch swds:closeMatch-819-2 . 
+swds:closeMatch-819-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Azraq&sT=keywords" . 
+swds:closeMatch-819-2 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> swdt:floruit-notBefore "0650"^^xsd:gYear . 
+<http://syriaca.org/person/819> sp:floruit-notBefore swds:floruit-notBefore-819-1 . 
+swds:floruit-notBefore-819-1 sps:floruit-notBefore "0650"^^xsd:gYear . 
+swds:floruit-notBefore-819-1 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> swdt:floruit-notAfter "0750"^^xsd:gYear . 
+<http://syriaca.org/person/819> sp:floruit-notAfter swds:floruit-notAfter-819-1 . 
+swds:floruit-notAfter-819-1 sps:floruit-notAfter "0750"^^xsd:gYear . 
+swds:floruit-notAfter-819-1 spr:reference-URL <http://syriaca.org/person/819> . 
+<http://syriaca.org/person/819> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/819> sp:status swds:status-819-1 . 
+swds:status-819-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-819-1 spr:reference-URL <http://syriaca.org/person/819> .

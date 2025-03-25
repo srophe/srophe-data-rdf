@@ -1,0 +1,127 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/551> rdf:type lawd:Place . 
+<http://syriaca.org/place/551> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/551> foaf:primaryTopicOf <http://syriaca.org/place/551/tei> . 
+<http://syriaca.org/place/551> foaf:primaryTopicOf <http://syriaca.org/place/551/html> . 
+<http://syriaca.org/place/551> dcterms:hasFormat <http://syriaca.org/place/551/tei> . 
+<http://syriaca.org/place/551> dcterms:hasFormat <http://syriaca.org/place/551/html> . 
+<http://syriaca.org/place/551> dcterms:relation <http://syriaca.org/place/346> . 
+<http://syriaca.org/place/551> dcterms:relation <http://syriaca.org/place/346> . 
+<http://syriaca.org/place/551> swdt:name-variant "St. Barbara"@en . 
+<http://syriaca.org/place/551> swdt:name-variant "ܕܝܪܐ ܕܩܕܝܫܬܐ ܒܪܒܪܐ"@syr . 
+<http://syriaca.org/place/551> swdt:name-variant "ܕܰܝܪܐ ܕܩܰܕܝܫܬܳܐ ܒܰܪܒܰܪܐ"@syr-Syrj . 
+<http://syriaca.org/place/551> swdt:name-variant "دير القديسة بربارة"@ar . 
+<http://syriaca.org/place/551> swdt:name-variant "Barbara Monastery"@en . 
+<http://syriaca.org/place/551> sp:name-variant swds:Place-551-1 . 
+swds:Place-551-1 sps:name-variant "St. Barbara"@en . 
+swds:Place-551-1 spr:reference-URL <http://syriaca.org/place/551> . 
+<http://syriaca.org/place/551> sp:name-variant swds:Place-551-2 . 
+swds:Place-551-2 sps:name-variant "ܕܝܪܐ ܕܩܕܝܫܬܐ ܒܪܒܪܐ"@syr . 
+swds:Place-551-2 spr:reference-URL <http://syriaca.org/place/551> . 
+<http://syriaca.org/place/551> sp:name-variant swds:Place-551-3 . 
+swds:Place-551-3 sps:name-variant "ܕܰܝܪܐ ܕܩܰܕܝܫܬܳܐ ܒܰܪܒܰܪܐ"@syr-Syrj . 
+swds:Place-551-3 spr:reference-URL <http://syriaca.org/place/551> . 
+<http://syriaca.org/place/551> sp:name-variant swds:Place-551-4 . 
+swds:Place-551-4 sps:name-variant "دير القديسة بربارة"@ar . 
+swds:Place-551-4 spr:reference-URL <http://syriaca.org/place/551> . 
+<http://syriaca.org/place/551> sp:name-variant swds:Place-551-5 . 
+swds:Place-551-5 sps:name-variant "Barbara Monastery"@en . 
+swds:Place-551-5 spr:reference-URL <http://syriaca.org/place/551> . 
+<http://syriaca.org/place/551> swdt:exist-from "1943"^^xsd:gYear . 
+<http://syriaca.org/place/551> sp:exist-from swds:exist-from-551-1 . 
+swds:exist-from-551-1 sps:exist-from "1943"^^xsd:gYear . 
+swds:exist-from-551-1 spr:reference-URL <http://syriaca.org/place/551> . 
+<http://syriaca.org/place/551> swdt:exist-to "1943"^^xsd:gYear . 
+<http://syriaca.org/place/551> sp:exist-to swds:exist-to-551-1 . 
+swds:exist-to-551-1 sps:exist-to "1943"^^xsd:gYear . 
+swds:exist-to-551-1 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/551> swdt:not-to-be-confused-with <place/346> . 
+<place/551> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-551-11 . 
+swds:activeRelationnot-to-be-confused-with-551-11 swd:not-to-be-confused-with <place/346> . 
+swds:activeRelationnot-to-be-confused-with-551-11 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/346> swdt:not-to-be-confused-with <place/551> . 
+<place/346> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-551-11 . 
+swds:activeRelationnot-to-be-confused-with-551-11 swd:not-to-be-confused-with <place/551> . 
+swds:activeRelationnot-to-be-confused-with-551-11 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/346> swdt:not-to-be-confused-with <place/551> . 
+<place/346> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-551-12 . 
+swds:activeRelationnot-to-be-confused-with-551-12 swd:not-to-be-confused-with <place/551> . 
+swds:activeRelationnot-to-be-confused-with-551-12 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/551> swdt:not-to-be-confused-with <place/346> . 
+<place/551> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-551-11 . 
+swds:activeRelationnot-to-be-confused-with-551-11 swd:not-to-be-confused-with <place/346> . 
+swds:activeRelationnot-to-be-confused-with-551-11 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/551> swdt:share-a-name <place/346> . 
+<place/551> sp:share-a-name swds:activeRelationshare-a-name-551-21 . 
+swds:activeRelationshare-a-name-551-21 swd:share-a-name <place/346> . 
+swds:activeRelationshare-a-name-551-21 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/346> swdt:share-a-name <place/551> . 
+<place/346> sp:share-a-name swds:activeRelationshare-a-name-551-21 . 
+swds:activeRelationshare-a-name-551-21 swd:share-a-name <place/551> . 
+swds:activeRelationshare-a-name-551-21 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/551> swdt:share-a-name <place/1487> . 
+<place/551> sp:share-a-name swds:activeRelationshare-a-name-551-21 . 
+swds:activeRelationshare-a-name-551-21 swd:share-a-name <place/1487> . 
+swds:activeRelationshare-a-name-551-21 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/1487> swdt:share-a-name <place/551> . 
+<place/1487> sp:share-a-name swds:activeRelationshare-a-name-551-22 . 
+swds:activeRelationshare-a-name-551-22 swd:share-a-name <place/551> . 
+swds:activeRelationshare-a-name-551-22 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/346> swdt:share-a-name <place/551> . 
+<place/346> sp:share-a-name swds:activeRelationshare-a-name-551-22 . 
+swds:activeRelationshare-a-name-551-22 swd:share-a-name <place/551> . 
+swds:activeRelationshare-a-name-551-22 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/551> swdt:share-a-name <place/346> . 
+<place/551> sp:share-a-name swds:activeRelationshare-a-name-551-21 . 
+swds:activeRelationshare-a-name-551-21 swd:share-a-name <place/346> . 
+swds:activeRelationshare-a-name-551-21 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/346> swdt:share-a-name <place/1487> . 
+<place/346> sp:share-a-name swds:activeRelationshare-a-name-551-22 . 
+swds:activeRelationshare-a-name-551-22 swd:share-a-name <place/1487> . 
+swds:activeRelationshare-a-name-551-22 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/1487> swdt:share-a-name <place/346> . 
+<place/1487> sp:share-a-name swds:activeRelationshare-a-name-551-22 . 
+swds:activeRelationshare-a-name-551-22 swd:share-a-name <place/346> . 
+swds:activeRelationshare-a-name-551-22 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/1487> swdt:share-a-name <place/551> . 
+<place/1487> sp:share-a-name swds:activeRelationshare-a-name-551-23 . 
+swds:activeRelationshare-a-name-551-23 swd:share-a-name <place/551> . 
+swds:activeRelationshare-a-name-551-23 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/551> swdt:share-a-name <place/1487> . 
+<place/551> sp:share-a-name swds:activeRelationshare-a-name-551-21 . 
+swds:activeRelationshare-a-name-551-21 swd:share-a-name <place/1487> . 
+swds:activeRelationshare-a-name-551-21 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/1487> swdt:share-a-name <place/346> . 
+<place/1487> sp:share-a-name swds:activeRelationshare-a-name-551-23 . 
+swds:activeRelationshare-a-name-551-23 swd:share-a-name <place/346> . 
+swds:activeRelationshare-a-name-551-23 spr:reference-URL <http://syriaca.org/place/551> . 
+<place/346> swdt:share-a-name <place/1487> . 
+<place/346> sp:share-a-name swds:activeRelationshare-a-name-551-22 . 
+swds:activeRelationshare-a-name-551-22 swd:share-a-name <place/1487> . 
+swds:activeRelationshare-a-name-551-22 spr:reference-URL <http://syriaca.org/place/551> .

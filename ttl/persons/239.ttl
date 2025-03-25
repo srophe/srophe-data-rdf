@@ -1,0 +1,212 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/239> rdf:type lawd:Person . 
+<http://syriaca.org/person/239> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/239> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/239> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/239> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/239> rdfs:label "Gregorius bar Hebraeus"@en . 
+<http://syriaca.org/person/239> rdfs:label "ܓܪܝܓܘܪܝܘܣ ܒܪ ܥܒܪܝܐ"@syr . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/person/239/tei> . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/person/239/html> . 
+<http://syriaca.org/person/239> dcterms:hasFormat <http://syriaca.org/person/239/tei> . 
+<http://syriaca.org/person/239> dcterms:hasFormat <http://syriaca.org/person/239/html> . 
+<http://syriaca.org/person/239> schema:description "Maph. (since 1264) and polymath."@en . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/place/136> . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/place/10> . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/place/227> . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/place/136> . 
+<http://syriaca.org/person/239> foaf:primaryTopicOf <http://syriaca.org/place/129> . 
+<http://syriaca.org/person/239> swdt:name-variant "Gregorius bar Hebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Bar ʿEbroyo , Grigorios"@en-x-gedsh . 
+<http://syriaca.org/person/239> swdt:name-variant "Mar Gregorius Bar Hebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Gregorius Bar Hebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "مار غريغوريوس ابو الفرج الملطي مفريان المشهور بابن العبري"@ar . 
+<http://syriaca.org/person/239> swdt:name-variant "ܡܪܝ ܓܪܝܓܘܪܝܘܣ ܡܦܪܝܢܐ ܒܪ ܥܒܪܝܐ"@syr . 
+<http://syriaca.org/person/239> swdt:name-variant "ܡܳܪܝ ܓܪܺܝܓܳܘܪܝܘܣ ܡܰܦܪܝܳܢܐ ܒܰܪ ܥܶܒܪܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/239> swdt:name-variant "ܓܪܝܓܘܪܝܘܣ ܒܪ ܥܒܪܝܐ"@syr . 
+<http://syriaca.org/person/239> swdt:name-variant "Bar ʿEbroyo , Gregory"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Barhebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Abū al-Faraj"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Barhebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Bar Ebroyo Grigorios"@en-x-srp1 . 
+<http://syriaca.org/person/239> swdt:name-variant "Bar ‘Ebroyo Grigorios"@en-x-srp1 . 
+<http://syriaca.org/person/239> swdt:name-variant "Bar Ebroyo Gregory"@en-x-srp1 . 
+<http://syriaca.org/person/239> swdt:name-variant "Bar ‘Ebroyo Gregory"@en-x-srp1 . 
+<http://syriaca.org/person/239> swdt:name-variant "Grégoire Barhebraeus"@fr . 
+<http://syriaca.org/person/239> swdt:name-variant "ܓܪܝܓܘܪܝܘܣ ܒܪ ܥܒܪܝܐ"@syr . 
+<http://syriaca.org/person/239> swdt:name-variant "Grigorīyos bar ʿEbroyo"@en-x-gedsh . 
+<http://syriaca.org/person/239> swdt:name-variant "Gregory Bar-Hebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Gregory Bar Hebraeus"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Gīgōrīyōs bar ʾEḇrayā"@fr-x-zanetti . 
+<http://syriaca.org/person/239> swdt:name-variant "Grégoire Bar-Hebraeus"@fr . 
+<http://syriaca.org/person/239> swdt:name-variant "GRÉGOIRE BAR HÉBRAEUS"@fr-x-fiey . 
+<http://syriaca.org/person/239> swdt:name-variant "Gregory Abu-l-Faraj, Bar ʿEbraya [Bar Hebraeus]"@en . 
+<http://syriaca.org/person/239> swdt:name-variant "Gregorius Abu-l-Farag, Barhebraeus"@la . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-1 . 
+swds:Person-239-1 sps:name-variant "Gregorius bar Hebraeus"@en . 
+swds:Person-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-2 . 
+swds:Person-239-2 sps:name-variant "Bar ʿEbroyo , Grigorios"@en-x-gedsh . 
+swds:Person-239-2 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-3 . 
+swds:Person-239-3 sps:name-variant "Mar Gregorius Bar Hebraeus"@en . 
+swds:Person-239-3 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-4 . 
+swds:Person-239-4 sps:name-variant "Gregorius Bar Hebraeus"@en . 
+swds:Person-239-4 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-5 . 
+swds:Person-239-5 sps:name-variant "مار غريغوريوس ابو الفرج الملطي مفريان المشهور بابن العبري"@ar . 
+swds:Person-239-5 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-6 . 
+swds:Person-239-6 sps:name-variant "ܡܪܝ ܓܪܝܓܘܪܝܘܣ ܡܦܪܝܢܐ ܒܪ ܥܒܪܝܐ"@syr . 
+swds:Person-239-6 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-7 . 
+swds:Person-239-7 sps:name-variant "ܡܳܪܝ ܓܪܺܝܓܳܘܪܝܘܣ ܡܰܦܪܝܳܢܐ ܒܰܪ ܥܶܒܪܳܝܐ"@syr-Syrj . 
+swds:Person-239-7 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-8 . 
+swds:Person-239-8 sps:name-variant "ܓܪܝܓܘܪܝܘܣ ܒܪ ܥܒܪܝܐ"@syr . 
+swds:Person-239-8 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-9 . 
+swds:Person-239-9 sps:name-variant "Bar ʿEbroyo , Gregory"@en . 
+swds:Person-239-9 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-10 . 
+swds:Person-239-10 sps:name-variant "Barhebraeus"@en . 
+swds:Person-239-10 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-11 . 
+swds:Person-239-11 sps:name-variant "Abū al-Faraj"@en . 
+swds:Person-239-11 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-12 . 
+swds:Person-239-12 sps:name-variant "Barhebraeus"@en . 
+swds:Person-239-12 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-13 . 
+swds:Person-239-13 sps:name-variant "Bar Ebroyo Grigorios"@en-x-srp1 . 
+swds:Person-239-13 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-14 . 
+swds:Person-239-14 sps:name-variant "Bar ‘Ebroyo Grigorios"@en-x-srp1 . 
+swds:Person-239-14 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-15 . 
+swds:Person-239-15 sps:name-variant "Bar Ebroyo Gregory"@en-x-srp1 . 
+swds:Person-239-15 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-16 . 
+swds:Person-239-16 sps:name-variant "Bar ‘Ebroyo Gregory"@en-x-srp1 . 
+swds:Person-239-16 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-17 . 
+swds:Person-239-17 sps:name-variant "Grégoire Barhebraeus"@fr . 
+swds:Person-239-17 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-18 . 
+swds:Person-239-18 sps:name-variant "ܓܪܝܓܘܪܝܘܣ ܒܪ ܥܒܪܝܐ"@syr . 
+swds:Person-239-18 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-19 . 
+swds:Person-239-19 sps:name-variant "Grigorīyos bar ʿEbroyo"@en-x-gedsh . 
+swds:Person-239-19 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-20 . 
+swds:Person-239-20 sps:name-variant "Gregory Bar-Hebraeus"@en . 
+swds:Person-239-20 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-21 . 
+swds:Person-239-21 sps:name-variant "Gregory Bar Hebraeus"@en . 
+swds:Person-239-21 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-22 . 
+swds:Person-239-22 sps:name-variant "Gīgōrīyōs bar ʾEḇrayā"@fr-x-zanetti . 
+swds:Person-239-22 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-23 . 
+swds:Person-239-23 sps:name-variant "Grégoire Bar-Hebraeus"@fr . 
+swds:Person-239-23 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-24 . 
+swds:Person-239-24 sps:name-variant "GRÉGOIRE BAR HÉBRAEUS"@fr-x-fiey . 
+swds:Person-239-24 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-25 . 
+swds:Person-239-25 sps:name-variant "Gregory Abu-l-Faraj, Bar ʿEbraya [Bar Hebraeus]"@en . 
+swds:Person-239-25 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> sp:name-variant swds:Person-239-26 . 
+swds:Person-239-26 sps:name-variant "Gregorius Abu-l-Farag, Barhebraeus"@la . 
+swds:Person-239-26 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_239" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-1 . 
+swds:closeMatch-239-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_239" . 
+swds:closeMatch-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://viaf.org/viaf/81959220" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-2 . 
+swds:closeMatch-239-2 sps:closeMatch "http://viaf.org/viaf/81959220" . 
+swds:closeMatch-239-2 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://worldcat.org/identities/lccn-n50-24350" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-3 . 
+swds:closeMatch-239-3 sps:closeMatch "http://worldcat.org/identities/lccn-n50-24350" . 
+swds:closeMatch-239-3 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://worldcat.org/identities/np-gregorius, abu al faraj$called bar hebraeus$1226 1286" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-4 . 
+swds:closeMatch-239-4 sps:closeMatch "http://worldcat.org/identities/np-gregorius, abu al faraj$called bar hebraeus$1226 1286" . 
+swds:closeMatch-239-4 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://worldcat.org/identities/np-gregorius abu al faraj$called bar habraeus$1226 1286" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-5 . 
+swds:closeMatch-239-5 sps:closeMatch "http://worldcat.org/identities/np-gregorius abu al faraj$called bar habraeus$1226 1286" . 
+swds:closeMatch-239-5 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://viaf.org/viaf/245087233" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-6 . 
+swds:closeMatch-239-6 sps:closeMatch "http://viaf.org/viaf/245087233" . 
+swds:closeMatch-239-6 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://viaf.org/viaf/240917046" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-7 . 
+swds:closeMatch-239-7 sps:closeMatch "http://viaf.org/viaf/240917046" . 
+swds:closeMatch-239-7 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Barhebraeus&sT=keywords" . 
+<http://syriaca.org/person/239> sp:closeMatch swds:closeMatch-239-8 . 
+swds:closeMatch-239-8 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Barhebraeus&sT=keywords" . 
+swds:closeMatch-239-8 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:birth-notBefore "1225"^^xsd:gYear . 
+<http://syriaca.org/person/239> sp:birth-notBefore swds:birth-notBefore-239-1 . 
+swds:birth-notBefore-239-1 sps:birth-notBefore "1225"^^xsd:gYear . 
+swds:birth-notBefore-239-1 spr:reference-URL swd:person/239 . 
+<http://syriaca.org/person/239> swdt:birth-notAfter "1226"^^xsd:gYear . 
+<http://syriaca.org/person/239> sp:birth-notAfter swds:birth-notAfter-239-1 . 
+swds:birth-notAfter-239-1 sps:birth-notAfter "1226"^^xsd:gYear . 
+swds:birth-notAfter-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:death-when "1286"^^xsd:gYear . 
+<http://syriaca.org/person/239> sp:death-when swds:death-when-239-1 . 
+swds:death-when-239-1 sps:death-when "1286"^^xsd:gYear . 
+swds:death-when-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:birth-place <http://syriaca.org/place/136> . 
+<http://syriaca.org/person/239> sp:birth-place swds:birth-place-239-1 . 
+swds:birth-place-239-1 sps:birth-place <http://syriaca.org/place/136> . 
+swds:birth-place-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:death-place <http://syriaca.org/place/129> . 
+<http://syriaca.org/person/239> sp:death-place swds:death-place-239-1 . 
+swds:death-place-239-1 sps:death-place <http://syriaca.org/place/129> . 
+swds:death-place-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/239> sp:gender swds:gender-239-1 . 
+swds:gender-239-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/239> sp:status swds:status-239-1 . 
+swds:status-239-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-239-1 spr:reference-URL <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/239> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/239> sp:status swds:status-239-2 . 
+swds:status-239-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-239-2 spr:reference-URL <http://syriaca.org/person/239> .

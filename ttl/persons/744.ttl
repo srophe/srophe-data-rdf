@@ -1,0 +1,192 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/744> rdf:type lawd:Person . 
+<http://syriaca.org/person/744> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/744> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/744> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/744> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/744> rdfs:label "Simeon the Stylite"@en . 
+<http://syriaca.org/person/744> rdfs:label "ܫܡܥܘܢ ܐܣܛܘܢܝܐ"@syr . 
+<http://syriaca.org/person/744> foaf:primaryTopicOf <http://syriaca.org/person/744/tei> . 
+<http://syriaca.org/person/744> foaf:primaryTopicOf <http://syriaca.org/person/744/html> . 
+<http://syriaca.org/person/744> dcterms:hasFormat <http://syriaca.org/person/744/tei> . 
+<http://syriaca.org/person/744> dcterms:hasFormat <http://syriaca.org/person/744/html> . 
+<http://syriaca.org/person/744> schema:description "Saint. Born in the village of Sisa near Nicopolis, Shemʿun was the child of Christian parents."@en . 
+<http://syriaca.org/person/744> schema:description "In hagiography: Simeon the Stylite was a shepherd who became a monk. He lived first in a cistern, but then later he built a column on which he lived at Telanesios. His pillar and extreme asceticism attracted pilgrims and converts."@en . 
+<http://syriaca.org/person/744> swdt:name-variant "Simeon the Stylite"@en . 
+<http://syriaca.org/person/744> swdt:name-variant "Shemʿun the Stylite"@en-x-gedsh . 
+<http://syriaca.org/person/744> swdt:name-variant "Simon the Stylite"@en . 
+<http://syriaca.org/person/744> swdt:name-variant "سمعان العمودي"@ar . 
+<http://syriaca.org/person/744> swdt:name-variant "ܫܡܥܘܢ ܕܐܣܛܘܢܗ"@syr . 
+<http://syriaca.org/person/744> swdt:name-variant "ܫܶܡܥܘܢ ܕܐܶܣܛܽܘܢܶܗ"@syr-Syrj . 
+<http://syriaca.org/person/744> swdt:name-variant "ܫܡܥܘܢ ܐܣܛܘܢܝܐ"@syr . 
+<http://syriaca.org/person/744> swdt:name-variant "Simeon the Stylite"@en . 
+<http://syriaca.org/person/744> swdt:name-variant "Simon the Stylite"@en . 
+<http://syriaca.org/person/744> swdt:name-variant "Shemun the Stylite"@en-x-srp1 . 
+<http://syriaca.org/person/744> swdt:name-variant "Shem‘un the Stylite"@en-x-srp1 . 
+<http://syriaca.org/person/744> swdt:name-variant "ܫܡܥܘܢ ܕܐܣܛܘܢܗ"@syr . 
+<http://syriaca.org/person/744> swdt:name-variant "Shemʿun d-Esṭōunēh"@en-x-gedsh . 
+<http://syriaca.org/person/744> swdt:name-variant "Symeon the Stylite"@en . 
+<http://syriaca.org/person/744> swdt:name-variant "Šemʾōn d-ʾEsṭōnēh"@fr-x-zanetti . 
+<http://syriaca.org/person/744> swdt:name-variant "Syméon le Stylite"@fr . 
+<http://syriaca.org/person/744> swdt:name-variant "SIMÉON LE STYLITE"@fr-x-fiey . 
+<http://syriaca.org/person/744> swdt:name-variant "Šemʿôn der Stylite"@de-x-baumstrk . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-1 . 
+swds:Person-744-1 sps:name-variant "Simeon the Stylite"@en . 
+swds:Person-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-2 . 
+swds:Person-744-2 sps:name-variant "Shemʿun the Stylite"@en-x-gedsh . 
+swds:Person-744-2 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-3 . 
+swds:Person-744-3 sps:name-variant "Simon the Stylite"@en . 
+swds:Person-744-3 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-4 . 
+swds:Person-744-4 sps:name-variant "سمعان العمودي"@ar . 
+swds:Person-744-4 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-5 . 
+swds:Person-744-5 sps:name-variant "ܫܡܥܘܢ ܕܐܣܛܘܢܗ"@syr . 
+swds:Person-744-5 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-6 . 
+swds:Person-744-6 sps:name-variant "ܫܶܡܥܘܢ ܕܐܶܣܛܽܘܢܶܗ"@syr-Syrj . 
+swds:Person-744-6 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-7 . 
+swds:Person-744-7 sps:name-variant "ܫܡܥܘܢ ܐܣܛܘܢܝܐ"@syr . 
+swds:Person-744-7 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-8 . 
+swds:Person-744-8 sps:name-variant "Simeon the Stylite"@en . 
+swds:Person-744-8 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-9 . 
+swds:Person-744-9 sps:name-variant "Simon the Stylite"@en . 
+swds:Person-744-9 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-10 . 
+swds:Person-744-10 sps:name-variant "Shemun the Stylite"@en-x-srp1 . 
+swds:Person-744-10 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-11 . 
+swds:Person-744-11 sps:name-variant "Shem‘un the Stylite"@en-x-srp1 . 
+swds:Person-744-11 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-12 . 
+swds:Person-744-12 sps:name-variant "ܫܡܥܘܢ ܕܐܣܛܘܢܗ"@syr . 
+swds:Person-744-12 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-13 . 
+swds:Person-744-13 sps:name-variant "Shemʿun d-Esṭōunēh"@en-x-gedsh . 
+swds:Person-744-13 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-14 . 
+swds:Person-744-14 sps:name-variant "Symeon the Stylite"@en . 
+swds:Person-744-14 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-15 . 
+swds:Person-744-15 sps:name-variant "Šemʾōn d-ʾEsṭōnēh"@fr-x-zanetti . 
+swds:Person-744-15 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-16 . 
+swds:Person-744-16 sps:name-variant "Syméon le Stylite"@fr . 
+swds:Person-744-16 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-17 . 
+swds:Person-744-17 sps:name-variant "SIMÉON LE STYLITE"@fr-x-fiey . 
+swds:Person-744-17 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> sp:name-variant swds:Person-744-18 . 
+swds:Person-744-18 sps:name-variant "Šemʿôn der Stylite"@de-x-baumstrk . 
+swds:Person-744-18 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_744" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-1 . 
+swds:closeMatch-744-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_744" . 
+swds:closeMatch-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/75503404" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-2 . 
+swds:closeMatch-744-2 sps:closeMatch "http://viaf.org/viaf/75503404" . 
+swds:closeMatch-744-2 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://worldcat.org/identities/lccn-n92-17615" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-3 . 
+swds:closeMatch-744-3 sps:closeMatch "http://worldcat.org/identities/lccn-n92-17615" . 
+swds:closeMatch-744-3 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/202393599" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-4 . 
+swds:closeMatch-744-4 sps:closeMatch "http://viaf.org/viaf/202393599" . 
+swds:closeMatch-744-4 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/218435687" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-5 . 
+swds:closeMatch-744-5 sps:closeMatch "http://viaf.org/viaf/218435687" . 
+swds:closeMatch-744-5 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/19652224" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-6 . 
+swds:closeMatch-744-6 sps:closeMatch "http://viaf.org/viaf/19652224" . 
+swds:closeMatch-744-6 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/221221929" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-7 . 
+swds:closeMatch-744-7 sps:closeMatch "http://viaf.org/viaf/221221929" . 
+swds:closeMatch-744-7 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/88849726" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-8 . 
+swds:closeMatch-744-8 sps:closeMatch "http://viaf.org/viaf/88849726" . 
+swds:closeMatch-744-8 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/71380874" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-9 . 
+swds:closeMatch-744-9 sps:closeMatch "http://viaf.org/viaf/71380874" . 
+swds:closeMatch-744-9 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/195837844" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-10 . 
+swds:closeMatch-744-10 sps:closeMatch "http://viaf.org/viaf/195837844" . 
+swds:closeMatch-744-10 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://viaf.org/viaf/144425886" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-11 . 
+swds:closeMatch-744-11 sps:closeMatch "http://viaf.org/viaf/144425886" . 
+swds:closeMatch-744-11 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon the Stylite&sT=keywords" . 
+<http://syriaca.org/person/744> sp:closeMatch swds:closeMatch-744-12 . 
+swds:closeMatch-744-12 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon the Stylite&sT=keywords" . 
+swds:closeMatch-744-12 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:birth-notBefore "0355"^^xsd:gYear . 
+<http://syriaca.org/person/744> sp:birth-notBefore swds:birth-notBefore-744-1 . 
+swds:birth-notBefore-744-1 sps:birth-notBefore "0355"^^xsd:gYear . 
+swds:birth-notBefore-744-1 spr:reference-URL swd:person/744 . 
+<http://syriaca.org/person/744> swdt:birth-notAfter "0405"^^xsd:gYear . 
+<http://syriaca.org/person/744> sp:birth-notAfter swds:birth-notAfter-744-1 . 
+swds:birth-notAfter-744-1 sps:birth-notAfter "0405"^^xsd:gYear . 
+swds:birth-notAfter-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:death-when "0459"^^xsd:gYear . 
+<http://syriaca.org/person/744> sp:death-when swds:death-when-744-1 . 
+swds:death-when-744-1 sps:death-when "0459"^^xsd:gYear . 
+swds:death-when-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/744> sp:gender swds:gender-744-1 . 
+swds:gender-744-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/744> sp:occupation swds:occupation-744-1 . 
+swds:occupation-744-1 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:occupation-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/744> sp:occupation swds:occupation-744-2 . 
+swds:occupation-744-2 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:occupation-744-2 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/744> sp:status swds:status-744-1 . 
+swds:status-744-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-744-1 spr:reference-URL <http://syriaca.org/person/744> . 
+<http://syriaca.org/person/744> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/744> sp:status swds:status-744-2 . 
+swds:status-744-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-744-2 spr:reference-URL <http://syriaca.org/person/744> .

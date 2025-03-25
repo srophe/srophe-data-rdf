@@ -1,0 +1,139 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/271> rdf:type lawd:Person . 
+<http://syriaca.org/person/271> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/271> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/271> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/271> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/271> rdfs:label "John bar Shayullah"@en . 
+<http://syriaca.org/person/271> rdfs:label "ܦܛܪܝܪܟܐ ܝܘܚܢܢ ܒܪ ܫܝܠܠܗ"@syr . 
+<http://syriaca.org/person/271> foaf:primaryTopicOf <http://syriaca.org/person/271/tei> . 
+<http://syriaca.org/person/271> foaf:primaryTopicOf <http://syriaca.org/person/271/html> . 
+<http://syriaca.org/person/271> dcterms:hasFormat <http://syriaca.org/person/271/tei> . 
+<http://syriaca.org/person/271> dcterms:hasFormat <http://syriaca.org/person/271/html> . 
+<http://syriaca.org/person/271> schema:description "Syrian Orhodox patriarch of the fifteenth century, born at Mardin . Composed a hagiography of David of Ḥomṣ and in turn was the subject of a short hagiography himself, John bar Shayʾ Allah, Patriarch (text) ."@en . 
+<http://syriaca.org/person/271> foaf:primaryTopicOf <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/271> foaf:primaryTopicOf <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> foaf:primaryTopicOf <http://syriaca.org/place/130> . 
+<http://syriaca.org/person/271> foaf:primaryTopicOf <http://syriaca.org/place/130> . 
+<http://syriaca.org/person/271> swdt:name-variant "John bar Shayullah"@en . 
+<http://syriaca.org/person/271> swdt:name-variant "Patriarch John Bar Shayʾ Allah XIV"@en . 
+<http://syriaca.org/person/271> swdt:name-variant "البطريرك يوحنا ابن شيء اللّٰه"@ar . 
+<http://syriaca.org/person/271> swdt:name-variant "ܦܛܪܝܪܟܐ ܝܘܚܢܢ ܒܪ ܫܝܠܠܗ"@syr . 
+<http://syriaca.org/person/271> swdt:name-variant "ܦܰܛܪܝܰܪܟܳܐ ܝܘܚܰܢܢ ܒܰܪ ܫܝܠܠܗ"@syr-Syrj . 
+<http://syriaca.org/person/271> swdt:name-variant "Yuḥanon bar Shayullāh"@en-x-gedsh . 
+<http://syriaca.org/person/271> swdt:name-variant "John bar Shayullāh"@en . 
+<http://syriaca.org/person/271> swdt:name-variant "John bar Shayʾ Allah"@en . 
+<http://syriaca.org/person/271> swdt:name-variant "Patriarch John Bar Shayʾ Allah"@en-x-srp1 . 
+<http://syriaca.org/person/271> swdt:name-variant "Patriarch John Bar Shayʾ Allah"@en-x-srp1 . 
+<http://syriaca.org/person/271> swdt:name-variant "Ignace XI John Bar-Shayleh, patriarch"@en . 
+<http://syriaca.org/person/271> swdt:name-variant "Ignace XI Jean Bar-Shayleh, patriarche"@fr . 
+<http://syriaca.org/person/271> swdt:name-variant "Ignatios VII (XI) John XIV ibn Shay Allah"@en . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-1 . 
+swds:Person-271-1 sps:name-variant "John bar Shayullah"@en . 
+swds:Person-271-1 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-2 . 
+swds:Person-271-2 sps:name-variant "Patriarch John Bar Shayʾ Allah XIV"@en . 
+swds:Person-271-2 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-3 . 
+swds:Person-271-3 sps:name-variant "البطريرك يوحنا ابن شيء اللّٰه"@ar . 
+swds:Person-271-3 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-4 . 
+swds:Person-271-4 sps:name-variant "ܦܛܪܝܪܟܐ ܝܘܚܢܢ ܒܪ ܫܝܠܠܗ"@syr . 
+swds:Person-271-4 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-5 . 
+swds:Person-271-5 sps:name-variant "ܦܰܛܪܝܰܪܟܳܐ ܝܘܚܰܢܢ ܒܰܪ ܫܝܠܠܗ"@syr-Syrj . 
+swds:Person-271-5 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-6 . 
+swds:Person-271-6 sps:name-variant "Yuḥanon bar Shayullāh"@en-x-gedsh . 
+swds:Person-271-6 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-7 . 
+swds:Person-271-7 sps:name-variant "John bar Shayullāh"@en . 
+swds:Person-271-7 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-8 . 
+swds:Person-271-8 sps:name-variant "John bar Shayʾ Allah"@en . 
+swds:Person-271-8 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-9 . 
+swds:Person-271-9 sps:name-variant "Patriarch John Bar Shayʾ Allah"@en-x-srp1 . 
+swds:Person-271-9 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-10 . 
+swds:Person-271-10 sps:name-variant "Patriarch John Bar Shayʾ Allah"@en-x-srp1 . 
+swds:Person-271-10 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-11 . 
+swds:Person-271-11 sps:name-variant "Ignace XI John Bar-Shayleh, patriarch"@en . 
+swds:Person-271-11 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-12 . 
+swds:Person-271-12 sps:name-variant "Ignace XI Jean Bar-Shayleh, patriarche"@fr . 
+swds:Person-271-12 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> sp:name-variant swds:Person-271-13 . 
+swds:Person-271-13 sps:name-variant "Ignatios VII (XI) John XIV ibn Shay Allah"@en . 
+swds:Person-271-13 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_271" . 
+<http://syriaca.org/person/271> sp:closeMatch swds:closeMatch-271-1 . 
+swds:closeMatch-271-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_271" . 
+swds:closeMatch-271-1 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John bar Shayallah&sT=keywords" . 
+<http://syriaca.org/person/271> sp:closeMatch swds:closeMatch-271-2 . 
+swds:closeMatch-271-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John bar Shayallah&sT=keywords" . 
+swds:closeMatch-271-2 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:death-when "1493"^^xsd:gYear . 
+<http://syriaca.org/person/271> sp:death-when swds:death-when-271-1 . 
+swds:death-when-271-1 sps:death-when "1493"^^xsd:gYear . 
+swds:death-when-271-1 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:birth-place <http://syriaca.org/place/130> . 
+<http://syriaca.org/person/271> sp:birth-place swds:birth-place-271-1 . 
+swds:birth-place-271-1 sps:birth-place <http://syriaca.org/place/130> . 
+swds:birth-place-271-1 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/271> sp:occupation swds:occupation-271-1 . 
+swds:occupation-271-1 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-271-1 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/271> sp:status swds:status-271-1 . 
+swds:status-271-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-271-1 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/271> sp:status swds:status-271-2 . 
+swds:status-271-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-271-2 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:not-to-be-confused-with <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-271-11 . 
+swds:activeRelationnot-to-be-confused-with-271-11 swd:not-to-be-confused-with <http://syriaca.org/person/830> . 
+swds:activeRelationnot-to-be-confused-with-271-11 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> swdt:not-to-be-confused-with <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-271-11 . 
+swds:activeRelationnot-to-be-confused-with-271-11 swd:not-to-be-confused-with <http://syriaca.org/person/271> . 
+swds:activeRelationnot-to-be-confused-with-271-11 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> swdt:not-to-be-confused-with <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/830> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-271-12 . 
+swds:activeRelationnot-to-be-confused-with-271-12 swd:not-to-be-confused-with <http://syriaca.org/person/271> . 
+swds:activeRelationnot-to-be-confused-with-271-12 spr:reference-URL <http://syriaca.org/person/271> . 
+<http://syriaca.org/person/271> swdt:not-to-be-confused-with <http://syriaca.org/person/830> . 
+<http://syriaca.org/person/271> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-271-11 . 
+swds:activeRelationnot-to-be-confused-with-271-11 swd:not-to-be-confused-with <http://syriaca.org/person/830> . 
+swds:activeRelationnot-to-be-confused-with-271-11 spr:reference-URL <http://syriaca.org/person/271> .

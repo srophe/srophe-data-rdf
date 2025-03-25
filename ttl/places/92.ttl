@@ -1,0 +1,127 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/92> rdf:type lawd:Place . 
+<http://syriaca.org/place/92> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/92> foaf:primaryTopicOf <http://syriaca.org/place/92/tei> . 
+<http://syriaca.org/place/92> foaf:primaryTopicOf <http://syriaca.org/place/92/html> . 
+<http://syriaca.org/place/92> dcterms:hasFormat <http://syriaca.org/place/92/tei> . 
+<http://syriaca.org/place/92> dcterms:hasFormat <http://syriaca.org/place/92/html> . 
+<http://syriaca.org/place/92> dcterms:relation <http://syriaca.org/place/202> . 
+<http://syriaca.org/place/92> dcterms:relation <http://syriaca.org/place/8> . 
+<http://syriaca.org/place/92> dcterms:relation <http://syriaca.org/place/88> . 
+<http://syriaca.org/place/92> swdt:name-variant "Ḥesno d-Kifo"@en . 
+<http://syriaca.org/place/92> swdt:name-variant "Hasankeyf"@en . 
+<http://syriaca.org/place/92> swdt:name-variant "Ḥesn Kifo"@en . 
+<http://syriaca.org/place/92> swdt:name-variant "ܚܣܢܐ ܕܟܐܦܐ"@syr . 
+<http://syriaca.org/place/92> swdt:name-variant "ܚܰܣܢ ܟܺܐܦܐ"@syr-Syrj . 
+<http://syriaca.org/place/92> swdt:name-variant "حصن كيفا"@ar . 
+<http://syriaca.org/place/92> swdt:name-variant "Ḥiṣn Kifa"@en . 
+<http://syriaca.org/place/92> swdt:name-variant "Ḥesnā d'Kīfā"@en . 
+<http://syriaca.org/place/92> swdt:name-variant "Ḥiṣn Kayf"@en . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-1 . 
+swds:Place-92-1 sps:name-variant "Ḥesno d-Kifo"@en . 
+swds:Place-92-1 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-2 . 
+swds:Place-92-2 sps:name-variant "Hasankeyf"@en . 
+swds:Place-92-2 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-3 . 
+swds:Place-92-3 sps:name-variant "Ḥesn Kifo"@en . 
+swds:Place-92-3 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-4 . 
+swds:Place-92-4 sps:name-variant "ܚܣܢܐ ܕܟܐܦܐ"@syr . 
+swds:Place-92-4 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-5 . 
+swds:Place-92-5 sps:name-variant "ܚܰܣܢ ܟܺܐܦܐ"@syr-Syrj . 
+swds:Place-92-5 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-6 . 
+swds:Place-92-6 sps:name-variant "حصن كيفا"@ar . 
+swds:Place-92-6 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-7 . 
+swds:Place-92-7 sps:name-variant "Ḥiṣn Kifa"@en . 
+swds:Place-92-7 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-8 . 
+swds:Place-92-8 sps:name-variant "Ḥesnā d'Kīfā"@en . 
+swds:Place-92-8 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> sp:name-variant swds:Place-92-9 . 
+swds:Place-92-9 sps:name-variant "Ḥiṣn Kayf"@en . 
+swds:Place-92-9 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> swdt:closeMatch "http://pleiades.stoa.org/places/874664" . 
+<http://syriaca.org/place/92> sp:closeMatch swds:closeMatch-92-1 . 
+swds:closeMatch-92-1 sps:closeMatch "http://pleiades.stoa.org/places/874664" . 
+swds:closeMatch-92-1 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> swdt:closeMatch "http://en.wikipedia.org/wiki/Hasankeyf" . 
+<http://syriaca.org/place/92> sp:closeMatch swds:closeMatch-92-2 . 
+swds:closeMatch-92-2 sps:closeMatch "http://en.wikipedia.org/wiki/Hasankeyf" . 
+swds:closeMatch-92-2 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> swdt:closeMatch "http://dbpedia.org/resource/Hasankeyf" . 
+<http://syriaca.org/place/92> sp:closeMatch swds:closeMatch-92-3 . 
+swds:closeMatch-92-3 sps:closeMatch "http://dbpedia.org/resource/Hasankeyf" . 
+swds:closeMatch-92-3 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> swdt:exist-from "0640"^^xsd:gYear . 
+<http://syriaca.org/place/92> sp:exist-from swds:exist-from-92-1 . 
+swds:exist-from-92-1 sps:exist-from "0640"^^xsd:gYear . 
+swds:exist-from-92-1 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> swdt:exist-to "2013"^^xsd:gYear . 
+<http://syriaca.org/place/92> sp:exist-to swds:exist-to-92-1 . 
+swds:exist-to-92-1 sps:exist-to "2013"^^xsd:gYear . 
+swds:exist-to-92-1 spr:reference-URL <http://syriaca.org/place/92> . 
+<http://syriaca.org/place/92> swdt:has-gps-coordinates "37.714167 41.413056" . 
+<http://syriaca.org/place/92> sp:has-gps-coordinates "37.714167 41.413056" . 
+swds:coordinates-92-1 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/92> swdt:share-a-name <place/2314> . 
+<place/92> sp:share-a-name swds:activeRelationshare-a-name-92-11 . 
+swds:activeRelationshare-a-name-92-11 swd:share-a-name <place/2314> . 
+swds:activeRelationshare-a-name-92-11 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/2314> swdt:share-a-name <place/92> . 
+<place/2314> sp:share-a-name swds:activeRelationshare-a-name-92-11 . 
+swds:activeRelationshare-a-name-92-11 swd:share-a-name <place/92> . 
+swds:activeRelationshare-a-name-92-11 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/2314> swdt:share-a-name <place/92> . 
+<place/2314> sp:share-a-name swds:activeRelationshare-a-name-92-12 . 
+swds:activeRelationshare-a-name-92-12 swd:share-a-name <place/92> . 
+swds:activeRelationshare-a-name-92-12 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/92> swdt:share-a-name <place/2314> . 
+<place/92> sp:share-a-name swds:activeRelationshare-a-name-92-11 . 
+swds:activeRelationshare-a-name-92-11 swd:share-a-name <place/2314> . 
+swds:activeRelationshare-a-name-92-11 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/92> swdt:co-located <place/2314> . 
+<place/92> sp:co-located swds:activeRelationco-located-92-21 . 
+swds:activeRelationco-located-92-21 swd:co-located <place/2314> . 
+swds:activeRelationco-located-92-21 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/2314> swdt:co-located <place/92> . 
+<place/2314> sp:co-located swds:activeRelationco-located-92-21 . 
+swds:activeRelationco-located-92-21 swd:co-located <place/92> . 
+swds:activeRelationco-located-92-21 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/2314> swdt:co-located <place/92> . 
+<place/2314> sp:co-located swds:activeRelationco-located-92-22 . 
+swds:activeRelationco-located-92-22 swd:co-located <place/92> . 
+swds:activeRelationco-located-92-22 spr:reference-URL <http://syriaca.org/place/92> . 
+<place/92> swdt:co-located <place/2314> . 
+<place/92> sp:co-located swds:activeRelationco-located-92-21 . 
+swds:activeRelationco-located-92-21 swd:co-located <place/2314> . 
+swds:activeRelationco-located-92-21 spr:reference-URL <http://syriaca.org/place/92> .

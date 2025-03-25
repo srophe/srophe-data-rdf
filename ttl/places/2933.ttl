@@ -1,0 +1,72 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/2933> rdf:type lawd:Place . 
+<http://syriaca.org/place/2933> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/2933> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/place/2933> rdfs:partOf <http://syriaca.org/johnofephesus/places> . 
+<http://syriaca.org/place/2933> foaf:primaryTopicOf <http://syriaca.org/place/2933/tei> . 
+<http://syriaca.org/place/2933> foaf:primaryTopicOf <http://syriaca.org/place/2933/html> . 
+<http://syriaca.org/place/2933> dcterms:hasFormat <http://syriaca.org/place/2933/tei> . 
+<http://syriaca.org/place/2933> dcterms:hasFormat <http://syriaca.org/place/2933/html> . 
+<http://syriaca.org/place/2933> dcterms:relation <http://syriaca.org/place/715> . 
+<http://syriaca.org/place/2933> dcterms:relation <http://syriaca.org/place/716> . 
+<http://syriaca.org/place/2933> swdt:name-variant "Red Sea"@en . 
+<http://syriaca.org/place/2933> swdt:name-variant "البحر الأخير"@ar . 
+<http://syriaca.org/place/2933> swdt:name-variant "خليج ايلة"@ar . 
+<http://syriaca.org/place/2933> swdt:name-variant "بحر جدة ومصر"@ar . 
+<http://syriaca.org/place/2933> swdt:name-variant "ܝܡܐ ܕܣܘܦ"@syr . 
+<http://syriaca.org/place/2933> sp:name-variant swds:Place-2933-1 . 
+swds:Place-2933-1 sps:name-variant "Red Sea"@en . 
+swds:Place-2933-1 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> sp:name-variant swds:Place-2933-2 . 
+swds:Place-2933-2 sps:name-variant "البحر الأخير"@ar . 
+swds:Place-2933-2 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> sp:name-variant swds:Place-2933-3 . 
+swds:Place-2933-3 sps:name-variant "خليج ايلة"@ar . 
+swds:Place-2933-3 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> sp:name-variant swds:Place-2933-4 . 
+swds:Place-2933-4 sps:name-variant "بحر جدة ومصر"@ar . 
+swds:Place-2933-4 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> sp:name-variant swds:Place-2933-5 . 
+swds:Place-2933-5 sps:name-variant "ܝܡܐ ܕܣܘܦ"@syr . 
+swds:Place-2933-5 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> swdt:closeMatch "https://pleiades.stoa.org/places/39290" . 
+<http://syriaca.org/place/2933> sp:closeMatch swds:closeMatch-2933-1 . 
+swds:closeMatch-2933-1 sps:closeMatch "https://pleiades.stoa.org/places/39290" . 
+swds:closeMatch-2933-1 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> swdt:closeMatch "https://en.wikipedia.org/wiki/Red_Sea" . 
+<http://syriaca.org/place/2933> sp:closeMatch swds:closeMatch-2933-2 . 
+swds:closeMatch-2933-2 sps:closeMatch "https://en.wikipedia.org/wiki/Red_Sea" . 
+swds:closeMatch-2933-2 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> swdt:closeMatch "https://dbpedia.org/resource/Red_Sea" . 
+<http://syriaca.org/place/2933> sp:closeMatch swds:closeMatch-2933-3 . 
+swds:closeMatch-2933-3 sps:closeMatch "https://dbpedia.org/resource/Red_Sea" . 
+swds:closeMatch-2933-3 spr:reference-URL <http://syriaca.org/place/2933> . 
+<http://syriaca.org/place/2933> swdt:has-gps-coordinates "19 39.5" . 
+<http://syriaca.org/place/2933> sp:has-gps-coordinates "19 39.5" . 
+swds:coordinates-2933-1 spr:reference-URL <http://syriaca.org/place/2933> .

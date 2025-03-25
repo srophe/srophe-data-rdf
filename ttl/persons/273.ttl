@@ -1,0 +1,123 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/273> rdf:type lawd:Person . 
+<http://syriaca.org/person/273> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/273> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/273> rdfs:label "ܕܘܝܕ ܦܘܢܝܩܝܐ"@syr . 
+<http://syriaca.org/person/273> rdfs:label "David Puniqoyo"@en . 
+<http://syriaca.org/person/273> foaf:primaryTopicOf <http://syriaca.org/person/273/tei> . 
+<http://syriaca.org/person/273> foaf:primaryTopicOf <http://syriaca.org/person/273/html> . 
+<http://syriaca.org/person/273> dcterms:hasFormat <http://syriaca.org/person/273/tei> . 
+<http://syriaca.org/person/273> dcterms:hasFormat <http://syriaca.org/person/273/html> . 
+<http://syriaca.org/person/273> schema:description "Priest, author, and poet."@en . 
+<http://syriaca.org/person/273> foaf:primaryTopicOf <http://syriaca.org/place/215> . 
+<http://syriaca.org/person/273> foaf:primaryTopicOf <http://syriaca.org/place/212> . 
+<http://syriaca.org/person/273> swdt:name-variant "Dawid Puniqoyo"@en-x-gedsh . 
+<http://syriaca.org/person/273> swdt:name-variant "The Monk David of Ḥomṣ"@en . 
+<http://syriaca.org/person/273> swdt:name-variant "الراهب داود الحمصي"@ar . 
+<http://syriaca.org/person/273> swdt:name-variant "ܕܝܪܝܐ ܕܘܝܕ ܦܘܢܝܩܝܐ"@syr . 
+<http://syriaca.org/person/273> swdt:name-variant "ܕܰܝܪܳܝܐ ܕܰܘܝܕ ܦܘܢܝܩܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/273> swdt:name-variant "ܕܘܝܕ ܦܘܢܝܩܝܐ"@syr . 
+<http://syriaca.org/person/273> swdt:name-variant "David Puniqoyo"@en . 
+<http://syriaca.org/person/273> swdt:name-variant "David Puniqaya"@en . 
+<http://syriaca.org/person/273> swdt:name-variant "Dāwūd al-Ḥimṣī"@en . 
+<http://syriaca.org/person/273> swdt:name-variant "David le Phénicien"@fr . 
+<http://syriaca.org/person/273> swdt:name-variant "David the Phoenician"@en . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-1 . 
+swds:Person-273-1 sps:name-variant "Dawid Puniqoyo"@en-x-gedsh . 
+swds:Person-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-2 . 
+swds:Person-273-2 sps:name-variant "The Monk David of Ḥomṣ"@en . 
+swds:Person-273-2 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-3 . 
+swds:Person-273-3 sps:name-variant "الراهب داود الحمصي"@ar . 
+swds:Person-273-3 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-4 . 
+swds:Person-273-4 sps:name-variant "ܕܝܪܝܐ ܕܘܝܕ ܦܘܢܝܩܝܐ"@syr . 
+swds:Person-273-4 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-5 . 
+swds:Person-273-5 sps:name-variant "ܕܰܝܪܳܝܐ ܕܰܘܝܕ ܦܘܢܝܩܳܝܳܐ"@syr-Syrj . 
+swds:Person-273-5 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-6 . 
+swds:Person-273-6 sps:name-variant "ܕܘܝܕ ܦܘܢܝܩܝܐ"@syr . 
+swds:Person-273-6 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-7 . 
+swds:Person-273-7 sps:name-variant "David Puniqoyo"@en . 
+swds:Person-273-7 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-8 . 
+swds:Person-273-8 sps:name-variant "David Puniqaya"@en . 
+swds:Person-273-8 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-9 . 
+swds:Person-273-9 sps:name-variant "Dāwūd al-Ḥimṣī"@en . 
+swds:Person-273-9 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-10 . 
+swds:Person-273-10 sps:name-variant "David le Phénicien"@fr . 
+swds:Person-273-10 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> sp:name-variant swds:Person-273-11 . 
+swds:Person-273-11 sps:name-variant "David the Phoenician"@en . 
+swds:Person-273-11 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_273" . 
+<http://syriaca.org/person/273> sp:closeMatch swds:closeMatch-273-1 . 
+swds:closeMatch-273-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_273" . 
+swds:closeMatch-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:closeMatch "http://www.worldcat.org/oclc/503104091" . 
+<http://syriaca.org/person/273> sp:closeMatch swds:closeMatch-273-2 . 
+swds:closeMatch-273-2 sps:closeMatch "http://www.worldcat.org/oclc/503104091" . 
+swds:closeMatch-273-2 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=David Puniqaya&sT=keywords" . 
+<http://syriaca.org/person/273> sp:closeMatch swds:closeMatch-273-3 . 
+swds:closeMatch-273-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=D&sK=David Puniqaya&sT=keywords" . 
+swds:closeMatch-273-3 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:birth-notBefore "1416"^^xsd:gYear . 
+<http://syriaca.org/person/273> sp:birth-notBefore swds:birth-notBefore-273-1 . 
+swds:birth-notBefore-273-1 sps:birth-notBefore "1416"^^xsd:gYear . 
+swds:birth-notBefore-273-1 spr:reference-URL swd:person/273 . 
+<http://syriaca.org/person/273> swdt:birth-notAfter "1446"^^xsd:gYear . 
+<http://syriaca.org/person/273> sp:birth-notAfter swds:birth-notAfter-273-1 . 
+swds:birth-notAfter-273-1 sps:birth-notAfter "1446"^^xsd:gYear . 
+swds:birth-notAfter-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:death-notBefore "1485"^^xsd:gYear . 
+<http://syriaca.org/person/273> sp:death-notBefore swds:death-notBefore-273-1 . 
+swds:death-notBefore-273-1 sps:death-notBefore "1485"^^xsd:gYear . 
+swds:death-notBefore-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:death-notAfter "1515"^^xsd:gYear . 
+<http://syriaca.org/person/273> sp:death-notAfter swds:death-notAfter-273-1 . 
+swds:death-notAfter-273-1 sps:death-notAfter "1515"^^xsd:gYear . 
+swds:death-notAfter-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:birth-place <http://syriaca.org/place/212> . 
+<http://syriaca.org/person/273> sp:birth-place swds:birth-place-273-1 . 
+swds:birth-place-273-1 sps:birth-place <http://syriaca.org/place/212> . 
+swds:birth-place-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:occupation <http://syriaca.org/taxonomy/monks> . 
+<http://syriaca.org/person/273> sp:occupation swds:occupation-273-1 . 
+swds:occupation-273-1 sps:occupation <http://syriaca.org/taxonomy/monks> . 
+swds:occupation-273-1 spr:reference-URL <http://syriaca.org/person/273> . 
+<http://syriaca.org/person/273> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/273> sp:status swds:status-273-1 . 
+swds:status-273-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-273-1 spr:reference-URL <http://syriaca.org/person/273> .

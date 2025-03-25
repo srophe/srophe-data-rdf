@@ -1,0 +1,144 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/93> rdf:type lawd:Person . 
+<http://syriaca.org/person/93> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/93> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/93> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/93> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/93> rdfs:label "Marutha of Tagrit"@en . 
+<http://syriaca.org/person/93> rdfs:label "ܡܪܘܬܐ ܕܬܓܪܝܬ"@syr . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/person/93/tei> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/person/93/html> . 
+<http://syriaca.org/person/93> dcterms:hasFormat <http://syriaca.org/person/93/tei> . 
+<http://syriaca.org/person/93> dcterms:hasFormat <http://syriaca.org/person/93/html> . 
+<http://syriaca.org/person/93> schema:description "Metropolitan of Tagrit ."@en . 
+<http://syriaca.org/person/93> schema:description "In hagiography: Marutha of Tagrit was born near Balad and became a monk of the monastery of Mar Zakkay and then at Mor Matay . He became the first Maphrian of the Syrian Orthodox Church in the Sasanian empire ."@en . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/193> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/193> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/42> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/356> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/227> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/150> . 
+<http://syriaca.org/person/93> foaf:primaryTopicOf <http://syriaca.org/place/1521> . 
+<http://syriaca.org/person/93> swdt:name-variant "Marutha of Tagrit"@en . 
+<http://syriaca.org/person/93> swdt:name-variant "Marutha of Tagrit"@en-x-gedsh . 
+<http://syriaca.org/person/93> swdt:name-variant "Marutha of Tagrit"@en . 
+<http://syriaca.org/person/93> swdt:name-variant "Marutha of Takrit"@en . 
+<http://syriaca.org/person/93> swdt:name-variant "ماروثا التكريتي"@ar . 
+<http://syriaca.org/person/93> swdt:name-variant "ܡܪܘܬܐ ܕܬܓܪܝܬ"@syr . 
+<http://syriaca.org/person/93> swdt:name-variant "ܡܰܪܘܬܶܐ ܕܬܰܓܪܝܬ"@syr-Syrj . 
+<http://syriaca.org/person/93> swdt:name-variant "ܡܪܘܬܐ"@syr . 
+<http://syriaca.org/person/93> swdt:name-variant "Marūtā"@en-x-gedsh . 
+<http://syriaca.org/person/93> swdt:name-variant "Maroutha of Tagrit"@en . 
+<http://syriaca.org/person/93> swdt:name-variant "Mārūṯā"@fr-x-zanetti . 
+<http://syriaca.org/person/93> swdt:name-variant "Marouta de Tagrit"@fr . 
+<http://syriaca.org/person/93> swdt:name-variant "MĀRŪṮĀ DE TAKRĪT"@fr-x-fiey . 
+<http://syriaca.org/person/93> swdt:name-variant "Marutha of Tagrit"@en . 
+<http://syriaca.org/person/93> swdt:name-variant "Marutha Tagrithesis"@la . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-1 . 
+swds:Person-93-1 sps:name-variant "Marutha of Tagrit"@en . 
+swds:Person-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-2 . 
+swds:Person-93-2 sps:name-variant "Marutha of Tagrit"@en-x-gedsh . 
+swds:Person-93-2 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-3 . 
+swds:Person-93-3 sps:name-variant "Marutha of Tagrit"@en . 
+swds:Person-93-3 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-4 . 
+swds:Person-93-4 sps:name-variant "Marutha of Takrit"@en . 
+swds:Person-93-4 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-5 . 
+swds:Person-93-5 sps:name-variant "ماروثا التكريتي"@ar . 
+swds:Person-93-5 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-6 . 
+swds:Person-93-6 sps:name-variant "ܡܪܘܬܐ ܕܬܓܪܝܬ"@syr . 
+swds:Person-93-6 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-7 . 
+swds:Person-93-7 sps:name-variant "ܡܰܪܘܬܶܐ ܕܬܰܓܪܝܬ"@syr-Syrj . 
+swds:Person-93-7 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-8 . 
+swds:Person-93-8 sps:name-variant "ܡܪܘܬܐ"@syr . 
+swds:Person-93-8 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-9 . 
+swds:Person-93-9 sps:name-variant "Marūtā"@en-x-gedsh . 
+swds:Person-93-9 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-10 . 
+swds:Person-93-10 sps:name-variant "Maroutha of Tagrit"@en . 
+swds:Person-93-10 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-11 . 
+swds:Person-93-11 sps:name-variant "Mārūṯā"@fr-x-zanetti . 
+swds:Person-93-11 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-12 . 
+swds:Person-93-12 sps:name-variant "Marouta de Tagrit"@fr . 
+swds:Person-93-12 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-13 . 
+swds:Person-93-13 sps:name-variant "MĀRŪṮĀ DE TAKRĪT"@fr-x-fiey . 
+swds:Person-93-13 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-14 . 
+swds:Person-93-14 sps:name-variant "Marutha of Tagrit"@en . 
+swds:Person-93-14 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> sp:name-variant swds:Person-93-15 . 
+swds:Person-93-15 sps:name-variant "Marutha Tagrithesis"@la . 
+swds:Person-93-15 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_93" . 
+<http://syriaca.org/person/93> sp:closeMatch swds:closeMatch-93-1 . 
+swds:closeMatch-93-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_93" . 
+swds:closeMatch-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:closeMatch "http://viaf.org/viaf/224478732" . 
+<http://syriaca.org/person/93> sp:closeMatch swds:closeMatch-93-2 . 
+swds:closeMatch-93-2 sps:closeMatch "http://viaf.org/viaf/224478732" . 
+swds:closeMatch-93-2 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Marutha of Tagrit&sT=keywords" . 
+<http://syriaca.org/person/93> sp:closeMatch swds:closeMatch-93-3 . 
+swds:closeMatch-93-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Marutha of Tagrit&sT=keywords" . 
+swds:closeMatch-93-3 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:death-when "0649"^^xsd:gYear . 
+<http://syriaca.org/person/93> sp:death-when swds:death-when-93-1 . 
+swds:death-when-93-1 sps:death-when "0649"^^xsd:gYear . 
+swds:death-when-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:birth-place <http://syriaca.org/place/1521> . 
+<http://syriaca.org/person/93> sp:birth-place swds:birth-place-93-1 . 
+swds:birth-place-93-1 sps:birth-place <http://syriaca.org/place/1521> . 
+swds:birth-place-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/93> sp:gender swds:gender-93-1 . 
+swds:gender-93-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/93> sp:status swds:status-93-1 . 
+swds:status-93-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/person/93> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/93> sp:status swds:status-93-2 . 
+swds:status-93-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-93-2 spr:reference-URL <http://syriaca.org/person/93> . 
+<http://syriaca.org/taxonomy/west-syrian-church> swdt:commemorates <http://syriaca.org/person/93> . 
+<http://syriaca.org/taxonomy/west-syrian-church> sp:commemorates swds:commemorates-93-1 . 
+swds:commemorates-93-1 sps:commemorates <http://syriaca.org/person/93> . 
+swds:commemorates-93-1 spr:reference-URL <http://syriaca.org/person/93> . 
+swds:commemorates-93-1 spq:when "--05-02"^^xsd:gMonthDay .

@@ -1,0 +1,70 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5099> rdf:type lawd:Person . 
+<http://syriaca.org/person/5099> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5099> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5099> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5099> rdfs:label "Ino Anastasia"@en . 
+<http://syriaca.org/person/5099> rdfs:label "ܝܢܘ ܐܢܣܛܣܝܐ"@syr . 
+<http://syriaca.org/person/5099> foaf:primaryTopicOf <http://syriaca.org/person/5099/tei> . 
+<http://syriaca.org/person/5099> foaf:primaryTopicOf <http://syriaca.org/person/5099/html> . 
+<http://syriaca.org/person/5099> dcterms:hasFormat <http://syriaca.org/person/5099/tei> . 
+<http://syriaca.org/person/5099> dcterms:hasFormat <http://syriaca.org/person/5099/html> . 
+<http://syriaca.org/person/5099> schema:description "Ino was the wife of Tiberius, but Sophia did not allow her to reside in the imperial palace together with Tiberius when he was Caesar from 574 to 578. After Justin's death in 578, Tiberius elevated her to the rank of Augusta and declared to the people that she would be known as Aelia Anastasia. She moved into the palace, where she remained after her husband's death in 582."@en . 
+<http://syriaca.org/person/5099> swdt:name-variant "Ino Anastasia"@en . 
+<http://syriaca.org/person/5099> swdt:name-variant "ܝܢܘ ܐܢܣܛܣܝܐ"@syr . 
+<http://syriaca.org/person/5099> swdt:name-variant "ܐܢܬܬܗ (ܕܛܒܪܝܘܣ ܩܣܪ)"@syr . 
+<http://syriaca.org/person/5099> swdt:name-variant "ܐܢܣܛܣܝܐ"@syr . 
+<http://syriaca.org/person/5099> swdt:name-variant "Aelia Anastasia"@en . 
+<http://syriaca.org/person/5099> sp:name-variant swds:Person-5099-1 . 
+swds:Person-5099-1 sps:name-variant "Ino Anastasia"@en . 
+swds:Person-5099-1 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> sp:name-variant swds:Person-5099-2 . 
+swds:Person-5099-2 sps:name-variant "ܝܢܘ ܐܢܣܛܣܝܐ"@syr . 
+swds:Person-5099-2 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> sp:name-variant swds:Person-5099-3 . 
+swds:Person-5099-3 sps:name-variant "ܐܢܬܬܗ (ܕܛܒܪܝܘܣ ܩܣܪ)"@syr . 
+swds:Person-5099-3 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> sp:name-variant swds:Person-5099-4 . 
+swds:Person-5099-4 sps:name-variant "ܐܢܣܛܣܝܐ"@syr . 
+swds:Person-5099-4 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> sp:name-variant swds:Person-5099-5 . 
+swds:Person-5099-5 sps:name-variant "Aelia Anastasia"@en . 
+swds:Person-5099-5 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> swdt:closeMatch "https://en.wikipedia.org/wiki/Ino_Anastasia" . 
+<http://syriaca.org/person/5099> sp:closeMatch swds:closeMatch-5099-1 . 
+swds:closeMatch-5099-1 sps:closeMatch "https://en.wikipedia.org/wiki/Ino_Anastasia" . 
+swds:closeMatch-5099-1 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> swdt:floruit-notBefore "0578-10-04"^^xsd:date . 
+<http://syriaca.org/person/5099> sp:floruit-notBefore swds:floruit-notBefore-5099-1 . 
+swds:floruit-notBefore-5099-1 sps:floruit-notBefore "0578-10-04"^^xsd:date . 
+swds:floruit-notBefore-5099-1 spr:reference-URL <http://syriaca.org/person/5099> . 
+<http://syriaca.org/person/5099> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/5099> sp:gender swds:gender-5099-1 . 
+swds:gender-5099-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-5099-1 spr:reference-URL <http://syriaca.org/person/5099> .

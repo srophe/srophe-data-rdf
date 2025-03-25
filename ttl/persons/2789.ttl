@@ -1,0 +1,87 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2789> rdf:type lawd:Person . 
+<http://syriaca.org/person/2789> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2789> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/2789> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/2789> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/2789> rdfs:label "Anastasios of Sinai"@en . 
+<http://syriaca.org/person/2789> foaf:primaryTopicOf <http://syriaca.org/person/2789/tei> . 
+<http://syriaca.org/person/2789> foaf:primaryTopicOf <http://syriaca.org/person/2789/html> . 
+<http://syriaca.org/person/2789> dcterms:hasFormat <http://syriaca.org/person/2789/tei> . 
+<http://syriaca.org/person/2789> dcterms:hasFormat <http://syriaca.org/person/2789/html> . 
+<http://syriaca.org/person/2789> schema:description "Theologian and author of numerous Greek works, of which The Monks of Sinai survives in a Syriac version."@en . 
+<http://syriaca.org/person/2789> foaf:primaryTopicOf <http://syriaca.org/person/1936> . 
+<http://syriaca.org/person/2789> swdt:name-variant "Anastasios of Sinai"@en . 
+<http://syriaca.org/person/2789> swdt:name-variant "Anastasios of Sinai"@en-x-gedsh . 
+<http://syriaca.org/person/2789> swdt:name-variant "Anastase"@fr . 
+<http://syriaca.org/person/2789> sp:name-variant swds:Person-2789-1 . 
+swds:Person-2789-1 sps:name-variant "Anastasios of Sinai"@en . 
+swds:Person-2789-1 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> sp:name-variant swds:Person-2789-2 . 
+swds:Person-2789-2 sps:name-variant "Anastasios of Sinai"@en-x-gedsh . 
+swds:Person-2789-2 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> sp:name-variant swds:Person-2789-3 . 
+swds:Person-2789-3 sps:name-variant "Anastase"@fr . 
+swds:Person-2789-3 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:closeMatch "https://en.wikipedia.org/wiki/Anastasius_Sinaita" . 
+<http://syriaca.org/person/2789> sp:closeMatch swds:closeMatch-2789-1 . 
+swds:closeMatch-2789-1 sps:closeMatch "https://en.wikipedia.org/wiki/Anastasius_Sinaita" . 
+swds:closeMatch-2789-1 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:closeMatch "https://viaf.org/viaf/13689964" . 
+<http://syriaca.org/person/2789> sp:closeMatch swds:closeMatch-2789-2 . 
+swds:closeMatch-2789-2 sps:closeMatch "https://viaf.org/viaf/13689964" . 
+swds:closeMatch-2789-2 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:closeMatch "http://pinakes.irht.cnrs.fr/notices/auteur/id/172" . 
+<http://syriaca.org/person/2789> sp:closeMatch swds:closeMatch-2789-3 . 
+swds:closeMatch-2789-3 sps:closeMatch "http://pinakes.irht.cnrs.fr/notices/auteur/id/172" . 
+swds:closeMatch-2789-3 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:birth-notBefore "0600"^^xsd:gYear . 
+<http://syriaca.org/person/2789> sp:birth-notBefore swds:birth-notBefore-2789-1 . 
+swds:birth-notBefore-2789-1 sps:birth-notBefore "0600"^^xsd:gYear . 
+swds:birth-notBefore-2789-1 spr:reference-URL swd:person/2789 . 
+<http://syriaca.org/person/2789> swdt:birth-notAfter "0620"^^xsd:gYear . 
+<http://syriaca.org/person/2789> sp:birth-notAfter swds:birth-notAfter-2789-1 . 
+swds:birth-notAfter-2789-1 sps:birth-notAfter "0620"^^xsd:gYear . 
+swds:birth-notAfter-2789-1 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:death-notBefore "0700"^^xsd:gYear . 
+<http://syriaca.org/person/2789> sp:death-notBefore swds:death-notBefore-2789-1 . 
+swds:death-notBefore-2789-1 sps:death-notBefore "0700"^^xsd:gYear . 
+swds:death-notBefore-2789-1 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:death-notAfter "0750"^^xsd:gYear . 
+<http://syriaca.org/person/2789> sp:death-notAfter swds:death-notAfter-2789-1 . 
+swds:death-notAfter-2789-1 sps:death-notAfter "0750"^^xsd:gYear . 
+swds:death-notAfter-2789-1 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/2789> sp:status swds:status-2789-1 . 
+swds:status-2789-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-2789-1 spr:reference-URL <http://syriaca.org/person/2789> . 
+<http://syriaca.org/person/2789> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/2789> sp:status swds:status-2789-2 . 
+swds:status-2789-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-2789-2 spr:reference-URL <http://syriaca.org/person/2789> .

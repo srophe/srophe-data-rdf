@@ -1,0 +1,159 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/25> rdf:type lawd:Person . 
+<http://syriaca.org/person/25> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/25> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/25> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/25> rdfs:label "Marutha of Maypherqat"@en . 
+<http://syriaca.org/person/25> rdfs:label "ܡܪܘܬܐ ܕܡܝܦܪܩܛ"@syr . 
+<http://syriaca.org/person/25> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/25> foaf:primaryTopicOf <http://syriaca.org/person/25/tei> . 
+<http://syriaca.org/person/25> foaf:primaryTopicOf <http://syriaca.org/person/25/html> . 
+<http://syriaca.org/person/25> dcterms:hasFormat <http://syriaca.org/person/25/tei> . 
+<http://syriaca.org/person/25> dcterms:hasFormat <http://syriaca.org/person/25/html> . 
+<http://syriaca.org/person/25> schema:description "Bp., doctor, and co-convenor of the Synod of Seleucia-Ctesiphon (410)."@en . 
+<http://syriaca.org/person/25> foaf:primaryTopicOf <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> foaf:primaryTopicOf <http://syriaca.org/place/134> . 
+<http://syriaca.org/person/25> foaf:primaryTopicOf <http://syriaca.org/place/2338> . 
+<http://syriaca.org/person/25> foaf:primaryTopicOf <http://syriaca.org/place/134> . 
+<http://syriaca.org/person/25> swdt:name-variant "Marutha of Maypherqat"@en . 
+<http://syriaca.org/person/25> swdt:name-variant "Marutha of Maypherqaṭ"@en-x-gedsh . 
+<http://syriaca.org/person/25> swdt:name-variant "Marutha of Miyapharqin"@en . 
+<http://syriaca.org/person/25> swdt:name-variant "ماروثا الفارقي"@ar . 
+<http://syriaca.org/person/25> swdt:name-variant "ܡܪܘܬܐ ܕܡܝܦܪܩܛ"@syr . 
+<http://syriaca.org/person/25> swdt:name-variant "ܡܰܪܘܬܐ ܕܡܺܝܦܰܪܩܰܛ"@syr-Syrj . 
+<http://syriaca.org/person/25> swdt:name-variant "ܡܪܘܬܐ ܐܦܣܩܘܦܐ"@syr . 
+<http://syriaca.org/person/25> swdt:name-variant "ܡܵܪܘܼܬܵܐ ܐܲܦܸܣܩܘܿܦܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/25> swdt:name-variant "Marutha of Maipherqat"@en . 
+<http://syriaca.org/person/25> swdt:name-variant "Maruta of Mayperqat"@en . 
+<http://syriaca.org/person/25> swdt:name-variant "MĀRŪṮĀ DE MAYPERQAT"@fr-x-fiey . 
+<http://syriaca.org/person/25> swdt:name-variant "Marutha of Maiperqaṭ"@en . 
+<http://syriaca.org/person/25> swdt:name-variant "Bischof Màrût(h)ā von Maiperqaṭ"@de-x-baumstrk . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-1 . 
+swds:Person-25-1 sps:name-variant "Marutha of Maypherqat"@en . 
+swds:Person-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-2 . 
+swds:Person-25-2 sps:name-variant "Marutha of Maypherqaṭ"@en-x-gedsh . 
+swds:Person-25-2 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-3 . 
+swds:Person-25-3 sps:name-variant "Marutha of Miyapharqin"@en . 
+swds:Person-25-3 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-4 . 
+swds:Person-25-4 sps:name-variant "ماروثا الفارقي"@ar . 
+swds:Person-25-4 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-5 . 
+swds:Person-25-5 sps:name-variant "ܡܪܘܬܐ ܕܡܝܦܪܩܛ"@syr . 
+swds:Person-25-5 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-6 . 
+swds:Person-25-6 sps:name-variant "ܡܰܪܘܬܐ ܕܡܺܝܦܰܪܩܰܛ"@syr-Syrj . 
+swds:Person-25-6 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-7 . 
+swds:Person-25-7 sps:name-variant "ܡܪܘܬܐ ܐܦܣܩܘܦܐ"@syr . 
+swds:Person-25-7 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-8 . 
+swds:Person-25-8 sps:name-variant "ܡܵܪܘܼܬܵܐ ܐܲܦܸܣܩܘܿܦܵܐ"@syr-Syrn . 
+swds:Person-25-8 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-9 . 
+swds:Person-25-9 sps:name-variant "Marutha of Maipherqat"@en . 
+swds:Person-25-9 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-10 . 
+swds:Person-25-10 sps:name-variant "Maruta of Mayperqat"@en . 
+swds:Person-25-10 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-11 . 
+swds:Person-25-11 sps:name-variant "MĀRŪṮĀ DE MAYPERQAT"@fr-x-fiey . 
+swds:Person-25-11 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-12 . 
+swds:Person-25-12 sps:name-variant "Marutha of Maiperqaṭ"@en . 
+swds:Person-25-12 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> sp:name-variant swds:Person-25-13 . 
+swds:Person-25-13 sps:name-variant "Bischof Màrût(h)ā von Maiperqaṭ"@de-x-baumstrk . 
+swds:Person-25-13 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_25" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-1 . 
+swds:closeMatch-25-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_25" . 
+swds:closeMatch-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/171031744" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-2 . 
+swds:closeMatch-25-2 sps:closeMatch "http://viaf.org/viaf/171031744" . 
+swds:closeMatch-25-2 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://worldcat.org/identities/lccn-n96-28786" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-3 . 
+swds:closeMatch-25-3 sps:closeMatch "http://worldcat.org/identities/lccn-n96-28786" . 
+swds:closeMatch-25-3 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/102326301" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-4 . 
+swds:closeMatch-25-4 sps:closeMatch "http://viaf.org/viaf/102326301" . 
+swds:closeMatch-25-4 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/79045174" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-5 . 
+swds:closeMatch-25-5 sps:closeMatch "http://viaf.org/viaf/79045174" . 
+swds:closeMatch-25-5 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/171031744" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-6 . 
+swds:closeMatch-25-6 sps:closeMatch "http://viaf.org/viaf/171031744" . 
+swds:closeMatch-25-6 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/92779784" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-7 . 
+swds:closeMatch-25-7 sps:closeMatch "http://viaf.org/viaf/92779784" . 
+swds:closeMatch-25-7 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://viaf.org/viaf/102326317" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-8 . 
+swds:closeMatch-25-8 sps:closeMatch "http://viaf.org/viaf/102326317" . 
+swds:closeMatch-25-8 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Marutha of Maipherqat&sT=keywords" . 
+<http://syriaca.org/person/25> sp:closeMatch swds:closeMatch-25-9 . 
+swds:closeMatch-25-9 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Marutha of Maipherqat&sT=keywords" . 
+swds:closeMatch-25-9 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:floruit-notBefore "0300"^^xsd:gYear . 
+<http://syriaca.org/person/25> sp:floruit-notBefore swds:floruit-notBefore-25-1 . 
+swds:floruit-notBefore-25-1 sps:floruit-notBefore "0300"^^xsd:gYear . 
+swds:floruit-notBefore-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:floruit-notAfter "0500"^^xsd:gYear . 
+<http://syriaca.org/person/25> sp:floruit-notAfter swds:floruit-notAfter-25-1 . 
+swds:floruit-notAfter-25-1 sps:floruit-notAfter "0500"^^xsd:gYear . 
+swds:floruit-notAfter-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:death-when "0420"^^xsd:gYear . 
+<http://syriaca.org/person/25> sp:death-when swds:death-when-25-1 . 
+swds:death-when-25-1 sps:death-when "0420"^^xsd:gYear . 
+swds:death-when-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:death-when "0421"^^xsd:gYear . 
+<http://syriaca.org/person/25> sp:death-when swds:death-when-25-2 . 
+swds:death-when-25-2 sps:death-when "0421"^^xsd:gYear . 
+swds:death-when-25-2 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/25> sp:gender swds:gender-25-1 . 
+swds:gender-25-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:status <http://syriaca.org/taxonomy/martyrs> . 
+<http://syriaca.org/person/25> sp:status swds:status-25-1 . 
+swds:status-25-1 sps:status <http://syriaca.org/taxonomy/martyrs> . 
+swds:status-25-1 spr:reference-URL <http://syriaca.org/person/25> . 
+<http://syriaca.org/person/25> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/25> sp:status swds:status-25-2 . 
+swds:status-25-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-25-2 spr:reference-URL <http://syriaca.org/person/25> .

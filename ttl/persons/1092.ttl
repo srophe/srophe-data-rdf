@@ -1,0 +1,80 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1092> rdf:type lawd:Person . 
+<http://syriaca.org/person/1092> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1092> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1092> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1092> rdfs:label "ܐܗܪܘܢ"@syr . 
+<http://syriaca.org/person/1092> rdfs:label "Aaron of Serugh"@en . 
+<http://syriaca.org/person/1092> foaf:primaryTopicOf <http://syriaca.org/person/1092/tei> . 
+<http://syriaca.org/person/1092> foaf:primaryTopicOf <http://syriaca.org/person/1092/html> . 
+<http://syriaca.org/person/1092> dcterms:hasFormat <http://syriaca.org/person/1092/tei> . 
+<http://syriaca.org/person/1092> dcterms:hasFormat <http://syriaca.org/person/1092/html> . 
+<http://syriaca.org/person/1092> schema:description "Aaron of Serugh was a disciple of Mar Awgin and founder of two monasteries near Melitene ."@en . 
+<http://syriaca.org/person/1092> foaf:primaryTopicOf <http://syriaca.org/person/356> . 
+<http://syriaca.org/person/1092> foaf:primaryTopicOf <http://syriaca.org/place/136> . 
+<http://syriaca.org/person/1092> swdt:name-variant "ܐܗܪܘܢ"@syr . 
+<http://syriaca.org/person/1092> swdt:name-variant "Ahrūn of Serugh"@en-x-gedsh . 
+<http://syriaca.org/person/1092> swdt:name-variant "Aaron of Serugh"@en . 
+<http://syriaca.org/person/1092> swdt:name-variant "Aaron of Serug"@en . 
+<http://syriaca.org/person/1092> swdt:name-variant "ʾAhrōn"@fr-x-zanetti . 
+<http://syriaca.org/person/1092> swdt:name-variant "Aaron de Saroug"@fr . 
+<http://syriaca.org/person/1092> swdt:name-variant "AARON DE SAROUG"@fr-x-fiey . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-1 . 
+swds:Person-1092-1 sps:name-variant "ܐܗܪܘܢ"@syr . 
+swds:Person-1092-1 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-2 . 
+swds:Person-1092-2 sps:name-variant "Ahrūn of Serugh"@en-x-gedsh . 
+swds:Person-1092-2 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-3 . 
+swds:Person-1092-3 sps:name-variant "Aaron of Serugh"@en . 
+swds:Person-1092-3 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-4 . 
+swds:Person-1092-4 sps:name-variant "Aaron of Serug"@en . 
+swds:Person-1092-4 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-5 . 
+swds:Person-1092-5 sps:name-variant "ʾAhrōn"@fr-x-zanetti . 
+swds:Person-1092-5 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-6 . 
+swds:Person-1092-6 sps:name-variant "Aaron de Saroug"@fr . 
+swds:Person-1092-6 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> sp:name-variant swds:Person-1092-7 . 
+swds:Person-1092-7 sps:name-variant "AARON DE SAROUG"@fr-x-fiey . 
+swds:Person-1092-7 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> swdt:death-when "0337"^^xsd:gYear . 
+<http://syriaca.org/person/1092> sp:death-when swds:death-when-1092-1 . 
+swds:death-when-1092-1 sps:death-when "0337"^^xsd:gYear . 
+swds:death-when-1092-1 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1092> sp:gender swds:gender-1092-1 . 
+swds:gender-1092-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1092-1 spr:reference-URL <http://syriaca.org/person/1092> . 
+<http://syriaca.org/person/1092> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1092> sp:status swds:status-1092-1 . 
+swds:status-1092-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1092-1 spr:reference-URL <http://syriaca.org/person/1092> .

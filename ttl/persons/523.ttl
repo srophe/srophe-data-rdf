@@ -1,0 +1,64 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/523> rdf:type lawd:Person . 
+<http://syriaca.org/person/523> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/523> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/523> rdfs:label "Hanno , Solomon"@en . 
+<http://syriaca.org/person/523> foaf:primaryTopicOf <http://syriaca.org/person/523/tei> . 
+<http://syriaca.org/person/523> foaf:primaryTopicOf <http://syriaca.org/person/523/html> . 
+<http://syriaca.org/person/523> dcterms:hasFormat <http://syriaca.org/person/523/tei> . 
+<http://syriaca.org/person/523> dcterms:hasFormat <http://syriaca.org/person/523/html> . 
+<http://syriaca.org/person/523> schema:description "He was born in Arkaḥ and studied Syriac at the village school."@en . 
+<http://syriaca.org/person/523> swdt:name-variant "Ḥanno , Sulayman"@en-x-gedsh . 
+<http://syriaca.org/person/523> swdt:name-variant "Hanno , Solomon"@en . 
+<http://syriaca.org/person/523> sp:name-variant swds:Person-523-1 . 
+swds:Person-523-1 sps:name-variant "Ḥanno , Sulayman"@en-x-gedsh . 
+swds:Person-523-1 spr:reference-URL <http://syriaca.org/person/523> . 
+<http://syriaca.org/person/523> sp:name-variant swds:Person-523-2 . 
+swds:Person-523-2 sps:name-variant "Hanno , Solomon"@en . 
+swds:Person-523-2 spr:reference-URL <http://syriaca.org/person/523> . 
+<http://syriaca.org/person/523> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_523" . 
+<http://syriaca.org/person/523> sp:closeMatch swds:closeMatch-523-1 . 
+swds:closeMatch-523-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_523" . 
+swds:closeMatch-523-1 spr:reference-URL <http://syriaca.org/person/523> . 
+<http://syriaca.org/person/523> swdt:birth-when "1918"^^xsd:gYear . 
+<http://syriaca.org/person/523> sp:birth-when swds:birth-when-523-1 . 
+swds:birth-when-523-1 sps:birth-when "1918"^^xsd:gYear . 
+swds:birth-when-523-1 spr:reference-URL <http://syriaca.org/person/523> . 
+<http://syriaca.org/person/523> swdt:death-notBefore "2000"^^xsd:gYear . 
+<http://syriaca.org/person/523> sp:death-notBefore swds:death-notBefore-523-1 . 
+swds:death-notBefore-523-1 sps:death-notBefore "2000"^^xsd:gYear . 
+swds:death-notBefore-523-1 spr:reference-URL <http://syriaca.org/person/523> . 
+<http://syriaca.org/person/523> swdt:death-notAfter "2009"^^xsd:gYear . 
+<http://syriaca.org/person/523> sp:death-notAfter swds:death-notAfter-523-1 . 
+swds:death-notAfter-523-1 sps:death-notAfter "2009"^^xsd:gYear . 
+swds:death-notAfter-523-1 spr:reference-URL <http://syriaca.org/person/523> . 
+<http://syriaca.org/person/523> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/523> sp:status swds:status-523-1 . 
+swds:status-523-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-523-1 spr:reference-URL <http://syriaca.org/person/523> .

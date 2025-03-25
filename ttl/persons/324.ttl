@@ -1,0 +1,92 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/324> rdf:type lawd:Person . 
+<http://syriaca.org/person/324> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/324> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/324> rdfs:label "Ahob of Qatar"@en . 
+<http://syriaca.org/person/324> rdfs:label "ܐܚܘܒ ܩܛܪܝܐ"@syr . 
+<http://syriaca.org/person/324> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/324> foaf:primaryTopicOf <http://syriaca.org/person/324/tei> . 
+<http://syriaca.org/person/324> foaf:primaryTopicOf <http://syriaca.org/person/324/html> . 
+<http://syriaca.org/person/324> dcterms:hasFormat <http://syriaca.org/person/324/tei> . 
+<http://syriaca.org/person/324> dcterms:hasFormat <http://syriaca.org/person/324/html> . 
+<http://syriaca.org/person/324> schema:description "Exegete from Beth Qaṭraye mentioned by ʿAbdishoʿ bar Brikha ."@en . 
+<http://syriaca.org/person/324> foaf:primaryTopicOf <http://syriaca.org/person/310> . 
+<http://syriaca.org/person/324> foaf:primaryTopicOf <http://syriaca.org/place/37> . 
+<http://syriaca.org/person/324> swdt:name-variant "Ahob of Qatar"@en . 
+<http://syriaca.org/person/324> swdt:name-variant "Aḥob Qaṭraya"@en-x-gedsh . 
+<http://syriaca.org/person/324> swdt:name-variant "ܐܚܘܒ ܩܛܪܝܐ"@syr . 
+<http://syriaca.org/person/324> swdt:name-variant "ܐܲܚܘܼܒ ܩܸܛܪܵܝܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/324> swdt:name-variant "ܐܝܘܒ ܩܛܪܝܐ"@syr . 
+<http://syriaca.org/person/324> swdt:name-variant "ܐܝܺܘܽܒ ܩܰܛܪܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/324> swdt:name-variant "Ahob of Qatar"@en . 
+<http://syriaca.org/person/324> swdt:name-variant "Aḥob of Beth Qatraye"@en . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-1 . 
+swds:Person-324-1 sps:name-variant "Ahob of Qatar"@en . 
+swds:Person-324-1 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-2 . 
+swds:Person-324-2 sps:name-variant "Aḥob Qaṭraya"@en-x-gedsh . 
+swds:Person-324-2 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-3 . 
+swds:Person-324-3 sps:name-variant "ܐܚܘܒ ܩܛܪܝܐ"@syr . 
+swds:Person-324-3 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-4 . 
+swds:Person-324-4 sps:name-variant "ܐܲܚܘܼܒ ܩܸܛܪܵܝܵܐ"@syr-Syrn . 
+swds:Person-324-4 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-5 . 
+swds:Person-324-5 sps:name-variant "ܐܝܘܒ ܩܛܪܝܐ"@syr . 
+swds:Person-324-5 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-6 . 
+swds:Person-324-6 sps:name-variant "ܐܝܺܘܽܒ ܩܰܛܪܳܝܳܐ"@syr-Syrj . 
+swds:Person-324-6 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-7 . 
+swds:Person-324-7 sps:name-variant "Ahob of Qatar"@en . 
+swds:Person-324-7 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> sp:name-variant swds:Person-324-8 . 
+swds:Person-324-8 sps:name-variant "Aḥob of Beth Qatraye"@en . 
+swds:Person-324-8 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_324" . 
+<http://syriaca.org/person/324> sp:closeMatch swds:closeMatch-324-1 . 
+swds:closeMatch-324-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_324" . 
+swds:closeMatch-324-1 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahob of Qatar&sT=keywords" . 
+<http://syriaca.org/person/324> sp:closeMatch swds:closeMatch-324-2 . 
+swds:closeMatch-324-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahob of Qatar&sT=keywords" . 
+swds:closeMatch-324-2 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> swdt:floruit-notBefore "0525"^^xsd:gYear . 
+<http://syriaca.org/person/324> sp:floruit-notBefore swds:floruit-notBefore-324-1 . 
+swds:floruit-notBefore-324-1 sps:floruit-notBefore "0525"^^xsd:gYear . 
+swds:floruit-notBefore-324-1 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> swdt:floruit-notAfter "0625"^^xsd:gYear . 
+<http://syriaca.org/person/324> sp:floruit-notAfter swds:floruit-notAfter-324-1 . 
+swds:floruit-notAfter-324-1 sps:floruit-notAfter "0625"^^xsd:gYear . 
+swds:floruit-notAfter-324-1 spr:reference-URL <http://syriaca.org/person/324> . 
+<http://syriaca.org/person/324> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/324> sp:status swds:status-324-1 . 
+swds:status-324-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-324-1 spr:reference-URL <http://syriaca.org/person/324> .

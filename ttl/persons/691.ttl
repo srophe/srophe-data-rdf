@@ -1,0 +1,85 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/691> rdf:type lawd:Person . 
+<http://syriaca.org/person/691> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/691> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/691> rdfs:label "Qarabashi , ʿAbd al-Masih Nuʿman"@en . 
+<http://syriaca.org/person/691> rdfs:label "ܥܒܕܡܫܝܚܐ ܕܩܪܗܒܫ"@syr . 
+<http://syriaca.org/person/691> foaf:primaryTopicOf <http://syriaca.org/person/691/tei> . 
+<http://syriaca.org/person/691> foaf:primaryTopicOf <http://syriaca.org/person/691/html> . 
+<http://syriaca.org/person/691> dcterms:hasFormat <http://syriaca.org/person/691/tei> . 
+<http://syriaca.org/person/691> dcterms:hasFormat <http://syriaca.org/person/691/html> . 
+<http://syriaca.org/person/691> schema:description "He was born in Qarabash near Diyarbakır (Amid)."@en . 
+<http://syriaca.org/person/691> swdt:name-variant "Qarabashi , ʿAbd al-Masih Nuʿman"@en . 
+<http://syriaca.org/person/691> swdt:name-variant "Qarabashī , ʿAbd al-Masīḥ Nuʿmān"@en-x-gedsh . 
+<http://syriaca.org/person/691> swdt:name-variant "ܥܒܕܡܫܝܚܐ ܕܩܪܗܒܫ"@syr . 
+<http://syriaca.org/person/691> swdt:name-variant "Qarabashī Abd al-Masīḥ Numān"@en-x-srp1 . 
+<http://syriaca.org/person/691> swdt:name-variant "Qarabashī ‘Abd al-Masīḥ Nu‘mān"@en-x-srp1 . 
+<http://syriaca.org/person/691> sp:name-variant swds:Person-691-1 . 
+swds:Person-691-1 sps:name-variant "Qarabashi , ʿAbd al-Masih Nuʿman"@en . 
+swds:Person-691-1 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> sp:name-variant swds:Person-691-2 . 
+swds:Person-691-2 sps:name-variant "Qarabashī , ʿAbd al-Masīḥ Nuʿmān"@en-x-gedsh . 
+swds:Person-691-2 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> sp:name-variant swds:Person-691-3 . 
+swds:Person-691-3 sps:name-variant "ܥܒܕܡܫܝܚܐ ܕܩܪܗܒܫ"@syr . 
+swds:Person-691-3 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> sp:name-variant swds:Person-691-4 . 
+swds:Person-691-4 sps:name-variant "Qarabashī Abd al-Masīḥ Numān"@en-x-srp1 . 
+swds:Person-691-4 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> sp:name-variant swds:Person-691-5 . 
+swds:Person-691-5 sps:name-variant "Qarabashī ‘Abd al-Masīḥ Nu‘mān"@en-x-srp1 . 
+swds:Person-691-5 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_691" . 
+<http://syriaca.org/person/691> sp:closeMatch swds:closeMatch-691-1 . 
+swds:closeMatch-691-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_691" . 
+swds:closeMatch-691-1 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:closeMatch "http://worldcat.org/identities/np-qarabasch, abed mschiho naman van$malfono$1903 1983" . 
+<http://syriaca.org/person/691> sp:closeMatch swds:closeMatch-691-2 . 
+swds:closeMatch-691-2 sps:closeMatch "http://worldcat.org/identities/np-qarabasch, abed mschiho naman van$malfono$1903 1983" . 
+swds:closeMatch-691-2 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:closeMatch "http://viaf.org/viaf/250462520" . 
+<http://syriaca.org/person/691> sp:closeMatch swds:closeMatch-691-3 . 
+swds:closeMatch-691-3 sps:closeMatch "http://viaf.org/viaf/250462520" . 
+swds:closeMatch-691-3 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:closeMatch "http://viaf.org/viaf/24584003" . 
+<http://syriaca.org/person/691> sp:closeMatch swds:closeMatch-691-4 . 
+swds:closeMatch-691-4 sps:closeMatch "http://viaf.org/viaf/24584003" . 
+swds:closeMatch-691-4 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:birth-when "1903"^^xsd:gYear . 
+<http://syriaca.org/person/691> sp:birth-when swds:birth-when-691-1 . 
+swds:birth-when-691-1 sps:birth-when "1903"^^xsd:gYear . 
+swds:birth-when-691-1 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:death-when "1983"^^xsd:gYear . 
+<http://syriaca.org/person/691> sp:death-when swds:death-when-691-1 . 
+swds:death-when-691-1 sps:death-when "1983"^^xsd:gYear . 
+swds:death-when-691-1 spr:reference-URL <http://syriaca.org/person/691> . 
+<http://syriaca.org/person/691> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/691> sp:status swds:status-691-1 . 
+swds:status-691-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-691-1 spr:reference-URL <http://syriaca.org/person/691> .

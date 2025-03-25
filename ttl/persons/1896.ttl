@@ -1,0 +1,72 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1896> rdf:type lawd:Person . 
+<http://syriaca.org/person/1896> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1896> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1896> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1896> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/1896> rdfs:label "ܣܗ̈ܕܐ ܕܐܪܥܐ ܕܡܕܢܚܐ"@syr . 
+<http://syriaca.org/person/1896> rdfs:label "Anonymi 1896"@en . 
+<http://syriaca.org/person/1896> foaf:primaryTopicOf <http://syriaca.org/person/1896/tei> . 
+<http://syriaca.org/person/1896> foaf:primaryTopicOf <http://syriaca.org/person/1896/html> . 
+<http://syriaca.org/person/1896> dcterms:hasFormat <http://syriaca.org/person/1896/tei> . 
+<http://syriaca.org/person/1896> dcterms:hasFormat <http://syriaca.org/person/1896/html> . 
+<http://syriaca.org/person/1896> schema:description "Anonymi 1896 is commemorated in The Martyrs of the Orient (text) , a work surviving in at least 4 manuscripts including ms Berlin, Königliche Bibliothek, or. oct. 1256 ."@en . 
+<http://syriaca.org/person/1896> foaf:primaryTopicOf <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> swdt:name-variant "ܣܗ̈ܕܐ ܕܐܪܥܐ ܕܡܕܢܚܐ"@syr . 
+<http://syriaca.org/person/1896> swdt:name-variant "Sāhdē d-Arʿā d-madnḥā"@en-x-gedsh . 
+<http://syriaca.org/person/1896> swdt:name-variant "Martyrs of the Orient"@en . 
+<http://syriaca.org/person/1896> swdt:name-variant "Sāhdē d-ʾarʾā d-madnḥā"@fr-x-zanetti . 
+<http://syriaca.org/person/1896> swdt:name-variant "Martyrs d’Orient"@fr . 
+<http://syriaca.org/person/1896> swdt:name-variant "Anonymi 1896"@en . 
+<http://syriaca.org/person/1896> sp:name-variant swds:Person-1896-1 . 
+swds:Person-1896-1 sps:name-variant "ܣܗ̈ܕܐ ܕܐܪܥܐ ܕܡܕܢܚܐ"@syr . 
+swds:Person-1896-1 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> sp:name-variant swds:Person-1896-2 . 
+swds:Person-1896-2 sps:name-variant "Sāhdē d-Arʿā d-madnḥā"@en-x-gedsh . 
+swds:Person-1896-2 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> sp:name-variant swds:Person-1896-3 . 
+swds:Person-1896-3 sps:name-variant "Martyrs of the Orient"@en . 
+swds:Person-1896-3 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> sp:name-variant swds:Person-1896-4 . 
+swds:Person-1896-4 sps:name-variant "Sāhdē d-ʾarʾā d-madnḥā"@fr-x-zanetti . 
+swds:Person-1896-4 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> sp:name-variant swds:Person-1896-5 . 
+swds:Person-1896-5 sps:name-variant "Martyrs d’Orient"@fr . 
+swds:Person-1896-5 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> sp:name-variant swds:Person-1896-6 . 
+swds:Person-1896-6 sps:name-variant "Anonymi 1896"@en . 
+swds:Person-1896-6 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/1896> sp:status swds:status-1896-1 . 
+swds:status-1896-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-1896-1 spr:reference-URL <http://syriaca.org/person/1896> . 
+<http://syriaca.org/person/1896> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1896> sp:status swds:status-1896-2 . 
+swds:status-1896-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1896-2 spr:reference-URL <http://syriaca.org/person/1896> .

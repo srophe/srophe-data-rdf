@@ -1,0 +1,103 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/156> rdf:type lawd:Person . 
+<http://syriaca.org/person/156> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/156> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/156> rdfs:label "Nonnus of Nisibis"@en . 
+<http://syriaca.org/person/156> rdfs:label "ܢܘܢܐ ܢܨܝܒܝܢܝܐ"@syr . 
+<http://syriaca.org/person/156> foaf:primaryTopicOf <http://syriaca.org/person/156/tei> . 
+<http://syriaca.org/person/156> foaf:primaryTopicOf <http://syriaca.org/person/156/html> . 
+<http://syriaca.org/person/156> dcterms:hasFormat <http://syriaca.org/person/156/tei> . 
+<http://syriaca.org/person/156> dcterms:hasFormat <http://syriaca.org/person/156/html> . 
+<http://syriaca.org/person/156> schema:description "Polemicist, scholar, and deacon."@en . 
+<http://syriaca.org/person/156> foaf:primaryTopicOf <http://syriaca.org/place/142> . 
+<http://syriaca.org/person/156> foaf:primaryTopicOf <http://syriaca.org/place/142> . 
+<http://syriaca.org/person/156> swdt:name-variant "Nonnus of Nisibis"@en . 
+<http://syriaca.org/person/156> swdt:name-variant "Nonos of Nisibis"@en-x-gedsh . 
+<http://syriaca.org/person/156> swdt:name-variant "Nonnus of Nisibin"@en . 
+<http://syriaca.org/person/156> swdt:name-variant "نونا النصيبيني"@ar . 
+<http://syriaca.org/person/156> swdt:name-variant "ܢܘܢܐ ܢܨܝܒܝܢܝܐ"@syr . 
+<http://syriaca.org/person/156> swdt:name-variant "ܢܘܢܳܐ ܢܨܺܝܒܝܢܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/156> swdt:name-variant "Nonnus of Nisibis"@en . 
+<http://syriaca.org/person/156> swdt:name-variant "Nonnus"@en . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-1 . 
+swds:Person-156-1 sps:name-variant "Nonnus of Nisibis"@en . 
+swds:Person-156-1 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-2 . 
+swds:Person-156-2 sps:name-variant "Nonos of Nisibis"@en-x-gedsh . 
+swds:Person-156-2 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-3 . 
+swds:Person-156-3 sps:name-variant "Nonnus of Nisibin"@en . 
+swds:Person-156-3 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-4 . 
+swds:Person-156-4 sps:name-variant "نونا النصيبيني"@ar . 
+swds:Person-156-4 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-5 . 
+swds:Person-156-5 sps:name-variant "ܢܘܢܐ ܢܨܝܒܝܢܝܐ"@syr . 
+swds:Person-156-5 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-6 . 
+swds:Person-156-6 sps:name-variant "ܢܘܢܳܐ ܢܨܺܝܒܝܢܳܝܐ"@syr-Syrj . 
+swds:Person-156-6 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-7 . 
+swds:Person-156-7 sps:name-variant "Nonnus of Nisibis"@en . 
+swds:Person-156-7 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> sp:name-variant swds:Person-156-8 . 
+swds:Person-156-8 sps:name-variant "Nonnus"@en . 
+swds:Person-156-8 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_156" . 
+<http://syriaca.org/person/156> sp:closeMatch swds:closeMatch-156-1 . 
+swds:closeMatch-156-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_156" . 
+swds:closeMatch-156-1 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:closeMatch "http://viaf.org/viaf/122215176" . 
+<http://syriaca.org/person/156> sp:closeMatch swds:closeMatch-156-2 . 
+swds:closeMatch-156-2 sps:closeMatch "http://viaf.org/viaf/122215176" . 
+swds:closeMatch-156-2 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:closeMatch "http://viaf.org/viaf/89252085" . 
+<http://syriaca.org/person/156> sp:closeMatch swds:closeMatch-156-3 . 
+swds:closeMatch-156-3 sps:closeMatch "http://viaf.org/viaf/89252085" . 
+swds:closeMatch-156-3 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:closeMatch "http://viaf.org/viaf/235454802" . 
+<http://syriaca.org/person/156> sp:closeMatch swds:closeMatch-156-4 . 
+swds:closeMatch-156-4 sps:closeMatch "http://viaf.org/viaf/235454802" . 
+swds:closeMatch-156-4 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:closeMatch "http://viaf.org/viaf/203445803" . 
+<http://syriaca.org/person/156> sp:closeMatch swds:closeMatch-156-5 . 
+swds:closeMatch-156-5 sps:closeMatch "http://viaf.org/viaf/203445803" . 
+swds:closeMatch-156-5 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=N&sK=Nonnus of Nisibis&sT=keywords" . 
+<http://syriaca.org/person/156> sp:closeMatch swds:closeMatch-156-6 . 
+swds:closeMatch-156-6 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=N&sK=Nonnus of Nisibis&sT=keywords" . 
+swds:closeMatch-156-6 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:death-notBefore "0861"^^xsd:gYear . 
+<http://syriaca.org/person/156> sp:death-notBefore swds:death-notBefore-156-1 . 
+swds:death-notBefore-156-1 sps:death-notBefore "0861"^^xsd:gYear . 
+swds:death-notBefore-156-1 spr:reference-URL <http://syriaca.org/person/156> . 
+<http://syriaca.org/person/156> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/156> sp:status swds:status-156-1 . 
+swds:status-156-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-156-1 spr:reference-URL <http://syriaca.org/person/156> .

@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2299> rdf:type lawd:Person . 
+<http://syriaca.org/person/2299> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2299> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/2299> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/2299> rdfs:label "Leo"@en . 
+<http://syriaca.org/person/2299> rdfs:label "ܠܐܘܢ"@syr . 
+<http://syriaca.org/person/2299> foaf:primaryTopicOf <http://syriaca.org/person/2299/tei> . 
+<http://syriaca.org/person/2299> foaf:primaryTopicOf <http://syriaca.org/person/2299/html> . 
+<http://syriaca.org/person/2299> dcterms:hasFormat <http://syriaca.org/person/2299/tei> . 
+<http://syriaca.org/person/2299> dcterms:hasFormat <http://syriaca.org/person/2299/html> . 
+<http://syriaca.org/person/2299> schema:description "Leo I was one of the most influential bishops of Rome, considerably enlarging the power of the papacy. He acted as leader of his city at a time when the western emperors increasingly became powerless figureheads. Theologically, he is famous as the author of the so-called Tome of Leo, a treatise in which he insisted that Christ be understood in two natures, fully divine and fully human. This view was accepted at the council of Chalcedon in 451, but proved a decisive bone of contention with the supporters of a miaphysite Christology who accused Leo of splitting Christ into two."@en . 
+<http://syriaca.org/person/2299> swdt:name-variant "Leo"@en . 
+<http://syriaca.org/person/2299> swdt:name-variant "Leon"@en-x-gedsh . 
+<http://syriaca.org/person/2299> swdt:name-variant "ܠܐܘܢ"@syr . 
+<http://syriaca.org/person/2299> swdt:name-variant "Pope Leo"@en . 
+<http://syriaca.org/person/2299> swdt:name-variant "Leo of Rome"@en . 
+<http://syriaca.org/person/2299> swdt:name-variant "Leo I (pope)"@en . 
+<http://syriaca.org/person/2299> swdt:name-variant "ܦܦܐ ܕܪܗܘܡܐ"@syr . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-1 . 
+swds:Person-2299-1 sps:name-variant "Leo"@en . 
+swds:Person-2299-1 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-2 . 
+swds:Person-2299-2 sps:name-variant "Leon"@en-x-gedsh . 
+swds:Person-2299-2 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-3 . 
+swds:Person-2299-3 sps:name-variant "ܠܐܘܢ"@syr . 
+swds:Person-2299-3 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-4 . 
+swds:Person-2299-4 sps:name-variant "Pope Leo"@en . 
+swds:Person-2299-4 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-5 . 
+swds:Person-2299-5 sps:name-variant "Leo of Rome"@en . 
+swds:Person-2299-5 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-6 . 
+swds:Person-2299-6 sps:name-variant "Leo I (pope)"@en . 
+swds:Person-2299-6 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> sp:name-variant swds:Person-2299-7 . 
+swds:Person-2299-7 sps:name-variant "ܦܦܐ ܕܪܗܘܡܐ"@syr . 
+swds:Person-2299-7 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> swdt:closeMatch "https://en.wikipedia.org/wiki/Pope_Leo_I" . 
+<http://syriaca.org/person/2299> sp:closeMatch swds:closeMatch-2299-1 . 
+swds:closeMatch-2299-1 sps:closeMatch "https://en.wikipedia.org/wiki/Pope_Leo_I" . 
+swds:closeMatch-2299-1 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> swdt:floruit-notBefore "0448"^^xsd:gYear . 
+<http://syriaca.org/person/2299> sp:floruit-notBefore swds:floruit-notBefore-2299-1 . 
+swds:floruit-notBefore-2299-1 sps:floruit-notBefore "0448"^^xsd:gYear . 
+swds:floruit-notBefore-2299-1 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> swdt:floruit-notAfter "0449"^^xsd:gYear . 
+<http://syriaca.org/person/2299> sp:floruit-notAfter swds:floruit-notAfter-2299-1 . 
+swds:floruit-notAfter-2299-1 sps:floruit-notAfter "0449"^^xsd:gYear . 
+swds:floruit-notAfter-2299-1 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> swdt:floruit-notBefore "0440-09-29"^^xsd:date . 
+<http://syriaca.org/person/2299> sp:floruit-notBefore swds:floruit-notBefore-2299-2 . 
+swds:floruit-notBefore-2299-2 sps:floruit-notBefore "0440-09-29"^^xsd:date . 
+swds:floruit-notBefore-2299-2 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2299> sp:gender swds:gender-2299-1 . 
+swds:gender-2299-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2299-1 spr:reference-URL <http://syriaca.org/person/2299> . 
+<http://syriaca.org/person/2299> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/2299> sp:occupation swds:occupation-2299-1 . 
+swds:occupation-2299-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-2299-1 spr:reference-URL <http://syriaca.org/person/2299> .

@@ -1,0 +1,141 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/200> rdf:type lawd:Place . 
+<http://syriaca.org/place/200> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/200> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/place/200> rdfs:partOf <http://syriaca.org/johnofephesus/places> . 
+<http://syriaca.org/place/200> foaf:primaryTopicOf <http://syriaca.org/place/200/tei> . 
+<http://syriaca.org/place/200> foaf:primaryTopicOf <http://syriaca.org/place/200/html> . 
+<http://syriaca.org/place/200> dcterms:hasFormat <http://syriaca.org/place/200/tei> . 
+<http://syriaca.org/place/200> dcterms:hasFormat <http://syriaca.org/place/200/html> . 
+<http://syriaca.org/place/200> dcterms:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/place/200> dcterms:relation <http://syriaca.org/place/130> . 
+<http://syriaca.org/place/200> dcterms:relation <http://syriaca.org/place/486> . 
+<http://syriaca.org/place/200> swdt:name-variant "Tella"@en . 
+<http://syriaca.org/place/200> swdt:name-variant "Constantina"@en . 
+<http://syriaca.org/place/200> swdt:name-variant "ܬܠܐ"@syr . 
+<http://syriaca.org/place/200> swdt:name-variant "ܬܶܠ ܡܰܘܙܠܰܬ"@syr-Syrj . 
+<http://syriaca.org/place/200> swdt:name-variant "ܘܶܝܪܰܐܢܫܰܗܝܪ"@syr-Syrj . 
+<http://syriaca.org/place/200> swdt:name-variant "تلا"@ar . 
+<http://syriaca.org/place/200> swdt:name-variant "تلّ موزلث"@ar . 
+<http://syriaca.org/place/200> swdt:name-variant "تلّ موزن"@ar . 
+<http://syriaca.org/place/200> swdt:name-variant "ويران شهر"@ar . 
+<http://syriaca.org/place/200> swdt:name-variant "Tell Mawzalt"@en . 
+<http://syriaca.org/place/200> swdt:name-variant "Mawzan"@en . 
+<http://syriaca.org/place/200> swdt:name-variant "Wayran Shahr"@en . 
+<http://syriaca.org/place/200> swdt:name-variant "Viransehir"@en . 
+<http://syriaca.org/place/200> swdt:name-variant "تل مَوْزَن"@ar . 
+<http://syriaca.org/place/200> swdt:name-variant "ܡܕܝܢܬܐ"@syr . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-1 . 
+swds:Place-200-1 sps:name-variant "Tella"@en . 
+swds:Place-200-1 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-2 . 
+swds:Place-200-2 sps:name-variant "Constantina"@en . 
+swds:Place-200-2 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-3 . 
+swds:Place-200-3 sps:name-variant "ܬܠܐ"@syr . 
+swds:Place-200-3 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-4 . 
+swds:Place-200-4 sps:name-variant "ܬܶܠ ܡܰܘܙܠܰܬ"@syr-Syrj . 
+swds:Place-200-4 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-5 . 
+swds:Place-200-5 sps:name-variant "ܘܶܝܪܰܐܢܫܰܗܝܪ"@syr-Syrj . 
+swds:Place-200-5 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-6 . 
+swds:Place-200-6 sps:name-variant "تلا"@ar . 
+swds:Place-200-6 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-7 . 
+swds:Place-200-7 sps:name-variant "تلّ موزلث"@ar . 
+swds:Place-200-7 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-8 . 
+swds:Place-200-8 sps:name-variant "تلّ موزن"@ar . 
+swds:Place-200-8 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-9 . 
+swds:Place-200-9 sps:name-variant "ويران شهر"@ar . 
+swds:Place-200-9 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-10 . 
+swds:Place-200-10 sps:name-variant "Tell Mawzalt"@en . 
+swds:Place-200-10 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-11 . 
+swds:Place-200-11 sps:name-variant "Mawzan"@en . 
+swds:Place-200-11 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-12 . 
+swds:Place-200-12 sps:name-variant "Wayran Shahr"@en . 
+swds:Place-200-12 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-13 . 
+swds:Place-200-13 sps:name-variant "Viransehir"@en . 
+swds:Place-200-13 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-14 . 
+swds:Place-200-14 sps:name-variant "تل مَوْزَن"@ar . 
+swds:Place-200-14 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> sp:name-variant swds:Place-200-15 . 
+swds:Place-200-15 sps:name-variant "ܡܕܝܢܬܐ"@syr . 
+swds:Place-200-15 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:closeMatch "http://pleiades.stoa.org/places/874324" . 
+<http://syriaca.org/place/200> sp:closeMatch swds:closeMatch-200-1 . 
+swds:closeMatch-200-1 sps:closeMatch "http://pleiades.stoa.org/places/874324" . 
+swds:closeMatch-200-1 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:closeMatch "http://en.wikipedia.org/wiki/Viranşehir" . 
+<http://syriaca.org/place/200> sp:closeMatch swds:closeMatch-200-2 . 
+swds:closeMatch-200-2 sps:closeMatch "http://en.wikipedia.org/wiki/Viranşehir" . 
+swds:closeMatch-200-2 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:closeMatch "http://dbpedia.org/resource/Viranşehir" . 
+<http://syriaca.org/place/200> sp:closeMatch swds:closeMatch-200-3 . 
+swds:closeMatch-200-3 sps:closeMatch "http://dbpedia.org/resource/Viranşehir" . 
+swds:closeMatch-200-3 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:exist-from "0484"^^xsd:gYear . 
+<http://syriaca.org/place/200> sp:exist-from swds:exist-from-200-1 . 
+swds:exist-from-200-1 sps:exist-from "0484"^^xsd:gYear . 
+swds:exist-from-200-1 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:exist-to "2013"^^xsd:gYear . 
+<http://syriaca.org/place/200> sp:exist-to swds:exist-to-200-1 . 
+swds:exist-to-200-1 sps:exist-to "2013"^^xsd:gYear . 
+swds:exist-to-200-1 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:has-gps-coordinates "37.233333 39.766666" . 
+<http://syriaca.org/place/200> sp:has-gps-coordinates "37.233333 39.766666" . 
+swds:coordinates-200-1 spr:reference-URL <http://syriaca.org/place/200> . 
+<place/200> swdt:share-a-name <place/1889> . 
+<place/200> sp:share-a-name swds:activeRelationshare-a-name-200-11 . 
+swds:activeRelationshare-a-name-200-11 swd:share-a-name <place/1889> . 
+swds:activeRelationshare-a-name-200-11 spr:reference-URL <http://syriaca.org/place/200> . 
+<place/1889> swdt:share-a-name <place/200> . 
+<place/1889> sp:share-a-name swds:activeRelationshare-a-name-200-11 . 
+swds:activeRelationshare-a-name-200-11 swd:share-a-name <place/200> . 
+swds:activeRelationshare-a-name-200-11 spr:reference-URL <http://syriaca.org/place/200> . 
+<place/1889> swdt:share-a-name <place/200> . 
+<place/1889> sp:share-a-name swds:activeRelationshare-a-name-200-12 . 
+swds:activeRelationshare-a-name-200-12 swd:share-a-name <place/200> . 
+swds:activeRelationshare-a-name-200-12 spr:reference-URL <http://syriaca.org/place/200> . 
+<place/200> swdt:share-a-name <place/1889> . 
+<place/200> sp:share-a-name swds:activeRelationshare-a-name-200-11 . 
+swds:activeRelationshare-a-name-200-11 swd:share-a-name <place/1889> . 
+swds:activeRelationshare-a-name-200-11 spr:reference-URL <http://syriaca.org/place/200> . 
+<http://syriaca.org/place/200> swdt:broader <http://syriaca.org/place/486> . 
+<http://syriaca.org/place/200> sp:broader swds:activeRelationbroader-200-21 . 
+swds:activeRelationbroader-200-21 swd:broader <http://syriaca.org/place/486> . 
+swds:activeRelationbroader-200-21 spr:reference-URL <http://syriaca.org/place/200> .

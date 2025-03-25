@@ -1,0 +1,87 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/697> rdf:type lawd:Place . 
+<http://syriaca.org/place/697> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/697> foaf:primaryTopicOf <http://syriaca.org/place/697/tei> . 
+<http://syriaca.org/place/697> foaf:primaryTopicOf <http://syriaca.org/place/697/html> . 
+<http://syriaca.org/place/697> dcterms:hasFormat <http://syriaca.org/place/697/tei> . 
+<http://syriaca.org/place/697> dcterms:hasFormat <http://syriaca.org/place/697/html> . 
+<http://syriaca.org/place/697> dcterms:relation <http://syriaca.org/place/136> . 
+<http://syriaca.org/place/697> dcterms:relation <http://syriaca.org/place/8> . 
+<http://syriaca.org/place/697> swdt:name-variant "Maʿmūrat al-ʿAzīz"@en . 
+<http://syriaca.org/place/697> swdt:name-variant "ܐܠܥܙܝܓ"@syr . 
+<http://syriaca.org/place/697> swdt:name-variant "ܐܰܠܥܰܙܝܺܓ"@syr-Syrj . 
+<http://syriaca.org/place/697> swdt:name-variant "معمورة العزيز"@ar . 
+<http://syriaca.org/place/697> swdt:name-variant "Mamūrat al-Azīz"@en-x-srp1 . 
+<http://syriaca.org/place/697> swdt:name-variant "Ma‘mūrat al-‘Azīz"@en-x-srp1 . 
+<http://syriaca.org/place/697> sp:name-variant swds:Place-697-1 . 
+swds:Place-697-1 sps:name-variant "Maʿmūrat al-ʿAzīz"@en . 
+swds:Place-697-1 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> sp:name-variant swds:Place-697-2 . 
+swds:Place-697-2 sps:name-variant "ܐܠܥܙܝܓ"@syr . 
+swds:Place-697-2 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> sp:name-variant swds:Place-697-3 . 
+swds:Place-697-3 sps:name-variant "ܐܰܠܥܰܙܝܺܓ"@syr-Syrj . 
+swds:Place-697-3 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> sp:name-variant swds:Place-697-4 . 
+swds:Place-697-4 sps:name-variant "معمورة العزيز"@ar . 
+swds:Place-697-4 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> sp:name-variant swds:Place-697-5 . 
+swds:Place-697-5 sps:name-variant "Mamūrat al-Azīz"@en-x-srp1 . 
+swds:Place-697-5 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> sp:name-variant swds:Place-697-6 . 
+swds:Place-697-6 sps:name-variant "Ma‘mūrat al-‘Azīz"@en-x-srp1 . 
+swds:Place-697-6 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> swdt:closeMatch "http://en.wikipedia.org/wiki/Elâzığ" . 
+<http://syriaca.org/place/697> sp:closeMatch swds:closeMatch-697-1 . 
+swds:closeMatch-697-1 sps:closeMatch "http://en.wikipedia.org/wiki/Elâzığ" . 
+swds:closeMatch-697-1 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> swdt:closeMatch "http://dbpedia.org/resource/Elâzığ" . 
+<http://syriaca.org/place/697> sp:closeMatch swds:closeMatch-697-2 . 
+swds:closeMatch-697-2 sps:closeMatch "http://dbpedia.org/resource/Elâzığ" . 
+swds:closeMatch-697-2 spr:reference-URL <http://syriaca.org/place/697> . 
+<http://syriaca.org/place/697> swdt:exist-from "1834"^^xsd:gYear . 
+<http://syriaca.org/place/697> sp:exist-from swds:exist-from-697-1 . 
+swds:exist-from-697-1 sps:exist-from "1834"^^xsd:gYear . 
+swds:exist-from-697-1 spr:reference-URL <http://syriaca.org/place/697> . 
+<place/697> swdt:share-a-name <place/696> . 
+<place/697> sp:share-a-name swds:activeRelationshare-a-name-697-11 . 
+swds:activeRelationshare-a-name-697-11 swd:share-a-name <place/696> . 
+swds:activeRelationshare-a-name-697-11 spr:reference-URL <http://syriaca.org/place/697> . 
+<place/696> swdt:share-a-name <place/697> . 
+<place/696> sp:share-a-name swds:activeRelationshare-a-name-697-11 . 
+swds:activeRelationshare-a-name-697-11 swd:share-a-name <place/697> . 
+swds:activeRelationshare-a-name-697-11 spr:reference-URL <http://syriaca.org/place/697> . 
+<place/696> swdt:share-a-name <place/697> . 
+<place/696> sp:share-a-name swds:activeRelationshare-a-name-697-12 . 
+swds:activeRelationshare-a-name-697-12 swd:share-a-name <place/697> . 
+swds:activeRelationshare-a-name-697-12 spr:reference-URL <http://syriaca.org/place/697> . 
+<place/697> swdt:share-a-name <place/696> . 
+<place/697> sp:share-a-name swds:activeRelationshare-a-name-697-11 . 
+swds:activeRelationshare-a-name-697-11 swd:share-a-name <place/696> . 
+swds:activeRelationshare-a-name-697-11 spr:reference-URL <http://syriaca.org/place/697> .

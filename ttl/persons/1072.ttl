@@ -1,0 +1,105 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1072> rdf:type lawd:Person . 
+<http://syriaca.org/person/1072> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1072> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/1072> rdfs:label "ܦܛܪܘܣ ܕܡܛܘܫ"@syr . 
+<http://syriaca.org/person/1072> rdfs:label "Peter of Matush"@en . 
+<http://syriaca.org/person/1072> foaf:primaryTopicOf <http://syriaca.org/person/1072/tei> . 
+<http://syriaca.org/person/1072> foaf:primaryTopicOf <http://syriaca.org/person/1072/html> . 
+<http://syriaca.org/person/1072> dcterms:hasFormat <http://syriaca.org/person/1072/tei> . 
+<http://syriaca.org/person/1072> dcterms:hasFormat <http://syriaca.org/person/1072/html> . 
+<http://syriaca.org/person/1072> schema:description "Peter of Matush (known in print as Petrus Metoscita) was a cleric and scholar of Arabic in the sixteenth and seventeenth centuries C.E. Born to a Maronite family in Cyprus , he studied at the Maronite College in Rome where he later taught and became a Jesuit. He is the author of an Arabic grammar Institutiones linguae arabicae ."@en . 
+<http://syriaca.org/person/1072> foaf:primaryTopicOf <http://syriaca.org/place/714> . 
+<http://syriaca.org/person/1072> foaf:primaryTopicOf <http://syriaca.org/place/641> . 
+<http://syriaca.org/person/1072> foaf:primaryTopicOf <http://syriaca.org/place/714> . 
+<http://syriaca.org/person/1072> foaf:primaryTopicOf <http://syriaca.org/place/641> . 
+<http://syriaca.org/person/1072> swdt:name-variant "ܦܛܪܘܣ ܕܡܛܘܫ"@syr . 
+<http://syriaca.org/person/1072> swdt:name-variant "Peṭros of Maṭush"@en-x-gedsh . 
+<http://syriaca.org/person/1072> swdt:name-variant "Peter of Matush"@en . 
+<http://syriaca.org/person/1072> swdt:name-variant "Peter al-Matushi"@en . 
+<http://syriaca.org/person/1072> swdt:name-variant "Buṭrus al-Maṭūši"@de . 
+<http://syriaca.org/person/1072> swdt:name-variant "Buṭrus al-Maṭūši"@de . 
+<http://syriaca.org/person/1072> swdt:name-variant "Petrus Metoscita"@la . 
+<http://syriaca.org/person/1072> swdt:name-variant "Pietro Metoscita"@it . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-1 . 
+swds:Person-1072-1 sps:name-variant "ܦܛܪܘܣ ܕܡܛܘܫ"@syr . 
+swds:Person-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-2 . 
+swds:Person-1072-2 sps:name-variant "Peṭros of Maṭush"@en-x-gedsh . 
+swds:Person-1072-2 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-3 . 
+swds:Person-1072-3 sps:name-variant "Peter of Matush"@en . 
+swds:Person-1072-3 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-4 . 
+swds:Person-1072-4 sps:name-variant "Peter al-Matushi"@en . 
+swds:Person-1072-4 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-5 . 
+swds:Person-1072-5 sps:name-variant "Buṭrus al-Maṭūši"@de . 
+swds:Person-1072-5 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-6 . 
+swds:Person-1072-6 sps:name-variant "Buṭrus al-Maṭūši"@de . 
+swds:Person-1072-6 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-7 . 
+swds:Person-1072-7 sps:name-variant "Petrus Metoscita"@la . 
+swds:Person-1072-7 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> sp:name-variant swds:Person-1072-8 . 
+swds:Person-1072-8 sps:name-variant "Pietro Metoscita"@it . 
+swds:Person-1072-8 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1072" . 
+<http://syriaca.org/person/1072> sp:closeMatch swds:closeMatch-1072-1 . 
+swds:closeMatch-1072-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1072" . 
+swds:closeMatch-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:closeMatch "http://viaf.org/viaf/12648603" . 
+<http://syriaca.org/person/1072> sp:closeMatch swds:closeMatch-1072-2 . 
+swds:closeMatch-1072-2 sps:closeMatch "http://viaf.org/viaf/12648603" . 
+swds:closeMatch-1072-2 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:birth-when "1569"^^xsd:gYear . 
+<http://syriaca.org/person/1072> sp:birth-when swds:birth-when-1072-1 . 
+swds:birth-when-1072-1 sps:birth-when "1569"^^xsd:gYear . 
+swds:birth-when-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:death-when "1625"^^xsd:gYear . 
+<http://syriaca.org/person/1072> sp:death-when swds:death-when-1072-1 . 
+swds:death-when-1072-1 sps:death-when "1625"^^xsd:gYear . 
+swds:death-when-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:birth-place <http://syriaca.org/place/714> . 
+<http://syriaca.org/person/1072> sp:birth-place swds:birth-place-1072-1 . 
+swds:birth-place-1072-1 sps:birth-place <http://syriaca.org/place/714> . 
+swds:birth-place-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:death-place <http://syriaca.org/place/641> . 
+<http://syriaca.org/person/1072> sp:death-place swds:death-place-1072-1 . 
+swds:death-place-1072-1 sps:death-place <http://syriaca.org/place/641> . 
+swds:death-place-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1072> sp:gender swds:gender-1072-1 . 
+swds:gender-1072-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1072-1 spr:reference-URL <http://syriaca.org/person/1072> . 
+<http://syriaca.org/person/1072> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/1072> sp:status swds:status-1072-1 . 
+swds:status-1072-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-1072-1 spr:reference-URL <http://syriaca.org/person/1072> .

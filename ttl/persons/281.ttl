@@ -1,0 +1,96 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/281> rdf:type lawd:Person . 
+<http://syriaca.org/person/281> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/281> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/281> rdfs:label "Gregorius Joseph , metropolitan of Jerusalem"@en . 
+<http://syriaca.org/person/281> rdfs:label "ܝܘܣܦ ܐܝܒܪܝܐ"@syr . 
+<http://syriaca.org/person/281> foaf:primaryTopicOf <http://syriaca.org/person/281/tei> . 
+<http://syriaca.org/person/281> foaf:primaryTopicOf <http://syriaca.org/person/281/html> . 
+<http://syriaca.org/person/281> dcterms:hasFormat <http://syriaca.org/person/281/tei> . 
+<http://syriaca.org/person/281> dcterms:hasFormat <http://syriaca.org/person/281/html> . 
+<http://syriaca.org/person/281> schema:description "Minor author, scribe and bp. of Jerusalem (1510/12-1537)."@en . 
+<http://syriaca.org/person/281> foaf:primaryTopicOf <http://syriaca.org/place/2321> . 
+<http://syriaca.org/person/281> foaf:primaryTopicOf <http://syriaca.org/place/18> . 
+<http://syriaca.org/person/281> swdt:name-variant "Gregorius Joseph , metropolitan of Jerusalem"@en . 
+<http://syriaca.org/person/281> swdt:name-variant "Grigorios Yawseph"@en-x-gedsh . 
+<http://syriaca.org/person/281> swdt:name-variant "Joseph al-Gurji , metropolitan of Jerusalem"@en . 
+<http://syriaca.org/person/281> swdt:name-variant "يوسف الكرجي مطران اورشليم"@ar . 
+<http://syriaca.org/person/281> swdt:name-variant "ܝܘܣܦ ܐܝܒܪܝܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܘܪܫܠܡ"@syr . 
+<http://syriaca.org/person/281> swdt:name-variant "ܝܰܘܣܦ ܐܝܒܰܪܝܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܽܘܪܶܫܠܡ"@syr-Syrj . 
+<http://syriaca.org/person/281> swdt:name-variant "ܝܘܣܦ ܐܝܒܪܝܐ"@syr . 
+<http://syriaca.org/person/281> swdt:name-variant "Gregory Joseph IV the Iberian"@en . 
+<http://syriaca.org/person/281> swdt:name-variant "Gregory Joseph IV the Iberian of Jerusalem"@en . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-1 . 
+swds:Person-281-1 sps:name-variant "Gregorius Joseph , metropolitan of Jerusalem"@en . 
+swds:Person-281-1 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-2 . 
+swds:Person-281-2 sps:name-variant "Grigorios Yawseph"@en-x-gedsh . 
+swds:Person-281-2 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-3 . 
+swds:Person-281-3 sps:name-variant "Joseph al-Gurji , metropolitan of Jerusalem"@en . 
+swds:Person-281-3 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-4 . 
+swds:Person-281-4 sps:name-variant "يوسف الكرجي مطران اورشليم"@ar . 
+swds:Person-281-4 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-5 . 
+swds:Person-281-5 sps:name-variant "ܝܘܣܦ ܐܝܒܪܝܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܘܪܫܠܡ"@syr . 
+swds:Person-281-5 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-6 . 
+swds:Person-281-6 sps:name-variant "ܝܰܘܣܦ ܐܝܒܰܪܝܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܽܘܪܶܫܠܡ"@syr-Syrj . 
+swds:Person-281-6 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-7 . 
+swds:Person-281-7 sps:name-variant "ܝܘܣܦ ܐܝܒܪܝܐ"@syr . 
+swds:Person-281-7 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-8 . 
+swds:Person-281-8 sps:name-variant "Gregory Joseph IV the Iberian"@en . 
+swds:Person-281-8 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> sp:name-variant swds:Person-281-9 . 
+swds:Person-281-9 sps:name-variant "Gregory Joseph IV the Iberian of Jerusalem"@en . 
+swds:Person-281-9 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_281" . 
+<http://syriaca.org/person/281> sp:closeMatch swds:closeMatch-281-1 . 
+swds:closeMatch-281-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_281" . 
+swds:closeMatch-281-1 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> swdt:death-when "1537"^^xsd:gYear . 
+<http://syriaca.org/person/281> sp:death-when swds:death-when-281-1 . 
+swds:death-when-281-1 sps:death-when "1537"^^xsd:gYear . 
+swds:death-when-281-1 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> swdt:birth-place <http://syriaca.org/place/18> . 
+<http://syriaca.org/person/281> sp:birth-place swds:birth-place-281-1 . 
+swds:birth-place-281-1 sps:birth-place <http://syriaca.org/place/18> . 
+swds:birth-place-281-1 spr:reference-URL <http://syriaca.org/person/281> . 
+<http://syriaca.org/person/281> swdt:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+<http://syriaca.org/person/281> sp:occupation swds:occupation-281-1 . 
+swds:occupation-281-1 sps:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+swds:occupation-281-1 spr:reference-URL <http://syriaca.org/person/281> . 
+swds:occupation-281-1 spq:from "1510"^^xsd:gYear . 
+<http://syriaca.org/person/281> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/281> sp:status swds:status-281-1 . 
+swds:status-281-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-281-1 spr:reference-URL <http://syriaca.org/person/281> .

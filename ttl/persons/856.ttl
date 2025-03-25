@@ -1,0 +1,151 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/856> rdf:type lawd:Person . 
+<http://syriaca.org/person/856> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/856> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/856> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/856> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/856> rdfs:label "ܡܩܪܝܣ"@syr . 
+<http://syriaca.org/person/856> rdfs:label "Macarius"@en . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/HANSFKIU> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/2DAFGR5W> . 
+<http://syriaca.org/person/856> lawd:hasCitation <http://syriaca.org/cbss/UT22G6V2> . 
+<http://syriaca.org/person/856> foaf:primaryTopicOf <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> foaf:primaryTopicOf <http://syriaca.org/person/856.html> . 
+<http://syriaca.org/person/856> foaf:primaryTopicOf <http://syriaca.org/person/856.ttl> . 
+<http://syriaca.org/person/856> foaf:primaryTopicOf <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> dcterms:hasFormat <http://syriaca.org/person/856.html> . 
+<http://syriaca.org/person/856> dcterms:hasFormat <http://syriaca.org/person/856.ttl> . 
+<http://syriaca.org/person/856> schema:description "In hagiography: Māqārīs (Macarius) the Elder was an ascetic who came into the Syriac tradition via ʿEnanishoʿ 's Syriac translation of the Paradise of the Fathers by Palladius ."@en . 
+<http://syriaca.org/person/856> dcterms:relation <http://syriaca.org/person/474> . 
+<http://syriaca.org/person/856> dcterms:relation <http://syriaca.org/person/668> . 
+<http://syriaca.org/person/856> dcterms:relation <http://syriaca.org/person/3501> . 
+<http://syriaca.org/person/856> swdt:name-variant "Macarius the Great and Egyptian"@en . 
+<http://syriaca.org/person/856> swdt:name-variant "مقاريوس المصري"@ar . 
+<http://syriaca.org/person/856> swdt:name-variant "ܡܩܪܝܣ"@syr . 
+<http://syriaca.org/person/856> swdt:name-variant "ܡܩܪܝܣ ܐܚܪܢܐ"@syr . 
+<http://syriaca.org/person/856> swdt:name-variant "ܡܲܩܵܪܝܼܣ ܐܚܪܹܢܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/856> swdt:name-variant "Macarius"@en-x-gedsh . 
+<http://syriaca.org/person/856> swdt:name-variant "Abba Macarius"@en . 
+<http://syriaca.org/person/856> swdt:name-variant "Māqārīs"@en-x-gedsh . 
+<http://syriaca.org/person/856> swdt:name-variant "Māqārīs"@fr-x-zanetti . 
+<http://syriaca.org/person/856> swdt:name-variant "Macaire"@fr . 
+<http://syriaca.org/person/856> swdt:name-variant "Macarius"@en . 
+<http://syriaca.org/person/856> swdt:name-variant "Macarius the Egyptian"@en . 
+<http://syriaca.org/person/856> swdt:name-variant "Anba Macarius"@en . 
+<http://syriaca.org/person/856> swdt:name-variant "Macaire l’Égyptien"@fr . 
+<http://syriaca.org/person/856> swdt:name-variant "ANBA MACAIRE"@fr-x-fiey . 
+<http://syriaca.org/person/856> swdt:name-variant "Makarios"@de-x-baumstrk . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-1 . 
+swds:Person-856-1 sps:name-variant "Macarius the Great and Egyptian"@en . 
+swds:Person-856-1 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-2 . 
+swds:Person-856-2 sps:name-variant "مقاريوس المصري"@ar . 
+swds:Person-856-2 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-3 . 
+swds:Person-856-3 sps:name-variant "ܡܩܪܝܣ"@syr . 
+swds:Person-856-3 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-4 . 
+swds:Person-856-4 sps:name-variant "ܡܩܪܝܣ ܐܚܪܢܐ"@syr . 
+swds:Person-856-4 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-5 . 
+swds:Person-856-5 sps:name-variant "ܡܲܩܵܪܝܼܣ ܐܚܪܹܢܵܐ"@syr-Syrn . 
+swds:Person-856-5 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-6 . 
+swds:Person-856-6 sps:name-variant "Macarius"@en-x-gedsh . 
+swds:Person-856-6 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-7 . 
+swds:Person-856-7 sps:name-variant "Abba Macarius"@en . 
+swds:Person-856-7 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-8 . 
+swds:Person-856-8 sps:name-variant "Māqārīs"@en-x-gedsh . 
+swds:Person-856-8 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-9 . 
+swds:Person-856-9 sps:name-variant "Māqārīs"@fr-x-zanetti . 
+swds:Person-856-9 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-10 . 
+swds:Person-856-10 sps:name-variant "Macaire"@fr . 
+swds:Person-856-10 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-11 . 
+swds:Person-856-11 sps:name-variant "Macarius"@en . 
+swds:Person-856-11 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-12 . 
+swds:Person-856-12 sps:name-variant "Macarius the Egyptian"@en . 
+swds:Person-856-12 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-13 . 
+swds:Person-856-13 sps:name-variant "Anba Macarius"@en . 
+swds:Person-856-13 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-14 . 
+swds:Person-856-14 sps:name-variant "Macaire l’Égyptien"@fr . 
+swds:Person-856-14 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-15 . 
+swds:Person-856-15 sps:name-variant "ANBA MACAIRE"@fr-x-fiey . 
+swds:Person-856-15 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> sp:name-variant swds:Person-856-16 . 
+swds:Person-856-16 sps:name-variant "Makarios"@de-x-baumstrk . 
+swds:Person-856-16 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_856> . 
+<http://syriaca.org/person/856> sp:closeMatch swds:closeMatch-856-1 . 
+swds:closeMatch-856-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_856> . 
+swds:closeMatch-856-1 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Abba Macarius&sT=keywords> . 
+<http://syriaca.org/person/856> sp:closeMatch swds:closeMatch-856-2 . 
+swds:closeMatch-856-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Abba Macarius&sT=keywords> . 
+swds:closeMatch-856-2 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:death-when "0390"^^xsd:gYear . 
+<http://syriaca.org/person/856> sp:death-when swds:death-when-856-1 . 
+swds:death-when-856-1 sps:death-when "0390"^^xsd:gYear . 
+swds:death-when-856-1 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/856> sp:gender swds:gender-856-1 . 
+swds:gender-856-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-856-1 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/856> sp:status swds:status-856-1 . 
+swds:status-856-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-856-1 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/856> sp:status swds:status-856-2 . 
+swds:status-856-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-856-2 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/3501> swdt:shares-attribution-with <http://syriaca.org/person/856> . 
+<http://syriaca.org/person/3501> sp:shares-attribution-with swds:activeRelationshares-attribution-with-856-11 . 
+swds:activeRelationshares-attribution-with-856-11 swd:shares-attribution-with <http://syriaca.org/person/856> . 
+swds:activeRelationshares-attribution-with-856-11 spr:reference-URL <http://syriaca.org/person/856.tei> . 
+<http://syriaca.org/person/856> swdt:shares-attribution-with <http://syriaca.org/person/3501> . 
+<http://syriaca.org/person/856> sp:shares-attribution-with swds:activeRelationshares-attribution-with-856-12 . 
+swds:activeRelationshares-attribution-with-856-12 swd:shares-attribution-with <http://syriaca.org/person/3501> . 
+swds:activeRelationshares-attribution-with-856-12 spr:reference-URL <http://syriaca.org/person/856.tei> .

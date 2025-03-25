@@ -1,0 +1,180 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/790> rdf:type lawd:Person . 
+<http://syriaca.org/person/790> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/790> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/790> rdfs:label "ܛܝܡܬܐܘܣ ܩܕܡܝܐ"@syr . 
+<http://syriaca.org/person/790> rdfs:label "Timothy I , catholicos"@en . 
+<http://syriaca.org/person/790> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/790> foaf:primaryTopicOf <http://syriaca.org/person/790/tei> . 
+<http://syriaca.org/person/790> foaf:primaryTopicOf <http://syriaca.org/person/790/html> . 
+<http://syriaca.org/person/790> dcterms:hasFormat <http://syriaca.org/person/790/tei> . 
+<http://syriaca.org/person/790> dcterms:hasFormat <http://syriaca.org/person/790/html> . 
+<http://syriaca.org/person/790> schema:description "Cath. of the Ch. of E. Timotheos was born in the village of Ḥazza (near Arbela in Iraq )."@en . 
+<http://syriaca.org/person/790> foaf:primaryTopicOf <http://syriaca.org/place/13> . 
+<http://syriaca.org/person/790> foaf:primaryTopicOf <http://syriaca.org/place/98> . 
+<http://syriaca.org/person/790> swdt:name-variant "Timotheos I"@en-x-gedsh . 
+<http://syriaca.org/person/790> swdt:name-variant "Catholicos Timothy I"@en . 
+<http://syriaca.org/person/790> swdt:name-variant "طيمثاوس الاول جاثليق النساطرة"@ar . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܝܡܬܐܘܣ ܩܕܡܝܐ ܩܬܘܠܝܩܐ ܕܢܣܛܘܪ̈ܝܢܘ"@syr . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܺܝܡܰܬܐܘܳܣ ܩܰܕܡܳܝܐ ܩܰܬܽܘܠܺܝܩܐ ܕܢܰܣܛܘܽܪ̈ܝܰܢܘ"@syr-Syrj . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܝܡܬܐܘܣ ܩܕܡܝܐ"@syr . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܝܡܬܐܘܣ"@syr . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܝܼܡܵܬܹܐܘܿܣ"@syr-Syrn . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܝܡܘܬܐܘܣ"@syr . 
+<http://syriaca.org/person/790> swdt:name-variant "ܛܝܺܡܽܘܬܶܐܘܳܣ"@syr-Syrj . 
+<http://syriaca.org/person/790> swdt:name-variant "Timothy I"@en . 
+<http://syriaca.org/person/790> swdt:name-variant "Timothy I , catholicos"@en . 
+<http://syriaca.org/person/790> swdt:name-variant "Timotheus I Katholikos"@la . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-1 . 
+swds:Person-790-1 sps:name-variant "Timotheos I"@en-x-gedsh . 
+swds:Person-790-1 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-2 . 
+swds:Person-790-2 sps:name-variant "Catholicos Timothy I"@en . 
+swds:Person-790-2 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-3 . 
+swds:Person-790-3 sps:name-variant "طيمثاوس الاول جاثليق النساطرة"@ar . 
+swds:Person-790-3 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-4 . 
+swds:Person-790-4 sps:name-variant "ܛܝܡܬܐܘܣ ܩܕܡܝܐ ܩܬܘܠܝܩܐ ܕܢܣܛܘܪ̈ܝܢܘ"@syr . 
+swds:Person-790-4 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-5 . 
+swds:Person-790-5 sps:name-variant "ܛܺܝܡܰܬܐܘܳܣ ܩܰܕܡܳܝܐ ܩܰܬܽܘܠܺܝܩܐ ܕܢܰܣܛܘܽܪ̈ܝܰܢܘ"@syr-Syrj . 
+swds:Person-790-5 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-6 . 
+swds:Person-790-6 sps:name-variant "ܛܝܡܬܐܘܣ ܩܕܡܝܐ"@syr . 
+swds:Person-790-6 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-7 . 
+swds:Person-790-7 sps:name-variant "ܛܝܡܬܐܘܣ"@syr . 
+swds:Person-790-7 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-8 . 
+swds:Person-790-8 sps:name-variant "ܛܝܼܡܵܬܹܐܘܿܣ"@syr-Syrn . 
+swds:Person-790-8 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-9 . 
+swds:Person-790-9 sps:name-variant "ܛܝܡܘܬܐܘܣ"@syr . 
+swds:Person-790-9 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-10 . 
+swds:Person-790-10 sps:name-variant "ܛܝܺܡܽܘܬܶܐܘܳܣ"@syr-Syrj . 
+swds:Person-790-10 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-11 . 
+swds:Person-790-11 sps:name-variant "Timothy I"@en . 
+swds:Person-790-11 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-12 . 
+swds:Person-790-12 sps:name-variant "Timothy I , catholicos"@en . 
+swds:Person-790-12 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> sp:name-variant swds:Person-790-13 . 
+swds:Person-790-13 sps:name-variant "Timotheus I Katholikos"@la . 
+swds:Person-790-13 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_790" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-1 . 
+swds:closeMatch-790-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_790" . 
+swds:closeMatch-790-1 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/9370634" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-2 . 
+swds:closeMatch-790-2 sps:closeMatch "http://viaf.org/viaf/9370634" . 
+swds:closeMatch-790-2 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/lccn-nb2006-22892" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-3 . 
+swds:closeMatch-790-3 sps:closeMatch "http://worldcat.org/identities/lccn-nb2006-22892" . 
+swds:closeMatch-790-3 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/np-timotheus i$patriarch of the nestorians$d 821" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-4 . 
+swds:closeMatch-790-4 sps:closeMatch "http://worldcat.org/identities/np-timotheus i$patriarch of the nestorians$d 821" . 
+swds:closeMatch-790-4 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/np-timotheus i$nestorian patriarch$d 821" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-5 . 
+swds:closeMatch-790-5 sps:closeMatch "http://worldcat.org/identities/np-timotheus i$nestorian patriarch$d 821" . 
+swds:closeMatch-790-5 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/np-timothee$ier$catholicos assyro chaldeen$07 0823" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-6 . 
+swds:closeMatch-790-6 sps:closeMatch "http://worldcat.org/identities/np-timothee$ier$catholicos assyro chaldeen$07 0823" . 
+swds:closeMatch-790-6 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/np-timotheus$nestorianus i" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-7 . 
+swds:closeMatch-790-7 sps:closeMatch "http://worldcat.org/identities/np-timotheus$nestorianus i" . 
+swds:closeMatch-790-7 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/np-timotheus i$728 823" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-8 . 
+swds:closeMatch-790-8 sps:closeMatch "http://worldcat.org/identities/np-timotheus i$728 823" . 
+swds:closeMatch-790-8 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://worldcat.org/identities/np-timotheus i, patriarch of the nestorians$d 821" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-9 . 
+swds:closeMatch-790-9 sps:closeMatch "http://worldcat.org/identities/np-timotheus i, patriarch of the nestorians$d 821" . 
+swds:closeMatch-790-9 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/122142733" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-10 . 
+swds:closeMatch-790-10 sps:closeMatch "http://viaf.org/viaf/122142733" . 
+swds:closeMatch-790-10 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/94383674" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-11 . 
+swds:closeMatch-790-11 sps:closeMatch "http://viaf.org/viaf/94383674" . 
+swds:closeMatch-790-11 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/233261478" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-12 . 
+swds:closeMatch-790-12 sps:closeMatch "http://viaf.org/viaf/233261478" . 
+swds:closeMatch-790-12 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/188943665" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-13 . 
+swds:closeMatch-790-13 sps:closeMatch "http://viaf.org/viaf/188943665" . 
+swds:closeMatch-790-13 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/207870884" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-14 . 
+swds:closeMatch-790-14 sps:closeMatch "http://viaf.org/viaf/207870884" . 
+swds:closeMatch-790-14 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/45036504" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-15 . 
+swds:closeMatch-790-15 sps:closeMatch "http://viaf.org/viaf/45036504" . 
+swds:closeMatch-790-15 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://viaf.org/viaf/185491906" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-16 . 
+swds:closeMatch-790-16 sps:closeMatch "http://viaf.org/viaf/185491906" . 
+swds:closeMatch-790-16 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Timothy I&sT=keywords" . 
+<http://syriaca.org/person/790> sp:closeMatch swds:closeMatch-790-17 . 
+swds:closeMatch-790-17 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Timothy I&sT=keywords" . 
+swds:closeMatch-790-17 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:birth-notBefore "0727"^^xsd:gYear . 
+<http://syriaca.org/person/790> sp:birth-notBefore swds:birth-notBefore-790-1 . 
+swds:birth-notBefore-790-1 sps:birth-notBefore "0727"^^xsd:gYear . 
+swds:birth-notBefore-790-1 spr:reference-URL swd:person/790 . 
+<http://syriaca.org/person/790> swdt:birth-notAfter "0728"^^xsd:gYear . 
+<http://syriaca.org/person/790> sp:birth-notAfter swds:birth-notAfter-790-1 . 
+swds:birth-notAfter-790-1 sps:birth-notAfter "0728"^^xsd:gYear . 
+swds:birth-notAfter-790-1 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:death-when "0823"^^xsd:gYear . 
+<http://syriaca.org/person/790> sp:death-when swds:death-when-790-1 . 
+swds:death-when-790-1 sps:death-when "0823"^^xsd:gYear . 
+swds:death-when-790-1 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:occupation <catholicos> . 
+<http://syriaca.org/person/790> sp:occupation swds:occupation-790-1 . 
+swds:occupation-790-1 sps:occupation <catholicos> . 
+swds:occupation-790-1 spr:reference-URL <http://syriaca.org/person/790> . 
+<http://syriaca.org/person/790> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/790> sp:status swds:status-790-1 . 
+swds:status-790-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-790-1 spr:reference-URL <http://syriaca.org/person/790> .

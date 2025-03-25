@@ -1,0 +1,92 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/264> rdf:type lawd:Person . 
+<http://syriaca.org/person/264> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/264> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/264> rdfs:label "Barsoum Maʿdanoyo , maphrian of the East"@en . 
+<http://syriaca.org/person/264> rdfs:label "ܒܪܨܘܡ ܡܥܕܢܝܐ"@syr . 
+<http://syriaca.org/person/264> foaf:primaryTopicOf <http://syriaca.org/person/264/tei> . 
+<http://syriaca.org/person/264> foaf:primaryTopicOf <http://syriaca.org/person/264/html> . 
+<http://syriaca.org/person/264> dcterms:hasFormat <http://syriaca.org/person/264/tei> . 
+<http://syriaca.org/person/264> dcterms:hasFormat <http://syriaca.org/person/264/html> . 
+<http://syriaca.org/person/264> swdt:name-variant "Barsoum Maʿdanoyo , maphrian of the East"@en . 
+<http://syriaca.org/person/264> swdt:name-variant "Barṣoum Ma‛dani , Maphryono of the East"@en . 
+<http://syriaca.org/person/264> swdt:name-variant "برصوم المعدني مفريان المشرق"@ar . 
+<http://syriaca.org/person/264> swdt:name-variant "ܒܪܨܘܡ ܡܥܕܢܝܐ ܡܦܪܝܢܐ ܕܡܕܢܚܐ"@syr . 
+<http://syriaca.org/person/264> swdt:name-variant "ܒܰܪܨܘܡ ܡܰܥܕܰܢܳܝܐ ܡܰܦܪܝܳܢܐ ܕܡܰܕܢܚܐ"@syr-Syrj . 
+<http://syriaca.org/person/264> swdt:name-variant "ܒܪܨܘܡ ܡܥܕܢܝܐ"@syr . 
+<http://syriaca.org/person/264> swdt:name-variant "Barṣawmo Maʿdanoyo"@en-x-gedsh . 
+<http://syriaca.org/person/264> swdt:name-variant "Barṣawmo Madanoyo"@en-x-srp1 . 
+<http://syriaca.org/person/264> swdt:name-variant "Barṣawmo Ma‘danoyo"@en-x-srp1 . 
+<http://syriaca.org/person/264> swdt:name-variant "Barsawma Madani"@en . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-1 . 
+swds:Person-264-1 sps:name-variant "Barsoum Maʿdanoyo , maphrian of the East"@en . 
+swds:Person-264-1 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-2 . 
+swds:Person-264-2 sps:name-variant "Barṣoum Ma‛dani , Maphryono of the East"@en . 
+swds:Person-264-2 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-3 . 
+swds:Person-264-3 sps:name-variant "برصوم المعدني مفريان المشرق"@ar . 
+swds:Person-264-3 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-4 . 
+swds:Person-264-4 sps:name-variant "ܒܪܨܘܡ ܡܥܕܢܝܐ ܡܦܪܝܢܐ ܕܡܕܢܚܐ"@syr . 
+swds:Person-264-4 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-5 . 
+swds:Person-264-5 sps:name-variant "ܒܰܪܨܘܡ ܡܰܥܕܰܢܳܝܐ ܡܰܦܪܝܳܢܐ ܕܡܰܕܢܚܐ"@syr-Syrj . 
+swds:Person-264-5 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-6 . 
+swds:Person-264-6 sps:name-variant "ܒܪܨܘܡ ܡܥܕܢܝܐ"@syr . 
+swds:Person-264-6 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-7 . 
+swds:Person-264-7 sps:name-variant "Barṣawmo Maʿdanoyo"@en-x-gedsh . 
+swds:Person-264-7 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-8 . 
+swds:Person-264-8 sps:name-variant "Barṣawmo Madanoyo"@en-x-srp1 . 
+swds:Person-264-8 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-9 . 
+swds:Person-264-9 sps:name-variant "Barṣawmo Ma‘danoyo"@en-x-srp1 . 
+swds:Person-264-9 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> sp:name-variant swds:Person-264-10 . 
+swds:Person-264-10 sps:name-variant "Barsawma Madani"@en . 
+swds:Person-264-10 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_264" . 
+<http://syriaca.org/person/264> sp:closeMatch swds:closeMatch-264-1 . 
+swds:closeMatch-264-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_264" . 
+swds:closeMatch-264-1 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> swdt:floruit-when "1455"^^xsd:gYear . 
+<http://syriaca.org/person/264> sp:floruit-when swds:floruit-when-264-1 . 
+swds:floruit-when-264-1 sps:floruit-when "1455"^^xsd:gYear . 
+swds:floruit-when-264-1 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> swdt:occupation <maphrian> . 
+<http://syriaca.org/person/264> sp:occupation swds:occupation-264-1 . 
+swds:occupation-264-1 sps:occupation <maphrian> . 
+swds:occupation-264-1 spr:reference-URL <http://syriaca.org/person/264> . 
+<http://syriaca.org/person/264> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/264> sp:status swds:status-264-1 . 
+swds:status-264-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-264-1 spr:reference-URL <http://syriaca.org/person/264> .

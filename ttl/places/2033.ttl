@@ -1,0 +1,62 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/2033> rdf:type lawd:Place . 
+<http://syriaca.org/place/2033> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/2033> foaf:primaryTopicOf <http://syriaca.org/place/2033/tei> . 
+<http://syriaca.org/place/2033> foaf:primaryTopicOf <http://syriaca.org/place/2033/html> . 
+<http://syriaca.org/place/2033> dcterms:hasFormat <http://syriaca.org/place/2033/tei> . 
+<http://syriaca.org/place/2033> dcterms:hasFormat <http://syriaca.org/place/2033/html> . 
+<http://syriaca.org/place/2033> dcterms:relation <http://syriaca.org/place/90> . 
+<http://syriaca.org/place/2033> swdt:name-variant "Mar Qardagh"@en . 
+<http://syriaca.org/place/2033> swdt:name-variant "Mār Qardāgh"@en . 
+<http://syriaca.org/place/2033> sp:name-variant swds:Place-2033-1 . 
+swds:Place-2033-1 sps:name-variant "Mar Qardagh"@en . 
+swds:Place-2033-1 spr:reference-URL <http://syriaca.org/place/2033> . 
+<http://syriaca.org/place/2033> sp:name-variant swds:Place-2033-2 . 
+swds:Place-2033-2 sps:name-variant "Mār Qardāgh"@en . 
+swds:Place-2033-2 spr:reference-URL <http://syriaca.org/place/2033> . 
+<http://syriaca.org/place/2033> swdt:broader <http://syriaca.org/place/90> . 
+<http://syriaca.org/place/2033> sp:broader swds:activeRelationbroader-2033-11 . 
+swds:activeRelationbroader-2033-11 swd:broader <http://syriaca.org/place/90> . 
+swds:activeRelationbroader-2033-11 spr:reference-URL <http://syriaca.org/place/2033> . 
+<place/2033> swdt:share-a-name <place/1888> . 
+<place/2033> sp:share-a-name swds:activeRelationshare-a-name-2033-21 . 
+swds:activeRelationshare-a-name-2033-21 swd:share-a-name <place/1888> . 
+swds:activeRelationshare-a-name-2033-21 spr:reference-URL <http://syriaca.org/place/2033> . 
+<place/1888> swdt:share-a-name <place/2033> . 
+<place/1888> sp:share-a-name swds:activeRelationshare-a-name-2033-21 . 
+swds:activeRelationshare-a-name-2033-21 swd:share-a-name <place/2033> . 
+swds:activeRelationshare-a-name-2033-21 spr:reference-URL <http://syriaca.org/place/2033> . 
+<place/1888> swdt:share-a-name <place/2033> . 
+<place/1888> sp:share-a-name swds:activeRelationshare-a-name-2033-22 . 
+swds:activeRelationshare-a-name-2033-22 swd:share-a-name <place/2033> . 
+swds:activeRelationshare-a-name-2033-22 spr:reference-URL <http://syriaca.org/place/2033> . 
+<place/2033> swdt:share-a-name <place/1888> . 
+<place/2033> sp:share-a-name swds:activeRelationshare-a-name-2033-21 . 
+swds:activeRelationshare-a-name-2033-21 swd:share-a-name <place/1888> . 
+swds:activeRelationshare-a-name-2033-21 spr:reference-URL <http://syriaca.org/place/2033> .

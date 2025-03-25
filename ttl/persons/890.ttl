@@ -1,0 +1,94 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/890> rdf:type lawd:Person . 
+<http://syriaca.org/person/890> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/890> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/890> rdfs:label "ʿAbdishoʿ bar ʿEqarbe"@en . 
+<http://syriaca.org/person/890> rdfs:label "ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܒܐ"@syr . 
+<http://syriaca.org/person/890> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/890> foaf:primaryTopicOf <http://syriaca.org/person/890/tei> . 
+<http://syriaca.org/person/890> foaf:primaryTopicOf <http://syriaca.org/person/890/html> . 
+<http://syriaca.org/person/890> dcterms:hasFormat <http://syriaca.org/person/890/tei> . 
+<http://syriaca.org/person/890> dcterms:hasFormat <http://syriaca.org/person/890/html> . 
+<http://syriaca.org/person/890> foaf:primaryTopicOf <http://syriaca.org/person/1010> . 
+<http://syriaca.org/person/890> swdt:name-variant "ʿAbdishoʿ bar ʿEqarbe"@en . 
+<http://syriaca.org/person/890> swdt:name-variant "ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܒܐ"@syr . 
+<http://syriaca.org/person/890> swdt:name-variant "ܥܲܒܕܝܼܫܘܿܥ ܒܲܪ ܥܩܲܪ̈ܒܹܐ"@syr-Syrn . 
+<http://syriaca.org/person/890> swdt:name-variant "ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܐ"@syr . 
+<http://syriaca.org/person/890> swdt:name-variant "ܥܒܶܕܝܶܫܽܘܥ ܒܰܪ ܥܰܩܪܶ̈ܐ"@syr-Syrj . 
+<http://syriaca.org/person/890> swdt:name-variant "ʿAbdishoʿ bar ʿEqarbe"@en-x-gedsh . 
+<http://syriaca.org/person/890> swdt:name-variant "Abdisho bar Eqarbe"@en-x-srp1 . 
+<http://syriaca.org/person/890> swdt:name-variant "‘Abdisho‘ bar ‘Eqarbe"@en-x-srp1 . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-1 . 
+swds:Person-890-1 sps:name-variant "ʿAbdishoʿ bar ʿEqarbe"@en . 
+swds:Person-890-1 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-2 . 
+swds:Person-890-2 sps:name-variant "ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܒܐ"@syr . 
+swds:Person-890-2 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-3 . 
+swds:Person-890-3 sps:name-variant "ܥܲܒܕܝܼܫܘܿܥ ܒܲܪ ܥܩܲܪ̈ܒܹܐ"@syr-Syrn . 
+swds:Person-890-3 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-4 . 
+swds:Person-890-4 sps:name-variant "ܥܒܕܝܫܘܥ ܒܪ ܥܩܪ̈ܐ"@syr . 
+swds:Person-890-4 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-5 . 
+swds:Person-890-5 sps:name-variant "ܥܒܶܕܝܶܫܽܘܥ ܒܰܪ ܥܰܩܪܶ̈ܐ"@syr-Syrj . 
+swds:Person-890-5 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-6 . 
+swds:Person-890-6 sps:name-variant "ʿAbdishoʿ bar ʿEqarbe"@en-x-gedsh . 
+swds:Person-890-6 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-7 . 
+swds:Person-890-7 sps:name-variant "Abdisho bar Eqarbe"@en-x-srp1 . 
+swds:Person-890-7 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> sp:name-variant swds:Person-890-8 . 
+swds:Person-890-8 sps:name-variant "‘Abdisho‘ bar ‘Eqarbe"@en-x-srp1 . 
+swds:Person-890-8 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_890" . 
+<http://syriaca.org/person/890> sp:closeMatch swds:closeMatch-890-1 . 
+swds:closeMatch-890-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_890" . 
+swds:closeMatch-890-1 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/890> sp:status swds:status-890-1 . 
+swds:status-890-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-890-1 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> swdt:possibly-identical <http://syriaca.org/person/1010> . 
+<http://syriaca.org/person/890> sp:possibly-identical swds:activeRelationpossibly-identical-890-11 . 
+swds:activeRelationpossibly-identical-890-11 swd:possibly-identical <http://syriaca.org/person/1010> . 
+swds:activeRelationpossibly-identical-890-11 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/1010> swdt:possibly-identical <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/1010> sp:possibly-identical swds:activeRelationpossibly-identical-890-11 . 
+swds:activeRelationpossibly-identical-890-11 swd:possibly-identical <http://syriaca.org/person/890> . 
+swds:activeRelationpossibly-identical-890-11 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/1010> swdt:possibly-identical <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/1010> sp:possibly-identical swds:activeRelationpossibly-identical-890-12 . 
+swds:activeRelationpossibly-identical-890-12 swd:possibly-identical <http://syriaca.org/person/890> . 
+swds:activeRelationpossibly-identical-890-12 spr:reference-URL <http://syriaca.org/person/890> . 
+<http://syriaca.org/person/890> swdt:possibly-identical <http://syriaca.org/person/1010> . 
+<http://syriaca.org/person/890> sp:possibly-identical swds:activeRelationpossibly-identical-890-11 . 
+swds:activeRelationpossibly-identical-890-11 swd:possibly-identical <http://syriaca.org/person/1010> . 
+swds:activeRelationpossibly-identical-890-11 spr:reference-URL <http://syriaca.org/person/890> .

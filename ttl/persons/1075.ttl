@@ -1,0 +1,78 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1075> rdf:type lawd:Person . 
+<http://syriaca.org/person/1075> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1075> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/1075> rdfs:label "ʿAbd al-Masih Liban"@en . 
+<http://syriaca.org/person/1075> rdfs:label "ܥܒܕ ܡܫܝܚܐ ܠܝܒܐܢ"@syr . 
+<http://syriaca.org/person/1075> foaf:primaryTopicOf <http://syriaca.org/person/1075/tei> . 
+<http://syriaca.org/person/1075> foaf:primaryTopicOf <http://syriaca.org/person/1075/html> . 
+<http://syriaca.org/person/1075> dcterms:hasFormat <http://syriaca.org/person/1075/tei> . 
+<http://syriaca.org/person/1075> dcterms:hasFormat <http://syriaca.org/person/1075/html> . 
+<http://syriaca.org/person/1075> schema:description "ʿAbd al-Masih Liban was an author and scholar who studied at the Maronite school in Aleppo who wrote Syriac memre."@en . 
+<http://syriaca.org/person/1075> foaf:primaryTopicOf <http://syriaca.org/place/18> . 
+<http://syriaca.org/person/1075> swdt:name-variant "ʿAbd al-Masih Liban"@en . 
+<http://syriaca.org/person/1075> swdt:name-variant "ܥܒܕ ܡܫܝܚܐ ܠܝܒܐܢ"@syr . 
+<http://syriaca.org/person/1075> swdt:name-variant "ʿAbd al-Masīḥ Lībān"@en-x-gedsh . 
+<http://syriaca.org/person/1075> swdt:name-variant "Abd al-Masīḥ Lībān"@en-x-srp1 . 
+<http://syriaca.org/person/1075> swdt:name-variant "‘Abd al-Masīḥ Lībān"@de . 
+<http://syriaca.org/person/1075> swdt:name-variant "Abd al-Masih Liban"@en . 
+<http://syriaca.org/person/1075> sp:name-variant swds:Person-1075-1 . 
+swds:Person-1075-1 sps:name-variant "ʿAbd al-Masih Liban"@en . 
+swds:Person-1075-1 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> sp:name-variant swds:Person-1075-2 . 
+swds:Person-1075-2 sps:name-variant "ܥܒܕ ܡܫܝܚܐ ܠܝܒܐܢ"@syr . 
+swds:Person-1075-2 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> sp:name-variant swds:Person-1075-3 . 
+swds:Person-1075-3 sps:name-variant "ʿAbd al-Masīḥ Lībān"@en-x-gedsh . 
+swds:Person-1075-3 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> sp:name-variant swds:Person-1075-4 . 
+swds:Person-1075-4 sps:name-variant "Abd al-Masīḥ Lībān"@en-x-srp1 . 
+swds:Person-1075-4 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> sp:name-variant swds:Person-1075-5 . 
+swds:Person-1075-5 sps:name-variant "‘Abd al-Masīḥ Lībān"@de . 
+swds:Person-1075-5 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> sp:name-variant swds:Person-1075-6 . 
+swds:Person-1075-6 sps:name-variant "Abd al-Masih Liban"@en . 
+swds:Person-1075-6 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1075" . 
+<http://syriaca.org/person/1075> sp:closeMatch swds:closeMatch-1075-1 . 
+swds:closeMatch-1075-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1075" . 
+swds:closeMatch-1075-1 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> swdt:death-when "1742"^^xsd:gYear . 
+<http://syriaca.org/person/1075> sp:death-when swds:death-when-1075-1 . 
+swds:death-when-1075-1 sps:death-when "1742"^^xsd:gYear . 
+swds:death-when-1075-1 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1075> sp:gender swds:gender-1075-1 . 
+swds:gender-1075-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1075-1 spr:reference-URL <http://syriaca.org/person/1075> . 
+<http://syriaca.org/person/1075> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/1075> sp:status swds:status-1075-1 . 
+swds:status-1075-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-1075-1 spr:reference-URL <http://syriaca.org/person/1075> .

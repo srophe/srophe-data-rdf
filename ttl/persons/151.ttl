@@ -1,0 +1,84 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/151> rdf:type lawd:Person . 
+<http://syriaca.org/person/151> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/151> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/151> rdfs:label "Thomas the Stylite"@en . 
+<http://syriaca.org/person/151> rdfs:label "ܬܐܘܡܐ ܐܣܛܘܢܪܐ"@syr . 
+<http://syriaca.org/person/151> foaf:primaryTopicOf <http://syriaca.org/person/151/tei> . 
+<http://syriaca.org/person/151> foaf:primaryTopicOf <http://syriaca.org/person/151/html> . 
+<http://syriaca.org/person/151> dcterms:hasFormat <http://syriaca.org/person/151/tei> . 
+<http://syriaca.org/person/151> dcterms:hasFormat <http://syriaca.org/person/151/html> . 
+<http://syriaca.org/person/151> swdt:name-variant "Thomas the Stylite"@en . 
+<http://syriaca.org/person/151> swdt:name-variant "Thomas the Stylite"@en . 
+<http://syriaca.org/person/151> swdt:name-variant "توما العمودي"@ar . 
+<http://syriaca.org/person/151> swdt:name-variant "ܬܐܘܡܐ ܐܣܛܘܢܪܐ"@syr . 
+<http://syriaca.org/person/151> swdt:name-variant "ܬܳܐܘܡܰܐ ܐܣܛܘܢܳܪܐ"@syr-Syrj . 
+<http://syriaca.org/person/151> swdt:name-variant "Tumo the stylite"@en-x-gedsh . 
+<http://syriaca.org/person/151> swdt:name-variant "Thomas the stylite"@en . 
+<http://syriaca.org/person/151> swdt:name-variant "Thomas the Stylite"@en . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-1 . 
+swds:Person-151-1 sps:name-variant "Thomas the Stylite"@en . 
+swds:Person-151-1 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-2 . 
+swds:Person-151-2 sps:name-variant "Thomas the Stylite"@en . 
+swds:Person-151-2 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-3 . 
+swds:Person-151-3 sps:name-variant "توما العمودي"@ar . 
+swds:Person-151-3 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-4 . 
+swds:Person-151-4 sps:name-variant "ܬܐܘܡܐ ܐܣܛܘܢܪܐ"@syr . 
+swds:Person-151-4 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-5 . 
+swds:Person-151-5 sps:name-variant "ܬܳܐܘܡܰܐ ܐܣܛܘܢܳܪܐ"@syr-Syrj . 
+swds:Person-151-5 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-6 . 
+swds:Person-151-6 sps:name-variant "Tumo the stylite"@en-x-gedsh . 
+swds:Person-151-6 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-7 . 
+swds:Person-151-7 sps:name-variant "Thomas the stylite"@en . 
+swds:Person-151-7 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> sp:name-variant swds:Person-151-8 . 
+swds:Person-151-8 sps:name-variant "Thomas the Stylite"@en . 
+swds:Person-151-8 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_151" . 
+<http://syriaca.org/person/151> sp:closeMatch swds:closeMatch-151-1 . 
+swds:closeMatch-151-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_151" . 
+swds:closeMatch-151-1 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> swdt:floruit-when "0837"^^xsd:gYear . 
+<http://syriaca.org/person/151> sp:floruit-when swds:floruit-when-151-1 . 
+swds:floruit-when-151-1 sps:floruit-when "0837"^^xsd:gYear . 
+swds:floruit-when-151-1 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/151> sp:occupation swds:occupation-151-1 . 
+swds:occupation-151-1 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:occupation-151-1 spr:reference-URL <http://syriaca.org/person/151> . 
+<http://syriaca.org/person/151> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/151> sp:status swds:status-151-1 . 
+swds:status-151-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-151-1 spr:reference-URL <http://syriaca.org/person/151> .

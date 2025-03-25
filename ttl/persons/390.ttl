@@ -1,0 +1,76 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/390> rdf:type lawd:Person . 
+<http://syriaca.org/person/390> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/390> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/390> rdfs:label "Beulay , Robert"@en . 
+<http://syriaca.org/person/390> foaf:primaryTopicOf <http://syriaca.org/person/390/tei> . 
+<http://syriaca.org/person/390> foaf:primaryTopicOf <http://syriaca.org/person/390/html> . 
+<http://syriaca.org/person/390> dcterms:hasFormat <http://syriaca.org/person/390/tei> . 
+<http://syriaca.org/person/390> dcterms:hasFormat <http://syriaca.org/person/390/html> . 
+<http://syriaca.org/person/390> schema:description "Carmelite priest, scholar of the Ch. of E. and of E.-Syr. mysticism."@en . 
+<http://syriaca.org/person/390> swdt:name-variant "Beulay , Robert"@en . 
+<http://syriaca.org/person/390> swdt:name-variant "Beulay , Robert"@en-x-gedsh . 
+<http://syriaca.org/person/390> sp:name-variant swds:Person-390-1 . 
+swds:Person-390-1 sps:name-variant "Beulay , Robert"@en . 
+swds:Person-390-1 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> sp:name-variant swds:Person-390-2 . 
+swds:Person-390-2 sps:name-variant "Beulay , Robert"@en-x-gedsh . 
+swds:Person-390-2 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_390" . 
+<http://syriaca.org/person/390> sp:closeMatch swds:closeMatch-390-1 . 
+swds:closeMatch-390-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_390" . 
+swds:closeMatch-390-1 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:closeMatch "http://viaf.org/viaf/44328973" . 
+<http://syriaca.org/person/390> sp:closeMatch swds:closeMatch-390-2 . 
+swds:closeMatch-390-2 sps:closeMatch "http://viaf.org/viaf/44328973" . 
+swds:closeMatch-390-2 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:closeMatch "http://worldcat.org/identities/lccn-n83-193987" . 
+<http://syriaca.org/person/390> sp:closeMatch swds:closeMatch-390-3 . 
+swds:closeMatch-390-3 sps:closeMatch "http://worldcat.org/identities/lccn-n83-193987" . 
+swds:closeMatch-390-3 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:closeMatch "http://viaf.org/viaf/239304864" . 
+<http://syriaca.org/person/390> sp:closeMatch swds:closeMatch-390-4 . 
+swds:closeMatch-390-4 sps:closeMatch "http://viaf.org/viaf/239304864" . 
+swds:closeMatch-390-4 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:closeMatch "http://viaf.org/viaf/97675565" . 
+<http://syriaca.org/person/390> sp:closeMatch swds:closeMatch-390-5 . 
+swds:closeMatch-390-5 sps:closeMatch "http://viaf.org/viaf/97675565" . 
+swds:closeMatch-390-5 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:birth-when "1927"^^xsd:gYear . 
+<http://syriaca.org/person/390> sp:birth-when swds:birth-when-390-1 . 
+swds:birth-when-390-1 sps:birth-when "1927"^^xsd:gYear . 
+swds:birth-when-390-1 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:death-when "2007"^^xsd:gYear . 
+<http://syriaca.org/person/390> sp:death-when swds:death-when-390-1 . 
+swds:death-when-390-1 sps:death-when "2007"^^xsd:gYear . 
+swds:death-when-390-1 spr:reference-URL <http://syriaca.org/person/390> . 
+<http://syriaca.org/person/390> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/390> sp:status swds:status-390-1 . 
+swds:status-390-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-390-1 spr:reference-URL <http://syriaca.org/person/390> .

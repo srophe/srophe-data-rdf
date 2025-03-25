@@ -1,0 +1,157 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/231> rdf:type lawd:Person . 
+<http://syriaca.org/person/231> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/231> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/231> rdfs:label "Jacob bar Shakko"@en . 
+<http://syriaca.org/person/231> rdfs:label "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr . 
+<http://syriaca.org/person/231> foaf:primaryTopicOf <http://syriaca.org/person/231/tei> . 
+<http://syriaca.org/person/231> foaf:primaryTopicOf <http://syriaca.org/person/231/html> . 
+<http://syriaca.org/person/231> dcterms:hasFormat <http://syriaca.org/person/231/tei> . 
+<http://syriaca.org/person/231> dcterms:hasFormat <http://syriaca.org/person/231/html> . 
+<http://syriaca.org/person/231> schema:description "Bp. of Dayro d-Mor Matay and learned author. Born in Barṭelle, his baptismal name was probably Yaʿqub."@en . 
+<http://syriaca.org/person/231> foaf:primaryTopicOf <http://syriaca.org/person/229> . 
+<http://syriaca.org/person/231> foaf:primaryTopicOf <http://syriaca.org/place/260> . 
+<http://syriaca.org/person/231> foaf:primaryTopicOf <http://syriaca.org/place/260> . 
+<http://syriaca.org/person/231> foaf:primaryTopicOf <http://syriaca.org/place/227> . 
+<http://syriaca.org/person/231> swdt:name-variant "Jacob bar Shakko"@en . 
+<http://syriaca.org/person/231> swdt:name-variant "Yaʿqub bar Shakko"@en-x-gedsh . 
+<http://syriaca.org/person/231> swdt:name-variant "Jacob of Barṭelli"@en . 
+<http://syriaca.org/person/231> swdt:name-variant "يعقوب البرطلي مطران دير مار متى"@ar . 
+<http://syriaca.org/person/231> swdt:name-variant "ܝܥܩܘܒ ܒܪܛܠܝܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܕܝܪܐ ܕܡܪܝ ܡܬܝ"@syr . 
+<http://syriaca.org/person/231> swdt:name-variant "ܝܰܥܩܘܒ ܒܰܪܛܰܠܝܐ ܡܝܛܪܘܦܘܠܝܛܳܐ ܕܕܰܝܪܳܐ ܕܡܳܪܝ ܡܰܬܝ"@syr-Syrj . 
+<http://syriaca.org/person/231> swdt:name-variant "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr . 
+<http://syriaca.org/person/231> swdt:name-variant "Jacob bar Shakko"@en . 
+<http://syriaca.org/person/231> swdt:name-variant "Jacob of Bartelli"@en . 
+<http://syriaca.org/person/231> swdt:name-variant "Severus bar Shakko"@en . 
+<http://syriaca.org/person/231> swdt:name-variant "Severos bar Shakko"@en . 
+<http://syriaca.org/person/231> swdt:name-variant "Yaqub bar Shakko"@en-x-srp1 . 
+<http://syriaca.org/person/231> swdt:name-variant "Ya‘qub bar Shakko"@en-x-srp1 . 
+<http://syriaca.org/person/231> swdt:name-variant "Jacob (Severus ) bar Shakko of Bartella"@en . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-1 . 
+swds:Person-231-1 sps:name-variant "Jacob bar Shakko"@en . 
+swds:Person-231-1 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-2 . 
+swds:Person-231-2 sps:name-variant "Yaʿqub bar Shakko"@en-x-gedsh . 
+swds:Person-231-2 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-3 . 
+swds:Person-231-3 sps:name-variant "Jacob of Barṭelli"@en . 
+swds:Person-231-3 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-4 . 
+swds:Person-231-4 sps:name-variant "يعقوب البرطلي مطران دير مار متى"@ar . 
+swds:Person-231-4 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-5 . 
+swds:Person-231-5 sps:name-variant "ܝܥܩܘܒ ܒܪܛܠܝܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܕܝܪܐ ܕܡܪܝ ܡܬܝ"@syr . 
+swds:Person-231-5 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-6 . 
+swds:Person-231-6 sps:name-variant "ܝܰܥܩܘܒ ܒܰܪܛܰܠܝܐ ܡܝܛܪܘܦܘܠܝܛܳܐ ܕܕܰܝܪܳܐ ܕܡܳܪܝ ܡܰܬܝ"@syr-Syrj . 
+swds:Person-231-6 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-7 . 
+swds:Person-231-7 sps:name-variant "ܝܥܩܘܒ ܒܪ ܫܟܟܐ"@syr . 
+swds:Person-231-7 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-8 . 
+swds:Person-231-8 sps:name-variant "Jacob bar Shakko"@en . 
+swds:Person-231-8 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-9 . 
+swds:Person-231-9 sps:name-variant "Jacob of Bartelli"@en . 
+swds:Person-231-9 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-10 . 
+swds:Person-231-10 sps:name-variant "Severus bar Shakko"@en . 
+swds:Person-231-10 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-11 . 
+swds:Person-231-11 sps:name-variant "Severos bar Shakko"@en . 
+swds:Person-231-11 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-12 . 
+swds:Person-231-12 sps:name-variant "Yaqub bar Shakko"@en-x-srp1 . 
+swds:Person-231-12 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-13 . 
+swds:Person-231-13 sps:name-variant "Ya‘qub bar Shakko"@en-x-srp1 . 
+swds:Person-231-13 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> sp:name-variant swds:Person-231-14 . 
+swds:Person-231-14 sps:name-variant "Jacob (Severus ) bar Shakko of Bartella"@en . 
+swds:Person-231-14 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_231" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-1 . 
+swds:closeMatch-231-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_231" . 
+swds:closeMatch-231-1 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://worldcat.org/identities/np-jacob bar sakko$d 1241" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-2 . 
+swds:closeMatch-231-2 sps:closeMatch "http://worldcat.org/identities/np-jacob bar sakko$d 1241" . 
+swds:closeMatch-231-2 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://viaf.org/viaf/81180132" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-3 . 
+swds:closeMatch-231-3 sps:closeMatch "http://viaf.org/viaf/81180132" . 
+swds:closeMatch-231-3 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://viaf.org/viaf/98407410" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-4 . 
+swds:closeMatch-231-4 sps:closeMatch "http://viaf.org/viaf/98407410" . 
+swds:closeMatch-231-4 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob bar Shakko&sT=keywords" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-5 . 
+swds:closeMatch-231-5 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob bar Shakko&sT=keywords" . 
+swds:closeMatch-231-5 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Bartelli&sT=keywords" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-6 . 
+swds:closeMatch-231-6 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jacob of Bartelli&sT=keywords" . 
+swds:closeMatch-231-6 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Severus bar Shakko&sT=keywords" . 
+<http://syriaca.org/person/231> sp:closeMatch swds:closeMatch-231-7 . 
+swds:closeMatch-231-7 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Severus bar Shakko&sT=keywords" . 
+swds:closeMatch-231-7 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:death-when "1241"^^xsd:gYear . 
+<http://syriaca.org/person/231> sp:death-when swds:death-when-231-1 . 
+swds:death-when-231-1 sps:death-when "1241"^^xsd:gYear . 
+swds:death-when-231-1 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:birth-place <http://syriaca.org/place/260> . 
+<http://syriaca.org/person/231> sp:birth-place swds:birth-place-231-1 . 
+swds:birth-place-231-1 sps:birth-place <http://syriaca.org/place/260> . 
+swds:birth-place-231-1 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:death-place <http://syriaca.org/place/227> . 
+<http://syriaca.org/person/231> sp:death-place swds:death-place-231-1 . 
+swds:death-place-231-1 sps:death-place <http://syriaca.org/place/227> . 
+swds:death-place-231-1 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/231> sp:status swds:status-231-1 . 
+swds:status-231-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-231-1 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:not-to-be-confused-with <http://syriaca.org/person/229> . 
+<http://syriaca.org/person/231> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-231-11 . 
+swds:activeRelationnot-to-be-confused-with-231-11 swd:not-to-be-confused-with <http://syriaca.org/person/229> . 
+swds:activeRelationnot-to-be-confused-with-231-11 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/229> swdt:not-to-be-confused-with <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/229> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-231-11 . 
+swds:activeRelationnot-to-be-confused-with-231-11 swd:not-to-be-confused-with <http://syriaca.org/person/231> . 
+swds:activeRelationnot-to-be-confused-with-231-11 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/229> swdt:not-to-be-confused-with <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/229> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-231-12 . 
+swds:activeRelationnot-to-be-confused-with-231-12 swd:not-to-be-confused-with <http://syriaca.org/person/231> . 
+swds:activeRelationnot-to-be-confused-with-231-12 spr:reference-URL <http://syriaca.org/person/231> . 
+<http://syriaca.org/person/231> swdt:not-to-be-confused-with <http://syriaca.org/person/229> . 
+<http://syriaca.org/person/231> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-231-11 . 
+swds:activeRelationnot-to-be-confused-with-231-11 swd:not-to-be-confused-with <http://syriaca.org/person/229> . 
+swds:activeRelationnot-to-be-confused-with-231-11 spr:reference-URL <http://syriaca.org/person/231> .

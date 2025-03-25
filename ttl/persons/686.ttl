@@ -1,0 +1,98 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/686> rdf:type lawd:Person . 
+<http://syriaca.org/person/686> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/686> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/686> rdfs:label "Proba of Antioch"@en . 
+<http://syriaca.org/person/686> rdfs:label "ܦܪܘܒܐ"@syr . 
+<http://syriaca.org/person/686> rdfs:label <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/686> foaf:primaryTopicOf <http://syriaca.org/person/686/tei> . 
+<http://syriaca.org/person/686> foaf:primaryTopicOf <http://syriaca.org/person/686/html> . 
+<http://syriaca.org/person/686> dcterms:hasFormat <http://syriaca.org/person/686/tei> . 
+<http://syriaca.org/person/686> dcterms:hasFormat <http://syriaca.org/person/686/html> . 
+<http://syriaca.org/person/686> schema:description "Syriac commentator on Aristotle’s writings on logic."@en . 
+<http://syriaca.org/person/686> swdt:name-variant "Proba of Antioch"@en . 
+<http://syriaca.org/person/686> swdt:name-variant "Proba"@en-x-gedsh . 
+<http://syriaca.org/person/686> swdt:name-variant "Archdeacon ̇Probus of Antioch"@en . 
+<http://syriaca.org/person/686> swdt:name-variant "̇Proba of Antioch"@en . 
+<http://syriaca.org/person/686> swdt:name-variant "الارخدياقون فروبا الانطاكي"@ar . 
+<http://syriaca.org/person/686> swdt:name-variant "ܦܪܘܒܐ ܐܪܟܕܝܩܘܢ ܕܐܢܛܝܘܟܝ"@syr . 
+<http://syriaca.org/person/686> swdt:name-variant "ܦܪܘܒܐ ܐܰܪܟܶܕܝܰܩܘܢ ܕܐܰܢܛܝܽܘܟܺܝ"@syr-Syrj . 
+<http://syriaca.org/person/686> swdt:name-variant "ܦܪܘܒܐ"@syr . 
+<http://syriaca.org/person/686> swdt:name-variant "ܦܪܘܿܒܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/686> swdt:name-variant "Probus"@en . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-1 . 
+swds:Person-686-1 sps:name-variant "Proba of Antioch"@en . 
+swds:Person-686-1 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-2 . 
+swds:Person-686-2 sps:name-variant "Proba"@en-x-gedsh . 
+swds:Person-686-2 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-3 . 
+swds:Person-686-3 sps:name-variant "Archdeacon ̇Probus of Antioch"@en . 
+swds:Person-686-3 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-4 . 
+swds:Person-686-4 sps:name-variant "̇Proba of Antioch"@en . 
+swds:Person-686-4 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-5 . 
+swds:Person-686-5 sps:name-variant "الارخدياقون فروبا الانطاكي"@ar . 
+swds:Person-686-5 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-6 . 
+swds:Person-686-6 sps:name-variant "ܦܪܘܒܐ ܐܪܟܕܝܩܘܢ ܕܐܢܛܝܘܟܝ"@syr . 
+swds:Person-686-6 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-7 . 
+swds:Person-686-7 sps:name-variant "ܦܪܘܒܐ ܐܰܪܟܶܕܝܰܩܘܢ ܕܐܰܢܛܝܽܘܟܺܝ"@syr-Syrj . 
+swds:Person-686-7 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-8 . 
+swds:Person-686-8 sps:name-variant "ܦܪܘܒܐ"@syr . 
+swds:Person-686-8 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-9 . 
+swds:Person-686-9 sps:name-variant "ܦܪܘܿܒܵܐ"@syr-Syrn . 
+swds:Person-686-9 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> sp:name-variant swds:Person-686-10 . 
+swds:Person-686-10 sps:name-variant "Probus"@en . 
+swds:Person-686-10 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_686" . 
+<http://syriaca.org/person/686> sp:closeMatch swds:closeMatch-686-1 . 
+swds:closeMatch-686-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_686" . 
+swds:closeMatch-686-1 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> swdt:floruit-notBefore "0450"^^xsd:gYear . 
+<http://syriaca.org/person/686> sp:floruit-notBefore swds:floruit-notBefore-686-1 . 
+swds:floruit-notBefore-686-1 sps:floruit-notBefore "0450"^^xsd:gYear . 
+swds:floruit-notBefore-686-1 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> swdt:floruit-notAfter "0650"^^xsd:gYear . 
+<http://syriaca.org/person/686> sp:floruit-notAfter swds:floruit-notAfter-686-1 . 
+swds:floruit-notAfter-686-1 sps:floruit-notAfter "0650"^^xsd:gYear . 
+swds:floruit-notAfter-686-1 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> swdt:occupation <archdeacon> . 
+<http://syriaca.org/person/686> sp:occupation swds:occupation-686-1 . 
+swds:occupation-686-1 sps:occupation <archdeacon> . 
+swds:occupation-686-1 spr:reference-URL <http://syriaca.org/person/686> . 
+<http://syriaca.org/person/686> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/686> sp:status swds:status-686-1 . 
+swds:status-686-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-686-1 spr:reference-URL <http://syriaca.org/person/686> .

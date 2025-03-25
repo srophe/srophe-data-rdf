@@ -1,0 +1,105 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/751> rdf:type lawd:Person . 
+<http://syriaca.org/person/751> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/751> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/751> rdfs:label "Smith , Agnes"@en . 
+<http://syriaca.org/person/751> rdfs:label "ܐܓܢܝܣ ܠܘܝܙ"@syr . 
+<http://syriaca.org/person/751> foaf:primaryTopicOf <http://syriaca.org/person/751/tei> . 
+<http://syriaca.org/person/751> foaf:primaryTopicOf <http://syriaca.org/person/751/html> . 
+<http://syriaca.org/person/751> dcterms:hasFormat <http://syriaca.org/person/751/tei> . 
+<http://syriaca.org/person/751> dcterms:hasFormat <http://syriaca.org/person/751/html> . 
+<http://syriaca.org/person/751> schema:description "Independent self-taught scholars."@en . 
+<http://syriaca.org/person/751> swdt:name-variant "Smith , Agnes"@en . 
+<http://syriaca.org/person/751> swdt:name-variant "Smith , Agnes"@en-x-gedsh . 
+<http://syriaca.org/person/751> swdt:name-variant "Smith , Agnes"@en . 
+<http://syriaca.org/person/751> swdt:name-variant "Mrs. , Agnes Lewis"@en . 
+<http://syriaca.org/person/751> swdt:name-variant "السيدة اغنيس لويز"@ar . 
+<http://syriaca.org/person/751> swdt:name-variant "ܡܪܬܝ ܐܓܢܝܣ ܠܘܝܙ"@syr . 
+<http://syriaca.org/person/751> swdt:name-variant "ܡܳܪܬܝ ܐܰܓܢܝܣ ܠܘܶܝܙ"@syr-Syrj . 
+<http://syriaca.org/person/751> swdt:name-variant "ܐܓܢܝܣ ܠܘܝܙ"@syr . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-1 . 
+swds:Person-751-1 sps:name-variant "Smith , Agnes"@en . 
+swds:Person-751-1 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-2 . 
+swds:Person-751-2 sps:name-variant "Smith , Agnes"@en-x-gedsh . 
+swds:Person-751-2 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-3 . 
+swds:Person-751-3 sps:name-variant "Smith , Agnes"@en . 
+swds:Person-751-3 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-4 . 
+swds:Person-751-4 sps:name-variant "Mrs. , Agnes Lewis"@en . 
+swds:Person-751-4 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-5 . 
+swds:Person-751-5 sps:name-variant "السيدة اغنيس لويز"@ar . 
+swds:Person-751-5 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-6 . 
+swds:Person-751-6 sps:name-variant "ܡܪܬܝ ܐܓܢܝܣ ܠܘܝܙ"@syr . 
+swds:Person-751-6 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-7 . 
+swds:Person-751-7 sps:name-variant "ܡܳܪܬܝ ܐܰܓܢܝܣ ܠܘܶܝܙ"@syr-Syrj . 
+swds:Person-751-7 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> sp:name-variant swds:Person-751-8 . 
+swds:Person-751-8 sps:name-variant "ܐܓܢܝܣ ܠܘܝܙ"@syr . 
+swds:Person-751-8 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_751" . 
+<http://syriaca.org/person/751> sp:closeMatch swds:closeMatch-751-1 . 
+swds:closeMatch-751-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_751" . 
+swds:closeMatch-751-1 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:closeMatch "http://viaf.org/viaf/243764" . 
+<http://syriaca.org/person/751> sp:closeMatch swds:closeMatch-751-2 . 
+swds:closeMatch-751-2 sps:closeMatch "http://viaf.org/viaf/243764" . 
+swds:closeMatch-751-2 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:closeMatch "http://worldcat.org/identities/lccn-n84-125149" . 
+<http://syriaca.org/person/751> sp:closeMatch swds:closeMatch-751-3 . 
+swds:closeMatch-751-3 sps:closeMatch "http://worldcat.org/identities/lccn-n84-125149" . 
+swds:closeMatch-751-3 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:closeMatch "http://viaf.org/viaf/89163336" . 
+<http://syriaca.org/person/751> sp:closeMatch swds:closeMatch-751-4 . 
+swds:closeMatch-751-4 sps:closeMatch "http://viaf.org/viaf/89163336" . 
+swds:closeMatch-751-4 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:closeMatch "http://viaf.org/viaf/238648909" . 
+<http://syriaca.org/person/751> sp:closeMatch swds:closeMatch-751-5 . 
+swds:closeMatch-751-5 sps:closeMatch "http://viaf.org/viaf/238648909" . 
+swds:closeMatch-751-5 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:closeMatch "http://viaf.org/viaf/215849417" . 
+<http://syriaca.org/person/751> sp:closeMatch swds:closeMatch-751-6 . 
+swds:closeMatch-751-6 sps:closeMatch "http://viaf.org/viaf/215849417" . 
+swds:closeMatch-751-6 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:birth-when "1843-04-16"^^xsd:date . 
+<http://syriaca.org/person/751> sp:birth-when swds:birth-when-751-1 . 
+swds:birth-when-751-1 sps:birth-when "1843-04-16"^^xsd:date . 
+swds:birth-when-751-1 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:death-when "1926"^^xsd:gYear . 
+<http://syriaca.org/person/751> sp:death-when swds:death-when-751-1 . 
+swds:death-when-751-1 sps:death-when "1926"^^xsd:gYear . 
+swds:death-when-751-1 spr:reference-URL <http://syriaca.org/person/751> . 
+<http://syriaca.org/person/751> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/751> sp:status swds:status-751-1 . 
+swds:status-751-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-751-1 spr:reference-URL <http://syriaca.org/person/751> .

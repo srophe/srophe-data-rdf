@@ -1,0 +1,75 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2822> rdf:type lawd:Person . 
+<http://syriaca.org/person/2822> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2822> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/2822> rdfs:label "Sliba of Hah , Rabban"@en . 
+<http://syriaca.org/person/2822> rdfs:label "ܪܒܢ ܨܠܝܒܐ ܚܐܚܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/2822> foaf:primaryTopicOf <http://syriaca.org/person/2822/tei> . 
+<http://syriaca.org/person/2822> foaf:primaryTopicOf <http://syriaca.org/person/2822/html> . 
+<http://syriaca.org/person/2822> dcterms:hasFormat <http://syriaca.org/person/2822/tei> . 
+<http://syriaca.org/person/2822> dcterms:hasFormat <http://syriaca.org/person/2822/html> . 
+<http://syriaca.org/person/2822> schema:description "Rabban Sliba (father of Rabban Joshua ) was a monastic author who composed a martyrology in the late thirteenth century or early fourteenth century (some time after the death of Bar ʿEbroyo ). One source describes him as being from Ḥaḥ ."@en . 
+<http://syriaca.org/person/2822> foaf:primaryTopicOf <http://syriaca.org/person/239> . 
+<http://syriaca.org/person/2822> foaf:primaryTopicOf <http://syriaca.org/place/217> . 
+<http://syriaca.org/person/2822> swdt:name-variant "Sliba of Hah , Rabban"@en . 
+<http://syriaca.org/person/2822> swdt:name-variant "Rabban Sliba of Hah"@en . 
+<http://syriaca.org/person/2822> swdt:name-variant "Rabban Ṣalība of Ḥaḥ"@en-x-gedsh . 
+<http://syriaca.org/person/2822> swdt:name-variant "Rabban Sliba de Hah"@fr . 
+<http://syriaca.org/person/2822> swdt:name-variant "ܪܒܢ ܨܠܝܒܐ ܚܐܚܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/2822> swdt:name-variant "Rabban Saliba"@en . 
+<http://syriaca.org/person/2822> sp:name-variant swds:Person-2822-1 . 
+swds:Person-2822-1 sps:name-variant "Sliba of Hah , Rabban"@en . 
+swds:Person-2822-1 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> sp:name-variant swds:Person-2822-2 . 
+swds:Person-2822-2 sps:name-variant "Rabban Sliba of Hah"@en . 
+swds:Person-2822-2 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> sp:name-variant swds:Person-2822-3 . 
+swds:Person-2822-3 sps:name-variant "Rabban Ṣalība of Ḥaḥ"@en-x-gedsh . 
+swds:Person-2822-3 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> sp:name-variant swds:Person-2822-4 . 
+swds:Person-2822-4 sps:name-variant "Rabban Sliba de Hah"@fr . 
+swds:Person-2822-4 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> sp:name-variant swds:Person-2822-5 . 
+swds:Person-2822-5 sps:name-variant "ܪܒܢ ܨܠܝܒܐ ܚܐܚܝܐ"@syr-Syrj . 
+swds:Person-2822-5 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> sp:name-variant swds:Person-2822-6 . 
+swds:Person-2822-6 sps:name-variant "Rabban Saliba"@en . 
+swds:Person-2822-6 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> swdt:floruit-notAfter "1400"^^xsd:gYear . 
+<http://syriaca.org/person/2822> sp:floruit-notAfter swds:floruit-notAfter-2822-1 . 
+swds:floruit-notAfter-2822-1 sps:floruit-notAfter "1400"^^xsd:gYear . 
+swds:floruit-notAfter-2822-1 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2822> sp:gender swds:gender-2822-1 . 
+swds:gender-2822-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2822-1 spr:reference-URL <http://syriaca.org/person/2822> . 
+<http://syriaca.org/person/2822> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/2822> sp:status swds:status-2822-1 . 
+swds:status-2822-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-2822-1 spr:reference-URL <http://syriaca.org/person/2822> .

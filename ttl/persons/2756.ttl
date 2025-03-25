@@ -1,0 +1,57 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2756> rdf:type lawd:Person . 
+<http://syriaca.org/person/2756> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2756> rdfs:label "Sixtus II"@en . 
+<http://syriaca.org/person/2756> rdfs:label "ܟܣܘܣܛܘܣ ܕܪܗܘܡܝ"@syr . 
+<http://syriaca.org/person/2756> rdfs:label <http://syriaca.org/bibl/1680> . 
+<http://syriaca.org/person/2756> foaf:primaryTopicOf <http://syriaca.org/person/2756/tei> . 
+<http://syriaca.org/person/2756> foaf:primaryTopicOf <http://syriaca.org/person/2756/html> . 
+<http://syriaca.org/person/2756> dcterms:hasFormat <http://syriaca.org/person/2756/tei> . 
+<http://syriaca.org/person/2756> dcterms:hasFormat <http://syriaca.org/person/2756/html> . 
+<http://syriaca.org/person/2756> schema:description "Bishop of Rome who argued that it was not necessary to re-baptize those who were baptized by heretics as long as their baptism was in the name of the three substances, the Father, the Son, and the Holy Spirit"@en . 
+<http://syriaca.org/person/2756> swdt:name-variant "Sixtus II"@en . 
+<http://syriaca.org/person/2756> swdt:name-variant "ܟܣܘܣܛܘܣ ܕܪܗܘܡܝ"@syr . 
+<http://syriaca.org/person/2756> sp:name-variant swds:Person-2756-1 . 
+swds:Person-2756-1 sps:name-variant "Sixtus II"@en . 
+swds:Person-2756-1 spr:reference-URL <http://syriaca.org/person/2756> . 
+<http://syriaca.org/person/2756> sp:name-variant swds:Person-2756-2 . 
+swds:Person-2756-2 sps:name-variant "ܟܣܘܣܛܘܣ ܕܪܗܘܡܝ"@syr . 
+swds:Person-2756-2 spr:reference-URL <http://syriaca.org/person/2756> . 
+<http://syriaca.org/person/2756> swdt:closeMatch "https://en.wikipedia.org/wiki/Pope_Sixtus_II" . 
+<http://syriaca.org/person/2756> sp:closeMatch swds:closeMatch-2756-1 . 
+swds:closeMatch-2756-1 sps:closeMatch "https://en.wikipedia.org/wiki/Pope_Sixtus_II" . 
+swds:closeMatch-2756-1 spr:reference-URL <http://syriaca.org/person/2756> . 
+<http://syriaca.org/person/2756> swdt:death-when "0258-08-06"^^xsd:date . 
+<http://syriaca.org/person/2756> sp:death-when swds:death-when-2756-1 . 
+swds:death-when-2756-1 sps:death-when "0258-08-06"^^xsd:date . 
+swds:death-when-2756-1 spr:reference-URL <http://syriaca.org/person/2756> . 
+<http://syriaca.org/person/2756> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/2756> sp:gender swds:gender-2756-1 . 
+swds:gender-2756-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-2756-1 spr:reference-URL <http://syriaca.org/person/2756> .

@@ -1,0 +1,113 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/677> rdf:type lawd:Person . 
+<http://syriaca.org/person/677> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/677> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/677> rdfs:label "Payne Smith , Robert"@en . 
+<http://syriaca.org/person/677> rdfs:label "ܒܐܝܢ ܣܡܝܬ"@syr . 
+<http://syriaca.org/person/677> foaf:primaryTopicOf <http://syriaca.org/person/677/tei> . 
+<http://syriaca.org/person/677> foaf:primaryTopicOf <http://syriaca.org/person/677/html> . 
+<http://syriaca.org/person/677> dcterms:hasFormat <http://syriaca.org/person/677/tei> . 
+<http://syriaca.org/person/677> dcterms:hasFormat <http://syriaca.org/person/677/html> . 
+<http://syriaca.org/person/677> schema:description "Syriac scholar and compiler of the Thesaurus Syriacus ."@en . 
+<http://syriaca.org/person/677> swdt:name-variant "Payne Smith , Robert"@en-x-gedsh . 
+<http://syriaca.org/person/677> swdt:name-variant "Payne Smith"@en . 
+<http://syriaca.org/person/677> swdt:name-variant "Payne Smith , Robert"@en . 
+<http://syriaca.org/person/677> swdt:name-variant "بيان سمث"@ar . 
+<http://syriaca.org/person/677> swdt:name-variant "ܒܐܝܢ ܣܡܝܬ"@syr . 
+<http://syriaca.org/person/677> swdt:name-variant "ܒܰܐܝܢ ܣܡܺܝܬ"@syr-Syrj . 
+<http://syriaca.org/person/677> sp:name-variant swds:Person-677-1 . 
+swds:Person-677-1 sps:name-variant "Payne Smith , Robert"@en-x-gedsh . 
+swds:Person-677-1 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> sp:name-variant swds:Person-677-2 . 
+swds:Person-677-2 sps:name-variant "Payne Smith"@en . 
+swds:Person-677-2 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> sp:name-variant swds:Person-677-3 . 
+swds:Person-677-3 sps:name-variant "Payne Smith , Robert"@en . 
+swds:Person-677-3 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> sp:name-variant swds:Person-677-4 . 
+swds:Person-677-4 sps:name-variant "بيان سمث"@ar . 
+swds:Person-677-4 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> sp:name-variant swds:Person-677-5 . 
+swds:Person-677-5 sps:name-variant "ܒܐܝܢ ܣܡܝܬ"@syr . 
+swds:Person-677-5 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> sp:name-variant swds:Person-677-6 . 
+swds:Person-677-6 sps:name-variant "ܒܰܐܝܢ ܣܡܺܝܬ"@syr-Syrj . 
+swds:Person-677-6 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_677" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-1 . 
+swds:closeMatch-677-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_677" . 
+swds:closeMatch-677-1 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/85428086" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-2 . 
+swds:closeMatch-677-2 sps:closeMatch "http://viaf.org/viaf/85428086" . 
+swds:closeMatch-677-2 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://worldcat.org/identities/lccn-n84-39392" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-3 . 
+swds:closeMatch-677-3 sps:closeMatch "http://worldcat.org/identities/lccn-n84-39392" . 
+swds:closeMatch-677-3 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/100212184" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-4 . 
+swds:closeMatch-677-4 sps:closeMatch "http://viaf.org/viaf/100212184" . 
+swds:closeMatch-677-4 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://worldcat.org/identities/viaf-100212184" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-5 . 
+swds:closeMatch-677-5 sps:closeMatch "http://worldcat.org/identities/viaf-100212184" . 
+swds:closeMatch-677-5 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/201809099" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-6 . 
+swds:closeMatch-677-6 sps:closeMatch "http://viaf.org/viaf/201809099" . 
+swds:closeMatch-677-6 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/196836505" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-7 . 
+swds:closeMatch-677-7 sps:closeMatch "http://viaf.org/viaf/196836505" . 
+swds:closeMatch-677-7 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/97007404" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-8 . 
+swds:closeMatch-677-8 sps:closeMatch "http://viaf.org/viaf/97007404" . 
+swds:closeMatch-677-8 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/190188255" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-9 . 
+swds:closeMatch-677-9 sps:closeMatch "http://viaf.org/viaf/190188255" . 
+swds:closeMatch-677-9 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:closeMatch "http://viaf.org/viaf/241392587" . 
+<http://syriaca.org/person/677> sp:closeMatch swds:closeMatch-677-10 . 
+swds:closeMatch-677-10 sps:closeMatch "http://viaf.org/viaf/241392587" . 
+swds:closeMatch-677-10 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:birth-when "1818"^^xsd:gYear . 
+<http://syriaca.org/person/677> sp:birth-when swds:birth-when-677-1 . 
+swds:birth-when-677-1 sps:birth-when "1818"^^xsd:gYear . 
+swds:birth-when-677-1 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:death-when "1895"^^xsd:gYear . 
+<http://syriaca.org/person/677> sp:death-when swds:death-when-677-1 . 
+swds:death-when-677-1 sps:death-when "1895"^^xsd:gYear . 
+swds:death-when-677-1 spr:reference-URL <http://syriaca.org/person/677> . 
+<http://syriaca.org/person/677> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/677> sp:status swds:status-677-1 . 
+swds:status-677-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-677-1 spr:reference-URL <http://syriaca.org/person/677> .

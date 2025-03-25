@@ -1,0 +1,80 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/251> rdf:type lawd:Person . 
+<http://syriaca.org/person/251> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/251> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/251> rdfs:label "Slibo bar Khayrun"@en . 
+<http://syriaca.org/person/251> rdfs:label "ܨܠܝܒܐ ܒܪ ܟܝܪܘܢ"@syr . 
+<http://syriaca.org/person/251> foaf:primaryTopicOf <http://syriaca.org/person/251/tei> . 
+<http://syriaca.org/person/251> foaf:primaryTopicOf <http://syriaca.org/person/251/html> . 
+<http://syriaca.org/person/251> dcterms:hasFormat <http://syriaca.org/person/251/tei> . 
+<http://syriaca.org/person/251> dcterms:hasFormat <http://syriaca.org/person/251/html> . 
+<http://syriaca.org/person/251> swdt:name-variant "Slibo bar Khayrun"@en . 
+<http://syriaca.org/person/251> swdt:name-variant "Malphono Ṣaliba Bar Khayrun"@en . 
+<http://syriaca.org/person/251> swdt:name-variant "الربان صليبا ابن خيرون"@ar . 
+<http://syriaca.org/person/251> swdt:name-variant "ܪܒܢ ܨܠܝܒܐ ܒܪ ܟܝܪܘܢ"@syr . 
+<http://syriaca.org/person/251> swdt:name-variant "ܪܰܒܢ ܨܰܠܝܒܐ ܒܰܪ ܟܰܝܪܘܢ"@syr-Syrj . 
+<http://syriaca.org/person/251> swdt:name-variant "ܨܠܝܒܐ ܒܪ ܟܝܪܘܢ"@syr . 
+<http://syriaca.org/person/251> swdt:name-variant "Ṣlibo bar Khayrun"@en-x-gedsh . 
+<http://syriaca.org/person/251> swdt:name-variant "Saliba bar Khayrun"@en . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-1 . 
+swds:Person-251-1 sps:name-variant "Slibo bar Khayrun"@en . 
+swds:Person-251-1 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-2 . 
+swds:Person-251-2 sps:name-variant "Malphono Ṣaliba Bar Khayrun"@en . 
+swds:Person-251-2 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-3 . 
+swds:Person-251-3 sps:name-variant "الربان صليبا ابن خيرون"@ar . 
+swds:Person-251-3 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-4 . 
+swds:Person-251-4 sps:name-variant "ܪܒܢ ܨܠܝܒܐ ܒܪ ܟܝܪܘܢ"@syr . 
+swds:Person-251-4 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-5 . 
+swds:Person-251-5 sps:name-variant "ܪܰܒܢ ܨܰܠܝܒܐ ܒܰܪ ܟܰܝܪܘܢ"@syr-Syrj . 
+swds:Person-251-5 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-6 . 
+swds:Person-251-6 sps:name-variant "ܨܠܝܒܐ ܒܪ ܟܝܪܘܢ"@syr . 
+swds:Person-251-6 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-7 . 
+swds:Person-251-7 sps:name-variant "Ṣlibo bar Khayrun"@en-x-gedsh . 
+swds:Person-251-7 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> sp:name-variant swds:Person-251-8 . 
+swds:Person-251-8 sps:name-variant "Saliba bar Khayrun"@en . 
+swds:Person-251-8 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_251" . 
+<http://syriaca.org/person/251> sp:closeMatch swds:closeMatch-251-1 . 
+swds:closeMatch-251-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_251" . 
+swds:closeMatch-251-1 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> swdt:death-when "1340"^^xsd:gYear . 
+<http://syriaca.org/person/251> sp:death-when swds:death-when-251-1 . 
+swds:death-when-251-1 sps:death-when "1340"^^xsd:gYear . 
+swds:death-when-251-1 spr:reference-URL <http://syriaca.org/person/251> . 
+<http://syriaca.org/person/251> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/251> sp:status swds:status-251-1 . 
+swds:status-251-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-251-1 spr:reference-URL <http://syriaca.org/person/251> .

@@ -1,0 +1,65 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1539> rdf:type lawd:Person . 
+<http://syriaca.org/person/1539> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1539> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1539> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1539> rdfs:label "ܥܒܕܝܫܘܥ ܕܣܢܝܐ"@syr . 
+<http://syriaca.org/person/1539> rdfs:label "ʿAbdishoʿ of Dasen"@en . 
+<http://syriaca.org/person/1539> foaf:primaryTopicOf <http://syriaca.org/person/1539/tei> . 
+<http://syriaca.org/person/1539> foaf:primaryTopicOf <http://syriaca.org/person/1539/html> . 
+<http://syriaca.org/person/1539> dcterms:hasFormat <http://syriaca.org/person/1539/tei> . 
+<http://syriaca.org/person/1539> dcterms:hasFormat <http://syriaca.org/person/1539/html> . 
+<http://syriaca.org/person/1539> schema:description "ʿAbdishoʿ of Dasen was a monk from Dasen who trained in the monastery of Beth Sayare ."@en . 
+<http://syriaca.org/person/1539> foaf:primaryTopicOf <http://syriaca.org/person/1539> . 
+<http://syriaca.org/person/1539> foaf:primaryTopicOf <http://syriaca.org/place/738> . 
+<http://syriaca.org/person/1539> foaf:primaryTopicOf <http://syriaca.org/place/2614> . 
+<http://syriaca.org/person/1539> swdt:name-variant "ܥܒܕܝܫܘܥ ܕܣܢܝܐ"@syr . 
+<http://syriaca.org/person/1539> swdt:name-variant "ʿAbdishōʿ Dasnāyā"@en-x-gedsh . 
+<http://syriaca.org/person/1539> swdt:name-variant "ʿAbdishoʿ of Dasen"@en . 
+<http://syriaca.org/person/1539> swdt:name-variant "ʿAḇdīšōʿ Dasnāyā"@fr-x-zanetti . 
+<http://syriaca.org/person/1539> swdt:name-variant "Abdisho‘ de Dasen"@fr . 
+<http://syriaca.org/person/1539> sp:name-variant swds:Person-1539-1 . 
+swds:Person-1539-1 sps:name-variant "ܥܒܕܝܫܘܥ ܕܣܢܝܐ"@syr . 
+swds:Person-1539-1 spr:reference-URL <http://syriaca.org/person/1539> . 
+<http://syriaca.org/person/1539> sp:name-variant swds:Person-1539-2 . 
+swds:Person-1539-2 sps:name-variant "ʿAbdishōʿ Dasnāyā"@en-x-gedsh . 
+swds:Person-1539-2 spr:reference-URL <http://syriaca.org/person/1539> . 
+<http://syriaca.org/person/1539> sp:name-variant swds:Person-1539-3 . 
+swds:Person-1539-3 sps:name-variant "ʿAbdishoʿ of Dasen"@en . 
+swds:Person-1539-3 spr:reference-URL <http://syriaca.org/person/1539> . 
+<http://syriaca.org/person/1539> sp:name-variant swds:Person-1539-4 . 
+swds:Person-1539-4 sps:name-variant "ʿAḇdīšōʿ Dasnāyā"@fr-x-zanetti . 
+swds:Person-1539-4 spr:reference-URL <http://syriaca.org/person/1539> . 
+<http://syriaca.org/person/1539> sp:name-variant swds:Person-1539-5 . 
+swds:Person-1539-5 sps:name-variant "Abdisho‘ de Dasen"@fr . 
+swds:Person-1539-5 spr:reference-URL <http://syriaca.org/person/1539> . 
+<http://syriaca.org/person/1539> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1539> sp:status swds:status-1539-1 . 
+swds:status-1539-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1539-1 spr:reference-URL <http://syriaca.org/person/1539> .

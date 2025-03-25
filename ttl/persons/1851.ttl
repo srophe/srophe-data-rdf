@@ -1,0 +1,96 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1851> rdf:type lawd:Person . 
+<http://syriaca.org/person/1851> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1851> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1851> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1851> rdfs:label "ܓܝܣܐ ܕܡܢ ܝܡܝܢܐ"@syr . 
+<http://syriaca.org/person/1851> rdfs:label "The Good Thief on the Cross"@en . 
+<http://syriaca.org/person/1851> foaf:primaryTopicOf <http://syriaca.org/person/1851/tei> . 
+<http://syriaca.org/person/1851> foaf:primaryTopicOf <http://syriaca.org/person/1851/html> . 
+<http://syriaca.org/person/1851> dcterms:hasFormat <http://syriaca.org/person/1851/tei> . 
+<http://syriaca.org/person/1851> dcterms:hasFormat <http://syriaca.org/person/1851/html> . 
+<http://syriaca.org/person/1851> schema:description "The Good Thief on the Cross is a name given in the Gospel of Luke to the thief who was crucified, according to tradition, at the right hand of Christ . In Luke 's account the thief repents and is promised entrance into paradise. This thief and his literary foil ( the unrepentant thief at Christ's left ) were fruitful inspiration for many Syriac authors and poets."@en . 
+<http://syriaca.org/person/1851> foaf:primaryTopicOf <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> foaf:primaryTopicOf <http://syriaca.org/person/2245> . 
+<http://syriaca.org/person/1851> swdt:name-variant "ܓܝܣܐ ܕܡܢ ܝܡܝܢܐ"@syr . 
+<http://syriaca.org/person/1851> swdt:name-variant "Gayāsā d-men yamina"@en-x-gedsh . 
+<http://syriaca.org/person/1851> swdt:name-variant "ܓܝܣܐ"@syr . 
+<http://syriaca.org/person/1851> swdt:name-variant "Gayasa"@en . 
+<http://syriaca.org/person/1851> swdt:name-variant "The Good Thief"@en . 
+<http://syriaca.org/person/1851> swdt:name-variant "The Good Thief on the Cross"@en . 
+<http://syriaca.org/person/1851> swdt:name-variant "Thief at the Right Hand (of Christ)"@en . 
+<http://syriaca.org/person/1851> swdt:name-variant "Penitent Thief"@en . 
+<http://syriaca.org/person/1851> swdt:name-variant "Gayāsā"@fr-x-zanetti . 
+<http://syriaca.org/person/1851> swdt:name-variant "Larron"@fr . 
+<http://syriaca.org/person/1851> swdt:name-variant "larron"@fr . 
+<http://syriaca.org/person/1851> swdt:name-variant "Larron (bon)"@fr . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-1 . 
+swds:Person-1851-1 sps:name-variant "ܓܝܣܐ ܕܡܢ ܝܡܝܢܐ"@syr . 
+swds:Person-1851-1 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-2 . 
+swds:Person-1851-2 sps:name-variant "Gayāsā d-men yamina"@en-x-gedsh . 
+swds:Person-1851-2 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-3 . 
+swds:Person-1851-3 sps:name-variant "ܓܝܣܐ"@syr . 
+swds:Person-1851-3 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-4 . 
+swds:Person-1851-4 sps:name-variant "Gayasa"@en . 
+swds:Person-1851-4 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-5 . 
+swds:Person-1851-5 sps:name-variant "The Good Thief"@en . 
+swds:Person-1851-5 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-6 . 
+swds:Person-1851-6 sps:name-variant "The Good Thief on the Cross"@en . 
+swds:Person-1851-6 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-7 . 
+swds:Person-1851-7 sps:name-variant "Thief at the Right Hand (of Christ)"@en . 
+swds:Person-1851-7 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-8 . 
+swds:Person-1851-8 sps:name-variant "Penitent Thief"@en . 
+swds:Person-1851-8 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-9 . 
+swds:Person-1851-9 sps:name-variant "Gayāsā"@fr-x-zanetti . 
+swds:Person-1851-9 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-10 . 
+swds:Person-1851-10 sps:name-variant "Larron"@fr . 
+swds:Person-1851-10 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-11 . 
+swds:Person-1851-11 sps:name-variant "larron"@fr . 
+swds:Person-1851-11 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> sp:name-variant swds:Person-1851-12 . 
+swds:Person-1851-12 sps:name-variant "Larron (bon)"@fr . 
+swds:Person-1851-12 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> swdt:closeMatch "https://en.wikipedia.org/wiki/Penitent_thief" . 
+<http://syriaca.org/person/1851> sp:closeMatch swds:closeMatch-1851-1 . 
+swds:closeMatch-1851-1 sps:closeMatch "https://en.wikipedia.org/wiki/Penitent_thief" . 
+swds:closeMatch-1851-1 spr:reference-URL <http://syriaca.org/person/1851> . 
+<http://syriaca.org/person/1851> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1851> sp:status swds:status-1851-1 . 
+swds:status-1851-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1851-1 spr:reference-URL <http://syriaca.org/person/1851> .

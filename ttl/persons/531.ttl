@@ -1,0 +1,122 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/531> rdf:type lawd:Person . 
+<http://syriaca.org/person/531> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/531> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/531> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/531> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/531> rdfs:label "ܚܢܢܝܫܘܥ ܚܓܝܪܐ"@syr . 
+<http://syriaca.org/person/531> rdfs:label "Henanishoʿ I"@en . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/7TTEJ9C4> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/531> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/531> foaf:primaryTopicOf <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> foaf:primaryTopicOf <http://syriaca.org/person/531.html> . 
+<http://syriaca.org/person/531> foaf:primaryTopicOf <http://syriaca.org/person/531.ttl> . 
+<http://syriaca.org/person/531> foaf:primaryTopicOf <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> dcterms:hasFormat <http://syriaca.org/person/531.html> . 
+<http://syriaca.org/person/531> dcterms:hasFormat <http://syriaca.org/person/531.ttl> . 
+<http://syriaca.org/person/531> schema:description "Cath. since 685/6; author of a law book and of exegetical homilies."@en . 
+<http://syriaca.org/person/531> swdt:name-variant "Ḥenanishoʿ I"@en-x-gedsh . 
+<http://syriaca.org/person/531> swdt:name-variant "ܚܢܢܝܫܘܥ ܚܓܝܪܐ"@syr . 
+<http://syriaca.org/person/531> swdt:name-variant "ܚܢܵܢܝܼܫܘܿܥ ܚܓܝܼܪܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/531> swdt:name-variant "Henanishoʿ I"@en . 
+<http://syriaca.org/person/531> swdt:name-variant "Ḥenanisho I"@en-x-srp1 . 
+<http://syriaca.org/person/531> swdt:name-variant "Ḥenanisho‘ I"@en-x-srp1 . 
+<http://syriaca.org/person/531> swdt:name-variant "Hnanisho’ , catholicos"@fr . 
+<http://syriaca.org/person/531> swdt:name-variant "Hnanisho"@en . 
+<http://syriaca.org/person/531> swdt:name-variant "ḤNĀNĪŠŌ"@fr-x-fiey . 
+<http://syriaca.org/person/531> swdt:name-variant "Ḥenanišoʿ I (the Lame)"@en . 
+<http://syriaca.org/person/531> swdt:name-variant "Henanisho' I Katholikos"@la . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-1 . 
+swds:Person-531-1 sps:name-variant "Ḥenanishoʿ I"@en-x-gedsh . 
+swds:Person-531-1 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-2 . 
+swds:Person-531-2 sps:name-variant "ܚܢܢܝܫܘܥ ܚܓܝܪܐ"@syr . 
+swds:Person-531-2 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-3 . 
+swds:Person-531-3 sps:name-variant "ܚܢܵܢܝܼܫܘܿܥ ܚܓܝܼܪܵܐ"@syr-Syrn . 
+swds:Person-531-3 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-4 . 
+swds:Person-531-4 sps:name-variant "Henanishoʿ I"@en . 
+swds:Person-531-4 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-5 . 
+swds:Person-531-5 sps:name-variant "Ḥenanisho I"@en-x-srp1 . 
+swds:Person-531-5 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-6 . 
+swds:Person-531-6 sps:name-variant "Ḥenanisho‘ I"@en-x-srp1 . 
+swds:Person-531-6 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-7 . 
+swds:Person-531-7 sps:name-variant "Hnanisho’ , catholicos"@fr . 
+swds:Person-531-7 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-8 . 
+swds:Person-531-8 sps:name-variant "Hnanisho"@en . 
+swds:Person-531-8 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-9 . 
+swds:Person-531-9 sps:name-variant "ḤNĀNĪŠŌ"@fr-x-fiey . 
+swds:Person-531-9 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-10 . 
+swds:Person-531-10 sps:name-variant "Ḥenanišoʿ I (the Lame)"@en . 
+swds:Person-531-10 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> sp:name-variant swds:Person-531-11 . 
+swds:Person-531-11 sps:name-variant "Henanisho' I Katholikos"@la . 
+swds:Person-531-11 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_531> . 
+<http://syriaca.org/person/531> sp:closeMatch swds:closeMatch-531-1 . 
+swds:closeMatch-531-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_531> . 
+swds:closeMatch-531-1 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Henanisho I&sT=keywords> . 
+<http://syriaca.org/person/531> sp:closeMatch swds:closeMatch-531-2 . 
+swds:closeMatch-531-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Henanisho I&sT=keywords> . 
+swds:closeMatch-531-2 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:death-notBefore "0699"^^xsd:gYear . 
+<http://syriaca.org/person/531> sp:death-notBefore swds:death-notBefore-531-1 . 
+swds:death-notBefore-531-1 sps:death-notBefore "0699"^^xsd:gYear . 
+swds:death-notBefore-531-1 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:death-notAfter "0700"^^xsd:gYear . 
+<http://syriaca.org/person/531> sp:death-notAfter swds:death-notAfter-531-1 . 
+swds:death-notAfter-531-1 sps:death-notAfter "0700"^^xsd:gYear . 
+swds:death-notAfter-531-1 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/531> sp:gender swds:gender-531-1 . 
+swds:gender-531-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-531-1 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/531> sp:status swds:status-531-1 . 
+swds:status-531-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-531-1 spr:reference-URL <http://syriaca.org/person/531.tei> . 
+<http://syriaca.org/person/531> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/531> sp:status swds:status-531-2 . 
+swds:status-531-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-531-2 spr:reference-URL <http://syriaca.org/person/531.tei> .

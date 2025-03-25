@@ -1,0 +1,118 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/123> rdf:type lawd:Person . 
+<http://syriaca.org/person/123> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/123> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/123> rdfs:label "Sabrishoʿ of Beth Rabban"@en . 
+<http://syriaca.org/person/123> rdfs:label "ܣܒܪ ܝܫܘܥ"@syr . 
+<http://syriaca.org/person/123> foaf:primaryTopicOf <http://syriaca.org/person/123/tei> . 
+<http://syriaca.org/person/123> foaf:primaryTopicOf <http://syriaca.org/person/123/html> . 
+<http://syriaca.org/person/123> dcterms:hasFormat <http://syriaca.org/person/123/tei> . 
+<http://syriaca.org/person/123> dcterms:hasFormat <http://syriaca.org/person/123/html> . 
+<http://syriaca.org/person/123> foaf:primaryTopicOf <http://syriaca.org/person/708> . 
+<http://syriaca.org/person/123> foaf:primaryTopicOf <http://syriaca.org/person/985> . 
+<http://syriaca.org/person/123> swdt:name-variant "Sabrishoʿ of Beth Rabban"@en . 
+<http://syriaca.org/person/123> swdt:name-variant "Sabar Yeshu‛"@en . 
+<http://syriaca.org/person/123> swdt:name-variant "سبر يشوع"@ar . 
+<http://syriaca.org/person/123> swdt:name-variant "ܣܒܪ ܝܫܘܥ"@syr . 
+<http://syriaca.org/person/123> swdt:name-variant "ܣܒܰܪ ܝܶܫܘܥ"@syr-Syrj . 
+<http://syriaca.org/person/123> swdt:name-variant "Sabrishuʿ bar Ramishuʿ of Beth Rabban"@en-x-gedsh . 
+<http://syriaca.org/person/123> swdt:name-variant "Sabrishu bar Ramishu of Beth Rabban"@en-x-srp1 . 
+<http://syriaca.org/person/123> swdt:name-variant "Sabrishu‘ bar Ramishu‘ of Beth Rabban"@en-x-srp1 . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-1 . 
+swds:Person-123-1 sps:name-variant "Sabrishoʿ of Beth Rabban"@en . 
+swds:Person-123-1 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-2 . 
+swds:Person-123-2 sps:name-variant "Sabar Yeshu‛"@en . 
+swds:Person-123-2 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-3 . 
+swds:Person-123-3 sps:name-variant "سبر يشوع"@ar . 
+swds:Person-123-3 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-4 . 
+swds:Person-123-4 sps:name-variant "ܣܒܪ ܝܫܘܥ"@syr . 
+swds:Person-123-4 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-5 . 
+swds:Person-123-5 sps:name-variant "ܣܒܰܪ ܝܶܫܘܥ"@syr-Syrj . 
+swds:Person-123-5 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-6 . 
+swds:Person-123-6 sps:name-variant "Sabrishuʿ bar Ramishuʿ of Beth Rabban"@en-x-gedsh . 
+swds:Person-123-6 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-7 . 
+swds:Person-123-7 sps:name-variant "Sabrishu bar Ramishu of Beth Rabban"@en-x-srp1 . 
+swds:Person-123-7 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> sp:name-variant swds:Person-123-8 . 
+swds:Person-123-8 sps:name-variant "Sabrishu‘ bar Ramishu‘ of Beth Rabban"@en-x-srp1 . 
+swds:Person-123-8 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_123" . 
+<http://syriaca.org/person/123> sp:closeMatch swds:closeMatch-123-1 . 
+swds:closeMatch-123-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_123" . 
+swds:closeMatch-123-1 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:floruit-notBefore "0700"^^xsd:gYear . 
+<http://syriaca.org/person/123> sp:floruit-notBefore swds:floruit-notBefore-123-1 . 
+swds:floruit-notBefore-123-1 sps:floruit-notBefore "0700"^^xsd:gYear . 
+swds:floruit-notBefore-123-1 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:floruit-notAfter "0800"^^xsd:gYear . 
+<http://syriaca.org/person/123> sp:floruit-notAfter swds:floruit-notAfter-123-1 . 
+swds:floruit-notAfter-123-1 sps:floruit-notAfter "0800"^^xsd:gYear . 
+swds:floruit-notAfter-123-1 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/123> sp:status swds:status-123-1 . 
+swds:status-123-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-123-1 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:not-to-be-confused-with <http://syriaca.org/person/708> . 
+<http://syriaca.org/person/123> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-11 . 
+swds:activeRelationnot-to-be-confused-with-123-11 swd:not-to-be-confused-with <http://syriaca.org/person/708> . 
+swds:activeRelationnot-to-be-confused-with-123-11 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/708> swdt:not-to-be-confused-with <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/708> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-11 . 
+swds:activeRelationnot-to-be-confused-with-123-11 swd:not-to-be-confused-with <http://syriaca.org/person/123> . 
+swds:activeRelationnot-to-be-confused-with-123-11 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/708> swdt:not-to-be-confused-with <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/708> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-12 . 
+swds:activeRelationnot-to-be-confused-with-123-12 swd:not-to-be-confused-with <http://syriaca.org/person/123> . 
+swds:activeRelationnot-to-be-confused-with-123-12 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:not-to-be-confused-with <http://syriaca.org/person/708> . 
+<http://syriaca.org/person/123> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-11 . 
+swds:activeRelationnot-to-be-confused-with-123-11 swd:not-to-be-confused-with <http://syriaca.org/person/708> . 
+swds:activeRelationnot-to-be-confused-with-123-11 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:not-to-be-confused-with <http://syriaca.org/person/985> . 
+<http://syriaca.org/person/123> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-21 . 
+swds:activeRelationnot-to-be-confused-with-123-21 swd:not-to-be-confused-with <http://syriaca.org/person/985> . 
+swds:activeRelationnot-to-be-confused-with-123-21 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/985> swdt:not-to-be-confused-with <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/985> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-21 . 
+swds:activeRelationnot-to-be-confused-with-123-21 swd:not-to-be-confused-with <http://syriaca.org/person/123> . 
+swds:activeRelationnot-to-be-confused-with-123-21 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/985> swdt:not-to-be-confused-with <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/985> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-22 . 
+swds:activeRelationnot-to-be-confused-with-123-22 swd:not-to-be-confused-with <http://syriaca.org/person/123> . 
+swds:activeRelationnot-to-be-confused-with-123-22 spr:reference-URL <http://syriaca.org/person/123> . 
+<http://syriaca.org/person/123> swdt:not-to-be-confused-with <http://syriaca.org/person/985> . 
+<http://syriaca.org/person/123> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-123-21 . 
+swds:activeRelationnot-to-be-confused-with-123-21 swd:not-to-be-confused-with <http://syriaca.org/person/985> . 
+swds:activeRelationnot-to-be-confused-with-123-21 spr:reference-URL <http://syriaca.org/person/123> .

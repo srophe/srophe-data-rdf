@@ -1,0 +1,82 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1473> rdf:type lawd:Person . 
+<http://syriaca.org/person/1473> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1473> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1473> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1473> rdfs:label "ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+<http://syriaca.org/person/1473> rdfs:label "Simeon"@en . 
+<http://syriaca.org/person/1473> foaf:primaryTopicOf <http://syriaca.org/person/1473/tei> . 
+<http://syriaca.org/person/1473> foaf:primaryTopicOf <http://syriaca.org/person/1473/html> . 
+<http://syriaca.org/person/1473> dcterms:hasFormat <http://syriaca.org/person/1473/tei> . 
+<http://syriaca.org/person/1473> dcterms:hasFormat <http://syriaca.org/person/1473/html> . 
+<http://syriaca.org/person/1473> schema:description "Simeon was the Bishop of Ḥarran . He was also known as “Simeon of the Olives.” He was born in Ṭur ʿAbdin and had been a student in the monastery of Qartmin . He was a great builder of churches and monasteries, and assisted Muslims in Nisibis by helping them build a mosque."@en . 
+<http://syriaca.org/person/1473> foaf:primaryTopicOf <http://syriaca.org/place/216> . 
+<http://syriaca.org/person/1473> foaf:primaryTopicOf <http://syriaca.org/place/221> . 
+<http://syriaca.org/person/1473> foaf:primaryTopicOf <http://syriaca.org/place/226> . 
+<http://syriaca.org/person/1473> foaf:primaryTopicOf <http://syriaca.org/place/142> . 
+<http://syriaca.org/person/1473> swdt:name-variant "ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+<http://syriaca.org/person/1473> swdt:name-variant "Shemʿun d-Zaytē"@en-x-gedsh . 
+<http://syriaca.org/person/1473> swdt:name-variant "Simeon"@en . 
+<http://syriaca.org/person/1473> swdt:name-variant "Šemʾōn d-Zaytē"@fr-x-zanetti . 
+<http://syriaca.org/person/1473> swdt:name-variant "Syméon des Olives"@fr . 
+<http://syriaca.org/person/1473> swdt:name-variant "SIMÉON"@fr-x-fiey . 
+<http://syriaca.org/person/1473> sp:name-variant swds:Person-1473-1 . 
+swds:Person-1473-1 sps:name-variant "ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+swds:Person-1473-1 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> sp:name-variant swds:Person-1473-2 . 
+swds:Person-1473-2 sps:name-variant "Shemʿun d-Zaytē"@en-x-gedsh . 
+swds:Person-1473-2 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> sp:name-variant swds:Person-1473-3 . 
+swds:Person-1473-3 sps:name-variant "Simeon"@en . 
+swds:Person-1473-3 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> sp:name-variant swds:Person-1473-4 . 
+swds:Person-1473-4 sps:name-variant "Šemʾōn d-Zaytē"@fr-x-zanetti . 
+swds:Person-1473-4 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> sp:name-variant swds:Person-1473-5 . 
+swds:Person-1473-5 sps:name-variant "Syméon des Olives"@fr . 
+swds:Person-1473-5 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> sp:name-variant swds:Person-1473-6 . 
+swds:Person-1473-6 sps:name-variant "SIMÉON"@fr-x-fiey . 
+swds:Person-1473-6 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> swdt:birth-when "0655"^^xsd:gYear . 
+<http://syriaca.org/person/1473> sp:birth-when swds:birth-when-1473-1 . 
+swds:birth-when-1473-1 sps:birth-when "0655"^^xsd:gYear . 
+swds:birth-when-1473-1 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> swdt:death-when "0734"^^xsd:gYear . 
+<http://syriaca.org/person/1473> sp:death-when swds:death-when-1473-1 . 
+swds:death-when-1473-1 sps:death-when "0734"^^xsd:gYear . 
+swds:death-when-1473-1 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> swdt:gender <http://syriaca.org/taxonomy/male> . 
+<http://syriaca.org/person/1473> sp:gender swds:gender-1473-1 . 
+swds:gender-1473-1 sps:gender <http://syriaca.org/taxonomy/male> . 
+swds:gender-1473-1 spr:reference-URL <http://syriaca.org/person/1473> . 
+<http://syriaca.org/person/1473> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1473> sp:status swds:status-1473-1 . 
+swds:status-1473-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1473-1 spr:reference-URL <http://syriaca.org/person/1473> .

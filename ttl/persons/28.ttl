@@ -1,0 +1,109 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/28> rdf:type lawd:Person . 
+<http://syriaca.org/person/28> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/28> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/28> rdfs:label "ܝܥܩܘܒ"@syr . 
+<http://syriaca.org/person/28> rdfs:label "Jacob, the deacon"@en . 
+<http://syriaca.org/person/28> foaf:primaryTopicOf <http://syriaca.org/person/28/tei> . 
+<http://syriaca.org/person/28> foaf:primaryTopicOf <http://syriaca.org/person/28/html> . 
+<http://syriaca.org/person/28> dcterms:hasFormat <http://syriaca.org/person/28/tei> . 
+<http://syriaca.org/person/28> dcterms:hasFormat <http://syriaca.org/person/28/html> . 
+<http://syriaca.org/person/28> foaf:primaryTopicOf <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> swdt:name-variant "Deacon Jacob"@en . 
+<http://syriaca.org/person/28> swdt:name-variant "الشماس يعقوب"@ar . 
+<http://syriaca.org/person/28> swdt:name-variant "ܡܫܡܫܢܐ ܝܥܩܘܒ ܐܘܪܗܝܐ"@syr . 
+<http://syriaca.org/person/28> swdt:name-variant "ܡܫܰܡܫܳܢܐ ܝܰܥܩܘܒ ܐܘܪܗܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/28> swdt:name-variant "ܝܥܩܘܒ"@syr . 
+<http://syriaca.org/person/28> swdt:name-variant "Yaʿqub"@en-x-gedsh . 
+<http://syriaca.org/person/28> swdt:name-variant "Jacob, the deacon"@en . 
+<http://syriaca.org/person/28> swdt:name-variant "Yaqub"@en-x-srp1 . 
+<http://syriaca.org/person/28> swdt:name-variant "Ya‘qub"@en-x-srp1 . 
+<http://syriaca.org/person/28> swdt:name-variant "Jacques le diacre"@fr . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-1 . 
+swds:Person-28-1 sps:name-variant "Deacon Jacob"@en . 
+swds:Person-28-1 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-2 . 
+swds:Person-28-2 sps:name-variant "الشماس يعقوب"@ar . 
+swds:Person-28-2 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-3 . 
+swds:Person-28-3 sps:name-variant "ܡܫܡܫܢܐ ܝܥܩܘܒ ܐܘܪܗܝܐ"@syr . 
+swds:Person-28-3 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-4 . 
+swds:Person-28-4 sps:name-variant "ܡܫܰܡܫܳܢܐ ܝܰܥܩܘܒ ܐܘܪܗܳܝܳܐ"@syr-Syrj . 
+swds:Person-28-4 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-5 . 
+swds:Person-28-5 sps:name-variant "ܝܥܩܘܒ"@syr . 
+swds:Person-28-5 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-6 . 
+swds:Person-28-6 sps:name-variant "Yaʿqub"@en-x-gedsh . 
+swds:Person-28-6 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-7 . 
+swds:Person-28-7 sps:name-variant "Jacob, the deacon"@en . 
+swds:Person-28-7 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-8 . 
+swds:Person-28-8 sps:name-variant "Yaqub"@en-x-srp1 . 
+swds:Person-28-8 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-9 . 
+swds:Person-28-9 sps:name-variant "Ya‘qub"@en-x-srp1 . 
+swds:Person-28-9 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> sp:name-variant swds:Person-28-10 . 
+swds:Person-28-10 sps:name-variant "Jacques le diacre"@fr . 
+swds:Person-28-10 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_28" . 
+<http://syriaca.org/person/28> sp:closeMatch swds:closeMatch-28-1 . 
+swds:closeMatch-28-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_28" . 
+swds:closeMatch-28-1 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> swdt:floruit-when "0451"^^xsd:gYear . 
+<http://syriaca.org/person/28> sp:floruit-when swds:floruit-when-28-1 . 
+swds:floruit-when-28-1 sps:floruit-when "0451"^^xsd:gYear . 
+swds:floruit-when-28-1 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> swdt:occupation <http://syriaca.org/taxonomy/deacons> . 
+<http://syriaca.org/person/28> sp:occupation swds:occupation-28-1 . 
+swds:occupation-28-1 sps:occupation <http://syriaca.org/taxonomy/deacons> . 
+swds:occupation-28-1 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> swdt:status <http://syriaca.org/taxonomy/writers> . 
+<http://syriaca.org/person/28> sp:status swds:status-28-1 . 
+swds:status-28-1 sps:status <http://syriaca.org/taxonomy/writers> . 
+swds:status-28-1 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> swdt:not-to-be-confused-with <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-28-11 . 
+swds:activeRelationnot-to-be-confused-with-28-11 swd:not-to-be-confused-with <http://syriaca.org/person/113> . 
+swds:activeRelationnot-to-be-confused-with-28-11 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> swdt:not-to-be-confused-with <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-28-11 . 
+swds:activeRelationnot-to-be-confused-with-28-11 swd:not-to-be-confused-with <http://syriaca.org/person/28> . 
+swds:activeRelationnot-to-be-confused-with-28-11 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> swdt:not-to-be-confused-with <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/113> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-28-12 . 
+swds:activeRelationnot-to-be-confused-with-28-12 swd:not-to-be-confused-with <http://syriaca.org/person/28> . 
+swds:activeRelationnot-to-be-confused-with-28-12 spr:reference-URL <http://syriaca.org/person/28> . 
+<http://syriaca.org/person/28> swdt:not-to-be-confused-with <http://syriaca.org/person/113> . 
+<http://syriaca.org/person/28> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-28-11 . 
+swds:activeRelationnot-to-be-confused-with-28-11 swd:not-to-be-confused-with <http://syriaca.org/person/113> . 
+swds:activeRelationnot-to-be-confused-with-28-11 spr:reference-URL <http://syriaca.org/person/28> .
