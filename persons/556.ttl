@@ -1,0 +1,131 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/556> rdf:type lawd:Person . 
+<http://syriaca.org/person/556> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/556> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/556> rdfs:label "ܝܫܘܥܕܢܚ ܕܒܨܪܐ"@syr . 
+<http://syriaca.org/person/556> rdfs:label "Ishoʿdnah of Basra"@en . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/69NR7GKT> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/556> lawd:hasCitation <http://syriaca.org/cbss/B5GPIGPS> . 
+<http://syriaca.org/person/556> foaf:primaryTopicOf <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> foaf:primaryTopicOf <http://syriaca.org/person/556.html> . 
+<http://syriaca.org/person/556> foaf:primaryTopicOf <http://syriaca.org/person/556.ttl> . 
+<http://syriaca.org/person/556> dcterms:hasFormat <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> dcterms:hasFormat <http://syriaca.org/person/556.html> . 
+<http://syriaca.org/person/556> dcterms:hasFormat <http://syriaca.org/person/556.ttl> . 
+<http://syriaca.org/person/556> schema:description "Metropolitan of Prat d-Mayshan (Baṣra) and author."@en . 
+<http://syriaca.org/person/556> swdt:name-variant "Ishoʿdnaḥ"@en-x-gedsh . 
+<http://syriaca.org/person/556> swdt:name-variant "Yesho‛dnaḥ of Baṣra"@en . 
+<http://syriaca.org/person/556> swdt:name-variant "يشوعدناح البصري"@ar . 
+<http://syriaca.org/person/556> swdt:name-variant "ܝܫܘܥ ܕܢܚ ܕܒܘܨܪܐ"@syr . 
+<http://syriaca.org/person/556> swdt:name-variant "ܝܶܫܘܥ ܕܢܰܚ ܕܒܘܨܪܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/556> swdt:name-variant "ܝܫܘܥܕܢܚ ܕܒܨܪܐ"@syr . 
+<http://syriaca.org/person/556> swdt:name-variant "ܡܪܝ ܝܫܘܥܕܢܚ ܕܒܨܪܐ"@syr . 
+<http://syriaca.org/person/556> swdt:name-variant "ܡܵܪܝ ܝܑܼܫܘܿܥܕܢܲܚ ܕܒܲܨܪܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/556> swdt:name-variant "Ishodenah of Basrah"@en . 
+<http://syriaca.org/person/556> swdt:name-variant "Ishodnaḥ"@en-x-srp1 . 
+<http://syriaca.org/person/556> swdt:name-variant "Isho‘dnaḥ"@en-x-srp1 . 
+<http://syriaca.org/person/556> swdt:name-variant "Isho’denah de Basra"@fr . 
+<http://syriaca.org/person/556> swdt:name-variant "Isho‘dnah de Basra"@fr . 
+<http://syriaca.org/person/556> swdt:name-variant "Ishoʿdnah of Basra"@en . 
+<http://syriaca.org/person/556> swdt:name-variant "Isho' Denah e Basra"@la . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-1 . 
+swds:Person-556-1 sps:name-variant "Ishoʿdnaḥ"@en-x-gedsh . 
+swds:Person-556-1 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-2 . 
+swds:Person-556-2 sps:name-variant "Yesho‛dnaḥ of Baṣra"@en . 
+swds:Person-556-2 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-3 . 
+swds:Person-556-3 sps:name-variant "يشوعدناح البصري"@ar . 
+swds:Person-556-3 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-4 . 
+swds:Person-556-4 sps:name-variant "ܝܫܘܥ ܕܢܚ ܕܒܘܨܪܐ"@syr . 
+swds:Person-556-4 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-5 . 
+swds:Person-556-5 sps:name-variant "ܝܶܫܘܥ ܕܢܰܚ ܕܒܘܨܪܳܐ"@syr-Syrj . 
+swds:Person-556-5 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-6 . 
+swds:Person-556-6 sps:name-variant "ܝܫܘܥܕܢܚ ܕܒܨܪܐ"@syr . 
+swds:Person-556-6 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-7 . 
+swds:Person-556-7 sps:name-variant "ܡܪܝ ܝܫܘܥܕܢܚ ܕܒܨܪܐ"@syr . 
+swds:Person-556-7 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-8 . 
+swds:Person-556-8 sps:name-variant "ܡܵܪܝ ܝܑܼܫܘܿܥܕܢܲܚ ܕܒܲܨܪܵܐ"@syr-Syrn . 
+swds:Person-556-8 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-9 . 
+swds:Person-556-9 sps:name-variant "Ishodenah of Basrah"@en . 
+swds:Person-556-9 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-10 . 
+swds:Person-556-10 sps:name-variant "Ishodnaḥ"@en-x-srp1 . 
+swds:Person-556-10 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-11 . 
+swds:Person-556-11 sps:name-variant "Isho‘dnaḥ"@en-x-srp1 . 
+swds:Person-556-11 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-12 . 
+swds:Person-556-12 sps:name-variant "Isho’denah de Basra"@fr . 
+swds:Person-556-12 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-13 . 
+swds:Person-556-13 sps:name-variant "Isho‘dnah de Basra"@fr . 
+swds:Person-556-13 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-14 . 
+swds:Person-556-14 sps:name-variant "Ishoʿdnah of Basra"@en . 
+swds:Person-556-14 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> sp:name-variant swds:Person-556-15 . 
+swds:Person-556-15 sps:name-variant "Isho' Denah e Basra"@la . 
+swds:Person-556-15 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_556" . 
+<http://syriaca.org/person/556> sp:closeMatch swds:closeMatch-556-1 . 
+swds:closeMatch-556-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_556" . 
+swds:closeMatch-556-1 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishodenah of Basrah&sT=keywords" . 
+<http://syriaca.org/person/556> sp:closeMatch swds:closeMatch-556-2 . 
+swds:closeMatch-556-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishodenah of Basrah&sT=keywords" . 
+swds:closeMatch-556-2 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> swdt:floruit-notBefore "0800"^^xsd:gYear . 
+<http://syriaca.org/person/556> sp:floruit-notBefore swds:floruit-notBefore-556-1 . 
+swds:floruit-notBefore-556-1 sps:floruit-notBefore "0800"^^xsd:gYear . 
+swds:floruit-notBefore-556-1 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> swdt:floruit-notAfter "0900"^^xsd:gYear . 
+<http://syriaca.org/person/556> sp:floruit-notAfter swds:floruit-notAfter-556-1 . 
+swds:floruit-notAfter-556-1 sps:floruit-notAfter "0900"^^xsd:gYear . 
+swds:floruit-notAfter-556-1 spr:reference-URL <http://syriaca.org/person/556.tei> . 
+<http://syriaca.org/person/556> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/556> sp:status swds:status-556-1 . 
+swds:status-556-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-556-1 spr:reference-URL <http://syriaca.org/person/556.tei> .

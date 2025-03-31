@@ -1,0 +1,82 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/108> rdf:type lawd:Person . 
+<http://syriaca.org/person/108> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/108> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/108> rdfs:label "Thomas of Amid"@en . 
+<http://syriaca.org/person/108> rdfs:label "ܬܐܘܡܐ ܐܡܝܕܝܐ"@syr . 
+<http://syriaca.org/person/108> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/108> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/108> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/108> foaf:primaryTopicOf <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> foaf:primaryTopicOf <http://syriaca.org/person/108.html> . 
+<http://syriaca.org/person/108> foaf:primaryTopicOf <http://syriaca.org/person/108.ttl> . 
+<http://syriaca.org/person/108> dcterms:hasFormat <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> dcterms:hasFormat <http://syriaca.org/person/108.html> . 
+<http://syriaca.org/person/108> dcterms:hasFormat <http://syriaca.org/person/108.ttl> . 
+<http://syriaca.org/person/108> foaf:relation <http://syriaca.org/place/8> . 
+<http://syriaca.org/person/108> swdt:name-variant "Thomas of Amid"@en . 
+<http://syriaca.org/person/108> swdt:name-variant "Thomas of Amid"@en . 
+<http://syriaca.org/person/108> swdt:name-variant "توما الآمدي"@ar . 
+<http://syriaca.org/person/108> swdt:name-variant "ܬܐܘܡܐ ܐܡܝܕܝܐ"@syr . 
+<http://syriaca.org/person/108> swdt:name-variant "ܬܐܘܡܰܐ ܐܳܡܝܺܕܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/108> swdt:name-variant "Tumo of Amid"@en-x-gedsh . 
+<http://syriaca.org/person/108> sp:name-variant swds:Person-108-1 . 
+swds:Person-108-1 sps:name-variant "Thomas of Amid"@en . 
+swds:Person-108-1 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> sp:name-variant swds:Person-108-2 . 
+swds:Person-108-2 sps:name-variant "Thomas of Amid"@en . 
+swds:Person-108-2 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> sp:name-variant swds:Person-108-3 . 
+swds:Person-108-3 sps:name-variant "توما الآمدي"@ar . 
+swds:Person-108-3 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> sp:name-variant swds:Person-108-4 . 
+swds:Person-108-4 sps:name-variant "ܬܐܘܡܐ ܐܡܝܕܝܐ"@syr . 
+swds:Person-108-4 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> sp:name-variant swds:Person-108-5 . 
+swds:Person-108-5 sps:name-variant "ܬܐܘܡܰܐ ܐܳܡܝܺܕܳܝܳܐ"@syr-Syrj . 
+swds:Person-108-5 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> sp:name-variant swds:Person-108-6 . 
+swds:Person-108-6 sps:name-variant "Tumo of Amid"@en-x-gedsh . 
+swds:Person-108-6 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_108" . 
+<http://syriaca.org/person/108> sp:closeMatch swds:closeMatch-108-1 . 
+swds:closeMatch-108-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_108" . 
+swds:closeMatch-108-1 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> swdt:floruit-notBefore "0600"^^xsd:gYear . 
+<http://syriaca.org/person/108> sp:floruit-notBefore swds:floruit-notBefore-108-1 . 
+swds:floruit-notBefore-108-1 sps:floruit-notBefore "0600"^^xsd:gYear . 
+swds:floruit-notBefore-108-1 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> swdt:floruit-notAfter "0700"^^xsd:gYear . 
+<http://syriaca.org/person/108> sp:floruit-notAfter swds:floruit-notAfter-108-1 . 
+swds:floruit-notAfter-108-1 sps:floruit-notAfter "0700"^^xsd:gYear . 
+swds:floruit-notAfter-108-1 spr:reference-URL <http://syriaca.org/person/108.tei> . 
+<http://syriaca.org/person/108> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/108> sp:status swds:status-108-1 . 
+swds:status-108-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-108-1 spr:reference-URL <http://syriaca.org/person/108.tei> .

@@ -1,0 +1,114 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/210> rdf:type lawd:Person . 
+<http://syriaca.org/person/210> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/210> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/210> rdfs:label "ܒܣܝܠܝܘܣ ܒܪ ܫܘܡܢܐ"@syr . 
+<http://syriaca.org/person/210> rdfs:label "Basil bar Shumone"@en . 
+<http://syriaca.org/person/210> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/210> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/210> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/210> lawd:hasCitation <http://syriaca.org/cbss/R7I6RA3X> . 
+<http://syriaca.org/person/210> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/210> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/210> foaf:primaryTopicOf <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> foaf:primaryTopicOf <http://syriaca.org/person/210.html> . 
+<http://syriaca.org/person/210> foaf:primaryTopicOf <http://syriaca.org/person/210.ttl> . 
+<http://syriaca.org/person/210> dcterms:hasFormat <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> dcterms:hasFormat <http://syriaca.org/person/210.html> . 
+<http://syriaca.org/person/210> dcterms:hasFormat <http://syriaca.org/person/210.ttl> . 
+<http://syriaca.org/person/210> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/210> swdt:name-variant "Basilius Bar Shumanna"@en . 
+<http://syriaca.org/person/210> swdt:name-variant "باسيليوس ابن شومنة"@ar . 
+<http://syriaca.org/person/210> swdt:name-variant "ܒܣܝܠܝܘܣ ܒܪ ܫܘܡܢܐ"@syr . 
+<http://syriaca.org/person/210> swdt:name-variant "ܒܰܣܝܠܝܘܣ ܒܰܪ ܫܘܡܢ̈ܐ"@syr-Syrj . 
+<http://syriaca.org/person/210> swdt:name-variant "Baselios bar Shumone"@en-x-gedsh . 
+<http://syriaca.org/person/210> swdt:name-variant "Basil bar Shumone"@en . 
+<http://syriaca.org/person/210> swdt:name-variant "Basilius, bishop of Edessa"@en . 
+<http://syriaca.org/person/210> swdt:name-variant "ܚܣܝܐ ܒܐܣܝܠܝܘܣ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/210> swdt:name-variant "Ḥasyā Bāsīlyūs d-’ūrhāy"@en-x-lah . 
+<http://syriaca.org/person/210> swdt:name-variant "Basilios Abu-l-Faraj bar Shummana"@en . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-1 . 
+swds:Person-210-1 sps:name-variant "Basilius Bar Shumanna"@en . 
+swds:Person-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-2 . 
+swds:Person-210-2 sps:name-variant "باسيليوس ابن شومنة"@ar . 
+swds:Person-210-2 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-3 . 
+swds:Person-210-3 sps:name-variant "ܒܣܝܠܝܘܣ ܒܪ ܫܘܡܢܐ"@syr . 
+swds:Person-210-3 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-4 . 
+swds:Person-210-4 sps:name-variant "ܒܰܣܝܠܝܘܣ ܒܰܪ ܫܘܡܢ̈ܐ"@syr-Syrj . 
+swds:Person-210-4 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-5 . 
+swds:Person-210-5 sps:name-variant "Baselios bar Shumone"@en-x-gedsh . 
+swds:Person-210-5 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-6 . 
+swds:Person-210-6 sps:name-variant "Basil bar Shumone"@en . 
+swds:Person-210-6 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-7 . 
+swds:Person-210-7 sps:name-variant "Basilius, bishop of Edessa"@en . 
+swds:Person-210-7 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-8 . 
+swds:Person-210-8 sps:name-variant "ܚܣܝܐ ܒܐܣܝܠܝܘܣ ܕܐܘܪܗܝ"@syr . 
+swds:Person-210-8 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-9 . 
+swds:Person-210-9 sps:name-variant "Ḥasyā Bāsīlyūs d-’ūrhāy"@en-x-lah . 
+swds:Person-210-9 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> sp:name-variant swds:Person-210-10 . 
+swds:Person-210-10 sps:name-variant "Basilios Abu-l-Faraj bar Shummana"@en . 
+swds:Person-210-10 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_210" . 
+<http://syriaca.org/person/210> sp:closeMatch swds:closeMatch-210-1 . 
+swds:closeMatch-210-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_210" . 
+swds:closeMatch-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> swdt:closeMatch "http://www.late-antique-historiography.ugent.be/database/authors/269" . 
+<http://syriaca.org/person/210> sp:closeMatch swds:closeMatch-210-2 . 
+swds:closeMatch-210-2 sps:closeMatch "http://www.late-antique-historiography.ugent.be/database/authors/269" . 
+swds:closeMatch-210-2 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> swdt:birth-notBefore "1075"^^xsd:gYear . 
+<http://syriaca.org/person/210> sp:birth-notBefore swds:birth-notBefore-210-1 . 
+swds:birth-notBefore-210-1 sps:birth-notBefore "1075"^^xsd:gYear . 
+swds:birth-notBefore-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> swdt:death-when "1169"^^xsd:gYear . 
+<http://syriaca.org/person/210> sp:death-when swds:death-when-210-1 . 
+swds:death-when-210-1 sps:death-when "1169"^^xsd:gYear . 
+swds:death-when-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> swdt:birth-place <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/210> sp:birth-place swds:birth-place-210-1 . 
+swds:birth-place-210-1 sps:birth-place <http://syriaca.org/place/78> . 
+swds:birth-place-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+<http://syriaca.org/person/210> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/210> sp:occupation swds:occupation-210-1 . 
+swds:occupation-210-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> . 
+swds:occupation-210-1 spq:from "1129"^^xsd:gYear . 
+<http://syriaca.org/person/210> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/210> sp:status swds:status-210-1 . 
+swds:status-210-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-210-1 spr:reference-URL <http://syriaca.org/person/210.tei> .

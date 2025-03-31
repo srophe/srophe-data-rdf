@@ -1,0 +1,63 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1472> rdf:type lawd:Person . 
+<http://syriaca.org/person/1472> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1472> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1472> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1472> rdfs:label "Simeon, bishop of Edessa"@en . 
+<http://syriaca.org/person/1472> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/1472> lawd:hasCitation <http://syriaca.org/cbss/RZFH4CCX> . 
+<http://syriaca.org/person/1472> lawd:hasCitation <http://syriaca.org/cbss/HRGBNBT5> . 
+<http://syriaca.org/person/1472> foaf:primaryTopicOf <http://syriaca.org/person/1472.tei> . 
+<http://syriaca.org/person/1472> foaf:primaryTopicOf <http://syriaca.org/person/1472.html> . 
+<http://syriaca.org/person/1472> foaf:primaryTopicOf <http://syriaca.org/person/1472.ttl> . 
+<http://syriaca.org/person/1472> dcterms:hasFormat <http://syriaca.org/person/1472.tei> . 
+<http://syriaca.org/person/1472> dcterms:hasFormat <http://syriaca.org/person/1472.html> . 
+<http://syriaca.org/person/1472> dcterms:hasFormat <http://syriaca.org/person/1472.ttl> . 
+<http://syriaca.org/person/1472> schema:description "In hagiography: Simeon was a bishop of Edessa , and was succeeded by Gabriel, bishop of Edessa ."@en . 
+<http://syriaca.org/person/1472> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/1472> swdt:name-variant "Simeon, bishop of Edessa"@en . 
+<http://syriaca.org/person/1472> swdt:name-variant "SIMÉON"@fr-x-fiey . 
+<http://syriaca.org/person/1472> sp:name-variant swds:Person-1472-1 . 
+swds:Person-1472-1 sps:name-variant "Simeon, bishop of Edessa"@en . 
+swds:Person-1472-1 spr:reference-URL <http://syriaca.org/person/1472.tei> . 
+<http://syriaca.org/person/1472> sp:name-variant swds:Person-1472-2 . 
+swds:Person-1472-2 sps:name-variant "SIMÉON"@fr-x-fiey . 
+swds:Person-1472-2 spr:reference-URL <http://syriaca.org/person/1472.tei> . 
+<http://syriaca.org/person/1472> swdt:death-when "0665"^^xsd:gYear . 
+<http://syriaca.org/person/1472> sp:death-when swds:death-when-1472-1 . 
+swds:death-when-1472-1 sps:death-when "0665"^^xsd:gYear . 
+swds:death-when-1472-1 spr:reference-URL <http://syriaca.org/person/1472.tei> . 
+<http://syriaca.org/person/1472> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/1472> sp:gender swds:gender-1472-1 . 
+swds:gender-1472-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-1472-1 spr:reference-URL <http://syriaca.org/person/1472.tei> . 
+<http://syriaca.org/person/1472> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1472> sp:status swds:status-1472-1 . 
+swds:status-1472-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1472-1 spr:reference-URL <http://syriaca.org/person/1472.tei> .

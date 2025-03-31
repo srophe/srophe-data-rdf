@@ -1,0 +1,104 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/543> rdf:type lawd:Person . 
+<http://syriaca.org/person/543> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/543> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/543> rdfs:label "Ibn al-Tayyib"@en . 
+<http://syriaca.org/person/543> rdfs:label "ܐܒܘ ܐܠܦܪܓ ܥܒܕ ܐܠܗ ܒܪ ܛܝܒ"@syr . 
+<http://syriaca.org/person/543> lawd:hasCitation <http://syriaca.org/cbss/8YLYAJGD> . 
+<http://syriaca.org/person/543> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/543> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/543> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/543> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/543> foaf:primaryTopicOf <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> foaf:primaryTopicOf <http://syriaca.org/person/543.html> . 
+<http://syriaca.org/person/543> foaf:primaryTopicOf <http://syriaca.org/person/543.ttl> . 
+<http://syriaca.org/person/543> dcterms:hasFormat <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> dcterms:hasFormat <http://syriaca.org/person/543.html> . 
+<http://syriaca.org/person/543> dcterms:hasFormat <http://syriaca.org/person/543.ttl> . 
+<http://syriaca.org/person/543> schema:description "Priest, theologian, exegete, physician, translator, and philosopher. His full name is Abū al-Faraj ʿAbd Allāh Ibn al-Ṭayyib al-ʿIrāqī."@en . 
+<http://syriaca.org/person/543> swdt:name-variant "Ibn al-Tayyib"@en . 
+<http://syriaca.org/person/543> swdt:name-variant "Ibn al-Ṭayyib"@en-x-gedsh . 
+<http://syriaca.org/person/543> swdt:name-variant "Ibn al-Tayyib"@en . 
+<http://syriaca.org/person/543> swdt:name-variant "Abu al-Faraj ‛Abd Allah Ibn al-Ṭayyib"@en . 
+<http://syriaca.org/person/543> swdt:name-variant "ابو الفرج عبدالله ابن الطيب"@ar . 
+<http://syriaca.org/person/543> swdt:name-variant "ܕܝܪܝܐ ܐܒܘ ܐܠܦܪܓ ܥܒܕ ܐܠܗ ܒܪ ܛܝܒ"@syr . 
+<http://syriaca.org/person/543> swdt:name-variant "ܕܰܝܪܳܝܐ ܐܰܒܘ ܐܠܦܰܪܓ ܥܰܒܕ ܐܠܗ ܒܰܪ ܛܰܝܒ"@syr-Syrj . 
+<http://syriaca.org/person/543> swdt:name-variant "ܐܒܘ ܐܠܦܪܓ ܥܒܕ ܐܠܗ ܒܪ ܛܝܒ"@syr . 
+<http://syriaca.org/person/543> swdt:name-variant "Ibn at-Tayyib"@en . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-1 . 
+swds:Person-543-1 sps:name-variant "Ibn al-Tayyib"@en . 
+swds:Person-543-1 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-2 . 
+swds:Person-543-2 sps:name-variant "Ibn al-Ṭayyib"@en-x-gedsh . 
+swds:Person-543-2 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-3 . 
+swds:Person-543-3 sps:name-variant "Ibn al-Tayyib"@en . 
+swds:Person-543-3 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-4 . 
+swds:Person-543-4 sps:name-variant "Abu al-Faraj ‛Abd Allah Ibn al-Ṭayyib"@en . 
+swds:Person-543-4 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-5 . 
+swds:Person-543-5 sps:name-variant "ابو الفرج عبدالله ابن الطيب"@ar . 
+swds:Person-543-5 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-6 . 
+swds:Person-543-6 sps:name-variant "ܕܝܪܝܐ ܐܒܘ ܐܠܦܪܓ ܥܒܕ ܐܠܗ ܒܪ ܛܝܒ"@syr . 
+swds:Person-543-6 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-7 . 
+swds:Person-543-7 sps:name-variant "ܕܰܝܪܳܝܐ ܐܰܒܘ ܐܠܦܰܪܓ ܥܰܒܕ ܐܠܗ ܒܰܪ ܛܰܝܒ"@syr-Syrj . 
+swds:Person-543-7 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-8 . 
+swds:Person-543-8 sps:name-variant "ܐܒܘ ܐܠܦܪܓ ܥܒܕ ܐܠܗ ܒܪ ܛܝܒ"@syr . 
+swds:Person-543-8 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> sp:name-variant swds:Person-543-9 . 
+swds:Person-543-9 sps:name-variant "Ibn at-Tayyib"@en . 
+swds:Person-543-9 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_543" . 
+<http://syriaca.org/person/543> sp:closeMatch swds:closeMatch-543-1 . 
+swds:closeMatch-543-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_543" . 
+swds:closeMatch-543-1 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> swdt:closeMatch "http://viaf.org/viaf/96981261" . 
+<http://syriaca.org/person/543> sp:closeMatch swds:closeMatch-543-2 . 
+swds:closeMatch-543-2 sps:closeMatch "http://viaf.org/viaf/96981261" . 
+swds:closeMatch-543-2 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> swdt:closeMatch "http://viaf.org/viaf/89379494" . 
+<http://syriaca.org/person/543> sp:closeMatch swds:closeMatch-543-3 . 
+swds:closeMatch-543-3 sps:closeMatch "http://viaf.org/viaf/89379494" . 
+swds:closeMatch-543-3 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ibn at-Tayyib&sT=keywords" . 
+<http://syriaca.org/person/543> sp:closeMatch swds:closeMatch-543-4 . 
+swds:closeMatch-543-4 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ibn at-Tayyib&sT=keywords" . 
+swds:closeMatch-543-4 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> swdt:death-when "1043"^^xsd:gYear . 
+<http://syriaca.org/person/543> sp:death-when swds:death-when-543-1 . 
+swds:death-when-543-1 sps:death-when "1043"^^xsd:gYear . 
+swds:death-when-543-1 spr:reference-URL <http://syriaca.org/person/543.tei> . 
+<http://syriaca.org/person/543> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/543> sp:status swds:status-543-1 . 
+swds:status-543-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-543-1 spr:reference-URL <http://syriaca.org/person/543.tei> .

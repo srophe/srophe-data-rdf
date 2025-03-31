@@ -1,0 +1,81 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3152> rdf:type lawd:Person . 
+<http://syriaca.org/person/3152> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3152> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/3152> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/3152> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/3152> rdfs:label "ܐܓܦܛܝܐ ܚܕ"@syr . 
+<http://syriaca.org/person/3152> rdfs:label "Anonymous 3152"@en . 
+<http://syriaca.org/person/3152> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/3152> foaf:primaryTopicOf <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> foaf:primaryTopicOf <http://syriaca.org/person/3152.html> . 
+<http://syriaca.org/person/3152> foaf:primaryTopicOf <http://syriaca.org/person/3152.ttl> . 
+<http://syriaca.org/person/3152> dcterms:hasFormat <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> dcterms:hasFormat <http://syriaca.org/person/3152.html> . 
+<http://syriaca.org/person/3152> dcterms:hasFormat <http://syriaca.org/person/3152.ttl> . 
+<http://syriaca.org/person/3152> schema:description "Pamphilus , Vales , Seleucus , Paul , Porphyry , Theophilus , Julianus , and One Egyptian are commemorated in Pamphilus, Vales, Seleucus, Paulus, Porphyrius, Theophilus, Julianus, and an Egyptian (text) , a work surviving in at least 2 manuscripts including ms London, British Library, Add. 12150, f. 247-250 ."@en . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/1958> . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/3146> . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/3147> . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/3148> . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/3149> . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/3150> . 
+<http://syriaca.org/person/3152> foaf:relation <http://syriaca.org/person/3151> . 
+<http://syriaca.org/person/3152> swdt:name-variant "ܐܓܦܛܝܐ ܚܕ"@syr . 
+<http://syriaca.org/person/3152> swdt:name-variant "Aghēpṭāyā ḥad"@en-x-gedsh . 
+<http://syriaca.org/person/3152> swdt:name-variant "Anonymous 3152"@en . 
+<http://syriaca.org/person/3152> swdt:name-variant "An Egyptian"@en . 
+<http://syriaca.org/person/3152> swdt:name-variant "ʾĀgēpṭāyā ḥad"@fr-x-bhs . 
+<http://syriaca.org/person/3152> swdt:name-variant "un Égyptien"@fr . 
+<http://syriaca.org/person/3152> sp:name-variant swds:Person-3152-1 . 
+swds:Person-3152-1 sps:name-variant "ܐܓܦܛܝܐ ܚܕ"@syr . 
+swds:Person-3152-1 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> sp:name-variant swds:Person-3152-2 . 
+swds:Person-3152-2 sps:name-variant "Aghēpṭāyā ḥad"@en-x-gedsh . 
+swds:Person-3152-2 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> sp:name-variant swds:Person-3152-3 . 
+swds:Person-3152-3 sps:name-variant "Anonymous 3152"@en . 
+swds:Person-3152-3 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> sp:name-variant swds:Person-3152-4 . 
+swds:Person-3152-4 sps:name-variant "An Egyptian"@en . 
+swds:Person-3152-4 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> sp:name-variant swds:Person-3152-5 . 
+swds:Person-3152-5 sps:name-variant "ʾĀgēpṭāyā ḥad"@fr-x-bhs . 
+swds:Person-3152-5 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> sp:name-variant swds:Person-3152-6 . 
+swds:Person-3152-6 sps:name-variant "un Égyptien"@fr . 
+swds:Person-3152-6 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/3152> sp:status swds:status-3152-1 . 
+swds:status-3152-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-3152-1 spr:reference-URL <http://syriaca.org/person/3152.tei> . 
+<http://syriaca.org/person/3152> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/3152> sp:status swds:status-3152-2 . 
+swds:status-3152-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-3152-2 spr:reference-URL <http://syriaca.org/person/3152.tei> .

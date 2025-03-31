@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1836> rdf:type lawd:Person . 
+<http://syriaca.org/person/1836> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1836> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1836> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1836> rdfs:label "Joseph"@en . 
+<http://syriaca.org/person/1836> rdfs:label "ܝܘܣܦ"@syr . 
+<http://syriaca.org/person/1836> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1836> foaf:primaryTopicOf <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> foaf:primaryTopicOf <http://syriaca.org/person/1836.html> . 
+<http://syriaca.org/person/1836> foaf:primaryTopicOf <http://syriaca.org/person/1836.ttl> . 
+<http://syriaca.org/person/1836> dcterms:hasFormat <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> dcterms:hasFormat <http://syriaca.org/person/1836.html> . 
+<http://syriaca.org/person/1836> dcterms:hasFormat <http://syriaca.org/person/1836.ttl> . 
+<http://syriaca.org/person/1836> schema:description "Joseph is a biblical patriarch who was sold into slavery by his brothers, the sons of Jacob . He became an advisor to the Pharaoh because of his ability to interpret dreams."@en . 
+<http://syriaca.org/person/1836> schema:description "In hagiography: Yawsef is a saint commemorated in Joseph (text) , a work surviving in at least 5 manuscripts including ms de Mingana + ms Mossoul + ms Ourmiah"@en . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph"@en . 
+<http://syriaca.org/person/1836> swdt:name-variant "ܝܘܣܦ"@syr . 
+<http://syriaca.org/person/1836> swdt:name-variant "Yawsef"@en-x-gedsh . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph"@en . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph the Patriarch"@en . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph, Patriarch"@en . 
+<http://syriaca.org/person/1836> swdt:name-variant "Yawsef"@fr-x-zanetti . 
+<http://syriaca.org/person/1836> swdt:name-variant "Yawsep"@fr-x-zanetti . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph"@fr . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph le patriarche"@fr . 
+<http://syriaca.org/person/1836> swdt:name-variant "Joseph, patriarche"@fr . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-1 . 
+swds:Person-1836-1 sps:name-variant "Joseph"@en . 
+swds:Person-1836-1 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-2 . 
+swds:Person-1836-2 sps:name-variant "ܝܘܣܦ"@syr . 
+swds:Person-1836-2 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-3 . 
+swds:Person-1836-3 sps:name-variant "Yawsef"@en-x-gedsh . 
+swds:Person-1836-3 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-4 . 
+swds:Person-1836-4 sps:name-variant "Joseph"@en . 
+swds:Person-1836-4 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-5 . 
+swds:Person-1836-5 sps:name-variant "Joseph the Patriarch"@en . 
+swds:Person-1836-5 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-6 . 
+swds:Person-1836-6 sps:name-variant "Joseph, Patriarch"@en . 
+swds:Person-1836-6 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-7 . 
+swds:Person-1836-7 sps:name-variant "Yawsef"@fr-x-zanetti . 
+swds:Person-1836-7 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-8 . 
+swds:Person-1836-8 sps:name-variant "Yawsep"@fr-x-zanetti . 
+swds:Person-1836-8 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-9 . 
+swds:Person-1836-9 sps:name-variant "Joseph"@fr . 
+swds:Person-1836-9 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-10 . 
+swds:Person-1836-10 sps:name-variant "Joseph le patriarche"@fr . 
+swds:Person-1836-10 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> sp:name-variant swds:Person-1836-11 . 
+swds:Person-1836-11 sps:name-variant "Joseph, patriarche"@fr . 
+swds:Person-1836-11 spr:reference-URL <http://syriaca.org/person/1836.tei> . 
+<http://syriaca.org/person/1836> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1836> sp:status swds:status-1836-1 . 
+swds:status-1836-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1836-1 spr:reference-URL <http://syriaca.org/person/1836.tei> .

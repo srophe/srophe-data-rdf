@@ -1,0 +1,60 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5081> rdf:type lawd:Person . 
+<http://syriaca.org/person/5081> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5081> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5081> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5081> rdfs:label "Elisha (bishop of Sardis)"@en . 
+<http://syriaca.org/person/5081> rdfs:label "ܐܠܝܫܥ"@syr . 
+<http://syriaca.org/person/5081> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5081> lawd:hasCitation <http://syriaca.org/cbss/WJWVUEP5> . 
+<http://syriaca.org/person/5081> lawd:hasCitation <http://syriaca.org/cbss/WJWVUEP5> . 
+<http://syriaca.org/person/5081> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5081> foaf:primaryTopicOf <http://syriaca.org/person/5081.tei> . 
+<http://syriaca.org/person/5081> foaf:primaryTopicOf <http://syriaca.org/person/5081.html> . 
+<http://syriaca.org/person/5081> foaf:primaryTopicOf <http://syriaca.org/person/5081.ttl> . 
+<http://syriaca.org/person/5081> dcterms:hasFormat <http://syriaca.org/person/5081.tei> . 
+<http://syriaca.org/person/5081> dcterms:hasFormat <http://syriaca.org/person/5081.html> . 
+<http://syriaca.org/person/5081> dcterms:hasFormat <http://syriaca.org/person/5081.ttl> . 
+<http://syriaca.org/person/5081> schema:description "Elisha of Sardis was one of the miaphysite bishops residing in Constantinople in the late 560s. Together with John of Ephesus, he became a victim of the miaphysite persecution in 571 and was imprisoned for his rejection of the council of Chalcedon."@en . 
+<http://syriaca.org/person/5081> swdt:name-variant "Elisha (bishop of Sardis)"@en . 
+<http://syriaca.org/person/5081> swdt:name-variant "ܐܠܝܫܥ"@syr . 
+<http://syriaca.org/person/5081> swdt:name-variant "Elissaios"@en . 
+<http://syriaca.org/person/5081> sp:name-variant swds:Person-5081-1 . 
+swds:Person-5081-1 sps:name-variant "Elisha (bishop of Sardis)"@en . 
+swds:Person-5081-1 spr:reference-URL <http://syriaca.org/person/5081.tei> . 
+<http://syriaca.org/person/5081> sp:name-variant swds:Person-5081-2 . 
+swds:Person-5081-2 sps:name-variant "ܐܠܝܫܥ"@syr . 
+swds:Person-5081-2 spr:reference-URL <http://syriaca.org/person/5081.tei> . 
+<http://syriaca.org/person/5081> sp:name-variant swds:Person-5081-3 . 
+swds:Person-5081-3 sps:name-variant "Elissaios"@en . 
+swds:Person-5081-3 spr:reference-URL <http://syriaca.org/person/5081.tei> . 
+<http://syriaca.org/person/5081> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/5081> sp:gender swds:gender-5081-1 . 
+swds:gender-5081-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-5081-1 spr:reference-URL <http://syriaca.org/person/5081.tei> .

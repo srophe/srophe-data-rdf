@@ -1,0 +1,74 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1855> rdf:type lawd:Person . 
+<http://syriaca.org/person/1855> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1855> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1855> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1855> rdfs:label "ܠܘܩܐ"@syr . 
+<http://syriaca.org/person/1855> rdfs:label "Luke the Evangelist"@en . 
+<http://syriaca.org/person/1855> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1855> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/1855> foaf:primaryTopicOf <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> foaf:primaryTopicOf <http://syriaca.org/person/1855.html> . 
+<http://syriaca.org/person/1855> foaf:primaryTopicOf <http://syriaca.org/person/1855.ttl> . 
+<http://syriaca.org/person/1855> dcterms:hasFormat <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> dcterms:hasFormat <http://syriaca.org/person/1855.html> . 
+<http://syriaca.org/person/1855> dcterms:hasFormat <http://syriaca.org/person/1855.ttl> . 
+<http://syriaca.org/person/1855> schema:description "Luke the Evangelist the evangelist."@en . 
+<http://syriaca.org/person/1855> swdt:name-variant "ܠܘܩܐ"@syr . 
+<http://syriaca.org/person/1855> swdt:name-variant "Lūqā"@en-x-gedsh . 
+<http://syriaca.org/person/1855> swdt:name-variant "Luke the Evangelist"@en . 
+<http://syriaca.org/person/1855> swdt:name-variant "Lūqā"@fr-x-zanetti . 
+<http://syriaca.org/person/1855> swdt:name-variant "Luc, évangéliste"@fr . 
+<http://syriaca.org/person/1855> swdt:name-variant "Luke"@en . 
+<http://syriaca.org/person/1855> sp:name-variant swds:Person-1855-1 . 
+swds:Person-1855-1 sps:name-variant "ܠܘܩܐ"@syr . 
+swds:Person-1855-1 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> sp:name-variant swds:Person-1855-2 . 
+swds:Person-1855-2 sps:name-variant "Lūqā"@en-x-gedsh . 
+swds:Person-1855-2 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> sp:name-variant swds:Person-1855-3 . 
+swds:Person-1855-3 sps:name-variant "Luke the Evangelist"@en . 
+swds:Person-1855-3 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> sp:name-variant swds:Person-1855-4 . 
+swds:Person-1855-4 sps:name-variant "Lūqā"@fr-x-zanetti . 
+swds:Person-1855-4 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> sp:name-variant swds:Person-1855-5 . 
+swds:Person-1855-5 sps:name-variant "Luc, évangéliste"@fr . 
+swds:Person-1855-5 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> sp:name-variant swds:Person-1855-6 . 
+swds:Person-1855-6 sps:name-variant "Luke"@en . 
+swds:Person-1855-6 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Luke&sT=keywords" . 
+<http://syriaca.org/person/1855> sp:closeMatch swds:closeMatch-1855-1 . 
+swds:closeMatch-1855-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Luke&sT=keywords" . 
+swds:closeMatch-1855-1 spr:reference-URL <http://syriaca.org/person/1855.tei> . 
+<http://syriaca.org/person/1855> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1855> sp:status swds:status-1855-1 . 
+swds:status-1855-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1855-1 spr:reference-URL <http://syriaca.org/person/1855.tei> .

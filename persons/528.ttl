@@ -1,0 +1,71 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/528> rdf:type lawd:Person . 
+<http://syriaca.org/person/528> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/528> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/528> rdfs:label "Hatch , William Henry Paine"@en . 
+<http://syriaca.org/person/528> lawd:hasCitation <http://syriaca.org/cbss/PGPH2XMB> . 
+<http://syriaca.org/person/528> foaf:primaryTopicOf <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> foaf:primaryTopicOf <http://syriaca.org/person/528.html> . 
+<http://syriaca.org/person/528> foaf:primaryTopicOf <http://syriaca.org/person/528.ttl> . 
+<http://syriaca.org/person/528> dcterms:hasFormat <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> dcterms:hasFormat <http://syriaca.org/person/528.html> . 
+<http://syriaca.org/person/528> dcterms:hasFormat <http://syriaca.org/person/528.ttl> . 
+<http://syriaca.org/person/528> schema:description "New Testmient scholar; professor at General Theological Seminary of New York (1908-17) and at Episcopal Theological School in Cambridge, MA (1917-46); Syriac scholar."@en . 
+<http://syriaca.org/person/528> swdt:name-variant "Hatch , William Henry Paine"@en . 
+<http://syriaca.org/person/528> swdt:name-variant "Hatch , William Henry Paine"@en-x-gedsh . 
+<http://syriaca.org/person/528> sp:name-variant swds:Person-528-1 . 
+swds:Person-528-1 sps:name-variant "Hatch , William Henry Paine"@en . 
+swds:Person-528-1 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> sp:name-variant swds:Person-528-2 . 
+swds:Person-528-2 sps:name-variant "Hatch , William Henry Paine"@en-x-gedsh . 
+swds:Person-528-2 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_528" . 
+<http://syriaca.org/person/528> sp:closeMatch swds:closeMatch-528-1 . 
+swds:closeMatch-528-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_528" . 
+swds:closeMatch-528-1 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> swdt:closeMatch "http://viaf.org/viaf/40109978" . 
+<http://syriaca.org/person/528> sp:closeMatch swds:closeMatch-528-2 . 
+swds:closeMatch-528-2 sps:closeMatch "http://viaf.org/viaf/40109978" . 
+swds:closeMatch-528-2 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> swdt:closeMatch "http://viaf.org/viaf/207645208" . 
+<http://syriaca.org/person/528> sp:closeMatch swds:closeMatch-528-3 . 
+swds:closeMatch-528-3 sps:closeMatch "http://viaf.org/viaf/207645208" . 
+swds:closeMatch-528-3 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> swdt:birth-when "1875"^^xsd:gYear . 
+<http://syriaca.org/person/528> sp:birth-when swds:birth-when-528-1 . 
+swds:birth-when-528-1 sps:birth-when "1875"^^xsd:gYear . 
+swds:birth-when-528-1 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> swdt:death-when "1972"^^xsd:gYear . 
+<http://syriaca.org/person/528> sp:death-when swds:death-when-528-1 . 
+swds:death-when-528-1 sps:death-when "1972"^^xsd:gYear . 
+swds:death-when-528-1 spr:reference-URL <http://syriaca.org/person/528.tei> . 
+<http://syriaca.org/person/528> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/528> sp:status swds:status-528-1 . 
+swds:status-528-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-528-1 spr:reference-URL <http://syriaca.org/person/528.tei> .

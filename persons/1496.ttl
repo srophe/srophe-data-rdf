@@ -1,0 +1,101 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1496> rdf:type lawd:Person . 
+<http://syriaca.org/person/1496> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1496> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1496> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1496> rdfs:label "ܛܛܩ ܕܘܡܣܛܝܩܐ"@syr . 
+<http://syriaca.org/person/1496> rdfs:label "Tataq the servant"@en . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/T9V6TAN4> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/2J7UU3FY> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/2GQIEB8Y> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/GKMCSJMG> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/HRGBNBT5> . 
+<http://syriaca.org/person/1496> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/1496> foaf:primaryTopicOf <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> foaf:primaryTopicOf <http://syriaca.org/person/1496.html> . 
+<http://syriaca.org/person/1496> foaf:primaryTopicOf <http://syriaca.org/person/1496.ttl> . 
+<http://syriaca.org/person/1496> dcterms:hasFormat <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> dcterms:hasFormat <http://syriaca.org/person/1496.html> . 
+<http://syriaca.org/person/1496> dcterms:hasFormat <http://syriaca.org/person/1496.ttl> . 
+<http://syriaca.org/person/1496> schema:description "Ṭāṭāq Dōmasṭīqa was the chamberlain of Yazdegerd I. He was from Adiabene . He was decapitated."@en . 
+<http://syriaca.org/person/1496> foaf:relation <http://syriaca.org/place/993> . 
+<http://syriaca.org/person/1496> swdt:name-variant "ܛܛܩ ܕܘܡܣܛܝܩܐ"@syr . 
+<http://syriaca.org/person/1496> swdt:name-variant "Ṭāṭāq Dōmasṭīqa"@en-x-gedsh . 
+<http://syriaca.org/person/1496> swdt:name-variant "Tataq the servant"@en . 
+<http://syriaca.org/person/1496> swdt:name-variant "Tataq"@en . 
+<http://syriaca.org/person/1496> swdt:name-variant "Ṭāṭāq dōmasṭīqā"@fr-x-zanetti . 
+<http://syriaca.org/person/1496> swdt:name-variant "Tataq le domestique"@fr . 
+<http://syriaca.org/person/1496> swdt:name-variant "TĀTĀQ"@fr-x-fiey . 
+<http://syriaca.org/person/1496> swdt:name-variant "Mar Tataq"@en . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-1 . 
+swds:Person-1496-1 sps:name-variant "ܛܛܩ ܕܘܡܣܛܝܩܐ"@syr . 
+swds:Person-1496-1 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-2 . 
+swds:Person-1496-2 sps:name-variant "Ṭāṭāq Dōmasṭīqa"@en-x-gedsh . 
+swds:Person-1496-2 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-3 . 
+swds:Person-1496-3 sps:name-variant "Tataq the servant"@en . 
+swds:Person-1496-3 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-4 . 
+swds:Person-1496-4 sps:name-variant "Tataq"@en . 
+swds:Person-1496-4 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-5 . 
+swds:Person-1496-5 sps:name-variant "Ṭāṭāq dōmasṭīqā"@fr-x-zanetti . 
+swds:Person-1496-5 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-6 . 
+swds:Person-1496-6 sps:name-variant "Tataq le domestique"@fr . 
+swds:Person-1496-6 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-7 . 
+swds:Person-1496-7 sps:name-variant "TĀTĀQ"@fr-x-fiey . 
+swds:Person-1496-7 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> sp:name-variant swds:Person-1496-8 . 
+swds:Person-1496-8 sps:name-variant "Mar Tataq"@en . 
+swds:Person-1496-8 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Tataq&sT=keywords" . 
+<http://syriaca.org/person/1496> sp:closeMatch swds:closeMatch-1496-1 . 
+swds:closeMatch-1496-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Mar%20Tataq&sT=keywords" . 
+swds:closeMatch-1496-1 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> swdt:death-when "0420"^^xsd:gYear . 
+<http://syriaca.org/person/1496> sp:death-when swds:death-when-1496-1 . 
+swds:death-when-1496-1 sps:death-when "0420"^^xsd:gYear . 
+swds:death-when-1496-1 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/1496> sp:gender swds:gender-1496-1 . 
+swds:gender-1496-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-1496-1 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> swdt:status <http://syriaca.org/taxonomy/martyrs> . 
+<http://syriaca.org/person/1496> sp:status swds:status-1496-1 . 
+swds:status-1496-1 sps:status <http://syriaca.org/taxonomy/martyrs> . 
+swds:status-1496-1 spr:reference-URL <http://syriaca.org/person/1496.tei> . 
+<http://syriaca.org/person/1496> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1496> sp:status swds:status-1496-2 . 
+swds:status-1496-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1496-2 spr:reference-URL <http://syriaca.org/person/1496.tei> .

@@ -1,0 +1,107 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/817> rdf:type lawd:Person . 
+<http://syriaca.org/person/817> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/817> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/817> rdfs:label "Joseph of Ahwaz"@en . 
+<http://syriaca.org/person/817> rdfs:label "ܝܘܣܦ ܗܘܙܝܐ"@syr . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/KIE3ZN4K> . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/817> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/817> foaf:primaryTopicOf <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> foaf:primaryTopicOf <http://syriaca.org/person/817.html> . 
+<http://syriaca.org/person/817> foaf:primaryTopicOf <http://syriaca.org/person/817.ttl> . 
+<http://syriaca.org/person/817> dcterms:hasFormat <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> dcterms:hasFormat <http://syriaca.org/person/817.html> . 
+<http://syriaca.org/person/817> dcterms:hasFormat <http://syriaca.org/person/817.ttl> . 
+<http://syriaca.org/person/817> schema:description "Maqryānā in the School of Nisibis at the end of the 5th and/or in the first half of the 6th cent."@en . 
+<http://syriaca.org/person/817> foaf:relation <http://syriaca.org/place/142> . 
+<http://syriaca.org/person/817> swdt:name-variant "Joseph of Ahwaz"@en . 
+<http://syriaca.org/person/817> swdt:name-variant "Yawsep Huzaya"@en-x-gedsh . 
+<http://syriaca.org/person/817> swdt:name-variant "Joseph of Ahwaz"@en . 
+<http://syriaca.org/person/817> swdt:name-variant "يوسف الاهوازي"@ar . 
+<http://syriaca.org/person/817> swdt:name-variant "ܝܘܣܦ ܗܘܙܝܐ"@syr . 
+<http://syriaca.org/person/817> swdt:name-variant "ܝܰܘܣܶܦ ܗܽܘܙܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/817> swdt:name-variant "Joseph Huzaya"@en . 
+<http://syriaca.org/person/817> swdt:name-variant "Huzaya"@en . 
+<http://syriaca.org/person/817> swdt:name-variant "Joseph Huzaya"@en . 
+<http://syriaca.org/person/817> swdt:name-variant "Iospeh (Jauseph) Huzaya"@la . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-1 . 
+swds:Person-817-1 sps:name-variant "Joseph of Ahwaz"@en . 
+swds:Person-817-1 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-2 . 
+swds:Person-817-2 sps:name-variant "Yawsep Huzaya"@en-x-gedsh . 
+swds:Person-817-2 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-3 . 
+swds:Person-817-3 sps:name-variant "Joseph of Ahwaz"@en . 
+swds:Person-817-3 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-4 . 
+swds:Person-817-4 sps:name-variant "يوسف الاهوازي"@ar . 
+swds:Person-817-4 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-5 . 
+swds:Person-817-5 sps:name-variant "ܝܘܣܦ ܗܘܙܝܐ"@syr . 
+swds:Person-817-5 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-6 . 
+swds:Person-817-6 sps:name-variant "ܝܰܘܣܶܦ ܗܽܘܙܝܳܐ"@syr-Syrj . 
+swds:Person-817-6 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-7 . 
+swds:Person-817-7 sps:name-variant "Joseph Huzaya"@en . 
+swds:Person-817-7 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-8 . 
+swds:Person-817-8 sps:name-variant "Huzaya"@en . 
+swds:Person-817-8 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-9 . 
+swds:Person-817-9 sps:name-variant "Joseph Huzaya"@en . 
+swds:Person-817-9 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> sp:name-variant swds:Person-817-10 . 
+swds:Person-817-10 sps:name-variant "Iospeh (Jauseph) Huzaya"@la . 
+swds:Person-817-10 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_817" . 
+<http://syriaca.org/person/817> sp:closeMatch swds:closeMatch-817-1 . 
+swds:closeMatch-817-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_817" . 
+swds:closeMatch-817-1 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Huzaya&sT=keywords" . 
+<http://syriaca.org/person/817> sp:closeMatch swds:closeMatch-817-2 . 
+swds:closeMatch-817-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=H&sK=Huzaya&sT=keywords" . 
+swds:closeMatch-817-2 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> swdt:floruit-notBefore "0485"^^xsd:gYear . 
+<http://syriaca.org/person/817> sp:floruit-notBefore swds:floruit-notBefore-817-1 . 
+swds:floruit-notBefore-817-1 sps:floruit-notBefore "0485"^^xsd:gYear . 
+swds:floruit-notBefore-817-1 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> swdt:floruit-notAfter "0515"^^xsd:gYear . 
+<http://syriaca.org/person/817> sp:floruit-notAfter swds:floruit-notAfter-817-1 . 
+swds:floruit-notAfter-817-1 sps:floruit-notAfter "0515"^^xsd:gYear . 
+swds:floruit-notAfter-817-1 spr:reference-URL <http://syriaca.org/person/817.tei> . 
+<http://syriaca.org/person/817> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/817> sp:status swds:status-817-1 . 
+swds:status-817-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-817-1 spr:reference-URL <http://syriaca.org/person/817.tei> .

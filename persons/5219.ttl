@@ -1,0 +1,61 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5219> rdf:type lawd:Person . 
+<http://syriaca.org/person/5219> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5219> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5219> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/5219> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5219> rdfs:label "Anonymous 5219"@en . 
+<http://syriaca.org/person/5219> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5219> foaf:primaryTopicOf <http://syriaca.org/person/5219.tei> . 
+<http://syriaca.org/person/5219> foaf:primaryTopicOf <http://syriaca.org/person/5219.html> . 
+<http://syriaca.org/person/5219> foaf:primaryTopicOf <http://syriaca.org/person/5219.ttl> . 
+<http://syriaca.org/person/5219> dcterms:hasFormat <http://syriaca.org/person/5219.tei> . 
+<http://syriaca.org/person/5219> dcterms:hasFormat <http://syriaca.org/person/5219.html> . 
+<http://syriaca.org/person/5219> dcterms:hasFormat <http://syriaca.org/person/5219.ttl> . 
+<http://syriaca.org/person/5219> schema:description "The authorities, led by the comes domesticorum Magnus, attempted to install the anonymous brother of al-Mundhir as new client king of the Jafnid Arabs after the imprisonment of al-Mundhir himself. However, Joh. Eph., EH 3.43, reports that this scheme failed and that the brother died only 20 days after his installation."@en . 
+<http://syriaca.org/person/5219> swdt:name-variant "Anonymous 5219"@en . 
+<http://syriaca.org/person/5219> swdt:name-variant "The brother of al-Mundhir"@en . 
+<http://syriaca.org/person/5219> swdt:name-variant "ܐܚܘܗܝ ܕܡܢܕܪ"@syr . 
+<http://syriaca.org/person/5219> sp:name-variant swds:Person-5219-1 . 
+swds:Person-5219-1 sps:name-variant "Anonymous 5219"@en . 
+swds:Person-5219-1 spr:reference-URL <http://syriaca.org/person/5219.tei> . 
+<http://syriaca.org/person/5219> sp:name-variant swds:Person-5219-2 . 
+swds:Person-5219-2 sps:name-variant "The brother of al-Mundhir"@en . 
+swds:Person-5219-2 spr:reference-URL <http://syriaca.org/person/5219.tei> . 
+<http://syriaca.org/person/5219> sp:name-variant swds:Person-5219-3 . 
+swds:Person-5219-3 sps:name-variant "ܐܚܘܗܝ ܕܡܢܕܪ"@syr . 
+swds:Person-5219-3 spr:reference-URL <http://syriaca.org/person/5219.tei> . 
+<http://syriaca.org/person/5219> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/5219> sp:gender swds:gender-5219-1 . 
+swds:gender-5219-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-5219-1 spr:reference-URL <http://syriaca.org/person/5219.tei> . 
+<http://syriaca.org/person/5219> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/5219> sp:status swds:status-5219-1 . 
+swds:status-5219-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-5219-1 spr:reference-URL <http://syriaca.org/person/5219.tei> .

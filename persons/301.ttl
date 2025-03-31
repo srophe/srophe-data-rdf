@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/301> rdf:type lawd:Person . 
+<http://syriaca.org/person/301> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/301> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/301> rdfs:label "ܙܝܬܘܢ ܢܚܠܝܐ"@syr . 
+<http://syriaca.org/person/301> rdfs:label "Zaytun of Anhil"@en . 
+<http://syriaca.org/person/301> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/301> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/301> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/301> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/301> foaf:primaryTopicOf <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> foaf:primaryTopicOf <http://syriaca.org/person/301.html> . 
+<http://syriaca.org/person/301> foaf:primaryTopicOf <http://syriaca.org/person/301.ttl> . 
+<http://syriaca.org/person/301> dcterms:hasFormat <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> dcterms:hasFormat <http://syriaca.org/person/301.html> . 
+<http://syriaca.org/person/301> dcterms:hasFormat <http://syriaca.org/person/301.ttl> . 
+<http://syriaca.org/person/301> swdt:name-variant "Metropolitan Zaytun of Anḥil"@en . 
+<http://syriaca.org/person/301> swdt:name-variant "المطران زيتون النحلي"@ar . 
+<http://syriaca.org/person/301> swdt:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܙܝܬܘܢ ܢܚܠܝܐ"@syr . 
+<http://syriaca.org/person/301> swdt:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܙܰܝܬܘܢ ܢܰܚܠܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/301> swdt:name-variant "ܙܝܬܘܢ ܢܚܠܝܐ"@syr . 
+<http://syriaca.org/person/301> swdt:name-variant "Zaytun of Anḥil"@en-x-gedsh . 
+<http://syriaca.org/person/301> swdt:name-variant "Zaytôn d’Anhel"@fr . 
+<http://syriaca.org/person/301> swdt:name-variant "Zaytun of Anhil"@en . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-1 . 
+swds:Person-301-1 sps:name-variant "Metropolitan Zaytun of Anḥil"@en . 
+swds:Person-301-1 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-2 . 
+swds:Person-301-2 sps:name-variant "المطران زيتون النحلي"@ar . 
+swds:Person-301-2 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-3 . 
+swds:Person-301-3 sps:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܙܝܬܘܢ ܢܚܠܝܐ"@syr . 
+swds:Person-301-3 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-4 . 
+swds:Person-301-4 sps:name-variant "ܡܝܛܪܘܦܘܠܝܛܐ ܙܰܝܬܘܢ ܢܰܚܠܳܝܐ"@syr-Syrj . 
+swds:Person-301-4 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-5 . 
+swds:Person-301-5 sps:name-variant "ܙܝܬܘܢ ܢܚܠܝܐ"@syr . 
+swds:Person-301-5 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-6 . 
+swds:Person-301-6 sps:name-variant "Zaytun of Anḥil"@en-x-gedsh . 
+swds:Person-301-6 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-7 . 
+swds:Person-301-7 sps:name-variant "Zaytôn d’Anhel"@fr . 
+swds:Person-301-7 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> sp:name-variant swds:Person-301-8 . 
+swds:Person-301-8 sps:name-variant "Zaytun of Anhil"@en . 
+swds:Person-301-8 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_301" . 
+<http://syriaca.org/person/301> sp:closeMatch swds:closeMatch-301-1 . 
+swds:closeMatch-301-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_301" . 
+swds:closeMatch-301-1 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> swdt:death-when "1855"^^xsd:gYear . 
+<http://syriaca.org/person/301> sp:death-when swds:death-when-301-1 . 
+swds:death-when-301-1 sps:death-when "1855"^^xsd:gYear . 
+swds:death-when-301-1 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> swdt:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+<http://syriaca.org/person/301> sp:occupation swds:occupation-301-1 . 
+swds:occupation-301-1 sps:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+swds:occupation-301-1 spr:reference-URL <http://syriaca.org/person/301.tei> . 
+<http://syriaca.org/person/301> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/301> sp:status swds:status-301-1 . 
+swds:status-301-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-301-1 spr:reference-URL <http://syriaca.org/person/301.tei> .

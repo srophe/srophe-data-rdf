@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/1491> rdf:type lawd:Place . 
+<http://syriaca.org/place/1491> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/1491> rdfs:label "Beth ʿArīf"@en . 
+<http://syriaca.org/place/1491> rdfs:label "ܒܝܬ ܥܪܝܦ"@syr . 
+<http://syriaca.org/place/1491> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/place/1491> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/place/1491> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/place/1491> foaf:primaryTopicOf <http://syriaca.org/place/1491.tei> . 
+<http://syriaca.org/place/1491> foaf:primaryTopicOf <http://syriaca.org/place/1491.html> . 
+<http://syriaca.org/place/1491> foaf:primaryTopicOf <http://syriaca.org/place/1491.ttl> . 
+<http://syriaca.org/place/1491> dcterms:hasFormat <http://syriaca.org/place/1491.tei> . 
+<http://syriaca.org/place/1491> dcterms:hasFormat <http://syriaca.org/place/1491.html> . 
+<http://syriaca.org/place/1491> dcterms:hasFormat <http://syriaca.org/place/1491.ttl> . 
+<http://syriaca.org/place/1491> schema:description "A village near Jerusalem ."@en . 
+<http://syriaca.org/place/1491> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
+<http://syriaca.org/place/1491> sp:place-type swds:place-type-1491-1 . 
+swds:place-type-1491-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
+swds:place-type-1491-1 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> dcterms:relation <http://syriaca.org/place/104> . 
+<http://syriaca.org/place/1491> swdt:name-variant "Beth ʿArīf"@en . 
+<http://syriaca.org/place/1491> swdt:name-variant "ܒܝܬ ܥܪܝܦ"@syr . 
+<http://syriaca.org/place/1491> swdt:name-variant "ܒܶܝܬ ܥܰܪܺܝܦ"@syr-Syrj . 
+<http://syriaca.org/place/1491> swdt:name-variant "بيت عريف"@ar . 
+<http://syriaca.org/place/1491> swdt:name-variant "Beth Arīf"@en-x-srp1 . 
+<http://syriaca.org/place/1491> swdt:name-variant "Beth ‘Arīf"@en-x-srp1 . 
+<http://syriaca.org/place/1491> sp:name-variant swds:Place-1491-1 . 
+swds:Place-1491-1 sps:name-variant "Beth ʿArīf"@en . 
+swds:Place-1491-1 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> sp:name-variant swds:Place-1491-2 . 
+swds:Place-1491-2 sps:name-variant "ܒܝܬ ܥܪܝܦ"@syr . 
+swds:Place-1491-2 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> sp:name-variant swds:Place-1491-3 . 
+swds:Place-1491-3 sps:name-variant "ܒܶܝܬ ܥܰܪܺܝܦ"@syr-Syrj . 
+swds:Place-1491-3 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> sp:name-variant swds:Place-1491-4 . 
+swds:Place-1491-4 sps:name-variant "بيت عريف"@ar . 
+swds:Place-1491-4 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> sp:name-variant swds:Place-1491-5 . 
+swds:Place-1491-5 sps:name-variant "Beth Arīf"@en-x-srp1 . 
+swds:Place-1491-5 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> sp:name-variant swds:Place-1491-6 . 
+swds:Place-1491-6 sps:name-variant "Beth ‘Arīf"@en-x-srp1 . 
+swds:Place-1491-6 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> swdt:closeMatch "http://en.wikipedia.org/wiki/Dayr_Tarif" . 
+<http://syriaca.org/place/1491> sp:closeMatch swds:closeMatch-1491-1 . 
+swds:closeMatch-1491-1 sps:closeMatch "http://en.wikipedia.org/wiki/Dayr_Tarif" . 
+swds:closeMatch-1491-1 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> swdt:closeMatch "http://en.wikipedia.org/wiki/Beit_Arif" . 
+<http://syriaca.org/place/1491> sp:closeMatch swds:closeMatch-1491-2 . 
+swds:closeMatch-1491-2 sps:closeMatch "http://en.wikipedia.org/wiki/Beit_Arif" . 
+swds:closeMatch-1491-2 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> swdt:exist-from "1138"^^xsd:gYear . 
+<http://syriaca.org/place/1491> sp:exist-from swds:exist-from-1491-1 . 
+swds:exist-from-1491-1 sps:exist-from "1138"^^xsd:gYear . 
+swds:exist-from-1491-1 spr:reference-URL <http://syriaca.org/place/1491> . 
+<http://syriaca.org/place/1491> swdt:exist-to "1099"^^xsd:gYear . 
+<http://syriaca.org/place/1491> sp:exist-to swds:exist-to-1491-1 . 
+swds:exist-to-1491-1 sps:exist-to "1099"^^xsd:gYear . 
+swds:exist-to-1491-1 spr:reference-URL <http://syriaca.org/place/1491.tei> .

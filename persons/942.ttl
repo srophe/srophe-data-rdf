@@ -1,0 +1,82 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/942> rdf:type lawd:Person . 
+<http://syriaca.org/person/942> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/942> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/942> rdfs:label "Athanasius Denha , metropolitan of Edessa"@en . 
+<http://syriaca.org/person/942> rdfs:label "ܐܬܢܐܣܝܘܣ ܕܢܚܐ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/942> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/942> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/942> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/942> foaf:primaryTopicOf <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> foaf:primaryTopicOf <http://syriaca.org/person/942.html> . 
+<http://syriaca.org/person/942> foaf:primaryTopicOf <http://syriaca.org/person/942.ttl> . 
+<http://syriaca.org/person/942> dcterms:hasFormat <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> dcterms:hasFormat <http://syriaca.org/person/942.html> . 
+<http://syriaca.org/person/942> dcterms:hasFormat <http://syriaca.org/person/942.ttl> . 
+<http://syriaca.org/person/942> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/942> swdt:name-variant "Athanasius Denha , metropolitan of Edessa"@en . 
+<http://syriaca.org/person/942> swdt:name-variant "Athanasius Denḥa , metropolitan of Edessa"@en . 
+<http://syriaca.org/person/942> swdt:name-variant "اثناسيوس دنحا مطران الرها"@ar . 
+<http://syriaca.org/person/942> swdt:name-variant "ܐܬܢܐܣܝܘܣ ܕܢܚܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/942> swdt:name-variant "ܐܬܢܐܣܝܘܣ ܕܢܚܐ ܕܐܘܪܗܝ"@syr . 
+<http://syriaca.org/person/942> swdt:name-variant "Athanasius Denḥa of Edessa"@en-x-gedsh . 
+<http://syriaca.org/person/942> sp:name-variant swds:Person-942-1 . 
+swds:Person-942-1 sps:name-variant "Athanasius Denha , metropolitan of Edessa"@en . 
+swds:Person-942-1 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> sp:name-variant swds:Person-942-2 . 
+swds:Person-942-2 sps:name-variant "Athanasius Denḥa , metropolitan of Edessa"@en . 
+swds:Person-942-2 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> sp:name-variant swds:Person-942-3 . 
+swds:Person-942-3 sps:name-variant "اثناسيوس دنحا مطران الرها"@ar . 
+swds:Person-942-3 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> sp:name-variant swds:Person-942-4 . 
+swds:Person-942-4 sps:name-variant "ܐܬܢܐܣܝܘܣ ܕܢܚܐ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܘܪܗܝ"@syr . 
+swds:Person-942-4 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> sp:name-variant swds:Person-942-5 . 
+swds:Person-942-5 sps:name-variant "ܐܬܢܐܣܝܘܣ ܕܢܚܐ ܕܐܘܪܗܝ"@syr . 
+swds:Person-942-5 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> sp:name-variant swds:Person-942-6 . 
+swds:Person-942-6 sps:name-variant "Athanasius Denḥa of Edessa"@en-x-gedsh . 
+swds:Person-942-6 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_942" . 
+<http://syriaca.org/person/942> sp:closeMatch swds:closeMatch-942-1 . 
+swds:closeMatch-942-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_942" . 
+swds:closeMatch-942-1 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> swdt:death-when "1191"^^xsd:gYear . 
+<http://syriaca.org/person/942> sp:death-when swds:death-when-942-1 . 
+swds:death-when-942-1 sps:death-when "1191"^^xsd:gYear . 
+swds:death-when-942-1 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> swdt:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+<http://syriaca.org/person/942> sp:occupation swds:occupation-942-1 . 
+swds:occupation-942-1 sps:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+swds:occupation-942-1 spr:reference-URL <http://syriaca.org/person/942.tei> . 
+<http://syriaca.org/person/942> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/942> sp:status swds:status-942-1 . 
+swds:status-942-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-942-1 spr:reference-URL <http://syriaca.org/person/942.tei> .

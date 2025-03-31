@@ -1,0 +1,108 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/559> rdf:type lawd:Person . 
+<http://syriaca.org/person/559> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/559> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/559> rdfs:label "ܝܫܘܥܝܗܒ ܐܪܙܘܢܝܐ"@syr . 
+<http://syriaca.org/person/559> rdfs:label "Ishoʿyahb I"@en . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/cbss/R8ARMJY7> . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/559> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/559> foaf:primaryTopicOf <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> foaf:primaryTopicOf <http://syriaca.org/person/559.html> . 
+<http://syriaca.org/person/559> foaf:primaryTopicOf <http://syriaca.org/person/559.ttl> . 
+<http://syriaca.org/person/559> dcterms:hasFormat <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> dcterms:hasFormat <http://syriaca.org/person/559.html> . 
+<http://syriaca.org/person/559> dcterms:hasFormat <http://syriaca.org/person/559.ttl> . 
+<http://syriaca.org/person/559> schema:description "Catholicos ca. 581/2-95. Originating from Beth ʿArbaye, he studied at the School of Nisibis , and was for two years its head, before becoming bp. of Arzon."@en . 
+<http://syriaca.org/person/559> foaf:relation <http://syriaca.org/place/142> . 
+<http://syriaca.org/person/559> swdt:name-variant "Ishoʿyahb I"@en-x-gedsh . 
+<http://syriaca.org/person/559> swdt:name-variant "ܝܫܘܥܝܗܒ ܐܪܙܘܢܝܐ"@syr . 
+<http://syriaca.org/person/559> swdt:name-variant "ܝܑܼܫܘܿܥܝܲܗܒ ܐܲܪܙܘܿܢܵܝܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/559> swdt:name-variant "Ishoyahb I"@en . 
+<http://syriaca.org/person/559> swdt:name-variant "Ishoyahb I of Arzon"@en . 
+<http://syriaca.org/person/559> swdt:name-variant "Ishoyahb I"@en-x-srp1 . 
+<http://syriaca.org/person/559> swdt:name-variant "Isho‘yahb I"@en-x-srp1 . 
+<http://syriaca.org/person/559> swdt:name-variant "Ishoʿyahb I"@en . 
+<http://syriaca.org/person/559> swdt:name-variant "Isho'jahb I, Katholikos"@la . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-1 . 
+swds:Person-559-1 sps:name-variant "Ishoʿyahb I"@en-x-gedsh . 
+swds:Person-559-1 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-2 . 
+swds:Person-559-2 sps:name-variant "ܝܫܘܥܝܗܒ ܐܪܙܘܢܝܐ"@syr . 
+swds:Person-559-2 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-3 . 
+swds:Person-559-3 sps:name-variant "ܝܑܼܫܘܿܥܝܲܗܒ ܐܲܪܙܘܿܢܵܝܵܐ"@syr-Syrn . 
+swds:Person-559-3 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-4 . 
+swds:Person-559-4 sps:name-variant "Ishoyahb I"@en . 
+swds:Person-559-4 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-5 . 
+swds:Person-559-5 sps:name-variant "Ishoyahb I of Arzon"@en . 
+swds:Person-559-5 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-6 . 
+swds:Person-559-6 sps:name-variant "Ishoyahb I"@en-x-srp1 . 
+swds:Person-559-6 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-7 . 
+swds:Person-559-7 sps:name-variant "Isho‘yahb I"@en-x-srp1 . 
+swds:Person-559-7 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-8 . 
+swds:Person-559-8 sps:name-variant "Ishoʿyahb I"@en . 
+swds:Person-559-8 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> sp:name-variant swds:Person-559-9 . 
+swds:Person-559-9 sps:name-variant "Isho'jahb I, Katholikos"@la . 
+swds:Person-559-9 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_559" . 
+<http://syriaca.org/person/559> sp:closeMatch swds:closeMatch-559-1 . 
+swds:closeMatch-559-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_559" . 
+swds:closeMatch-559-1 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb I&sT=keywords" . 
+<http://syriaca.org/person/559> sp:closeMatch swds:closeMatch-559-2 . 
+swds:closeMatch-559-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb I&sT=keywords" . 
+swds:closeMatch-559-2 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb I of Arzon&sT=keywords" . 
+<http://syriaca.org/person/559> sp:closeMatch swds:closeMatch-559-3 . 
+swds:closeMatch-559-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Ishoyahb I of Arzon&sT=keywords" . 
+swds:closeMatch-559-3 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> swdt:death-when "0595"^^xsd:gYear . 
+<http://syriaca.org/person/559> sp:death-when swds:death-when-559-1 . 
+swds:death-when-559-1 sps:death-when "0595"^^xsd:gYear . 
+swds:death-when-559-1 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+<http://syriaca.org/person/559> swdt:occupation <catholicos> . 
+<http://syriaca.org/person/559> sp:occupation swds:occupation-559-1 . 
+swds:occupation-559-1 sps:occupation <catholicos> . 
+swds:occupation-559-1 spr:reference-URL <http://syriaca.org/person/559.tei> . 
+swds:occupation-559-1 spq:from "0581"^^xsd:gYear . 
+<http://syriaca.org/person/559> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/559> sp:status swds:status-559-1 . 
+swds:status-559-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-559-1 spr:reference-URL <http://syriaca.org/person/559.tei> .

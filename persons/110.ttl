@@ -1,0 +1,88 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/110> rdf:type lawd:Person . 
+<http://syriaca.org/person/110> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/110> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/110> rdfs:label "ܐܒܪܗܡ ܢܚܫܝܪܬܢܐ"@syr . 
+<http://syriaca.org/person/110> rdfs:label "Abraham Nahshirtono"@en . 
+<http://syriaca.org/person/110> lawd:hasCitation <http://syriaca.org/cbss/6UCJQI9I> . 
+<http://syriaca.org/person/110> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/110> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/110> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/110> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/110> foaf:primaryTopicOf <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> foaf:primaryTopicOf <http://syriaca.org/person/110.html> . 
+<http://syriaca.org/person/110> foaf:primaryTopicOf <http://syriaca.org/person/110.ttl> . 
+<http://syriaca.org/person/110> dcterms:hasFormat <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> dcterms:hasFormat <http://syriaca.org/person/110.html> . 
+<http://syriaca.org/person/110> dcterms:hasFormat <http://syriaca.org/person/110.ttl> . 
+<http://syriaca.org/person/110> schema:description "Maphrian of the East and author of an Anaphora."@en . 
+<http://syriaca.org/person/110> swdt:name-variant "Abrohom Naḥshirtono"@en-x-gedsh . 
+<http://syriaca.org/person/110> swdt:name-variant "Abraham al-Ṣayyaḍ"@en . 
+<http://syriaca.org/person/110> swdt:name-variant "ابراهيم الصياد"@ar . 
+<http://syriaca.org/person/110> swdt:name-variant "ܐܒܪܗܡ ܢܚܫܝܪܬܢܐ"@syr . 
+<http://syriaca.org/person/110> swdt:name-variant "ܐܰܒܪܳܗܡ ܢܰܚܫܝܪܬܳܢܐ"@syr-Syrj . 
+<http://syriaca.org/person/110> swdt:name-variant "Abraham Nahshirtono"@en . 
+<http://syriaca.org/person/110> swdt:name-variant "Abraham Naḥshirtana"@en . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-1 . 
+swds:Person-110-1 sps:name-variant "Abrohom Naḥshirtono"@en-x-gedsh . 
+swds:Person-110-1 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-2 . 
+swds:Person-110-2 sps:name-variant "Abraham al-Ṣayyaḍ"@en . 
+swds:Person-110-2 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-3 . 
+swds:Person-110-3 sps:name-variant "ابراهيم الصياد"@ar . 
+swds:Person-110-3 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-4 . 
+swds:Person-110-4 sps:name-variant "ܐܒܪܗܡ ܢܚܫܝܪܬܢܐ"@syr . 
+swds:Person-110-4 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-5 . 
+swds:Person-110-5 sps:name-variant "ܐܰܒܪܳܗܡ ܢܰܚܫܝܪܬܳܢܐ"@syr-Syrj . 
+swds:Person-110-5 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-6 . 
+swds:Person-110-6 sps:name-variant "Abraham Nahshirtono"@en . 
+swds:Person-110-6 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> sp:name-variant swds:Person-110-7 . 
+swds:Person-110-7 sps:name-variant "Abraham Naḥshirtana"@en . 
+swds:Person-110-7 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_110" . 
+<http://syriaca.org/person/110> sp:closeMatch swds:closeMatch-110-1 . 
+swds:closeMatch-110-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_110" . 
+swds:closeMatch-110-1 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> swdt:floruit-when "0686"^^xsd:gYear . 
+<http://syriaca.org/person/110> sp:floruit-when swds:floruit-when-110-1 . 
+swds:floruit-when-110-1 sps:floruit-when "0686"^^xsd:gYear . 
+swds:floruit-when-110-1 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> swdt:death-when "0686"^^xsd:gYear . 
+<http://syriaca.org/person/110> sp:death-when swds:death-when-110-1 . 
+swds:death-when-110-1 sps:death-when "0686"^^xsd:gYear . 
+swds:death-when-110-1 spr:reference-URL <http://syriaca.org/person/110.tei> . 
+<http://syriaca.org/person/110> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/110> sp:status swds:status-110-1 . 
+swds:status-110-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-110-1 spr:reference-URL <http://syriaca.org/person/110.tei> .

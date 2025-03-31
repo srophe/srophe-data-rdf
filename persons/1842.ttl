@@ -1,0 +1,83 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1842> rdf:type lawd:Person . 
+<http://syriaca.org/person/1842> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1842> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1842> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1842> rdfs:label "Lazarus of Zagug"@en . 
+<http://syriaca.org/person/1842> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/1842> lawd:hasCitation <http://syriaca.org/cbss/HRGBNBT5> . 
+<http://syriaca.org/person/1842> foaf:primaryTopicOf <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> foaf:primaryTopicOf <http://syriaca.org/person/1842.html> . 
+<http://syriaca.org/person/1842> foaf:primaryTopicOf <http://syriaca.org/person/1842.ttl> . 
+<http://syriaca.org/person/1842> dcterms:hasFormat <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> dcterms:hasFormat <http://syriaca.org/person/1842.html> . 
+<http://syriaca.org/person/1842> dcterms:hasFormat <http://syriaca.org/person/1842.ttl> . 
+<http://syriaca.org/person/1842> schema:description "In hagiography: Lazarus of Zagug is a saint commemorated by Rabban Saliba about whom little is known. Fiey speculates that Zagug may be the monastery of Zazug in the Enanton near Alexandria where Severus of Antioch died."@en . 
+<http://syriaca.org/person/1842> foaf:relation <http://syriaca.org/person/2282> . 
+<http://syriaca.org/person/1842> foaf:relation <http://syriaca.org/person/1843> . 
+<http://syriaca.org/person/1842> foaf:relation <http://syriaca.org/person/1846> . 
+<http://syriaca.org/person/1842> foaf:relation <http://syriaca.org/person/1340> . 
+<http://syriaca.org/person/1842> foaf:relation <http://syriaca.org/place/473> . 
+<http://syriaca.org/person/1842> foaf:relation <http://syriaca.org/place/572> . 
+<http://syriaca.org/person/1842> swdt:name-variant "Lazarus of Zagug"@en . 
+<http://syriaca.org/person/1842> swdt:name-variant "Lazare de Zagug"@fr . 
+<http://syriaca.org/person/1842> sp:name-variant swds:Person-1842-1 . 
+swds:Person-1842-1 sps:name-variant "Lazarus of Zagug"@en . 
+swds:Person-1842-1 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> sp:name-variant swds:Person-1842-2 . 
+swds:Person-1842-2 sps:name-variant "Lazare de Zagug"@fr . 
+swds:Person-1842-2 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1842> sp:status swds:status-1842-1 . 
+swds:status-1842-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1842-1 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> swdt:not-to-be-confused-with <http://syriaca.org/person/1843> . 
+<http://syriaca.org/person/1842> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-1842-11 . 
+swds:activeRelationnot-to-be-confused-with-1842-11 swd:not-to-be-confused-with <http://syriaca.org/person/1843> . 
+swds:activeRelationnot-to-be-confused-with-1842-11 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1843> swdt:not-to-be-confused-with <http://syriaca.org/person/1842> . 
+<http://syriaca.org/person/1843> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-1842-12 . 
+swds:activeRelationnot-to-be-confused-with-1842-12 swd:not-to-be-confused-with <http://syriaca.org/person/1842> . 
+swds:activeRelationnot-to-be-confused-with-1842-12 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> swdt:not-to-be-confused-with <http://syriaca.org/person/1846> . 
+<http://syriaca.org/person/1842> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-1842-21 . 
+swds:activeRelationnot-to-be-confused-with-1842-21 swd:not-to-be-confused-with <http://syriaca.org/person/1846> . 
+swds:activeRelationnot-to-be-confused-with-1842-21 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1846> swdt:not-to-be-confused-with <http://syriaca.org/person/1842> . 
+<http://syriaca.org/person/1846> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-1842-22 . 
+swds:activeRelationnot-to-be-confused-with-1842-22 swd:not-to-be-confused-with <http://syriaca.org/person/1842> . 
+swds:activeRelationnot-to-be-confused-with-1842-22 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1842> swdt:not-to-be-confused-with <http://syriaca.org/person/1340> . 
+<http://syriaca.org/person/1842> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-1842-31 . 
+swds:activeRelationnot-to-be-confused-with-1842-31 swd:not-to-be-confused-with <http://syriaca.org/person/1340> . 
+swds:activeRelationnot-to-be-confused-with-1842-31 spr:reference-URL <http://syriaca.org/person/1842.tei> . 
+<http://syriaca.org/person/1340> swdt:not-to-be-confused-with <http://syriaca.org/person/1842> . 
+<http://syriaca.org/person/1340> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-1842-32 . 
+swds:activeRelationnot-to-be-confused-with-1842-32 swd:not-to-be-confused-with <http://syriaca.org/person/1842> . 
+swds:activeRelationnot-to-be-confused-with-1842-32 spr:reference-URL <http://syriaca.org/person/1842.tei> .

@@ -1,0 +1,93 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/791> rdf:type lawd:Person . 
+<http://syriaca.org/person/791> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/791> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/791> rdfs:label "Timothy II , catholicos"@en . 
+<http://syriaca.org/person/791> rdfs:label "ܛܝܡܬܐܘܣ ܬܪܝܢܐ"@syr . 
+<http://syriaca.org/person/791> lawd:hasCitation <http://syriaca.org/cbss/BMA9ZT2V> . 
+<http://syriaca.org/person/791> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/791> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/791> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/791> lawd:hasCitation <http://syriaca.org/cbss/B5GPIGPS> . 
+<http://syriaca.org/person/791> foaf:primaryTopicOf <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> foaf:primaryTopicOf <http://syriaca.org/person/791.html> . 
+<http://syriaca.org/person/791> foaf:primaryTopicOf <http://syriaca.org/person/791.ttl> . 
+<http://syriaca.org/person/791> dcterms:hasFormat <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> dcterms:hasFormat <http://syriaca.org/person/791.html> . 
+<http://syriaca.org/person/791> dcterms:hasFormat <http://syriaca.org/person/791.ttl> . 
+<http://syriaca.org/person/791> schema:description "Cath. (1318–53?) and author. His baptismal name was Yawsep."@en . 
+<http://syriaca.org/person/791> swdt:name-variant "Timothy II , catholicos"@en . 
+<http://syriaca.org/person/791> swdt:name-variant "Timotheos II"@en-x-gedsh . 
+<http://syriaca.org/person/791> swdt:name-variant "ܛܝܡܬܐܘܣ ܬܪܝܢܐ"@syr . 
+<http://syriaca.org/person/791> swdt:name-variant "Timothy II"@en . 
+<http://syriaca.org/person/791> swdt:name-variant "Timothy II"@en . 
+<http://syriaca.org/person/791> sp:name-variant swds:Person-791-1 . 
+swds:Person-791-1 sps:name-variant "Timothy II , catholicos"@en . 
+swds:Person-791-1 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> sp:name-variant swds:Person-791-2 . 
+swds:Person-791-2 sps:name-variant "Timotheos II"@en-x-gedsh . 
+swds:Person-791-2 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> sp:name-variant swds:Person-791-3 . 
+swds:Person-791-3 sps:name-variant "ܛܝܡܬܐܘܣ ܬܪܝܢܐ"@syr . 
+swds:Person-791-3 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> sp:name-variant swds:Person-791-4 . 
+swds:Person-791-4 sps:name-variant "Timothy II"@en . 
+swds:Person-791-4 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> sp:name-variant swds:Person-791-5 . 
+swds:Person-791-5 sps:name-variant "Timothy II"@en . 
+swds:Person-791-5 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_791" . 
+<http://syriaca.org/person/791> sp:closeMatch swds:closeMatch-791-1 . 
+swds:closeMatch-791-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_791" . 
+swds:closeMatch-791-1 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> swdt:closeMatch "http://viaf.org/viaf/6255802" . 
+<http://syriaca.org/person/791> sp:closeMatch swds:closeMatch-791-2 . 
+swds:closeMatch-791-2 sps:closeMatch "http://viaf.org/viaf/6255802" . 
+swds:closeMatch-791-2 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Timothy II&sT=keywords" . 
+<http://syriaca.org/person/791> sp:closeMatch swds:closeMatch-791-3 . 
+swds:closeMatch-791-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Timothy II&sT=keywords" . 
+swds:closeMatch-791-3 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> swdt:floruit-notBefore "1300"^^xsd:gYear . 
+<http://syriaca.org/person/791> sp:floruit-notBefore swds:floruit-notBefore-791-1 . 
+swds:floruit-notBefore-791-1 sps:floruit-notBefore "1300"^^xsd:gYear . 
+swds:floruit-notBefore-791-1 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> swdt:floruit-notAfter "1355"^^xsd:gYear . 
+<http://syriaca.org/person/791> sp:floruit-notAfter swds:floruit-notAfter-791-1 . 
+swds:floruit-notAfter-791-1 sps:floruit-notAfter "1355"^^xsd:gYear . 
+swds:floruit-notAfter-791-1 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+<http://syriaca.org/person/791> swdt:occupation <catholicos> . 
+<http://syriaca.org/person/791> sp:occupation swds:occupation-791-1 . 
+swds:occupation-791-1 sps:occupation <catholicos> . 
+swds:occupation-791-1 spr:reference-URL <http://syriaca.org/person/791.tei> . 
+swds:occupation-791-1 spq:from "1318"^^xsd:gYear . 
+<http://syriaca.org/person/791> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/791> sp:status swds:status-791-1 . 
+swds:status-791-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-791-1 spr:reference-URL <http://syriaca.org/person/791.tei> .

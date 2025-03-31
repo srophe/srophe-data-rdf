@@ -1,0 +1,105 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1083> rdf:type lawd:Person . 
+<http://syriaca.org/person/1083> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1083> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/1083> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1083> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1083> rdfs:label "Melito , bishop of Sardis"@en . 
+<http://syriaca.org/person/1083> rdfs:label "ܡܝܠܝܛܘܢ ܕܣܐܪܕܝܣ"@syr . 
+<http://syriaca.org/person/1083> lawd:hasCitation <http://syriaca.org/cbss/P8KQJ7AE> . 
+<http://syriaca.org/person/1083> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/1083> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/1083> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/1083> foaf:primaryTopicOf <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> foaf:primaryTopicOf <http://syriaca.org/person/1083.html> . 
+<http://syriaca.org/person/1083> foaf:primaryTopicOf <http://syriaca.org/person/1083.ttl> . 
+<http://syriaca.org/person/1083> dcterms:hasFormat <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> dcterms:hasFormat <http://syriaca.org/person/1083.html> . 
+<http://syriaca.org/person/1083> dcterms:hasFormat <http://syriaca.org/person/1083.ttl> . 
+<http://syriaca.org/person/1083> foaf:relation <http://syriaca.org/person/631> . 
+<http://syriaca.org/person/1083> swdt:name-variant "Melito , bishop of Sardis"@en . 
+<http://syriaca.org/person/1083> swdt:name-variant "Meliton of Sardis"@en-x-gedsh . 
+<http://syriaca.org/person/1083> swdt:name-variant "St. Meliton , bishop of Sardis"@en . 
+<http://syriaca.org/person/1083> swdt:name-variant "مار ميليطون اسقف ساردة"@ar . 
+<http://syriaca.org/person/1083> swdt:name-variant "ܡܪܝ ܡܝܠܝܛܘܢ ܐܦܝܣܩܘܦܐ ܕܣܐܪܕܝܣ"@syr . 
+<http://syriaca.org/person/1083> swdt:name-variant "ܡܳܪܝ ܡܺܝܠܝܛܘܢ ܐܶܦܝܣܩܘܦܐ ܕܣܰܐܪܕܝܣ"@syr-Syrj . 
+<http://syriaca.org/person/1083> swdt:name-variant "ܡܝܠܝܛܘܢ ܕܣܐܪܕܝܣ"@syr . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-1 . 
+swds:Person-1083-1 sps:name-variant "Melito , bishop of Sardis"@en . 
+swds:Person-1083-1 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-2 . 
+swds:Person-1083-2 sps:name-variant "Meliton of Sardis"@en-x-gedsh . 
+swds:Person-1083-2 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-3 . 
+swds:Person-1083-3 sps:name-variant "St. Meliton , bishop of Sardis"@en . 
+swds:Person-1083-3 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-4 . 
+swds:Person-1083-4 sps:name-variant "مار ميليطون اسقف ساردة"@ar . 
+swds:Person-1083-4 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-5 . 
+swds:Person-1083-5 sps:name-variant "ܡܪܝ ܡܝܠܝܛܘܢ ܐܦܝܣܩܘܦܐ ܕܣܐܪܕܝܣ"@syr . 
+swds:Person-1083-5 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-6 . 
+swds:Person-1083-6 sps:name-variant "ܡܳܪܝ ܡܺܝܠܝܛܘܢ ܐܶܦܝܣܩܘܦܐ ܕܣܰܐܪܕܝܣ"@syr-Syrj . 
+swds:Person-1083-6 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> sp:name-variant swds:Person-1083-7 . 
+swds:Person-1083-7 sps:name-variant "ܡܝܠܝܛܘܢ ܕܣܐܪܕܝܣ"@syr . 
+swds:Person-1083-7 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1083" . 
+<http://syriaca.org/person/1083> sp:closeMatch swds:closeMatch-1083-1 . 
+swds:closeMatch-1083-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1083" . 
+swds:closeMatch-1083-1 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:floruit-notBefore "0100"^^xsd:gYear . 
+<http://syriaca.org/person/1083> sp:floruit-notBefore swds:floruit-notBefore-1083-1 . 
+swds:floruit-notBefore-1083-1 sps:floruit-notBefore "0100"^^xsd:gYear . 
+swds:floruit-notBefore-1083-1 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:floruit-notAfter "0200"^^xsd:gYear . 
+<http://syriaca.org/person/1083> sp:floruit-notAfter swds:floruit-notAfter-1083-1 . 
+swds:floruit-notAfter-1083-1 sps:floruit-notAfter "0200"^^xsd:gYear . 
+swds:floruit-notAfter-1083-1 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/1083> sp:occupation swds:occupation-1083-1 . 
+swds:occupation-1083-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-1083-1 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1083> sp:status swds:status-1083-1 . 
+swds:status-1083-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1083-1 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/1083> sp:status swds:status-1083-2 . 
+swds:status-1083-2 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-1083-2 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/1083> swdt:possibly-identical <http://syriaca.org/person/631> . 
+<http://syriaca.org/person/1083> sp:possibly-identical swds:activeRelationpossibly-identical-1083-11 . 
+swds:activeRelationpossibly-identical-1083-11 swd:possibly-identical <http://syriaca.org/person/631> . 
+swds:activeRelationpossibly-identical-1083-11 spr:reference-URL <http://syriaca.org/person/1083.tei> . 
+<http://syriaca.org/person/631> swdt:possibly-identical <http://syriaca.org/person/1083> . 
+<http://syriaca.org/person/631> sp:possibly-identical swds:activeRelationpossibly-identical-1083-12 . 
+swds:activeRelationpossibly-identical-1083-12 swd:possibly-identical <http://syriaca.org/person/1083> . 
+swds:activeRelationpossibly-identical-1083-12 spr:reference-URL <http://syriaca.org/person/1083.tei> .

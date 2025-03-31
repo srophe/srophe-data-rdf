@@ -1,0 +1,118 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/40> rdf:type lawd:Person . 
+<http://syriaca.org/person/40> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/40> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/40> rdfs:label "ܝܫܘܥ ܐܣܛܘܢܪܐ"@syr . 
+<http://syriaca.org/person/40> rdfs:label "Joshua the Stylite"@en . 
+<http://syriaca.org/person/40> lawd:hasCitation <http://syriaca.org/cbss/D36ZFTDY> . 
+<http://syriaca.org/person/40> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/40> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/40> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/40> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/40> foaf:primaryTopicOf <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> foaf:primaryTopicOf <http://syriaca.org/person/40.html> . 
+<http://syriaca.org/person/40> foaf:primaryTopicOf <http://syriaca.org/person/40.ttl> . 
+<http://syriaca.org/person/40> dcterms:hasFormat <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> dcterms:hasFormat <http://syriaca.org/person/40.html> . 
+<http://syriaca.org/person/40> dcterms:hasFormat <http://syriaca.org/person/40.ttl> . 
+<http://syriaca.org/person/40> schema:description "The historical person mentioned in the note inserted into the Chronicle of Zuqnin; not necessarily the author of the Chronicle of (Ps.-)Joshua the Stylite which ends in 506. Author, possibly pseudonymous, of an important anonymous historical text bearing the title ‘A historical narrative of the period of distress which occurred in Edessa , Amid, and all Mesopotamia ’."@en . 
+<http://syriaca.org/person/40> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/40> foaf:relation <http://syriaca.org/place/1452> . 
+<http://syriaca.org/person/40> swdt:name-variant "Yeshuʿ the Stylite"@en-x-gedsh . 
+<http://syriaca.org/person/40> swdt:name-variant "The Priest Joshua the Stylite"@en . 
+<http://syriaca.org/person/40> swdt:name-variant "القس يشوع العمودي"@ar . 
+<http://syriaca.org/person/40> swdt:name-variant "ܩܫܝܫܐ ܝܫܘܥ ܐܣܛܘܢܪܐ"@syr . 
+<http://syriaca.org/person/40> swdt:name-variant "ܩܰܫܝܫܳܐ ܝܶܫܘܥ ܐܶܣܛܘܢܳܪܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/40> swdt:name-variant "ܝܫܘܥ ܐܣܛܘܢܪܐ"@syr . 
+<http://syriaca.org/person/40> swdt:name-variant "Joshua the Stylite"@en . 
+<http://syriaca.org/person/40> swdt:name-variant "Joshua the Stylite"@en . 
+<http://syriaca.org/person/40> swdt:name-variant "Yeshu the Stylite"@en-x-srp1 . 
+<http://syriaca.org/person/40> swdt:name-variant "Yeshu‘ the Stylite"@en-x-srp1 . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-1 . 
+swds:Person-40-1 sps:name-variant "Yeshuʿ the Stylite"@en-x-gedsh . 
+swds:Person-40-1 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-2 . 
+swds:Person-40-2 sps:name-variant "The Priest Joshua the Stylite"@en . 
+swds:Person-40-2 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-3 . 
+swds:Person-40-3 sps:name-variant "القس يشوع العمودي"@ar . 
+swds:Person-40-3 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-4 . 
+swds:Person-40-4 sps:name-variant "ܩܫܝܫܐ ܝܫܘܥ ܐܣܛܘܢܪܐ"@syr . 
+swds:Person-40-4 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-5 . 
+swds:Person-40-5 sps:name-variant "ܩܰܫܝܫܳܐ ܝܶܫܘܥ ܐܶܣܛܘܢܳܪܳܐ"@syr-Syrj . 
+swds:Person-40-5 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-6 . 
+swds:Person-40-6 sps:name-variant "ܝܫܘܥ ܐܣܛܘܢܪܐ"@syr . 
+swds:Person-40-6 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-7 . 
+swds:Person-40-7 sps:name-variant "Joshua the Stylite"@en . 
+swds:Person-40-7 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-8 . 
+swds:Person-40-8 sps:name-variant "Joshua the Stylite"@en . 
+swds:Person-40-8 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-9 . 
+swds:Person-40-9 sps:name-variant "Yeshu the Stylite"@en-x-srp1 . 
+swds:Person-40-9 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> sp:name-variant swds:Person-40-10 . 
+swds:Person-40-10 sps:name-variant "Yeshu‘ the Stylite"@en-x-srp1 . 
+swds:Person-40-10 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_40" . 
+<http://syriaca.org/person/40> sp:closeMatch swds:closeMatch-40-1 . 
+swds:closeMatch-40-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_40" . 
+swds:closeMatch-40-1 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:closeMatch "http://viaf.org/viaf/79425254" . 
+<http://syriaca.org/person/40> sp:closeMatch swds:closeMatch-40-2 . 
+swds:closeMatch-40-2 sps:closeMatch "http://viaf.org/viaf/79425254" . 
+swds:closeMatch-40-2 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:closeMatch "http://worldcat.org/identities/lccn-n96-26164" . 
+<http://syriaca.org/person/40> sp:closeMatch swds:closeMatch-40-3 . 
+swds:closeMatch-40-3 sps:closeMatch "http://worldcat.org/identities/lccn-n96-26164" . 
+swds:closeMatch-40-3 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:floruit-notBefore "0506"^^xsd:gYear . 
+<http://syriaca.org/person/40> sp:floruit-notBefore swds:floruit-notBefore-40-1 . 
+swds:floruit-notBefore-40-1 sps:floruit-notBefore "0506"^^xsd:gYear . 
+swds:floruit-notBefore-40-1 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/40> sp:occupation swds:occupation-40-1 . 
+swds:occupation-40-1 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:occupation-40-1 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
+<http://syriaca.org/person/40> sp:occupation swds:occupation-40-2 . 
+swds:occupation-40-2 sps:occupation <http://syriaca.org/taxonomy/priests> . 
+swds:occupation-40-2 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/40> sp:occupation swds:occupation-40-3 . 
+swds:occupation-40-3 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:occupation-40-3 spr:reference-URL <http://syriaca.org/person/40.tei> . 
+<http://syriaca.org/person/40> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/40> sp:status swds:status-40-1 . 
+swds:status-40-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-40-1 spr:reference-URL <http://syriaca.org/person/40.tei> .

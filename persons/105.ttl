@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/105> rdf:type lawd:Person . 
+<http://syriaca.org/person/105> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/105> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/105> rdfs:label "Gabriel , Rabban"@en . 
+<http://syriaca.org/person/105> rdfs:label "ܓܒܪܐܝܠ ܕܒܝܬ ܪܒܢ"@syr . 
+<http://syriaca.org/person/105> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/105> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/105> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/105> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/105> foaf:primaryTopicOf <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> foaf:primaryTopicOf <http://syriaca.org/person/105.html> . 
+<http://syriaca.org/person/105> foaf:primaryTopicOf <http://syriaca.org/person/105.ttl> . 
+<http://syriaca.org/person/105> dcterms:hasFormat <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> dcterms:hasFormat <http://syriaca.org/person/105.html> . 
+<http://syriaca.org/person/105> dcterms:hasFormat <http://syriaca.org/person/105.ttl> . 
+<http://syriaca.org/person/105> swdt:name-variant "Gabriel , Rabban"@en . 
+<http://syriaca.org/person/105> swdt:name-variant "Rabban Gabriel"@en . 
+<http://syriaca.org/person/105> swdt:name-variant "الربان جبرائيل"@ar . 
+<http://syriaca.org/person/105> swdt:name-variant "ܓܒܪܐܝܠ ܕܒܝܬ ܪܒܢ"@syr . 
+<http://syriaca.org/person/105> swdt:name-variant "ܓܰܒܪܐܝܠ ܕܒܶܝܬ ܪܰܒܰܢ"@syr-Syrj . 
+<http://syriaca.org/person/105> swdt:name-variant "Gabriel of Beth Rabban"@en-x-gedsh . 
+<http://syriaca.org/person/105> swdt:name-variant "Gabriel bar Sabroy"@en . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-1 . 
+swds:Person-105-1 sps:name-variant "Gabriel , Rabban"@en . 
+swds:Person-105-1 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-2 . 
+swds:Person-105-2 sps:name-variant "Rabban Gabriel"@en . 
+swds:Person-105-2 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-3 . 
+swds:Person-105-3 sps:name-variant "الربان جبرائيل"@ar . 
+swds:Person-105-3 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-4 . 
+swds:Person-105-4 sps:name-variant "ܓܒܪܐܝܠ ܕܒܝܬ ܪܒܢ"@syr . 
+swds:Person-105-4 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-5 . 
+swds:Person-105-5 sps:name-variant "ܓܰܒܪܐܝܠ ܕܒܶܝܬ ܪܰܒܰܢ"@syr-Syrj . 
+swds:Person-105-5 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-6 . 
+swds:Person-105-6 sps:name-variant "Gabriel of Beth Rabban"@en-x-gedsh . 
+swds:Person-105-6 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> sp:name-variant swds:Person-105-7 . 
+swds:Person-105-7 sps:name-variant "Gabriel bar Sabroy"@en . 
+swds:Person-105-7 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_105" . 
+<http://syriaca.org/person/105> sp:closeMatch swds:closeMatch-105-1 . 
+swds:closeMatch-105-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_105" . 
+swds:closeMatch-105-1 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> swdt:floruit-notBefore "0600"^^xsd:gYear . 
+<http://syriaca.org/person/105> sp:floruit-notBefore swds:floruit-notBefore-105-1 . 
+swds:floruit-notBefore-105-1 sps:floruit-notBefore "0600"^^xsd:gYear . 
+swds:floruit-notBefore-105-1 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> swdt:floruit-notAfter "0700"^^xsd:gYear . 
+<http://syriaca.org/person/105> sp:floruit-notAfter swds:floruit-notAfter-105-1 . 
+swds:floruit-notAfter-105-1 sps:floruit-notAfter "0700"^^xsd:gYear . 
+swds:floruit-notAfter-105-1 spr:reference-URL <http://syriaca.org/person/105.tei> . 
+<http://syriaca.org/person/105> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/105> sp:status swds:status-105-1 . 
+swds:status-105-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-105-1 spr:reference-URL <http://syriaca.org/person/105.tei> .

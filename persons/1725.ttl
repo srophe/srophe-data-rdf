@@ -1,0 +1,75 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1725> rdf:type lawd:Person . 
+<http://syriaca.org/person/1725> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1725> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1725> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1725> rdfs:label "ܐܘܣܛܬܝܣ"@syr . 
+<http://syriaca.org/person/1725> rdfs:label "Eustathius, bishop of Antioch"@en . 
+<http://syriaca.org/person/1725> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1725> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/1725> foaf:primaryTopicOf <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> foaf:primaryTopicOf <http://syriaca.org/person/1725.html> . 
+<http://syriaca.org/person/1725> foaf:primaryTopicOf <http://syriaca.org/person/1725.ttl> . 
+<http://syriaca.org/person/1725> dcterms:hasFormat <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> dcterms:hasFormat <http://syriaca.org/person/1725.html> . 
+<http://syriaca.org/person/1725> dcterms:hasFormat <http://syriaca.org/person/1725.ttl> . 
+<http://syriaca.org/person/1725> schema:description "Eustathius, bishop of Antioch was bishop of Antioch who fiercely opposed the Arians."@en . 
+<http://syriaca.org/person/1725> foaf:relation <http://syriaca.org/place/995> . 
+<http://syriaca.org/person/1725> swdt:name-variant "ܐܘܣܛܬܝܣ"@syr . 
+<http://syriaca.org/person/1725> swdt:name-variant "Ēwsṭāthīs"@en-x-gedsh . 
+<http://syriaca.org/person/1725> swdt:name-variant "Eustathius, bishop of Antioch"@en . 
+<http://syriaca.org/person/1725> swdt:name-variant "ʾĒwsṭāṯīs"@fr-x-zanetti . 
+<http://syriaca.org/person/1725> swdt:name-variant "Eustathe"@fr . 
+<http://syriaca.org/person/1725> swdt:name-variant "Eustathius of Antioch"@en . 
+<http://syriaca.org/person/1725> sp:name-variant swds:Person-1725-1 . 
+swds:Person-1725-1 sps:name-variant "ܐܘܣܛܬܝܣ"@syr . 
+swds:Person-1725-1 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> sp:name-variant swds:Person-1725-2 . 
+swds:Person-1725-2 sps:name-variant "Ēwsṭāthīs"@en-x-gedsh . 
+swds:Person-1725-2 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> sp:name-variant swds:Person-1725-3 . 
+swds:Person-1725-3 sps:name-variant "Eustathius, bishop of Antioch"@en . 
+swds:Person-1725-3 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> sp:name-variant swds:Person-1725-4 . 
+swds:Person-1725-4 sps:name-variant "ʾĒwsṭāṯīs"@fr-x-zanetti . 
+swds:Person-1725-4 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> sp:name-variant swds:Person-1725-5 . 
+swds:Person-1725-5 sps:name-variant "Eustathe"@fr . 
+swds:Person-1725-5 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> sp:name-variant swds:Person-1725-6 . 
+swds:Person-1725-6 sps:name-variant "Eustathius of Antioch"@en . 
+swds:Person-1725-6 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eustathius%20of%20Antioch&sT=keywords" . 
+<http://syriaca.org/person/1725> sp:closeMatch swds:closeMatch-1725-1 . 
+swds:closeMatch-1725-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=E&sK=Eustathius%20of%20Antioch&sT=keywords" . 
+swds:closeMatch-1725-1 spr:reference-URL <http://syriaca.org/person/1725.tei> . 
+<http://syriaca.org/person/1725> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1725> sp:status swds:status-1725-1 . 
+swds:status-1725-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1725-1 spr:reference-URL <http://syriaca.org/person/1725.tei> .

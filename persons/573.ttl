@@ -1,0 +1,183 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/573> rdf:type lawd:Person . 
+<http://syriaca.org/person/573> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/573> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/573> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/573> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/573> rdfs:label "ܝܘܐܢܝܣ ܟܪܘܣܘܣܛܘܡܘܣ"@syr . 
+<http://syriaca.org/person/573> rdfs:label "John Chrysostom"@en . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/2AN8X8HW> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/573> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/573> foaf:primaryTopicOf <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> foaf:primaryTopicOf <http://syriaca.org/person/573.html> . 
+<http://syriaca.org/person/573> foaf:primaryTopicOf <http://syriaca.org/person/573.ttl> . 
+<http://syriaca.org/person/573> dcterms:hasFormat <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> dcterms:hasFormat <http://syriaca.org/person/573.html> . 
+<http://syriaca.org/person/573> dcterms:hasFormat <http://syriaca.org/person/573.ttl> . 
+<http://syriaca.org/person/573> schema:description "Bp. of Constantinople (398-404)."@en . 
+<http://syriaca.org/person/573> swdt:name-variant "John Chrysostom"@en-x-gedsh . 
+<http://syriaca.org/person/573> swdt:name-variant "مار ايونيس الذهبي فمه"@ar . 
+<http://syriaca.org/person/573> swdt:name-variant "ܡܪܝ ܐܝܘܐܢܝܣ ܦܘܡܐ ܕܕܗܒܐ"@syr . 
+<http://syriaca.org/person/573> swdt:name-variant "ܡܳܪܝ ܐܝܘܰܐܢܝܣ ܦܘܡܐ ܕܕܰܗܒܐ"@syr-Syrj . 
+<http://syriaca.org/person/573> swdt:name-variant "ܝܘܐܢܝܣ ܟܪܘܣܘܣܛܘܡܘܣ"@syr . 
+<http://syriaca.org/person/573> swdt:name-variant "ܝܘܼܐܵܢܝܼܣ ܟܪܘܿܣܘܿܣܛܘܿܡܘܿܣ"@syr-Syrn . 
+<http://syriaca.org/person/573> swdt:name-variant "ܐܝܘܐܢܢܝܣ ܟܪܘܣܘܣܛܘܡܘܣ"@syr . 
+<http://syriaca.org/person/573> swdt:name-variant "ܐܝܺܘܰܐܢܢܺܝܣ ܟܪܘܽܣܽܘܣܛܳܘܡܳܘܣ"@syr-Syrj . 
+<http://syriaca.org/person/573> swdt:name-variant "Jean Chrysostome"@fr . 
+<http://syriaca.org/person/573> swdt:name-variant "ܝܘܚܢܢ"@syr . 
+<http://syriaca.org/person/573> swdt:name-variant "Yōḥanān"@en-x-gedsh . 
+<http://syriaca.org/person/573> swdt:name-variant "John Chrysostom"@en . 
+<http://syriaca.org/person/573> swdt:name-variant "Yōḥanān"@fr-x-zanetti . 
+<http://syriaca.org/person/573> swdt:name-variant "Jean Chrysostome"@fr . 
+<http://syriaca.org/person/573> swdt:name-variant "Johannes Chrysostomos"@en . 
+<http://syriaca.org/person/573> swdt:name-variant "Johannes Chrysostomos"@de-x-baumstrk . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-1 . 
+swds:Person-573-1 sps:name-variant "John Chrysostom"@en-x-gedsh . 
+swds:Person-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-2 . 
+swds:Person-573-2 sps:name-variant "مار ايونيس الذهبي فمه"@ar . 
+swds:Person-573-2 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-3 . 
+swds:Person-573-3 sps:name-variant "ܡܪܝ ܐܝܘܐܢܝܣ ܦܘܡܐ ܕܕܗܒܐ"@syr . 
+swds:Person-573-3 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-4 . 
+swds:Person-573-4 sps:name-variant "ܡܳܪܝ ܐܝܘܰܐܢܝܣ ܦܘܡܐ ܕܕܰܗܒܐ"@syr-Syrj . 
+swds:Person-573-4 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-5 . 
+swds:Person-573-5 sps:name-variant "ܝܘܐܢܝܣ ܟܪܘܣܘܣܛܘܡܘܣ"@syr . 
+swds:Person-573-5 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-6 . 
+swds:Person-573-6 sps:name-variant "ܝܘܼܐܵܢܝܼܣ ܟܪܘܿܣܘܿܣܛܘܿܡܘܿܣ"@syr-Syrn . 
+swds:Person-573-6 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-7 . 
+swds:Person-573-7 sps:name-variant "ܐܝܘܐܢܢܝܣ ܟܪܘܣܘܣܛܘܡܘܣ"@syr . 
+swds:Person-573-7 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-8 . 
+swds:Person-573-8 sps:name-variant "ܐܝܺܘܰܐܢܢܺܝܣ ܟܪܘܽܣܽܘܣܛܳܘܡܳܘܣ"@syr-Syrj . 
+swds:Person-573-8 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-9 . 
+swds:Person-573-9 sps:name-variant "Jean Chrysostome"@fr . 
+swds:Person-573-9 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-10 . 
+swds:Person-573-10 sps:name-variant "ܝܘܚܢܢ"@syr . 
+swds:Person-573-10 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-11 . 
+swds:Person-573-11 sps:name-variant "Yōḥanān"@en-x-gedsh . 
+swds:Person-573-11 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-12 . 
+swds:Person-573-12 sps:name-variant "John Chrysostom"@en . 
+swds:Person-573-12 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-13 . 
+swds:Person-573-13 sps:name-variant "Yōḥanān"@fr-x-zanetti . 
+swds:Person-573-13 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-14 . 
+swds:Person-573-14 sps:name-variant "Jean Chrysostome"@fr . 
+swds:Person-573-14 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-15 . 
+swds:Person-573-15 sps:name-variant "Johannes Chrysostomos"@en . 
+swds:Person-573-15 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> sp:name-variant swds:Person-573-16 . 
+swds:Person-573-16 sps:name-variant "Johannes Chrysostomos"@de-x-baumstrk . 
+swds:Person-573-16 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_573" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-1 . 
+swds:closeMatch-573-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_573" . 
+swds:closeMatch-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/82340113" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-2 . 
+swds:closeMatch-573-2 sps:closeMatch "http://viaf.org/viaf/82340113" . 
+swds:closeMatch-573-2 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://worldcat.org/identities/lccn-n80-1460" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-3 . 
+swds:closeMatch-573-3 sps:closeMatch "http://worldcat.org/identities/lccn-n80-1460" . 
+swds:closeMatch-573-3 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/233738680" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-4 . 
+swds:closeMatch-573-4 sps:closeMatch "http://viaf.org/viaf/233738680" . 
+swds:closeMatch-573-4 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/225250030" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-5 . 
+swds:closeMatch-573-5 sps:closeMatch "http://viaf.org/viaf/225250030" . 
+swds:closeMatch-573-5 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/218045009" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-6 . 
+swds:closeMatch-573-6 sps:closeMatch "http://viaf.org/viaf/218045009" . 
+swds:closeMatch-573-6 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/210454444" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-7 . 
+swds:closeMatch-573-7 sps:closeMatch "http://viaf.org/viaf/210454444" . 
+swds:closeMatch-573-7 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/199584576" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-8 . 
+swds:closeMatch-573-8 sps:closeMatch "http://viaf.org/viaf/199584576" . 
+swds:closeMatch-573-8 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/100910338" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-9 . 
+swds:closeMatch-573-9 sps:closeMatch "http://viaf.org/viaf/100910338" . 
+swds:closeMatch-573-9 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://viaf.org/viaf/97111235" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-10 . 
+swds:closeMatch-573-10 sps:closeMatch "http://viaf.org/viaf/97111235" . 
+swds:closeMatch-573-10 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Chrysostom&sT=keywords" . 
+<http://syriaca.org/person/573> sp:closeMatch swds:closeMatch-573-11 . 
+swds:closeMatch-573-11 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Chrysostom&sT=keywords" . 
+swds:closeMatch-573-11 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:birth-notBefore "0332"^^xsd:gYear . 
+<http://syriaca.org/person/573> sp:birth-notBefore swds:birth-notBefore-573-1 . 
+swds:birth-notBefore-573-1 sps:birth-notBefore "0332"^^xsd:gYear . 
+swds:birth-notBefore-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:birth-notAfter "0362"^^xsd:gYear . 
+<http://syriaca.org/person/573> sp:birth-notAfter swds:birth-notAfter-573-1 . 
+swds:birth-notAfter-573-1 sps:birth-notAfter "0362"^^xsd:gYear . 
+swds:birth-notAfter-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:death-when "0407"^^xsd:gYear . 
+<http://syriaca.org/person/573> sp:death-when swds:death-when-573-1 . 
+swds:death-when-573-1 sps:death-when "0407"^^xsd:gYear . 
+swds:death-when-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/573> sp:occupation swds:occupation-573-1 . 
+swds:occupation-573-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+swds:occupation-573-1 spq:from "0398"^^xsd:gYear . 
+<http://syriaca.org/person/573> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/573> sp:status swds:status-573-1 . 
+swds:status-573-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-573-1 spr:reference-URL <http://syriaca.org/person/573.tei> . 
+<http://syriaca.org/person/573> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/573> sp:status swds:status-573-2 . 
+swds:status-573-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-573-2 spr:reference-URL <http://syriaca.org/person/573.tei> .

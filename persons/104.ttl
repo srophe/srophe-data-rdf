@@ -1,0 +1,95 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/104> rdf:type lawd:Person . 
+<http://syriaca.org/person/104> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/104> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/104> rdfs:label "Sabroy , malphono"@en . 
+<http://syriaca.org/person/104> rdfs:label "ܣܒܪܘܝ"@syr . 
+<http://syriaca.org/person/104> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/104> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/104> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/104> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/104> foaf:primaryTopicOf <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> foaf:primaryTopicOf <http://syriaca.org/person/104.html> . 
+<http://syriaca.org/person/104> foaf:primaryTopicOf <http://syriaca.org/person/104.ttl> . 
+<http://syriaca.org/person/104> dcterms:hasFormat <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> dcterms:hasFormat <http://syriaca.org/person/104.html> . 
+<http://syriaca.org/person/104> dcterms:hasFormat <http://syriaca.org/person/104.ttl> . 
+<http://syriaca.org/person/104> foaf:relation <http://syriaca.org/place/1519> . 
+<http://syriaca.org/person/104> swdt:name-variant "Sabroy , malphono"@en . 
+<http://syriaca.org/person/104> swdt:name-variant "Malphono Sabroy"@en . 
+<http://syriaca.org/person/104> swdt:name-variant "الربان سبروي"@ar . 
+<http://syriaca.org/person/104> swdt:name-variant "ܣܒܪܘܝ ܪܒܢ"@syr . 
+<http://syriaca.org/person/104> swdt:name-variant "ܣܰܒܪܘܰܝ ܪܰܒܢ"@syr-Syrj . 
+<http://syriaca.org/person/104> swdt:name-variant "ܣܒܪܘܝ"@syr . 
+<http://syriaca.org/person/104> swdt:name-variant "Sabroy"@en-x-gedsh . 
+<http://syriaca.org/person/104> swdt:name-variant "Sabroy of Ramatshir"@en . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-1 . 
+swds:Person-104-1 sps:name-variant "Sabroy , malphono"@en . 
+swds:Person-104-1 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-2 . 
+swds:Person-104-2 sps:name-variant "Malphono Sabroy"@en . 
+swds:Person-104-2 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-3 . 
+swds:Person-104-3 sps:name-variant "الربان سبروي"@ar . 
+swds:Person-104-3 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-4 . 
+swds:Person-104-4 sps:name-variant "ܣܒܪܘܝ ܪܒܢ"@syr . 
+swds:Person-104-4 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-5 . 
+swds:Person-104-5 sps:name-variant "ܣܰܒܪܘܰܝ ܪܰܒܢ"@syr-Syrj . 
+swds:Person-104-5 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-6 . 
+swds:Person-104-6 sps:name-variant "ܣܒܪܘܝ"@syr . 
+swds:Person-104-6 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-7 . 
+swds:Person-104-7 sps:name-variant "Sabroy"@en-x-gedsh . 
+swds:Person-104-7 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> sp:name-variant swds:Person-104-8 . 
+swds:Person-104-8 sps:name-variant "Sabroy of Ramatshir"@en . 
+swds:Person-104-8 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_104" . 
+<http://syriaca.org/person/104> sp:closeMatch swds:closeMatch-104-1 . 
+swds:closeMatch-104-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_104" . 
+swds:closeMatch-104-1 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> swdt:floruit-notBefore "0600"^^xsd:gYear . 
+<http://syriaca.org/person/104> sp:floruit-notBefore swds:floruit-notBefore-104-1 . 
+swds:floruit-notBefore-104-1 sps:floruit-notBefore "0600"^^xsd:gYear . 
+swds:floruit-notBefore-104-1 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> swdt:floruit-notAfter "0700"^^xsd:gYear . 
+<http://syriaca.org/person/104> sp:floruit-notAfter swds:floruit-notAfter-104-1 . 
+swds:floruit-notAfter-104-1 sps:floruit-notAfter "0700"^^xsd:gYear . 
+swds:floruit-notAfter-104-1 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> swdt:birth-place <http://syriaca.org/place/1519> . 
+<http://syriaca.org/person/104> sp:birth-place swds:birth-place-104-1 . 
+swds:birth-place-104-1 sps:birth-place <http://syriaca.org/place/1519> . 
+swds:birth-place-104-1 spr:reference-URL <http://syriaca.org/person/104.tei> . 
+<http://syriaca.org/person/104> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/104> sp:status swds:status-104-1 . 
+swds:status-104-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-104-1 spr:reference-URL <http://syriaca.org/person/104.tei> .

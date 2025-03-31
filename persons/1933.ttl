@@ -1,0 +1,75 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1933> rdf:type lawd:Person . 
+<http://syriaca.org/person/1933> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1933> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1933> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1933> rdfs:label "James of the Monastery of the Edessenes"@en . 
+<http://syriaca.org/person/1933> rdfs:label "ܝܥܩܘܒ"@syr . 
+<http://syriaca.org/person/1933> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1933> lawd:hasCitation <http://syriaca.org/cbss/2IBLUVC7> . 
+<http://syriaca.org/person/1933> lawd:hasCitation <http://syriaca.org/cbss/2IBLUVC7> . 
+<http://syriaca.org/person/1933> foaf:primaryTopicOf <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> foaf:primaryTopicOf <http://syriaca.org/person/1933.html> . 
+<http://syriaca.org/person/1933> foaf:primaryTopicOf <http://syriaca.org/person/1933.ttl> . 
+<http://syriaca.org/person/1933> dcterms:hasFormat <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> dcterms:hasFormat <http://syriaca.org/person/1933.html> . 
+<http://syriaca.org/person/1933> dcterms:hasFormat <http://syriaca.org/person/1933.ttl> . 
+<http://syriaca.org/person/1933> schema:description "In hagiography: James of the Monastery of the Edessenes is a wonderworking monk originally from Monastery of the Edessenes near Amida who was commemorated as one of two monks (the other unnamed) by John of Ephesus . He is mentioned as a contemporary who met with John of Tella ."@en . 
+<http://syriaca.org/person/1933> foaf:relation <http://syriaca.org/person/74> . 
+<http://syriaca.org/person/1933> foaf:relation <http://syriaca.org/person/50> . 
+<http://syriaca.org/person/1933> foaf:relation <http://syriaca.org/place/1528> . 
+<http://syriaca.org/person/1933> foaf:relation <http://syriaca.org/place/8> . 
+<http://syriaca.org/person/1933> swdt:name-variant "James of the Monastery of the Edessenes"@en . 
+<http://syriaca.org/person/1933> swdt:name-variant "(Two) Monks"@en . 
+<http://syriaca.org/person/1933> swdt:name-variant "James of the Monastery of the Edessenes"@en . 
+<http://syriaca.org/person/1933> swdt:name-variant "Moines (Deux)"@fr . 
+<http://syriaca.org/person/1933> swdt:name-variant "ܝܥܩܘܒ"@syr . 
+<http://syriaca.org/person/1933> sp:name-variant swds:Person-1933-1 . 
+swds:Person-1933-1 sps:name-variant "James of the Monastery of the Edessenes"@en . 
+swds:Person-1933-1 spr:reference-URL <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> sp:name-variant swds:Person-1933-2 . 
+swds:Person-1933-2 sps:name-variant "(Two) Monks"@en . 
+swds:Person-1933-2 spr:reference-URL <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> sp:name-variant swds:Person-1933-3 . 
+swds:Person-1933-3 sps:name-variant "James of the Monastery of the Edessenes"@en . 
+swds:Person-1933-3 spr:reference-URL <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> sp:name-variant swds:Person-1933-4 . 
+swds:Person-1933-4 sps:name-variant "Moines (Deux)"@fr . 
+swds:Person-1933-4 spr:reference-URL <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> sp:name-variant swds:Person-1933-5 . 
+swds:Person-1933-5 sps:name-variant "ܝܥܩܘܒ"@syr . 
+swds:Person-1933-5 spr:reference-URL <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/1933> sp:gender swds:gender-1933-1 . 
+swds:gender-1933-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-1933-1 spr:reference-URL <http://syriaca.org/person/1933.tei> . 
+<http://syriaca.org/person/1933> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1933> sp:status swds:status-1933-1 . 
+swds:status-1933-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1933-1 spr:reference-URL <http://syriaca.org/person/1933.tei> .

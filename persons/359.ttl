@@ -1,0 +1,143 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/359> rdf:type lawd:Person . 
+<http://syriaca.org/person/359> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/359> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/359> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/359> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/359> rdfs:label "Babai the Great"@en . 
+<http://syriaca.org/person/359> rdfs:label "ܒܒܝ ܪܒܐ"@syr . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/IAYHUSI9> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/359> lawd:hasCitation <http://syriaca.org/cbss/B5GPIGPS> . 
+<http://syriaca.org/person/359> foaf:primaryTopicOf <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> foaf:primaryTopicOf <http://syriaca.org/person/359.html> . 
+<http://syriaca.org/person/359> foaf:primaryTopicOf <http://syriaca.org/person/359.ttl> . 
+<http://syriaca.org/person/359> dcterms:hasFormat <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> dcterms:hasFormat <http://syriaca.org/person/359.html> . 
+<http://syriaca.org/person/359> dcterms:hasFormat <http://syriaca.org/person/359.ttl> . 
+<http://syriaca.org/person/359> schema:description "Theologian and monastic author."@en . 
+<http://syriaca.org/person/359> foaf:relation <http://syriaca.org/place/100> . 
+<http://syriaca.org/person/359> swdt:name-variant "Babai the Great"@en . 
+<http://syriaca.org/person/359> swdt:name-variant "Babai the Great"@en-x-gedsh . 
+<http://syriaca.org/person/359> swdt:name-variant "ܒܒܝ ܪܒܐ"@syr . 
+<http://syriaca.org/person/359> swdt:name-variant "ܒܵܒܲܝ ܪܲܒܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/359> swdt:name-variant "Babaï"@fr . 
+<http://syriaca.org/person/359> swdt:name-variant "Mar Babaï"@fr . 
+<http://syriaca.org/person/359> swdt:name-variant "Babai , archimandrite du mont Izla"@fr . 
+<http://syriaca.org/person/359> swdt:name-variant "Babai the Great"@en . 
+<http://syriaca.org/person/359> swdt:name-variant "Babaj Magnus"@la . 
+<http://syriaca.org/person/359> swdt:name-variant "Babaï le Grand"@fr . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-1 . 
+swds:Person-359-1 sps:name-variant "Babai the Great"@en . 
+swds:Person-359-1 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-2 . 
+swds:Person-359-2 sps:name-variant "Babai the Great"@en-x-gedsh . 
+swds:Person-359-2 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-3 . 
+swds:Person-359-3 sps:name-variant "ܒܒܝ ܪܒܐ"@syr . 
+swds:Person-359-3 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-4 . 
+swds:Person-359-4 sps:name-variant "ܒܵܒܲܝ ܪܲܒܵܐ"@syr-Syrn . 
+swds:Person-359-4 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-5 . 
+swds:Person-359-5 sps:name-variant "Babaï"@fr . 
+swds:Person-359-5 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-6 . 
+swds:Person-359-6 sps:name-variant "Mar Babaï"@fr . 
+swds:Person-359-6 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-7 . 
+swds:Person-359-7 sps:name-variant "Babai , archimandrite du mont Izla"@fr . 
+swds:Person-359-7 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-8 . 
+swds:Person-359-8 sps:name-variant "Babai the Great"@en . 
+swds:Person-359-8 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-9 . 
+swds:Person-359-9 sps:name-variant "Babaj Magnus"@la . 
+swds:Person-359-9 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> sp:name-variant swds:Person-359-10 . 
+swds:Person-359-10 sps:name-variant "Babaï le Grand"@fr . 
+swds:Person-359-10 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_359" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-1 . 
+swds:closeMatch-359-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_359" . 
+swds:closeMatch-359-1 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://viaf.org/viaf/16192074" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-2 . 
+swds:closeMatch-359-2 sps:closeMatch "http://viaf.org/viaf/16192074" . 
+swds:closeMatch-359-2 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://worldcat.org/identities/lccn-n85-44888" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-3 . 
+swds:closeMatch-359-3 sps:closeMatch "http://worldcat.org/identities/lccn-n85-44888" . 
+swds:closeMatch-359-3 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://viaf.org/viaf/244039429" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-4 . 
+swds:closeMatch-359-4 sps:closeMatch "http://viaf.org/viaf/244039429" . 
+swds:closeMatch-359-4 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://viaf.org/viaf/195937789" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-5 . 
+swds:closeMatch-359-5 sps:closeMatch "http://viaf.org/viaf/195937789" . 
+swds:closeMatch-359-5 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://viaf.org/viaf/76706750" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-6 . 
+swds:closeMatch-359-6 sps:closeMatch "http://viaf.org/viaf/76706750" . 
+swds:closeMatch-359-6 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://viaf.org/viaf/69321841" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-7 . 
+swds:closeMatch-359-7 sps:closeMatch "http://viaf.org/viaf/69321841" . 
+swds:closeMatch-359-7 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Babai the Great&sT=keywords" . 
+<http://syriaca.org/person/359> sp:closeMatch swds:closeMatch-359-8 . 
+swds:closeMatch-359-8 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Babai the Great&sT=keywords" . 
+swds:closeMatch-359-8 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:birth-notBefore "0536"^^xsd:gYear . 
+<http://syriaca.org/person/359> sp:birth-notBefore swds:birth-notBefore-359-1 . 
+swds:birth-notBefore-359-1 sps:birth-notBefore "0536"^^xsd:gYear . 
+swds:birth-notBefore-359-1 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:birth-notAfter "0566"^^xsd:gYear . 
+<http://syriaca.org/person/359> sp:birth-notAfter swds:birth-notAfter-359-1 . 
+swds:birth-notAfter-359-1 sps:birth-notAfter "0566"^^xsd:gYear . 
+swds:birth-notAfter-359-1 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:death-when "0628"^^xsd:gYear . 
+<http://syriaca.org/person/359> sp:death-when swds:death-when-359-1 . 
+swds:death-when-359-1 sps:death-when "0628"^^xsd:gYear . 
+swds:death-when-359-1 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/359> sp:status swds:status-359-1 . 
+swds:status-359-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-359-1 spr:reference-URL <http://syriaca.org/person/359.tei> . 
+<http://syriaca.org/person/359> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/359> sp:status swds:status-359-2 . 
+swds:status-359-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-359-2 spr:reference-URL <http://syriaca.org/person/359.tei> .

@@ -1,0 +1,72 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5155> rdf:type lawd:Person . 
+<http://syriaca.org/person/5155> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5155> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5155> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5155> rdfs:label "Sophia (Roman empress)"@en . 
+<http://syriaca.org/person/5155> rdfs:label "ܣܘܦܝܐ"@syr . 
+<http://syriaca.org/person/5155> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5155> lawd:hasCitation <http://syriaca.org/cbss/7K28WD3W> . 
+<http://syriaca.org/person/5155> lawd:hasCitation <http://syriaca.org/cbss/7K28WD3W> . 
+<http://syriaca.org/person/5155> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5155> foaf:primaryTopicOf <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> foaf:primaryTopicOf <http://syriaca.org/person/5155.html> . 
+<http://syriaca.org/person/5155> foaf:primaryTopicOf <http://syriaca.org/person/5155.ttl> . 
+<http://syriaca.org/person/5155> dcterms:hasFormat <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> dcterms:hasFormat <http://syriaca.org/person/5155.html> . 
+<http://syriaca.org/person/5155> dcterms:hasFormat <http://syriaca.org/person/5155.ttl> . 
+<http://syriaca.org/person/5155> schema:description "Sophia was the niece of the empress Theodora and the wife of Justin II. She was very influential during his reign from 565 to 578 and preserved her exalted status under Tiberius and Maurice. John of Ephesus blames her for participating in the persecution of the miaphysites in the early 570s. In Joh. Eph., EH 2.10, he even claims that she had originally been a miaphysite and only turned to the Chalcedonian communion for supporting the imperial ambitions of her husband Justin."@en . 
+<http://syriaca.org/person/5155> swdt:name-variant "Sophia (Roman empress)"@en . 
+<http://syriaca.org/person/5155> swdt:name-variant "ܣܘܦܝܐ"@syr . 
+<http://syriaca.org/person/5155> swdt:name-variant "ܡܠܟܬܐ / ܐܢܬܬܗ"@syr . 
+<http://syriaca.org/person/5155> swdt:name-variant "Aelia Sophia"@en . 
+<http://syriaca.org/person/5155> sp:name-variant swds:Person-5155-1 . 
+swds:Person-5155-1 sps:name-variant "Sophia (Roman empress)"@en . 
+swds:Person-5155-1 spr:reference-URL <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> sp:name-variant swds:Person-5155-2 . 
+swds:Person-5155-2 sps:name-variant "ܣܘܦܝܐ"@syr . 
+swds:Person-5155-2 spr:reference-URL <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> sp:name-variant swds:Person-5155-3 . 
+swds:Person-5155-3 sps:name-variant "ܡܠܟܬܐ / ܐܢܬܬܗ"@syr . 
+swds:Person-5155-3 spr:reference-URL <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> sp:name-variant swds:Person-5155-4 . 
+swds:Person-5155-4 sps:name-variant "Aelia Sophia"@en . 
+swds:Person-5155-4 spr:reference-URL <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> swdt:closeMatch "https://en.wikipedia.org/wiki/Sophia_(empress)" . 
+<http://syriaca.org/person/5155> sp:closeMatch swds:closeMatch-5155-1 . 
+swds:closeMatch-5155-1 sps:closeMatch "https://en.wikipedia.org/wiki/Sophia_(empress)" . 
+swds:closeMatch-5155-1 spr:reference-URL <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> swdt:floruit-notBefore "0565-11-14"^^xsd:date . 
+<http://syriaca.org/person/5155> sp:floruit-notBefore swds:floruit-notBefore-5155-1 . 
+swds:floruit-notBefore-5155-1 sps:floruit-notBefore "0565-11-14"^^xsd:date . 
+swds:floruit-notBefore-5155-1 spr:reference-URL <http://syriaca.org/person/5155.tei> . 
+<http://syriaca.org/person/5155> swdt:gender <http://syriaca.org/taxonomy/women> . 
+<http://syriaca.org/person/5155> sp:gender swds:gender-5155-1 . 
+swds:gender-5155-1 sps:gender <http://syriaca.org/taxonomy/women> . 
+swds:gender-5155-1 spr:reference-URL <http://syriaca.org/person/5155.tei> .

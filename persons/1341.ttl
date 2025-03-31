@@ -1,0 +1,120 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1341> rdf:type lawd:Person . 
+<http://syriaca.org/person/1341> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1341> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1341> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1341> rdfs:label "ܠܐܘܢܛܝܘܣ"@syr . 
+<http://syriaca.org/person/1341> rdfs:label "Leontius"@en . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/8E9W2SPV> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/BBXJEF5Y> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/82LXM9RL> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/HANSFKIU> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/1341> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/1341> foaf:primaryTopicOf <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> foaf:primaryTopicOf <http://syriaca.org/person/1341.html> . 
+<http://syriaca.org/person/1341> foaf:primaryTopicOf <http://syriaca.org/person/1341.ttl> . 
+<http://syriaca.org/person/1341> dcterms:hasFormat <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> dcterms:hasFormat <http://syriaca.org/person/1341.html> . 
+<http://syriaca.org/person/1341> dcterms:hasFormat <http://syriaca.org/person/1341.ttl> . 
+<http://syriaca.org/person/1341> schema:description "Leontius of Tripoli was a martyr. He had been a Roman solider. There was a monastery named after him in which Severus of Antioch was baptized."@en . 
+<http://syriaca.org/person/1341> swdt:name-variant "ܠܐܘܢܛܝܘܣ"@syr . 
+<http://syriaca.org/person/1341> swdt:name-variant "Leʾōnṭīyōs"@en-x-gedsh . 
+<http://syriaca.org/person/1341> swdt:name-variant "ܠܐܘܢܛܝܘܣ ܘܦܘܦܠܝܘܣ"@syr . 
+<http://syriaca.org/person/1341> swdt:name-variant "Leontius"@en . 
+<http://syriaca.org/person/1341> swdt:name-variant "Leonius and Publius"@en . 
+<http://syriaca.org/person/1341> swdt:name-variant "Leontius of Tripoli"@en . 
+<http://syriaca.org/person/1341> swdt:name-variant "Lēʾōnṭīyōs"@fr-x-zanetti . 
+<http://syriaca.org/person/1341> swdt:name-variant "Léonce"@fr . 
+<http://syriaca.org/person/1341> swdt:name-variant "Léonce et Publius"@fr . 
+<http://syriaca.org/person/1341> swdt:name-variant "LÉONCE DE TRIPOLI"@fr-x-fiey . 
+<http://syriaca.org/person/1341> swdt:name-variant "St Leontius"@en . 
+<http://syriaca.org/person/1341> swdt:name-variant "Leontius of Tripoli"@en . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-1 . 
+swds:Person-1341-1 sps:name-variant "ܠܐܘܢܛܝܘܣ"@syr . 
+swds:Person-1341-1 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-2 . 
+swds:Person-1341-2 sps:name-variant "Leʾōnṭīyōs"@en-x-gedsh . 
+swds:Person-1341-2 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-3 . 
+swds:Person-1341-3 sps:name-variant "ܠܐܘܢܛܝܘܣ ܘܦܘܦܠܝܘܣ"@syr . 
+swds:Person-1341-3 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-4 . 
+swds:Person-1341-4 sps:name-variant "Leontius"@en . 
+swds:Person-1341-4 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-5 . 
+swds:Person-1341-5 sps:name-variant "Leonius and Publius"@en . 
+swds:Person-1341-5 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-6 . 
+swds:Person-1341-6 sps:name-variant "Leontius of Tripoli"@en . 
+swds:Person-1341-6 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-7 . 
+swds:Person-1341-7 sps:name-variant "Lēʾōnṭīyōs"@fr-x-zanetti . 
+swds:Person-1341-7 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-8 . 
+swds:Person-1341-8 sps:name-variant "Léonce"@fr . 
+swds:Person-1341-8 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-9 . 
+swds:Person-1341-9 sps:name-variant "Léonce et Publius"@fr . 
+swds:Person-1341-9 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-10 . 
+swds:Person-1341-10 sps:name-variant "LÉONCE DE TRIPOLI"@fr-x-fiey . 
+swds:Person-1341-10 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-11 . 
+swds:Person-1341-11 sps:name-variant "St Leontius"@en . 
+swds:Person-1341-11 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> sp:name-variant swds:Person-1341-12 . 
+swds:Person-1341-12 sps:name-variant "Leontius of Tripoli"@en . 
+swds:Person-1341-12 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Leontius&sT=keywords" . 
+<http://syriaca.org/person/1341> sp:closeMatch swds:closeMatch-1341-1 . 
+swds:closeMatch-1341-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Leontius&sT=keywords" . 
+swds:closeMatch-1341-1 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Leontius%20of%20Tripoli&sT=keywords" . 
+<http://syriaca.org/person/1341> sp:closeMatch swds:closeMatch-1341-2 . 
+swds:closeMatch-1341-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=L&sK=Leontius%20of%20Tripoli&sT=keywords" . 
+swds:closeMatch-1341-2 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> swdt:death-when "0310"^^xsd:gYear . 
+<http://syriaca.org/person/1341> sp:death-when swds:death-when-1341-1 . 
+swds:death-when-1341-1 sps:death-when "0310"^^xsd:gYear . 
+swds:death-when-1341-1 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/1341> sp:gender swds:gender-1341-1 . 
+swds:gender-1341-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-1341-1 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> swdt:status <http://syriaca.org/taxonomy/martyrs> . 
+<http://syriaca.org/person/1341> sp:status swds:status-1341-1 . 
+swds:status-1341-1 sps:status <http://syriaca.org/taxonomy/martyrs> . 
+swds:status-1341-1 spr:reference-URL <http://syriaca.org/person/1341.tei> . 
+<http://syriaca.org/person/1341> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1341> sp:status swds:status-1341-2 . 
+swds:status-1341-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1341-2 spr:reference-URL <http://syriaca.org/person/1341.tei> .

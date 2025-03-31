@@ -1,0 +1,98 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/89> rdf:type lawd:Person . 
+<http://syriaca.org/person/89> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/89> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/89> rdfs:label "Severus , bishop of Samosata"@en . 
+<http://syriaca.org/person/89> rdfs:label "ܣܘܝܪܝܘܣ ܕܫܡܝܫܛ"@syr . 
+<http://syriaca.org/person/89> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/89> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/89> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/89> foaf:primaryTopicOf <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> foaf:primaryTopicOf <http://syriaca.org/person/89.html> . 
+<http://syriaca.org/person/89> foaf:primaryTopicOf <http://syriaca.org/person/89.ttl> . 
+<http://syriaca.org/person/89> dcterms:hasFormat <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> dcterms:hasFormat <http://syriaca.org/person/89.html> . 
+<http://syriaca.org/person/89> dcterms:hasFormat <http://syriaca.org/person/89.ttl> . 
+<http://syriaca.org/person/89> foaf:relation <http://syriaca.org/place/178> . 
+<http://syriaca.org/person/89> swdt:name-variant "Severus , bishop of Samosata"@en . 
+<http://syriaca.org/person/89> swdt:name-variant "Severus , bishop of Samosata"@en . 
+<http://syriaca.org/person/89> swdt:name-variant "ساويريوس اسقف سيميساط"@ar . 
+<http://syriaca.org/person/89> swdt:name-variant "ܣܘܝܪܝܘܘܣ ܐܦܝܣܩܘܦܐ ܕܫܡܝܫܛ"@syr . 
+<http://syriaca.org/person/89> swdt:name-variant "ܣܶܘܝܪܝܘܘܣ ܐܶܦܝܣܩܘܦܳܐ ܕܫܰܡܝܫܛ"@syr-Syrj . 
+<http://syriaca.org/person/89> swdt:name-variant "ܣܘܝܪܝܘܣ ܕܫܡܝܫܛ"@syr . 
+<http://syriaca.org/person/89> swdt:name-variant "Severus of Samosata"@en-x-gedsh . 
+<http://syriaca.org/person/89> swdt:name-variant "Severus of Samosata"@en . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-1 . 
+swds:Person-89-1 sps:name-variant "Severus , bishop of Samosata"@en . 
+swds:Person-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-2 . 
+swds:Person-89-2 sps:name-variant "Severus , bishop of Samosata"@en . 
+swds:Person-89-2 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-3 . 
+swds:Person-89-3 sps:name-variant "ساويريوس اسقف سيميساط"@ar . 
+swds:Person-89-3 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-4 . 
+swds:Person-89-4 sps:name-variant "ܣܘܝܪܝܘܘܣ ܐܦܝܣܩܘܦܐ ܕܫܡܝܫܛ"@syr . 
+swds:Person-89-4 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-5 . 
+swds:Person-89-5 sps:name-variant "ܣܶܘܝܪܝܘܘܣ ܐܶܦܝܣܩܘܦܳܐ ܕܫܰܡܝܫܛ"@syr-Syrj . 
+swds:Person-89-5 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-6 . 
+swds:Person-89-6 sps:name-variant "ܣܘܝܪܝܘܣ ܕܫܡܝܫܛ"@syr . 
+swds:Person-89-6 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-7 . 
+swds:Person-89-7 sps:name-variant "Severus of Samosata"@en-x-gedsh . 
+swds:Person-89-7 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> sp:name-variant swds:Person-89-8 . 
+swds:Person-89-8 sps:name-variant "Severus of Samosata"@en . 
+swds:Person-89-8 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_89" . 
+<http://syriaca.org/person/89> sp:closeMatch swds:closeMatch-89-1 . 
+swds:closeMatch-89-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_89" . 
+swds:closeMatch-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> swdt:death-notBefore "0630"^^xsd:gYear . 
+<http://syriaca.org/person/89> sp:death-notBefore swds:death-notBefore-89-1 . 
+swds:death-notBefore-89-1 sps:death-notBefore "0630"^^xsd:gYear . 
+swds:death-notBefore-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> swdt:death-notAfter "0643"^^xsd:gYear . 
+<http://syriaca.org/person/89> sp:death-notAfter swds:death-notAfter-89-1 . 
+swds:death-notAfter-89-1 sps:death-notAfter "0643"^^xsd:gYear . 
+swds:death-notAfter-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> swdt:birth-place <http://syriaca.org/place/178> . 
+<http://syriaca.org/person/89> sp:birth-place swds:birth-place-89-1 . 
+swds:birth-place-89-1 sps:birth-place <http://syriaca.org/place/178> . 
+swds:birth-place-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/89> sp:occupation swds:occupation-89-1 . 
+swds:occupation-89-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> . 
+<http://syriaca.org/person/89> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/89> sp:status swds:status-89-1 . 
+swds:status-89-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-89-1 spr:reference-URL <http://syriaca.org/person/89.tei> .

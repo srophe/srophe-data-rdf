@@ -1,0 +1,163 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/85> rdf:type lawd:Person . 
+<http://syriaca.org/person/85> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/85> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/85> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/85> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/85> rdfs:label "ܩܘܪܝܐܩܘܣ ܕܐܡܝܕ"@syr . 
+<http://syriaca.org/person/85> rdfs:label "Cyriacus of Amida"@en . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/HRGBNBT5> . 
+<http://syriaca.org/person/85> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/85> foaf:primaryTopicOf <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> foaf:primaryTopicOf <http://syriaca.org/person/85.html> . 
+<http://syriaca.org/person/85> foaf:primaryTopicOf <http://syriaca.org/person/85.ttl> . 
+<http://syriaca.org/person/85> dcterms:hasFormat <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> dcterms:hasFormat <http://syriaca.org/person/85.html> . 
+<http://syriaca.org/person/85> dcterms:hasFormat <http://syriaca.org/person/85.ttl> . 
+<http://syriaca.org/person/85> schema:description "In hagiography: Cyriacus was bishop of Amida and came from the monastery of Mar Zakka near Edessa . His church was seized by the Chalcedonians, but he restored his churches under Khusro II. He was the author of 30 ecclesiastical canons."@en . 
+<http://syriaca.org/person/85> foaf:relation <http://syriaca.org/person/70> . 
+<http://syriaca.org/person/85> foaf:relation <http://syriaca.org/person/135> . 
+<http://syriaca.org/person/85> foaf:relation <http://syriaca.org/person/145> . 
+<http://syriaca.org/person/85> foaf:relation <http://syriaca.org/person/899> . 
+<http://syriaca.org/person/85> foaf:relation <http://syriaca.org/place/8> . 
+<http://syriaca.org/person/85> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/85> swdt:name-variant "Quryaqos , metropolitan of Amid"@en . 
+<http://syriaca.org/person/85> swdt:name-variant "قرياقس مطران آمد"@ar . 
+<http://syriaca.org/person/85> swdt:name-variant "ܩܘܪܝܐܩܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܡܝܕ"@syr . 
+<http://syriaca.org/person/85> swdt:name-variant "ܩܘܪܝܰܐܩܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܳܡܝܕ"@syr-Syrj . 
+<http://syriaca.org/person/85> swdt:name-variant "ܩܘܪܝܐܩܘܣ ܕܐܡܝܕ"@syr . 
+<http://syriaca.org/person/85> swdt:name-variant "Quryaqos of Amid"@en-x-gedsh . 
+<http://syriaca.org/person/85> swdt:name-variant "Qyriaqos of Amid"@en . 
+<http://syriaca.org/person/85> swdt:name-variant "Cyriaque d’Amid"@fr . 
+<http://syriaca.org/person/85> swdt:name-variant "Cyriacus of Amida"@en . 
+<http://syriaca.org/person/85> swdt:name-variant "Cyriaque de Mardé"@fr . 
+<http://syriaca.org/person/85> swdt:name-variant "CYRIAQUE"@fr-x-fiey . 
+<http://syriaca.org/person/85> swdt:name-variant "Kyriakos of Amida"@en . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-1 . 
+swds:Person-85-1 sps:name-variant "Quryaqos , metropolitan of Amid"@en . 
+swds:Person-85-1 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-2 . 
+swds:Person-85-2 sps:name-variant "قرياقس مطران آمد"@ar . 
+swds:Person-85-2 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-3 . 
+swds:Person-85-3 sps:name-variant "ܩܘܪܝܐܩܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܡܝܕ"@syr . 
+swds:Person-85-3 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-4 . 
+swds:Person-85-4 sps:name-variant "ܩܘܪܝܰܐܩܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܐܳܡܝܕ"@syr-Syrj . 
+swds:Person-85-4 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-5 . 
+swds:Person-85-5 sps:name-variant "ܩܘܪܝܐܩܘܣ ܕܐܡܝܕ"@syr . 
+swds:Person-85-5 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-6 . 
+swds:Person-85-6 sps:name-variant "Quryaqos of Amid"@en-x-gedsh . 
+swds:Person-85-6 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-7 . 
+swds:Person-85-7 sps:name-variant "Qyriaqos of Amid"@en . 
+swds:Person-85-7 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-8 . 
+swds:Person-85-8 sps:name-variant "Cyriaque d’Amid"@fr . 
+swds:Person-85-8 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-9 . 
+swds:Person-85-9 sps:name-variant "Cyriacus of Amida"@en . 
+swds:Person-85-9 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-10 . 
+swds:Person-85-10 sps:name-variant "Cyriaque de Mardé"@fr . 
+swds:Person-85-10 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-11 . 
+swds:Person-85-11 sps:name-variant "CYRIAQUE"@fr-x-fiey . 
+swds:Person-85-11 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> sp:name-variant swds:Person-85-12 . 
+swds:Person-85-12 sps:name-variant "Kyriakos of Amida"@en . 
+swds:Person-85-12 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_85" . 
+<http://syriaca.org/person/85> sp:closeMatch swds:closeMatch-85-1 . 
+swds:closeMatch-85-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_85" . 
+swds:closeMatch-85-1 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qyriaqos of Amid&sT=keywords" . 
+<http://syriaca.org/person/85> sp:closeMatch swds:closeMatch-85-2 . 
+swds:closeMatch-85-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qyriaqos of Amid&sT=keywords" . 
+swds:closeMatch-85-2 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:death-when "0623"^^xsd:gYear . 
+<http://syriaca.org/person/85> sp:death-when swds:death-when-85-1 . 
+swds:death-when-85-1 sps:death-when "0623"^^xsd:gYear . 
+swds:death-when-85-1 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/85> sp:gender swds:gender-85-1 . 
+swds:gender-85-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-85-1 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+<http://syriaca.org/person/85> sp:occupation swds:occupation-85-1 . 
+swds:occupation-85-1 sps:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+swds:occupation-85-1 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/85> sp:status swds:status-85-1 . 
+swds:status-85-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-85-1 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/85> sp:status swds:status-85-2 . 
+swds:status-85-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-85-2 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:not-to-be-confused-with <http://syriaca.org/person/70> . 
+<http://syriaca.org/person/85> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-11 . 
+swds:activeRelationnot-to-be-confused-with-85-11 swd:not-to-be-confused-with <http://syriaca.org/person/70> . 
+swds:activeRelationnot-to-be-confused-with-85-11 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/70> swdt:not-to-be-confused-with <http://syriaca.org/person/85> . 
+<http://syriaca.org/person/70> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-12 . 
+swds:activeRelationnot-to-be-confused-with-85-12 swd:not-to-be-confused-with <http://syriaca.org/person/85> . 
+swds:activeRelationnot-to-be-confused-with-85-12 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:not-to-be-confused-with <http://syriaca.org/person/135> . 
+<http://syriaca.org/person/85> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-21 . 
+swds:activeRelationnot-to-be-confused-with-85-21 swd:not-to-be-confused-with <http://syriaca.org/person/135> . 
+swds:activeRelationnot-to-be-confused-with-85-21 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/135> swdt:not-to-be-confused-with <http://syriaca.org/person/85> . 
+<http://syriaca.org/person/135> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-22 . 
+swds:activeRelationnot-to-be-confused-with-85-22 swd:not-to-be-confused-with <http://syriaca.org/person/85> . 
+swds:activeRelationnot-to-be-confused-with-85-22 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:not-to-be-confused-with <http://syriaca.org/person/145> . 
+<http://syriaca.org/person/85> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-31 . 
+swds:activeRelationnot-to-be-confused-with-85-31 swd:not-to-be-confused-with <http://syriaca.org/person/145> . 
+swds:activeRelationnot-to-be-confused-with-85-31 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/145> swdt:not-to-be-confused-with <http://syriaca.org/person/85> . 
+<http://syriaca.org/person/145> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-32 . 
+swds:activeRelationnot-to-be-confused-with-85-32 swd:not-to-be-confused-with <http://syriaca.org/person/85> . 
+swds:activeRelationnot-to-be-confused-with-85-32 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/85> swdt:not-to-be-confused-with <http://syriaca.org/person/899> . 
+<http://syriaca.org/person/85> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-41 . 
+swds:activeRelationnot-to-be-confused-with-85-41 swd:not-to-be-confused-with <http://syriaca.org/person/899> . 
+swds:activeRelationnot-to-be-confused-with-85-41 spr:reference-URL <http://syriaca.org/person/85.tei> . 
+<http://syriaca.org/person/899> swdt:not-to-be-confused-with <http://syriaca.org/person/85> . 
+<http://syriaca.org/person/899> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-85-42 . 
+swds:activeRelationnot-to-be-confused-with-85-42 swd:not-to-be-confused-with <http://syriaca.org/person/85> . 
+swds:activeRelationnot-to-be-confused-with-85-42 spr:reference-URL <http://syriaca.org/person/85.tei> .

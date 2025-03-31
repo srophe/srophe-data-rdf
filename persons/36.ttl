@@ -1,0 +1,126 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/36> rdf:type lawd:Person . 
+<http://syriaca.org/person/36> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/36> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/36> rdfs:label "Stephen Bar Sudayli"@en . 
+<http://syriaca.org/person/36> rdfs:label "ܐܣܛܦܐܢ ܒܪ ܨܘܕܐܝ̈ܠܐ"@syr . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/SDTTD8LJ> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/44LCEYCS> . 
+<http://syriaca.org/person/36> lawd:hasCitation <http://syriaca.org/cbss/B5GPIGPS> . 
+<http://syriaca.org/person/36> foaf:primaryTopicOf <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> foaf:primaryTopicOf <http://syriaca.org/person/36.html> . 
+<http://syriaca.org/person/36> foaf:primaryTopicOf <http://syriaca.org/person/36.ttl> . 
+<http://syriaca.org/person/36> dcterms:hasFormat <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> dcterms:hasFormat <http://syriaca.org/person/36.html> . 
+<http://syriaca.org/person/36> dcterms:hasFormat <http://syriaca.org/person/36.ttl> . 
+<http://syriaca.org/person/36> schema:description "Monk in the early 6th cent. to whom pantheist ideas were attributed; likely author of the ‘Book of the holy Hierotheos’."@en . 
+<http://syriaca.org/person/36> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/36> swdt:name-variant "Stephen Bar Sudayli"@en . 
+<http://syriaca.org/person/36> swdt:name-variant "Sṭephanos bar Ṣudayli"@en-x-gedsh . 
+<http://syriaca.org/person/36> swdt:name-variant "Stephen Bar Sudayli"@en . 
+<http://syriaca.org/person/36> swdt:name-variant "اصطيفان ابن صوديلي"@ar . 
+<http://syriaca.org/person/36> swdt:name-variant "ܐܣܛܦܐܢ ܒܪ ܨܘܕܐܝ̈ܠܐ"@syr . 
+<http://syriaca.org/person/36> swdt:name-variant "ܐܶܣܛܶܦܰܐܢ ܒܰܪ ܨܘܕܰܐܝ̈ܠܐ"@syr-Syrj . 
+<http://syriaca.org/person/36> swdt:name-variant "Stephen bar Ṣudayli"@en . 
+<http://syriaca.org/person/36> swdt:name-variant "Stephen bar Sudaile"@en . 
+<http://syriaca.org/person/36> swdt:name-variant "Stephen bar Sudhaili"@en . 
+<http://syriaca.org/person/36> swdt:name-variant "Stephanus bar Sudaile"@la . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-1 . 
+swds:Person-36-1 sps:name-variant "Stephen Bar Sudayli"@en . 
+swds:Person-36-1 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-2 . 
+swds:Person-36-2 sps:name-variant "Sṭephanos bar Ṣudayli"@en-x-gedsh . 
+swds:Person-36-2 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-3 . 
+swds:Person-36-3 sps:name-variant "Stephen Bar Sudayli"@en . 
+swds:Person-36-3 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-4 . 
+swds:Person-36-4 sps:name-variant "اصطيفان ابن صوديلي"@ar . 
+swds:Person-36-4 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-5 . 
+swds:Person-36-5 sps:name-variant "ܐܣܛܦܐܢ ܒܪ ܨܘܕܐܝ̈ܠܐ"@syr . 
+swds:Person-36-5 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-6 . 
+swds:Person-36-6 sps:name-variant "ܐܶܣܛܶܦܰܐܢ ܒܰܪ ܨܘܕܰܐܝ̈ܠܐ"@syr-Syrj . 
+swds:Person-36-6 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-7 . 
+swds:Person-36-7 sps:name-variant "Stephen bar Ṣudayli"@en . 
+swds:Person-36-7 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-8 . 
+swds:Person-36-8 sps:name-variant "Stephen bar Sudaile"@en . 
+swds:Person-36-8 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-9 . 
+swds:Person-36-9 sps:name-variant "Stephen bar Sudhaili"@en . 
+swds:Person-36-9 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> sp:name-variant swds:Person-36-10 . 
+swds:Person-36-10 sps:name-variant "Stephanus bar Sudaile"@la . 
+swds:Person-36-10 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_36" . 
+<http://syriaca.org/person/36> sp:closeMatch swds:closeMatch-36-1 . 
+swds:closeMatch-36-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_36" . 
+swds:closeMatch-36-1 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:closeMatch "http://www.viaf.net/viaf/20614507" . 
+<http://syriaca.org/person/36> sp:closeMatch swds:closeMatch-36-2 . 
+swds:closeMatch-36-2 sps:closeMatch "http://www.viaf.net/viaf/20614507" . 
+swds:closeMatch-36-2 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:closeMatch "http://www.viaf.net/viaf/22121783" . 
+<http://syriaca.org/person/36> sp:closeMatch swds:closeMatch-36-3 . 
+swds:closeMatch-36-3 sps:closeMatch "http://www.viaf.net/viaf/22121783" . 
+swds:closeMatch-36-3 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:closeMatch "http://www.viaf.net/viaf/37230713" . 
+<http://syriaca.org/person/36> sp:closeMatch swds:closeMatch-36-4 . 
+swds:closeMatch-36-4 sps:closeMatch "http://www.viaf.net/viaf/37230713" . 
+swds:closeMatch-36-4 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Stephen bar Sudaile&sT=keywords" . 
+<http://syriaca.org/person/36> sp:closeMatch swds:closeMatch-36-5 . 
+swds:closeMatch-36-5 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Stephen bar Sudaile&sT=keywords" . 
+swds:closeMatch-36-5 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:floruit-notBefore "0500"^^xsd:gYear . 
+<http://syriaca.org/person/36> sp:floruit-notBefore swds:floruit-notBefore-36-1 . 
+swds:floruit-notBefore-36-1 sps:floruit-notBefore "0500"^^xsd:gYear . 
+swds:floruit-notBefore-36-1 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:floruit-notAfter "0600"^^xsd:gYear . 
+<http://syriaca.org/person/36> sp:floruit-notAfter swds:floruit-notAfter-36-1 . 
+swds:floruit-notAfter-36-1 sps:floruit-notAfter "0600"^^xsd:gYear . 
+swds:floruit-notAfter-36-1 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:birth-place <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/36> sp:birth-place swds:birth-place-36-1 . 
+swds:birth-place-36-1 sps:birth-place <http://syriaca.org/place/78> . 
+swds:birth-place-36-1 spr:reference-URL <http://syriaca.org/person/36.tei> . 
+<http://syriaca.org/person/36> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/36> sp:status swds:status-36-1 . 
+swds:status-36-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-36-1 spr:reference-URL <http://syriaca.org/person/36.tei> .

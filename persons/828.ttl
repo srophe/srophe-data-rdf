@@ -1,0 +1,88 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/828> rdf:type lawd:Person . 
+<http://syriaca.org/person/828> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/828> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/828> rdfs:label "John of Mosul"@en . 
+<http://syriaca.org/person/828> rdfs:label "ܝܘܚܢܢ ܡܘܨܠܝܐ"@syr . 
+<http://syriaca.org/person/828> lawd:hasCitation <http://syriaca.org/cbss/GEH2M2ME> . 
+<http://syriaca.org/person/828> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/828> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/828> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/828> foaf:primaryTopicOf <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> foaf:primaryTopicOf <http://syriaca.org/person/828.html> . 
+<http://syriaca.org/person/828> foaf:primaryTopicOf <http://syriaca.org/person/828.ttl> . 
+<http://syriaca.org/person/828> dcterms:hasFormat <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> dcterms:hasFormat <http://syriaca.org/person/828.html> . 
+<http://syriaca.org/person/828> dcterms:hasFormat <http://syriaca.org/person/828.ttl> . 
+<http://syriaca.org/person/828> schema:description "Monk of the Monastery of Mar Michael ‘Companion of the Angels’, Mosul ."@en . 
+<http://syriaca.org/person/828> foaf:relation <http://syriaca.org/place/139> . 
+<http://syriaca.org/person/828> swdt:name-variant "John of Mosul"@en . 
+<http://syriaca.org/person/828> swdt:name-variant "Yoḥannan of Mosul"@en-x-gedsh . 
+<http://syriaca.org/person/828> swdt:name-variant "ܝܘܚܢܢ ܡܘܨܠܝܐ"@syr . 
+<http://syriaca.org/person/828> swdt:name-variant "John of Mosul"@en . 
+<http://syriaca.org/person/828> swdt:name-variant "John of Mosul"@en . 
+<http://syriaca.org/person/828> sp:name-variant swds:Person-828-1 . 
+swds:Person-828-1 sps:name-variant "John of Mosul"@en . 
+swds:Person-828-1 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> sp:name-variant swds:Person-828-2 . 
+swds:Person-828-2 sps:name-variant "Yoḥannan of Mosul"@en-x-gedsh . 
+swds:Person-828-2 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> sp:name-variant swds:Person-828-3 . 
+swds:Person-828-3 sps:name-variant "ܝܘܚܢܢ ܡܘܨܠܝܐ"@syr . 
+swds:Person-828-3 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> sp:name-variant swds:Person-828-4 . 
+swds:Person-828-4 sps:name-variant "John of Mosul"@en . 
+swds:Person-828-4 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> sp:name-variant swds:Person-828-5 . 
+swds:Person-828-5 sps:name-variant "John of Mosul"@en . 
+swds:Person-828-5 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_828" . 
+<http://syriaca.org/person/828> sp:closeMatch swds:closeMatch-828-1 . 
+swds:closeMatch-828-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_828" . 
+swds:closeMatch-828-1 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> swdt:closeMatch "http://viaf.org/viaf/35026342" . 
+<http://syriaca.org/person/828> sp:closeMatch swds:closeMatch-828-2 . 
+swds:closeMatch-828-2 sps:closeMatch "http://viaf.org/viaf/35026342" . 
+swds:closeMatch-828-2 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Mosul&sT=keywords" . 
+<http://syriaca.org/person/828> sp:closeMatch swds:closeMatch-828-3 . 
+swds:closeMatch-828-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John of Mosul&sT=keywords" . 
+swds:closeMatch-828-3 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> swdt:death-notBefore "1255"^^xsd:gYear . 
+<http://syriaca.org/person/828> sp:death-notBefore swds:death-notBefore-828-1 . 
+swds:death-notBefore-828-1 sps:death-notBefore "1255"^^xsd:gYear . 
+swds:death-notBefore-828-1 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> swdt:death-notAfter "1285"^^xsd:gYear . 
+<http://syriaca.org/person/828> sp:death-notAfter swds:death-notAfter-828-1 . 
+swds:death-notAfter-828-1 sps:death-notAfter "1285"^^xsd:gYear . 
+swds:death-notAfter-828-1 spr:reference-URL <http://syriaca.org/person/828.tei> . 
+<http://syriaca.org/person/828> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/828> sp:status swds:status-828-1 . 
+swds:status-828-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-828-1 spr:reference-URL <http://syriaca.org/person/828.tei> .

@@ -1,0 +1,133 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/236> rdf:type lawd:Person . 
+<http://syriaca.org/person/236> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/236> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/236> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/236> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/236> rdfs:label "ܝܘܚܢܢ ܒܪ ܡܥܕܢܝ"@syr . 
+<http://syriaca.org/person/236> rdfs:label "John bar Maʿdani"@en . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/AI3VIBTQ> . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/236> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/236> foaf:primaryTopicOf <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> foaf:primaryTopicOf <http://syriaca.org/person/236.html> . 
+<http://syriaca.org/person/236> foaf:primaryTopicOf <http://syriaca.org/person/236.ttl> . 
+<http://syriaca.org/person/236> dcterms:hasFormat <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> dcterms:hasFormat <http://syriaca.org/person/236.html> . 
+<http://syriaca.org/person/236> dcterms:hasFormat <http://syriaca.org/person/236.ttl> . 
+<http://syriaca.org/person/236> schema:description "Aaron bar Maʿdani received the name of Yuḥanon when he became Metropolitan of Mardin around the year 1230."@en . 
+<http://syriaca.org/person/236> foaf:relation <http://syriaca.org/place/345> . 
+<http://syriaca.org/person/236> swdt:name-variant "Yuḥanon bar Maʿdani"@en-x-gedsh . 
+<http://syriaca.org/person/236> swdt:name-variant "Patriarch John Bar Ma‛dani"@en . 
+<http://syriaca.org/person/236> swdt:name-variant "البطريرك يوحنا ابن المعدني"@ar . 
+<http://syriaca.org/person/236> swdt:name-variant "ܦܛܪܝܪܟܐ ܝܘܚܢܢ ܒܪ ܡܥܕܢܝ"@syr . 
+<http://syriaca.org/person/236> swdt:name-variant "ܦܰܛܪܝܰܪܟܐ ܝܘܚܰܢܢ ܒܰܪ ܡܰܥܕܰܢܝ"@syr-Syrj . 
+<http://syriaca.org/person/236> swdt:name-variant "ܝܘܚܢܢ ܒܪ ܡܥܕܢܝ"@syr . 
+<http://syriaca.org/person/236> swdt:name-variant "John bar Maʿdani"@en . 
+<http://syriaca.org/person/236> swdt:name-variant "John bar Madani"@en . 
+<http://syriaca.org/person/236> swdt:name-variant "Yuḥanon bar Madani"@en-x-srp1 . 
+<http://syriaca.org/person/236> swdt:name-variant "Yuḥanon bar Ma‘dani"@en-x-srp1 . 
+<http://syriaca.org/person/236> swdt:name-variant "John bar Madani"@en-x-srp1 . 
+<http://syriaca.org/person/236> swdt:name-variant "John bar Ma‘dani"@en-x-srp1 . 
+<http://syriaca.org/person/236> swdt:name-variant "John bar Maʿdani"@en . 
+<http://syriaca.org/person/236> swdt:name-variant "John"@en . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-1 . 
+swds:Person-236-1 sps:name-variant "Yuḥanon bar Maʿdani"@en-x-gedsh . 
+swds:Person-236-1 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-2 . 
+swds:Person-236-2 sps:name-variant "Patriarch John Bar Ma‛dani"@en . 
+swds:Person-236-2 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-3 . 
+swds:Person-236-3 sps:name-variant "البطريرك يوحنا ابن المعدني"@ar . 
+swds:Person-236-3 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-4 . 
+swds:Person-236-4 sps:name-variant "ܦܛܪܝܪܟܐ ܝܘܚܢܢ ܒܪ ܡܥܕܢܝ"@syr . 
+swds:Person-236-4 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-5 . 
+swds:Person-236-5 sps:name-variant "ܦܰܛܪܝܰܪܟܐ ܝܘܚܰܢܢ ܒܰܪ ܡܰܥܕܰܢܝ"@syr-Syrj . 
+swds:Person-236-5 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-6 . 
+swds:Person-236-6 sps:name-variant "ܝܘܚܢܢ ܒܪ ܡܥܕܢܝ"@syr . 
+swds:Person-236-6 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-7 . 
+swds:Person-236-7 sps:name-variant "John bar Maʿdani"@en . 
+swds:Person-236-7 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-8 . 
+swds:Person-236-8 sps:name-variant "John bar Madani"@en . 
+swds:Person-236-8 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-9 . 
+swds:Person-236-9 sps:name-variant "Yuḥanon bar Madani"@en-x-srp1 . 
+swds:Person-236-9 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-10 . 
+swds:Person-236-10 sps:name-variant "Yuḥanon bar Ma‘dani"@en-x-srp1 . 
+swds:Person-236-10 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-11 . 
+swds:Person-236-11 sps:name-variant "John bar Madani"@en-x-srp1 . 
+swds:Person-236-11 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-12 . 
+swds:Person-236-12 sps:name-variant "John bar Ma‘dani"@en-x-srp1 . 
+swds:Person-236-12 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-13 . 
+swds:Person-236-13 sps:name-variant "John bar Maʿdani"@en . 
+swds:Person-236-13 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> sp:name-variant swds:Person-236-14 . 
+swds:Person-236-14 sps:name-variant "John"@en . 
+swds:Person-236-14 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_236" . 
+<http://syriaca.org/person/236> sp:closeMatch swds:closeMatch-236-1 . 
+swds:closeMatch-236-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_236" . 
+swds:closeMatch-236-1 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John bar Madani&sT=keywords" . 
+<http://syriaca.org/person/236> sp:closeMatch swds:closeMatch-236-2 . 
+swds:closeMatch-236-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John bar Madani&sT=keywords" . 
+swds:closeMatch-236-2 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:death-when "1263"^^xsd:gYear . 
+<http://syriaca.org/person/236> sp:death-when swds:death-when-236-1 . 
+swds:death-when-236-1 sps:death-when "1263"^^xsd:gYear . 
+swds:death-when-236-1 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:death-place <http://syriaca.org/place/345> . 
+<http://syriaca.org/person/236> sp:death-place swds:death-place-236-1 . 
+swds:death-place-236-1 sps:death-place <http://syriaca.org/place/345> . 
+swds:death-place-236-1 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/236> sp:occupation swds:occupation-236-1 . 
+swds:occupation-236-1 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-236-1 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/236> sp:status swds:status-236-1 . 
+swds:status-236-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-236-1 spr:reference-URL <http://syriaca.org/person/236.tei> . 
+<http://syriaca.org/person/236> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/236> sp:status swds:status-236-2 . 
+swds:status-236-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-236-2 spr:reference-URL <http://syriaca.org/person/236.tei> .

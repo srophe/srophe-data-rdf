@@ -1,0 +1,67 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/595> rdf:type lawd:Place . 
+<http://syriaca.org/place/595> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/595> rdfs:label "Jabal al-Durūz"@en . 
+<http://syriaca.org/place/595> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/place/595> lawd:hasCitation <http://syriaca.org/cbss/NAA6P8IX> . 
+<http://syriaca.org/place/595> foaf:primaryTopicOf <http://syriaca.org/place/595.tei> . 
+<http://syriaca.org/place/595> foaf:primaryTopicOf <http://syriaca.org/place/595.html> . 
+<http://syriaca.org/place/595> foaf:primaryTopicOf <http://syriaca.org/place/595.ttl> . 
+<http://syriaca.org/place/595> dcterms:hasFormat <http://syriaca.org/place/595.tei> . 
+<http://syriaca.org/place/595> dcterms:hasFormat <http://syriaca.org/place/595.html> . 
+<http://syriaca.org/place/595> dcterms:hasFormat <http://syriaca.org/place/595.ttl> . 
+<http://syriaca.org/place/595> schema:description "A mountain in Syria ."@en . 
+<http://syriaca.org/place/595> swdt:place-type <http://syriaca.org/taxonomy/mountains> . 
+<http://syriaca.org/place/595> sp:place-type swds:place-type-595-1 . 
+swds:place-type-595-1 sps:place-type <http://syriaca.org/taxonomy/mountains> . 
+swds:place-type-595-1 spr:reference-URL <http://syriaca.org/place/595> . 
+<http://syriaca.org/place/595> dcterms:relation <http://syriaca.org/place/486> . 
+<http://syriaca.org/place/595> swdt:name-variant "Jabal al-Durūz"@en . 
+<http://syriaca.org/place/595> swdt:name-variant "Jebel Druze"@en . 
+<http://syriaca.org/place/595> sp:name-variant swds:Place-595-1 . 
+swds:Place-595-1 sps:name-variant "Jabal al-Durūz"@en . 
+swds:Place-595-1 spr:reference-URL <http://syriaca.org/place/595> . 
+<http://syriaca.org/place/595> sp:name-variant swds:Place-595-2 . 
+swds:Place-595-2 sps:name-variant "Jebel Druze"@en . 
+swds:Place-595-2 spr:reference-URL <http://syriaca.org/place/595> . 
+<http://syriaca.org/place/595> swdt:closeMatch "http://pleiades.stoa.org/places/678042" . 
+<http://syriaca.org/place/595> sp:closeMatch swds:closeMatch-595-1 . 
+swds:closeMatch-595-1 sps:closeMatch "http://pleiades.stoa.org/places/678042" . 
+swds:closeMatch-595-1 spr:reference-URL <http://syriaca.org/place/595> . 
+<http://syriaca.org/place/595> swdt:closeMatch "http://en.wikipedia.org/wiki/Jabal_al-Druze" . 
+<http://syriaca.org/place/595> sp:closeMatch swds:closeMatch-595-2 . 
+swds:closeMatch-595-2 sps:closeMatch "http://en.wikipedia.org/wiki/Jabal_al-Druze" . 
+swds:closeMatch-595-2 spr:reference-URL <http://syriaca.org/place/595> . 
+<http://syriaca.org/place/595> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jebel Druze&sT=keywords" . 
+<http://syriaca.org/place/595> sp:closeMatch swds:closeMatch-595-3 . 
+swds:closeMatch-595-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=Jebel Druze&sT=keywords" . 
+swds:closeMatch-595-3 spr:reference-URL <http://syriaca.org/place/595> . 
+<http://syriaca.org/place/595> swdt:has-gps-coordinates "32.75 36.75" . 
+<http://syriaca.org/place/595> sp:has-gps-coordinates "32.75 36.75" . 
+swds:coordinates-595-1 spr:reference-URL <http://syriaca.org/place/595.tei> .

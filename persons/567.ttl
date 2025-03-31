@@ -1,0 +1,87 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/567> rdf:type lawd:Person . 
+<http://syriaca.org/person/567> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/567> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/567> rdfs:label "ܝܘܚܢܢ ܫܐܗܝܢ ܐܡܝܕܝܐ"@syr . 
+<http://syriaca.org/person/567> rdfs:label "John Shahin of Amida"@en . 
+<http://syriaca.org/person/567> lawd:hasCitation <http://syriaca.org/cbss/RM94SMXI> . 
+<http://syriaca.org/person/567> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/567> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/567> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/567> foaf:primaryTopicOf <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> foaf:primaryTopicOf <http://syriaca.org/person/567.html> . 
+<http://syriaca.org/person/567> foaf:primaryTopicOf <http://syriaca.org/person/567.ttl> . 
+<http://syriaca.org/person/567> dcterms:hasFormat <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> dcterms:hasFormat <http://syriaca.org/person/567.html> . 
+<http://syriaca.org/person/567> dcterms:hasFormat <http://syriaca.org/person/567.ttl> . 
+<http://syriaca.org/person/567> schema:description "Scribe and bp. for various dioceses. He was born Yuḥanon b. Shahīn b. Shamo of Amid, also nicknamed b. al-ʿAraqjanji 'son of the maker of ʿarraqiyya (a small cap worn under a turban to absorb sweat)'."@en . 
+<http://syriaca.org/person/567> swdt:name-variant "Iwannis Yuḥanon"@en-x-gedsh . 
+<http://syriaca.org/person/567> swdt:name-variant "Metropolitan John Shahin of Amid"@en . 
+<http://syriaca.org/person/567> swdt:name-variant "المطران يوحنا شاهين الآمدي"@ar . 
+<http://syriaca.org/person/567> swdt:name-variant "ܡܛܪܘܦܘܠܝܛܐ ܝܘܚܢܢ ܫܐܗܝܢ ܐܡܝܕܝܐ"@syr . 
+<http://syriaca.org/person/567> swdt:name-variant "ܡܶܛܪܘܦܘܠܝܛܳܐ ܝܘܚܰܢܢ ܫܰܐܗܝܢ ܐܡܝܕܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/567> swdt:name-variant "ܝܘܚܢܢ ܫܐܗܝܢ ܐܡܝܕܝܐ"@syr . 
+<http://syriaca.org/person/567> swdt:name-variant "John Shahin of Amida"@en . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-1 . 
+swds:Person-567-1 sps:name-variant "Iwannis Yuḥanon"@en-x-gedsh . 
+swds:Person-567-1 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-2 . 
+swds:Person-567-2 sps:name-variant "Metropolitan John Shahin of Amid"@en . 
+swds:Person-567-2 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-3 . 
+swds:Person-567-3 sps:name-variant "المطران يوحنا شاهين الآمدي"@ar . 
+swds:Person-567-3 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-4 . 
+swds:Person-567-4 sps:name-variant "ܡܛܪܘܦܘܠܝܛܐ ܝܘܚܢܢ ܫܐܗܝܢ ܐܡܝܕܝܐ"@syr . 
+swds:Person-567-4 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-5 . 
+swds:Person-567-5 sps:name-variant "ܡܶܛܪܘܦܘܠܝܛܳܐ ܝܘܚܰܢܢ ܫܰܐܗܝܢ ܐܡܝܕܳܝܳܐ"@syr-Syrj . 
+swds:Person-567-5 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-6 . 
+swds:Person-567-6 sps:name-variant "ܝܘܚܢܢ ܫܐܗܝܢ ܐܡܝܕܝܐ"@syr . 
+swds:Person-567-6 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> sp:name-variant swds:Person-567-7 . 
+swds:Person-567-7 sps:name-variant "John Shahin of Amida"@en . 
+swds:Person-567-7 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_567" . 
+<http://syriaca.org/person/567> sp:closeMatch swds:closeMatch-567-1 . 
+swds:closeMatch-567-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_567" . 
+swds:closeMatch-567-1 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> swdt:death-when "1755"^^xsd:gYear . 
+<http://syriaca.org/person/567> sp:death-when swds:death-when-567-1 . 
+swds:death-when-567-1 sps:death-when "1755"^^xsd:gYear . 
+swds:death-when-567-1 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> swdt:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+<http://syriaca.org/person/567> sp:occupation swds:occupation-567-1 . 
+swds:occupation-567-1 sps:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+swds:occupation-567-1 spr:reference-URL <http://syriaca.org/person/567.tei> . 
+<http://syriaca.org/person/567> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/567> sp:status swds:status-567-1 . 
+swds:status-567-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-567-1 spr:reference-URL <http://syriaca.org/person/567.tei> .

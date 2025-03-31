@@ -1,0 +1,90 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/822> rdf:type lawd:Person . 
+<http://syriaca.org/person/822> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/822> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/822> rdfs:label "ܝܘܚܢܢ ܒܪ ܣܪܦܝܘܢ"@syr . 
+<http://syriaca.org/person/822> rdfs:label "John bar Sarapion"@en . 
+<http://syriaca.org/person/822> lawd:hasCitation <http://syriaca.org/cbss/DJ3Z3J7K> . 
+<http://syriaca.org/person/822> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/822> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/822> foaf:primaryTopicOf <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> foaf:primaryTopicOf <http://syriaca.org/person/822.html> . 
+<http://syriaca.org/person/822> foaf:primaryTopicOf <http://syriaca.org/person/822.ttl> . 
+<http://syriaca.org/person/822> dcterms:hasFormat <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> dcterms:hasFormat <http://syriaca.org/person/822.html> . 
+<http://syriaca.org/person/822> dcterms:hasFormat <http://syriaca.org/person/822.ttl> . 
+<http://syriaca.org/person/822> schema:description "Medical writer of the late 9th (or less likely, late 8th) cent."@en . 
+<http://syriaca.org/person/822> swdt:name-variant "Yoḥannan bar Sarapion"@en-x-gedsh . 
+<http://syriaca.org/person/822> swdt:name-variant "ܝܘܚܢܢ ܒܪ ܣܪܦܝܘܢ"@syr . 
+<http://syriaca.org/person/822> swdt:name-variant "John bar Sarapion"@en . 
+<http://syriaca.org/person/822> swdt:name-variant "Yuhanna ibn Sarabiyun"@en . 
+<http://syriaca.org/person/822> swdt:name-variant "Yūḥannā b. Sarābiyūn"@en . 
+<http://syriaca.org/person/822> swdt:name-variant "John bar Serapion"@en . 
+<http://syriaca.org/person/822> sp:name-variant swds:Person-822-1 . 
+swds:Person-822-1 sps:name-variant "Yoḥannan bar Sarapion"@en-x-gedsh . 
+swds:Person-822-1 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> sp:name-variant swds:Person-822-2 . 
+swds:Person-822-2 sps:name-variant "ܝܘܚܢܢ ܒܪ ܣܪܦܝܘܢ"@syr . 
+swds:Person-822-2 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> sp:name-variant swds:Person-822-3 . 
+swds:Person-822-3 sps:name-variant "John bar Sarapion"@en . 
+swds:Person-822-3 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> sp:name-variant swds:Person-822-4 . 
+swds:Person-822-4 sps:name-variant "Yuhanna ibn Sarabiyun"@en . 
+swds:Person-822-4 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> sp:name-variant swds:Person-822-5 . 
+swds:Person-822-5 sps:name-variant "Yūḥannā b. Sarābiyūn"@en . 
+swds:Person-822-5 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> sp:name-variant swds:Person-822-6 . 
+swds:Person-822-6 sps:name-variant "John bar Serapion"@en . 
+swds:Person-822-6 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_822" . 
+<http://syriaca.org/person/822> sp:closeMatch swds:closeMatch-822-1 . 
+swds:closeMatch-822-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_822" . 
+swds:closeMatch-822-1 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> swdt:closeMatch "http://viaf.org/viaf/79162937" . 
+<http://syriaca.org/person/822> sp:closeMatch swds:closeMatch-822-2 . 
+swds:closeMatch-822-2 sps:closeMatch "http://viaf.org/viaf/79162937" . 
+swds:closeMatch-822-2 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yuhanna ibn Sarabiyun&sT=keywords" . 
+<http://syriaca.org/person/822> sp:closeMatch swds:closeMatch-822-3 . 
+swds:closeMatch-822-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=Y&sK=Yuhanna ibn Sarabiyun&sT=keywords" . 
+swds:closeMatch-822-3 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> swdt:floruit-notBefore "0700"^^xsd:gYear . 
+<http://syriaca.org/person/822> sp:floruit-notBefore swds:floruit-notBefore-822-1 . 
+swds:floruit-notBefore-822-1 sps:floruit-notBefore "0700"^^xsd:gYear . 
+swds:floruit-notBefore-822-1 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> swdt:floruit-notAfter "0900"^^xsd:gYear . 
+<http://syriaca.org/person/822> sp:floruit-notAfter swds:floruit-notAfter-822-1 . 
+swds:floruit-notAfter-822-1 sps:floruit-notAfter "0900"^^xsd:gYear . 
+swds:floruit-notAfter-822-1 spr:reference-URL <http://syriaca.org/person/822.tei> . 
+<http://syriaca.org/person/822> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/822> sp:status swds:status-822-1 . 
+swds:status-822-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-822-1 spr:reference-URL <http://syriaca.org/person/822.tei> .

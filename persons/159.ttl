@@ -1,0 +1,103 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/159> rdf:type lawd:Person . 
+<http://syriaca.org/person/159> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/159> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/159> rdfs:label "Barhadbshabba of Mor Matay"@en . 
+<http://syriaca.org/person/159> rdfs:label "ܕܝܪܝܐ ܒܪ ܚܕ ܒܫܒܐ"@syr . 
+<http://syriaca.org/person/159> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/159> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/159> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/159> foaf:primaryTopicOf <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> foaf:primaryTopicOf <http://syriaca.org/person/159.html> . 
+<http://syriaca.org/person/159> foaf:primaryTopicOf <http://syriaca.org/person/159.ttl> . 
+<http://syriaca.org/person/159> dcterms:hasFormat <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> dcterms:hasFormat <http://syriaca.org/person/159.html> . 
+<http://syriaca.org/person/159> dcterms:hasFormat <http://syriaca.org/person/159.ttl> . 
+<http://syriaca.org/person/159> foaf:relation <http://syriaca.org/person/367> . 
+<http://syriaca.org/person/159> foaf:relation <http://syriaca.org/person/976> . 
+<http://syriaca.org/person/159> swdt:name-variant "Barhadbshabba of Mor Matay"@en . 
+<http://syriaca.org/person/159> swdt:name-variant "The Monk Bar Ḥadhbshabba"@en . 
+<http://syriaca.org/person/159> swdt:name-variant "الراهب بر حذبشابا"@ar . 
+<http://syriaca.org/person/159> swdt:name-variant "ܕܝܪܝܐ ܒܪ ܚܕ ܒܫܒܐ"@syr . 
+<http://syriaca.org/person/159> swdt:name-variant "ܕܰܝܪܳܝܐ ܒܰܪ ܚܰܕ ܒܫܰܒܐ"@syr-Syrj . 
+<http://syriaca.org/person/159> swdt:name-variant "Barḥadbshabo of Mor Matay"@en-x-gedsh . 
+<http://syriaca.org/person/159> sp:name-variant swds:Person-159-1 . 
+swds:Person-159-1 sps:name-variant "Barhadbshabba of Mor Matay"@en . 
+swds:Person-159-1 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> sp:name-variant swds:Person-159-2 . 
+swds:Person-159-2 sps:name-variant "The Monk Bar Ḥadhbshabba"@en . 
+swds:Person-159-2 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> sp:name-variant swds:Person-159-3 . 
+swds:Person-159-3 sps:name-variant "الراهب بر حذبشابا"@ar . 
+swds:Person-159-3 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> sp:name-variant swds:Person-159-4 . 
+swds:Person-159-4 sps:name-variant "ܕܝܪܝܐ ܒܪ ܚܕ ܒܫܒܐ"@syr . 
+swds:Person-159-4 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> sp:name-variant swds:Person-159-5 . 
+swds:Person-159-5 sps:name-variant "ܕܰܝܪܳܝܐ ܒܰܪ ܚܰܕ ܒܫܰܒܐ"@syr-Syrj . 
+swds:Person-159-5 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> sp:name-variant swds:Person-159-6 . 
+swds:Person-159-6 sps:name-variant "Barḥadbshabo of Mor Matay"@en-x-gedsh . 
+swds:Person-159-6 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_159" . 
+<http://syriaca.org/person/159> sp:closeMatch swds:closeMatch-159-1 . 
+swds:closeMatch-159-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_159" . 
+swds:closeMatch-159-1 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:floruit-notBefore "0800"^^xsd:gYear . 
+<http://syriaca.org/person/159> sp:floruit-notBefore swds:floruit-notBefore-159-1 . 
+swds:floruit-notBefore-159-1 sps:floruit-notBefore "0800"^^xsd:gYear . 
+swds:floruit-notBefore-159-1 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:floruit-notAfter "0900"^^xsd:gYear . 
+<http://syriaca.org/person/159> sp:floruit-notAfter swds:floruit-notAfter-159-1 . 
+swds:floruit-notAfter-159-1 sps:floruit-notAfter "0900"^^xsd:gYear . 
+swds:floruit-notAfter-159-1 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:occupation <http://syriaca.org/taxonomy/monks> . 
+<http://syriaca.org/person/159> sp:occupation swds:occupation-159-1 . 
+swds:occupation-159-1 sps:occupation <http://syriaca.org/taxonomy/monks> . 
+swds:occupation-159-1 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/159> sp:status swds:status-159-1 . 
+swds:status-159-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-159-1 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:not-to-be-confused-with <http://syriaca.org/person/367> . 
+<http://syriaca.org/person/159> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-159-11 . 
+swds:activeRelationnot-to-be-confused-with-159-11 swd:not-to-be-confused-with <http://syriaca.org/person/367> . 
+swds:activeRelationnot-to-be-confused-with-159-11 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/367> swdt:not-to-be-confused-with <http://syriaca.org/person/159> . 
+<http://syriaca.org/person/367> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-159-12 . 
+swds:activeRelationnot-to-be-confused-with-159-12 swd:not-to-be-confused-with <http://syriaca.org/person/159> . 
+swds:activeRelationnot-to-be-confused-with-159-12 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/159> swdt:not-to-be-confused-with <http://syriaca.org/person/976> . 
+<http://syriaca.org/person/159> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-159-21 . 
+swds:activeRelationnot-to-be-confused-with-159-21 swd:not-to-be-confused-with <http://syriaca.org/person/976> . 
+swds:activeRelationnot-to-be-confused-with-159-21 spr:reference-URL <http://syriaca.org/person/159.tei> . 
+<http://syriaca.org/person/976> swdt:not-to-be-confused-with <http://syriaca.org/person/159> . 
+<http://syriaca.org/person/976> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-159-22 . 
+swds:activeRelationnot-to-be-confused-with-159-22 swd:not-to-be-confused-with <http://syriaca.org/person/159> . 
+swds:activeRelationnot-to-be-confused-with-159-22 spr:reference-URL <http://syriaca.org/person/159.tei> .

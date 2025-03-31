@@ -1,0 +1,76 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/5627> rdf:type lawd:Place . 
+<http://syriaca.org/place/5627> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/5627> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/place/5627> rdfs:partOf <http://syriaca.org/johnofephesus/places> . 
+<http://syriaca.org/place/5627> rdfs:label "Placidia palace"@en . 
+<http://syriaca.org/place/5627> rdfs:label "ܒܝܬܐ ܕܦܠܩܕܝܘܣ"@syr . 
+<http://syriaca.org/place/5627> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/place/5627> lawd:hasCitation <http://syriaca.org/cbss/VIKP2CT3> . 
+<http://syriaca.org/place/5627> lawd:hasCitation <http://syriaca.org/cbss/VIKP2CT3> . 
+<http://syriaca.org/place/5627> foaf:primaryTopicOf <http://syriaca.org/place/5627.tei> . 
+<http://syriaca.org/place/5627> foaf:primaryTopicOf <http://syriaca.org/place/5627.html> . 
+<http://syriaca.org/place/5627> foaf:primaryTopicOf <http://syriaca.org/place/5627.ttl> . 
+<http://syriaca.org/place/5627> dcterms:hasFormat <http://syriaca.org/place/5627.tei> . 
+<http://syriaca.org/place/5627> dcterms:hasFormat <http://syriaca.org/place/5627.html> . 
+<http://syriaca.org/place/5627> dcterms:hasFormat <http://syriaca.org/place/5627.ttl> . 
+<http://syriaca.org/place/5627> schema:description "This palace was built in the fifth century as a residence for Galla Placidia, daughter to Theodosius I. It was located in the north-western part of Constantinople, close to the Golden Horn, and later served as a residence for the apocrisiarius, the ambassador, of the bishop of Rome."@en . 
+<http://syriaca.org/place/5627> swdt:place-type <http://syriaca.org/taxonomy/buildings> . 
+<http://syriaca.org/place/5627> sp:place-type swds:place-type-5627-1 . 
+swds:place-type-5627-1 sps:place-type <http://syriaca.org/taxonomy/buildings> . 
+swds:place-type-5627-1 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> dcterms:relation <http://syriaca.org/place/586> . 
+<http://syriaca.org/place/5627> swdt:name-variant "Placidia palace"@en . 
+<http://syriaca.org/place/5627> swdt:name-variant "ܒܝܬܐ ܕܦܠܩܕܝܘܣ"@syr . 
+<http://syriaca.org/place/5627> swdt:name-variant "ܒܝܬܐ ܪܒܐ ܕܡܠܟܘܬܐ ܕܡܬܩܪܐ ܕܦܠܩܕܝܘܣ"@syr . 
+<http://syriaca.org/place/5627> swdt:name-variant "τὰ Πλακιδίας"@grc . 
+<http://syriaca.org/place/5627> swdt:name-variant "Palais de Placidia"@fr . 
+<http://syriaca.org/place/5627> sp:name-variant swds:Place-5627-1 . 
+swds:Place-5627-1 sps:name-variant "Placidia palace"@en . 
+swds:Place-5627-1 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> sp:name-variant swds:Place-5627-2 . 
+swds:Place-5627-2 sps:name-variant "ܒܝܬܐ ܕܦܠܩܕܝܘܣ"@syr . 
+swds:Place-5627-2 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> sp:name-variant swds:Place-5627-3 . 
+swds:Place-5627-3 sps:name-variant "ܒܝܬܐ ܪܒܐ ܕܡܠܟܘܬܐ ܕܡܬܩܪܐ ܕܦܠܩܕܝܘܣ"@syr . 
+swds:Place-5627-3 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> sp:name-variant swds:Place-5627-4 . 
+swds:Place-5627-4 sps:name-variant "τὰ Πλακιδίας"@grc . 
+swds:Place-5627-4 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> sp:name-variant swds:Place-5627-5 . 
+swds:Place-5627-5 sps:name-variant "Palais de Placidia"@fr . 
+swds:Place-5627-5 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> swdt:closeMatch "https://en.wikipedia.org/wiki/Placidia_Palace" . 
+<http://syriaca.org/place/5627> sp:closeMatch swds:closeMatch-5627-1 . 
+swds:closeMatch-5627-1 sps:closeMatch "https://en.wikipedia.org/wiki/Placidia_Palace" . 
+swds:closeMatch-5627-1 spr:reference-URL <http://syriaca.org/place/5627> . 
+<http://syriaca.org/place/5627> swdt:broader <http://syriaca.org/place/586> . 
+<http://syriaca.org/place/5627> sp:broader swds:activeRelationbroader-5627-11 . 
+swds:activeRelationbroader-5627-11 swd:broader <http://syriaca.org/place/586> . 
+swds:activeRelationbroader-5627-11 spr:reference-URL <http://syriaca.org/place/5627.tei> .

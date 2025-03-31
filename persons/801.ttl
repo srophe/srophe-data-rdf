@@ -1,0 +1,95 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/801> rdf:type lawd:Person . 
+<http://syriaca.org/person/801> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/801> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/801> rdfs:label "Van den Eynde , Ceslas Florent"@en . 
+<http://syriaca.org/person/801> lawd:hasCitation <http://syriaca.org/cbss/9F7HVVQA> . 
+<http://syriaca.org/person/801> foaf:primaryTopicOf <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> foaf:primaryTopicOf <http://syriaca.org/person/801.html> . 
+<http://syriaca.org/person/801> foaf:primaryTopicOf <http://syriaca.org/person/801.ttl> . 
+<http://syriaca.org/person/801> dcterms:hasFormat <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> dcterms:hasFormat <http://syriaca.org/person/801.html> . 
+<http://syriaca.org/person/801> dcterms:hasFormat <http://syriaca.org/person/801.ttl> . 
+<http://syriaca.org/person/801> schema:description "Professor of Syriac at the Catholic University of Louvain, Belgium, from 1969 to 1974."@en . 
+<http://syriaca.org/person/801> swdt:name-variant "Van den Eynde , Ceslas Florent"@en . 
+<http://syriaca.org/person/801> swdt:name-variant "Van den Eynde , Ceslas Florent"@en-x-gedsh . 
+<http://syriaca.org/person/801> sp:name-variant swds:Person-801-1 . 
+swds:Person-801-1 sps:name-variant "Van den Eynde , Ceslas Florent"@en . 
+swds:Person-801-1 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> sp:name-variant swds:Person-801-2 . 
+swds:Person-801-2 sps:name-variant "Van den Eynde , Ceslas Florent"@en-x-gedsh . 
+swds:Person-801-2 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_801" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-1 . 
+swds:closeMatch-801-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_801" . 
+swds:closeMatch-801-1 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/73952770" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-2 . 
+swds:closeMatch-801-2 sps:closeMatch "http://viaf.org/viaf/73952770" . 
+swds:closeMatch-801-2 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://worldcat.org/identities/lccn-n88-648905" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-3 . 
+swds:closeMatch-801-3 sps:closeMatch "http://worldcat.org/identities/lccn-n88-648905" . 
+swds:closeMatch-801-3 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://worldcat.org/identities/np-eynde, ceslaus van den$1903" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-4 . 
+swds:closeMatch-801-4 sps:closeMatch "http://worldcat.org/identities/np-eynde, ceslaus van den$1903" . 
+swds:closeMatch-801-4 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/205848629" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-5 . 
+swds:closeMatch-801-5 sps:closeMatch "http://viaf.org/viaf/205848629" . 
+swds:closeMatch-801-5 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/237203554" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-6 . 
+swds:closeMatch-801-6 sps:closeMatch "http://viaf.org/viaf/237203554" . 
+swds:closeMatch-801-6 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/97803320" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-7 . 
+swds:closeMatch-801-7 sps:closeMatch "http://viaf.org/viaf/97803320" . 
+swds:closeMatch-801-7 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/88818895" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-8 . 
+swds:closeMatch-801-8 sps:closeMatch "http://viaf.org/viaf/88818895" . 
+swds:closeMatch-801-8 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:closeMatch "http://viaf.org/viaf/194469776" . 
+<http://syriaca.org/person/801> sp:closeMatch swds:closeMatch-801-9 . 
+swds:closeMatch-801-9 sps:closeMatch "http://viaf.org/viaf/194469776" . 
+swds:closeMatch-801-9 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:birth-when "1903"^^xsd:gYear . 
+<http://syriaca.org/person/801> sp:birth-when swds:birth-when-801-1 . 
+swds:birth-when-801-1 sps:birth-when "1903"^^xsd:gYear . 
+swds:birth-when-801-1 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:death-when "1991"^^xsd:gYear . 
+<http://syriaca.org/person/801> sp:death-when swds:death-when-801-1 . 
+swds:death-when-801-1 sps:death-when "1991"^^xsd:gYear . 
+swds:death-when-801-1 spr:reference-URL <http://syriaca.org/person/801.tei> . 
+<http://syriaca.org/person/801> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/801> sp:status swds:status-801-1 . 
+swds:status-801-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-801-1 spr:reference-URL <http://syriaca.org/person/801.tei> .

@@ -1,0 +1,150 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/721> rdf:type lawd:Person . 
+<http://syriaca.org/person/721> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/721> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/721> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/721> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/721> rdfs:label "Sauma , Rabban"@en . 
+<http://syriaca.org/person/721> rdfs:label "ܪܒܢ ܨܘܡܐ"@syr . 
+<http://syriaca.org/person/721> lawd:hasCitation <http://syriaca.org/cbss/WB6KSF6Y> . 
+<http://syriaca.org/person/721> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/721> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/721> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/721> foaf:primaryTopicOf <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> foaf:primaryTopicOf <http://syriaca.org/person/721.html> . 
+<http://syriaca.org/person/721> foaf:primaryTopicOf <http://syriaca.org/person/721.ttl> . 
+<http://syriaca.org/person/721> dcterms:hasFormat <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> dcterms:hasFormat <http://syriaca.org/person/721.html> . 
+<http://syriaca.org/person/721> dcterms:hasFormat <http://syriaca.org/person/721.ttl> . 
+<http://syriaca.org/person/721> schema:description "Ṣawma was a monk of the Ch. of E. who, sometime around 1275, set out from Dadu (also known as Khān Bālīq, i.e. modern Beijing) in his native China with a younger disciple, Markos, on a pilgrimage to Jerusalem ."@en . 
+<http://syriaca.org/person/721> schema:description "In hagiography: Sauma, Rabban is commemorated as the monastic teacher and travelling companion of the monk Markos who became the catholicos Yahbalaha III . Acting on behalf of the catholicos, Rabban Sauma travelled to Constantinople , Rome and even Paris ."@en . 
+<http://syriaca.org/person/721> foaf:relation <http://syriaca.org/person/810> . 
+<http://syriaca.org/person/721> foaf:relation <http://syriaca.org/place/104> . 
+<http://syriaca.org/person/721> foaf:relation <http://syriaca.org/place/641> . 
+<http://syriaca.org/person/721> foaf:relation <http://syriaca.org/place/863> . 
+<http://syriaca.org/person/721> swdt:name-variant "Ṣawma , Rabban"@en-x-gedsh . 
+<http://syriaca.org/person/721> swdt:name-variant "Sauma , Rabban"@en . 
+<http://syriaca.org/person/721> swdt:name-variant "ܪܒܢ ܨܘܡܐ"@syr . 
+<http://syriaca.org/person/721> swdt:name-variant "Rabban Sauma"@en . 
+<http://syriaca.org/person/721> swdt:name-variant "ܨܘܡܐ"@syr . 
+<http://syriaca.org/person/721> swdt:name-variant "ṣawmā"@en-x-gedsh . 
+<http://syriaca.org/person/721> swdt:name-variant "Sauma"@en . 
+<http://syriaca.org/person/721> swdt:name-variant "Ṣaumā"@fr-x-zanetti . 
+<http://syriaca.org/person/721> swdt:name-variant "Sauma"@fr . 
+<http://syriaca.org/person/721> swdt:name-variant "Ṣawma, Rabban"@en . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-1 . 
+swds:Person-721-1 sps:name-variant "Ṣawma , Rabban"@en-x-gedsh . 
+swds:Person-721-1 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-2 . 
+swds:Person-721-2 sps:name-variant "Sauma , Rabban"@en . 
+swds:Person-721-2 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-3 . 
+swds:Person-721-3 sps:name-variant "ܪܒܢ ܨܘܡܐ"@syr . 
+swds:Person-721-3 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-4 . 
+swds:Person-721-4 sps:name-variant "Rabban Sauma"@en . 
+swds:Person-721-4 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-5 . 
+swds:Person-721-5 sps:name-variant "ܨܘܡܐ"@syr . 
+swds:Person-721-5 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-6 . 
+swds:Person-721-6 sps:name-variant "ṣawmā"@en-x-gedsh . 
+swds:Person-721-6 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-7 . 
+swds:Person-721-7 sps:name-variant "Sauma"@en . 
+swds:Person-721-7 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-8 . 
+swds:Person-721-8 sps:name-variant "Ṣaumā"@fr-x-zanetti . 
+swds:Person-721-8 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-9 . 
+swds:Person-721-9 sps:name-variant "Sauma"@fr . 
+swds:Person-721-9 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> sp:name-variant swds:Person-721-10 . 
+swds:Person-721-10 sps:name-variant "Ṣawma, Rabban"@en . 
+swds:Person-721-10 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_721" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-1 . 
+swds:closeMatch-721-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_721" . 
+swds:closeMatch-721-1 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://worldcat.org/identities/lccn-n91-127261" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-2 . 
+swds:closeMatch-721-2 sps:closeMatch "http://worldcat.org/identities/lccn-n91-127261" . 
+swds:closeMatch-721-2 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/98182009" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-3 . 
+swds:closeMatch-721-3 sps:closeMatch "http://viaf.org/viaf/98182009" . 
+swds:closeMatch-721-3 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/41027273" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-4 . 
+swds:closeMatch-721-4 sps:closeMatch "http://viaf.org/viaf/41027273" . 
+swds:closeMatch-721-4 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/218255125" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-5 . 
+swds:closeMatch-721-5 sps:closeMatch "http://viaf.org/viaf/218255125" . 
+swds:closeMatch-721-5 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/45104887" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-6 . 
+swds:closeMatch-721-6 sps:closeMatch "http://viaf.org/viaf/45104887" . 
+swds:closeMatch-721-6 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/226583917" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-7 . 
+swds:closeMatch-721-7 sps:closeMatch "http://viaf.org/viaf/226583917" . 
+swds:closeMatch-721-7 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/89688160" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-8 . 
+swds:closeMatch-721-8 sps:closeMatch "http://viaf.org/viaf/89688160" . 
+swds:closeMatch-721-8 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/223650625" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-9 . 
+swds:closeMatch-721-9 sps:closeMatch "http://viaf.org/viaf/223650625" . 
+swds:closeMatch-721-9 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://viaf.org/viaf/196810544" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-10 . 
+swds:closeMatch-721-10 sps:closeMatch "http://viaf.org/viaf/196810544" . 
+swds:closeMatch-721-10 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=R&sK=Rabban Sauma&sT=keywords" . 
+<http://syriaca.org/person/721> sp:closeMatch swds:closeMatch-721-11 . 
+swds:closeMatch-721-11 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=R&sK=Rabban Sauma&sT=keywords" . 
+swds:closeMatch-721-11 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:floruit-notBefore "1200"^^xsd:gYear . 
+<http://syriaca.org/person/721> sp:floruit-notBefore swds:floruit-notBefore-721-1 . 
+swds:floruit-notBefore-721-1 sps:floruit-notBefore "1200"^^xsd:gYear . 
+swds:floruit-notBefore-721-1 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:floruit-notAfter "1300"^^xsd:gYear . 
+<http://syriaca.org/person/721> sp:floruit-notAfter swds:floruit-notAfter-721-1 . 
+swds:floruit-notAfter-721-1 sps:floruit-notAfter "1300"^^xsd:gYear . 
+swds:floruit-notAfter-721-1 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/721> sp:status swds:status-721-1 . 
+swds:status-721-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-721-1 spr:reference-URL <http://syriaca.org/person/721.tei> . 
+<http://syriaca.org/person/721> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/721> sp:status swds:status-721-2 . 
+swds:status-721-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-721-2 spr:reference-URL <http://syriaca.org/person/721.tei> .

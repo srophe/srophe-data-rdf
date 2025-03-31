@@ -1,0 +1,99 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/757> rdf:type lawd:Person . 
+<http://syriaca.org/person/757> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/757> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/757> rdfs:label "Sophronius of Jerusalem"@en . 
+<http://syriaca.org/person/757> rdfs:label "ܣܘܦܪܘܢܝܣ"@syr . 
+<http://syriaca.org/person/757> lawd:hasCitation <http://syriaca.org/cbss/C9LK3NXP> . 
+<http://syriaca.org/person/757> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/757> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/757> foaf:primaryTopicOf <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> foaf:primaryTopicOf <http://syriaca.org/person/757.html> . 
+<http://syriaca.org/person/757> foaf:primaryTopicOf <http://syriaca.org/person/757.ttl> . 
+<http://syriaca.org/person/757> dcterms:hasFormat <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> dcterms:hasFormat <http://syriaca.org/person/757.html> . 
+<http://syriaca.org/person/757> dcterms:hasFormat <http://syriaca.org/person/757.ttl> . 
+<http://syriaca.org/person/757> schema:description "Patr. of Jerusalem (from 634) and Greek author."@en . 
+<http://syriaca.org/person/757> foaf:relation <http://syriaca.org/place/2801> . 
+<http://syriaca.org/person/757> swdt:name-variant "Sophronius of Jerusalem"@en . 
+<http://syriaca.org/person/757> swdt:name-variant "Sophronius"@en-x-gedsh . 
+<http://syriaca.org/person/757> swdt:name-variant "ܣܘܦܪܘܢܝܣ"@syr . 
+<http://syriaca.org/person/757> swdt:name-variant "Sophronius of Jerusalem"@en . 
+<http://syriaca.org/person/757> swdt:name-variant "Sophrone de Jérusalem"@fr . 
+<http://syriaca.org/person/757> sp:name-variant swds:Person-757-1 . 
+swds:Person-757-1 sps:name-variant "Sophronius of Jerusalem"@en . 
+swds:Person-757-1 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> sp:name-variant swds:Person-757-2 . 
+swds:Person-757-2 sps:name-variant "Sophronius"@en-x-gedsh . 
+swds:Person-757-2 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> sp:name-variant swds:Person-757-3 . 
+swds:Person-757-3 sps:name-variant "ܣܘܦܪܘܢܝܣ"@syr . 
+swds:Person-757-3 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> sp:name-variant swds:Person-757-4 . 
+swds:Person-757-4 sps:name-variant "Sophronius of Jerusalem"@en . 
+swds:Person-757-4 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> sp:name-variant swds:Person-757-5 . 
+swds:Person-757-5 sps:name-variant "Sophrone de Jérusalem"@fr . 
+swds:Person-757-5 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_757" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-1 . 
+swds:closeMatch-757-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_757" . 
+swds:closeMatch-757-1 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://viaf.org/viaf/20473427" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-2 . 
+swds:closeMatch-757-2 sps:closeMatch "http://viaf.org/viaf/20473427" . 
+swds:closeMatch-757-2 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://worldcat.org/identities/lccn-n83-180836" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-3 . 
+swds:closeMatch-757-3 sps:closeMatch "http://worldcat.org/identities/lccn-n83-180836" . 
+swds:closeMatch-757-3 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://viaf.org/viaf/187855706" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-4 . 
+swds:closeMatch-757-4 sps:closeMatch "http://viaf.org/viaf/187855706" . 
+swds:closeMatch-757-4 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://viaf.org/viaf/250747918" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-5 . 
+swds:closeMatch-757-5 sps:closeMatch "http://viaf.org/viaf/250747918" . 
+swds:closeMatch-757-5 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://viaf.org/viaf/245065534" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-6 . 
+swds:closeMatch-757-6 sps:closeMatch "http://viaf.org/viaf/245065534" . 
+swds:closeMatch-757-6 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Sophronius of Jerusalem&sT=keywords" . 
+<http://syriaca.org/person/757> sp:closeMatch swds:closeMatch-757-7 . 
+swds:closeMatch-757-7 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Sophronius of Jerusalem&sT=keywords" . 
+swds:closeMatch-757-7 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:death-when "0638"^^xsd:gYear . 
+<http://syriaca.org/person/757> sp:death-when swds:death-when-757-1 . 
+swds:death-when-757-1 sps:death-when "0638"^^xsd:gYear . 
+swds:death-when-757-1 spr:reference-URL <http://syriaca.org/person/757.tei> . 
+<http://syriaca.org/person/757> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/757> sp:status swds:status-757-1 . 
+swds:status-757-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-757-1 spr:reference-URL <http://syriaca.org/person/757.tei> .

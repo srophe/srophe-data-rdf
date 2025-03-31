@@ -1,0 +1,123 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/832> rdf:type lawd:Person . 
+<http://syriaca.org/person/832> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/832> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/832> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/832> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/832> rdfs:label "John Maron"@en . 
+<http://syriaca.org/person/832> rdfs:label "ܝܘܚܢܢ ܡܐܪܘܢ"@syr . 
+<http://syriaca.org/person/832> lawd:hasCitation <http://syriaca.org/cbss/SAMH57WS> . 
+<http://syriaca.org/person/832> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/832> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/832> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/832> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/832> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/832> foaf:primaryTopicOf <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> foaf:primaryTopicOf <http://syriaca.org/person/832.html> . 
+<http://syriaca.org/person/832> foaf:primaryTopicOf <http://syriaca.org/person/832.ttl> . 
+<http://syriaca.org/person/832> dcterms:hasFormat <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> dcterms:hasFormat <http://syriaca.org/person/832.html> . 
+<http://syriaca.org/person/832> dcterms:hasFormat <http://syriaca.org/person/832.ttl> . 
+<http://syriaca.org/person/832> schema:description "Saint and first Patr. of the Syriac Maron. Church of Antioch ."@en . 
+<http://syriaca.org/person/832> swdt:name-variant "John Maron"@en . 
+<http://syriaca.org/person/832> swdt:name-variant "Yuḥanon Maron"@en-x-gedsh . 
+<http://syriaca.org/person/832> swdt:name-variant "John Marun"@en . 
+<http://syriaca.org/person/832> swdt:name-variant "يوحنا مارون"@ar . 
+<http://syriaca.org/person/832> swdt:name-variant "ܝܘܚܢܢ ܡܐܪܘܢ"@syr . 
+<http://syriaca.org/person/832> swdt:name-variant "ܝܘܚܰܢܢ ܡܰܐܪܘܽܢ"@syr-Syrj . 
+<http://syriaca.org/person/832> swdt:name-variant "John Maron"@en . 
+<http://syriaca.org/person/832> swdt:name-variant "Yuḥanon d-Marun"@en . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-1 . 
+swds:Person-832-1 sps:name-variant "John Maron"@en . 
+swds:Person-832-1 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-2 . 
+swds:Person-832-2 sps:name-variant "Yuḥanon Maron"@en-x-gedsh . 
+swds:Person-832-2 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-3 . 
+swds:Person-832-3 sps:name-variant "John Marun"@en . 
+swds:Person-832-3 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-4 . 
+swds:Person-832-4 sps:name-variant "يوحنا مارون"@ar . 
+swds:Person-832-4 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-5 . 
+swds:Person-832-5 sps:name-variant "ܝܘܚܢܢ ܡܐܪܘܢ"@syr . 
+swds:Person-832-5 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-6 . 
+swds:Person-832-6 sps:name-variant "ܝܘܚܰܢܢ ܡܰܐܪܘܽܢ"@syr-Syrj . 
+swds:Person-832-6 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-7 . 
+swds:Person-832-7 sps:name-variant "John Maron"@en . 
+swds:Person-832-7 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> sp:name-variant swds:Person-832-8 . 
+swds:Person-832-8 sps:name-variant "Yuḥanon d-Marun"@en . 
+swds:Person-832-8 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_832" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-1 . 
+swds:closeMatch-832-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_832" . 
+swds:closeMatch-832-1 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://viaf.org/viaf/48576222" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-2 . 
+swds:closeMatch-832-2 sps:closeMatch "http://viaf.org/viaf/48576222" . 
+swds:closeMatch-832-2 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://worldcat.org/identities/lccn-n2001-89414" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-3 . 
+swds:closeMatch-832-3 sps:closeMatch "http://worldcat.org/identities/lccn-n2001-89414" . 
+swds:closeMatch-832-3 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://worldcat.org/identities/np-maron, joannes$patriarch of antioch$d 707" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-4 . 
+swds:closeMatch-832-4 sps:closeMatch "http://worldcat.org/identities/np-maron, joannes$patriarch of antioch$d 707" . 
+swds:closeMatch-832-4 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://viaf.org/viaf/209295334" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-5 . 
+swds:closeMatch-832-5 sps:closeMatch "http://viaf.org/viaf/209295334" . 
+swds:closeMatch-832-5 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://viaf.org/viaf/22177088" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-6 . 
+swds:closeMatch-832-6 sps:closeMatch "http://viaf.org/viaf/22177088" . 
+swds:closeMatch-832-6 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://viaf.org/viaf/210860424" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-7 . 
+swds:closeMatch-832-7 sps:closeMatch "http://viaf.org/viaf/210860424" . 
+swds:closeMatch-832-7 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Maron&sT=keywords" . 
+<http://syriaca.org/person/832> sp:closeMatch swds:closeMatch-832-8 . 
+swds:closeMatch-832-8 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=J&sK=John Maron&sT=keywords" . 
+swds:closeMatch-832-8 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:floruit-notBefore "0670"^^xsd:gYear . 
+<http://syriaca.org/person/832> sp:floruit-notBefore swds:floruit-notBefore-832-1 . 
+swds:floruit-notBefore-832-1 sps:floruit-notBefore "0670"^^xsd:gYear . 
+swds:floruit-notBefore-832-1 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:floruit-notAfter "0722"^^xsd:gYear . 
+<http://syriaca.org/person/832> sp:floruit-notAfter swds:floruit-notAfter-832-1 . 
+swds:floruit-notAfter-832-1 sps:floruit-notAfter "0722"^^xsd:gYear . 
+swds:floruit-notAfter-832-1 spr:reference-URL <http://syriaca.org/person/832.tei> . 
+<http://syriaca.org/person/832> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/832> sp:status swds:status-832-1 . 
+swds:status-832-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-832-1 spr:reference-URL <http://syriaca.org/person/832.tei> .

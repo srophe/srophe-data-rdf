@@ -1,0 +1,72 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3505> rdf:type lawd:Person . 
+<http://syriaca.org/person/3505> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3505> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/3505> rdfs:label "Abraham of Nisibis"@en . 
+<http://syriaca.org/person/3505> rdfs:label "ܐܒܪܗܡ"@syr . 
+<http://syriaca.org/person/3505> lawd:hasCitation <http://syriaca.org/cbss/3Q96IEAH> . 
+<http://syriaca.org/person/3505> foaf:primaryTopicOf <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> foaf:primaryTopicOf <http://syriaca.org/person/3505.html> . 
+<http://syriaca.org/person/3505> foaf:primaryTopicOf <http://syriaca.org/person/3505.ttl> . 
+<http://syriaca.org/person/3505> dcterms:hasFormat <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> dcterms:hasFormat <http://syriaca.org/person/3505.html> . 
+<http://syriaca.org/person/3505> dcterms:hasFormat <http://syriaca.org/person/3505.ttl> . 
+<http://syriaca.org/person/3505> foaf:relation <http://syriaca.org/person/1550> . 
+<http://syriaca.org/person/3505> swdt:name-variant "Abraham of Nisibis"@en . 
+<http://syriaca.org/person/3505> swdt:name-variant "Abraham de Nisibe"@fr . 
+<http://syriaca.org/person/3505> swdt:name-variant "ܐܒܪܗܡ"@syr . 
+<http://syriaca.org/person/3505> sp:name-variant swds:Person-3505-1 . 
+swds:Person-3505-1 sps:name-variant "Abraham of Nisibis"@en . 
+swds:Person-3505-1 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> sp:name-variant swds:Person-3505-2 . 
+swds:Person-3505-2 sps:name-variant "Abraham de Nisibe"@fr . 
+swds:Person-3505-2 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> sp:name-variant swds:Person-3505-3 . 
+swds:Person-3505-3 sps:name-variant "ܐܒܪܗܡ"@syr . 
+swds:Person-3505-3 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> swdt:floruit-notBefore "0450"^^xsd:gYear . 
+<http://syriaca.org/person/3505> sp:floruit-notBefore swds:floruit-notBefore-3505-1 . 
+swds:floruit-notBefore-3505-1 sps:floruit-notBefore "0450"^^xsd:gYear . 
+swds:floruit-notBefore-3505-1 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> swdt:floruit-notAfter "0650"^^xsd:gYear . 
+<http://syriaca.org/person/3505> sp:floruit-notAfter swds:floruit-notAfter-3505-1 . 
+swds:floruit-notAfter-3505-1 sps:floruit-notAfter "0650"^^xsd:gYear . 
+swds:floruit-notAfter-3505-1 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/3505> sp:status swds:status-3505-1 . 
+swds:status-3505-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-3505-1 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/3505> swdt:not-to-be-confused-with <http://syriaca.org/person/1550> . 
+<http://syriaca.org/person/3505> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-3505-11 . 
+swds:activeRelationnot-to-be-confused-with-3505-11 swd:not-to-be-confused-with <http://syriaca.org/person/1550> . 
+swds:activeRelationnot-to-be-confused-with-3505-11 spr:reference-URL <http://syriaca.org/person/3505.tei> . 
+<http://syriaca.org/person/1550> swdt:not-to-be-confused-with <http://syriaca.org/person/3505> . 
+<http://syriaca.org/person/1550> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-3505-12 . 
+swds:activeRelationnot-to-be-confused-with-3505-12 swd:not-to-be-confused-with <http://syriaca.org/person/3505> . 
+swds:activeRelationnot-to-be-confused-with-3505-12 spr:reference-URL <http://syriaca.org/person/3505.tei> .

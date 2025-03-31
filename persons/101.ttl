@@ -1,0 +1,100 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/101> rdf:type lawd:Person . 
+<http://syriaca.org/person/101> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/101> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/101> rdfs:label "ܝܘܢܢ ܕܬܠܐ"@syr . 
+<http://syriaca.org/person/101> rdfs:label "Jonah of Tella"@en . 
+<http://syriaca.org/person/101> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/101> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/101> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/101> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/101> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/101> foaf:primaryTopicOf <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> foaf:primaryTopicOf <http://syriaca.org/person/101.html> . 
+<http://syriaca.org/person/101> foaf:primaryTopicOf <http://syriaca.org/person/101.ttl> . 
+<http://syriaca.org/person/101> dcterms:hasFormat <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> dcterms:hasFormat <http://syriaca.org/person/101.html> . 
+<http://syriaca.org/person/101> dcterms:hasFormat <http://syriaca.org/person/101.ttl> . 
+<http://syriaca.org/person/101> foaf:relation <http://syriaca.org/place/200> . 
+<http://syriaca.org/person/101> swdt:name-variant "Jonah , bishop of Tell Mawzalt"@en . 
+<http://syriaca.org/person/101> swdt:name-variant "يونان اسقف تلّ موزلت"@ar . 
+<http://syriaca.org/person/101> swdt:name-variant "ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ ܕܬܠܐ ܕܡܘܙܠܬ"@syr . 
+<http://syriaca.org/person/101> swdt:name-variant "ܝܘܚܰܢܢ ܐܶܦܝܣܩܘܦܳܐ ܕܬܶܠܐ ܕܡܰܘܙܠܰܬ"@syr-Syrj . 
+<http://syriaca.org/person/101> swdt:name-variant "ܝܘܢܢ ܕܬܠܐ"@syr . 
+<http://syriaca.org/person/101> swdt:name-variant "Yawnan of Tella"@en-x-gedsh . 
+<http://syriaca.org/person/101> swdt:name-variant "Jonah of Tella"@en . 
+<http://syriaca.org/person/101> swdt:name-variant "Jonan of Tella"@en . 
+<http://syriaca.org/person/101> swdt:name-variant "Jonas ep. Tellae"@la . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-1 . 
+swds:Person-101-1 sps:name-variant "Jonah , bishop of Tell Mawzalt"@en . 
+swds:Person-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-2 . 
+swds:Person-101-2 sps:name-variant "يونان اسقف تلّ موزلت"@ar . 
+swds:Person-101-2 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-3 . 
+swds:Person-101-3 sps:name-variant "ܝܘܚܢܢ ܐܦܝܣܩܘܦܐ ܕܬܠܐ ܕܡܘܙܠܬ"@syr . 
+swds:Person-101-3 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-4 . 
+swds:Person-101-4 sps:name-variant "ܝܘܚܰܢܢ ܐܶܦܝܣܩܘܦܳܐ ܕܬܶܠܐ ܕܡܰܘܙܠܰܬ"@syr-Syrj . 
+swds:Person-101-4 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-5 . 
+swds:Person-101-5 sps:name-variant "ܝܘܢܢ ܕܬܠܐ"@syr . 
+swds:Person-101-5 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-6 . 
+swds:Person-101-6 sps:name-variant "Yawnan of Tella"@en-x-gedsh . 
+swds:Person-101-6 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-7 . 
+swds:Person-101-7 sps:name-variant "Jonah of Tella"@en . 
+swds:Person-101-7 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-8 . 
+swds:Person-101-8 sps:name-variant "Jonan of Tella"@en . 
+swds:Person-101-8 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> sp:name-variant swds:Person-101-9 . 
+swds:Person-101-9 sps:name-variant "Jonas ep. Tellae"@la . 
+swds:Person-101-9 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_101" . 
+<http://syriaca.org/person/101> sp:closeMatch swds:closeMatch-101-1 . 
+swds:closeMatch-101-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_101" . 
+swds:closeMatch-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> swdt:floruit-notBefore "0600"^^xsd:gYear . 
+<http://syriaca.org/person/101> sp:floruit-notBefore swds:floruit-notBefore-101-1 . 
+swds:floruit-notBefore-101-1 sps:floruit-notBefore "0600"^^xsd:gYear . 
+swds:floruit-notBefore-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> swdt:floruit-notAfter "0700"^^xsd:gYear . 
+<http://syriaca.org/person/101> sp:floruit-notAfter swds:floruit-notAfter-101-1 . 
+swds:floruit-notAfter-101-1 sps:floruit-notAfter "0700"^^xsd:gYear . 
+swds:floruit-notAfter-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/101> sp:occupation swds:occupation-101-1 . 
+swds:occupation-101-1 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> . 
+<http://syriaca.org/person/101> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/101> sp:status swds:status-101-1 . 
+swds:status-101-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> .

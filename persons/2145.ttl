@@ -1,0 +1,78 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2145> rdf:type lawd:Person . 
+<http://syriaca.org/person/2145> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2145> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/2145> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/2145> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/2145> rdfs:label "ܒܬܘܠܐ"@syr . 
+<http://syriaca.org/person/2145> rdfs:label "Anonymous 2145"@en . 
+<http://syriaca.org/person/2145> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/2145> foaf:primaryTopicOf <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> foaf:primaryTopicOf <http://syriaca.org/person/2145.html> . 
+<http://syriaca.org/person/2145> foaf:primaryTopicOf <http://syriaca.org/person/2145.ttl> . 
+<http://syriaca.org/person/2145> dcterms:hasFormat <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> dcterms:hasFormat <http://syriaca.org/person/2145.html> . 
+<http://syriaca.org/person/2145> dcterms:hasFormat <http://syriaca.org/person/2145.ttl> . 
+<http://syriaca.org/person/2145> schema:description "Anonymous 2145 is commemorated in A Fallen Virgin who Repented (text) , a work surviving in at least 1 manuscript ms Damas, Patriarcat syrien orthodoxe, cod. 12/18 (olim ms Dayr az-Za‘faran, cod. 19), f. 154 ."@en . 
+<http://syriaca.org/person/2145> swdt:name-variant "ܒܬܘܠܐ"@syr . 
+<http://syriaca.org/person/2145> swdt:name-variant "Bthulā"@en-x-gedsh . 
+<http://syriaca.org/person/2145> swdt:name-variant "Virgin who fell and then repented"@en . 
+<http://syriaca.org/person/2145> swdt:name-variant "Vierge (une) qui chut puis se repentit"@fr . 
+<http://syriaca.org/person/2145> swdt:name-variant "Anonymous 2145"@en . 
+<http://syriaca.org/person/2145> sp:name-variant swds:Person-2145-1 . 
+swds:Person-2145-1 sps:name-variant "ܒܬܘܠܐ"@syr . 
+swds:Person-2145-1 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> sp:name-variant swds:Person-2145-2 . 
+swds:Person-2145-2 sps:name-variant "Bthulā"@en-x-gedsh . 
+swds:Person-2145-2 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> sp:name-variant swds:Person-2145-3 . 
+swds:Person-2145-3 sps:name-variant "Virgin who fell and then repented"@en . 
+swds:Person-2145-3 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> sp:name-variant swds:Person-2145-4 . 
+swds:Person-2145-4 sps:name-variant "Vierge (une) qui chut puis se repentit"@fr . 
+swds:Person-2145-4 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> sp:name-variant swds:Person-2145-5 . 
+swds:Person-2145-5 sps:name-variant "Anonymous 2145"@en . 
+swds:Person-2145-5 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> swdt:gender <http://syriaca.org/taxonomy/women> . 
+<http://syriaca.org/person/2145> sp:gender swds:gender-2145-1 . 
+swds:gender-2145-1 sps:gender <http://syriaca.org/taxonomy/women> . 
+swds:gender-2145-1 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/2145> sp:status swds:status-2145-1 . 
+swds:status-2145-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-2145-1 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> swdt:status <http://syriaca.org/taxonomy/fallen> . 
+<http://syriaca.org/person/2145> sp:status swds:status-2145-2 . 
+swds:status-2145-2 sps:status <http://syriaca.org/taxonomy/fallen> . 
+swds:status-2145-2 spr:reference-URL <http://syriaca.org/person/2145.tei> . 
+<http://syriaca.org/person/2145> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/2145> sp:status swds:status-2145-3 . 
+swds:status-2145-3 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-2145-3 spr:reference-URL <http://syriaca.org/person/2145.tei> .

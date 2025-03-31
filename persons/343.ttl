@@ -1,0 +1,119 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/343> rdf:type lawd:Person . 
+<http://syriaca.org/person/343> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/343> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/343> rdfs:label "ܐܝܣܚܩ ܕܒܝܬ ܐܪܡܠܬܐ"@syr . 
+<http://syriaca.org/person/343> rdfs:label "Armalah , Isaac"@en . 
+<http://syriaca.org/person/343> lawd:hasCitation <http://syriaca.org/cbss/X9CV8MEX> . 
+<http://syriaca.org/person/343> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/343> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/343> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/343> foaf:primaryTopicOf <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> foaf:primaryTopicOf <http://syriaca.org/person/343.html> . 
+<http://syriaca.org/person/343> foaf:primaryTopicOf <http://syriaca.org/person/343.ttl> . 
+<http://syriaca.org/person/343> dcterms:hasFormat <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> dcterms:hasFormat <http://syriaca.org/person/343.html> . 
+<http://syriaca.org/person/343> dcterms:hasFormat <http://syriaca.org/person/343.ttl> . 
+<http://syriaca.org/person/343> schema:description "He was born to Saʿīd Armalah in Mardin and was given the baptismal name Eliās."@en . 
+<http://syriaca.org/person/343> swdt:name-variant "Armalah , Isḥāq"@en-x-gedsh . 
+<http://syriaca.org/person/343> swdt:name-variant "Isḥāq Armala"@en . 
+<http://syriaca.org/person/343> swdt:name-variant "اسحق ارملة"@ar . 
+<http://syriaca.org/person/343> swdt:name-variant "ܟܘܪܝ ܐܝܣܚܩ ܕܒܝܬ ܐܪܡܠܬܐ"@syr . 
+<http://syriaca.org/person/343> swdt:name-variant "ܟܳܘܪܝ ܐܝܣܚܳܩ ܕܒܶܝܬ ܐܰܪܡܰܠܬܐ"@syr-Syrj . 
+<http://syriaca.org/person/343> swdt:name-variant "ܐܝܣܚܩ ܕܒܝܬ ܐܪܡܠܬܐ"@syr . 
+<http://syriaca.org/person/343> swdt:name-variant "Armalah , Isaac"@en . 
+<http://syriaca.org/person/343> swdt:name-variant "Armalet, Isaac"@en . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-1 . 
+swds:Person-343-1 sps:name-variant "Armalah , Isḥāq"@en-x-gedsh . 
+swds:Person-343-1 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-2 . 
+swds:Person-343-2 sps:name-variant "Isḥāq Armala"@en . 
+swds:Person-343-2 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-3 . 
+swds:Person-343-3 sps:name-variant "اسحق ارملة"@ar . 
+swds:Person-343-3 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-4 . 
+swds:Person-343-4 sps:name-variant "ܟܘܪܝ ܐܝܣܚܩ ܕܒܝܬ ܐܪܡܠܬܐ"@syr . 
+swds:Person-343-4 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-5 . 
+swds:Person-343-5 sps:name-variant "ܟܳܘܪܝ ܐܝܣܚܳܩ ܕܒܶܝܬ ܐܰܪܡܰܠܬܐ"@syr-Syrj . 
+swds:Person-343-5 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-6 . 
+swds:Person-343-6 sps:name-variant "ܐܝܣܚܩ ܕܒܝܬ ܐܪܡܠܬܐ"@syr . 
+swds:Person-343-6 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-7 . 
+swds:Person-343-7 sps:name-variant "Armalah , Isaac"@en . 
+swds:Person-343-7 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> sp:name-variant swds:Person-343-8 . 
+swds:Person-343-8 sps:name-variant "Armalet, Isaac"@en . 
+swds:Person-343-8 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_343" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-1 . 
+swds:closeMatch-343-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_343" . 
+swds:closeMatch-343-1 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://worldcat.org/identities/np-armala, ishaq$1879 1954" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-2 . 
+swds:closeMatch-343-2 sps:closeMatch "http://worldcat.org/identities/np-armala, ishaq$1879 1954" . 
+swds:closeMatch-343-2 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/205465851" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-3 . 
+swds:closeMatch-343-3 sps:closeMatch "http://viaf.org/viaf/205465851" . 
+swds:closeMatch-343-3 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/116977104" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-4 . 
+swds:closeMatch-343-4 sps:closeMatch "http://viaf.org/viaf/116977104" . 
+swds:closeMatch-343-4 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/88943759" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-5 . 
+swds:closeMatch-343-5 sps:closeMatch "http://viaf.org/viaf/88943759" . 
+swds:closeMatch-343-5 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/57032201" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-6 . 
+swds:closeMatch-343-6 sps:closeMatch "http://viaf.org/viaf/57032201" . 
+swds:closeMatch-343-6 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/2650903" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-7 . 
+swds:closeMatch-343-7 sps:closeMatch "http://viaf.org/viaf/2650903" . 
+swds:closeMatch-343-7 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:closeMatch "http://viaf.org/viaf/199049953" . 
+<http://syriaca.org/person/343> sp:closeMatch swds:closeMatch-343-8 . 
+swds:closeMatch-343-8 sps:closeMatch "http://viaf.org/viaf/199049953" . 
+swds:closeMatch-343-8 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:birth-when "1879"^^xsd:gYear . 
+<http://syriaca.org/person/343> sp:birth-when swds:birth-when-343-1 . 
+swds:birth-when-343-1 sps:birth-when "1879"^^xsd:gYear . 
+swds:birth-when-343-1 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:death-when "1954"^^xsd:gYear . 
+<http://syriaca.org/person/343> sp:death-when swds:death-when-343-1 . 
+swds:death-when-343-1 sps:death-when "1954"^^xsd:gYear . 
+swds:death-when-343-1 spr:reference-URL <http://syriaca.org/person/343.tei> . 
+<http://syriaca.org/person/343> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/343> sp:status swds:status-343-1 . 
+swds:status-343-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-343-1 spr:reference-URL <http://syriaca.org/person/343.tei> .

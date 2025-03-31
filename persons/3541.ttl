@@ -1,0 +1,79 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3541> rdf:type lawd:Person . 
+<http://syriaca.org/person/3541> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3541> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/3541> rdfs:label "Jacob of Tagrit"@en . 
+<http://syriaca.org/person/3541> rdfs:label "ܝܥܩܘܒ"@syr . 
+<http://syriaca.org/person/3541> lawd:hasCitation <http://syriaca.org/cbss/3Q96IEAH> . 
+<http://syriaca.org/person/3541> foaf:primaryTopicOf <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> foaf:primaryTopicOf <http://syriaca.org/person/3541.html> . 
+<http://syriaca.org/person/3541> foaf:primaryTopicOf <http://syriaca.org/person/3541.ttl> . 
+<http://syriaca.org/person/3541> dcterms:hasFormat <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> dcterms:hasFormat <http://syriaca.org/person/3541.html> . 
+<http://syriaca.org/person/3541> dcterms:hasFormat <http://syriaca.org/person/3541.ttl> . 
+<http://syriaca.org/person/3541> swdt:name-variant "Jacob of Tagrit"@en . 
+<http://syriaca.org/person/3541> swdt:name-variant "Jacques de Tagrit"@fr . 
+<http://syriaca.org/person/3541> swdt:name-variant "ܝܥܩܘܒ"@syr . 
+<http://syriaca.org/person/3541> swdt:name-variant "ܣܘܐܪܐ ܒܪ ܫܟܟܘ"@syr . 
+<http://syriaca.org/person/3541> swdt:name-variant "Jacques de Bartella"@fr . 
+<http://syriaca.org/person/3541> swdt:name-variant "Sévère bar Šakku"@fr . 
+<http://syriaca.org/person/3541> swdt:name-variant "Jacques bar Šakko"@fr . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-1 . 
+swds:Person-3541-1 sps:name-variant "Jacob of Tagrit"@en . 
+swds:Person-3541-1 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-2 . 
+swds:Person-3541-2 sps:name-variant "Jacques de Tagrit"@fr . 
+swds:Person-3541-2 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-3 . 
+swds:Person-3541-3 sps:name-variant "ܝܥܩܘܒ"@syr . 
+swds:Person-3541-3 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-4 . 
+swds:Person-3541-4 sps:name-variant "ܣܘܐܪܐ ܒܪ ܫܟܟܘ"@syr . 
+swds:Person-3541-4 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-5 . 
+swds:Person-3541-5 sps:name-variant "Jacques de Bartella"@fr . 
+swds:Person-3541-5 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-6 . 
+swds:Person-3541-6 sps:name-variant "Sévère bar Šakku"@fr . 
+swds:Person-3541-6 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> sp:name-variant swds:Person-3541-7 . 
+swds:Person-3541-7 sps:name-variant "Jacques bar Šakko"@fr . 
+swds:Person-3541-7 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> swdt:floruit-notBefore "1050"^^xsd:gYear . 
+<http://syriaca.org/person/3541> sp:floruit-notBefore swds:floruit-notBefore-3541-1 . 
+swds:floruit-notBefore-3541-1 sps:floruit-notBefore "1050"^^xsd:gYear . 
+swds:floruit-notBefore-3541-1 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> swdt:floruit-notAfter "1350"^^xsd:gYear . 
+<http://syriaca.org/person/3541> sp:floruit-notAfter swds:floruit-notAfter-3541-1 . 
+swds:floruit-notAfter-3541-1 sps:floruit-notAfter "1350"^^xsd:gYear . 
+swds:floruit-notAfter-3541-1 spr:reference-URL <http://syriaca.org/person/3541.tei> . 
+<http://syriaca.org/person/3541> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/3541> sp:status swds:status-3541-1 . 
+swds:status-3541-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-3541-1 spr:reference-URL <http://syriaca.org/person/3541.tei> .

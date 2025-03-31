@@ -1,0 +1,70 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2138> rdf:type lawd:Person . 
+<http://syriaca.org/person/2138> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2138> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/2138> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/2138> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/2138> rdfs:label "ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ"@syr . 
+<http://syriaca.org/person/2138> rdfs:label "Anonymous 2138"@en . 
+<http://syriaca.org/person/2138> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/2138> foaf:primaryTopicOf <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> foaf:primaryTopicOf <http://syriaca.org/person/2138.html> . 
+<http://syriaca.org/person/2138> foaf:primaryTopicOf <http://syriaca.org/person/2138.ttl> . 
+<http://syriaca.org/person/2138> dcterms:hasFormat <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> dcterms:hasFormat <http://syriaca.org/person/2138.html> . 
+<http://syriaca.org/person/2138> dcterms:hasFormat <http://syriaca.org/person/2138.ttl> . 
+<http://syriaca.org/person/2138> schema:description "Anonymous 2138 is commemorated in Elder from Scete (text) , a work surviving in at least 2 manuscripts including ms Vatican, Syr. 126, f. 56-56v ."@en . 
+<http://syriaca.org/person/2138> swdt:name-variant "ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ"@syr . 
+<http://syriaca.org/person/2138> swdt:name-variant "Saba ḥad d-besqiṭi"@en-x-gedsh . 
+<http://syriaca.org/person/2138> swdt:name-variant "Elder from Scete"@en . 
+<http://syriaca.org/person/2138> swdt:name-variant "Vieillard de Scété"@fr . 
+<http://syriaca.org/person/2138> swdt:name-variant "Anonymous 2138"@en . 
+<http://syriaca.org/person/2138> sp:name-variant swds:Person-2138-1 . 
+swds:Person-2138-1 sps:name-variant "ܣܒܐ ܚܕ ܕܒܐܣܩܝܛܝ"@syr . 
+swds:Person-2138-1 spr:reference-URL <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> sp:name-variant swds:Person-2138-2 . 
+swds:Person-2138-2 sps:name-variant "Saba ḥad d-besqiṭi"@en-x-gedsh . 
+swds:Person-2138-2 spr:reference-URL <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> sp:name-variant swds:Person-2138-3 . 
+swds:Person-2138-3 sps:name-variant "Elder from Scete"@en . 
+swds:Person-2138-3 spr:reference-URL <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> sp:name-variant swds:Person-2138-4 . 
+swds:Person-2138-4 sps:name-variant "Vieillard de Scété"@fr . 
+swds:Person-2138-4 spr:reference-URL <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> sp:name-variant swds:Person-2138-5 . 
+swds:Person-2138-5 sps:name-variant "Anonymous 2138"@en . 
+swds:Person-2138-5 spr:reference-URL <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/2138> sp:status swds:status-2138-1 . 
+swds:status-2138-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-2138-1 spr:reference-URL <http://syriaca.org/person/2138.tei> . 
+<http://syriaca.org/person/2138> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/2138> sp:status swds:status-2138-2 . 
+swds:status-2138-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-2138-2 spr:reference-URL <http://syriaca.org/person/2138.tei> .

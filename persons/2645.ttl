@@ -1,0 +1,62 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2645> rdf:type lawd:Person . 
+<http://syriaca.org/person/2645> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2645> rdfs:label "Eugenia"@en . 
+<http://syriaca.org/person/2645> rdfs:label "ܐܘܓܢܝܐ ܡܫܡܫܢܝܬܐ ܐܪܝܫܬ ܕܝܪܐ"@syr . 
+<http://syriaca.org/person/2645> lawd:hasCitation <http://syriaca.org/cbss/4DVWZDNU> . 
+<http://syriaca.org/person/2645> lawd:hasCitation <http://syriaca.org/cbss/4DVWZDNU> . 
+<http://syriaca.org/person/2645> lawd:hasCitation <http://syriaca.org/cbss/4DVWZDNU> . 
+<http://syriaca.org/person/2645> lawd:hasCitation <http://syriaca.org/cbss/4DVWZDNU> . 
+<http://syriaca.org/person/2645> foaf:primaryTopicOf <http://syriaca.org/person/2645.tei> . 
+<http://syriaca.org/person/2645> foaf:primaryTopicOf <http://syriaca.org/person/2645.html> . 
+<http://syriaca.org/person/2645> foaf:primaryTopicOf <http://syriaca.org/person/2645.ttl> . 
+<http://syriaca.org/person/2645> dcterms:hasFormat <http://syriaca.org/person/2645.tei> . 
+<http://syriaca.org/person/2645> dcterms:hasFormat <http://syriaca.org/person/2645.html> . 
+<http://syriaca.org/person/2645> dcterms:hasFormat <http://syriaca.org/person/2645.ttl> . 
+<http://syriaca.org/person/2645> schema:description "A deaconess and archimandritess who received a letter from Severus"@en . 
+<http://syriaca.org/person/2645> swdt:name-variant "Eugenia"@en . 
+<http://syriaca.org/person/2645> swdt:name-variant "ܐܘܓܢܝܐ ܡܫܡܫܢܝܬܐ ܐܪܝܫܬ ܕܝܪܐ"@syr . 
+<http://syriaca.org/person/2645> sp:name-variant swds:Person-2645-1 . 
+swds:Person-2645-1 sps:name-variant "Eugenia"@en . 
+swds:Person-2645-1 spr:reference-URL <http://syriaca.org/person/2645.tei> . 
+<http://syriaca.org/person/2645> sp:name-variant swds:Person-2645-2 . 
+swds:Person-2645-2 sps:name-variant "ܐܘܓܢܝܐ ܡܫܡܫܢܝܬܐ ܐܪܝܫܬ ܕܝܪܐ"@syr . 
+swds:Person-2645-2 spr:reference-URL <http://syriaca.org/person/2645.tei> . 
+<http://syriaca.org/person/2645> swdt:floruit-notBefore "0500"^^xsd:gYear . 
+<http://syriaca.org/person/2645> sp:floruit-notBefore swds:floruit-notBefore-2645-1 . 
+swds:floruit-notBefore-2645-1 sps:floruit-notBefore "0500"^^xsd:gYear . 
+swds:floruit-notBefore-2645-1 spr:reference-URL <http://syriaca.org/person/2645.tei> . 
+<http://syriaca.org/person/2645> swdt:floruit-notAfter "0525"^^xsd:gYear . 
+<http://syriaca.org/person/2645> sp:floruit-notAfter swds:floruit-notAfter-2645-1 . 
+swds:floruit-notAfter-2645-1 sps:floruit-notAfter "0525"^^xsd:gYear . 
+swds:floruit-notAfter-2645-1 spr:reference-URL <http://syriaca.org/person/2645.tei> . 
+<http://syriaca.org/person/2645> swdt:gender <http://syriaca.org/taxonomy/women> . 
+<http://syriaca.org/person/2645> sp:gender swds:gender-2645-1 . 
+swds:gender-2645-1 sps:gender <http://syriaca.org/taxonomy/women> . 
+swds:gender-2645-1 spr:reference-URL <http://syriaca.org/person/2645.tei> .

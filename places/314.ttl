@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/314> rdf:type lawd:Place . 
+<http://syriaca.org/place/314> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/314> rdfs:label "Tel Maḥre"@en . 
+<http://syriaca.org/place/314> rdfs:label "ܬܠ ܡܚܪܝ"@syr . 
+<http://syriaca.org/place/314> lawd:hasCitation <http://syriaca.org/cbss/P8KQJ7AE> . 
+<http://syriaca.org/place/314> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/place/314> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/place/314> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/place/314> lawd:hasCitation <http://syriaca.org/cbss/HR6Q8B9F> . 
+<http://syriaca.org/place/314> foaf:primaryTopicOf <http://syriaca.org/place/314.tei> . 
+<http://syriaca.org/place/314> foaf:primaryTopicOf <http://syriaca.org/place/314.html> . 
+<http://syriaca.org/place/314> foaf:primaryTopicOf <http://syriaca.org/place/314.ttl> . 
+<http://syriaca.org/place/314> dcterms:hasFormat <http://syriaca.org/place/314.tei> . 
+<http://syriaca.org/place/314> dcterms:hasFormat <http://syriaca.org/place/314.html> . 
+<http://syriaca.org/place/314> dcterms:hasFormat <http://syriaca.org/place/314.ttl> . 
+<http://syriaca.org/place/314> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
+<http://syriaca.org/place/314> sp:place-type swds:place-type-314-1 . 
+swds:place-type-314-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
+swds:place-type-314-1 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> swdt:name-variant "Tel Maḥre"@en . 
+<http://syriaca.org/place/314> swdt:name-variant "ܬܠ ܡܚܪܝ"@syr . 
+<http://syriaca.org/place/314> swdt:name-variant "ܬܶܠ ܡܰܚܪܝ"@syr-Syrj . 
+<http://syriaca.org/place/314> swdt:name-variant "تلّ محرى"@ar . 
+<http://syriaca.org/place/314> swdt:name-variant "Tell Maḥre"@en . 
+<http://syriaca.org/place/314> swdt:name-variant "Tell al-Manakhir"@en . 
+<http://syriaca.org/place/314> swdt:name-variant "تل مَحْرى"@ar . 
+<http://syriaca.org/place/314> swdt:name-variant "تل بحرى"@ar . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-1 . 
+swds:Place-314-1 sps:name-variant "Tel Maḥre"@en . 
+swds:Place-314-1 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-2 . 
+swds:Place-314-2 sps:name-variant "ܬܠ ܡܚܪܝ"@syr . 
+swds:Place-314-2 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-3 . 
+swds:Place-314-3 sps:name-variant "ܬܶܠ ܡܰܚܪܝ"@syr-Syrj . 
+swds:Place-314-3 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-4 . 
+swds:Place-314-4 sps:name-variant "تلّ محرى"@ar . 
+swds:Place-314-4 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-5 . 
+swds:Place-314-5 sps:name-variant "Tell Maḥre"@en . 
+swds:Place-314-5 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-6 . 
+swds:Place-314-6 sps:name-variant "Tell al-Manakhir"@en . 
+swds:Place-314-6 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-7 . 
+swds:Place-314-7 sps:name-variant "تل مَحْرى"@ar . 
+swds:Place-314-7 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> sp:name-variant swds:Place-314-8 . 
+swds:Place-314-8 sps:name-variant "تل بحرى"@ar . 
+swds:Place-314-8 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> swdt:exist-from "0718"^^xsd:gYear . 
+<http://syriaca.org/place/314> sp:exist-from swds:exist-from-314-1 . 
+swds:exist-from-314-1 sps:exist-from "0718"^^xsd:gYear . 
+swds:exist-from-314-1 spr:reference-URL <http://syriaca.org/place/314> . 
+<http://syriaca.org/place/314> swdt:exist-to "0745"^^xsd:gYear . 
+<http://syriaca.org/place/314> sp:exist-to swds:exist-to-314-1 . 
+swds:exist-to-314-1 sps:exist-to "0745"^^xsd:gYear . 
+swds:exist-to-314-1 spr:reference-URL <http://syriaca.org/place/314.tei> .

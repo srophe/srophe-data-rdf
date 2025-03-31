@@ -1,0 +1,118 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/669> rdf:type lawd:Person . 
+<http://syriaca.org/person/669> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/669> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/669> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/669> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/669> rdfs:label "ܦܦܐ ܒܪ ܥܓܝ"@syr . 
+<http://syriaca.org/person/669> rdfs:label "Papa bar ʿAggai"@en . 
+<http://syriaca.org/person/669> lawd:hasCitation <http://syriaca.org/cbss/3FB84FPW> . 
+<http://syriaca.org/person/669> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/669> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/669> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/669> foaf:primaryTopicOf <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> foaf:primaryTopicOf <http://syriaca.org/person/669.html> . 
+<http://syriaca.org/person/669> foaf:primaryTopicOf <http://syriaca.org/person/669.ttl> . 
+<http://syriaca.org/person/669> dcterms:hasFormat <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> dcterms:hasFormat <http://syriaca.org/person/669.html> . 
+<http://syriaca.org/person/669> dcterms:hasFormat <http://syriaca.org/person/669.ttl> . 
+<http://syriaca.org/person/669> schema:description "Bp. of Seleucia-Ctesiphon."@en . 
+<http://syriaca.org/person/669> schema:description "In hagiography: Papa was a early patriarch of the Church of the East."@en . 
+<http://syriaca.org/person/669> swdt:name-variant "Papa bar ʿAggai"@en-x-gedsh . 
+<http://syriaca.org/person/669> swdt:name-variant "ܦܦܐ ܒܪ ܥܓܝ"@syr . 
+<http://syriaca.org/person/669> swdt:name-variant "Papa of Seleucia"@en . 
+<http://syriaca.org/person/669> swdt:name-variant "Papa bar Aggai"@en-x-srp1 . 
+<http://syriaca.org/person/669> swdt:name-variant "Papa bar ‘Aggai"@en-x-srp1 . 
+<http://syriaca.org/person/669> swdt:name-variant "Papa, patriarch of the Church of the East"@en . 
+<http://syriaca.org/person/669> swdt:name-variant "PĀPĀ, Patriarch"@fr-x-fiey . 
+<http://syriaca.org/person/669> swdt:name-variant "Papa bar ʿAggai"@en . 
+<http://syriaca.org/person/669> swdt:name-variant "Pàpā bar ʿAggai"@de-x-baumstrk . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-1 . 
+swds:Person-669-1 sps:name-variant "Papa bar ʿAggai"@en-x-gedsh . 
+swds:Person-669-1 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-2 . 
+swds:Person-669-2 sps:name-variant "ܦܦܐ ܒܪ ܥܓܝ"@syr . 
+swds:Person-669-2 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-3 . 
+swds:Person-669-3 sps:name-variant "Papa of Seleucia"@en . 
+swds:Person-669-3 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-4 . 
+swds:Person-669-4 sps:name-variant "Papa bar Aggai"@en-x-srp1 . 
+swds:Person-669-4 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-5 . 
+swds:Person-669-5 sps:name-variant "Papa bar ‘Aggai"@en-x-srp1 . 
+swds:Person-669-5 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-6 . 
+swds:Person-669-6 sps:name-variant "Papa, patriarch of the Church of the East"@en . 
+swds:Person-669-6 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-7 . 
+swds:Person-669-7 sps:name-variant "PĀPĀ, Patriarch"@fr-x-fiey . 
+swds:Person-669-7 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-8 . 
+swds:Person-669-8 sps:name-variant "Papa bar ʿAggai"@en . 
+swds:Person-669-8 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> sp:name-variant swds:Person-669-9 . 
+swds:Person-669-9 sps:name-variant "Pàpā bar ʿAggai"@de-x-baumstrk . 
+swds:Person-669-9 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_669" . 
+<http://syriaca.org/person/669> sp:closeMatch swds:closeMatch-669-1 . 
+swds:closeMatch-669-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_669" . 
+swds:closeMatch-669-1 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Papa of Seleucia&sT=keywords" . 
+<http://syriaca.org/person/669> sp:closeMatch swds:closeMatch-669-2 . 
+swds:closeMatch-669-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Papa of Seleucia&sT=keywords" . 
+swds:closeMatch-669-2 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:birth-when "0280"^^xsd:gYear . 
+<http://syriaca.org/person/669> sp:birth-when swds:birth-when-669-1 . 
+swds:birth-when-669-1 sps:birth-when "0280"^^xsd:gYear . 
+swds:birth-when-669-1 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:death-when "0317"^^xsd:gYear . 
+<http://syriaca.org/person/669> sp:death-when swds:death-when-669-1 . 
+swds:death-when-669-1 sps:death-when "0317"^^xsd:gYear . 
+swds:death-when-669-1 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:death-notBefore "0327"^^xsd:gYear . 
+<http://syriaca.org/person/669> sp:death-notBefore swds:death-notBefore-669-2 . 
+swds:death-notBefore-669-2 sps:death-notBefore "0327"^^xsd:gYear . 
+swds:death-notBefore-669-2 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:death-notAfter "0335"^^xsd:gYear . 
+<http://syriaca.org/person/669> sp:death-notAfter swds:death-notAfter-669-2 . 
+swds:death-notAfter-669-2 sps:death-notAfter "0335"^^xsd:gYear . 
+swds:death-notAfter-669-2 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/669> sp:gender swds:gender-669-1 . 
+swds:gender-669-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-669-1 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/669> sp:status swds:status-669-1 . 
+swds:status-669-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-669-1 spr:reference-URL <http://syriaca.org/person/669.tei> . 
+<http://syriaca.org/person/669> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/669> sp:status swds:status-669-2 . 
+swds:status-669-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-669-2 spr:reference-URL <http://syriaca.org/person/669.tei> .

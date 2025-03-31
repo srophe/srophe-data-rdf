@@ -1,0 +1,75 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/758> rdf:type lawd:Person . 
+<http://syriaca.org/person/758> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/758> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/758> rdfs:label "Strothmann , Werner"@en . 
+<http://syriaca.org/person/758> lawd:hasCitation <http://syriaca.org/cbss/QTB67U4H> . 
+<http://syriaca.org/person/758> foaf:primaryTopicOf <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> foaf:primaryTopicOf <http://syriaca.org/person/758.html> . 
+<http://syriaca.org/person/758> foaf:primaryTopicOf <http://syriaca.org/person/758.ttl> . 
+<http://syriaca.org/person/758> dcterms:hasFormat <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> dcterms:hasFormat <http://syriaca.org/person/758.html> . 
+<http://syriaca.org/person/758> dcterms:hasFormat <http://syriaca.org/person/758.ttl> . 
+<http://syriaca.org/person/758> schema:description "Protestant theologian; scholar of Syriac and Near-Eastern studies."@en . 
+<http://syriaca.org/person/758> swdt:name-variant "Strothmann , Werner"@en . 
+<http://syriaca.org/person/758> swdt:name-variant "Strothmann , Werner"@en-x-gedsh . 
+<http://syriaca.org/person/758> sp:name-variant swds:Person-758-1 . 
+swds:Person-758-1 sps:name-variant "Strothmann , Werner"@en . 
+swds:Person-758-1 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> sp:name-variant swds:Person-758-2 . 
+swds:Person-758-2 sps:name-variant "Strothmann , Werner"@en-x-gedsh . 
+swds:Person-758-2 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_758" . 
+<http://syriaca.org/person/758> sp:closeMatch swds:closeMatch-758-1 . 
+swds:closeMatch-758-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_758" . 
+swds:closeMatch-758-1 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:closeMatch "http://viaf.org/viaf/88951243" . 
+<http://syriaca.org/person/758> sp:closeMatch swds:closeMatch-758-2 . 
+swds:closeMatch-758-2 sps:closeMatch "http://viaf.org/viaf/88951243" . 
+swds:closeMatch-758-2 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:closeMatch "http://worldcat.org/identities/lccn-n82-32125" . 
+<http://syriaca.org/person/758> sp:closeMatch swds:closeMatch-758-3 . 
+swds:closeMatch-758-3 sps:closeMatch "http://worldcat.org/identities/lccn-n82-32125" . 
+swds:closeMatch-758-3 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:closeMatch "http://viaf.org/viaf/15879114" . 
+<http://syriaca.org/person/758> sp:closeMatch swds:closeMatch-758-4 . 
+swds:closeMatch-758-4 sps:closeMatch "http://viaf.org/viaf/15879114" . 
+swds:closeMatch-758-4 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:birth-when "1907-02-23"^^xsd:date . 
+<http://syriaca.org/person/758> sp:birth-when swds:birth-when-758-1 . 
+swds:birth-when-758-1 sps:birth-when "1907-02-23"^^xsd:date . 
+swds:birth-when-758-1 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:death-when "1996-06-19"^^xsd:date . 
+<http://syriaca.org/person/758> sp:death-when swds:death-when-758-1 . 
+swds:death-when-758-1 sps:death-when "1996-06-19"^^xsd:date . 
+swds:death-when-758-1 spr:reference-URL <http://syriaca.org/person/758.tei> . 
+<http://syriaca.org/person/758> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/758> sp:status swds:status-758-1 . 
+swds:status-758-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-758-1 spr:reference-URL <http://syriaca.org/person/758.tei> .

@@ -1,0 +1,127 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/49> rdf:type lawd:Person . 
+<http://syriaca.org/person/49> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/49> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/49> rdfs:label "Sergius of Reshʿayna"@en . 
+<http://syriaca.org/person/49> rdfs:label "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/PSIQYEVG> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/49> lawd:hasCitation <http://syriaca.org/cbss/B5GPIGPS> . 
+<http://syriaca.org/person/49> foaf:primaryTopicOf <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> foaf:primaryTopicOf <http://syriaca.org/person/49.html> . 
+<http://syriaca.org/person/49> foaf:primaryTopicOf <http://syriaca.org/person/49.ttl> . 
+<http://syriaca.org/person/49> dcterms:hasFormat <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> dcterms:hasFormat <http://syriaca.org/person/49.html> . 
+<http://syriaca.org/person/49> dcterms:hasFormat <http://syriaca.org/person/49.ttl> . 
+<http://syriaca.org/person/49> schema:description "Translator of Greek medical and philosophical texts into Syriac."@en . 
+<http://syriaca.org/person/49> foaf:relation <http://syriaca.org/place/172> . 
+<http://syriaca.org/person/49> foaf:relation <http://syriaca.org/place/586> . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergios of Reshʿayna"@en-x-gedsh . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergius of Reshʿayna"@en . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergius of Rish ‛Ayna"@en . 
+<http://syriaca.org/person/49> swdt:name-variant "سرجيس الراسعني"@ar . 
+<http://syriaca.org/person/49> swdt:name-variant "ܣܪܓܝܣ ܪܝܫܥܝܢܝܐ"@syr . 
+<http://syriaca.org/person/49> swdt:name-variant "ܣܰܪܓܝܣ ܪܺܝܫܥܰܝܢܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/49> swdt:name-variant "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr . 
+<http://syriaca.org/person/49> swdt:name-variant "ܣܲܪܓܝܼܣ ܪܹܫܥܲܝܢܵܝܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergios of Reshayna"@en-x-srp1 . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergios of Resh‘ayna"@en-x-srp1 . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergius of Reshʿaina"@en . 
+<http://syriaca.org/person/49> swdt:name-variant "Sergius (Sargis) e Resh'aina"@la . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-1 . 
+swds:Person-49-1 sps:name-variant "Sergios of Reshʿayna"@en-x-gedsh . 
+swds:Person-49-1 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-2 . 
+swds:Person-49-2 sps:name-variant "Sergius of Reshʿayna"@en . 
+swds:Person-49-2 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-3 . 
+swds:Person-49-3 sps:name-variant "Sergius of Rish ‛Ayna"@en . 
+swds:Person-49-3 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-4 . 
+swds:Person-49-4 sps:name-variant "سرجيس الراسعني"@ar . 
+swds:Person-49-4 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-5 . 
+swds:Person-49-5 sps:name-variant "ܣܪܓܝܣ ܪܝܫܥܝܢܝܐ"@syr . 
+swds:Person-49-5 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-6 . 
+swds:Person-49-6 sps:name-variant "ܣܰܪܓܝܣ ܪܺܝܫܥܰܝܢܳܝܐ"@syr-Syrj . 
+swds:Person-49-6 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-7 . 
+swds:Person-49-7 sps:name-variant "ܣܪܓܝܣ ܪܫܥܝܢܝܐ"@syr . 
+swds:Person-49-7 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-8 . 
+swds:Person-49-8 sps:name-variant "ܣܲܪܓܝܼܣ ܪܹܫܥܲܝܢܵܝܵܐ"@syr-Syrn . 
+swds:Person-49-8 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-9 . 
+swds:Person-49-9 sps:name-variant "Sergios of Reshayna"@en-x-srp1 . 
+swds:Person-49-9 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-10 . 
+swds:Person-49-10 sps:name-variant "Sergios of Resh‘ayna"@en-x-srp1 . 
+swds:Person-49-10 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-11 . 
+swds:Person-49-11 sps:name-variant "Sergius of Reshʿaina"@en . 
+swds:Person-49-11 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> sp:name-variant swds:Person-49-12 . 
+swds:Person-49-12 sps:name-variant "Sergius (Sargis) e Resh'aina"@la . 
+swds:Person-49-12 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_49" . 
+<http://syriaca.org/person/49> sp:closeMatch swds:closeMatch-49-1 . 
+swds:closeMatch-49-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_49" . 
+swds:closeMatch-49-1 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:closeMatch "http://viaf.org/viaf/103637653" . 
+<http://syriaca.org/person/49> sp:closeMatch swds:closeMatch-49-2 . 
+swds:closeMatch-49-2 sps:closeMatch "http://viaf.org/viaf/103637653" . 
+swds:closeMatch-49-2 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:closeMatch "http://viaf.org/viaf/313570665" . 
+<http://syriaca.org/person/49> sp:closeMatch swds:closeMatch-49-3 . 
+swds:closeMatch-49-3 sps:closeMatch "http://viaf.org/viaf/313570665" . 
+swds:closeMatch-49-3 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:death-when "0536"^^xsd:gYear . 
+<http://syriaca.org/person/49> sp:death-when swds:death-when-49-1 . 
+swds:death-when-49-1 sps:death-when "0536"^^xsd:gYear . 
+swds:death-when-49-1 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:birth-place <http://syriaca.org/place/172> . 
+<http://syriaca.org/person/49> sp:birth-place swds:birth-place-49-1 . 
+swds:birth-place-49-1 sps:birth-place <http://syriaca.org/place/172> . 
+swds:birth-place-49-1 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:death-place <http://syriaca.org/place/586> . 
+<http://syriaca.org/person/49> sp:death-place swds:death-place-49-1 . 
+swds:death-place-49-1 sps:death-place <http://syriaca.org/place/586> . 
+swds:death-place-49-1 spr:reference-URL <http://syriaca.org/person/49.tei> . 
+<http://syriaca.org/person/49> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/49> sp:status swds:status-49-1 . 
+swds:status-49-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-49-1 spr:reference-URL <http://syriaca.org/person/49.tei> .

@@ -1,0 +1,95 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/204> rdf:type lawd:Person . 
+<http://syriaca.org/person/204> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/204> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/204> rdfs:label "Eudochus of Melitene"@en . 
+<http://syriaca.org/person/204> rdfs:label "ܐܒܕܘܟܘܣ ܡܝܠܝܛܝܢܝܐ"@syr . 
+<http://syriaca.org/person/204> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/204> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/204> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/204> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/204> foaf:primaryTopicOf <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> foaf:primaryTopicOf <http://syriaca.org/person/204.html> . 
+<http://syriaca.org/person/204> foaf:primaryTopicOf <http://syriaca.org/person/204.ttl> . 
+<http://syriaca.org/person/204> dcterms:hasFormat <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> dcterms:hasFormat <http://syriaca.org/person/204.html> . 
+<http://syriaca.org/person/204> dcterms:hasFormat <http://syriaca.org/person/204.ttl> . 
+<http://syriaca.org/person/204> foaf:relation <http://syriaca.org/place/136> . 
+<http://syriaca.org/person/204> swdt:name-variant "Eudochus of Melitene"@en . 
+<http://syriaca.org/person/204> swdt:name-variant "The Priest Ebdocos of Melitene"@en . 
+<http://syriaca.org/person/204> swdt:name-variant "القس ابدوكوس الملطي"@ar . 
+<http://syriaca.org/person/204> swdt:name-variant "ܩܫܝܫܐ ܐܒܕܘܟܘܣ ܡܝܠܝܛܝܢܝܐ"@syr . 
+<http://syriaca.org/person/204> swdt:name-variant "ܩܰܫܝܫܳܐ ܐܰܒܕܘܟܘܣ ܡܝܠܝܛܝܢܳܝܐ"@syr-Syrj . 
+<http://syriaca.org/person/204> swdt:name-variant "ܐܒܕܘܟܘܣ ܡܝܠܝܛܝܢܝܐ"@syr . 
+<http://syriaca.org/person/204> swdt:name-variant "Ebdokhos of Melitene"@en-x-gedsh . 
+<http://syriaca.org/person/204> swdt:name-variant "Eudochus of Melitene"@en . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-1 . 
+swds:Person-204-1 sps:name-variant "Eudochus of Melitene"@en . 
+swds:Person-204-1 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-2 . 
+swds:Person-204-2 sps:name-variant "The Priest Ebdocos of Melitene"@en . 
+swds:Person-204-2 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-3 . 
+swds:Person-204-3 sps:name-variant "القس ابدوكوس الملطي"@ar . 
+swds:Person-204-3 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-4 . 
+swds:Person-204-4 sps:name-variant "ܩܫܝܫܐ ܐܒܕܘܟܘܣ ܡܝܠܝܛܝܢܝܐ"@syr . 
+swds:Person-204-4 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-5 . 
+swds:Person-204-5 sps:name-variant "ܩܰܫܝܫܳܐ ܐܰܒܕܘܟܘܣ ܡܝܠܝܛܝܢܳܝܐ"@syr-Syrj . 
+swds:Person-204-5 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-6 . 
+swds:Person-204-6 sps:name-variant "ܐܒܕܘܟܘܣ ܡܝܠܝܛܝܢܝܐ"@syr . 
+swds:Person-204-6 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-7 . 
+swds:Person-204-7 sps:name-variant "Ebdokhos of Melitene"@en-x-gedsh . 
+swds:Person-204-7 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> sp:name-variant swds:Person-204-8 . 
+swds:Person-204-8 sps:name-variant "Eudochus of Melitene"@en . 
+swds:Person-204-8 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_204" . 
+<http://syriaca.org/person/204> sp:closeMatch swds:closeMatch-204-1 . 
+swds:closeMatch-204-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_204" . 
+swds:closeMatch-204-1 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> swdt:floruit-notBefore "1100"^^xsd:gYear . 
+<http://syriaca.org/person/204> sp:floruit-notBefore swds:floruit-notBefore-204-1 . 
+swds:floruit-notBefore-204-1 sps:floruit-notBefore "1100"^^xsd:gYear . 
+swds:floruit-notBefore-204-1 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> swdt:floruit-notAfter "1200"^^xsd:gYear . 
+<http://syriaca.org/person/204> sp:floruit-notAfter swds:floruit-notAfter-204-1 . 
+swds:floruit-notAfter-204-1 sps:floruit-notAfter "1200"^^xsd:gYear . 
+swds:floruit-notAfter-204-1 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
+<http://syriaca.org/person/204> sp:occupation swds:occupation-204-1 . 
+swds:occupation-204-1 sps:occupation <http://syriaca.org/taxonomy/priests> . 
+swds:occupation-204-1 spr:reference-URL <http://syriaca.org/person/204.tei> . 
+<http://syriaca.org/person/204> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/204> sp:status swds:status-204-1 . 
+swds:status-204-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-204-1 spr:reference-URL <http://syriaca.org/person/204.tei> .

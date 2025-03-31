@@ -1,0 +1,104 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2806> rdf:type lawd:Person . 
+<http://syriaca.org/person/2806> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2806> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/2806> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/2806> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/2806> rdfs:label "Cyril of Scythopolis"@en-x-gedsh . 
+<http://syriaca.org/person/2806> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/2806> lawd:hasCitation <http://syriaca.org/cbss/7KHEGNTX> . 
+<http://syriaca.org/person/2806> lawd:hasCitation <http://syriaca.org/cbss/BJFJXJJE> . 
+<http://syriaca.org/person/2806> foaf:primaryTopicOf <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> foaf:primaryTopicOf <http://syriaca.org/person/2806.html> . 
+<http://syriaca.org/person/2806> foaf:primaryTopicOf <http://syriaca.org/person/2806.ttl> . 
+<http://syriaca.org/person/2806> dcterms:hasFormat <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> dcterms:hasFormat <http://syriaca.org/person/2806.html> . 
+<http://syriaca.org/person/2806> dcterms:hasFormat <http://syriaca.org/person/2806.ttl> . 
+<http://syriaca.org/person/2806> schema:description "A 6th-century monk who lived in several of the Palestinian monasteries and the author of several hagiographic works about Palestinian monks, including one about Euthymius that is extant in Syriac"@en . 
+<http://syriaca.org/person/2806> foaf:relation <http://syriaca.org/place/180> . 
+<http://syriaca.org/person/2806> swdt:name-variant "Cyril of Scythopolis"@en-x-gedsh . 
+<http://syriaca.org/person/2806> swdt:name-variant "Cyril of Skythopolis"@en . 
+<http://syriaca.org/person/2806> swdt:name-variant "Cyrille de Scythopolis"@fr . 
+<http://syriaca.org/person/2806> sp:name-variant swds:Person-2806-1 . 
+swds:Person-2806-1 sps:name-variant "Cyril of Scythopolis"@en-x-gedsh . 
+swds:Person-2806-1 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> sp:name-variant swds:Person-2806-2 . 
+swds:Person-2806-2 sps:name-variant "Cyril of Skythopolis"@en . 
+swds:Person-2806-2 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> sp:name-variant swds:Person-2806-3 . 
+swds:Person-2806-3 sps:name-variant "Cyrille de Scythopolis"@fr . 
+swds:Person-2806-3 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "http://viaf.org/viaf/8181483" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-1 . 
+swds:closeMatch-2806-1 sps:closeMatch "http://viaf.org/viaf/8181483" . 
+swds:closeMatch-2806-1 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "http://viaf.org/viaf/266919972" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-2 . 
+swds:closeMatch-2806-2 sps:closeMatch "http://viaf.org/viaf/266919972" . 
+swds:closeMatch-2806-2 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "http://viaf.org/viaf/76481147" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-3 . 
+swds:closeMatch-2806-3 sps:closeMatch "http://viaf.org/viaf/76481147" . 
+swds:closeMatch-2806-3 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "http://viaf.org/viaf/348145857919823020651" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-4 . 
+swds:closeMatch-2806-4 sps:closeMatch "http://viaf.org/viaf/348145857919823020651" . 
+swds:closeMatch-2806-4 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "http://viaf.org/viaf/355145856884222920398" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-5 . 
+swds:closeMatch-2806-5 sps:closeMatch "http://viaf.org/viaf/355145856884222920398" . 
+swds:closeMatch-2806-5 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "http://pinakes.irht.cnrs.fr/notices/auteur/843/" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-6 . 
+swds:closeMatch-2806-6 sps:closeMatch "http://pinakes.irht.cnrs.fr/notices/auteur/843/" . 
+swds:closeMatch-2806-6 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:closeMatch "https://en.wikipedia.org/wiki/Cyril_of_Scythopolis" . 
+<http://syriaca.org/person/2806> sp:closeMatch swds:closeMatch-2806-7 . 
+swds:closeMatch-2806-7 sps:closeMatch "https://en.wikipedia.org/wiki/Cyril_of_Scythopolis" . 
+swds:closeMatch-2806-7 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:birth-notBefore "0520"^^xsd:gYear . 
+<http://syriaca.org/person/2806> sp:birth-notBefore swds:birth-notBefore-2806-1 . 
+swds:birth-notBefore-2806-1 sps:birth-notBefore "0520"^^xsd:gYear . 
+swds:birth-notBefore-2806-1 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:birth-notAfter "0530"^^xsd:gYear . 
+<http://syriaca.org/person/2806> sp:birth-notAfter swds:birth-notAfter-2806-1 . 
+swds:birth-notAfter-2806-1 sps:birth-notAfter "0530"^^xsd:gYear . 
+swds:birth-notAfter-2806-1 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:death-notBefore "0557"^^xsd:gYear . 
+<http://syriaca.org/person/2806> sp:death-notBefore swds:death-notBefore-2806-1 . 
+swds:death-notBefore-2806-1 sps:death-notBefore "0557"^^xsd:gYear . 
+swds:death-notBefore-2806-1 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/2806> sp:status swds:status-2806-1 . 
+swds:status-2806-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-2806-1 spr:reference-URL <http://syriaca.org/person/2806.tei> . 
+<http://syriaca.org/person/2806> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/2806> sp:status swds:status-2806-2 . 
+swds:status-2806-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-2806-2 spr:reference-URL <http://syriaca.org/person/2806.tei> .

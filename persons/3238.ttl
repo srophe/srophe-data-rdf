@@ -1,0 +1,79 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3238> rdf:type lawd:Person . 
+<http://syriaca.org/person/3238> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3238> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/3238> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/3238> rdfs:label "Menas"@en . 
+<http://syriaca.org/person/3238> rdfs:label "ܡܐܝܢܐ"@syr . 
+<http://syriaca.org/person/3238> lawd:hasCitation <http://syriaca.org/cbss/PHMZMM3R> . 
+<http://syriaca.org/person/3238> lawd:hasCitation <http://syriaca.org/cbss/RNEJVB6D> . 
+<http://syriaca.org/person/3238> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/3238> lawd:hasCitation <http://syriaca.org/cbss/JLMCGNS9> . 
+<http://syriaca.org/person/3238> lawd:hasCitation <http://syriaca.org/cbss/BJFJXJJE> . 
+<http://syriaca.org/person/3238> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/3238> foaf:primaryTopicOf <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> foaf:primaryTopicOf <http://syriaca.org/person/3238.html> . 
+<http://syriaca.org/person/3238> foaf:primaryTopicOf <http://syriaca.org/person/3238.ttl> . 
+<http://syriaca.org/person/3238> dcterms:hasFormat <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> dcterms:hasFormat <http://syriaca.org/person/3238.html> . 
+<http://syriaca.org/person/3238> dcterms:hasFormat <http://syriaca.org/person/3238.ttl> . 
+<http://syriaca.org/person/3238> schema:description "Patriarch of Constantinople"@en . 
+<http://syriaca.org/person/3238> schema:description "Before his accession to the episcopal throne of Constantinople, Menas, of Alexandrian origin, was director of the hospice of Samson. As patriarch, Menas defended the orthodoxy of the council of Chalcedon and supported Justinian in his condemnation of the Three Chapters and of Origenism, which brought him into repeated conflicts with the Roman bishop Vigilius."@en . 
+<http://syriaca.org/person/3238> swdt:name-variant "Menas"@en . 
+<http://syriaca.org/person/3238> swdt:name-variant "Menas (patriarch of Constantinople)"@en . 
+<http://syriaca.org/person/3238> swdt:name-variant "ܡܐܝܢܐ"@syr . 
+<http://syriaca.org/person/3238> swdt:name-variant "Menas Constantinopolitanus"@en . 
+<http://syriaca.org/person/3238> sp:name-variant swds:Person-3238-1 . 
+swds:Person-3238-1 sps:name-variant "Menas"@en . 
+swds:Person-3238-1 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> sp:name-variant swds:Person-3238-2 . 
+swds:Person-3238-2 sps:name-variant "Menas (patriarch of Constantinople)"@en . 
+swds:Person-3238-2 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> sp:name-variant swds:Person-3238-3 . 
+swds:Person-3238-3 sps:name-variant "ܡܐܝܢܐ"@syr . 
+swds:Person-3238-3 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> sp:name-variant swds:Person-3238-4 . 
+swds:Person-3238-4 sps:name-variant "Menas Constantinopolitanus"@en . 
+swds:Person-3238-4 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> swdt:closeMatch "https://en.wikipedia.org/wiki/Menas_of_Constantinople" . 
+<http://syriaca.org/person/3238> sp:closeMatch swds:closeMatch-3238-1 . 
+swds:closeMatch-3238-1 sps:closeMatch "https://en.wikipedia.org/wiki/Menas_of_Constantinople" . 
+swds:closeMatch-3238-1 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> swdt:floruit-notBefore "0536-03-13"^^xsd:date . 
+<http://syriaca.org/person/3238> sp:floruit-notBefore swds:floruit-notBefore-3238-1 . 
+swds:floruit-notBefore-3238-1 sps:floruit-notBefore "0536-03-13"^^xsd:date . 
+swds:floruit-notBefore-3238-1 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> swdt:death-when "0552-08-25"^^xsd:date . 
+<http://syriaca.org/person/3238> sp:death-when swds:death-when-3238-1 . 
+swds:death-when-3238-1 sps:death-when "0552-08-25"^^xsd:date . 
+swds:death-when-3238-1 spr:reference-URL <http://syriaca.org/person/3238.tei> . 
+<http://syriaca.org/person/3238> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/3238> sp:gender swds:gender-3238-1 . 
+swds:gender-3238-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-3238-1 spr:reference-URL <http://syriaca.org/person/3238.tei> .

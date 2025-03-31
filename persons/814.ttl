@@ -1,0 +1,72 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/814> rdf:type lawd:Person . 
+<http://syriaca.org/person/814> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/814> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/814> rdfs:label "ܝܘܣܦ ܕܒܝܬ ܩܠܝܬܐ"@syr . 
+<http://syriaca.org/person/814> rdfs:label "Joseph of Beth Qelayta"@en . 
+<http://syriaca.org/person/814> lawd:hasCitation <http://syriaca.org/cbss/UUPJFKAX> . 
+<http://syriaca.org/person/814> foaf:primaryTopicOf <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> foaf:primaryTopicOf <http://syriaca.org/person/814.html> . 
+<http://syriaca.org/person/814> foaf:primaryTopicOf <http://syriaca.org/person/814.ttl> . 
+<http://syriaca.org/person/814> dcterms:hasFormat <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> dcterms:hasFormat <http://syriaca.org/person/814.html> . 
+<http://syriaca.org/person/814> dcterms:hasFormat <http://syriaca.org/person/814.ttl> . 
+<http://syriaca.org/person/814> schema:description "Printer, educator, and scholar."@en . 
+<http://syriaca.org/person/814> swdt:name-variant "Yawsep d-Beth Qelayta"@en-x-gedsh . 
+<http://syriaca.org/person/814> swdt:name-variant "ܝܘܣܦ ܕܒܝܬ ܩܠܝܬܐ"@syr . 
+<http://syriaca.org/person/814> swdt:name-variant "Joseph of Beth Qelayta"@en . 
+<http://syriaca.org/person/814> sp:name-variant swds:Person-814-1 . 
+swds:Person-814-1 sps:name-variant "Yawsep d-Beth Qelayta"@en-x-gedsh . 
+swds:Person-814-1 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> sp:name-variant swds:Person-814-2 . 
+swds:Person-814-2 sps:name-variant "ܝܘܣܦ ܕܒܝܬ ܩܠܝܬܐ"@syr . 
+swds:Person-814-2 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> sp:name-variant swds:Person-814-3 . 
+swds:Person-814-3 sps:name-variant "Joseph of Beth Qelayta"@en . 
+swds:Person-814-3 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_814" . 
+<http://syriaca.org/person/814> sp:closeMatch swds:closeMatch-814-1 . 
+swds:closeMatch-814-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_814" . 
+swds:closeMatch-814-1 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> swdt:birth-notBefore "1855"^^xsd:gYear . 
+<http://syriaca.org/person/814> sp:birth-notBefore swds:birth-notBefore-814-1 . 
+swds:birth-notBefore-814-1 sps:birth-notBefore "1855"^^xsd:gYear . 
+swds:birth-notBefore-814-1 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> swdt:birth-notAfter "1885"^^xsd:gYear . 
+<http://syriaca.org/person/814> sp:birth-notAfter swds:birth-notAfter-814-1 . 
+swds:birth-notAfter-814-1 sps:birth-notAfter "1885"^^xsd:gYear . 
+swds:birth-notAfter-814-1 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> swdt:death-when "1952"^^xsd:gYear . 
+<http://syriaca.org/person/814> sp:death-when swds:death-when-814-1 . 
+swds:death-when-814-1 sps:death-when "1952"^^xsd:gYear . 
+swds:death-when-814-1 spr:reference-URL <http://syriaca.org/person/814.tei> . 
+<http://syriaca.org/person/814> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/814> sp:status swds:status-814-1 . 
+swds:status-814-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-814-1 spr:reference-URL <http://syriaca.org/person/814.tei> .

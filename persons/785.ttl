@@ -1,0 +1,109 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/785> rdf:type lawd:Person . 
+<http://syriaca.org/person/785> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/785> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/785> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/785> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/785> rdfs:label "ܬܐܘܕܘܛܘܣ ܕܐܡܝܕܐ"@syr . 
+<http://syriaca.org/person/785> rdfs:label "Theodotus of Amid"@en . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/98TSICKX> . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/EYIRR374> . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/QQAC94V9> . 
+<http://syriaca.org/person/785> lawd:hasCitation <http://syriaca.org/cbss/HRGBNBT5> . 
+<http://syriaca.org/person/785> foaf:primaryTopicOf <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> foaf:primaryTopicOf <http://syriaca.org/person/785.html> . 
+<http://syriaca.org/person/785> foaf:primaryTopicOf <http://syriaca.org/person/785.ttl> . 
+<http://syriaca.org/person/785> dcterms:hasFormat <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> dcterms:hasFormat <http://syriaca.org/person/785.html> . 
+<http://syriaca.org/person/785> dcterms:hasFormat <http://syriaca.org/person/785.ttl> . 
+<http://syriaca.org/person/785> schema:description "Holy man and bp. His Syr. name is written with final ālaph , which has led modern scholars to read ‘Theodota’ or ‘Theodote’."@en . 
+<http://syriaca.org/person/785> schema:description "In hagiography: Theodute was the Bishop of Amida. He was born in Ingilene and was a monk at Qenneshrin. He served the poor. He taught chant to the monks at Qartmin. He was known to travel with a bag full of relics to use in healing others."@en . 
+<http://syriaca.org/person/785> swdt:name-variant "Theodotos of Amid"@en-x-gedsh . 
+<http://syriaca.org/person/785> swdt:name-variant "ܬܐܘܕܘܛܘܣ ܕܐܡܝܕܐ"@syr . 
+<http://syriaca.org/person/785> swdt:name-variant "Theodotus of Amid"@en . 
+<http://syriaca.org/person/785> swdt:name-variant "Theodotus of Amida"@en . 
+<http://syriaca.org/person/785> swdt:name-variant "Theodute of Amida"@en . 
+<http://syriaca.org/person/785> swdt:name-variant "Theodotus"@en . 
+<http://syriaca.org/person/785> swdt:name-variant "Théodote d’Amid"@fr . 
+<http://syriaca.org/person/785> swdt:name-variant "THÉODOTE"@fr-x-fiey . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-1 . 
+swds:Person-785-1 sps:name-variant "Theodotos of Amid"@en-x-gedsh . 
+swds:Person-785-1 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-2 . 
+swds:Person-785-2 sps:name-variant "ܬܐܘܕܘܛܘܣ ܕܐܡܝܕܐ"@syr . 
+swds:Person-785-2 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-3 . 
+swds:Person-785-3 sps:name-variant "Theodotus of Amid"@en . 
+swds:Person-785-3 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-4 . 
+swds:Person-785-4 sps:name-variant "Theodotus of Amida"@en . 
+swds:Person-785-4 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-5 . 
+swds:Person-785-5 sps:name-variant "Theodute of Amida"@en . 
+swds:Person-785-5 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-6 . 
+swds:Person-785-6 sps:name-variant "Theodotus"@en . 
+swds:Person-785-6 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-7 . 
+swds:Person-785-7 sps:name-variant "Théodote d’Amid"@fr . 
+swds:Person-785-7 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> sp:name-variant swds:Person-785-8 . 
+swds:Person-785-8 sps:name-variant "THÉODOTE"@fr-x-fiey . 
+swds:Person-785-8 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_785" . 
+<http://syriaca.org/person/785> sp:closeMatch swds:closeMatch-785-1 . 
+swds:closeMatch-785-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_785" . 
+swds:closeMatch-785-1 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Theodotus of Amida&sT=keywords" . 
+<http://syriaca.org/person/785> sp:closeMatch swds:closeMatch-785-2 . 
+swds:closeMatch-785-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Theodotus of Amida&sT=keywords" . 
+swds:closeMatch-785-2 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:death-when "0698"^^xsd:gYear . 
+<http://syriaca.org/person/785> sp:death-when swds:death-when-785-1 . 
+swds:death-when-785-1 sps:death-when "0698"^^xsd:gYear . 
+swds:death-when-785-1 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:death-when "0698-08-15"^^xsd:date . 
+<http://syriaca.org/person/785> sp:death-when swds:death-when-785-2 . 
+swds:death-when-785-2 sps:death-when "0698-08-15"^^xsd:date . 
+swds:death-when-785-2 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/785> sp:gender swds:gender-785-1 . 
+swds:gender-785-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-785-1 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/785> sp:status swds:status-785-1 . 
+swds:status-785-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-785-1 spr:reference-URL <http://syriaca.org/person/785.tei> . 
+<http://syriaca.org/person/785> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/785> sp:status swds:status-785-2 . 
+swds:status-785-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-785-2 spr:reference-URL <http://syriaca.org/person/785.tei> .

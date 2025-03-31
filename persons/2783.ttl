@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2783> rdf:type lawd:Person . 
+<http://syriaca.org/person/2783> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2783> rdfs:label "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+<http://syriaca.org/person/2783> rdfs:label "Sergius of Sergiopolis"@en . 
+<http://syriaca.org/person/2783> lawd:hasCitation <http://syriaca.org/cbss/T332LNDW> . 
+<http://syriaca.org/person/2783> lawd:hasCitation <http://syriaca.org/cbss/JRJ4EACH> . 
+<http://syriaca.org/person/2783> foaf:primaryTopicOf <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> foaf:primaryTopicOf <http://syriaca.org/person/2783.html> . 
+<http://syriaca.org/person/2783> foaf:primaryTopicOf <http://syriaca.org/person/2783.ttl> . 
+<http://syriaca.org/person/2783> dcterms:hasFormat <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> dcterms:hasFormat <http://syriaca.org/person/2783.html> . 
+<http://syriaca.org/person/2783> dcterms:hasFormat <http://syriaca.org/person/2783.ttl> . 
+<http://syriaca.org/person/2783> schema:description "Bishop of Sergiopolis (Reṣafa) mentioned in a letter of Simeon of Beth Arsham . Some manuscripts give his name as Georgios instead of Sergius. According to Moberg, a bishop Sergios of the 6th or 7th century is also attested on pillars of the basilica at Sergiopolis ."@en . 
+<http://syriaca.org/person/2783> foaf:relation <http://syriaca.org/person/53> . 
+<http://syriaca.org/person/2783> foaf:relation <http://syriaca.org/place/165> . 
+<http://syriaca.org/person/2783> swdt:name-variant "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+<http://syriaca.org/person/2783> swdt:name-variant "Sergius of Sergiopolis"@en . 
+<http://syriaca.org/person/2783> swdt:name-variant "ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ ܣܪܓܣ ܐܦܝܣܩܘܦܐ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+<http://syriaca.org/person/2783> swdt:name-variant "ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ ܓܘܪܓܣ ܐܦܝܣܩܘܦܐ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+<http://syriaca.org/person/2783> swdt:name-variant "Sergios of Sergiopolis"@en-x-gedsh . 
+<http://syriaca.org/person/2783> swdt:name-variant "Bishop Sergios (or Georgios ) of Ruṣāfa"@en . 
+<http://syriaca.org/person/2783> swdt:name-variant "Σεργιος Επισκοπος"@grc . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-1 . 
+swds:Person-2783-1 sps:name-variant "ܣܪܓܣ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+swds:Person-2783-1 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-2 . 
+swds:Person-2783-2 sps:name-variant "Sergius of Sergiopolis"@en . 
+swds:Person-2783-2 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-3 . 
+swds:Person-2783-3 sps:name-variant "ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ ܣܪܓܣ ܐܦܝܣܩܘܦܐ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+swds:Person-2783-3 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-4 . 
+swds:Person-2783-4 sps:name-variant "ܚܣܝܐ ܘܩܕܝܫܐ ܡܪܝ ܓܘܪܓܣ ܐܦܝܣܩܘܦܐ ܕ ܒܝܬ ܪܨܦܐ"@syr . 
+swds:Person-2783-4 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-5 . 
+swds:Person-2783-5 sps:name-variant "Sergios of Sergiopolis"@en-x-gedsh . 
+swds:Person-2783-5 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-6 . 
+swds:Person-2783-6 sps:name-variant "Bishop Sergios (or Georgios ) of Ruṣāfa"@en . 
+swds:Person-2783-6 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> sp:name-variant swds:Person-2783-7 . 
+swds:Person-2783-7 sps:name-variant "Σεργιος Επισκοπος"@grc . 
+swds:Person-2783-7 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> swdt:closeMatch "http://viaf.org/viaf/298170625" . 
+<http://syriaca.org/person/2783> sp:closeMatch swds:closeMatch-2783-1 . 
+swds:closeMatch-2783-1 sps:closeMatch "http://viaf.org/viaf/298170625" . 
+swds:closeMatch-2783-1 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> swdt:closeMatch "http://viaf.org/viaf/221093718" . 
+<http://syriaca.org/person/2783> sp:closeMatch swds:closeMatch-2783-2 . 
+swds:closeMatch-2783-2 sps:closeMatch "http://viaf.org/viaf/221093718" . 
+swds:closeMatch-2783-2 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> swdt:floruit-from "0450"^^xsd:gYear . 
+<http://syriaca.org/person/2783> sp:floruit-from swds:floruit-from-2783-1 . 
+swds:floruit-from-2783-1 sps:floruit-from "0450"^^xsd:gYear . 
+swds:floruit-from-2783-1 spr:reference-URL <http://syriaca.org/person/2783.tei> . 
+<http://syriaca.org/person/2783> swdt:floruit-to "0600"^^xsd:gYear . 
+<http://syriaca.org/person/2783> sp:floruit-to swds:floruit-to-2783-1 . 
+swds:floruit-to-2783-1 sps:floruit-to "0600"^^xsd:gYear . 
+swds:floruit-to-2783-1 spr:reference-URL <http://syriaca.org/person/2783.tei> .

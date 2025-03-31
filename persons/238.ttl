@@ -1,0 +1,94 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/238> rdf:type lawd:Person . 
+<http://syriaca.org/person/238> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/238> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/238> rdfs:label "Dioscorus Theodorus , metropolitan of Hisn Ziyad"@en . 
+<http://syriaca.org/person/238> rdfs:label "ܕܝܘܣܩܘܪܘܣ ܬܐܘܕܘܪܘܣ ܕܚܣܢ ܙܝܐܕ"@syr . 
+<http://syriaca.org/person/238> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/238> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/238> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/238> foaf:primaryTopicOf <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> foaf:primaryTopicOf <http://syriaca.org/person/238.html> . 
+<http://syriaca.org/person/238> foaf:primaryTopicOf <http://syriaca.org/person/238.ttl> . 
+<http://syriaca.org/person/238> dcterms:hasFormat <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> dcterms:hasFormat <http://syriaca.org/person/238.html> . 
+<http://syriaca.org/person/238> dcterms:hasFormat <http://syriaca.org/person/238.ttl> . 
+<http://syriaca.org/person/238> foaf:relation <http://syriaca.org/place/330> . 
+<http://syriaca.org/person/238> swdt:name-variant "Dioscorus Theodorus , metropolitan of Hisn Ziyad"@en . 
+<http://syriaca.org/person/238> swdt:name-variant "Dioscorus Theodorus , metropolitan of Ḥiṣn Ziyad"@en . 
+<http://syriaca.org/person/238> swdt:name-variant "ديوسقورس ثاودورس مطران حصن زياد"@ar . 
+<http://syriaca.org/person/238> swdt:name-variant "ܕܝܘܣܩܘܪܘܣ ܬܐܘܕܘܪܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܚܣܢ ܙܝܐܕ"@syr . 
+<http://syriaca.org/person/238> swdt:name-variant "ܕܺܝܘܣܩܘܪܘܣ ܬܶܐܘܕܳܘܪܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܚܰܣܢ ܙܝܐܕ"@syr-Syrj . 
+<http://syriaca.org/person/238> swdt:name-variant "ܕܝܘܣܩܘܪܘܣ ܬܐܘܕܘܪܘܣ ܕܚܣܢ ܙܝܐܕ"@syr . 
+<http://syriaca.org/person/238> swdt:name-variant "Diosqoros Theodoros of Ḥiṣn Ziyād"@en-x-gedsh . 
+<http://syriaca.org/person/238> swdt:name-variant "Dioscorus Theodore of Hisn Ziyad"@en . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-1 . 
+swds:Person-238-1 sps:name-variant "Dioscorus Theodorus , metropolitan of Hisn Ziyad"@en . 
+swds:Person-238-1 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-2 . 
+swds:Person-238-2 sps:name-variant "Dioscorus Theodorus , metropolitan of Ḥiṣn Ziyad"@en . 
+swds:Person-238-2 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-3 . 
+swds:Person-238-3 sps:name-variant "ديوسقورس ثاودورس مطران حصن زياد"@ar . 
+swds:Person-238-3 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-4 . 
+swds:Person-238-4 sps:name-variant "ܕܝܘܣܩܘܪܘܣ ܬܐܘܕܘܪܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܚܣܢ ܙܝܐܕ"@syr . 
+swds:Person-238-4 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-5 . 
+swds:Person-238-5 sps:name-variant "ܕܺܝܘܣܩܘܪܘܣ ܬܶܐܘܕܳܘܪܘܣ ܡܝܛܪܘܦܘܠܝܛܐ ܕܚܰܣܢ ܙܝܐܕ"@syr-Syrj . 
+swds:Person-238-5 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-6 . 
+swds:Person-238-6 sps:name-variant "ܕܝܘܣܩܘܪܘܣ ܬܐܘܕܘܪܘܣ ܕܚܣܢ ܙܝܐܕ"@syr . 
+swds:Person-238-6 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-7 . 
+swds:Person-238-7 sps:name-variant "Diosqoros Theodoros of Ḥiṣn Ziyād"@en-x-gedsh . 
+swds:Person-238-7 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> sp:name-variant swds:Person-238-8 . 
+swds:Person-238-8 sps:name-variant "Dioscorus Theodore of Hisn Ziyad"@en . 
+swds:Person-238-8 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_238" . 
+<http://syriaca.org/person/238> sp:closeMatch swds:closeMatch-238-1 . 
+swds:closeMatch-238-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_238" . 
+swds:closeMatch-238-1 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> swdt:floruit-when "1275"^^xsd:gYear . 
+<http://syriaca.org/person/238> sp:floruit-when swds:floruit-when-238-1 . 
+swds:floruit-when-238-1 sps:floruit-when "1275"^^xsd:gYear . 
+swds:floruit-when-238-1 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> swdt:birth-place <http://syriaca.org/place/330> . 
+<http://syriaca.org/person/238> sp:birth-place swds:birth-place-238-1 . 
+swds:birth-place-238-1 sps:birth-place <http://syriaca.org/place/330> . 
+swds:birth-place-238-1 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> swdt:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+<http://syriaca.org/person/238> sp:occupation swds:occupation-238-1 . 
+swds:occupation-238-1 sps:occupation <http://syriaca.org/taxonomy/metropolitans> . 
+swds:occupation-238-1 spr:reference-URL <http://syriaca.org/person/238.tei> . 
+<http://syriaca.org/person/238> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/238> sp:status swds:status-238-1 . 
+swds:status-238-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-238-1 spr:reference-URL <http://syriaca.org/person/238.tei> .

@@ -1,0 +1,136 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/512> rdf:type lawd:Person . 
+<http://syriaca.org/person/512> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/512> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/512> rdfs:label "Gregory of Nyssa"@en . 
+<http://syriaca.org/person/512> rdfs:label "ܓܪܝܓܘܪܝܘܣ ܕܢܘܣܐ"@syr . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/JE95SZ8Q> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/512> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/512> foaf:primaryTopicOf <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> foaf:primaryTopicOf <http://syriaca.org/person/512.html> . 
+<http://syriaca.org/person/512> foaf:primaryTopicOf <http://syriaca.org/person/512.ttl> . 
+<http://syriaca.org/person/512> dcterms:hasFormat <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> dcterms:hasFormat <http://syriaca.org/person/512.html> . 
+<http://syriaca.org/person/512> dcterms:hasFormat <http://syriaca.org/person/512.ttl> . 
+<http://syriaca.org/person/512> schema:description "Greek Church Father. One of the three Cappadocian Fathers, and the brother of Basil and Macrina."@en . 
+<http://syriaca.org/person/512> swdt:name-variant "Gregory of Nyssa"@en . 
+<http://syriaca.org/person/512> swdt:name-variant "Gregory of Nyssa"@en-x-gedsh . 
+<http://syriaca.org/person/512> swdt:name-variant "غريغوريوس النوسي"@ar . 
+<http://syriaca.org/person/512> swdt:name-variant "ܓܪܝܓܘܪܝܘܣ ܕܢܘܣܐ"@syr . 
+<http://syriaca.org/person/512> swdt:name-variant "ܓܪܺܝܓܳܘܪܝܘܣ ܕܢܰܘܣܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/512> swdt:name-variant "ܓܪܝܼܓܘܿܪܝܼܘܿܣ ܕܢܵܘܣܵܐ"@syr-Syrn . 
+<http://syriaca.org/person/512> swdt:name-variant "ܓܪܝܺܓܽܘܪܺܝܘܳܣ ܕܢܽܘܣܰܐ"@syr-Syrj . 
+<http://syriaca.org/person/512> swdt:name-variant "Grégoire de Nysse"@fr . 
+<http://syriaca.org/person/512> swdt:name-variant "Gregorios von Nyssa"@en . 
+<http://syriaca.org/person/512> swdt:name-variant "Gregorios von Nyssa"@de-x-baumstrk . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-1 . 
+swds:Person-512-1 sps:name-variant "Gregory of Nyssa"@en . 
+swds:Person-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-2 . 
+swds:Person-512-2 sps:name-variant "Gregory of Nyssa"@en-x-gedsh . 
+swds:Person-512-2 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-3 . 
+swds:Person-512-3 sps:name-variant "غريغوريوس النوسي"@ar . 
+swds:Person-512-3 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-4 . 
+swds:Person-512-4 sps:name-variant "ܓܪܝܓܘܪܝܘܣ ܕܢܘܣܐ"@syr . 
+swds:Person-512-4 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-5 . 
+swds:Person-512-5 sps:name-variant "ܓܪܺܝܓܳܘܪܝܘܣ ܕܢܰܘܣܳܐ"@syr-Syrj . 
+swds:Person-512-5 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-6 . 
+swds:Person-512-6 sps:name-variant "ܓܪܝܼܓܘܿܪܝܼܘܿܣ ܕܢܵܘܣܵܐ"@syr-Syrn . 
+swds:Person-512-6 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-7 . 
+swds:Person-512-7 sps:name-variant "ܓܪܝܺܓܽܘܪܺܝܘܳܣ ܕܢܽܘܣܰܐ"@syr-Syrj . 
+swds:Person-512-7 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-8 . 
+swds:Person-512-8 sps:name-variant "Grégoire de Nysse"@fr . 
+swds:Person-512-8 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-9 . 
+swds:Person-512-9 sps:name-variant "Gregorios von Nyssa"@en . 
+swds:Person-512-9 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> sp:name-variant swds:Person-512-10 . 
+swds:Person-512-10 sps:name-variant "Gregorios von Nyssa"@de-x-baumstrk . 
+swds:Person-512-10 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_512" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-1 . 
+swds:closeMatch-512-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_512" . 
+swds:closeMatch-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://viaf.org/viaf/103646160" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-2 . 
+swds:closeMatch-512-2 sps:closeMatch "http://viaf.org/viaf/103646160" . 
+swds:closeMatch-512-2 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://worldcat.org/identities/lccn-n79-21401" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-3 . 
+swds:closeMatch-512-3 sps:closeMatch "http://worldcat.org/identities/lccn-n79-21401" . 
+swds:closeMatch-512-3 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://viaf.org/viaf/215883328" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-4 . 
+swds:closeMatch-512-4 sps:closeMatch "http://viaf.org/viaf/215883328" . 
+swds:closeMatch-512-4 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://viaf.org/viaf/89796541" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-5 . 
+swds:closeMatch-512-5 sps:closeMatch "http://viaf.org/viaf/89796541" . 
+swds:closeMatch-512-5 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://viaf.org/viaf/88725875" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-6 . 
+swds:closeMatch-512-6 sps:closeMatch "http://viaf.org/viaf/88725875" . 
+swds:closeMatch-512-6 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=Gregory of Nyssa&sT=keywords" . 
+<http://syriaca.org/person/512> sp:closeMatch swds:closeMatch-512-7 . 
+swds:closeMatch-512-7 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=G&sK=Gregory of Nyssa&sT=keywords" . 
+swds:closeMatch-512-7 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:birth-notBefore "0315"^^xsd:gYear . 
+<http://syriaca.org/person/512> sp:birth-notBefore swds:birth-notBefore-512-1 . 
+swds:birth-notBefore-512-1 sps:birth-notBefore "0315"^^xsd:gYear . 
+swds:birth-notBefore-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:birth-notAfter "0345"^^xsd:gYear . 
+<http://syriaca.org/person/512> sp:birth-notAfter swds:birth-notAfter-512-1 . 
+swds:birth-notAfter-512-1 sps:birth-notAfter "0345"^^xsd:gYear . 
+swds:birth-notAfter-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:death-notBefore "0380"^^xsd:gYear . 
+<http://syriaca.org/person/512> sp:death-notBefore swds:death-notBefore-512-1 . 
+swds:death-notBefore-512-1 sps:death-notBefore "0380"^^xsd:gYear . 
+swds:death-notBefore-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:death-notAfter "0410"^^xsd:gYear . 
+<http://syriaca.org/person/512> sp:death-notAfter swds:death-notAfter-512-1 . 
+swds:death-notAfter-512-1 sps:death-notAfter "0410"^^xsd:gYear . 
+swds:death-notAfter-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> . 
+<http://syriaca.org/person/512> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/512> sp:status swds:status-512-1 . 
+swds:status-512-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-512-1 spr:reference-URL <http://syriaca.org/person/512.tei> .

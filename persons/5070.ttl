@@ -1,0 +1,63 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5070> rdf:type lawd:Person . 
+<http://syriaca.org/person/5070> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5070> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5070> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5070> rdfs:label "Conon (bishop of Tarsus)"@en . 
+<http://syriaca.org/person/5070> rdfs:label "ܩܢܘܢ"@syr . 
+<http://syriaca.org/person/5070> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5070> lawd:hasCitation <http://syriaca.org/cbss/MBTEGB67> . 
+<http://syriaca.org/person/5070> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5070> foaf:primaryTopicOf <http://syriaca.org/person/5070.tei> . 
+<http://syriaca.org/person/5070> foaf:primaryTopicOf <http://syriaca.org/person/5070.html> . 
+<http://syriaca.org/person/5070> foaf:primaryTopicOf <http://syriaca.org/person/5070.ttl> . 
+<http://syriaca.org/person/5070> dcterms:hasFormat <http://syriaca.org/person/5070.tei> . 
+<http://syriaca.org/person/5070> dcterms:hasFormat <http://syriaca.org/person/5070.html> . 
+<http://syriaca.org/person/5070> dcterms:hasFormat <http://syriaca.org/person/5070.ttl> . 
+<http://syriaca.org/person/5070> schema:description "Conon was miaphysite bishop of Tarsus and a leader of the tritheist movement in the late 560s and early 570s. When the tritheist champion John Philoponus wrote a treatise in which he postulated the creation of new impalpable bodies at the resurrection, Conon disagreed with him, thus causing a schism among the tritheists. Joh. Eph., EH 1.31, relates that Conon suffered from the persecutions in the 570s and was imprisoned in a monastery in Jerusalem."@en . 
+<http://syriaca.org/person/5070> swdt:name-variant "Conon (bishop of Tarsus)"@en . 
+<http://syriaca.org/person/5070> swdt:name-variant "ܩܢܘܢ"@syr . 
+<http://syriaca.org/person/5070> sp:name-variant swds:Person-5070-1 . 
+swds:Person-5070-1 sps:name-variant "Conon (bishop of Tarsus)"@en . 
+swds:Person-5070-1 spr:reference-URL <http://syriaca.org/person/5070.tei> . 
+<http://syriaca.org/person/5070> sp:name-variant swds:Person-5070-2 . 
+swds:Person-5070-2 sps:name-variant "ܩܢܘܢ"@syr . 
+swds:Person-5070-2 spr:reference-URL <http://syriaca.org/person/5070.tei> . 
+<http://syriaca.org/person/5070> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/5070> sp:gender swds:gender-5070-1 . 
+swds:gender-5070-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-5070-1 spr:reference-URL <http://syriaca.org/person/5070.tei> . 
+<http://syriaca.org/person/5070> swdt:possibly-identical <http://syriaca.org/person/1336> . 
+<http://syriaca.org/person/5070> sp:possibly-identical swds:activeRelationpossibly-identical-5070-11 . 
+swds:activeRelationpossibly-identical-5070-11 swd:possibly-identical <http://syriaca.org/person/1336> . 
+swds:activeRelationpossibly-identical-5070-11 spr:reference-URL <http://syriaca.org/person/5070.tei> . 
+<http://syriaca.org/person/1336> swdt:possibly-identical <http://syriaca.org/person/5070> . 
+<http://syriaca.org/person/1336> sp:possibly-identical swds:activeRelationpossibly-identical-5070-12 . 
+swds:activeRelationpossibly-identical-5070-12 swd:possibly-identical <http://syriaca.org/person/5070> . 
+swds:activeRelationpossibly-identical-5070-12 spr:reference-URL <http://syriaca.org/person/5070.tei> .

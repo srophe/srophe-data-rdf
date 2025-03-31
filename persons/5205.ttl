@@ -1,0 +1,62 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5205> rdf:type lawd:Person . 
+<http://syriaca.org/person/5205> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5205> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5205> rdfs:partOf <http://syriaca.org/anonymi> . 
+<http://syriaca.org/person/5205> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5205> rdfs:label "Anonymous 5205"@en . 
+<http://syriaca.org/person/5205> lawd:hasCitation <http://syriaca.org/cbss/7K28WD3W> . 
+<http://syriaca.org/person/5205> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5205> foaf:primaryTopicOf <http://syriaca.org/person/5205.tei> . 
+<http://syriaca.org/person/5205> foaf:primaryTopicOf <http://syriaca.org/person/5205.html> . 
+<http://syriaca.org/person/5205> foaf:primaryTopicOf <http://syriaca.org/person/5205.ttl> . 
+<http://syriaca.org/person/5205> dcterms:hasFormat <http://syriaca.org/person/5205.tei> . 
+<http://syriaca.org/person/5205> dcterms:hasFormat <http://syriaca.org/person/5205.html> . 
+<http://syriaca.org/person/5205> dcterms:hasFormat <http://syriaca.org/person/5205.ttl> . 
+<http://syriaca.org/person/5205> schema:description "Ino had, together with her first husband John, a daughter who was betrothed to Tiberius. However, both the daughter and John died, and Tiberius finally married the widowed Ino, as is narrated in Joh. Eph., EH 3.8."@en . 
+<http://syriaca.org/person/5205> swdt:name-variant "Anonymous 5205"@en . 
+<http://syriaca.org/person/5205> swdt:name-variant "The daughter of Ino"@en . 
+<http://syriaca.org/person/5205> swdt:name-variant "ܒܪܬܐ"@syr . 
+<http://syriaca.org/person/5205> sp:name-variant swds:Person-5205-1 . 
+swds:Person-5205-1 sps:name-variant "Anonymous 5205"@en . 
+swds:Person-5205-1 spr:reference-URL <http://syriaca.org/person/5205.tei> . 
+<http://syriaca.org/person/5205> sp:name-variant swds:Person-5205-2 . 
+swds:Person-5205-2 sps:name-variant "The daughter of Ino"@en . 
+swds:Person-5205-2 spr:reference-URL <http://syriaca.org/person/5205.tei> . 
+<http://syriaca.org/person/5205> sp:name-variant swds:Person-5205-3 . 
+swds:Person-5205-3 sps:name-variant "ܒܪܬܐ"@syr . 
+swds:Person-5205-3 spr:reference-URL <http://syriaca.org/person/5205.tei> . 
+<http://syriaca.org/person/5205> swdt:gender <http://syriaca.org/taxonomy/women> . 
+<http://syriaca.org/person/5205> sp:gender swds:gender-5205-1 . 
+swds:gender-5205-1 sps:gender <http://syriaca.org/taxonomy/women> . 
+swds:gender-5205-1 spr:reference-URL <http://syriaca.org/person/5205.tei> . 
+<http://syriaca.org/person/5205> swdt:status <http://syriaca.org/taxonomy/anonymous> . 
+<http://syriaca.org/person/5205> sp:status swds:status-5205-1 . 
+swds:status-5205-1 sps:status <http://syriaca.org/taxonomy/anonymous> . 
+swds:status-5205-1 spr:reference-URL <http://syriaca.org/person/5205.tei> .

@@ -1,0 +1,79 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2002> rdf:type lawd:Person . 
+<http://syriaca.org/person/2002> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2002> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/2002> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/2002> rdfs:label "ܦܘܩܐ"@syr . 
+<http://syriaca.org/person/2002> rdfs:label "Phocas of Sinope"@en . 
+<http://syriaca.org/person/2002> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/2002> lawd:hasCitation <http://syriaca.org/cbss/2473JWRY> . 
+<http://syriaca.org/person/2002> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/2002> foaf:primaryTopicOf <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> foaf:primaryTopicOf <http://syriaca.org/person/2002.html> . 
+<http://syriaca.org/person/2002> foaf:primaryTopicOf <http://syriaca.org/person/2002.ttl> . 
+<http://syriaca.org/person/2002> dcterms:hasFormat <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> dcterms:hasFormat <http://syriaca.org/person/2002.html> . 
+<http://syriaca.org/person/2002> dcterms:hasFormat <http://syriaca.org/person/2002.ttl> . 
+<http://syriaca.org/person/2002> schema:description "Phocas of Sinope is an early bishop and martyr of Sinope on the Black Sea."@en . 
+<http://syriaca.org/person/2002> swdt:name-variant "ܦܘܩܐ"@syr . 
+<http://syriaca.org/person/2002> swdt:name-variant "Pōqā"@en-x-gedsh . 
+<http://syriaca.org/person/2002> swdt:name-variant "Phocas of Sinope"@en . 
+<http://syriaca.org/person/2002> swdt:name-variant "Pōqā"@fr-x-zanetti . 
+<http://syriaca.org/person/2002> swdt:name-variant "Phocas de Sinope"@fr . 
+<http://syriaca.org/person/2002> swdt:name-variant "St Phocas of Sinope"@en . 
+<http://syriaca.org/person/2002> sp:name-variant swds:Person-2002-1 . 
+swds:Person-2002-1 sps:name-variant "ܦܘܩܐ"@syr . 
+swds:Person-2002-1 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> sp:name-variant swds:Person-2002-2 . 
+swds:Person-2002-2 sps:name-variant "Pōqā"@en-x-gedsh . 
+swds:Person-2002-2 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> sp:name-variant swds:Person-2002-3 . 
+swds:Person-2002-3 sps:name-variant "Phocas of Sinope"@en . 
+swds:Person-2002-3 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> sp:name-variant swds:Person-2002-4 . 
+swds:Person-2002-4 sps:name-variant "Pōqā"@fr-x-zanetti . 
+swds:Person-2002-4 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> sp:name-variant swds:Person-2002-5 . 
+swds:Person-2002-5 sps:name-variant "Phocas de Sinope"@fr . 
+swds:Person-2002-5 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> sp:name-variant swds:Person-2002-6 . 
+swds:Person-2002-6 sps:name-variant "St Phocas of Sinope"@en . 
+swds:Person-2002-6 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Phocas%20of%20Sinope&sT=keywords" . 
+<http://syriaca.org/person/2002> sp:closeMatch swds:closeMatch-2002-1 . 
+swds:closeMatch-2002-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=St%20Phocas%20of%20Sinope&sT=keywords" . 
+swds:closeMatch-2002-1 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> swdt:status <http://syriaca.org/taxonomy/martyrs> . 
+<http://syriaca.org/person/2002> sp:status swds:status-2002-1 . 
+swds:status-2002-1 sps:status <http://syriaca.org/taxonomy/martyrs> . 
+swds:status-2002-1 spr:reference-URL <http://syriaca.org/person/2002.tei> . 
+<http://syriaca.org/person/2002> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/2002> sp:status swds:status-2002-2 . 
+swds:status-2002-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-2002-2 spr:reference-URL <http://syriaca.org/person/2002.tei> .

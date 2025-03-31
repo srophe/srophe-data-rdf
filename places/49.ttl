@@ -1,0 +1,98 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/49> rdf:type lawd:Place . 
+<http://syriaca.org/place/49> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/49> rdfs:label "Beth Sbirino"@en . 
+<http://syriaca.org/place/49> rdfs:label "ܒܝܬ ܣܒܝܪܝܢܐ"@syr . 
+<http://syriaca.org/place/49> lawd:hasCitation <http://syriaca.org/cbss/P8KQJ7AE> . 
+<http://syriaca.org/place/49> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/place/49> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/place/49> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/place/49> foaf:primaryTopicOf <http://syriaca.org/place/49.tei> . 
+<http://syriaca.org/place/49> foaf:primaryTopicOf <http://syriaca.org/place/49.html> . 
+<http://syriaca.org/place/49> foaf:primaryTopicOf <http://syriaca.org/place/49.ttl> . 
+<http://syriaca.org/place/49> dcterms:hasFormat <http://syriaca.org/place/49.tei> . 
+<http://syriaca.org/place/49> dcterms:hasFormat <http://syriaca.org/place/49.html> . 
+<http://syriaca.org/place/49> dcterms:hasFormat <http://syriaca.org/place/49.ttl> . 
+<http://syriaca.org/place/49> schema:description "A village in Ṭur ʿAbdin ."@en . 
+<http://syriaca.org/place/49> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
+<http://syriaca.org/place/49> sp:place-type swds:place-type-49-1 . 
+swds:place-type-49-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
+swds:place-type-49-1 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> dcterms:relation <http://syriaca.org/place/221> . 
+<http://syriaca.org/place/49> swdt:name-variant "Beth Sbirino"@en . 
+<http://syriaca.org/place/49> swdt:name-variant "Bsorino"@en . 
+<http://syriaca.org/place/49> swdt:name-variant "Bāsebrīna"@en . 
+<http://syriaca.org/place/49> swdt:name-variant "Beth Severianos"@en . 
+<http://syriaca.org/place/49> swdt:name-variant "ܒܝܬ ܣܒܝܪܝܢܐ"@syr . 
+<http://syriaca.org/place/49> swdt:name-variant "ܒܶܝܬ ܣܒܝܪܝܢܳܐ"@syr-Syrj . 
+<http://syriaca.org/place/49> swdt:name-variant "باسبرينة"@ar . 
+<http://syriaca.org/place/49> swdt:name-variant "Basibrina"@en . 
+<http://syriaca.org/place/49> swdt:name-variant "Ṭur Abdin"@en-x-srp1 . 
+<http://syriaca.org/place/49> swdt:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-1 . 
+swds:Place-49-1 sps:name-variant "Beth Sbirino"@en . 
+swds:Place-49-1 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-2 . 
+swds:Place-49-2 sps:name-variant "Bsorino"@en . 
+swds:Place-49-2 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-3 . 
+swds:Place-49-3 sps:name-variant "Bāsebrīna"@en . 
+swds:Place-49-3 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-4 . 
+swds:Place-49-4 sps:name-variant "Beth Severianos"@en . 
+swds:Place-49-4 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-5 . 
+swds:Place-49-5 sps:name-variant "ܒܝܬ ܣܒܝܪܝܢܐ"@syr . 
+swds:Place-49-5 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-6 . 
+swds:Place-49-6 sps:name-variant "ܒܶܝܬ ܣܒܝܪܝܢܳܐ"@syr-Syrj . 
+swds:Place-49-6 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-7 . 
+swds:Place-49-7 sps:name-variant "باسبرينة"@ar . 
+swds:Place-49-7 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-8 . 
+swds:Place-49-8 sps:name-variant "Basibrina"@en . 
+swds:Place-49-8 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-9 . 
+swds:Place-49-9 sps:name-variant "Ṭur Abdin"@en-x-srp1 . 
+swds:Place-49-9 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> sp:name-variant swds:Place-49-10 . 
+swds:Place-49-10 sps:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
+swds:Place-49-10 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> swdt:exist-from "0998"^^xsd:gYear . 
+<http://syriaca.org/place/49> sp:exist-from swds:exist-from-49-1 . 
+swds:exist-from-49-1 sps:exist-from "0998"^^xsd:gYear . 
+swds:exist-from-49-1 spr:reference-URL <http://syriaca.org/place/49> . 
+<http://syriaca.org/place/49> swdt:exist-to "1474"^^xsd:gYear . 
+<http://syriaca.org/place/49> sp:exist-to swds:exist-to-49-1 . 
+swds:exist-to-49-1 sps:exist-to "1474"^^xsd:gYear . 
+swds:exist-to-49-1 spr:reference-URL <http://syriaca.org/place/49.tei> . 
+<http://syriaca.org/place/49> swdt:has-gps-coordinates "37.316667 41.616667" . 
+<http://syriaca.org/place/49> sp:has-gps-coordinates "37.316667 41.616667" . 
+swds:coordinates-49-1 spr:reference-URL <http://syriaca.org/place/49.tei> .

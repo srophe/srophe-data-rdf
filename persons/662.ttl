@@ -1,0 +1,68 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/662> rdf:type lawd:Person . 
+<http://syriaca.org/person/662> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/662> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/662> rdfs:label "Nuri , Athanasios Ignatios"@en . 
+<http://syriaca.org/person/662> rdfs:label "ܐܝܓܢܛܝܘܣ ܢܘܪܝ"@syr . 
+<http://syriaca.org/person/662> lawd:hasCitation <http://syriaca.org/cbss/ZCM8HPPB> . 
+<http://syriaca.org/person/662> foaf:primaryTopicOf <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> foaf:primaryTopicOf <http://syriaca.org/person/662.html> . 
+<http://syriaca.org/person/662> foaf:primaryTopicOf <http://syriaca.org/person/662.ttl> . 
+<http://syriaca.org/person/662> dcterms:hasFormat <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> dcterms:hasFormat <http://syriaca.org/person/662.html> . 
+<http://syriaca.org/person/662> dcterms:hasFormat <http://syriaca.org/person/662.ttl> . 
+<http://syriaca.org/person/662> schema:description "He was born in Mardin of Niʿmatallāh Nūrī and Katherine daughter of ʿAbdulmasīḥ Tarzi and was given the baptismal name Naṣrallāh."@en . 
+<http://syriaca.org/person/662> swdt:name-variant "Nuri , Athanasios Ignatios"@en . 
+<http://syriaca.org/person/662> swdt:name-variant "Nūrī , Athanasios Ignatios"@en-x-gedsh . 
+<http://syriaca.org/person/662> swdt:name-variant "ܐܝܓܢܛܝܘܣ ܢܘܪܝ"@syr . 
+<http://syriaca.org/person/662> sp:name-variant swds:Person-662-1 . 
+swds:Person-662-1 sps:name-variant "Nuri , Athanasios Ignatios"@en . 
+swds:Person-662-1 spr:reference-URL <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> sp:name-variant swds:Person-662-2 . 
+swds:Person-662-2 sps:name-variant "Nūrī , Athanasios Ignatios"@en-x-gedsh . 
+swds:Person-662-2 spr:reference-URL <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> sp:name-variant swds:Person-662-3 . 
+swds:Person-662-3 sps:name-variant "ܐܝܓܢܛܝܘܣ ܢܘܪܝ"@syr . 
+swds:Person-662-3 spr:reference-URL <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_662" . 
+<http://syriaca.org/person/662> sp:closeMatch swds:closeMatch-662-1 . 
+swds:closeMatch-662-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_662" . 
+swds:closeMatch-662-1 spr:reference-URL <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> swdt:birth-when "1857"^^xsd:gYear . 
+<http://syriaca.org/person/662> sp:birth-when swds:birth-when-662-1 . 
+swds:birth-when-662-1 sps:birth-when "1857"^^xsd:gYear . 
+swds:birth-when-662-1 spr:reference-URL <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> swdt:death-when "1947"^^xsd:gYear . 
+<http://syriaca.org/person/662> sp:death-when swds:death-when-662-1 . 
+swds:death-when-662-1 sps:death-when "1947"^^xsd:gYear . 
+swds:death-when-662-1 spr:reference-URL <http://syriaca.org/person/662.tei> . 
+<http://syriaca.org/person/662> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/662> sp:status swds:status-662-1 . 
+swds:status-662-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-662-1 spr:reference-URL <http://syriaca.org/person/662.tei> .

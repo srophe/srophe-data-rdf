@@ -1,0 +1,127 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/325> rdf:type lawd:Person . 
+<http://syriaca.org/person/325> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/325> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/325> rdfs:label "ܐܚܘܗܕܐܡܗ"@syr . 
+<http://syriaca.org/person/325> rdfs:label "Ahudemmeh"@en . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/N3N392NL> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/FZE9X4EK> . 
+<http://syriaca.org/person/325> lawd:hasCitation <http://syriaca.org/cbss/B5GPIGPS> . 
+<http://syriaca.org/person/325> foaf:primaryTopicOf <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> foaf:primaryTopicOf <http://syriaca.org/person/325.html> . 
+<http://syriaca.org/person/325> foaf:primaryTopicOf <http://syriaca.org/person/325.ttl> . 
+<http://syriaca.org/person/325> dcterms:hasFormat <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> dcterms:hasFormat <http://syriaca.org/person/325.html> . 
+<http://syriaca.org/person/325> dcterms:hasFormat <http://syriaca.org/person/325.ttl> . 
+<http://syriaca.org/person/325> schema:description "Author of a work on human physiology."@en . 
+<http://syriaca.org/person/325> foaf:relation <http://syriaca.org/person/67> . 
+<http://syriaca.org/person/325> swdt:name-variant "Aḥudemmeh"@en-x-gedsh . 
+<http://syriaca.org/person/325> swdt:name-variant "Mar Aḥudemeh"@en . 
+<http://syriaca.org/person/325> swdt:name-variant "مار احودامه"@ar . 
+<http://syriaca.org/person/325> swdt:name-variant "ܡܪܝ ܐܚܘܕܐܡܗ"@syr . 
+<http://syriaca.org/person/325> swdt:name-variant "ܡܳܪܝ ܐܰܚܘܕܶܐܡܗ"@syr-Syrj . 
+<http://syriaca.org/person/325> swdt:name-variant "ܐܚܘܗܕܐܡܗ"@syr . 
+<http://syriaca.org/person/325> swdt:name-variant "ܐܲܚܘܼܗ̇ܕܐܸܡܹܗ"@syr-Syrn . 
+<http://syriaca.org/person/325> swdt:name-variant "Ahoudemmeh of Tagrit"@en . 
+<http://syriaca.org/person/325> swdt:name-variant "Ahudemmeh"@la . 
+<http://syriaca.org/person/325> swdt:name-variant "Ahudemmeh"@en . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-1 . 
+swds:Person-325-1 sps:name-variant "Aḥudemmeh"@en-x-gedsh . 
+swds:Person-325-1 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-2 . 
+swds:Person-325-2 sps:name-variant "Mar Aḥudemeh"@en . 
+swds:Person-325-2 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-3 . 
+swds:Person-325-3 sps:name-variant "مار احودامه"@ar . 
+swds:Person-325-3 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-4 . 
+swds:Person-325-4 sps:name-variant "ܡܪܝ ܐܚܘܕܐܡܗ"@syr . 
+swds:Person-325-4 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-5 . 
+swds:Person-325-5 sps:name-variant "ܡܳܪܝ ܐܰܚܘܕܶܐܡܗ"@syr-Syrj . 
+swds:Person-325-5 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-6 . 
+swds:Person-325-6 sps:name-variant "ܐܚܘܗܕܐܡܗ"@syr . 
+swds:Person-325-6 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-7 . 
+swds:Person-325-7 sps:name-variant "ܐܲܚܘܼܗ̇ܕܐܸܡܹܗ"@syr-Syrn . 
+swds:Person-325-7 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-8 . 
+swds:Person-325-8 sps:name-variant "Ahoudemmeh of Tagrit"@en . 
+swds:Person-325-8 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-9 . 
+swds:Person-325-9 sps:name-variant "Ahudemmeh"@la . 
+swds:Person-325-9 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> sp:name-variant swds:Person-325-10 . 
+swds:Person-325-10 sps:name-variant "Ahudemmeh"@en . 
+swds:Person-325-10 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_325" . 
+<http://syriaca.org/person/325> sp:closeMatch swds:closeMatch-325-1 . 
+swds:closeMatch-325-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_325" . 
+swds:closeMatch-325-1 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:closeMatch "http://viaf.org/viaf/268516463" . 
+<http://syriaca.org/person/325> sp:closeMatch swds:closeMatch-325-2 . 
+swds:closeMatch-325-2 sps:closeMatch "http://viaf.org/viaf/268516463" . 
+swds:closeMatch-325-2 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:closeMatch "http://viaf.org/viaf/45521124" . 
+<http://syriaca.org/person/325> sp:closeMatch swds:closeMatch-325-3 . 
+swds:closeMatch-325-3 sps:closeMatch "http://viaf.org/viaf/45521124" . 
+swds:closeMatch-325-3 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahoudemmeh of Tagrit&sT=keywords" . 
+<http://syriaca.org/person/325> sp:closeMatch swds:closeMatch-325-4 . 
+swds:closeMatch-325-4 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=A&sK=Ahoudemmeh of Tagrit&sT=keywords" . 
+swds:closeMatch-325-4 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:floruit-notBefore "0450"^^xsd:gYear . 
+<http://syriaca.org/person/325> sp:floruit-notBefore swds:floruit-notBefore-325-1 . 
+swds:floruit-notBefore-325-1 sps:floruit-notBefore "0450"^^xsd:gYear . 
+swds:floruit-notBefore-325-1 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:floruit-notAfter "0650"^^xsd:gYear . 
+<http://syriaca.org/person/325> sp:floruit-notAfter swds:floruit-notAfter-325-1 . 
+swds:floruit-notAfter-325-1 sps:floruit-notAfter "0650"^^xsd:gYear . 
+swds:floruit-notAfter-325-1 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/325> sp:status swds:status-325-1 . 
+swds:status-325-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-325-1 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/325> swdt:possibly-identical <http://syriaca.org/person/67> . 
+<http://syriaca.org/person/325> sp:possibly-identical swds:activeRelationpossibly-identical-325-11 . 
+swds:activeRelationpossibly-identical-325-11 swd:possibly-identical <http://syriaca.org/person/67> . 
+swds:activeRelationpossibly-identical-325-11 spr:reference-URL <http://syriaca.org/person/325.tei> . 
+<http://syriaca.org/person/67> swdt:possibly-identical <http://syriaca.org/person/325> . 
+<http://syriaca.org/person/67> sp:possibly-identical swds:activeRelationpossibly-identical-325-12 . 
+swds:activeRelationpossibly-identical-325-12 swd:possibly-identical <http://syriaca.org/person/325> . 
+swds:activeRelationpossibly-identical-325-12 spr:reference-URL <http://syriaca.org/person/325.tei> .

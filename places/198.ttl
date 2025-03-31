@@ -1,0 +1,148 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/198> rdf:type lawd:Place . 
+<http://syriaca.org/place/198> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/198> rdfs:label "Tell ʿAda"@en . 
+<http://syriaca.org/place/198> rdfs:label "ܬܠܥܕܐ"@syr . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/P8KQJ7AE> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/NAA6P8IX> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/2ZYLI4XZ> . 
+<http://syriaca.org/place/198> lawd:hasCitation <http://syriaca.org/cbss/GTH8BUHU> . 
+<http://syriaca.org/place/198> foaf:primaryTopicOf <http://syriaca.org/place/198.tei> . 
+<http://syriaca.org/place/198> foaf:primaryTopicOf <http://syriaca.org/place/198.html> . 
+<http://syriaca.org/place/198> foaf:primaryTopicOf <http://syriaca.org/place/198.ttl> . 
+<http://syriaca.org/place/198> dcterms:hasFormat <http://syriaca.org/place/198.tei> . 
+<http://syriaca.org/place/198> dcterms:hasFormat <http://syriaca.org/place/198.html> . 
+<http://syriaca.org/place/198> dcterms:hasFormat <http://syriaca.org/place/198.ttl> . 
+<http://syriaca.org/place/198> schema:description "A village 48 km. west of Aleppo known for the nearby Monastery of Tell ʿAda ."@en . 
+<http://syriaca.org/place/198> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
+<http://syriaca.org/place/198> sp:place-type swds:place-type-198-1 . 
+swds:place-type-198-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
+swds:place-type-198-1 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> dcterms:relation <http://syriaca.org/place/18> . 
+<http://syriaca.org/place/198> dcterms:relation <http://syriaca.org/place/233> . 
+<http://syriaca.org/place/198> dcterms:relation <http://syriaca.org/place/91> . 
+<http://syriaca.org/place/198> swdt:name-variant "Tell ʿAda"@en . 
+<http://syriaca.org/place/198> swdt:name-variant "ܬܠܥܕܐ"@syr . 
+<http://syriaca.org/place/198> swdt:name-variant "ܬܰܠܥܕܰܐ"@syr-Syrj . 
+<http://syriaca.org/place/198> swdt:name-variant "تلعدا"@ar . 
+<http://syriaca.org/place/198> swdt:name-variant "Talʿada"@en . 
+<http://syriaca.org/place/198> swdt:name-variant "Tell Ada"@en . 
+<http://syriaca.org/place/198> swdt:name-variant "Tell Ada"@en-x-srp1 . 
+<http://syriaca.org/place/198> swdt:name-variant "Tell ‘Ada"@en-x-srp1 . 
+<http://syriaca.org/place/198> swdt:name-variant "Talada"@en-x-srp1 . 
+<http://syriaca.org/place/198> swdt:name-variant "Tal‘ada"@en-x-srp1 . 
+<http://syriaca.org/place/198> swdt:name-variant "Monastery of Tell Ada"@en-x-srp1 . 
+<http://syriaca.org/place/198> swdt:name-variant "Monastery of Tell ‘Ada"@en-x-srp1 . 
+<http://syriaca.org/place/198> swdt:name-variant "Τελεδάν"@el . 
+<http://syriaca.org/place/198> swdt:name-variant "Τέλεδαν"@el . 
+<http://syriaca.org/place/198> swdt:name-variant "Τελείαν"@el . 
+<http://syriaca.org/place/198> swdt:name-variant "Τελεδᾶν"@el . 
+<http://syriaca.org/place/198> swdt:name-variant "Teleda"@en . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-1 . 
+swds:Place-198-1 sps:name-variant "Tell ʿAda"@en . 
+swds:Place-198-1 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-2 . 
+swds:Place-198-2 sps:name-variant "ܬܠܥܕܐ"@syr . 
+swds:Place-198-2 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-3 . 
+swds:Place-198-3 sps:name-variant "ܬܰܠܥܕܰܐ"@syr-Syrj . 
+swds:Place-198-3 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-4 . 
+swds:Place-198-4 sps:name-variant "تلعدا"@ar . 
+swds:Place-198-4 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-5 . 
+swds:Place-198-5 sps:name-variant "Talʿada"@en . 
+swds:Place-198-5 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-6 . 
+swds:Place-198-6 sps:name-variant "Tell Ada"@en . 
+swds:Place-198-6 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-7 . 
+swds:Place-198-7 sps:name-variant "Tell Ada"@en-x-srp1 . 
+swds:Place-198-7 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-8 . 
+swds:Place-198-8 sps:name-variant "Tell ‘Ada"@en-x-srp1 . 
+swds:Place-198-8 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-9 . 
+swds:Place-198-9 sps:name-variant "Talada"@en-x-srp1 . 
+swds:Place-198-9 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-10 . 
+swds:Place-198-10 sps:name-variant "Tal‘ada"@en-x-srp1 . 
+swds:Place-198-10 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-11 . 
+swds:Place-198-11 sps:name-variant "Monastery of Tell Ada"@en-x-srp1 . 
+swds:Place-198-11 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-12 . 
+swds:Place-198-12 sps:name-variant "Monastery of Tell ‘Ada"@en-x-srp1 . 
+swds:Place-198-12 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-13 . 
+swds:Place-198-13 sps:name-variant "Τελεδάν"@el . 
+swds:Place-198-13 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-14 . 
+swds:Place-198-14 sps:name-variant "Τέλεδαν"@el . 
+swds:Place-198-14 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-15 . 
+swds:Place-198-15 sps:name-variant "Τελείαν"@el . 
+swds:Place-198-15 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-16 . 
+swds:Place-198-16 sps:name-variant "Τελεδᾶν"@el . 
+swds:Place-198-16 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> sp:name-variant swds:Place-198-17 . 
+swds:Place-198-17 sps:name-variant "Teleda"@en . 
+swds:Place-198-17 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> swdt:closeMatch "http://pleiades.stoa.org/places/658614" . 
+<http://syriaca.org/place/198> sp:closeMatch swds:closeMatch-198-1 . 
+swds:closeMatch-198-1 sps:closeMatch "http://pleiades.stoa.org/places/658614" . 
+swds:closeMatch-198-1 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Tell Ada&sT=keywords" . 
+<http://syriaca.org/place/198> sp:closeMatch swds:closeMatch-198-2 . 
+swds:closeMatch-198-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=T&sK=Tell Ada&sT=keywords" . 
+swds:closeMatch-198-2 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> swdt:exist-from "0457"^^xsd:gYear . 
+<http://syriaca.org/place/198> sp:exist-from swds:exist-from-198-1 . 
+swds:exist-from-198-1 sps:exist-from "0457"^^xsd:gYear . 
+swds:exist-from-198-1 spr:reference-URL <http://syriaca.org/place/198> . 
+<http://syriaca.org/place/198> swdt:exist-to "0941"^^xsd:gYear . 
+<http://syriaca.org/place/198> sp:exist-to swds:exist-to-198-1 . 
+swds:exist-to-198-1 sps:exist-to "0941"^^xsd:gYear . 
+swds:exist-to-198-1 spr:reference-URL <http://syriaca.org/place/198.tei> . 
+<http://syriaca.org/place/198> swdt:has-gps-coordinates "36.255349 36.848848" . 
+<http://syriaca.org/place/198> sp:has-gps-coordinates "36.255349 36.848848" . 
+swds:coordinates-198-1 spr:reference-URL <http://syriaca.org/place/198.tei> . 
+<place/198> swdt:share-a-name <> . 
+<place/198> sp:share-a-name swds:activeRelationshare-a-name-198-11 . 
+swds:activeRelationshare-a-name-198-11 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-198-11 spr:reference-URL <http://syriaca.org/place/198.tei> . 
+<place/233> swdt:share-a-name <> . 
+<place/233> sp:share-a-name swds:activeRelationshare-a-name-198-12 . 
+swds:activeRelationshare-a-name-198-12 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-198-12 spr:reference-URL <http://syriaca.org/place/198.tei> .

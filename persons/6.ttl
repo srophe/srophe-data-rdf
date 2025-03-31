@@ -1,0 +1,91 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/6> rdf:type lawd:Person . 
+<http://syriaca.org/person/6> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/6> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/6> rdfs:label "Theophilos of Edessa"@en . 
+<http://syriaca.org/person/6> rdfs:label "ܬܐܘܦܝܠ ܐܘܪܗܝܐ"@syr . 
+<http://syriaca.org/person/6> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/6> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/6> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/6> foaf:primaryTopicOf <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> foaf:primaryTopicOf <http://syriaca.org/person/6.html> . 
+<http://syriaca.org/person/6> foaf:primaryTopicOf <http://syriaca.org/person/6.ttl> . 
+<http://syriaca.org/person/6> dcterms:hasFormat <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> dcterms:hasFormat <http://syriaca.org/person/6.html> . 
+<http://syriaca.org/person/6> dcterms:hasFormat <http://syriaca.org/person/6.ttl> . 
+<http://syriaca.org/person/6> foaf:relation <http://syriaca.org/person/787> . 
+<http://syriaca.org/person/6> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/6> swdt:name-variant "Theophilos of Edessa"@en . 
+<http://syriaca.org/person/6> swdt:name-variant "Theophilus of Edessa"@en . 
+<http://syriaca.org/person/6> swdt:name-variant "ثئوفيل الرهاوي"@ar . 
+<http://syriaca.org/person/6> swdt:name-variant "ܬܐܘܦܝܠ ܐܘܪܗܝܐ"@syr . 
+<http://syriaca.org/person/6> swdt:name-variant "ܬܶܐܘܳܦܝܠ ܐܘܪܗܳܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/person/6> swdt:name-variant "Theophilos of Edessa"@en-x-gedsh . 
+<http://syriaca.org/person/6> sp:name-variant swds:Person-6-1 . 
+swds:Person-6-1 sps:name-variant "Theophilos of Edessa"@en . 
+swds:Person-6-1 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> sp:name-variant swds:Person-6-2 . 
+swds:Person-6-2 sps:name-variant "Theophilus of Edessa"@en . 
+swds:Person-6-2 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> sp:name-variant swds:Person-6-3 . 
+swds:Person-6-3 sps:name-variant "ثئوفيل الرهاوي"@ar . 
+swds:Person-6-3 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> sp:name-variant swds:Person-6-4 . 
+swds:Person-6-4 sps:name-variant "ܬܐܘܦܝܠ ܐܘܪܗܝܐ"@syr . 
+swds:Person-6-4 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> sp:name-variant swds:Person-6-5 . 
+swds:Person-6-5 sps:name-variant "ܬܶܐܘܳܦܝܠ ܐܘܪܗܳܝܳܐ"@syr-Syrj . 
+swds:Person-6-5 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> sp:name-variant swds:Person-6-6 . 
+swds:Person-6-6 sps:name-variant "Theophilos of Edessa"@en-x-gedsh . 
+swds:Person-6-6 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_6" . 
+<http://syriaca.org/person/6> sp:closeMatch swds:closeMatch-6-1 . 
+swds:closeMatch-6-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_6" . 
+swds:closeMatch-6-1 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> swdt:closeMatch "http://www.worldcat.org/search?q=au%3ATheophilus+Edessenus.&qt=hot_author" . 
+<http://syriaca.org/person/6> sp:closeMatch swds:closeMatch-6-2 . 
+swds:closeMatch-6-2 sps:closeMatch "http://www.worldcat.org/search?q=au%3ATheophilus+Edessenus.&qt=hot_author" . 
+swds:closeMatch-6-2 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> swdt:floruit-when "0309"^^xsd:gYear . 
+<http://syriaca.org/person/6> sp:floruit-when swds:floruit-when-6-1 . 
+swds:floruit-when-6-1 sps:floruit-when "0309"^^xsd:gYear . 
+swds:floruit-when-6-1 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/6> sp:status swds:status-6-1 . 
+swds:status-6-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-6-1 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/6> swdt:not-to-be-confused-with <http://syriaca.org/person/787> . 
+<http://syriaca.org/person/6> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-6-11 . 
+swds:activeRelationnot-to-be-confused-with-6-11 swd:not-to-be-confused-with <http://syriaca.org/person/787> . 
+swds:activeRelationnot-to-be-confused-with-6-11 spr:reference-URL <http://syriaca.org/person/6.tei> . 
+<http://syriaca.org/person/787> swdt:not-to-be-confused-with <http://syriaca.org/person/6> . 
+<http://syriaca.org/person/787> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-6-12 . 
+swds:activeRelationnot-to-be-confused-with-6-12 swd:not-to-be-confused-with <http://syriaca.org/person/6> . 
+swds:activeRelationnot-to-be-confused-with-6-12 spr:reference-URL <http://syriaca.org/person/6.tei> .

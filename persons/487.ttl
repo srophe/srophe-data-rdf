@@ -1,0 +1,71 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/487> rdf:type lawd:Person . 
+<http://syriaca.org/person/487> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/487> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/487> rdfs:label "Fathallah , Elias"@en . 
+<http://syriaca.org/person/487> lawd:hasCitation <http://syriaca.org/cbss/92IH26MW> . 
+<http://syriaca.org/person/487> foaf:primaryTopicOf <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> foaf:primaryTopicOf <http://syriaca.org/person/487.html> . 
+<http://syriaca.org/person/487> foaf:primaryTopicOf <http://syriaca.org/person/487.ttl> . 
+<http://syriaca.org/person/487> dcterms:hasFormat <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> dcterms:hasFormat <http://syriaca.org/person/487.html> . 
+<http://syriaca.org/person/487> dcterms:hasFormat <http://syriaca.org/person/487.ttl> . 
+<http://syriaca.org/person/487> schema:description "Elias Fatḥallāh was a Syr. Orth. priest from Amid."@en . 
+<http://syriaca.org/person/487> swdt:name-variant "Fatḥallāh , Elias"@en-x-gedsh . 
+<http://syriaca.org/person/487> swdt:name-variant "Fathallah , Elias"@en . 
+<http://syriaca.org/person/487> swdt:name-variant "Fatalla"@en . 
+<http://syriaca.org/person/487> swdt:name-variant "Fathi"@en . 
+<http://syriaca.org/person/487> sp:name-variant swds:Person-487-1 . 
+swds:Person-487-1 sps:name-variant "Fatḥallāh , Elias"@en-x-gedsh . 
+swds:Person-487-1 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> sp:name-variant swds:Person-487-2 . 
+swds:Person-487-2 sps:name-variant "Fathallah , Elias"@en . 
+swds:Person-487-2 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> sp:name-variant swds:Person-487-3 . 
+swds:Person-487-3 sps:name-variant "Fatalla"@en . 
+swds:Person-487-3 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> sp:name-variant swds:Person-487-4 . 
+swds:Person-487-4 sps:name-variant "Fathi"@en . 
+swds:Person-487-4 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_487" . 
+<http://syriaca.org/person/487> sp:closeMatch swds:closeMatch-487-1 . 
+swds:closeMatch-487-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_487" . 
+swds:closeMatch-487-1 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> swdt:floruit-notBefore "1770"^^xsd:gYear . 
+<http://syriaca.org/person/487> sp:floruit-notBefore swds:floruit-notBefore-487-1 . 
+swds:floruit-notBefore-487-1 sps:floruit-notBefore "1770"^^xsd:gYear . 
+swds:floruit-notBefore-487-1 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> swdt:floruit-notAfter "1798"^^xsd:gYear . 
+<http://syriaca.org/person/487> sp:floruit-notAfter swds:floruit-notAfter-487-1 . 
+swds:floruit-notAfter-487-1 sps:floruit-notAfter "1798"^^xsd:gYear . 
+swds:floruit-notAfter-487-1 spr:reference-URL <http://syriaca.org/person/487.tei> . 
+<http://syriaca.org/person/487> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/487> sp:status swds:status-487-1 . 
+swds:status-487-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-487-1 spr:reference-URL <http://syriaca.org/person/487.tei> .

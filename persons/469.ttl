@@ -1,0 +1,110 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/469> rdf:type lawd:Person . 
+<http://syriaca.org/person/469> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/469> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/469> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/469> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/469> rdfs:label "ܐܠܝܐ ܬܠܝܬܝܐ"@syr . 
+<http://syriaca.org/person/469> rdfs:label "Elijah III Shakir"@en . 
+<http://syriaca.org/person/469> lawd:hasCitation <http://syriaca.org/cbss/UDEZYDQZ> . 
+<http://syriaca.org/person/469> foaf:primaryTopicOf <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> foaf:primaryTopicOf <http://syriaca.org/person/469.html> . 
+<http://syriaca.org/person/469> foaf:primaryTopicOf <http://syriaca.org/person/469.ttl> . 
+<http://syriaca.org/person/469> dcterms:hasFormat <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> dcterms:hasFormat <http://syriaca.org/person/469.html> . 
+<http://syriaca.org/person/469> dcterms:hasFormat <http://syriaca.org/person/469.ttl> . 
+<http://syriaca.org/person/469> schema:description "Patr. (1917-32), and a local saint in Malankara."@en . 
+<http://syriaca.org/person/469> foaf:relation <http://syriaca.org/person/933> . 
+<http://syriaca.org/person/469> foaf:relation <http://syriaca.org/place/130> . 
+<http://syriaca.org/person/469> foaf:relation <http://syriaca.org/place/2254> . 
+<http://syriaca.org/person/469> foaf:relation <http://syriaca.org/place/2346> . 
+<http://syriaca.org/person/469> swdt:name-variant "Eliya III Shakir"@en-x-gedsh . 
+<http://syriaca.org/person/469> swdt:name-variant "ܐܠܝܐ ܬܠܝܬܝܐ"@syr . 
+<http://syriaca.org/person/469> swdt:name-variant "Elijah III Shakir"@en . 
+<http://syriaca.org/person/469> sp:name-variant swds:Person-469-1 . 
+swds:Person-469-1 sps:name-variant "Eliya III Shakir"@en-x-gedsh . 
+swds:Person-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> sp:name-variant swds:Person-469-2 . 
+swds:Person-469-2 sps:name-variant "ܐܠܝܐ ܬܠܝܬܝܐ"@syr . 
+swds:Person-469-2 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> sp:name-variant swds:Person-469-3 . 
+swds:Person-469-3 sps:name-variant "Elijah III Shakir"@en . 
+swds:Person-469-3 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_469" . 
+<http://syriaca.org/person/469> sp:closeMatch swds:closeMatch-469-1 . 
+swds:closeMatch-469-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_469" . 
+swds:closeMatch-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:birth-when "1867"^^xsd:gYear . 
+<http://syriaca.org/person/469> sp:birth-when swds:birth-when-469-1 . 
+swds:birth-when-469-1 sps:birth-when "1867"^^xsd:gYear . 
+swds:birth-when-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:death-when "1932"^^xsd:gYear . 
+<http://syriaca.org/person/469> sp:death-when swds:death-when-469-1 . 
+swds:death-when-469-1 sps:death-when "1932"^^xsd:gYear . 
+swds:death-when-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:birth-place <http://syriaca.org/place/130> . 
+<http://syriaca.org/person/469> sp:birth-place swds:birth-place-469-1 . 
+swds:birth-place-469-1 sps:birth-place <http://syriaca.org/place/130> . 
+swds:birth-place-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
+<http://syriaca.org/person/469> sp:occupation swds:occupation-469-1 . 
+swds:occupation-469-1 sps:occupation <http://syriaca.org/taxonomy/priests> . 
+swds:occupation-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+swds:occupation-469-1 spq:from "1892"^^xsd:gYear . 
+<http://syriaca.org/person/469> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/469> sp:occupation swds:occupation-469-2 . 
+swds:occupation-469-2 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-469-2 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+swds:occupation-469-2 spq:from "1908"^^xsd:gYear . 
+<http://syriaca.org/person/469> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/469> sp:occupation swds:occupation-469-3 . 
+swds:occupation-469-3 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:occupation-469-3 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+swds:occupation-469-3 spq:from "1912"^^xsd:gYear . 
+<http://syriaca.org/person/469> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/469> sp:occupation swds:occupation-469-4 . 
+swds:occupation-469-4 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-469-4 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+swds:occupation-469-4 spq:from "1917"^^xsd:gYear . 
+<http://syriaca.org/person/469> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/469> sp:status swds:status-469-1 . 
+swds:status-469-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-469-1 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/469> sp:status swds:status-469-2 . 
+swds:status-469-2 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-469-2 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/469> swdt:not-to-be-confused-with <http://syriaca.org/person/933> . 
+<http://syriaca.org/person/469> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-469-11 . 
+swds:activeRelationnot-to-be-confused-with-469-11 swd:not-to-be-confused-with <http://syriaca.org/person/933> . 
+swds:activeRelationnot-to-be-confused-with-469-11 spr:reference-URL <http://syriaca.org/person/469.tei> . 
+<http://syriaca.org/person/933> swdt:not-to-be-confused-with <http://syriaca.org/person/469> . 
+<http://syriaca.org/person/933> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-469-12 . 
+swds:activeRelationnot-to-be-confused-with-469-12 swd:not-to-be-confused-with <http://syriaca.org/person/469> . 
+swds:activeRelationnot-to-be-confused-with-469-12 spr:reference-URL <http://syriaca.org/person/469.tei> .

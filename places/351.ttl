@@ -1,0 +1,119 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/351> rdf:type lawd:Place . 
+<http://syriaca.org/place/351> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/351> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/place/351> rdfs:partOf <http://syriaca.org/johnofephesus/places> . 
+<http://syriaca.org/place/351> rdfs:label "Mor Ḥanino"@en . 
+<http://syriaca.org/place/351> rdfs:label "ܕܝܪܐ ܕܚܢܝܢܐ"@syr . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/P8KQJ7AE> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/SIUIHZRW> . 
+<http://syriaca.org/place/351> lawd:hasCitation <http://syriaca.org/cbss/SIUIHZRW> . 
+<http://syriaca.org/place/351> foaf:primaryTopicOf <http://syriaca.org/place/351.tei> . 
+<http://syriaca.org/place/351> foaf:primaryTopicOf <http://syriaca.org/place/351.html> . 
+<http://syriaca.org/place/351> foaf:primaryTopicOf <http://syriaca.org/place/351.ttl> . 
+<http://syriaca.org/place/351> dcterms:hasFormat <http://syriaca.org/place/351.tei> . 
+<http://syriaca.org/place/351> dcterms:hasFormat <http://syriaca.org/place/351.html> . 
+<http://syriaca.org/place/351> dcterms:hasFormat <http://syriaca.org/place/351.ttl> . 
+<http://syriaca.org/place/351> schema:description "A monastery near Kallinikos ."@en . 
+<http://syriaca.org/place/351> schema:description "Founded in the second half of the fifth century by the eponymous monk, this anti-Chalcedonian monastery, located close to the cities Callinicum and Sura on the Euphrates, was the abode of the bishop John of Sura in the 560s and 570s, as is attested in Joh. Eph., EH 4.22. In 581, the episcopal ordination of Peter of Callinicum took place there."@en . 
+<http://syriaca.org/place/351> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
+<http://syriaca.org/place/351> sp:place-type swds:place-type-351-1 . 
+swds:place-type-351-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
+swds:place-type-351-1 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> dcterms:relation <http://syriaca.org/place/109> . 
+<http://syriaca.org/place/351> dcterms:relation <http://syriaca.org/place/486> . 
+<http://syriaca.org/place/351> swdt:name-variant "Mor Ḥanino"@en . 
+<http://syriaca.org/place/351> swdt:name-variant "Mar Ḥanino"@en . 
+<http://syriaca.org/place/351> swdt:name-variant "ܕܝܪܐ ܕܚܢܝܢܐ"@syr . 
+<http://syriaca.org/place/351> swdt:name-variant "ܕܰܝܪܳܐ ܕܚܰܢܝܢܳܐ"@syr-Syrj . 
+<http://syriaca.org/place/351> swdt:name-variant "ܕܰܝܪܳܐ ܕܚܰܢܰܢܝܳܐ"@syr-Syrj . 
+<http://syriaca.org/place/351> swdt:name-variant "دير حنينا"@ar . 
+<http://syriaca.org/place/351> swdt:name-variant "دير حنانيا"@ar . 
+<http://syriaca.org/place/351> swdt:name-variant "Ḥananya Monastery"@en . 
+<http://syriaca.org/place/351> swdt:name-variant "monastery of Mar Hanina"@en . 
+<http://syriaca.org/place/351> swdt:name-variant "Hanina, Monastery of Mar"@en . 
+<http://syriaca.org/place/351> swdt:name-variant "ܕܝܪܐ ܕܒܝܬ ܡܪܝ ܚܢܝܢܐ"@syr . 
+<http://syriaca.org/place/351> swdt:name-variant "Mar Hnina"@de . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-1 . 
+swds:Place-351-1 sps:name-variant "Mor Ḥanino"@en . 
+swds:Place-351-1 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-2 . 
+swds:Place-351-2 sps:name-variant "Mar Ḥanino"@en . 
+swds:Place-351-2 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-3 . 
+swds:Place-351-3 sps:name-variant "ܕܝܪܐ ܕܚܢܝܢܐ"@syr . 
+swds:Place-351-3 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-4 . 
+swds:Place-351-4 sps:name-variant "ܕܰܝܪܳܐ ܕܚܰܢܝܢܳܐ"@syr-Syrj . 
+swds:Place-351-4 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-5 . 
+swds:Place-351-5 sps:name-variant "ܕܰܝܪܳܐ ܕܚܰܢܰܢܝܳܐ"@syr-Syrj . 
+swds:Place-351-5 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-6 . 
+swds:Place-351-6 sps:name-variant "دير حنينا"@ar . 
+swds:Place-351-6 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-7 . 
+swds:Place-351-7 sps:name-variant "دير حنانيا"@ar . 
+swds:Place-351-7 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-8 . 
+swds:Place-351-8 sps:name-variant "Ḥananya Monastery"@en . 
+swds:Place-351-8 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-9 . 
+swds:Place-351-9 sps:name-variant "monastery of Mar Hanina"@en . 
+swds:Place-351-9 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-10 . 
+swds:Place-351-10 sps:name-variant "Hanina, Monastery of Mar"@en . 
+swds:Place-351-10 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-11 . 
+swds:Place-351-11 sps:name-variant "ܕܝܪܐ ܕܒܝܬ ܡܪܝ ܚܢܝܢܐ"@syr . 
+swds:Place-351-11 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> sp:name-variant swds:Place-351-12 . 
+swds:Place-351-12 sps:name-variant "Mar Hnina"@de . 
+swds:Place-351-12 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Hanina&sT=keywords" . 
+<http://syriaca.org/place/351> sp:closeMatch swds:closeMatch-351-1 . 
+swds:closeMatch-351-1 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Hanina&sT=keywords" . 
+swds:closeMatch-351-1 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> swdt:exist-from "0523"^^xsd:gYear . 
+<http://syriaca.org/place/351> sp:exist-from swds:exist-from-351-1 . 
+swds:exist-from-351-1 sps:exist-from "0523"^^xsd:gYear . 
+swds:exist-from-351-1 spr:reference-URL <http://syriaca.org/place/351> . 
+<http://syriaca.org/place/351> swdt:exist-to "0581"^^xsd:gYear . 
+<http://syriaca.org/place/351> sp:exist-to swds:exist-to-351-1 . 
+swds:exist-to-351-1 sps:exist-to "0581"^^xsd:gYear . 
+swds:exist-to-351-1 spr:reference-URL <http://syriaca.org/place/351.tei> . 
+<http://syriaca.org/place/351> swdt:broader <http://syriaca.org/place/486> . 
+<http://syriaca.org/place/351> sp:broader swds:activeRelationbroader-351-11 . 
+swds:activeRelationbroader-351-11 swd:broader <http://syriaca.org/place/486> . 
+swds:activeRelationbroader-351-11 spr:reference-URL <http://syriaca.org/place/351.tei> .

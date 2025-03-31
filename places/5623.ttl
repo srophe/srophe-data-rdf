@@ -1,0 +1,76 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/5623> rdf:type lawd:Place . 
+<http://syriaca.org/place/5623> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/5623> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/place/5623> rdfs:partOf <http://syriaca.org/johnofephesus/places> . 
+<http://syriaca.org/place/5623> rdfs:label "The Patriarchal Palace of Constantinople"@en . 
+<http://syriaca.org/place/5623> rdfs:label "ܒܝܬ ܐܦܝܣܩܦܝܘܢ"@syr . 
+<http://syriaca.org/place/5623> lawd:hasCitation <http://syriaca.org/cbss/2XPM6DJ6> . 
+<http://syriaca.org/place/5623> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/place/5623> lawd:hasCitation <http://syriaca.org/cbss/2XPM6DJ6> . 
+<http://syriaca.org/place/5623> lawd:hasCitation <http://syriaca.org/cbss/NAA6P8IX> . 
+<http://syriaca.org/place/5623> foaf:primaryTopicOf <http://syriaca.org/place/5623.tei> . 
+<http://syriaca.org/place/5623> foaf:primaryTopicOf <http://syriaca.org/place/5623.html> . 
+<http://syriaca.org/place/5623> foaf:primaryTopicOf <http://syriaca.org/place/5623.ttl> . 
+<http://syriaca.org/place/5623> dcterms:hasFormat <http://syriaca.org/place/5623.tei> . 
+<http://syriaca.org/place/5623> dcterms:hasFormat <http://syriaca.org/place/5623.html> . 
+<http://syriaca.org/place/5623> dcterms:hasFormat <http://syriaca.org/place/5623.ttl> . 
+<http://syriaca.org/place/5623> schema:description "The residence of the patriarchs of Constantinople was adjacent to Hagia Sophia and provided direct access to the south-western corner of the church. Joh. Eph., EH 1.18-29, mentions it as the place where he and other miaphysite bishops were imprisoned and forced to accept an edict of union with the Chalcedonians."@en . 
+<http://syriaca.org/place/5623> swdt:place-type <http://syriaca.org/taxonomy/buildings> . 
+<http://syriaca.org/place/5623> sp:place-type swds:place-type-5623-1 . 
+swds:place-type-5623-1 sps:place-type <http://syriaca.org/taxonomy/buildings> . 
+swds:place-type-5623-1 spr:reference-URL <http://syriaca.org/place/5623> . 
+<http://syriaca.org/place/5623> dcterms:relation <http://syriaca.org/place/586> . 
+<http://syriaca.org/place/5623> swdt:name-variant "The Patriarchal Palace of Constantinople"@en . 
+<http://syriaca.org/place/5623> swdt:name-variant "ܒܝܬ ܐܦܝܣܩܦܝܘܢ"@syr . 
+<http://syriaca.org/place/5623> swdt:name-variant "Patriarchal palace"@en . 
+<http://syriaca.org/place/5623> swdt:name-variant "ܒܝܬ ܐܦܝܣܩܦܝܘܢ"@syr . 
+<http://syriaca.org/place/5623> sp:name-variant swds:Place-5623-1 . 
+swds:Place-5623-1 sps:name-variant "The Patriarchal Palace of Constantinople"@en . 
+swds:Place-5623-1 spr:reference-URL <http://syriaca.org/place/5623> . 
+<http://syriaca.org/place/5623> sp:name-variant swds:Place-5623-2 . 
+swds:Place-5623-2 sps:name-variant "ܒܝܬ ܐܦܝܣܩܦܝܘܢ"@syr . 
+swds:Place-5623-2 spr:reference-URL <http://syriaca.org/place/5623> . 
+<http://syriaca.org/place/5623> sp:name-variant swds:Place-5623-3 . 
+swds:Place-5623-3 sps:name-variant "Patriarchal palace"@en . 
+swds:Place-5623-3 spr:reference-URL <http://syriaca.org/place/5623> . 
+<http://syriaca.org/place/5623> sp:name-variant swds:Place-5623-4 . 
+swds:Place-5623-4 sps:name-variant "ܒܝܬ ܐܦܝܣܩܦܝܘܢ"@syr . 
+swds:Place-5623-4 spr:reference-URL <http://syriaca.org/place/5623> . 
+<http://syriaca.org/place/5623> swdt:closeMatch "https://pleiades.stoa.org/places/307220778" . 
+<http://syriaca.org/place/5623> sp:closeMatch swds:closeMatch-5623-1 . 
+swds:closeMatch-5623-1 sps:closeMatch "https://pleiades.stoa.org/places/307220778" . 
+swds:closeMatch-5623-1 spr:reference-URL <http://syriaca.org/place/5623> . 
+<http://syriaca.org/place/5623> swdt:has-gps-coordinates "41.008548 28.979938" . 
+<http://syriaca.org/place/5623> sp:has-gps-coordinates "41.008548 28.979938" . 
+swds:coordinates-5623-1 spr:reference-URL <http://syriaca.org/place/5623.tei> . 
+<http://syriaca.org/place/5623> swdt:broader <http://syriaca.org/place/586> . 
+<http://syriaca.org/place/5623> sp:broader swds:activeRelationbroader-5623-11 . 
+swds:activeRelationbroader-5623-11 swd:broader <http://syriaca.org/place/586> . 
+swds:activeRelationbroader-5623-11 spr:reference-URL <http://syriaca.org/place/5623.tei> .

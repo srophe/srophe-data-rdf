@@ -1,0 +1,87 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/717> rdf:type lawd:Place . 
+<http://syriaca.org/place/717> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/717> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/place/717> rdfs:partOf <http://syriaca.org/johnofephesus/places> . 
+<http://syriaca.org/place/717> rdfs:label "Beth Aramaye"@en . 
+<http://syriaca.org/place/717> rdfs:label "ܒܝܬ ܐܪ̈ܡܝܐ"@syr . 
+<http://syriaca.org/place/717> lawd:hasCitation <http://syriaca.org/cbss/LBS5EGWD> . 
+<http://syriaca.org/place/717> lawd:hasCitation <http://syriaca.org/cbss/NAA6P8IX> . 
+<http://syriaca.org/place/717> lawd:hasCitation <http://syriaca.org/cbss/N42AM4Q2> . 
+<http://syriaca.org/place/717> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/place/717> foaf:primaryTopicOf <http://syriaca.org/place/717.tei> . 
+<http://syriaca.org/place/717> foaf:primaryTopicOf <http://syriaca.org/place/717.html> . 
+<http://syriaca.org/place/717> foaf:primaryTopicOf <http://syriaca.org/place/717.ttl> . 
+<http://syriaca.org/place/717> dcterms:hasFormat <http://syriaca.org/place/717.tei> . 
+<http://syriaca.org/place/717> dcterms:hasFormat <http://syriaca.org/place/717.html> . 
+<http://syriaca.org/place/717> dcterms:hasFormat <http://syriaca.org/place/717.ttl> . 
+<http://syriaca.org/place/717> schema:description "The Syriac name the Land of the Arameans corresponded to the Persian province of Asorestan in central Mesopotamia, the region around Babylon."@en . 
+<http://syriaca.org/place/717> swdt:place-type <http://syriaca.org/taxonomy/regions> . 
+<http://syriaca.org/place/717> sp:place-type swds:place-type-717-1 . 
+swds:place-type-717-1 sps:place-type <http://syriaca.org/taxonomy/regions> . 
+swds:place-type-717-1 spr:reference-URL <http://syriaca.org/place/717> . 
+<http://syriaca.org/place/717> swdt:name-variant "Beth Aramaye"@en . 
+<http://syriaca.org/place/717> swdt:name-variant "Beṯ Aramāye"@en . 
+<http://syriaca.org/place/717> swdt:name-variant "ܒܝܬ ܐܪ̈ܡܝܐ"@syr . 
+<http://syriaca.org/place/717> sp:name-variant swds:Place-717-1 . 
+swds:Place-717-1 sps:name-variant "Beth Aramaye"@en . 
+swds:Place-717-1 spr:reference-URL <http://syriaca.org/place/717> . 
+<http://syriaca.org/place/717> sp:name-variant swds:Place-717-2 . 
+swds:Place-717-2 sps:name-variant "Beṯ Aramāye"@en . 
+swds:Place-717-2 spr:reference-URL <http://syriaca.org/place/717> . 
+<http://syriaca.org/place/717> sp:name-variant swds:Place-717-3 . 
+swds:Place-717-3 sps:name-variant "ܒܝܬ ܐܪ̈ܡܝܐ"@syr . 
+swds:Place-717-3 spr:reference-URL <http://syriaca.org/place/717> . 
+<http://syriaca.org/place/717> swdt:closeMatch "http://pleiades.stoa.org/places/893958" . 
+<http://syriaca.org/place/717> sp:closeMatch swds:closeMatch-717-1 . 
+swds:closeMatch-717-1 sps:closeMatch "http://pleiades.stoa.org/places/893958" . 
+swds:closeMatch-717-1 spr:reference-URL <http://syriaca.org/place/717> . 
+<http://syriaca.org/place/717> swdt:closeMatch "https://en.wikipedia.org/wiki/Asoristan" . 
+<http://syriaca.org/place/717> sp:closeMatch swds:closeMatch-717-2 . 
+swds:closeMatch-717-2 sps:closeMatch "https://en.wikipedia.org/wiki/Asoristan" . 
+swds:closeMatch-717-2 spr:reference-URL <http://syriaca.org/place/717> . 
+<http://syriaca.org/place/717> swdt:has-gps-coordinates "32.8503500814 44.9405753712" . 
+<http://syriaca.org/place/717> sp:has-gps-coordinates "32.8503500814 44.9405753712" . 
+swds:coordinates-717-1 spr:reference-URL <http://syriaca.org/place/717.tei> . 
+<place/717> swdt:share-a-name <> . 
+<place/717> sp:share-a-name swds:activeRelationshare-a-name-717-11 . 
+swds:activeRelationshare-a-name-717-11 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-717-11 spr:reference-URL <http://syriaca.org/place/717.tei> . 
+<place/32> swdt:share-a-name <> . 
+<place/32> sp:share-a-name swds:activeRelationshare-a-name-717-12 . 
+swds:activeRelationshare-a-name-717-12 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-717-12 spr:reference-URL <http://syriaca.org/place/717.tei> . 
+<place/717> swdt:co-located <> . 
+<place/717> sp:co-located swds:activeRelationco-located-717-21 . 
+swds:activeRelationco-located-717-21 swd:co-located <> . 
+swds:activeRelationco-located-717-21 spr:reference-URL <http://syriaca.org/place/717.tei> . 
+<place/32> swdt:co-located <> . 
+<place/32> sp:co-located swds:activeRelationco-located-717-22 . 
+swds:activeRelationco-located-717-22 swd:co-located <> . 
+swds:activeRelationco-located-717-22 spr:reference-URL <http://syriaca.org/place/717.tei> .

@@ -1,0 +1,73 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/3770> rdf:type lawd:Person . 
+<http://syriaca.org/person/3770> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/3770> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/3770> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/3770> rdfs:label "Vigilantia"@en . 
+<http://syriaca.org/person/3770> lawd:hasCitation <http://syriaca.org/cbss/6RXKPRGP> . 
+<http://syriaca.org/person/3770> lawd:hasCitation <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/3770> lawd:hasCitation <http://syriaca.org/cbss/6RXKPRGP> . 
+<http://syriaca.org/person/3770> lawd:hasCitation <http://syriaca.org/cbss/6RXKPRGP> . 
+<http://syriaca.org/person/3770> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/3770> foaf:primaryTopicOf <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> foaf:primaryTopicOf <http://syriaca.org/person/3770.html> . 
+<http://syriaca.org/person/3770> foaf:primaryTopicOf <http://syriaca.org/person/3770.ttl> . 
+<http://syriaca.org/person/3770> dcterms:hasFormat <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> dcterms:hasFormat <http://syriaca.org/person/3770.html> . 
+<http://syriaca.org/person/3770> dcterms:hasFormat <http://syriaca.org/person/3770.ttl> . 
+<http://syriaca.org/person/3770> schema:description "The sister of Justinian and mother of Justin II"@en . 
+<http://syriaca.org/person/3770> schema:description "Vigilantia was sister of the emperor Justinian and the mother of Justin II. She was still alive when her son acceded to the imperial throne in late 565."@en . 
+<http://syriaca.org/person/3770> swdt:name-variant "Vigilantia"@en . 
+<http://syriaca.org/person/3770> swdt:name-variant "Vigilantia (sister of Justinian)"@en . 
+<http://syriaca.org/person/3770> swdt:name-variant "ܚܬܗ ܕܝܘܣܛܝܢܝܢܐ"@syr . 
+<http://syriaca.org/person/3770> sp:name-variant swds:Person-3770-1 . 
+swds:Person-3770-1 sps:name-variant "Vigilantia"@en . 
+swds:Person-3770-1 spr:reference-URL <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> sp:name-variant swds:Person-3770-2 . 
+swds:Person-3770-2 sps:name-variant "Vigilantia (sister of Justinian)"@en . 
+swds:Person-3770-2 spr:reference-URL <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> sp:name-variant swds:Person-3770-3 . 
+swds:Person-3770-3 sps:name-variant "ܚܬܗ ܕܝܘܣܛܝܢܝܢܐ"@syr . 
+swds:Person-3770-3 spr:reference-URL <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> swdt:closeMatch "https://en.wikipedia.org/wiki/Vigilantia" . 
+<http://syriaca.org/person/3770> sp:closeMatch swds:closeMatch-3770-1 . 
+swds:closeMatch-3770-1 sps:closeMatch "https://en.wikipedia.org/wiki/Vigilantia" . 
+swds:closeMatch-3770-1 spr:reference-URL <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> swdt:floruit-notBefore "0500"^^xsd:gYear . 
+<http://syriaca.org/person/3770> sp:floruit-notBefore swds:floruit-notBefore-3770-2 . 
+swds:floruit-notBefore-3770-2 sps:floruit-notBefore "0500"^^xsd:gYear . 
+swds:floruit-notBefore-3770-2 spr:reference-URL <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> swdt:floruit-notAfter "0550"^^xsd:gYear . 
+<http://syriaca.org/person/3770> sp:floruit-notAfter swds:floruit-notAfter-3770-2 . 
+swds:floruit-notAfter-3770-2 sps:floruit-notAfter "0550"^^xsd:gYear . 
+swds:floruit-notAfter-3770-2 spr:reference-URL <http://syriaca.org/person/3770.tei> . 
+<http://syriaca.org/person/3770> swdt:gender <http://syriaca.org/taxonomy/women> . 
+<http://syriaca.org/person/3770> sp:gender swds:gender-3770-1 . 
+swds:gender-3770-1 sps:gender <http://syriaca.org/taxonomy/women> . 
+swds:gender-3770-1 spr:reference-URL <http://syriaca.org/person/3770.tei> .

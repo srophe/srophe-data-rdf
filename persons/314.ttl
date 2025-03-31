@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/314> rdf:type lawd:Person . 
+<http://syriaca.org/person/314> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/314> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/314> rdfs:label "ʿAbdulmasih II"@en . 
+<http://syriaca.org/person/314> rdfs:label "ܥܒܕܡܫܝܚ ܬܪܝܢܐ"@syr . 
+<http://syriaca.org/person/314> lawd:hasCitation <http://syriaca.org/cbss/RUMVKS2H> . 
+<http://syriaca.org/person/314> foaf:primaryTopicOf <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> foaf:primaryTopicOf <http://syriaca.org/person/314.html> . 
+<http://syriaca.org/person/314> foaf:primaryTopicOf <http://syriaca.org/person/314.ttl> . 
+<http://syriaca.org/person/314> dcterms:hasFormat <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> dcterms:hasFormat <http://syriaca.org/person/314.html> . 
+<http://syriaca.org/person/314> dcterms:hasFormat <http://syriaca.org/person/314.ttl> . 
+<http://syriaca.org/person/314> schema:description "Patriarch of Antioch (1895-1903)."@en . 
+<http://syriaca.org/person/314> foaf:relation <http://syriaca.org/place/2610> . 
+<http://syriaca.org/person/314> swdt:name-variant "ʿAbdulmasih II"@en . 
+<http://syriaca.org/person/314> swdt:name-variant "ʿAbdulmasīḥ II"@en-x-gedsh . 
+<http://syriaca.org/person/314> swdt:name-variant "ܥܒܕܡܫܝܚ ܬܪܝܢܐ"@syr . 
+<http://syriaca.org/person/314> swdt:name-variant "Abdulmasīḥ II"@en-x-srp1 . 
+<http://syriaca.org/person/314> swdt:name-variant "‘Abdulmasīḥ II"@en-x-srp1 . 
+<http://syriaca.org/person/314> swdt:name-variant "ʿAbdulmasih II"@en . 
+<http://syriaca.org/person/314> sp:name-variant swds:Person-314-1 . 
+swds:Person-314-1 sps:name-variant "ʿAbdulmasih II"@en . 
+swds:Person-314-1 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> sp:name-variant swds:Person-314-2 . 
+swds:Person-314-2 sps:name-variant "ʿAbdulmasīḥ II"@en-x-gedsh . 
+swds:Person-314-2 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> sp:name-variant swds:Person-314-3 . 
+swds:Person-314-3 sps:name-variant "ܥܒܕܡܫܝܚ ܬܪܝܢܐ"@syr . 
+swds:Person-314-3 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> sp:name-variant swds:Person-314-4 . 
+swds:Person-314-4 sps:name-variant "Abdulmasīḥ II"@en-x-srp1 . 
+swds:Person-314-4 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> sp:name-variant swds:Person-314-5 . 
+swds:Person-314-5 sps:name-variant "‘Abdulmasīḥ II"@en-x-srp1 . 
+swds:Person-314-5 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> sp:name-variant swds:Person-314-6 . 
+swds:Person-314-6 sps:name-variant "ʿAbdulmasih II"@en . 
+swds:Person-314-6 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_314" . 
+<http://syriaca.org/person/314> sp:closeMatch swds:closeMatch-314-1 . 
+swds:closeMatch-314-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_314" . 
+swds:closeMatch-314-1 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> swdt:birth-when "1854"^^xsd:gYear . 
+<http://syriaca.org/person/314> sp:birth-when swds:birth-when-314-1 . 
+swds:birth-when-314-1 sps:birth-when "1854"^^xsd:gYear . 
+swds:birth-when-314-1 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> swdt:death-when "1915"^^xsd:gYear . 
+<http://syriaca.org/person/314> sp:death-when swds:death-when-314-1 . 
+swds:death-when-314-1 sps:death-when "1915"^^xsd:gYear . 
+swds:death-when-314-1 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+<http://syriaca.org/person/314> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/314> sp:occupation swds:occupation-314-1 . 
+swds:occupation-314-1 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-314-1 spr:reference-URL <http://syriaca.org/person/314.tei> . 
+swds:occupation-314-1 spq:from "1895"^^xsd:gYear . 
+<http://syriaca.org/person/314> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/314> sp:status swds:status-314-1 . 
+swds:status-314-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-314-1 spr:reference-URL <http://syriaca.org/person/314.tei> .

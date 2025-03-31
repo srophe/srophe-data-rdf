@@ -1,0 +1,79 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/529> rdf:type lawd:Person . 
+<http://syriaca.org/person/529> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/529> rdfs:label "ܚܙܩܝܐܝܠ"@syr . 
+<http://syriaca.org/person/529> rdfs:label "Ezekiel I"@en . 
+<http://syriaca.org/person/529> lawd:hasCitation <http://syriaca.org/cbss/T2Q4ZR4J> . 
+<http://syriaca.org/person/529> lawd:hasCitation <http://syriaca.org/cbss/PGCV3FX7> . 
+<http://syriaca.org/person/529> lawd:hasCitation <http://syriaca.org/bibl/7> . 
+<http://syriaca.org/person/529> lawd:hasCitation <http://syriaca.org/cbss/4SHD54H4> . 
+<http://syriaca.org/person/529> lawd:hasCitation <http://syriaca.org/cbss/7QEQXPNZ> . 
+<http://syriaca.org/person/529> foaf:primaryTopicOf <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> foaf:primaryTopicOf <http://syriaca.org/person/529.html> . 
+<http://syriaca.org/person/529> foaf:primaryTopicOf <http://syriaca.org/person/529.ttl> . 
+<http://syriaca.org/person/529> dcterms:hasFormat <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> dcterms:hasFormat <http://syriaca.org/person/529.html> . 
+<http://syriaca.org/person/529> dcterms:hasFormat <http://syriaca.org/person/529.ttl> . 
+<http://syriaca.org/person/529> schema:description "Cath. since 567 or 570, as successor of the deposed Cath. Yawsep."@en . 
+<http://syriaca.org/person/529> swdt:name-variant "Ḥazqiel I"@en-x-gedsh . 
+<http://syriaca.org/person/529> swdt:name-variant "ܚܙܩܝܐܝܠ"@syr . 
+<http://syriaca.org/person/529> swdt:name-variant "ܚܲܙܩܝܼܐܹܝܠ"@syr-Syrn . 
+<http://syriaca.org/person/529> swdt:name-variant "Ezekiel I"@en . 
+<http://syriaca.org/person/529> swdt:name-variant "Ezekiel the Catholicos"@en . 
+<http://syriaca.org/person/529> swdt:name-variant "Ezechiel (Hazqiel) Katholicos"@la . 
+<http://syriaca.org/person/529> sp:name-variant swds:Person-529-1 . 
+swds:Person-529-1 sps:name-variant "Ḥazqiel I"@en-x-gedsh . 
+swds:Person-529-1 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> sp:name-variant swds:Person-529-2 . 
+swds:Person-529-2 sps:name-variant "ܚܙܩܝܐܝܠ"@syr . 
+swds:Person-529-2 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> sp:name-variant swds:Person-529-3 . 
+swds:Person-529-3 sps:name-variant "ܚܲܙܩܝܼܐܹܝܠ"@syr-Syrn . 
+swds:Person-529-3 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> sp:name-variant swds:Person-529-4 . 
+swds:Person-529-4 sps:name-variant "Ezekiel I"@en . 
+swds:Person-529-4 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> sp:name-variant swds:Person-529-5 . 
+swds:Person-529-5 sps:name-variant "Ezekiel the Catholicos"@en . 
+swds:Person-529-5 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> sp:name-variant swds:Person-529-6 . 
+swds:Person-529-6 sps:name-variant "Ezechiel (Hazqiel) Katholicos"@la . 
+swds:Person-529-6 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_529" . 
+<http://syriaca.org/person/529> sp:closeMatch swds:closeMatch-529-1 . 
+swds:closeMatch-529-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_529" . 
+swds:closeMatch-529-1 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> swdt:death-notBefore "0580"^^xsd:gYear . 
+<http://syriaca.org/person/529> sp:death-notBefore swds:death-notBefore-529-1 . 
+swds:death-notBefore-529-1 sps:death-notBefore "0580"^^xsd:gYear . 
+swds:death-notBefore-529-1 spr:reference-URL <http://syriaca.org/person/529.tei> . 
+<http://syriaca.org/person/529> swdt:death-notAfter "0581"^^xsd:gYear . 
+<http://syriaca.org/person/529> sp:death-notAfter swds:death-notAfter-529-1 . 
+swds:death-notAfter-529-1 sps:death-notAfter "0581"^^xsd:gYear . 
+swds:death-notAfter-529-1 spr:reference-URL <http://syriaca.org/person/529.tei> .

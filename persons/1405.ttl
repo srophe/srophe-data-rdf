@@ -1,0 +1,92 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/1405> rdf:type lawd:Person . 
+<http://syriaca.org/person/1405> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/1405> rdfs:partOf <http://syriaca.org/saints> . 
+<http://syriaca.org/person/1405> rdfs:partOf <http://syriaca.org/q> . 
+<http://syriaca.org/person/1405> rdfs:label "ܦܘܠܘܣ"@syr . 
+<http://syriaca.org/person/1405> rdfs:label "Paul of Edessa"@en . 
+<http://syriaca.org/person/1405> lawd:hasCitation <http://syriaca.org/cbss/2KJEZZGS> . 
+<http://syriaca.org/person/1405> lawd:hasCitation <http://syriaca.org/cbss/RQZYRVIQ> . 
+<http://syriaca.org/person/1405> foaf:primaryTopicOf <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> foaf:primaryTopicOf <http://syriaca.org/person/1405.html> . 
+<http://syriaca.org/person/1405> foaf:primaryTopicOf <http://syriaca.org/person/1405.ttl> . 
+<http://syriaca.org/person/1405> dcterms:hasFormat <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> dcterms:hasFormat <http://syriaca.org/person/1405.html> . 
+<http://syriaca.org/person/1405> dcterms:hasFormat <http://syriaca.org/person/1405.ttl> . 
+<http://syriaca.org/person/1405> schema:description "Paul of Edessa was a bishop from the Italian peninsula who left his see and travelled to Edessa where, in disguise, he was hired into service as a household servant by John of Edessa , a priest. The two lived a life of prayer and spiritual companionship. They travelled to Sinai . Back in Edessa, they interacted with Matthew the eunuch , a woman hiding in a monastery. They travelled to Jerusalem . Paul performed miracles and fled to Nisibis . John found him there, and Paul told him to return to Edessa. Paul died, and John died 8 months later. The story was set in the time of the Bishop Rabbula ."@en . 
+<http://syriaca.org/person/1405> foaf:relation <http://syriaca.org/person/1321> . 
+<http://syriaca.org/person/1405> foaf:relation <http://syriaca.org/person/26> . 
+<http://syriaca.org/person/1405> foaf:relation <http://syriaca.org/place/78> . 
+<http://syriaca.org/person/1405> foaf:relation <http://syriaca.org/place/563> . 
+<http://syriaca.org/person/1405> foaf:relation <http://syriaca.org/place/104> . 
+<http://syriaca.org/person/1405> foaf:relation <http://syriaca.org/place/142> . 
+<http://syriaca.org/person/1405> swdt:name-variant "ܦܘܠܘܣ"@syr . 
+<http://syriaca.org/person/1405> swdt:name-variant "Pawlōs"@en-x-gedsh . 
+<http://syriaca.org/person/1405> swdt:name-variant "Paul, the bishop"@en . 
+<http://syriaca.org/person/1405> swdt:name-variant "Paul of Edessa"@en . 
+<http://syriaca.org/person/1405> swdt:name-variant "Pawlōs"@fr-x-zanetti . 
+<http://syriaca.org/person/1405> swdt:name-variant "Paul l’évêque"@fr . 
+<http://syriaca.org/person/1405> swdt:name-variant "PAUL D'ÉDESSE"@fr-x-fiey . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-1 . 
+swds:Person-1405-1 sps:name-variant "ܦܘܠܘܣ"@syr . 
+swds:Person-1405-1 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-2 . 
+swds:Person-1405-2 sps:name-variant "Pawlōs"@en-x-gedsh . 
+swds:Person-1405-2 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-3 . 
+swds:Person-1405-3 sps:name-variant "Paul, the bishop"@en . 
+swds:Person-1405-3 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-4 . 
+swds:Person-1405-4 sps:name-variant "Paul of Edessa"@en . 
+swds:Person-1405-4 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-5 . 
+swds:Person-1405-5 sps:name-variant "Pawlōs"@fr-x-zanetti . 
+swds:Person-1405-5 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-6 . 
+swds:Person-1405-6 sps:name-variant "Paul l’évêque"@fr . 
+swds:Person-1405-6 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> sp:name-variant swds:Person-1405-7 . 
+swds:Person-1405-7 sps:name-variant "PAUL D'ÉDESSE"@fr-x-fiey . 
+swds:Person-1405-7 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> swdt:floruit-from "0418"^^xsd:gYear . 
+<http://syriaca.org/person/1405> sp:floruit-from swds:floruit-from-1405-1 . 
+swds:floruit-from-1405-1 sps:floruit-from "0418"^^xsd:gYear . 
+swds:floruit-from-1405-1 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> swdt:floruit-to "0435"^^xsd:gYear . 
+<http://syriaca.org/person/1405> sp:floruit-to swds:floruit-to-1405-1 . 
+swds:floruit-to-1405-1 sps:floruit-to "0435"^^xsd:gYear . 
+swds:floruit-to-1405-1 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/1405> sp:gender swds:gender-1405-1 . 
+swds:gender-1405-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-1405-1 spr:reference-URL <http://syriaca.org/person/1405.tei> . 
+<http://syriaca.org/person/1405> swdt:status <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1405> sp:status swds:status-1405-1 . 
+swds:status-1405-1 sps:status <http://syriaca.org/taxonomy/saints> . 
+swds:status-1405-1 spr:reference-URL <http://syriaca.org/person/1405.tei> .

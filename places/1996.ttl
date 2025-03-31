@@ -1,0 +1,118 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/place/1996> rdf:type lawd:Place . 
+<http://syriaca.org/place/1996> rdfs:partOf <http://syriaca.org/geo> . 
+<http://syriaca.org/place/1996> rdfs:label "Mar Ishaʿya"@en . 
+<http://syriaca.org/place/1996> lawd:hasCitation <http://syriaca.org/cbss/LBS5EGWD> . 
+<http://syriaca.org/place/1996> foaf:primaryTopicOf <http://syriaca.org/place/1996.tei> . 
+<http://syriaca.org/place/1996> foaf:primaryTopicOf <http://syriaca.org/place/1996.html> . 
+<http://syriaca.org/place/1996> foaf:primaryTopicOf <http://syriaca.org/place/1996.ttl> . 
+<http://syriaca.org/place/1996> dcterms:hasFormat <http://syriaca.org/place/1996.tei> . 
+<http://syriaca.org/place/1996> dcterms:hasFormat <http://syriaca.org/place/1996.html> . 
+<http://syriaca.org/place/1996> dcterms:hasFormat <http://syriaca.org/place/1996.ttl> . 
+<http://syriaca.org/place/1996> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
+<http://syriaca.org/place/1996> sp:place-type swds:place-type-1996-1 . 
+swds:place-type-1996-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
+swds:place-type-1996-1 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> dcterms:relation <http://syriaca.org/place/1226> . 
+<http://syriaca.org/place/1996> swdt:name-variant "Mar Ishaʿya"@en . 
+<http://syriaca.org/place/1996> swdt:name-variant "Mār Ishaʿyā"@en . 
+<http://syriaca.org/place/1996> swdt:name-variant "Mar Ishaya"@en-x-srp1 . 
+<http://syriaca.org/place/1996> swdt:name-variant "Mar Isha‘ya"@en-x-srp1 . 
+<http://syriaca.org/place/1996> swdt:name-variant "Mār Ishayā"@en-x-srp1 . 
+<http://syriaca.org/place/1996> swdt:name-variant "Mār Isha‘yā"@en-x-srp1 . 
+<http://syriaca.org/place/1996> sp:name-variant swds:Place-1996-1 . 
+swds:Place-1996-1 sps:name-variant "Mar Ishaʿya"@en . 
+swds:Place-1996-1 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> sp:name-variant swds:Place-1996-2 . 
+swds:Place-1996-2 sps:name-variant "Mār Ishaʿyā"@en . 
+swds:Place-1996-2 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> sp:name-variant swds:Place-1996-3 . 
+swds:Place-1996-3 sps:name-variant "Mar Ishaya"@en-x-srp1 . 
+swds:Place-1996-3 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> sp:name-variant swds:Place-1996-4 . 
+swds:Place-1996-4 sps:name-variant "Mar Isha‘ya"@en-x-srp1 . 
+swds:Place-1996-4 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> sp:name-variant swds:Place-1996-5 . 
+swds:Place-1996-5 sps:name-variant "Mār Ishayā"@en-x-srp1 . 
+swds:Place-1996-5 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> sp:name-variant swds:Place-1996-6 . 
+swds:Place-1996-6 sps:name-variant "Mār Isha‘yā"@en-x-srp1 . 
+swds:Place-1996-6 spr:reference-URL <http://syriaca.org/place/1996> . 
+<http://syriaca.org/place/1996> swdt:broader <http://syriaca.org/place/1226> . 
+<http://syriaca.org/place/1996> sp:broader swds:activeRelationbroader-1996-11 . 
+swds:activeRelationbroader-1996-11 swd:broader <http://syriaca.org/place/1226> . 
+swds:activeRelationbroader-1996-11 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1996> swdt:share-a-name <> . 
+<place/1996> sp:share-a-name swds:activeRelationshare-a-name-1996-21 . 
+swds:activeRelationshare-a-name-1996-21 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-21 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1996> swdt:share-a-name <> . 
+<place/1996> sp:share-a-name swds:activeRelationshare-a-name-1996-21 . 
+swds:activeRelationshare-a-name-1996-21 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-21 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1996> swdt:share-a-name <> . 
+<place/1996> sp:share-a-name swds:activeRelationshare-a-name-1996-21 . 
+swds:activeRelationshare-a-name-1996-21 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-21 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1997> swdt:share-a-name <> . 
+<place/1997> sp:share-a-name swds:activeRelationshare-a-name-1996-22 . 
+swds:activeRelationshare-a-name-1996-22 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-22 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1997> swdt:share-a-name <> . 
+<place/1997> sp:share-a-name swds:activeRelationshare-a-name-1996-22 . 
+swds:activeRelationshare-a-name-1996-22 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-22 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1997> swdt:share-a-name <> . 
+<place/1997> sp:share-a-name swds:activeRelationshare-a-name-1996-22 . 
+swds:activeRelationshare-a-name-1996-22 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-22 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1998> swdt:share-a-name <> . 
+<place/1998> sp:share-a-name swds:activeRelationshare-a-name-1996-23 . 
+swds:activeRelationshare-a-name-1996-23 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-23 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1998> swdt:share-a-name <> . 
+<place/1998> sp:share-a-name swds:activeRelationshare-a-name-1996-23 . 
+swds:activeRelationshare-a-name-1996-23 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-23 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1998> swdt:share-a-name <> . 
+<place/1998> sp:share-a-name swds:activeRelationshare-a-name-1996-23 . 
+swds:activeRelationshare-a-name-1996-23 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-23 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1999> swdt:share-a-name <> . 
+<place/1999> sp:share-a-name swds:activeRelationshare-a-name-1996-24 . 
+swds:activeRelationshare-a-name-1996-24 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-24 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1999> swdt:share-a-name <> . 
+<place/1999> sp:share-a-name swds:activeRelationshare-a-name-1996-24 . 
+swds:activeRelationshare-a-name-1996-24 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-24 spr:reference-URL <http://syriaca.org/place/1996.tei> . 
+<place/1999> swdt:share-a-name <> . 
+<place/1999> sp:share-a-name swds:activeRelationshare-a-name-1996-24 . 
+swds:activeRelationshare-a-name-1996-24 swd:share-a-name <> . 
+swds:activeRelationshare-a-name-1996-24 spr:reference-URL <http://syriaca.org/place/1996.tei> .

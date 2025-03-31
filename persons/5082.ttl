@@ -1,0 +1,73 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/5082> rdf:type lawd:Person . 
+<http://syriaca.org/person/5082> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/5082> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/5082> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/5082> rdfs:label "Epiphanius (patriarch of Constantinople)"@en . 
+<http://syriaca.org/person/5082> rdfs:label "ܐܦܦܢܝܣ"@syr . 
+<http://syriaca.org/person/5082> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5082> lawd:hasCitation <http://syriaca.org/cbss/JLMCGNS9> . 
+<http://syriaca.org/person/5082> lawd:hasCitation <http://syriaca.org/cbss/QXKZR2IX> . 
+<http://syriaca.org/person/5082> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/5082> lawd:hasCitation <http://syriaca.org/cbss/QXKZR2IX> . 
+<http://syriaca.org/person/5082> foaf:primaryTopicOf <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> foaf:primaryTopicOf <http://syriaca.org/person/5082.html> . 
+<http://syriaca.org/person/5082> foaf:primaryTopicOf <http://syriaca.org/person/5082.ttl> . 
+<http://syriaca.org/person/5082> dcterms:hasFormat <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> dcterms:hasFormat <http://syriaca.org/person/5082.html> . 
+<http://syriaca.org/person/5082> dcterms:hasFormat <http://syriaca.org/person/5082.ttl> . 
+<http://syriaca.org/person/5082> schema:description "Epiphanius was a presbyter and advisor of patriarch John II of Constantinople and became his successor in 520. During his tenure, he was a loyal supporter of Justinian's religious policy."@en . 
+<http://syriaca.org/person/5082> swdt:name-variant "Epiphanius (patriarch of Constantinople)"@en . 
+<http://syriaca.org/person/5082> swdt:name-variant "ܐܦܦܢܝܣ"@syr . 
+<http://syriaca.org/person/5082> swdt:name-variant "Epiphanius Constantinopolitanus"@en . 
+<http://syriaca.org/person/5082> sp:name-variant swds:Person-5082-1 . 
+swds:Person-5082-1 sps:name-variant "Epiphanius (patriarch of Constantinople)"@en . 
+swds:Person-5082-1 spr:reference-URL <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> sp:name-variant swds:Person-5082-2 . 
+swds:Person-5082-2 sps:name-variant "ܐܦܦܢܝܣ"@syr . 
+swds:Person-5082-2 spr:reference-URL <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> sp:name-variant swds:Person-5082-3 . 
+swds:Person-5082-3 sps:name-variant "Epiphanius Constantinopolitanus"@en . 
+swds:Person-5082-3 spr:reference-URL <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> swdt:closeMatch "https://en.wikipedia.org/wiki/Epiphanius_of_Constantinople" . 
+<http://syriaca.org/person/5082> sp:closeMatch swds:closeMatch-5082-1 . 
+swds:closeMatch-5082-1 sps:closeMatch "https://en.wikipedia.org/wiki/Epiphanius_of_Constantinople" . 
+swds:closeMatch-5082-1 spr:reference-URL <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> swdt:floruit-notBefore "0520-02-25"^^xsd:date . 
+<http://syriaca.org/person/5082> sp:floruit-notBefore swds:floruit-notBefore-5082-1 . 
+swds:floruit-notBefore-5082-1 sps:floruit-notBefore "0520-02-25"^^xsd:date . 
+swds:floruit-notBefore-5082-1 spr:reference-URL <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> swdt:floruit-notAfter "0535-06-05"^^xsd:date . 
+<http://syriaca.org/person/5082> sp:floruit-notAfter swds:floruit-notAfter-5082-1 . 
+swds:floruit-notAfter-5082-1 sps:floruit-notAfter "0535-06-05"^^xsd:date . 
+swds:floruit-notAfter-5082-1 spr:reference-URL <http://syriaca.org/person/5082.tei> . 
+<http://syriaca.org/person/5082> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/5082> sp:gender swds:gender-5082-1 . 
+swds:gender-5082-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-5082-1 spr:reference-URL <http://syriaca.org/person/5082.tei> .

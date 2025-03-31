@@ -1,0 +1,107 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/125> rdf:type lawd:Person . 
+<http://syriaca.org/person/125> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/125> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/125> rdfs:label "Simeon of the Olives"@en . 
+<http://syriaca.org/person/125> rdfs:label "ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+<http://syriaca.org/person/125> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/125> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/125> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/125> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/125> foaf:primaryTopicOf <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> foaf:primaryTopicOf <http://syriaca.org/person/125.html> . 
+<http://syriaca.org/person/125> foaf:primaryTopicOf <http://syriaca.org/person/125.ttl> . 
+<http://syriaca.org/person/125> dcterms:hasFormat <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> dcterms:hasFormat <http://syriaca.org/person/125.html> . 
+<http://syriaca.org/person/125> dcterms:hasFormat <http://syriaca.org/person/125.ttl> . 
+<http://syriaca.org/person/125> foaf:relation <http://syriaca.org/place/241> . 
+<http://syriaca.org/person/125> swdt:name-variant "Simeon of the Olives"@en . 
+<http://syriaca.org/person/125> swdt:name-variant "Mar Simon d-beth Zayte"@en . 
+<http://syriaca.org/person/125> swdt:name-variant "مار شمعون الزيتوني"@ar . 
+<http://syriaca.org/person/125> swdt:name-variant "ܡܪܝ ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+<http://syriaca.org/person/125> swdt:name-variant "ܡܳܪܝ ܫܶܡܥܘܢ ܕܙܰܝ̈ܬܐ"@syr-Syrj . 
+<http://syriaca.org/person/125> swdt:name-variant "ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+<http://syriaca.org/person/125> swdt:name-variant "Shemʿun d-Zayte"@en-x-gedsh . 
+<http://syriaca.org/person/125> swdt:name-variant "Simon d-Zayte"@en . 
+<http://syriaca.org/person/125> swdt:name-variant "Simeon of the Olives"@en . 
+<http://syriaca.org/person/125> swdt:name-variant "Shemun d-Zayte"@en-x-srp1 . 
+<http://syriaca.org/person/125> swdt:name-variant "Shem‘un d-Zayte"@en-x-srp1 . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-1 . 
+swds:Person-125-1 sps:name-variant "Simeon of the Olives"@en . 
+swds:Person-125-1 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-2 . 
+swds:Person-125-2 sps:name-variant "Mar Simon d-beth Zayte"@en . 
+swds:Person-125-2 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-3 . 
+swds:Person-125-3 sps:name-variant "مار شمعون الزيتوني"@ar . 
+swds:Person-125-3 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-4 . 
+swds:Person-125-4 sps:name-variant "ܡܪܝ ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+swds:Person-125-4 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-5 . 
+swds:Person-125-5 sps:name-variant "ܡܳܪܝ ܫܶܡܥܘܢ ܕܙܰܝ̈ܬܐ"@syr-Syrj . 
+swds:Person-125-5 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-6 . 
+swds:Person-125-6 sps:name-variant "ܫܡܥܘܢ ܕܙܝ̈ܬܐ"@syr . 
+swds:Person-125-6 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-7 . 
+swds:Person-125-7 sps:name-variant "Shemʿun d-Zayte"@en-x-gedsh . 
+swds:Person-125-7 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-8 . 
+swds:Person-125-8 sps:name-variant "Simon d-Zayte"@en . 
+swds:Person-125-8 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-9 . 
+swds:Person-125-9 sps:name-variant "Simeon of the Olives"@en . 
+swds:Person-125-9 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-10 . 
+swds:Person-125-10 sps:name-variant "Shemun d-Zayte"@en-x-srp1 . 
+swds:Person-125-10 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> sp:name-variant swds:Person-125-11 . 
+swds:Person-125-11 sps:name-variant "Shem‘un d-Zayte"@en-x-srp1 . 
+swds:Person-125-11 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_125" . 
+<http://syriaca.org/person/125> sp:closeMatch swds:closeMatch-125-1 . 
+swds:closeMatch-125-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_125" . 
+swds:closeMatch-125-1 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of the Olives&sT=keywords" . 
+<http://syriaca.org/person/125> sp:closeMatch swds:closeMatch-125-2 . 
+swds:closeMatch-125-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=S&sK=Simeon of the Olives&sT=keywords" . 
+swds:closeMatch-125-2 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> swdt:death-when "0734"^^xsd:gYear . 
+<http://syriaca.org/person/125> sp:death-when swds:death-when-125-1 . 
+swds:death-when-125-1 sps:death-when "0734"^^xsd:gYear . 
+swds:death-when-125-1 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> swdt:birth-place <http://syriaca.org/place/241> . 
+<http://syriaca.org/person/125> sp:birth-place swds:birth-place-125-1 . 
+swds:birth-place-125-1 sps:birth-place <http://syriaca.org/place/241> . 
+swds:birth-place-125-1 spr:reference-URL <http://syriaca.org/person/125.tei> . 
+<http://syriaca.org/person/125> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/125> sp:status swds:status-125-1 . 
+swds:status-125-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-125-1 spr:reference-URL <http://syriaca.org/person/125.tei> .

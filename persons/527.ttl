@@ -1,0 +1,107 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/527> rdf:type lawd:Person . 
+<http://syriaca.org/person/527> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/527> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/527> rdfs:label "Harris , James Rendel"@en . 
+<http://syriaca.org/person/527> rdfs:label "ܪܢܕܠ ܗܐܪܝܣ"@syr . 
+<http://syriaca.org/person/527> lawd:hasCitation <http://syriaca.org/cbss/54QFIBUB> . 
+<http://syriaca.org/person/527> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/527> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/527> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/527> foaf:primaryTopicOf <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> foaf:primaryTopicOf <http://syriaca.org/person/527.html> . 
+<http://syriaca.org/person/527> foaf:primaryTopicOf <http://syriaca.org/person/527.ttl> . 
+<http://syriaca.org/person/527> dcterms:hasFormat <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> dcterms:hasFormat <http://syriaca.org/person/527.html> . 
+<http://syriaca.org/person/527> dcterms:hasFormat <http://syriaca.org/person/527.ttl> . 
+<http://syriaca.org/person/527> schema:description "British New Testmient scholar, Syriac scholar, textual critic, and paleographer, who was instrumental in creating the modern field of Syriac Studies."@en . 
+<http://syriaca.org/person/527> swdt:name-variant "Harris , James Rendel"@en . 
+<http://syriaca.org/person/527> swdt:name-variant "Harris , James Rendel"@en-x-gedsh . 
+<http://syriaca.org/person/527> swdt:name-variant "Rendel , Harris"@en . 
+<http://syriaca.org/person/527> swdt:name-variant "رندل هاريس"@ar . 
+<http://syriaca.org/person/527> swdt:name-variant "ܪܢܕܠ ܗܐܪܝܣ"@syr . 
+<http://syriaca.org/person/527> swdt:name-variant "ܪܢܕܠ ܗܰܐܪܝܣ"@syr-Syrj . 
+<http://syriaca.org/person/527> sp:name-variant swds:Person-527-1 . 
+swds:Person-527-1 sps:name-variant "Harris , James Rendel"@en . 
+swds:Person-527-1 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> sp:name-variant swds:Person-527-2 . 
+swds:Person-527-2 sps:name-variant "Harris , James Rendel"@en-x-gedsh . 
+swds:Person-527-2 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> sp:name-variant swds:Person-527-3 . 
+swds:Person-527-3 sps:name-variant "Rendel , Harris"@en . 
+swds:Person-527-3 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> sp:name-variant swds:Person-527-4 . 
+swds:Person-527-4 sps:name-variant "رندل هاريس"@ar . 
+swds:Person-527-4 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> sp:name-variant swds:Person-527-5 . 
+swds:Person-527-5 sps:name-variant "ܪܢܕܠ ܗܐܪܝܣ"@syr . 
+swds:Person-527-5 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> sp:name-variant swds:Person-527-6 . 
+swds:Person-527-6 sps:name-variant "ܪܢܕܠ ܗܰܐܪܝܣ"@syr-Syrj . 
+swds:Person-527-6 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_527" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-1 . 
+swds:closeMatch-527-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_527" . 
+swds:closeMatch-527-1 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://viaf.org/viaf/34585917" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-2 . 
+swds:closeMatch-527-2 sps:closeMatch "http://viaf.org/viaf/34585917" . 
+swds:closeMatch-527-2 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://worldcat.org/identities/lccn-n87-897976" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-3 . 
+swds:closeMatch-527-3 sps:closeMatch "http://worldcat.org/identities/lccn-n87-897976" . 
+swds:closeMatch-527-3 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://viaf.org/viaf/200166052" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-4 . 
+swds:closeMatch-527-4 sps:closeMatch "http://viaf.org/viaf/200166052" . 
+swds:closeMatch-527-4 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://viaf.org/viaf/85997743" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-5 . 
+swds:closeMatch-527-5 sps:closeMatch "http://viaf.org/viaf/85997743" . 
+swds:closeMatch-527-5 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://viaf.org/viaf/214669753" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-6 . 
+swds:closeMatch-527-6 sps:closeMatch "http://viaf.org/viaf/214669753" . 
+swds:closeMatch-527-6 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:closeMatch "http://viaf.org/viaf/209763429" . 
+<http://syriaca.org/person/527> sp:closeMatch swds:closeMatch-527-7 . 
+swds:closeMatch-527-7 sps:closeMatch "http://viaf.org/viaf/209763429" . 
+swds:closeMatch-527-7 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:birth-when "1852"^^xsd:gYear . 
+<http://syriaca.org/person/527> sp:birth-when swds:birth-when-527-1 . 
+swds:birth-when-527-1 sps:birth-when "1852"^^xsd:gYear . 
+swds:birth-when-527-1 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:death-when "1941"^^xsd:gYear . 
+<http://syriaca.org/person/527> sp:death-when swds:death-when-527-1 . 
+swds:death-when-527-1 sps:death-when "1941"^^xsd:gYear . 
+swds:death-when-527-1 spr:reference-URL <http://syriaca.org/person/527.tei> . 
+<http://syriaca.org/person/527> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/527> sp:status swds:status-527-1 . 
+swds:status-527-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-527-1 spr:reference-URL <http://syriaca.org/person/527.tei> .

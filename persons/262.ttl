@@ -1,0 +1,96 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/262> rdf:type lawd:Person . 
+<http://syriaca.org/person/262> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/262> rdfs:partOf <http://syriaca.org/authors> . 
+<http://syriaca.org/person/262> rdfs:label "Ignatius Qumo of Beth Sbirino , patriarch"@en . 
+<http://syriaca.org/person/262> rdfs:label "ܩܘܡܐ ܣܒܝܪܝܢܝܐ"@syr . 
+<http://syriaca.org/person/262> lawd:hasCitation <http://syriaca.org/cbss/7PN78IZN> . 
+<http://syriaca.org/person/262> lawd:hasCitation <http://syriaca.org/cbss/T3RMVYM7> . 
+<http://syriaca.org/person/262> lawd:hasCitation <http://syriaca.org/cbss/SGBVKKGH> . 
+<http://syriaca.org/person/262> lawd:hasCitation <http://syriaca.org/cbss/6RQREE5F> . 
+<http://syriaca.org/person/262> foaf:primaryTopicOf <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> foaf:primaryTopicOf <http://syriaca.org/person/262.html> . 
+<http://syriaca.org/person/262> foaf:primaryTopicOf <http://syriaca.org/person/262.ttl> . 
+<http://syriaca.org/person/262> dcterms:hasFormat <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> dcterms:hasFormat <http://syriaca.org/person/262.html> . 
+<http://syriaca.org/person/262> dcterms:hasFormat <http://syriaca.org/person/262.ttl> . 
+<http://syriaca.org/person/262> foaf:relation <http://syriaca.org/place/221> . 
+<http://syriaca.org/person/262> foaf:relation <http://syriaca.org/place/49> . 
+<http://syriaca.org/person/262> swdt:name-variant "Ignatius Qumo of Beth Sbirino , patriarch"@en . 
+<http://syriaca.org/person/262> swdt:name-variant "Qawma , the Patriarch of Tur ‛Abdin"@en . 
+<http://syriaca.org/person/262> swdt:name-variant "قوما بطرك طور عبدين"@ar . 
+<http://syriaca.org/person/262> swdt:name-variant "ܩܘܡܐ ܦܛܪܝܪܟܐ ܕܛܘܪܥܒܕܝܢ"@syr . 
+<http://syriaca.org/person/262> swdt:name-variant "ܩܰܘܡܶܐ ܦܰܛܪܝܰܪܟܳܐ ܕܛܘܪܥܰܒܕܝܢ"@syr-Syrj . 
+<http://syriaca.org/person/262> swdt:name-variant "ܩܘܡܐ ܣܒܝܪܝܢܝܐ"@syr . 
+<http://syriaca.org/person/262> swdt:name-variant "Ignatius Qumo of Beth Sbirina"@en-x-gedsh . 
+<http://syriaca.org/person/262> swdt:name-variant "Qawma of Beth Sbirina"@en . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-1 . 
+swds:Person-262-1 sps:name-variant "Ignatius Qumo of Beth Sbirino , patriarch"@en . 
+swds:Person-262-1 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-2 . 
+swds:Person-262-2 sps:name-variant "Qawma , the Patriarch of Tur ‛Abdin"@en . 
+swds:Person-262-2 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-3 . 
+swds:Person-262-3 sps:name-variant "قوما بطرك طور عبدين"@ar . 
+swds:Person-262-3 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-4 . 
+swds:Person-262-4 sps:name-variant "ܩܘܡܐ ܦܛܪܝܪܟܐ ܕܛܘܪܥܒܕܝܢ"@syr . 
+swds:Person-262-4 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-5 . 
+swds:Person-262-5 sps:name-variant "ܩܰܘܡܶܐ ܦܰܛܪܝܰܪܟܳܐ ܕܛܘܪܥܰܒܕܝܢ"@syr-Syrj . 
+swds:Person-262-5 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-6 . 
+swds:Person-262-6 sps:name-variant "ܩܘܡܐ ܣܒܝܪܝܢܝܐ"@syr . 
+swds:Person-262-6 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-7 . 
+swds:Person-262-7 sps:name-variant "Ignatius Qumo of Beth Sbirina"@en-x-gedsh . 
+swds:Person-262-7 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> sp:name-variant swds:Person-262-8 . 
+swds:Person-262-8 sps:name-variant "Qawma of Beth Sbirina"@en . 
+swds:Person-262-8 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_262" . 
+<http://syriaca.org/person/262> sp:closeMatch swds:closeMatch-262-1 . 
+swds:closeMatch-262-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_262" . 
+swds:closeMatch-262-1 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> swdt:death-when "1454"^^xsd:gYear . 
+<http://syriaca.org/person/262> sp:death-when swds:death-when-262-1 . 
+swds:death-when-262-1 sps:death-when "1454"^^xsd:gYear . 
+swds:death-when-262-1 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> swdt:birth-place <http://syriaca.org/place/49> . 
+<http://syriaca.org/person/262> sp:birth-place swds:birth-place-262-1 . 
+swds:birth-place-262-1 sps:birth-place <http://syriaca.org/place/49> . 
+swds:birth-place-262-1 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> swdt:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+<http://syriaca.org/person/262> sp:occupation swds:occupation-262-1 . 
+swds:occupation-262-1 sps:occupation <http://syriaca.org/taxonomy/patriarchs> . 
+swds:occupation-262-1 spr:reference-URL <http://syriaca.org/person/262.tei> . 
+<http://syriaca.org/person/262> swdt:status <http://syriaca.org/taxonomy/authors> . 
+<http://syriaca.org/person/262> sp:status swds:status-262-1 . 
+swds:status-262-1 sps:status <http://syriaca.org/taxonomy/authors> . 
+swds:status-262-1 spr:reference-URL <http://syriaca.org/person/262.tei> .

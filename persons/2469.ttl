@@ -1,0 +1,86 @@
+@prefix swd: <http://syriaca.org/> .
+@prefix swds: <http://syriaca-person/entity/statement/> .
+@prefix swdt: <http://syriaca.org/prop/direct/> .
+@prefix sp: <http://syriaca.org/prop/> .
+@prefix sps: <http://syriaca.org/prop/statement/> .
+@prefix spr: <http://syriaca.org/prop/reference/> .
+@prefix spq: <http://syriaca.org/prop/qualifier/> .
+@prefix swdref: <http://spear-prosop/reference/> .
+@prefix schema: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix cwrc: <http://sparql.cwrc.ca/ontologies/cwrc#>.
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+@prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix lawd:	<http://lawd.info/ontology/> .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
+@prefix person:	<https://www.w3.org/ns/person> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+@prefix syriaca:	<http://syriaca.org/schema#> .
+@prefix snap:	<http://data.snapdrgn.net/ontology/snap#> . 
+@prefix time:	<http://www.w3.org/2006/time#> .
+@prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+ 
+<http://syriaca.org/person/2469> rdf:type lawd:Person . 
+<http://syriaca.org/person/2469> rdfs:partOf <http://syriaca.org/persons> . 
+<http://syriaca.org/person/2469> rdfs:partOf <http://syriaca.org/johnofephesus> . 
+<http://syriaca.org/person/2469> rdfs:partOf <http://syriaca.org/johnofephesus/persons> . 
+<http://syriaca.org/person/2469> rdfs:label "Paul of Samosata"@en . 
+<http://syriaca.org/person/2469> rdfs:label "ܦܘܠܐ ܫܡܝܫܛܝܐ"@syr . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/VPQBADND> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/bibl/1680> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/M2B53VFA> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/5NKETXXN> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/9KL93RUC> . 
+<http://syriaca.org/person/2469> lawd:hasCitation <http://syriaca.org/cbss/5NKETXXN> . 
+<http://syriaca.org/person/2469> foaf:primaryTopicOf <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> foaf:primaryTopicOf <http://syriaca.org/person/2469.html> . 
+<http://syriaca.org/person/2469> foaf:primaryTopicOf <http://syriaca.org/person/2469.ttl> . 
+<http://syriaca.org/person/2469> dcterms:hasFormat <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> dcterms:hasFormat <http://syriaca.org/person/2469.html> . 
+<http://syriaca.org/person/2469> dcterms:hasFormat <http://syriaca.org/person/2469.ttl> . 
+<http://syriaca.org/person/2469> schema:description "Bishop of Antioch who was deprived of his see Synod of Antioch because of heretical teachings"@en . 
+<http://syriaca.org/person/2469> schema:description "Paul was a bishop of Antioch in the 260s and a controversial theologian. He taught that Jesus had been born a mere man and been infused with the divine spirit only at his baptism. Denying the innate divine nature of Jesus, he was later framed as a precursor of Arianism and Nestorianism and condemned as a heretic."@en . 
+<http://syriaca.org/person/2469> swdt:name-variant "Paul of Samosata"@en . 
+<http://syriaca.org/person/2469> swdt:name-variant "ܦܘܠܐ ܫܡܝܫܛܝܐ"@syr . 
+<http://syriaca.org/person/2469> sp:name-variant swds:Person-2469-1 . 
+swds:Person-2469-1 sps:name-variant "Paul of Samosata"@en . 
+swds:Person-2469-1 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> sp:name-variant swds:Person-2469-2 . 
+swds:Person-2469-2 sps:name-variant "ܦܘܠܐ ܫܡܝܫܛܝܐ"@syr . 
+swds:Person-2469-2 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:closeMatch "https://en.wikipedia.org/wiki/Paul_of_Samosata" . 
+<http://syriaca.org/person/2469> sp:closeMatch swds:closeMatch-2469-1 . 
+swds:closeMatch-2469-1 sps:closeMatch "https://en.wikipedia.org/wiki/Paul_of_Samosata" . 
+swds:closeMatch-2469-1 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul%20of%20Samosata&sT=keywords" . 
+<http://syriaca.org/person/2469> sp:closeMatch swds:closeMatch-2469-2 . 
+swds:closeMatch-2469-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=P&sK=Paul%20of%20Samosata&sT=keywords" . 
+swds:closeMatch-2469-2 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:floruit-notBefore "0200"^^xsd:gYear . 
+<http://syriaca.org/person/2469> sp:floruit-notBefore swds:floruit-notBefore-2469-1 . 
+swds:floruit-notBefore-2469-1 sps:floruit-notBefore "0200"^^xsd:gYear . 
+swds:floruit-notBefore-2469-1 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:floruit-notAfter "0300"^^xsd:gYear . 
+<http://syriaca.org/person/2469> sp:floruit-notAfter swds:floruit-notAfter-2469-1 . 
+swds:floruit-notAfter-2469-1 sps:floruit-notAfter "0300"^^xsd:gYear . 
+swds:floruit-notAfter-2469-1 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:floruit-notBefore "0260-01-01"^^xsd:date . 
+<http://syriaca.org/person/2469> sp:floruit-notBefore swds:floruit-notBefore-2469-2 . 
+swds:floruit-notBefore-2469-2 sps:floruit-notBefore "0260-01-01"^^xsd:date . 
+swds:floruit-notBefore-2469-2 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:floruit-notAfter "0268-12-31"^^xsd:date . 
+<http://syriaca.org/person/2469> sp:floruit-notAfter swds:floruit-notAfter-2469-2 . 
+swds:floruit-notAfter-2469-2 sps:floruit-notAfter "0268-12-31"^^xsd:date . 
+swds:floruit-notAfter-2469-2 spr:reference-URL <http://syriaca.org/person/2469.tei> . 
+<http://syriaca.org/person/2469> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/2469> sp:gender swds:gender-2469-1 . 
+swds:gender-2469-1 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:gender-2469-1 spr:reference-URL <http://syriaca.org/person/2469.tei> .
