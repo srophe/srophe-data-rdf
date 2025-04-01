@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/97> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/97> sp:place-type swds:place-type-97-1 . 
 swds:place-type-97-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-97-1 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:place-type-97-1 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> dcterms:relation <http://syriaca.org/place/82> . 
 <http://syriaca.org/place/97> dcterms:relation <http://syriaca.org/place/78> . 
 <http://syriaca.org/place/97> dcterms:relation <http://syriaca.org/place/222> . 
@@ -64,64 +65,65 @@ swds:place-type-97-1 spr:reference-URL <http://syriaca.org/place/97> .
 <http://syriaca.org/place/97> swdt:name-variant "‘Aintab"@en-x-srp1 . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-1 . 
 swds:Place-97-1 sps:name-variant "Qalʿa Rumayta"@en . 
-swds:Place-97-1 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-1 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-2 . 
 swds:Place-97-2 sps:name-variant "Hṙomklay"@en . 
-swds:Place-97-2 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-2 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-3 . 
 swds:Place-97-3 sps:name-variant "ܩܠܥܐ ܪܘܡܝܬܐ"@syr . 
-swds:Place-97-3 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-3 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-4 . 
 swds:Place-97-4 sps:name-variant "ܩܶܠܥܳܐ ܪܘܡܳܝܬܐ"@syr-Syrj . 
-swds:Place-97-4 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-4 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-5 . 
 swds:Place-97-5 sps:name-variant "قلعة الروم"@ar . 
-swds:Place-97-5 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-5 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-6 . 
 swds:Place-97-6 sps:name-variant "Qalʿat al-Rum"@en . 
-swds:Place-97-6 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-6 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-7 . 
 swds:Place-97-7 sps:name-variant "Qala Rumayta"@en-x-srp1 . 
-swds:Place-97-7 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-7 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-8 . 
 swds:Place-97-8 sps:name-variant "Qal‘a Rumayta"@en-x-srp1 . 
-swds:Place-97-8 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-8 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-9 . 
 swds:Place-97-9 sps:name-variant "Qalat al-Rum"@en-x-srp1 . 
-swds:Place-97-9 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-9 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-10 . 
 swds:Place-97-10 sps:name-variant "Qal‘at al-Rum"@en-x-srp1 . 
-swds:Place-97-10 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-10 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-11 . 
 swds:Place-97-11 sps:name-variant "Aintab"@en-x-srp1 . 
-swds:Place-97-11 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:Place-97-11 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> sp:name-variant swds:Place-97-12 . 
 swds:Place-97-12 sps:name-variant "‘Aintab"@en-x-srp1 . 
-swds:Place-97-12 spr:reference-URL <http://syriaca.org/place/97> . 
-<http://syriaca.org/place/97> swdt:closeMatch "http://en.wikipedia.org/wiki/Rumkale" . 
+swds:Place-97-12 spr:reference-URL <http://syriaca.org/place/97.tei> . 
+<http://syriaca.org/place/97> swdt:closeMatch <http://en.wikipedia.org/wiki/Rumkale> . 
 <http://syriaca.org/place/97> sp:closeMatch swds:closeMatch-97-1 . 
-swds:closeMatch-97-1 sps:closeMatch "http://en.wikipedia.org/wiki/Rumkale" . 
-swds:closeMatch-97-1 spr:reference-URL <http://syriaca.org/place/97> . 
-<http://syriaca.org/place/97> swdt:closeMatch "http://dbpedia.org/resource/Rumkale" . 
+swds:closeMatch-97-1 sps:closeMatch <http://en.wikipedia.org/wiki/Rumkale> . 
+swds:closeMatch-97-1 spr:reference-URL <http://syriaca.org/place/97.tei> . 
+<http://syriaca.org/place/97> swdt:closeMatch <http://dbpedia.org/resource/Rumkale> . 
 <http://syriaca.org/place/97> sp:closeMatch swds:closeMatch-97-2 . 
-swds:closeMatch-97-2 sps:closeMatch "http://dbpedia.org/resource/Rumkale" . 
-swds:closeMatch-97-2 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:closeMatch-97-2 sps:closeMatch <http://dbpedia.org/resource/Rumkale> . 
+swds:closeMatch-97-2 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> swdt:exist-from "1203"^^xsd:gYear . 
 <http://syriaca.org/place/97> sp:exist-from swds:exist-from-97-1 . 
 swds:exist-from-97-1 sps:exist-from "1203"^^xsd:gYear . 
-swds:exist-from-97-1 spr:reference-URL <http://syriaca.org/place/97> . 
+swds:exist-from-97-1 spr:reference-URL <http://syriaca.org/place/97.tei> . 
 <http://syriaca.org/place/97> swdt:exist-to "1293"^^xsd:gYear . 
 <http://syriaca.org/place/97> sp:exist-to swds:exist-to-97-1 . 
 swds:exist-to-97-1 sps:exist-to "1293"^^xsd:gYear . 
 swds:exist-to-97-1 spr:reference-URL <http://syriaca.org/place/97.tei> . 
-<http://syriaca.org/place/97> swdt:has-gps-coordinates "37.270778 37.837917" . 
-<http://syriaca.org/place/97> sp:has-gps-coordinates "37.270778 37.837917" . 
+<http://syriaca.org/place/97> swdt:has-gps-coordinates "37.270778 37.837917"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/97> sp:has-gps-coordinates swds:coordinates-97-1 . 
+<http://syriaca.org/place/97> swd:has-gps-coordinates "37.270778 37.837917"^^geosparql:wktLiteral . 
 swds:coordinates-97-1 spr:reference-URL <http://syriaca.org/place/97.tei> . 
-<place/97> swdt:not-to-be-confused-with <> . 
-<place/97> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-97-11 . 
-swds:activeRelationnot-to-be-confused-with-97-11 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/97> swdt:not-to-be-confused-with <http://syriaca.org/place/695> . 
+<http://syriaca.org/place/97> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-97-11 . 
+swds:activeRelationnot-to-be-confused-with-97-11 swd:not-to-be-confused-with <http://syriaca.org/place/695> . 
 swds:activeRelationnot-to-be-confused-with-97-11 spr:reference-URL <http://syriaca.org/place/97.tei> . 
-<place/695> swdt:not-to-be-confused-with <> . 
-<place/695> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-97-12 . 
-swds:activeRelationnot-to-be-confused-with-97-12 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/695> swdt:not-to-be-confused-with <http://syriaca.org/place/97> . 
+<http://syriaca.org/place/695> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-97-12 . 
+swds:activeRelationnot-to-be-confused-with-97-12 swd:not-to-be-confused-with <http://syriaca.org/place/97> . 
 swds:activeRelationnot-to-be-confused-with-97-12 spr:reference-URL <http://syriaca.org/place/97.tei> .

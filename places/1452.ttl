@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -47,7 +48,7 @@
 <http://syriaca.org/place/1452> swdt:place-type <http://syriaca.org/taxonomy/regions> . 
 <http://syriaca.org/place/1452> sp:place-type swds:place-type-1452-1 . 
 swds:place-type-1452-1 sps:place-type <http://syriaca.org/taxonomy/regions> . 
-swds:place-type-1452-1 spr:reference-URL <http://syriaca.org/place/1452> . 
+swds:place-type-1452-1 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
 <http://syriaca.org/place/1452> dcterms:relation <http://syriaca.org/place/202> . 
 <http://syriaca.org/place/1452> dcterms:relation <http://syriaca.org/place/82> . 
 <http://syriaca.org/place/1452> swdt:name-variant "Mesopotamia"@en . 
@@ -58,50 +59,51 @@ swds:place-type-1452-1 spr:reference-URL <http://syriaca.org/place/1452> .
 <http://syriaca.org/place/1452> swdt:name-variant "ܡܣܦܛܡܝܐ"@syr . 
 <http://syriaca.org/place/1452> sp:name-variant swds:Place-1452-1 . 
 swds:Place-1452-1 sps:name-variant "Mesopotamia"@en . 
-swds:Place-1452-1 spr:reference-URL <http://syriaca.org/place/1452> . 
+swds:Place-1452-1 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
 <http://syriaca.org/place/1452> sp:name-variant swds:Place-1452-2 . 
 swds:Place-1452-2 sps:name-variant "ܒܝܬ ܢܗܪ̈ܝܢ"@syr . 
-swds:Place-1452-2 spr:reference-URL <http://syriaca.org/place/1452> . 
+swds:Place-1452-2 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
 <http://syriaca.org/place/1452> sp:name-variant swds:Place-1452-3 . 
 swds:Place-1452-3 sps:name-variant "ܒܶܝܬ ܢܰܗܪ̈ܺܝܢ"@syr-Syrj . 
-swds:Place-1452-3 spr:reference-URL <http://syriaca.org/place/1452> . 
+swds:Place-1452-3 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
 <http://syriaca.org/place/1452> sp:name-variant swds:Place-1452-4 . 
 swds:Place-1452-4 sps:name-variant "ما بين النهرين"@ar . 
-swds:Place-1452-4 spr:reference-URL <http://syriaca.org/place/1452> . 
+swds:Place-1452-4 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
 <http://syriaca.org/place/1452> sp:name-variant swds:Place-1452-5 . 
 swds:Place-1452-5 sps:name-variant "جزيرة اقور"@ar . 
-swds:Place-1452-5 spr:reference-URL <http://syriaca.org/place/1452> . 
+swds:Place-1452-5 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
 <http://syriaca.org/place/1452> sp:name-variant swds:Place-1452-6 . 
 swds:Place-1452-6 sps:name-variant "ܡܣܦܛܡܝܐ"@syr . 
-swds:Place-1452-6 spr:reference-URL <http://syriaca.org/place/1452> . 
-<http://syriaca.org/place/1452> swdt:closeMatch "http://pleiades.stoa.org/places/874602" . 
+swds:Place-1452-6 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
+<http://syriaca.org/place/1452> swdt:closeMatch <http://pleiades.stoa.org/places/874602> . 
 <http://syriaca.org/place/1452> sp:closeMatch swds:closeMatch-1452-1 . 
-swds:closeMatch-1452-1 sps:closeMatch "http://pleiades.stoa.org/places/874602" . 
-swds:closeMatch-1452-1 spr:reference-URL <http://syriaca.org/place/1452> . 
-<http://syriaca.org/place/1452> swdt:closeMatch "http://en.wikipedia.org/wiki/Mesopotamia" . 
+swds:closeMatch-1452-1 sps:closeMatch <http://pleiades.stoa.org/places/874602> . 
+swds:closeMatch-1452-1 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
+<http://syriaca.org/place/1452> swdt:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia> . 
 <http://syriaca.org/place/1452> sp:closeMatch swds:closeMatch-1452-2 . 
-swds:closeMatch-1452-2 sps:closeMatch "http://en.wikipedia.org/wiki/Mesopotamia" . 
-swds:closeMatch-1452-2 spr:reference-URL <http://syriaca.org/place/1452> . 
-<http://syriaca.org/place/1452> swdt:closeMatch "http://dbpedia.org/resource/Mesopotamia" . 
+swds:closeMatch-1452-2 sps:closeMatch <http://en.wikipedia.org/wiki/Mesopotamia> . 
+swds:closeMatch-1452-2 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
+<http://syriaca.org/place/1452> swdt:closeMatch <http://dbpedia.org/resource/Mesopotamia> . 
 <http://syriaca.org/place/1452> sp:closeMatch swds:closeMatch-1452-3 . 
-swds:closeMatch-1452-3 sps:closeMatch "http://dbpedia.org/resource/Mesopotamia" . 
-swds:closeMatch-1452-3 spr:reference-URL <http://syriaca.org/place/1452> . 
-<http://syriaca.org/place/1452> swdt:has-gps-coordinates "37.5 39.5" . 
-<http://syriaca.org/place/1452> sp:has-gps-coordinates "37.5 39.5" . 
+swds:closeMatch-1452-3 sps:closeMatch <http://dbpedia.org/resource/Mesopotamia> . 
+swds:closeMatch-1452-3 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
+<http://syriaca.org/place/1452> swdt:has-gps-coordinates "37.5 39.5"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/1452> sp:has-gps-coordinates swds:coordinates-1452-1 . 
+<http://syriaca.org/place/1452> swd:has-gps-coordinates "37.5 39.5"^^geosparql:wktLiteral . 
 swds:coordinates-1452-1 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
-<place/124> swdt:share-a-name <> . 
-<place/124> sp:share-a-name swds:activeRelationshare-a-name-1452-11 . 
-swds:activeRelationshare-a-name-1452-11 swd:share-a-name <> . 
+<http://syriaca.org/place/124> swdt:share-a-name <http://syriaca.org/place/1452> . 
+<http://syriaca.org/place/124> sp:share-a-name swds:activeRelationshare-a-name-1452-11 . 
+swds:activeRelationshare-a-name-1452-11 swd:share-a-name <http://syriaca.org/place/1452> . 
 swds:activeRelationshare-a-name-1452-11 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
-<place/1452> swdt:share-a-name <> . 
-<place/1452> sp:share-a-name swds:activeRelationshare-a-name-1452-12 . 
-swds:activeRelationshare-a-name-1452-12 swd:share-a-name <> . 
+<http://syriaca.org/place/1452> swdt:share-a-name <http://syriaca.org/place/124> . 
+<http://syriaca.org/place/1452> sp:share-a-name swds:activeRelationshare-a-name-1452-12 . 
+swds:activeRelationshare-a-name-1452-12 swd:share-a-name <http://syriaca.org/place/124> . 
 swds:activeRelationshare-a-name-1452-12 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
-<place/124> swdt:co-located <> . 
-<place/124> sp:co-located swds:activeRelationco-located-1452-21 . 
-swds:activeRelationco-located-1452-21 swd:co-located <> . 
+<http://syriaca.org/place/124> swdt:co-located <http://syriaca.org/place/1452> . 
+<http://syriaca.org/place/124> sp:co-located swds:activeRelationco-located-1452-21 . 
+swds:activeRelationco-located-1452-21 swd:co-located <http://syriaca.org/place/1452> . 
 swds:activeRelationco-located-1452-21 spr:reference-URL <http://syriaca.org/place/1452.tei> . 
-<place/1452> swdt:co-located <> . 
-<place/1452> sp:co-located swds:activeRelationco-located-1452-22 . 
-swds:activeRelationco-located-1452-22 swd:co-located <> . 
+<http://syriaca.org/place/1452> swdt:co-located <http://syriaca.org/place/124> . 
+<http://syriaca.org/place/1452> sp:co-located swds:activeRelationco-located-1452-22 . 
+swds:activeRelationco-located-1452-22 swd:co-located <http://syriaca.org/place/124> . 
 swds:activeRelationco-located-1452-22 spr:reference-URL <http://syriaca.org/place/1452.tei> .

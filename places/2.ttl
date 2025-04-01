@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -43,7 +44,7 @@
 <http://syriaca.org/place/2> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/2> sp:place-type swds:place-type-2-1 . 
 swds:place-type-2-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-2-1 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:place-type-2-1 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> dcterms:relation <http://syriaca.org/place/221> . 
 <http://syriaca.org/place/2> swdt:name-variant "Ṣalaḥ"@en . 
 <http://syriaca.org/place/2> swdt:name-variant "ܨܠܚ"@syr . 
@@ -54,37 +55,38 @@ swds:place-type-2-1 spr:reference-URL <http://syriaca.org/place/2> .
 <http://syriaca.org/place/2> swdt:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-1 . 
 swds:Place-2-1 sps:name-variant "Ṣalaḥ"@en . 
-swds:Place-2-1 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:Place-2-1 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-2 . 
 swds:Place-2-2 sps:name-variant "ܨܠܚ"@syr . 
-swds:Place-2-2 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:Place-2-2 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-3 . 
 swds:Place-2-3 sps:name-variant "ܨܰܠܚ"@syr-Syrj . 
-swds:Place-2-3 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:Place-2-3 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-4 . 
 swds:Place-2-4 sps:name-variant "صلح"@ar . 
-swds:Place-2-4 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:Place-2-4 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-5 . 
 swds:Place-2-5 sps:name-variant "Salaḥ"@en . 
-swds:Place-2-5 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:Place-2-5 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-6 . 
 swds:Place-2-6 sps:name-variant "Ṭur Abdin"@en-x-srp1 . 
-swds:Place-2-6 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:Place-2-6 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> sp:name-variant swds:Place-2-7 . 
 swds:Place-2-7 sps:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
-swds:Place-2-7 spr:reference-URL <http://syriaca.org/place/2> . 
-<http://syriaca.org/place/2> swdt:closeMatch "http://tr.wikipedia.org/wiki/Barıştepe,_Midyat" . 
+swds:Place-2-7 spr:reference-URL <http://syriaca.org/place/2.tei> . 
+<http://syriaca.org/place/2> swdt:closeMatch <http://tr.wikipedia.org/wiki/Barıştepe,_Midyat> . 
 <http://syriaca.org/place/2> sp:closeMatch swds:closeMatch-2-1 . 
-swds:closeMatch-2-1 sps:closeMatch "http://tr.wikipedia.org/wiki/Barıştepe,_Midyat" . 
-swds:closeMatch-2-1 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:closeMatch-2-1 sps:closeMatch <http://tr.wikipedia.org/wiki/Barıştepe,_Midyat> . 
+swds:closeMatch-2-1 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> swdt:exist-from "1501"^^xsd:gYear . 
 <http://syriaca.org/place/2> sp:exist-from swds:exist-from-2-1 . 
 swds:exist-from-2-1 sps:exist-from "1501"^^xsd:gYear . 
-swds:exist-from-2-1 spr:reference-URL <http://syriaca.org/place/2> . 
+swds:exist-from-2-1 spr:reference-URL <http://syriaca.org/place/2.tei> . 
 <http://syriaca.org/place/2> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/2> sp:exist-to swds:exist-to-2-1 . 
 swds:exist-to-2-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-2-1 spr:reference-URL <http://syriaca.org/place/2.tei> . 
-<http://syriaca.org/place/2> swdt:has-gps-coordinates "37.483889 41.4025" . 
-<http://syriaca.org/place/2> sp:has-gps-coordinates "37.483889 41.4025" . 
+<http://syriaca.org/place/2> swdt:has-gps-coordinates "37.483889 41.4025"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2> sp:has-gps-coordinates swds:coordinates-2-1 . 
+<http://syriaca.org/place/2> swd:has-gps-coordinates "37.483889 41.4025"^^geosparql:wktLiteral . 
 swds:coordinates-2-1 spr:reference-URL <http://syriaca.org/place/2.tei> .

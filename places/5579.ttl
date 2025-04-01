@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -43,27 +44,28 @@
 <http://syriaca.org/place/5579> swdt:place-type <http://syriaca.org/taxonomy/states> . 
 <http://syriaca.org/place/5579> sp:place-type swds:place-type-5579-1 . 
 swds:place-type-5579-1 sps:place-type <http://syriaca.org/taxonomy/states> . 
-swds:place-type-5579-1 spr:reference-URL <http://syriaca.org/place/5579> . 
+swds:place-type-5579-1 spr:reference-URL <http://syriaca.org/place/5579.tei> . 
 <http://syriaca.org/place/5579> swdt:name-variant "Aksum"@en . 
 <http://syriaca.org/place/5579> swdt:name-variant "Aksum"@en . 
 <http://syriaca.org/place/5579> swdt:name-variant "ܐܟܣܝܡ̈ܝܛܘܢ (people of Aksum)"@syr . 
 <http://syriaca.org/place/5579> sp:name-variant swds:Place-5579-1 . 
 swds:Place-5579-1 sps:name-variant "Aksum"@en . 
-swds:Place-5579-1 spr:reference-URL <http://syriaca.org/place/5579> . 
+swds:Place-5579-1 spr:reference-URL <http://syriaca.org/place/5579.tei> . 
 <http://syriaca.org/place/5579> sp:name-variant swds:Place-5579-2 . 
 swds:Place-5579-2 sps:name-variant "Aksum"@en . 
-swds:Place-5579-2 spr:reference-URL <http://syriaca.org/place/5579> . 
+swds:Place-5579-2 spr:reference-URL <http://syriaca.org/place/5579.tei> . 
 <http://syriaca.org/place/5579> sp:name-variant swds:Place-5579-3 . 
 swds:Place-5579-3 sps:name-variant "ܐܟܣܝܡ̈ܝܛܘܢ (people of Aksum)"@syr . 
-swds:Place-5579-3 spr:reference-URL <http://syriaca.org/place/5579> . 
-<http://syriaca.org/place/5579> swdt:closeMatch "https://pleiades.stoa.org/places/39303" . 
+swds:Place-5579-3 spr:reference-URL <http://syriaca.org/place/5579.tei> . 
+<http://syriaca.org/place/5579> swdt:closeMatch <https://pleiades.stoa.org/places/39303> . 
 <http://syriaca.org/place/5579> sp:closeMatch swds:closeMatch-5579-1 . 
-swds:closeMatch-5579-1 sps:closeMatch "https://pleiades.stoa.org/places/39303" . 
-swds:closeMatch-5579-1 spr:reference-URL <http://syriaca.org/place/5579> . 
-<http://syriaca.org/place/5579> swdt:closeMatch "https://en.wikipedia.org/wiki/Kingdom_of_Aksum" . 
+swds:closeMatch-5579-1 sps:closeMatch <https://pleiades.stoa.org/places/39303> . 
+swds:closeMatch-5579-1 spr:reference-URL <http://syriaca.org/place/5579.tei> . 
+<http://syriaca.org/place/5579> swdt:closeMatch <https://en.wikipedia.org/wiki/Kingdom_of_Aksum> . 
 <http://syriaca.org/place/5579> sp:closeMatch swds:closeMatch-5579-2 . 
-swds:closeMatch-5579-2 sps:closeMatch "https://en.wikipedia.org/wiki/Kingdom_of_Aksum" . 
-swds:closeMatch-5579-2 spr:reference-URL <http://syriaca.org/place/5579> . 
-<http://syriaca.org/place/5579> swdt:has-gps-coordinates "14.125005 38.721522" . 
-<http://syriaca.org/place/5579> sp:has-gps-coordinates "14.125005 38.721522" . 
+swds:closeMatch-5579-2 sps:closeMatch <https://en.wikipedia.org/wiki/Kingdom_of_Aksum> . 
+swds:closeMatch-5579-2 spr:reference-URL <http://syriaca.org/place/5579.tei> . 
+<http://syriaca.org/place/5579> swdt:has-gps-coordinates "14.125005 38.721522"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5579> sp:has-gps-coordinates swds:coordinates-5579-1 . 
+<http://syriaca.org/place/5579> swd:has-gps-coordinates "14.125005 38.721522"^^geosparql:wktLiteral . 
 swds:coordinates-5579-1 spr:reference-URL <http://syriaca.org/place/5579.tei> .

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/5628> swdt:place-type <http://syriaca.org/taxonomy/islands> . 
 <http://syriaca.org/place/5628> sp:place-type swds:place-type-5628-1 . 
 swds:place-type-5628-1 sps:place-type <http://syriaca.org/taxonomy/islands> . 
-swds:place-type-5628-1 spr:reference-URL <http://syriaca.org/place/5628> . 
+swds:place-type-5628-1 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> dcterms:relation <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5628> swdt:name-variant "Plateia"@en . 
 <http://syriaca.org/place/5628> swdt:name-variant "ܦܠܛܝܐ"@syr . 
@@ -55,32 +56,33 @@ swds:place-type-5628-1 spr:reference-URL <http://syriaca.org/place/5628> .
 <http://syriaca.org/place/5628> swdt:name-variant "Plati"@fr . 
 <http://syriaca.org/place/5628> sp:name-variant swds:Place-5628-1 . 
 swds:Place-5628-1 sps:name-variant "Plateia"@en . 
-swds:Place-5628-1 spr:reference-URL <http://syriaca.org/place/5628> . 
+swds:Place-5628-1 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> sp:name-variant swds:Place-5628-2 . 
 swds:Place-5628-2 sps:name-variant "ܦܠܛܝܐ"@syr . 
-swds:Place-5628-2 spr:reference-URL <http://syriaca.org/place/5628> . 
+swds:Place-5628-2 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> sp:name-variant swds:Place-5628-3 . 
 swds:Place-5628-3 sps:name-variant "Plate / Plateia"@en . 
-swds:Place-5628-3 spr:reference-URL <http://syriaca.org/place/5628> . 
+swds:Place-5628-3 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> sp:name-variant swds:Place-5628-4 . 
 swds:Place-5628-4 sps:name-variant "ܦܠܛܝܐ"@syr . 
-swds:Place-5628-4 spr:reference-URL <http://syriaca.org/place/5628> . 
+swds:Place-5628-4 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> sp:name-variant swds:Place-5628-5 . 
 swds:Place-5628-5 sps:name-variant "Πλάτη / Πλατεῖα"@grc . 
-swds:Place-5628-5 spr:reference-URL <http://syriaca.org/place/5628> . 
+swds:Place-5628-5 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> sp:name-variant swds:Place-5628-6 . 
 swds:Place-5628-6 sps:name-variant "Plati"@fr . 
-swds:Place-5628-6 spr:reference-URL <http://syriaca.org/place/5628> . 
-<http://syriaca.org/place/5628> swdt:closeMatch "https://pleiades.stoa.org/places/272860363" . 
+swds:Place-5628-6 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
+<http://syriaca.org/place/5628> swdt:closeMatch <https://pleiades.stoa.org/places/272860363> . 
 <http://syriaca.org/place/5628> sp:closeMatch swds:closeMatch-5628-1 . 
-swds:closeMatch-5628-1 sps:closeMatch "https://pleiades.stoa.org/places/272860363" . 
-swds:closeMatch-5628-1 spr:reference-URL <http://syriaca.org/place/5628> . 
-<http://syriaca.org/place/5628> swdt:closeMatch "https://en.wikipedia.org/wiki/Yass%C4%B1ada" . 
+swds:closeMatch-5628-1 sps:closeMatch <https://pleiades.stoa.org/places/272860363> . 
+swds:closeMatch-5628-1 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
+<http://syriaca.org/place/5628> swdt:closeMatch <https://en.wikipedia.org/wiki/Yass%C4%B1ada> . 
 <http://syriaca.org/place/5628> sp:closeMatch swds:closeMatch-5628-2 . 
-swds:closeMatch-5628-2 sps:closeMatch "https://en.wikipedia.org/wiki/Yass%C4%B1ada" . 
-swds:closeMatch-5628-2 spr:reference-URL <http://syriaca.org/place/5628> . 
-<http://syriaca.org/place/5628> swdt:has-gps-coordinates "36.9917589062 27.1973335804" . 
-<http://syriaca.org/place/5628> sp:has-gps-coordinates "36.9917589062 27.1973335804" . 
+swds:closeMatch-5628-2 sps:closeMatch <https://en.wikipedia.org/wiki/Yass%C4%B1ada> . 
+swds:closeMatch-5628-2 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
+<http://syriaca.org/place/5628> swdt:has-gps-coordinates "36.9917589062 27.1973335804"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5628> sp:has-gps-coordinates swds:coordinates-5628-1 . 
+<http://syriaca.org/place/5628> swd:has-gps-coordinates "36.9917589062 27.1973335804"^^geosparql:wktLiteral . 
 swds:coordinates-5628-1 spr:reference-URL <http://syriaca.org/place/5628.tei> . 
 <http://syriaca.org/place/5628> swdt:broader <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5628> sp:broader swds:activeRelationbroader-5628-11 . 

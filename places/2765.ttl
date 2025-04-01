@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/2765> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/2765> sp:place-type swds:place-type-2765-1 . 
 swds:place-type-2765-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-2765-1 spr:reference-URL <http://syriaca.org/place/2765> . 
+swds:place-type-2765-1 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
 <http://syriaca.org/place/2765> dcterms:relation <http://syriaca.org/place/715> . 
 <http://syriaca.org/place/2765> swdt:name-variant "Casium"@en . 
 <http://syriaca.org/place/2765> swdt:name-variant "ܩܣܝܢ"@syr . 
@@ -54,29 +55,30 @@ swds:place-type-2765-1 spr:reference-URL <http://syriaca.org/place/2765> .
 <http://syriaca.org/place/2765> swdt:name-variant "ܕܝܪܐ ܕܩܣܝܢ"@syr . 
 <http://syriaca.org/place/2765> sp:name-variant swds:Place-2765-1 . 
 swds:Place-2765-1 sps:name-variant "Casium"@en . 
-swds:Place-2765-1 spr:reference-URL <http://syriaca.org/place/2765> . 
+swds:Place-2765-1 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
 <http://syriaca.org/place/2765> sp:name-variant swds:Place-2765-2 . 
 swds:Place-2765-2 sps:name-variant "ܩܣܝܢ"@syr . 
-swds:Place-2765-2 spr:reference-URL <http://syriaca.org/place/2765> . 
+swds:Place-2765-2 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
 <http://syriaca.org/place/2765> sp:name-variant swds:Place-2765-3 . 
 swds:Place-2765-3 sps:name-variant "ܥܘܡܪܐ ܕܩܣܝܢ"@syr . 
-swds:Place-2765-3 spr:reference-URL <http://syriaca.org/place/2765> . 
+swds:Place-2765-3 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
 <http://syriaca.org/place/2765> sp:name-variant swds:Place-2765-4 . 
 swds:Place-2765-4 sps:name-variant "Casion, Monastery of"@en . 
-swds:Place-2765-4 spr:reference-URL <http://syriaca.org/place/2765> . 
+swds:Place-2765-4 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
 <http://syriaca.org/place/2765> sp:name-variant swds:Place-2765-5 . 
 swds:Place-2765-5 sps:name-variant "ܕܝܪܐ ܕܩܣܝܢ"@syr . 
-swds:Place-2765-5 spr:reference-URL <http://syriaca.org/place/2765> . 
-<http://syriaca.org/place/2765> swdt:closeMatch "https://pleiades.stoa.org/places/687872" . 
+swds:Place-2765-5 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
+<http://syriaca.org/place/2765> swdt:closeMatch <https://pleiades.stoa.org/places/687872> . 
 <http://syriaca.org/place/2765> sp:closeMatch swds:closeMatch-2765-1 . 
-swds:closeMatch-2765-1 sps:closeMatch "https://pleiades.stoa.org/places/687872" . 
-swds:closeMatch-2765-1 spr:reference-URL <http://syriaca.org/place/2765> . 
-<http://syriaca.org/place/2765> swdt:closeMatch "https://en.wikipedia.org/wiki/Ras_Kouroun" . 
+swds:closeMatch-2765-1 sps:closeMatch <https://pleiades.stoa.org/places/687872> . 
+swds:closeMatch-2765-1 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
+<http://syriaca.org/place/2765> swdt:closeMatch <https://en.wikipedia.org/wiki/Ras_Kouroun> . 
 <http://syriaca.org/place/2765> sp:closeMatch swds:closeMatch-2765-2 . 
-swds:closeMatch-2765-2 sps:closeMatch "https://en.wikipedia.org/wiki/Ras_Kouroun" . 
-swds:closeMatch-2765-2 spr:reference-URL <http://syriaca.org/place/2765> . 
-<http://syriaca.org/place/2765> swdt:has-gps-coordinates "31.2116 33.0779" . 
-<http://syriaca.org/place/2765> sp:has-gps-coordinates "31.2116 33.0779" . 
+swds:closeMatch-2765-2 sps:closeMatch <https://en.wikipedia.org/wiki/Ras_Kouroun> . 
+swds:closeMatch-2765-2 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
+<http://syriaca.org/place/2765> swdt:has-gps-coordinates "31.2116 33.0779"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2765> sp:has-gps-coordinates swds:coordinates-2765-1 . 
+<http://syriaca.org/place/2765> swd:has-gps-coordinates "31.2116 33.0779"^^geosparql:wktLiteral . 
 swds:coordinates-2765-1 spr:reference-URL <http://syriaca.org/place/2765.tei> . 
 <http://syriaca.org/place/2765> swdt:broader <http://syriaca.org/place/715> . 
 <http://syriaca.org/place/2765> sp:broader swds:activeRelationbroader-2765-11 . 

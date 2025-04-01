@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,31 +45,32 @@
 <http://syriaca.org/place/5596> swdt:place-type <http://syriaca.org/taxonomy/rivers> . 
 <http://syriaca.org/place/5596> sp:place-type swds:place-type-5596-1 . 
 swds:place-type-5596-1 sps:place-type <http://syriaca.org/taxonomy/rivers> . 
-swds:place-type-5596-1 spr:reference-URL <http://syriaca.org/place/5596> . 
+swds:place-type-5596-1 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
 <http://syriaca.org/place/5596> swdt:name-variant "Danube"@en . 
 <http://syriaca.org/place/5596> swdt:name-variant "ܕܘܢܒܝܣ ܢܗܪܐ"@syr . 
 <http://syriaca.org/place/5596> swdt:name-variant "Danube"@en . 
 <http://syriaca.org/place/5596> swdt:name-variant "ܕܘܢܒܝܣ ܢܗܪܐ"@syr . 
 <http://syriaca.org/place/5596> sp:name-variant swds:Place-5596-1 . 
 swds:Place-5596-1 sps:name-variant "Danube"@en . 
-swds:Place-5596-1 spr:reference-URL <http://syriaca.org/place/5596> . 
+swds:Place-5596-1 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
 <http://syriaca.org/place/5596> sp:name-variant swds:Place-5596-2 . 
 swds:Place-5596-2 sps:name-variant "ܕܘܢܒܝܣ ܢܗܪܐ"@syr . 
-swds:Place-5596-2 spr:reference-URL <http://syriaca.org/place/5596> . 
+swds:Place-5596-2 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
 <http://syriaca.org/place/5596> sp:name-variant swds:Place-5596-3 . 
 swds:Place-5596-3 sps:name-variant "Danube"@en . 
-swds:Place-5596-3 spr:reference-URL <http://syriaca.org/place/5596> . 
+swds:Place-5596-3 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
 <http://syriaca.org/place/5596> sp:name-variant swds:Place-5596-4 . 
 swds:Place-5596-4 sps:name-variant "ܕܘܢܒܝܣ ܢܗܪܐ"@syr . 
-swds:Place-5596-4 spr:reference-URL <http://syriaca.org/place/5596> . 
-<http://syriaca.org/place/5596> swdt:closeMatch "https://pleiades.stoa.org/places/226577" . 
+swds:Place-5596-4 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
+<http://syriaca.org/place/5596> swdt:closeMatch <https://pleiades.stoa.org/places/226577> . 
 <http://syriaca.org/place/5596> sp:closeMatch swds:closeMatch-5596-1 . 
-swds:closeMatch-5596-1 sps:closeMatch "https://pleiades.stoa.org/places/226577" . 
-swds:closeMatch-5596-1 spr:reference-URL <http://syriaca.org/place/5596> . 
-<http://syriaca.org/place/5596> swdt:closeMatch "https://en.wikipedia.org/wiki/Danube" . 
+swds:closeMatch-5596-1 sps:closeMatch <https://pleiades.stoa.org/places/226577> . 
+swds:closeMatch-5596-1 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
+<http://syriaca.org/place/5596> swdt:closeMatch <https://en.wikipedia.org/wiki/Danube> . 
 <http://syriaca.org/place/5596> sp:closeMatch swds:closeMatch-5596-2 . 
-swds:closeMatch-5596-2 sps:closeMatch "https://en.wikipedia.org/wiki/Danube" . 
-swds:closeMatch-5596-2 spr:reference-URL <http://syriaca.org/place/5596> . 
-<http://syriaca.org/place/5596> swdt:has-gps-coordinates "47.1149830333 15.0772312333" . 
-<http://syriaca.org/place/5596> sp:has-gps-coordinates "47.1149830333 15.0772312333" . 
+swds:closeMatch-5596-2 sps:closeMatch <https://en.wikipedia.org/wiki/Danube> . 
+swds:closeMatch-5596-2 spr:reference-URL <http://syriaca.org/place/5596.tei> . 
+<http://syriaca.org/place/5596> swdt:has-gps-coordinates "47.1149830333 15.0772312333"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5596> sp:has-gps-coordinates swds:coordinates-5596-1 . 
+<http://syriaca.org/place/5596> swd:has-gps-coordinates "47.1149830333 15.0772312333"^^geosparql:wktLiteral . 
 swds:coordinates-5596-1 spr:reference-URL <http://syriaca.org/place/5596.tei> .

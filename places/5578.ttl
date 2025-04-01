@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/5578> swdt:place-type <http://syriaca.org/taxonomy/fortifications> . 
 <http://syriaca.org/place/5578> sp:place-type swds:place-type-5578-1 . 
 swds:place-type-5578-1 sps:place-type <http://syriaca.org/taxonomy/fortifications> . 
-swds:place-type-5578-1 spr:reference-URL <http://syriaca.org/place/5578> . 
+swds:place-type-5578-1 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
 <http://syriaca.org/place/5578> dcterms:relation <http://syriaca.org/place/576> . 
 <http://syriaca.org/place/5578> swdt:name-variant "Akbas"@en . 
 <http://syriaca.org/place/5578> swdt:name-variant "ܐܩܒܐ"@syr . 
@@ -53,26 +54,27 @@ swds:place-type-5578-1 spr:reference-URL <http://syriaca.org/place/5578> .
 <http://syriaca.org/place/5578> swdt:name-variant "ܐܩܒܐ"@syr . 
 <http://syriaca.org/place/5578> sp:name-variant swds:Place-5578-1 . 
 swds:Place-5578-1 sps:name-variant "Akbas"@en . 
-swds:Place-5578-1 spr:reference-URL <http://syriaca.org/place/5578> . 
+swds:Place-5578-1 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
 <http://syriaca.org/place/5578> sp:name-variant swds:Place-5578-2 . 
 swds:Place-5578-2 sps:name-variant "ܐܩܒܐ"@syr . 
-swds:Place-5578-2 spr:reference-URL <http://syriaca.org/place/5578> . 
+swds:Place-5578-2 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
 <http://syriaca.org/place/5578> sp:name-variant swds:Place-5578-3 . 
 swds:Place-5578-3 sps:name-variant "Akbas"@en . 
-swds:Place-5578-3 spr:reference-URL <http://syriaca.org/place/5578> . 
+swds:Place-5578-3 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
 <http://syriaca.org/place/5578> sp:name-variant swds:Place-5578-4 . 
 swds:Place-5578-4 sps:name-variant "ܐܩܒܐ"@syr . 
-swds:Place-5578-4 spr:reference-URL <http://syriaca.org/place/5578> . 
-<http://syriaca.org/place/5578> swdt:closeMatch "https://pleiades.stoa.org/places/874309" . 
+swds:Place-5578-4 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
+<http://syriaca.org/place/5578> swdt:closeMatch <https://pleiades.stoa.org/places/874309> . 
 <http://syriaca.org/place/5578> sp:closeMatch swds:closeMatch-5578-1 . 
-swds:closeMatch-5578-1 sps:closeMatch "https://pleiades.stoa.org/places/874309" . 
-swds:closeMatch-5578-1 spr:reference-URL <http://syriaca.org/place/5578> . 
-<http://syriaca.org/place/5578> swdt:closeMatch "https://en.wikipedia.org/wiki/Acbas" . 
+swds:closeMatch-5578-1 sps:closeMatch <https://pleiades.stoa.org/places/874309> . 
+swds:closeMatch-5578-1 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
+<http://syriaca.org/place/5578> swdt:closeMatch <https://en.wikipedia.org/wiki/Acbas> . 
 <http://syriaca.org/place/5578> sp:closeMatch swds:closeMatch-5578-2 . 
-swds:closeMatch-5578-2 sps:closeMatch "https://en.wikipedia.org/wiki/Acbas" . 
-swds:closeMatch-5578-2 spr:reference-URL <http://syriaca.org/place/5578> . 
-<http://syriaca.org/place/5578> swdt:has-gps-coordinates "38.263455 41.038876" . 
-<http://syriaca.org/place/5578> sp:has-gps-coordinates "38.263455 41.038876" . 
+swds:closeMatch-5578-2 sps:closeMatch <https://en.wikipedia.org/wiki/Acbas> . 
+swds:closeMatch-5578-2 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
+<http://syriaca.org/place/5578> swdt:has-gps-coordinates "38.263455 41.038876"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5578> sp:has-gps-coordinates swds:coordinates-5578-1 . 
+<http://syriaca.org/place/5578> swd:has-gps-coordinates "38.263455 41.038876"^^geosparql:wktLiteral . 
 swds:coordinates-5578-1 spr:reference-URL <http://syriaca.org/place/5578.tei> . 
 <http://syriaca.org/place/5578> swdt:broader <http://syriaca.org/place/576> . 
 <http://syriaca.org/place/5578> sp:broader swds:activeRelationbroader-5578-11 . 

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,23 +43,24 @@
 <http://syriaca.org/place/5617> swdt:place-type <http://syriaca.org/taxonomy/states> . 
 <http://syriaca.org/place/5617> sp:place-type swds:place-type-5617-1 . 
 swds:place-type-5617-1 sps:place-type <http://syriaca.org/taxonomy/states> . 
-swds:place-type-5617-1 spr:reference-URL <http://syriaca.org/place/5617> . 
+swds:place-type-5617-1 spr:reference-URL <http://syriaca.org/place/5617.tei> . 
 <http://syriaca.org/place/5617> swdt:name-variant "Makouria"@en . 
 <http://syriaca.org/place/5617> swdt:name-variant "Makouria"@en . 
 <http://syriaca.org/place/5617> swdt:name-variant "ܡܩܘܪ̈ܝܛܐ (people of Makouria)"@syr . 
 <http://syriaca.org/place/5617> sp:name-variant swds:Place-5617-1 . 
 swds:Place-5617-1 sps:name-variant "Makouria"@en . 
-swds:Place-5617-1 spr:reference-URL <http://syriaca.org/place/5617> . 
+swds:Place-5617-1 spr:reference-URL <http://syriaca.org/place/5617.tei> . 
 <http://syriaca.org/place/5617> sp:name-variant swds:Place-5617-2 . 
 swds:Place-5617-2 sps:name-variant "Makouria"@en . 
-swds:Place-5617-2 spr:reference-URL <http://syriaca.org/place/5617> . 
+swds:Place-5617-2 spr:reference-URL <http://syriaca.org/place/5617.tei> . 
 <http://syriaca.org/place/5617> sp:name-variant swds:Place-5617-3 . 
 swds:Place-5617-3 sps:name-variant "ܡܩܘܪ̈ܝܛܐ (people of Makouria)"@syr . 
-swds:Place-5617-3 spr:reference-URL <http://syriaca.org/place/5617> . 
-<http://syriaca.org/place/5617> swdt:closeMatch "https://en.wikipedia.org/wiki/Makuria" . 
+swds:Place-5617-3 spr:reference-URL <http://syriaca.org/place/5617.tei> . 
+<http://syriaca.org/place/5617> swdt:closeMatch <https://en.wikipedia.org/wiki/Makuria> . 
 <http://syriaca.org/place/5617> sp:closeMatch swds:closeMatch-5617-1 . 
-swds:closeMatch-5617-1 sps:closeMatch "https://en.wikipedia.org/wiki/Makuria" . 
-swds:closeMatch-5617-1 spr:reference-URL <http://syriaca.org/place/5617> . 
-<http://syriaca.org/place/5617> swdt:has-gps-coordinates "18.224444 30.7425" . 
-<http://syriaca.org/place/5617> sp:has-gps-coordinates "18.224444 30.7425" . 
+swds:closeMatch-5617-1 sps:closeMatch <https://en.wikipedia.org/wiki/Makuria> . 
+swds:closeMatch-5617-1 spr:reference-URL <http://syriaca.org/place/5617.tei> . 
+<http://syriaca.org/place/5617> swdt:has-gps-coordinates "18.224444 30.7425"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5617> sp:has-gps-coordinates swds:coordinates-5617-1 . 
+<http://syriaca.org/place/5617> swd:has-gps-coordinates "18.224444 30.7425"^^geosparql:wktLiteral . 
 swds:coordinates-5617-1 spr:reference-URL <http://syriaca.org/place/5617.tei> .

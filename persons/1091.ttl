@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,9 +46,9 @@ swds:Person-1091-1 spr:reference-URL <http://syriaca.org/person/1091.tei> .
 <http://syriaca.org/person/1091> sp:name-variant swds:Person-1091-2 . 
 swds:Person-1091-2 sps:name-variant "Isaiah of Gaza"@en-x-gedsh . 
 swds:Person-1091-2 spr:reference-URL <http://syriaca.org/person/1091.tei> . 
-<http://syriaca.org/person/1091> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1091" . 
+<http://syriaca.org/person/1091> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_1091> . 
 <http://syriaca.org/person/1091> sp:closeMatch swds:closeMatch-1091-1 . 
-swds:closeMatch-1091-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1091" . 
+swds:closeMatch-1091-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_1091> . 
 swds:closeMatch-1091-1 spr:reference-URL <http://syriaca.org/person/1091.tei> . 
 <http://syriaca.org/person/1091> swdt:death-when "0491"^^xsd:gYear . 
 <http://syriaca.org/person/1091> sp:death-when swds:death-when-1091-1 . 

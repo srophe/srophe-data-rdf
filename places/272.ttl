@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,36 +42,37 @@
 <http://syriaca.org/place/272> swdt:place-type <http://syriaca.org/taxonomy/fortifications> . 
 <http://syriaca.org/place/272> sp:place-type swds:place-type-272-1 . 
 swds:place-type-272-1 sps:place-type <http://syriaca.org/taxonomy/fortifications> . 
-swds:place-type-272-1 spr:reference-URL <http://syriaca.org/place/272> . 
+swds:place-type-272-1 spr:reference-URL <http://syriaca.org/place/272.tei> . 
 <http://syriaca.org/place/272> dcterms:relation <http://syriaca.org/place/215> . 
 <http://syriaca.org/place/272> swdt:name-variant "Crac des Chevaliers"@en . 
 <http://syriaca.org/place/272> swdt:name-variant "حصن الاكراد"@ar . 
 <http://syriaca.org/place/272> sp:name-variant swds:Place-272-1 . 
 swds:Place-272-1 sps:name-variant "Crac des Chevaliers"@en . 
-swds:Place-272-1 spr:reference-URL <http://syriaca.org/place/272> . 
+swds:Place-272-1 spr:reference-URL <http://syriaca.org/place/272.tei> . 
 <http://syriaca.org/place/272> sp:name-variant swds:Place-272-2 . 
 swds:Place-272-2 sps:name-variant "حصن الاكراد"@ar . 
-swds:Place-272-2 spr:reference-URL <http://syriaca.org/place/272> . 
-<http://syriaca.org/place/272> swdt:closeMatch "http://pleiades.stoa.org/places/587486981" . 
+swds:Place-272-2 spr:reference-URL <http://syriaca.org/place/272.tei> . 
+<http://syriaca.org/place/272> swdt:closeMatch <http://pleiades.stoa.org/places/587486981> . 
 <http://syriaca.org/place/272> sp:closeMatch swds:closeMatch-272-1 . 
-swds:closeMatch-272-1 sps:closeMatch "http://pleiades.stoa.org/places/587486981" . 
-swds:closeMatch-272-1 spr:reference-URL <http://syriaca.org/place/272> . 
-<http://syriaca.org/place/272> swdt:closeMatch "http://en.wikipedia.org/wiki/Krak_des_Chevaliers" . 
+swds:closeMatch-272-1 sps:closeMatch <http://pleiades.stoa.org/places/587486981> . 
+swds:closeMatch-272-1 spr:reference-URL <http://syriaca.org/place/272.tei> . 
+<http://syriaca.org/place/272> swdt:closeMatch <http://en.wikipedia.org/wiki/Krak_des_Chevaliers> . 
 <http://syriaca.org/place/272> sp:closeMatch swds:closeMatch-272-2 . 
-swds:closeMatch-272-2 sps:closeMatch "http://en.wikipedia.org/wiki/Krak_des_Chevaliers" . 
-swds:closeMatch-272-2 spr:reference-URL <http://syriaca.org/place/272> . 
-<http://syriaca.org/place/272> swdt:closeMatch "http://dbpedia.org/resource/Krak_des_Chevaliers" . 
+swds:closeMatch-272-2 sps:closeMatch <http://en.wikipedia.org/wiki/Krak_des_Chevaliers> . 
+swds:closeMatch-272-2 spr:reference-URL <http://syriaca.org/place/272.tei> . 
+<http://syriaca.org/place/272> swdt:closeMatch <http://dbpedia.org/resource/Krak_des_Chevaliers> . 
 <http://syriaca.org/place/272> sp:closeMatch swds:closeMatch-272-3 . 
-swds:closeMatch-272-3 sps:closeMatch "http://dbpedia.org/resource/Krak_des_Chevaliers" . 
-swds:closeMatch-272-3 spr:reference-URL <http://syriaca.org/place/272> . 
+swds:closeMatch-272-3 sps:closeMatch <http://dbpedia.org/resource/Krak_des_Chevaliers> . 
+swds:closeMatch-272-3 spr:reference-URL <http://syriaca.org/place/272.tei> . 
 <http://syriaca.org/place/272> swdt:exist-from "1030"^^xsd:gYear . 
 <http://syriaca.org/place/272> sp:exist-from swds:exist-from-272-1 . 
 swds:exist-from-272-1 sps:exist-from "1030"^^xsd:gYear . 
-swds:exist-from-272-1 spr:reference-URL <http://syriaca.org/place/272> . 
+swds:exist-from-272-1 spr:reference-URL <http://syriaca.org/place/272.tei> . 
 <http://syriaca.org/place/272> swdt:exist-to "1271"^^xsd:gYear . 
 <http://syriaca.org/place/272> sp:exist-to swds:exist-to-272-1 . 
 swds:exist-to-272-1 sps:exist-to "1271"^^xsd:gYear . 
 swds:exist-to-272-1 spr:reference-URL <http://syriaca.org/place/272.tei> . 
-<http://syriaca.org/place/272> swdt:has-gps-coordinates "34.756897 36.294731" . 
-<http://syriaca.org/place/272> sp:has-gps-coordinates "34.756897 36.294731" . 
+<http://syriaca.org/place/272> swdt:has-gps-coordinates "34.756897 36.294731"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/272> sp:has-gps-coordinates swds:coordinates-272-1 . 
+<http://syriaca.org/place/272> swd:has-gps-coordinates "34.756897 36.294731"^^geosparql:wktLiteral . 
 swds:coordinates-272-1 spr:reference-URL <http://syriaca.org/place/272.tei> .

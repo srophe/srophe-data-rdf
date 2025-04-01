@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,7 +43,7 @@
 <http://syriaca.org/place/702> swdt:place-type <http://syriaca.org/taxonomy/buildings> . 
 <http://syriaca.org/place/702> sp:place-type swds:place-type-702-1 . 
 swds:place-type-702-1 sps:place-type <http://syriaca.org/taxonomy/buildings> . 
-swds:place-type-702-1 spr:reference-URL <http://syriaca.org/place/702> . 
+swds:place-type-702-1 spr:reference-URL <http://syriaca.org/place/702.tei> . 
 <http://syriaca.org/place/702> dcterms:relation <http://syriaca.org/place/700> . 
 <http://syriaca.org/place/702> dcterms:relation <http://syriaca.org/place/701> . 
 <http://syriaca.org/place/702> dcterms:relation <http://syriaca.org/place/360> . 
@@ -50,12 +51,12 @@ swds:place-type-702-1 spr:reference-URL <http://syriaca.org/place/702> .
 <http://syriaca.org/place/702> swdt:name-variant "British Library"@en . 
 <http://syriaca.org/place/702> sp:name-variant swds:Place-702-1 . 
 swds:Place-702-1 sps:name-variant "British Library"@en . 
-swds:Place-702-1 spr:reference-URL <http://syriaca.org/place/702> . 
-<http://syriaca.org/place/702> swdt:closeMatch "http://en.wikipedia.org/wiki/British_Library" . 
+swds:Place-702-1 spr:reference-URL <http://syriaca.org/place/702.tei> . 
+<http://syriaca.org/place/702> swdt:closeMatch <http://en.wikipedia.org/wiki/British_Library> . 
 <http://syriaca.org/place/702> sp:closeMatch swds:closeMatch-702-1 . 
-swds:closeMatch-702-1 sps:closeMatch "http://en.wikipedia.org/wiki/British_Library" . 
-swds:closeMatch-702-1 spr:reference-URL <http://syriaca.org/place/702> . 
-<http://syriaca.org/place/702> swdt:closeMatch "http://dbpedia.org/resource/British_Library" . 
+swds:closeMatch-702-1 sps:closeMatch <http://en.wikipedia.org/wiki/British_Library> . 
+swds:closeMatch-702-1 spr:reference-URL <http://syriaca.org/place/702.tei> . 
+<http://syriaca.org/place/702> swdt:closeMatch <http://dbpedia.org/resource/British_Library> . 
 <http://syriaca.org/place/702> sp:closeMatch swds:closeMatch-702-2 . 
-swds:closeMatch-702-2 sps:closeMatch "http://dbpedia.org/resource/British_Library" . 
-swds:closeMatch-702-2 spr:reference-URL <http://syriaca.org/place/702> .
+swds:closeMatch-702-2 sps:closeMatch <http://dbpedia.org/resource/British_Library> . 
+swds:closeMatch-702-2 spr:reference-URL <http://syriaca.org/place/702.tei> .

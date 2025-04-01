@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/5649> swdt:place-type <http://syriaca.org/taxonomy/buildings> . 
 <http://syriaca.org/place/5649> sp:place-type swds:place-type-5649-1 . 
 swds:place-type-5649-1 sps:place-type <http://syriaca.org/taxonomy/buildings> . 
-swds:place-type-5649-1 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:place-type-5649-1 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> dcterms:relation <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5649> swdt:name-variant "Zeuxippus, Baths of"@en . 
 <http://syriaca.org/place/5649> swdt:name-variant "ܙܘܩܣܦܘܣ"@syr . 
@@ -56,31 +57,32 @@ swds:place-type-5649-1 spr:reference-URL <http://syriaca.org/place/5649> .
 <http://syriaca.org/place/5649> swdt:name-variant "Zeuxippos-Thermen"@de . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-1 . 
 swds:Place-5649-1 sps:name-variant "Zeuxippus, Baths of"@en . 
-swds:Place-5649-1 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:Place-5649-1 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-2 . 
 swds:Place-5649-2 sps:name-variant "ܙܘܩܣܦܘܣ"@syr . 
-swds:Place-5649-2 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:Place-5649-2 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-3 . 
 swds:Place-5649-3 sps:name-variant "Zeuxippos, Baths of"@en . 
-swds:Place-5649-3 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:Place-5649-3 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-4 . 
 swds:Place-5649-4 sps:name-variant "ܙܘܩܣܦܘܣ"@syr . 
-swds:Place-5649-4 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:Place-5649-4 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-5 . 
 swds:Place-5649-5 sps:name-variant "τὸ δημόσιον λουτρὸν Ζευξίππου"@grc . 
-swds:Place-5649-5 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:Place-5649-5 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-6 . 
 swds:Place-5649-6 sps:name-variant "Bain du Zeuxippos"@fr . 
-swds:Place-5649-6 spr:reference-URL <http://syriaca.org/place/5649> . 
+swds:Place-5649-6 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> sp:name-variant swds:Place-5649-7 . 
 swds:Place-5649-7 sps:name-variant "Zeuxippos-Thermen"@de . 
-swds:Place-5649-7 spr:reference-URL <http://syriaca.org/place/5649> . 
-<http://syriaca.org/place/5649> swdt:closeMatch "https://en.wikipedia.org/wiki/Baths_of_Zeuxippus" . 
+swds:Place-5649-7 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
+<http://syriaca.org/place/5649> swdt:closeMatch <https://en.wikipedia.org/wiki/Baths_of_Zeuxippus> . 
 <http://syriaca.org/place/5649> sp:closeMatch swds:closeMatch-5649-1 . 
-swds:closeMatch-5649-1 sps:closeMatch "https://en.wikipedia.org/wiki/Baths_of_Zeuxippus" . 
-swds:closeMatch-5649-1 spr:reference-URL <http://syriaca.org/place/5649> . 
-<http://syriaca.org/place/5649> swdt:has-gps-coordinates "41.006389 28.975833" . 
-<http://syriaca.org/place/5649> sp:has-gps-coordinates "41.006389 28.975833" . 
+swds:closeMatch-5649-1 sps:closeMatch <https://en.wikipedia.org/wiki/Baths_of_Zeuxippus> . 
+swds:closeMatch-5649-1 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
+<http://syriaca.org/place/5649> swdt:has-gps-coordinates "41.006389 28.975833"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5649> sp:has-gps-coordinates swds:coordinates-5649-1 . 
+<http://syriaca.org/place/5649> swd:has-gps-coordinates "41.006389 28.975833"^^geosparql:wktLiteral . 
 swds:coordinates-5649-1 spr:reference-URL <http://syriaca.org/place/5649.tei> . 
 <http://syriaca.org/place/5649> swdt:broader <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5649> sp:broader swds:activeRelationbroader-5649-11 . 

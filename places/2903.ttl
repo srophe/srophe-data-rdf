@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,28 +42,29 @@
 <http://syriaca.org/place/2903> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/2903> sp:place-type swds:place-type-2903-1 . 
 swds:place-type-2903-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-2903-1 spr:reference-URL <http://syriaca.org/place/2903> . 
+swds:place-type-2903-1 spr:reference-URL <http://syriaca.org/place/2903.tei> . 
 <http://syriaca.org/place/2903> dcterms:relation <http://syriaca.org/place/716> . 
 <http://syriaca.org/place/2903> swdt:name-variant "Hagar"@en . 
 <http://syriaca.org/place/2903> swdt:name-variant "هجر"@ar . 
 <http://syriaca.org/place/2903> sp:name-variant swds:Place-2903-1 . 
 swds:Place-2903-1 sps:name-variant "Hagar"@en . 
-swds:Place-2903-1 spr:reference-URL <http://syriaca.org/place/2903> . 
+swds:Place-2903-1 spr:reference-URL <http://syriaca.org/place/2903.tei> . 
 <http://syriaca.org/place/2903> sp:name-variant swds:Place-2903-2 . 
 swds:Place-2903-2 sps:name-variant "هجر"@ar . 
-swds:Place-2903-2 spr:reference-URL <http://syriaca.org/place/2903> . 
-<http://syriaca.org/place/2903> swdt:closeMatch "http://pleiades.stoa.org/places/932483" . 
+swds:Place-2903-2 spr:reference-URL <http://syriaca.org/place/2903.tei> . 
+<http://syriaca.org/place/2903> swdt:closeMatch <http://pleiades.stoa.org/places/932483> . 
 <http://syriaca.org/place/2903> sp:closeMatch swds:closeMatch-2903-1 . 
-swds:closeMatch-2903-1 sps:closeMatch "http://pleiades.stoa.org/places/932483" . 
-swds:closeMatch-2903-1 spr:reference-URL <http://syriaca.org/place/2903> . 
+swds:closeMatch-2903-1 sps:closeMatch <http://pleiades.stoa.org/places/932483> . 
+swds:closeMatch-2903-1 spr:reference-URL <http://syriaca.org/place/2903.tei> . 
 <http://syriaca.org/place/2903> swdt:exist-from "0676"^^xsd:gYear . 
 <http://syriaca.org/place/2903> sp:exist-from swds:exist-from-2903-1 . 
 swds:exist-from-2903-1 sps:exist-from "0676"^^xsd:gYear . 
-swds:exist-from-2903-1 spr:reference-URL <http://syriaca.org/place/2903> . 
+swds:exist-from-2903-1 spr:reference-URL <http://syriaca.org/place/2903.tei> . 
 <http://syriaca.org/place/2903> swdt:exist-to "0902"^^xsd:gYear . 
 <http://syriaca.org/place/2903> sp:exist-to swds:exist-to-2903-1 . 
 swds:exist-to-2903-1 sps:exist-to "0902"^^xsd:gYear . 
 swds:exist-to-2903-1 spr:reference-URL <http://syriaca.org/place/2903.tei> . 
-<http://syriaca.org/place/2903> swdt:has-gps-coordinates "26.877823 48.726603" . 
-<http://syriaca.org/place/2903> sp:has-gps-coordinates "26.877823 48.726603" . 
+<http://syriaca.org/place/2903> swdt:has-gps-coordinates "26.877823 48.726603"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2903> sp:has-gps-coordinates swds:coordinates-2903-1 . 
+<http://syriaca.org/place/2903> swd:has-gps-coordinates "26.877823 48.726603"^^geosparql:wktLiteral . 
 swds:coordinates-2903-1 spr:reference-URL <http://syriaca.org/place/2903.tei> .

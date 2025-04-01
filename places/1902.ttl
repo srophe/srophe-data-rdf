@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -38,25 +39,25 @@
 <http://syriaca.org/place/1902> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
 <http://syriaca.org/place/1902> sp:place-type swds:place-type-1902-1 . 
 swds:place-type-1902-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
-swds:place-type-1902-1 spr:reference-URL <http://syriaca.org/place/1902> . 
+swds:place-type-1902-1 spr:reference-URL <http://syriaca.org/place/1902.tei> . 
 <http://syriaca.org/place/1902> dcterms:relation <http://syriaca.org/place/90> . 
 <http://syriaca.org/place/1902> swdt:name-variant "Mar Gabriel"@en . 
 <http://syriaca.org/place/1902> swdt:name-variant "Mār Gabriel"@en . 
 <http://syriaca.org/place/1902> sp:name-variant swds:Place-1902-1 . 
 swds:Place-1902-1 sps:name-variant "Mar Gabriel"@en . 
-swds:Place-1902-1 spr:reference-URL <http://syriaca.org/place/1902> . 
+swds:Place-1902-1 spr:reference-URL <http://syriaca.org/place/1902.tei> . 
 <http://syriaca.org/place/1902> sp:name-variant swds:Place-1902-2 . 
 swds:Place-1902-2 sps:name-variant "Mār Gabriel"@en . 
-swds:Place-1902-2 spr:reference-URL <http://syriaca.org/place/1902> . 
+swds:Place-1902-2 spr:reference-URL <http://syriaca.org/place/1902.tei> . 
 <http://syriaca.org/place/1902> swdt:broader <http://syriaca.org/place/90> . 
 <http://syriaca.org/place/1902> sp:broader swds:activeRelationbroader-1902-11 . 
 swds:activeRelationbroader-1902-11 swd:broader <http://syriaca.org/place/90> . 
 swds:activeRelationbroader-1902-11 spr:reference-URL <http://syriaca.org/place/1902.tei> . 
-<place/1902> swdt:share-a-name <> . 
-<place/1902> sp:share-a-name swds:activeRelationshare-a-name-1902-21 . 
-swds:activeRelationshare-a-name-1902-21 swd:share-a-name <> . 
+<http://syriaca.org/place/1902> swdt:share-a-name <http://syriaca.org/place/2457> . 
+<http://syriaca.org/place/1902> sp:share-a-name swds:activeRelationshare-a-name-1902-21 . 
+swds:activeRelationshare-a-name-1902-21 swd:share-a-name <http://syriaca.org/place/2457> . 
 swds:activeRelationshare-a-name-1902-21 spr:reference-URL <http://syriaca.org/place/1902.tei> . 
-<place/2457> swdt:share-a-name <> . 
-<place/2457> sp:share-a-name swds:activeRelationshare-a-name-1902-22 . 
-swds:activeRelationshare-a-name-1902-22 swd:share-a-name <> . 
+<http://syriaca.org/place/2457> swdt:share-a-name <http://syriaca.org/place/1902> . 
+<http://syriaca.org/place/2457> sp:share-a-name swds:activeRelationshare-a-name-1902-22 . 
+swds:activeRelationshare-a-name-1902-22 swd:share-a-name <http://syriaca.org/place/1902> . 
 swds:activeRelationshare-a-name-1902-22 spr:reference-URL <http://syriaca.org/place/1902.tei> .

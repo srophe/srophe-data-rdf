@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -72,9 +73,9 @@ swds:Person-221-7 spr:reference-URL <http://syriaca.org/person/221.tei> .
 <http://syriaca.org/person/221> sp:name-variant swds:Person-221-8 . 
 swds:Person-221-8 sps:name-variant "Abraham of Tallbsam"@en . 
 swds:Person-221-8 spr:reference-URL <http://syriaca.org/person/221.tei> . 
-<http://syriaca.org/person/221> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_221" . 
+<http://syriaca.org/person/221> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_221> . 
 <http://syriaca.org/person/221> sp:closeMatch swds:closeMatch-221-1 . 
-swds:closeMatch-221-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_221" . 
+swds:closeMatch-221-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_221> . 
 swds:closeMatch-221-1 spr:reference-URL <http://syriaca.org/person/221.tei> . 
 <http://syriaca.org/person/221> swdt:death-notBefore "1207"^^xsd:gYear . 
 <http://syriaca.org/person/221> sp:death-notBefore swds:death-notBefore-221-1 . 

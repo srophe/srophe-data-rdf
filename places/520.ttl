@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/520> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/520> sp:place-type swds:place-type-520-1 . 
 swds:place-type-520-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-520-1 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:place-type-520-1 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> dcterms:relation <http://syriaca.org/place/697> . 
 <http://syriaca.org/place/520> swdt:name-variant "Bālū"@en . 
 <http://syriaca.org/place/520> swdt:name-variant "ܒܐܠܘ"@syr . 
@@ -55,45 +56,46 @@ swds:place-type-520-1 spr:reference-URL <http://syriaca.org/place/520> .
 <http://syriaca.org/place/520> swdt:name-variant "Ma‘mūrat al-‘Azīz"@en-x-srp1 . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-1 . 
 swds:Place-520-1 sps:name-variant "Bālū"@en . 
-swds:Place-520-1 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:Place-520-1 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-2 . 
 swds:Place-520-2 sps:name-variant "ܒܐܠܘ"@syr . 
-swds:Place-520-2 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:Place-520-2 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-3 . 
 swds:Place-520-3 sps:name-variant "ܒܰܐܠܘ"@syr-Syrj . 
-swds:Place-520-3 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:Place-520-3 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-4 . 
 swds:Place-520-4 sps:name-variant "بالو"@ar . 
-swds:Place-520-4 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:Place-520-4 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-5 . 
 swds:Place-520-5 sps:name-variant "Balū"@en . 
-swds:Place-520-5 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:Place-520-5 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-6 . 
 swds:Place-520-6 sps:name-variant "Mamūrat al-Azīz"@en-x-srp1 . 
-swds:Place-520-6 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:Place-520-6 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> sp:name-variant swds:Place-520-7 . 
 swds:Place-520-7 sps:name-variant "Ma‘mūrat al-‘Azīz"@en-x-srp1 . 
-swds:Place-520-7 spr:reference-URL <http://syriaca.org/place/520> . 
-<http://syriaca.org/place/520> swdt:closeMatch "http://pleiades.stoa.org/places/874383" . 
+swds:Place-520-7 spr:reference-URL <http://syriaca.org/place/520.tei> . 
+<http://syriaca.org/place/520> swdt:closeMatch <http://pleiades.stoa.org/places/874383> . 
 <http://syriaca.org/place/520> sp:closeMatch swds:closeMatch-520-1 . 
-swds:closeMatch-520-1 sps:closeMatch "http://pleiades.stoa.org/places/874383" . 
-swds:closeMatch-520-1 spr:reference-URL <http://syriaca.org/place/520> . 
-<http://syriaca.org/place/520> swdt:closeMatch "http://en.wikipedia.org/wiki/Palu,_Elazığ" . 
+swds:closeMatch-520-1 sps:closeMatch <http://pleiades.stoa.org/places/874383> . 
+swds:closeMatch-520-1 spr:reference-URL <http://syriaca.org/place/520.tei> . 
+<http://syriaca.org/place/520> swdt:closeMatch <http://en.wikipedia.org/wiki/Palu,_Elazığ> . 
 <http://syriaca.org/place/520> sp:closeMatch swds:closeMatch-520-2 . 
-swds:closeMatch-520-2 sps:closeMatch "http://en.wikipedia.org/wiki/Palu,_Elazığ" . 
-swds:closeMatch-520-2 spr:reference-URL <http://syriaca.org/place/520> . 
-<http://syriaca.org/place/520> swdt:closeMatch "http://dbpedia.org/resource/Palu,_Elazığ" . 
+swds:closeMatch-520-2 sps:closeMatch <http://en.wikipedia.org/wiki/Palu,_Elazığ> . 
+swds:closeMatch-520-2 spr:reference-URL <http://syriaca.org/place/520.tei> . 
+<http://syriaca.org/place/520> swdt:closeMatch <http://dbpedia.org/resource/Palu,_Elazığ> . 
 <http://syriaca.org/place/520> sp:closeMatch swds:closeMatch-520-3 . 
-swds:closeMatch-520-3 sps:closeMatch "http://dbpedia.org/resource/Palu,_Elazığ" . 
-swds:closeMatch-520-3 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:closeMatch-520-3 sps:closeMatch <http://dbpedia.org/resource/Palu,_Elazığ> . 
+swds:closeMatch-520-3 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> swdt:exist-from "0300"^^xsd:gYear . 
 <http://syriaca.org/place/520> sp:exist-from swds:exist-from-520-1 . 
 swds:exist-from-520-1 sps:exist-from "0300"^^xsd:gYear . 
-swds:exist-from-520-1 spr:reference-URL <http://syriaca.org/place/520> . 
+swds:exist-from-520-1 spr:reference-URL <http://syriaca.org/place/520.tei> . 
 <http://syriaca.org/place/520> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/520> sp:exist-to swds:exist-to-520-1 . 
 swds:exist-to-520-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-520-1 spr:reference-URL <http://syriaca.org/place/520.tei> . 
-<http://syriaca.org/place/520> swdt:has-gps-coordinates "38.705472 39.952527" . 
-<http://syriaca.org/place/520> sp:has-gps-coordinates "38.705472 39.952527" . 
+<http://syriaca.org/place/520> swdt:has-gps-coordinates "38.705472 39.952527"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/520> sp:has-gps-coordinates swds:coordinates-520-1 . 
+<http://syriaca.org/place/520> swd:has-gps-coordinates "38.705472 39.952527"^^geosparql:wktLiteral . 
 swds:coordinates-520-1 spr:reference-URL <http://syriaca.org/place/520.tei> .

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -38,25 +39,25 @@
 <http://syriaca.org/place/2017> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
 <http://syriaca.org/place/2017> sp:place-type swds:place-type-2017-1 . 
 swds:place-type-2017-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
-swds:place-type-2017-1 spr:reference-URL <http://syriaca.org/place/2017> . 
+swds:place-type-2017-1 spr:reference-URL <http://syriaca.org/place/2017.tei> . 
 <http://syriaca.org/place/2017> dcterms:relation <http://syriaca.org/place/90> . 
 <http://syriaca.org/place/2017> swdt:name-variant "Mar Mushe"@en . 
 <http://syriaca.org/place/2017> swdt:name-variant "Mār Mūshe"@en . 
 <http://syriaca.org/place/2017> sp:name-variant swds:Place-2017-1 . 
 swds:Place-2017-1 sps:name-variant "Mar Mushe"@en . 
-swds:Place-2017-1 spr:reference-URL <http://syriaca.org/place/2017> . 
+swds:Place-2017-1 spr:reference-URL <http://syriaca.org/place/2017.tei> . 
 <http://syriaca.org/place/2017> sp:name-variant swds:Place-2017-2 . 
 swds:Place-2017-2 sps:name-variant "Mār Mūshe"@en . 
-swds:Place-2017-2 spr:reference-URL <http://syriaca.org/place/2017> . 
+swds:Place-2017-2 spr:reference-URL <http://syriaca.org/place/2017.tei> . 
 <http://syriaca.org/place/2017> swdt:broader <http://syriaca.org/place/90> . 
 <http://syriaca.org/place/2017> sp:broader swds:activeRelationbroader-2017-11 . 
 swds:activeRelationbroader-2017-11 swd:broader <http://syriaca.org/place/90> . 
 swds:activeRelationbroader-2017-11 spr:reference-URL <http://syriaca.org/place/2017.tei> . 
-<place/2017> swdt:share-a-name <> . 
-<place/2017> sp:share-a-name swds:activeRelationshare-a-name-2017-21 . 
-swds:activeRelationshare-a-name-2017-21 swd:share-a-name <> . 
+<http://syriaca.org/place/2017> swdt:share-a-name <http://syriaca.org/place/2018> . 
+<http://syriaca.org/place/2017> sp:share-a-name swds:activeRelationshare-a-name-2017-21 . 
+swds:activeRelationshare-a-name-2017-21 swd:share-a-name <http://syriaca.org/place/2018> . 
 swds:activeRelationshare-a-name-2017-21 spr:reference-URL <http://syriaca.org/place/2017.tei> . 
-<place/2018> swdt:share-a-name <> . 
-<place/2018> sp:share-a-name swds:activeRelationshare-a-name-2017-22 . 
-swds:activeRelationshare-a-name-2017-22 swd:share-a-name <> . 
+<http://syriaca.org/place/2018> swdt:share-a-name <http://syriaca.org/place/2017> . 
+<http://syriaca.org/place/2018> sp:share-a-name swds:activeRelationshare-a-name-2017-22 . 
+swds:activeRelationshare-a-name-2017-22 swd:share-a-name <http://syriaca.org/place/2017> . 
 swds:activeRelationshare-a-name-2017-22 spr:reference-URL <http://syriaca.org/place/2017.tei> .

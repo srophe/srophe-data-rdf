@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,7 +43,7 @@
 <http://syriaca.org/place/541> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/541> sp:place-type swds:place-type-541-1 . 
 swds:place-type-541-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-541-1 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:place-type-541-1 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> dcterms:relation <http://syriaca.org/place/221> . 
 <http://syriaca.org/place/541> swdt:name-variant "Beth Debe"@en . 
 <http://syriaca.org/place/541> swdt:name-variant "ܒܝܬ ܕܒ̈ܐ"@syr . 
@@ -53,33 +54,33 @@ swds:place-type-541-1 spr:reference-URL <http://syriaca.org/place/541> .
 <http://syriaca.org/place/541> swdt:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-1 . 
 swds:Place-541-1 sps:name-variant "Beth Debe"@en . 
-swds:Place-541-1 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:Place-541-1 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-2 . 
 swds:Place-541-2 sps:name-variant "ܒܝܬ ܕܒ̈ܐ"@syr . 
-swds:Place-541-2 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:Place-541-2 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-3 . 
 swds:Place-541-3 sps:name-variant "ܒܶܝܬ ܕܶܒ̈ܐ"@syr-Syrj . 
-swds:Place-541-3 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:Place-541-3 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-4 . 
 swds:Place-541-4 sps:name-variant "بادبة"@ar . 
-swds:Place-541-4 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:Place-541-4 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-5 . 
 swds:Place-541-5 sps:name-variant "Badebe"@en . 
-swds:Place-541-5 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:Place-541-5 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-6 . 
 swds:Place-541-6 sps:name-variant "Ṭur Abdin"@en-x-srp1 . 
-swds:Place-541-6 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:Place-541-6 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> sp:name-variant swds:Place-541-7 . 
 swds:Place-541-7 sps:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
-swds:Place-541-7 spr:reference-URL <http://syriaca.org/place/541> . 
-<http://syriaca.org/place/541> swdt:closeMatch "http://tr.wikipedia.org/wiki/Dibek,_Nusaybin" . 
+swds:Place-541-7 spr:reference-URL <http://syriaca.org/place/541.tei> . 
+<http://syriaca.org/place/541> swdt:closeMatch <http://tr.wikipedia.org/wiki/Dibek,_Nusaybin> . 
 <http://syriaca.org/place/541> sp:closeMatch swds:closeMatch-541-1 . 
-swds:closeMatch-541-1 sps:closeMatch "http://tr.wikipedia.org/wiki/Dibek,_Nusaybin" . 
-swds:closeMatch-541-1 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:closeMatch-541-1 sps:closeMatch <http://tr.wikipedia.org/wiki/Dibek,_Nusaybin> . 
+swds:closeMatch-541-1 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> swdt:exist-from "1943"^^xsd:gYear . 
 <http://syriaca.org/place/541> sp:exist-from swds:exist-from-541-1 . 
 swds:exist-from-541-1 sps:exist-from "1943"^^xsd:gYear . 
-swds:exist-from-541-1 spr:reference-URL <http://syriaca.org/place/541> . 
+swds:exist-from-541-1 spr:reference-URL <http://syriaca.org/place/541.tei> . 
 <http://syriaca.org/place/541> swdt:exist-to "1992"^^xsd:gYear . 
 <http://syriaca.org/place/541> sp:exist-to swds:exist-to-541-1 . 
 swds:exist-to-541-1 sps:exist-to "1992"^^xsd:gYear . 

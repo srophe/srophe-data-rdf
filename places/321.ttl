@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,7 +43,7 @@
 <http://syriaca.org/place/321> swdt:place-type <http://syriaca.org/taxonomy/regions> . 
 <http://syriaca.org/place/321> sp:place-type swds:place-type-321-1 . 
 swds:place-type-321-1 sps:place-type <http://syriaca.org/taxonomy/regions> . 
-swds:place-type-321-1 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:place-type-321-1 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> dcterms:relation <http://syriaca.org/place/712> . 
 <http://syriaca.org/place/321> dcterms:relation <http://syriaca.org/place/202> . 
 <http://syriaca.org/place/321> swdt:name-variant "Diyār Rabīʿa"@en . 
@@ -59,57 +60,57 @@ swds:place-type-321-1 spr:reference-URL <http://syriaca.org/place/321> .
 <http://syriaca.org/place/321> swdt:name-variant "Diyār Rabi‘a"@en-x-srp1 . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-1 . 
 swds:Place-321-1 sps:name-variant "Diyār Rabīʿa"@en . 
-swds:Place-321-1 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-1 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-2 . 
 swds:Place-321-2 sps:name-variant "ܓܙܪܬܐ ܥܠܝܬܐ"@syr . 
-swds:Place-321-2 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-2 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-3 . 
 swds:Place-321-3 sps:name-variant "ܓܳܙܰܪܬܐ ܥܶܠܳܝܬܳܐ"@syr-Syrj . 
-swds:Place-321-3 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-3 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-4 . 
 swds:Place-321-4 sps:name-variant "ܐܰܬܪ̈ܘܬܳܐ ܕܪܒܝܥܗ̇"@syr-Syrj . 
-swds:Place-321-4 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-4 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-5 . 
 swds:Place-321-5 sps:name-variant "الجزيرة العليا"@ar . 
-swds:Place-321-5 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-5 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-6 . 
 swds:Place-321-6 sps:name-variant "ديار ربيعة"@ar . 
-swds:Place-321-6 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-6 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-7 . 
 swds:Place-321-7 sps:name-variant "Upper Jazira"@en . 
-swds:Place-321-7 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-7 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-8 . 
 swds:Place-321-8 sps:name-variant "Diyār Rabiʿa"@en . 
-swds:Place-321-8 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-8 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-9 . 
 swds:Place-321-9 sps:name-variant "Diyār Rabīa"@en-x-srp1 . 
-swds:Place-321-9 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-9 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-10 . 
 swds:Place-321-10 sps:name-variant "Diyār Rabī‘a"@en-x-srp1 . 
-swds:Place-321-10 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-10 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-11 . 
 swds:Place-321-11 sps:name-variant "Diyār Rabia"@en-x-srp1 . 
-swds:Place-321-11 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:Place-321-11 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> sp:name-variant swds:Place-321-12 . 
 swds:Place-321-12 sps:name-variant "Diyār Rabi‘a"@en-x-srp1 . 
-swds:Place-321-12 spr:reference-URL <http://syriaca.org/place/321> . 
-<http://syriaca.org/place/321> swdt:closeMatch "http://en.wikipedia.org/wiki/Diyar_Rabi'a" . 
+swds:Place-321-12 spr:reference-URL <http://syriaca.org/place/321.tei> . 
+<http://syriaca.org/place/321> swdt:closeMatch <http://en.wikipedia.org/wiki/Diyar_Rabi'a> . 
 <http://syriaca.org/place/321> sp:closeMatch swds:closeMatch-321-1 . 
-swds:closeMatch-321-1 sps:closeMatch "http://en.wikipedia.org/wiki/Diyar_Rabi'a" . 
-swds:closeMatch-321-1 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:closeMatch-321-1 sps:closeMatch <http://en.wikipedia.org/wiki/Diyar_Rabi'a> . 
+swds:closeMatch-321-1 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> swdt:exist-from "0680"^^xsd:gYear . 
 <http://syriaca.org/place/321> sp:exist-from swds:exist-from-321-1 . 
 swds:exist-from-321-1 sps:exist-from "0680"^^xsd:gYear . 
-swds:exist-from-321-1 spr:reference-URL <http://syriaca.org/place/321> . 
+swds:exist-from-321-1 spr:reference-URL <http://syriaca.org/place/321.tei> . 
 <http://syriaca.org/place/321> swdt:exist-to "1500"^^xsd:gYear . 
 <http://syriaca.org/place/321> sp:exist-to swds:exist-to-321-1 . 
 swds:exist-to-321-1 sps:exist-to "1500"^^xsd:gYear . 
 swds:exist-to-321-1 spr:reference-URL <http://syriaca.org/place/321.tei> . 
-<place/321> swdt:not-to-be-confused-with <> . 
-<place/321> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-321-11 . 
-swds:activeRelationnot-to-be-confused-with-321-11 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/321> swdt:not-to-be-confused-with <http://syriaca.org/place/712> . 
+<http://syriaca.org/place/321> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-321-11 . 
+swds:activeRelationnot-to-be-confused-with-321-11 swd:not-to-be-confused-with <http://syriaca.org/place/712> . 
 swds:activeRelationnot-to-be-confused-with-321-11 spr:reference-URL <http://syriaca.org/place/321.tei> . 
-<place/712> swdt:not-to-be-confused-with <> . 
-<place/712> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-321-12 . 
-swds:activeRelationnot-to-be-confused-with-321-12 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/712> swdt:not-to-be-confused-with <http://syriaca.org/place/321> . 
+<http://syriaca.org/place/712> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-321-12 . 
+swds:activeRelationnot-to-be-confused-with-321-12 swd:not-to-be-confused-with <http://syriaca.org/place/321> . 
 swds:activeRelationnot-to-be-confused-with-321-12 spr:reference-URL <http://syriaca.org/place/321.tei> .

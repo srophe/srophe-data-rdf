@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/556> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/556> sp:place-type swds:place-type-556-1 . 
 swds:place-type-556-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-556-1 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:place-type-556-1 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> dcterms:relation <http://syriaca.org/place/339> . 
 <http://syriaca.org/place/556> dcterms:relation <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/556> swdt:name-variant "Mor Yuḥanon Ṭayoyo"@en . 
@@ -57,43 +58,44 @@ swds:place-type-556-1 spr:reference-URL <http://syriaca.org/place/556> .
 <http://syriaca.org/place/556> swdt:name-variant "Mār Yōḥannān the Arab"@en . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-1 . 
 swds:Place-556-1 sps:name-variant "Mor Yuḥanon Ṭayoyo"@en . 
-swds:Place-556-1 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:Place-556-1 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-2 . 
 swds:Place-556-2 sps:name-variant "ܕܝܪܐ ܕܡܪܝ ܝܘܚܢܢ ܛܝܝܐ"@syr . 
-swds:Place-556-2 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:Place-556-2 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-3 . 
 swds:Place-556-3 sps:name-variant "ܕܰܝܪܐ ܕܡܳܪܝ ܝܘܚܰܢܢ ܛܰܝܳܝܐ"@syr-Syrj . 
-swds:Place-556-3 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:Place-556-3 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-4 . 
 swds:Place-556-4 sps:name-variant "دير يوحنا الطائي"@ar . 
-swds:Place-556-4 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:Place-556-4 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-5 . 
 swds:Place-556-5 sps:name-variant "Monastery of St. John Ṭayoyo"@en . 
-swds:Place-556-5 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:Place-556-5 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-6 . 
 swds:Place-556-6 sps:name-variant "monastery of John the Arab"@en . 
-swds:Place-556-6 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:Place-556-6 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> sp:name-variant swds:Place-556-7 . 
 swds:Place-556-7 sps:name-variant "Mār Yōḥannān the Arab"@en . 
-swds:Place-556-7 spr:reference-URL <http://syriaca.org/place/556> . 
-<http://syriaca.org/place/556> swdt:closeMatch "http://pleiades.stoa.org/places/874586" . 
+swds:Place-556-7 spr:reference-URL <http://syriaca.org/place/556.tei> . 
+<http://syriaca.org/place/556> swdt:closeMatch <http://pleiades.stoa.org/places/874586> . 
 <http://syriaca.org/place/556> sp:closeMatch swds:closeMatch-556-1 . 
-swds:closeMatch-556-1 sps:closeMatch "http://pleiades.stoa.org/places/874586" . 
-swds:closeMatch-556-1 spr:reference-URL <http://syriaca.org/place/556> . 
-<http://syriaca.org/place/556> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of John the Arab&sT=keywords" . 
+swds:closeMatch-556-1 sps:closeMatch <http://pleiades.stoa.org/places/874586> . 
+swds:closeMatch-556-1 spr:reference-URL <http://syriaca.org/place/556.tei> . 
+<http://syriaca.org/place/556> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of John the Arab&sT=keywords> . 
 <http://syriaca.org/place/556> sp:closeMatch swds:closeMatch-556-2 . 
-swds:closeMatch-556-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of John the Arab&sT=keywords" . 
-swds:closeMatch-556-2 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:closeMatch-556-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of John the Arab&sT=keywords> . 
+swds:closeMatch-556-2 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> swdt:exist-from "1271"^^xsd:gYear . 
 <http://syriaca.org/place/556> sp:exist-from swds:exist-from-556-1 . 
 swds:exist-from-556-1 sps:exist-from "1271"^^xsd:gYear . 
-swds:exist-from-556-1 spr:reference-URL <http://syriaca.org/place/556> . 
+swds:exist-from-556-1 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> swdt:exist-to "1607"^^xsd:gYear . 
 <http://syriaca.org/place/556> sp:exist-to swds:exist-to-556-1 . 
 swds:exist-to-556-1 sps:exist-to "1607"^^xsd:gYear . 
 swds:exist-to-556-1 spr:reference-URL <http://syriaca.org/place/556.tei> . 
-<http://syriaca.org/place/556> swdt:has-gps-coordinates "37.198257 41.430776" . 
-<http://syriaca.org/place/556> sp:has-gps-coordinates "37.198257 41.430776" . 
+<http://syriaca.org/place/556> swdt:has-gps-coordinates "37.198257 41.430776"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/556> sp:has-gps-coordinates swds:coordinates-556-1 . 
+<http://syriaca.org/place/556> swd:has-gps-coordinates "37.198257 41.430776"^^geosparql:wktLiteral . 
 swds:coordinates-556-1 spr:reference-URL <http://syriaca.org/place/556.tei> . 
 <http://syriaca.org/place/556> swdt:broader <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/556> sp:broader swds:activeRelationbroader-556-11 . 

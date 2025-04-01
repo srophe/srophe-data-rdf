@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -38,7 +39,7 @@
 <http://syriaca.org/place/1888> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
 <http://syriaca.org/place/1888> sp:place-type swds:place-type-1888-1 . 
 swds:place-type-1888-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
-swds:place-type-1888-1 spr:reference-URL <http://syriaca.org/place/1888> . 
+swds:place-type-1888-1 spr:reference-URL <http://syriaca.org/place/1888.tei> . 
 <http://syriaca.org/place/1888> dcterms:relation <http://syriaca.org/place/1008> . 
 <http://syriaca.org/place/1888> dcterms:relation <http://syriaca.org/place/787> . 
 <http://syriaca.org/place/1888> dcterms:relation <http://syriaca.org/place/90> . 
@@ -46,10 +47,10 @@ swds:place-type-1888-1 spr:reference-URL <http://syriaca.org/place/1888> .
 <http://syriaca.org/place/1888> swdt:name-variant "Mār Qardāgh"@en . 
 <http://syriaca.org/place/1888> sp:name-variant swds:Place-1888-1 . 
 swds:Place-1888-1 sps:name-variant "Mar Qardagh"@en . 
-swds:Place-1888-1 spr:reference-URL <http://syriaca.org/place/1888> . 
+swds:Place-1888-1 spr:reference-URL <http://syriaca.org/place/1888.tei> . 
 <http://syriaca.org/place/1888> sp:name-variant swds:Place-1888-2 . 
 swds:Place-1888-2 sps:name-variant "Mār Qardāgh"@en . 
-swds:Place-1888-2 spr:reference-URL <http://syriaca.org/place/1888> . 
+swds:Place-1888-2 spr:reference-URL <http://syriaca.org/place/1888.tei> . 
 <http://syriaca.org/place/1888> swdt:broader <http://syriaca.org/place/1008> . 
 <http://syriaca.org/place/1888> sp:broader swds:activeRelationbroader-1888-11 . 
 swds:activeRelationbroader-1888-11 swd:broader <http://syriaca.org/place/1008> . 
@@ -62,11 +63,11 @@ swds:activeRelationbroader-1888-21 spr:reference-URL <http://syriaca.org/place/1
 <http://syriaca.org/place/1888> sp:broader swds:activeRelationbroader-1888-31 . 
 swds:activeRelationbroader-1888-31 swd:broader <http://syriaca.org/place/90> . 
 swds:activeRelationbroader-1888-31 spr:reference-URL <http://syriaca.org/place/1888.tei> . 
-<place/1888> swdt:share-a-name <> . 
-<place/1888> sp:share-a-name swds:activeRelationshare-a-name-1888-41 . 
-swds:activeRelationshare-a-name-1888-41 swd:share-a-name <> . 
+<http://syriaca.org/place/1888> swdt:share-a-name <http://syriaca.org/place/2033> . 
+<http://syriaca.org/place/1888> sp:share-a-name swds:activeRelationshare-a-name-1888-41 . 
+swds:activeRelationshare-a-name-1888-41 swd:share-a-name <http://syriaca.org/place/2033> . 
 swds:activeRelationshare-a-name-1888-41 spr:reference-URL <http://syriaca.org/place/1888.tei> . 
-<place/2033> swdt:share-a-name <> . 
-<place/2033> sp:share-a-name swds:activeRelationshare-a-name-1888-42 . 
-swds:activeRelationshare-a-name-1888-42 swd:share-a-name <> . 
+<http://syriaca.org/place/2033> swdt:share-a-name <http://syriaca.org/place/1888> . 
+<http://syriaca.org/place/2033> sp:share-a-name swds:activeRelationshare-a-name-1888-42 . 
+swds:activeRelationshare-a-name-1888-42 swd:share-a-name <http://syriaca.org/place/1888> . 
 swds:activeRelationshare-a-name-1888-42 spr:reference-URL <http://syriaca.org/place/1888.tei> .

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/100> swdt:place-type <http://syriaca.org/taxonomy/mountains> . 
 <http://syriaca.org/place/100> sp:place-type swds:place-type-100-1 . 
 swds:place-type-100-1 sps:place-type <http://syriaca.org/taxonomy/mountains> . 
-swds:place-type-100-1 spr:reference-URL <http://syriaca.org/place/100> . 
+swds:place-type-100-1 spr:reference-URL <http://syriaca.org/place/100.tei> . 
 <http://syriaca.org/place/100> dcterms:relation <http://syriaca.org/place/142> . 
 <http://syriaca.org/place/100> swdt:name-variant "Izla"@en . 
 <http://syriaca.org/place/100> swdt:name-variant "ܛܘܪܐ ܕܐܝܙܠܐ"@syr . 
@@ -54,35 +55,36 @@ swds:place-type-100-1 spr:reference-URL <http://syriaca.org/place/100> .
 <http://syriaca.org/place/100> swdt:name-variant "Izla Mountain"@en . 
 <http://syriaca.org/place/100> sp:name-variant swds:Place-100-1 . 
 swds:Place-100-1 sps:name-variant "Izla"@en . 
-swds:Place-100-1 spr:reference-URL <http://syriaca.org/place/100> . 
+swds:Place-100-1 spr:reference-URL <http://syriaca.org/place/100.tei> . 
 <http://syriaca.org/place/100> sp:name-variant swds:Place-100-2 . 
 swds:Place-100-2 sps:name-variant "ܛܘܪܐ ܕܐܝܙܠܐ"@syr . 
-swds:Place-100-2 spr:reference-URL <http://syriaca.org/place/100> . 
+swds:Place-100-2 spr:reference-URL <http://syriaca.org/place/100.tei> . 
 <http://syriaca.org/place/100> sp:name-variant swds:Place-100-3 . 
 swds:Place-100-3 sps:name-variant "ܛܘܪܳܐ ܕܐܝܺܙܠܐ"@syr-Syrj . 
-swds:Place-100-3 spr:reference-URL <http://syriaca.org/place/100> . 
+swds:Place-100-3 spr:reference-URL <http://syriaca.org/place/100.tei> . 
 <http://syriaca.org/place/100> sp:name-variant swds:Place-100-4 . 
 swds:Place-100-4 sps:name-variant "جبل الازل"@ar . 
-swds:Place-100-4 spr:reference-URL <http://syriaca.org/place/100> . 
+swds:Place-100-4 spr:reference-URL <http://syriaca.org/place/100.tei> . 
 <http://syriaca.org/place/100> sp:name-variant swds:Place-100-5 . 
 swds:Place-100-5 sps:name-variant "Izla Mountain"@en . 
-swds:Place-100-5 spr:reference-URL <http://syriaca.org/place/100> . 
-<http://syriaca.org/place/100> swdt:closeMatch "http://pleiades.stoa.org/places/874530" . 
+swds:Place-100-5 spr:reference-URL <http://syriaca.org/place/100.tei> . 
+<http://syriaca.org/place/100> swdt:closeMatch <http://pleiades.stoa.org/places/874530> . 
 <http://syriaca.org/place/100> sp:closeMatch swds:closeMatch-100-1 . 
-swds:closeMatch-100-1 sps:closeMatch "http://pleiades.stoa.org/places/874530" . 
-swds:closeMatch-100-1 spr:reference-URL <http://syriaca.org/place/100> . 
-<http://syriaca.org/place/100> swdt:closeMatch "http://en.wikipedia.org/wiki/Mount_Izla" . 
+swds:closeMatch-100-1 sps:closeMatch <http://pleiades.stoa.org/places/874530> . 
+swds:closeMatch-100-1 spr:reference-URL <http://syriaca.org/place/100.tei> . 
+<http://syriaca.org/place/100> swdt:closeMatch <http://en.wikipedia.org/wiki/Mount_Izla> . 
 <http://syriaca.org/place/100> sp:closeMatch swds:closeMatch-100-2 . 
-swds:closeMatch-100-2 sps:closeMatch "http://en.wikipedia.org/wiki/Mount_Izla" . 
-swds:closeMatch-100-2 spr:reference-URL <http://syriaca.org/place/100> . 
-<http://syriaca.org/place/100> swdt:closeMatch "http://dbpedia.org/resource/Mount_Izla" . 
+swds:closeMatch-100-2 sps:closeMatch <http://en.wikipedia.org/wiki/Mount_Izla> . 
+swds:closeMatch-100-2 spr:reference-URL <http://syriaca.org/place/100.tei> . 
+<http://syriaca.org/place/100> swdt:closeMatch <http://dbpedia.org/resource/Mount_Izla> . 
 <http://syriaca.org/place/100> sp:closeMatch swds:closeMatch-100-3 . 
-swds:closeMatch-100-3 sps:closeMatch "http://dbpedia.org/resource/Mount_Izla" . 
-swds:closeMatch-100-3 spr:reference-URL <http://syriaca.org/place/100> . 
-<http://syriaca.org/place/100> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Izla&sT=keywords" . 
+swds:closeMatch-100-3 sps:closeMatch <http://dbpedia.org/resource/Mount_Izla> . 
+swds:closeMatch-100-3 spr:reference-URL <http://syriaca.org/place/100.tei> . 
+<http://syriaca.org/place/100> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Izla&sT=keywords> . 
 <http://syriaca.org/place/100> sp:closeMatch swds:closeMatch-100-4 . 
-swds:closeMatch-100-4 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Izla&sT=keywords" . 
-swds:closeMatch-100-4 spr:reference-URL <http://syriaca.org/place/100> . 
-<http://syriaca.org/place/100> swdt:has-gps-coordinates "37.333333 41.166667" . 
-<http://syriaca.org/place/100> sp:has-gps-coordinates "37.333333 41.166667" . 
+swds:closeMatch-100-4 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=I&sK=Izla&sT=keywords> . 
+swds:closeMatch-100-4 spr:reference-URL <http://syriaca.org/place/100.tei> . 
+<http://syriaca.org/place/100> swdt:has-gps-coordinates "37.333333 41.166667"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/100> sp:has-gps-coordinates swds:coordinates-100-1 . 
+<http://syriaca.org/place/100> swd:has-gps-coordinates "37.333333 41.166667"^^geosparql:wktLiteral . 
 swds:coordinates-100-1 spr:reference-URL <http://syriaca.org/place/100.tei> .

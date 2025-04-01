@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,7 +42,7 @@
 <http://syriaca.org/place/379> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/379> sp:place-type swds:place-type-379-1 . 
 swds:place-type-379-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-379-1 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:place-type-379-1 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> swdt:name-variant "Dayro d-Qube"@en . 
 <http://syriaca.org/place/379> swdt:name-variant "ܕܝܪܐ ܕܩܘܒ̈ܐ"@syr . 
 <http://syriaca.org/place/379> swdt:name-variant "ܕܰܝܪܐ ܕܩܘܒ̈ܐ"@syr-Syrj . 
@@ -51,33 +52,33 @@ swds:place-type-379-1 spr:reference-URL <http://syriaca.org/place/379> .
 <http://syriaca.org/place/379> swdt:name-variant "Monastery of the Domes"@en . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-1 . 
 swds:Place-379-1 sps:name-variant "Dayro d-Qube"@en . 
-swds:Place-379-1 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:Place-379-1 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-2 . 
 swds:Place-379-2 sps:name-variant "ܕܝܪܐ ܕܩܘܒ̈ܐ"@syr . 
-swds:Place-379-2 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:Place-379-2 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-3 . 
 swds:Place-379-3 sps:name-variant "ܕܰܝܪܐ ܕܩܘܒ̈ܐ"@syr-Syrj . 
-swds:Place-379-3 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:Place-379-3 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-4 . 
 swds:Place-379-4 sps:name-variant "دير قوبا"@ar . 
-swds:Place-379-4 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:Place-379-4 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-5 . 
 swds:Place-379-5 sps:name-variant "دير القبب"@ar . 
-swds:Place-379-5 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:Place-379-5 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-6 . 
 swds:Place-379-6 sps:name-variant "Qūbā Monastery"@en . 
-swds:Place-379-6 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:Place-379-6 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> sp:name-variant swds:Place-379-7 . 
 swds:Place-379-7 sps:name-variant "Monastery of the Domes"@en . 
-swds:Place-379-7 spr:reference-URL <http://syriaca.org/place/379> . 
-<http://syriaca.org/place/379> swdt:closeMatch "http://pleiades.stoa.org/places/662205" . 
+swds:Place-379-7 spr:reference-URL <http://syriaca.org/place/379.tei> . 
+<http://syriaca.org/place/379> swdt:closeMatch <http://pleiades.stoa.org/places/662205> . 
 <http://syriaca.org/place/379> sp:closeMatch swds:closeMatch-379-1 . 
-swds:closeMatch-379-1 sps:closeMatch "http://pleiades.stoa.org/places/662205" . 
-swds:closeMatch-379-1 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:closeMatch-379-1 sps:closeMatch <http://pleiades.stoa.org/places/662205> . 
+swds:closeMatch-379-1 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> swdt:exist-from "0500"^^xsd:gYear . 
 <http://syriaca.org/place/379> sp:exist-from swds:exist-from-379-1 . 
 swds:exist-from-379-1 sps:exist-from "0500"^^xsd:gYear . 
-swds:exist-from-379-1 spr:reference-URL <http://syriaca.org/place/379> . 
+swds:exist-from-379-1 spr:reference-URL <http://syriaca.org/place/379.tei> . 
 <http://syriaca.org/place/379> swdt:exist-to "0873"^^xsd:gYear . 
 <http://syriaca.org/place/379> sp:exist-to swds:exist-to-379-1 . 
 swds:exist-to-379-1 sps:exist-to "0873"^^xsd:gYear . 

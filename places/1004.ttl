@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -38,7 +39,7 @@
 <http://syriaca.org/place/1004> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/1004> sp:place-type swds:place-type-1004-1 . 
 swds:place-type-1004-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-1004-1 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:place-type-1004-1 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> dcterms:relation <http://syriaca.org/place/737> . 
 <http://syriaca.org/place/1004> dcterms:relation <http://syriaca.org/place/90> . 
 <http://syriaca.org/place/1004> swdt:name-variant "Beth ʿAlata"@en . 
@@ -49,22 +50,22 @@ swds:place-type-1004-1 spr:reference-URL <http://syriaca.org/place/1004> .
 <http://syriaca.org/place/1004> swdt:name-variant "Beṯ ‘Alāṯā"@en-x-srp1 . 
 <http://syriaca.org/place/1004> sp:name-variant swds:Place-1004-1 . 
 swds:Place-1004-1 sps:name-variant "Beth ʿAlata"@en . 
-swds:Place-1004-1 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:Place-1004-1 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> sp:name-variant swds:Place-1004-2 . 
 swds:Place-1004-2 sps:name-variant "Beṯ ʿAlāṯā"@en . 
-swds:Place-1004-2 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:Place-1004-2 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> sp:name-variant swds:Place-1004-3 . 
 swds:Place-1004-3 sps:name-variant "Beth Alata"@en-x-srp1 . 
-swds:Place-1004-3 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:Place-1004-3 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> sp:name-variant swds:Place-1004-4 . 
 swds:Place-1004-4 sps:name-variant "Beth ‘Alata"@en-x-srp1 . 
-swds:Place-1004-4 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:Place-1004-4 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> sp:name-variant swds:Place-1004-5 . 
 swds:Place-1004-5 sps:name-variant "Beṯ Alāṯā"@en-x-srp1 . 
-swds:Place-1004-5 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:Place-1004-5 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> sp:name-variant swds:Place-1004-6 . 
 swds:Place-1004-6 sps:name-variant "Beṯ ‘Alāṯā"@en-x-srp1 . 
-swds:Place-1004-6 spr:reference-URL <http://syriaca.org/place/1004> . 
+swds:Place-1004-6 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
 <http://syriaca.org/place/1004> swdt:broader <http://syriaca.org/place/737> . 
 <http://syriaca.org/place/1004> sp:broader swds:activeRelationbroader-1004-11 . 
 swds:activeRelationbroader-1004-11 swd:broader <http://syriaca.org/place/737> . 
@@ -73,11 +74,11 @@ swds:activeRelationbroader-1004-11 spr:reference-URL <http://syriaca.org/place/1
 <http://syriaca.org/place/1004> sp:broader swds:activeRelationbroader-1004-21 . 
 swds:activeRelationbroader-1004-21 swd:broader <http://syriaca.org/place/90> . 
 swds:activeRelationbroader-1004-21 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
-<place/1004> swdt:share-a-name <> . 
-<place/1004> sp:share-a-name swds:activeRelationshare-a-name-1004-31 . 
-swds:activeRelationshare-a-name-1004-31 swd:share-a-name <> . 
+<http://syriaca.org/place/1004> swdt:share-a-name <http://syriaca.org/place/1005> . 
+<http://syriaca.org/place/1004> sp:share-a-name swds:activeRelationshare-a-name-1004-31 . 
+swds:activeRelationshare-a-name-1004-31 swd:share-a-name <http://syriaca.org/place/1005> . 
 swds:activeRelationshare-a-name-1004-31 spr:reference-URL <http://syriaca.org/place/1004.tei> . 
-<place/1005> swdt:share-a-name <> . 
-<place/1005> sp:share-a-name swds:activeRelationshare-a-name-1004-32 . 
-swds:activeRelationshare-a-name-1004-32 swd:share-a-name <> . 
+<http://syriaca.org/place/1005> swdt:share-a-name <http://syriaca.org/place/1004> . 
+<http://syriaca.org/place/1005> sp:share-a-name swds:activeRelationshare-a-name-1004-32 . 
+swds:activeRelationshare-a-name-1004-32 swd:share-a-name <http://syriaca.org/place/1004> . 
 swds:activeRelationshare-a-name-1004-32 spr:reference-URL <http://syriaca.org/place/1004.tei> .

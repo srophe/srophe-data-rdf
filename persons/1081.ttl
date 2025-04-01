@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -54,9 +55,9 @@ swds:Person-1081-3 spr:reference-URL <http://syriaca.org/person/1081.tei> .
 <http://syriaca.org/person/1081> sp:name-variant swds:Person-1081-4 . 
 swds:Person-1081-4 sps:name-variant "David Bareznaya of Kani Palan"@en . 
 swds:Person-1081-4 spr:reference-URL <http://syriaca.org/person/1081.tei> . 
-<http://syriaca.org/person/1081> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1081" . 
+<http://syriaca.org/person/1081> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_1081> . 
 <http://syriaca.org/person/1081> sp:closeMatch swds:closeMatch-1081-1 . 
-swds:closeMatch-1081-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_1081" . 
+swds:closeMatch-1081-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_1081> . 
 swds:closeMatch-1081-1 spr:reference-URL <http://syriaca.org/person/1081.tei> . 
 <http://syriaca.org/person/1081> swdt:status <http://syriaca.org/taxonomy/authors> . 
 <http://syriaca.org/person/1081> sp:status swds:status-1081-1 . 

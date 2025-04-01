@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,31 +45,32 @@
 <http://syriaca.org/place/5611> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/5611> sp:place-type swds:place-type-5611-1 . 
 swds:place-type-5611-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-5611-1 spr:reference-URL <http://syriaca.org/place/5611> . 
+swds:place-type-5611-1 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
 <http://syriaca.org/place/5611> swdt:name-variant "Heraclea (Perinthus)"@en . 
 <http://syriaca.org/place/5611> swdt:name-variant "ܗܪܩܠܝܐ"@syr . 
 <http://syriaca.org/place/5611> swdt:name-variant "Herakleia in Thrace"@en . 
 <http://syriaca.org/place/5611> swdt:name-variant "ܗܪܩܠܝܐ"@syr . 
 <http://syriaca.org/place/5611> sp:name-variant swds:Place-5611-1 . 
 swds:Place-5611-1 sps:name-variant "Heraclea (Perinthus)"@en . 
-swds:Place-5611-1 spr:reference-URL <http://syriaca.org/place/5611> . 
+swds:Place-5611-1 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
 <http://syriaca.org/place/5611> sp:name-variant swds:Place-5611-2 . 
 swds:Place-5611-2 sps:name-variant "ܗܪܩܠܝܐ"@syr . 
-swds:Place-5611-2 spr:reference-URL <http://syriaca.org/place/5611> . 
+swds:Place-5611-2 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
 <http://syriaca.org/place/5611> sp:name-variant swds:Place-5611-3 . 
 swds:Place-5611-3 sps:name-variant "Herakleia in Thrace"@en . 
-swds:Place-5611-3 spr:reference-URL <http://syriaca.org/place/5611> . 
+swds:Place-5611-3 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
 <http://syriaca.org/place/5611> sp:name-variant swds:Place-5611-4 . 
 swds:Place-5611-4 sps:name-variant "ܗܪܩܠܝܐ"@syr . 
-swds:Place-5611-4 spr:reference-URL <http://syriaca.org/place/5611> . 
-<http://syriaca.org/place/5611> swdt:closeMatch "https://pleiades.stoa.org/places/511357" . 
+swds:Place-5611-4 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
+<http://syriaca.org/place/5611> swdt:closeMatch <https://pleiades.stoa.org/places/511357> . 
 <http://syriaca.org/place/5611> sp:closeMatch swds:closeMatch-5611-1 . 
-swds:closeMatch-5611-1 sps:closeMatch "https://pleiades.stoa.org/places/511357" . 
-swds:closeMatch-5611-1 spr:reference-URL <http://syriaca.org/place/5611> . 
-<http://syriaca.org/place/5611> swdt:closeMatch "https://en.wikipedia.org/wiki/Perinthus" . 
+swds:closeMatch-5611-1 sps:closeMatch <https://pleiades.stoa.org/places/511357> . 
+swds:closeMatch-5611-1 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
+<http://syriaca.org/place/5611> swdt:closeMatch <https://en.wikipedia.org/wiki/Perinthus> . 
 <http://syriaca.org/place/5611> sp:closeMatch swds:closeMatch-5611-2 . 
-swds:closeMatch-5611-2 sps:closeMatch "https://en.wikipedia.org/wiki/Perinthus" . 
-swds:closeMatch-5611-2 spr:reference-URL <http://syriaca.org/place/5611> . 
-<http://syriaca.org/place/5611> swdt:has-gps-coordinates "40.971013 27.952973" . 
-<http://syriaca.org/place/5611> sp:has-gps-coordinates "40.971013 27.952973" . 
+swds:closeMatch-5611-2 sps:closeMatch <https://en.wikipedia.org/wiki/Perinthus> . 
+swds:closeMatch-5611-2 spr:reference-URL <http://syriaca.org/place/5611.tei> . 
+<http://syriaca.org/place/5611> swdt:has-gps-coordinates "40.971013 27.952973"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5611> sp:has-gps-coordinates swds:coordinates-5611-1 . 
+<http://syriaca.org/place/5611> swd:has-gps-coordinates "40.971013 27.952973"^^geosparql:wktLiteral . 
 swds:coordinates-5611-1 spr:reference-URL <http://syriaca.org/place/5611.tei> .

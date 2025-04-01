@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/339> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/339> sp:place-type swds:place-type-339-1 . 
 swds:place-type-339-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-339-1 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:place-type-339-1 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> dcterms:relation <http://syriaca.org/place/142> . 
 <http://syriaca.org/place/339> dcterms:relation <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/339> swdt:name-variant "Mar Awgen"@en . 
@@ -57,67 +58,68 @@ swds:place-type-339-1 spr:reference-URL <http://syriaca.org/place/339> .
 <http://syriaca.org/place/339> swdt:name-variant "Mār Awgin"@en . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-1 . 
 swds:Place-339-1 sps:name-variant "Mar Awgen"@en . 
-swds:Place-339-1 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:Place-339-1 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-2 . 
 swds:Place-339-2 sps:name-variant "ܕܝܪܐ ܕܡܪܝ ܐܘܓܝܢ"@syr . 
-swds:Place-339-2 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:Place-339-2 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-3 . 
 swds:Place-339-3 sps:name-variant "ܕܰܝܪܐ ܕܡܳܪܝ ܐܰܘܓܝܢ"@syr-Syrj . 
-swds:Place-339-3 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:Place-339-3 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-4 . 
 swds:Place-339-4 sps:name-variant "دير مار اوجين"@ar . 
-swds:Place-339-4 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:Place-339-4 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-5 . 
 swds:Place-339-5 sps:name-variant "Eugene Monastery"@en . 
-swds:Place-339-5 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:Place-339-5 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-6 . 
 swds:Place-339-6 sps:name-variant "monastery of Mar Awgen"@en . 
-swds:Place-339-6 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:Place-339-6 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> sp:name-variant swds:Place-339-7 . 
 swds:Place-339-7 sps:name-variant "Mār Awgin"@en . 
-swds:Place-339-7 spr:reference-URL <http://syriaca.org/place/339> . 
-<http://syriaca.org/place/339> swdt:closeMatch "http://pleiades.stoa.org/places/874579" . 
+swds:Place-339-7 spr:reference-URL <http://syriaca.org/place/339.tei> . 
+<http://syriaca.org/place/339> swdt:closeMatch <http://pleiades.stoa.org/places/874579> . 
 <http://syriaca.org/place/339> sp:closeMatch swds:closeMatch-339-1 . 
-swds:closeMatch-339-1 sps:closeMatch "http://pleiades.stoa.org/places/874579" . 
-swds:closeMatch-339-1 spr:reference-URL <http://syriaca.org/place/339> . 
-<http://syriaca.org/place/339> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Awgen&sT=keywords" . 
+swds:closeMatch-339-1 sps:closeMatch <http://pleiades.stoa.org/places/874579> . 
+swds:closeMatch-339-1 spr:reference-URL <http://syriaca.org/place/339.tei> . 
+<http://syriaca.org/place/339> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Awgen&sT=keywords> . 
 <http://syriaca.org/place/339> sp:closeMatch swds:closeMatch-339-2 . 
-swds:closeMatch-339-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Awgen&sT=keywords" . 
-swds:closeMatch-339-2 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:closeMatch-339-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Awgen&sT=keywords> . 
+swds:closeMatch-339-2 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> swdt:exist-from "0600"^^xsd:gYear . 
 <http://syriaca.org/place/339> sp:exist-from swds:exist-from-339-1 . 
 swds:exist-from-339-1 sps:exist-from "0600"^^xsd:gYear . 
-swds:exist-from-339-1 spr:reference-URL <http://syriaca.org/place/339> . 
+swds:exist-from-339-1 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/339> sp:exist-to swds:exist-to-339-1 . 
 swds:exist-to-339-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-339-1 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<http://syriaca.org/place/339> swdt:has-gps-coordinates "37.187038 41.409741" . 
-<http://syriaca.org/place/339> sp:has-gps-coordinates "37.187038 41.409741" . 
+<http://syriaca.org/place/339> swdt:has-gps-coordinates "37.187038 41.409741"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/339> sp:has-gps-coordinates swds:coordinates-339-1 . 
+<http://syriaca.org/place/339> swd:has-gps-coordinates "37.187038 41.409741"^^geosparql:wktLiteral . 
 swds:coordinates-339-1 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<place/339> swdt:share-a-name <> . 
-<place/339> sp:share-a-name swds:activeRelationshare-a-name-339-11 . 
-swds:activeRelationshare-a-name-339-11 swd:share-a-name <> . 
+<http://syriaca.org/place/339> swdt:share-a-name <http://syriaca.org/place/1871> . 
+<http://syriaca.org/place/339> sp:share-a-name swds:activeRelationshare-a-name-339-11 . 
+swds:activeRelationshare-a-name-339-11 swd:share-a-name <http://syriaca.org/place/1871> . 
 swds:activeRelationshare-a-name-339-11 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<place/339> swdt:share-a-name <> . 
-<place/339> sp:share-a-name swds:activeRelationshare-a-name-339-11 . 
-swds:activeRelationshare-a-name-339-11 swd:share-a-name <> . 
+<http://syriaca.org/place/339> swdt:share-a-name <http://syriaca.org/place/1872> . 
+<http://syriaca.org/place/339> sp:share-a-name swds:activeRelationshare-a-name-339-11 . 
+swds:activeRelationshare-a-name-339-11 swd:share-a-name <http://syriaca.org/place/1872> . 
 swds:activeRelationshare-a-name-339-11 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<place/1871> swdt:share-a-name <> . 
-<place/1871> sp:share-a-name swds:activeRelationshare-a-name-339-12 . 
-swds:activeRelationshare-a-name-339-12 swd:share-a-name <> . 
+<http://syriaca.org/place/1871> swdt:share-a-name <http://syriaca.org/place/339> . 
+<http://syriaca.org/place/1871> sp:share-a-name swds:activeRelationshare-a-name-339-12 . 
+swds:activeRelationshare-a-name-339-12 swd:share-a-name <http://syriaca.org/place/339> . 
 swds:activeRelationshare-a-name-339-12 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<place/1871> swdt:share-a-name <> . 
-<place/1871> sp:share-a-name swds:activeRelationshare-a-name-339-12 . 
-swds:activeRelationshare-a-name-339-12 swd:share-a-name <> . 
+<http://syriaca.org/place/1871> swdt:share-a-name <http://syriaca.org/place/1872> . 
+<http://syriaca.org/place/1871> sp:share-a-name swds:activeRelationshare-a-name-339-12 . 
+swds:activeRelationshare-a-name-339-12 swd:share-a-name <http://syriaca.org/place/1872> . 
 swds:activeRelationshare-a-name-339-12 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<place/1872> swdt:share-a-name <> . 
-<place/1872> sp:share-a-name swds:activeRelationshare-a-name-339-13 . 
-swds:activeRelationshare-a-name-339-13 swd:share-a-name <> . 
+<http://syriaca.org/place/1872> swdt:share-a-name <http://syriaca.org/place/339> . 
+<http://syriaca.org/place/1872> sp:share-a-name swds:activeRelationshare-a-name-339-13 . 
+swds:activeRelationshare-a-name-339-13 swd:share-a-name <http://syriaca.org/place/339> . 
 swds:activeRelationshare-a-name-339-13 spr:reference-URL <http://syriaca.org/place/339.tei> . 
-<place/1872> swdt:share-a-name <> . 
-<place/1872> sp:share-a-name swds:activeRelationshare-a-name-339-13 . 
-swds:activeRelationshare-a-name-339-13 swd:share-a-name <> . 
+<http://syriaca.org/place/1872> swdt:share-a-name <http://syriaca.org/place/1871> . 
+<http://syriaca.org/place/1872> sp:share-a-name swds:activeRelationshare-a-name-339-13 . 
+swds:activeRelationshare-a-name-339-13 swd:share-a-name <http://syriaca.org/place/1871> . 
 swds:activeRelationshare-a-name-339-13 spr:reference-URL <http://syriaca.org/place/339.tei> . 
 <http://syriaca.org/place/339> swdt:broader <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/339> sp:broader swds:activeRelationbroader-339-21 . 

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -81,9 +82,9 @@ swds:Person-224-9 spr:reference-URL <http://syriaca.org/person/224.tei> .
 <http://syriaca.org/person/224> sp:name-variant swds:Person-224-10 . 
 swds:Person-224-10 sps:name-variant "John XIV (XII), Ishoʿ bar John the Scribe"@en . 
 swds:Person-224-10 spr:reference-URL <http://syriaca.org/person/224.tei> . 
-<http://syriaca.org/person/224> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_224" . 
+<http://syriaca.org/person/224> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_224> . 
 <http://syriaca.org/person/224> sp:closeMatch swds:closeMatch-224-1 . 
-swds:closeMatch-224-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_224" . 
+swds:closeMatch-224-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_224> . 
 swds:closeMatch-224-1 spr:reference-URL <http://syriaca.org/person/224.tei> . 
 <http://syriaca.org/person/224> swdt:death-when "1220"^^xsd:gYear . 
 <http://syriaca.org/person/224> sp:death-when swds:death-when-224-1 . 

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/94> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/94> sp:place-type swds:place-type-94-1 . 
 swds:place-type-94-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-94-1 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:place-type-94-1 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> dcterms:relation <http://syriaca.org/place/97> . 
 <http://syriaca.org/place/94> dcterms:relation <http://syriaca.org/place/136> . 
 <http://syriaca.org/place/94> swdt:name-variant "Ḥiṣn Manṣūr"@en . 
@@ -59,62 +60,63 @@ swds:place-type-94-1 spr:reference-URL <http://syriaca.org/place/94> .
 <http://syriaca.org/place/94> swdt:name-variant "Qal‘a Rumayta"@en-x-srp1 . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-1 . 
 swds:Place-94-1 sps:name-variant "Ḥiṣn Manṣūr"@en . 
-swds:Place-94-1 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-1 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-2 . 
 swds:Place-94-2 sps:name-variant "Perrhe"@en . 
-swds:Place-94-2 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-2 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-3 . 
 swds:Place-94-3 sps:name-variant "Hiṣn Manṣūr"@en . 
-swds:Place-94-3 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-3 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-4 . 
 swds:Place-94-4 sps:name-variant "Adıyaman"@en . 
-swds:Place-94-4 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-4 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-5 . 
 swds:Place-94-5 sps:name-variant "Parrin"@en . 
-swds:Place-94-5 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-5 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-6 . 
 swds:Place-94-6 sps:name-variant "ܚܣܢ ܡܢܨܘܪ"@syr . 
-swds:Place-94-6 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-6 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-7 . 
 swds:Place-94-7 sps:name-variant "ܚܰܣܰܢ ܡܰܢܨܘܪ"@syr-Syrj . 
-swds:Place-94-7 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-7 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-8 . 
 swds:Place-94-8 sps:name-variant "حصن منصور"@ar . 
-swds:Place-94-8 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-8 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-9 . 
 swds:Place-94-9 sps:name-variant "Qala Rumayta"@en-x-srp1 . 
-swds:Place-94-9 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:Place-94-9 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> sp:name-variant swds:Place-94-10 . 
 swds:Place-94-10 sps:name-variant "Qal‘a Rumayta"@en-x-srp1 . 
-swds:Place-94-10 spr:reference-URL <http://syriaca.org/place/94> . 
-<http://syriaca.org/place/94> swdt:closeMatch "http://pleiades.stoa.org/places/658568" . 
+swds:Place-94-10 spr:reference-URL <http://syriaca.org/place/94.tei> . 
+<http://syriaca.org/place/94> swdt:closeMatch <http://pleiades.stoa.org/places/658568> . 
 <http://syriaca.org/place/94> sp:closeMatch swds:closeMatch-94-1 . 
-swds:closeMatch-94-1 sps:closeMatch "http://pleiades.stoa.org/places/658568" . 
-swds:closeMatch-94-1 spr:reference-URL <http://syriaca.org/place/94> . 
-<http://syriaca.org/place/94> swdt:closeMatch "http://en.wikipedia.org/wiki/Adıyaman" . 
+swds:closeMatch-94-1 sps:closeMatch <http://pleiades.stoa.org/places/658568> . 
+swds:closeMatch-94-1 spr:reference-URL <http://syriaca.org/place/94.tei> . 
+<http://syriaca.org/place/94> swdt:closeMatch <http://en.wikipedia.org/wiki/Adıyaman> . 
 <http://syriaca.org/place/94> sp:closeMatch swds:closeMatch-94-2 . 
-swds:closeMatch-94-2 sps:closeMatch "http://en.wikipedia.org/wiki/Adıyaman" . 
-swds:closeMatch-94-2 spr:reference-URL <http://syriaca.org/place/94> . 
-<http://syriaca.org/place/94> swdt:closeMatch "http://dbpedia.org/resource/Adıyaman" . 
+swds:closeMatch-94-2 sps:closeMatch <http://en.wikipedia.org/wiki/Adıyaman> . 
+swds:closeMatch-94-2 spr:reference-URL <http://syriaca.org/place/94.tei> . 
+<http://syriaca.org/place/94> swdt:closeMatch <http://dbpedia.org/resource/Adıyaman> . 
 <http://syriaca.org/place/94> sp:closeMatch swds:closeMatch-94-3 . 
-swds:closeMatch-94-3 sps:closeMatch "http://dbpedia.org/resource/Adıyaman" . 
-swds:closeMatch-94-3 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:closeMatch-94-3 sps:closeMatch <http://dbpedia.org/resource/Adıyaman> . 
+swds:closeMatch-94-3 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> swdt:exist-from "0072"^^xsd:gYear . 
 <http://syriaca.org/place/94> sp:exist-from swds:exist-from-94-1 . 
 swds:exist-from-94-1 sps:exist-from "0072"^^xsd:gYear . 
-swds:exist-from-94-1 spr:reference-URL <http://syriaca.org/place/94> . 
+swds:exist-from-94-1 spr:reference-URL <http://syriaca.org/place/94.tei> . 
 <http://syriaca.org/place/94> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/94> sp:exist-to swds:exist-to-94-1 . 
 swds:exist-to-94-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-94-1 spr:reference-URL <http://syriaca.org/place/94.tei> . 
-<http://syriaca.org/place/94> swdt:has-gps-coordinates "37.75972 38.27875" . 
-<http://syriaca.org/place/94> sp:has-gps-coordinates "37.75972 38.27875" . 
+<http://syriaca.org/place/94> swdt:has-gps-coordinates "37.75972 38.27875"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/94> sp:has-gps-coordinates swds:coordinates-94-1 . 
+<http://syriaca.org/place/94> swd:has-gps-coordinates "37.75972 38.27875"^^geosparql:wktLiteral . 
 swds:coordinates-94-1 spr:reference-URL <http://syriaca.org/place/94.tei> . 
-<place/94> swdt:not-to-be-confused-with <> . 
-<place/94> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-94-11 . 
-swds:activeRelationnot-to-be-confused-with-94-11 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/94> swdt:not-to-be-confused-with <http://pleiades.stoa.org/places/658574> . 
+<http://syriaca.org/place/94> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-94-11 . 
+swds:activeRelationnot-to-be-confused-with-94-11 swd:not-to-be-confused-with <http://pleiades.stoa.org/places/658574> . 
 swds:activeRelationnot-to-be-confused-with-94-11 spr:reference-URL <http://syriaca.org/place/94.tei> . 
-<> swdt:not-to-be-confused-with <> . 
-<> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-94-12 . 
-swds:activeRelationnot-to-be-confused-with-94-12 swd:not-to-be-confused-with <> . 
+<http://pleiades.stoa.org/places/658574> swdt:not-to-be-confused-with <http://syriaca.org/place/94> . 
+<http://pleiades.stoa.org/places/658574> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-94-12 . 
+swds:activeRelationnot-to-be-confused-with-94-12 swd:not-to-be-confused-with <http://syriaca.org/place/94> . 
 swds:activeRelationnot-to-be-confused-with-94-12 spr:reference-URL <http://syriaca.org/place/94.tei> .

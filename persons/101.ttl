@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -78,9 +79,9 @@ swds:Person-101-8 spr:reference-URL <http://syriaca.org/person/101.tei> .
 <http://syriaca.org/person/101> sp:name-variant swds:Person-101-9 . 
 swds:Person-101-9 sps:name-variant "Jonas ep. Tellae"@la . 
 swds:Person-101-9 spr:reference-URL <http://syriaca.org/person/101.tei> . 
-<http://syriaca.org/person/101> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_101" . 
+<http://syriaca.org/person/101> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_101> . 
 <http://syriaca.org/person/101> sp:closeMatch swds:closeMatch-101-1 . 
-swds:closeMatch-101-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_101" . 
+swds:closeMatch-101-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_101> . 
 swds:closeMatch-101-1 spr:reference-URL <http://syriaca.org/person/101.tei> . 
 <http://syriaca.org/person/101> swdt:floruit-notBefore "0600"^^xsd:gYear . 
 <http://syriaca.org/person/101> sp:floruit-notBefore swds:floruit-notBefore-101-1 . 

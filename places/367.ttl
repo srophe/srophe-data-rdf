@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -43,7 +44,7 @@
 <http://syriaca.org/place/367> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/367> sp:place-type swds:place-type-367-1 . 
 swds:place-type-367-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-367-1 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:place-type-367-1 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> dcterms:relation <http://syriaca.org/place/553> . 
 <http://syriaca.org/place/367> swdt:name-variant "Dayr al-Ṣalīb"@en . 
 <http://syriaca.org/place/367> swdt:name-variant "ܕܝܪܐ ܕܨܠܝܒܐ"@syr . 
@@ -55,41 +56,41 @@ swds:place-type-367-1 spr:reference-URL <http://syriaca.org/place/367> .
 <http://syriaca.org/place/367> swdt:name-variant "Makhr Monastery"@en . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-1 . 
 swds:Place-367-1 sps:name-variant "Dayr al-Ṣalīb"@en . 
-swds:Place-367-1 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-1 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-2 . 
 swds:Place-367-2 sps:name-variant "ܕܝܪܐ ܕܨܠܝܒܐ"@syr . 
-swds:Place-367-2 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-2 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-3 . 
 swds:Place-367-3 sps:name-variant "ܕܰܝܪܳܐ ܕܰܨܠܝܒܐ"@syr-Syrj . 
-swds:Place-367-3 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-3 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-4 . 
 swds:Place-367-4 sps:name-variant "ܕܰܝܪܐ ܕܡܰܟ̣ܰܪ"@syr-Syrj . 
-swds:Place-367-4 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-4 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-5 . 
 swds:Place-367-5 sps:name-variant "دير الصليب"@ar . 
-swds:Place-367-5 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-5 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-6 . 
 swds:Place-367-6 sps:name-variant "دير مَخَر"@ar . 
-swds:Place-367-6 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-6 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-7 . 
 swds:Place-367-7 sps:name-variant "Monastery of the Cross"@en . 
-swds:Place-367-7 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-7 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> sp:name-variant swds:Place-367-8 . 
 swds:Place-367-8 sps:name-variant "Makhr Monastery"@en . 
-swds:Place-367-8 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:Place-367-8 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> swdt:exist-from "0770"^^xsd:gYear . 
 <http://syriaca.org/place/367> sp:exist-from swds:exist-from-367-1 . 
 swds:exist-from-367-1 sps:exist-from "0770"^^xsd:gYear . 
-swds:exist-from-367-1 spr:reference-URL <http://syriaca.org/place/367> . 
+swds:exist-from-367-1 spr:reference-URL <http://syriaca.org/place/367.tei> . 
 <http://syriaca.org/place/367> swdt:exist-to "1913"^^xsd:gYear . 
 <http://syriaca.org/place/367> sp:exist-to swds:exist-to-367-1 . 
 swds:exist-to-367-1 sps:exist-to "1913"^^xsd:gYear . 
 swds:exist-to-367-1 spr:reference-URL <http://syriaca.org/place/367.tei> . 
-<place/367> swdt:share-a-name <> . 
-<place/367> sp:share-a-name swds:activeRelationshare-a-name-367-11 . 
-swds:activeRelationshare-a-name-367-11 swd:share-a-name <> . 
+<http://syriaca.org/place/367> swdt:share-a-name <http://syriaca.org/place/68> . 
+<http://syriaca.org/place/367> sp:share-a-name swds:activeRelationshare-a-name-367-11 . 
+swds:activeRelationshare-a-name-367-11 swd:share-a-name <http://syriaca.org/place/68> . 
 swds:activeRelationshare-a-name-367-11 spr:reference-URL <http://syriaca.org/place/367.tei> . 
-<place/68> swdt:share-a-name <> . 
-<place/68> sp:share-a-name swds:activeRelationshare-a-name-367-12 . 
-swds:activeRelationshare-a-name-367-12 swd:share-a-name <> . 
+<http://syriaca.org/place/68> swdt:share-a-name <http://syriaca.org/place/367> . 
+<http://syriaca.org/place/68> sp:share-a-name swds:activeRelationshare-a-name-367-12 . 
+swds:activeRelationshare-a-name-367-12 swd:share-a-name <http://syriaca.org/place/367> . 
 swds:activeRelationshare-a-name-367-12 spr:reference-URL <http://syriaca.org/place/367.tei> .

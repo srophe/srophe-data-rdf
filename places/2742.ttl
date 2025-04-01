@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -46,26 +47,27 @@
 <http://syriaca.org/place/2742> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/2742> sp:place-type swds:place-type-2742-1 . 
 swds:place-type-2742-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-2742-1 spr:reference-URL <http://syriaca.org/place/2742> . 
+swds:place-type-2742-1 spr:reference-URL <http://syriaca.org/place/2742.tei> . 
 <http://syriaca.org/place/2742> dcterms:relation <http://syriaca.org/place/1472> . 
 <http://syriaca.org/place/2742> swdt:name-variant "Aphrodisias"@en . 
 <http://syriaca.org/place/2742> swdt:name-variant "ܐܦܪܘܕܝܣܝܕܐ"@syr . 
 <http://syriaca.org/place/2742> sp:name-variant swds:Place-2742-1 . 
 swds:Place-2742-1 sps:name-variant "Aphrodisias"@en . 
-swds:Place-2742-1 spr:reference-URL <http://syriaca.org/place/2742> . 
+swds:Place-2742-1 spr:reference-URL <http://syriaca.org/place/2742.tei> . 
 <http://syriaca.org/place/2742> sp:name-variant swds:Place-2742-2 . 
 swds:Place-2742-2 sps:name-variant "ܐܦܪܘܕܝܣܝܕܐ"@syr . 
-swds:Place-2742-2 spr:reference-URL <http://syriaca.org/place/2742> . 
-<http://syriaca.org/place/2742> swdt:closeMatch "https://pleiades.stoa.org/places/638753" . 
+swds:Place-2742-2 spr:reference-URL <http://syriaca.org/place/2742.tei> . 
+<http://syriaca.org/place/2742> swdt:closeMatch <https://pleiades.stoa.org/places/638753> . 
 <http://syriaca.org/place/2742> sp:closeMatch swds:closeMatch-2742-1 . 
-swds:closeMatch-2742-1 sps:closeMatch "https://pleiades.stoa.org/places/638753" . 
-swds:closeMatch-2742-1 spr:reference-URL <http://syriaca.org/place/2742> . 
-<http://syriaca.org/place/2742> swdt:closeMatch "https://en.wikipedia.org/wiki/Aphrodisias" . 
+swds:closeMatch-2742-1 sps:closeMatch <https://pleiades.stoa.org/places/638753> . 
+swds:closeMatch-2742-1 spr:reference-URL <http://syriaca.org/place/2742.tei> . 
+<http://syriaca.org/place/2742> swdt:closeMatch <https://en.wikipedia.org/wiki/Aphrodisias> . 
 <http://syriaca.org/place/2742> sp:closeMatch swds:closeMatch-2742-2 . 
-swds:closeMatch-2742-2 sps:closeMatch "https://en.wikipedia.org/wiki/Aphrodisias" . 
-swds:closeMatch-2742-2 spr:reference-URL <http://syriaca.org/place/2742> . 
-<http://syriaca.org/place/2742> swdt:has-gps-coordinates "37.7085832624 28.7237779096" . 
-<http://syriaca.org/place/2742> sp:has-gps-coordinates "37.7085832624 28.7237779096" . 
+swds:closeMatch-2742-2 sps:closeMatch <https://en.wikipedia.org/wiki/Aphrodisias> . 
+swds:closeMatch-2742-2 spr:reference-URL <http://syriaca.org/place/2742.tei> . 
+<http://syriaca.org/place/2742> swdt:has-gps-coordinates "37.7085832624 28.7237779096"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2742> sp:has-gps-coordinates swds:coordinates-2742-1 . 
+<http://syriaca.org/place/2742> swd:has-gps-coordinates "37.7085832624 28.7237779096"^^geosparql:wktLiteral . 
 swds:coordinates-2742-1 spr:reference-URL <http://syriaca.org/place/2742.tei> . 
 <http://syriaca.org/place/2742> swdt:broader <http://syriaca.org/place/1472> . 
 <http://syriaca.org/place/2742> sp:broader swds:activeRelationbroader-2742-11 . 

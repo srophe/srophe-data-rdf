@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,7 +42,7 @@
 <http://syriaca.org/place/305> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/305> sp:place-type swds:place-type-305-1 . 
 swds:place-type-305-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-305-1 spr:reference-URL <http://syriaca.org/place/305> . 
+swds:place-type-305-1 spr:reference-URL <http://syriaca.org/place/305.tei> . 
 <http://syriaca.org/place/305> dcterms:relation <http://syriaca.org/place/925> . 
 <http://syriaca.org/place/305> swdt:name-variant "Beth Arsham"@en . 
 <http://syriaca.org/place/305> swdt:name-variant "ܒܝܬ ܐܪܫܡ"@syr . 
@@ -49,29 +50,29 @@ swds:place-type-305-1 spr:reference-URL <http://syriaca.org/place/305> .
 <http://syriaca.org/place/305> swdt:name-variant "بيث ارشم"@ar . 
 <http://syriaca.org/place/305> sp:name-variant swds:Place-305-1 . 
 swds:Place-305-1 sps:name-variant "Beth Arsham"@en . 
-swds:Place-305-1 spr:reference-URL <http://syriaca.org/place/305> . 
+swds:Place-305-1 spr:reference-URL <http://syriaca.org/place/305.tei> . 
 <http://syriaca.org/place/305> sp:name-variant swds:Place-305-2 . 
 swds:Place-305-2 sps:name-variant "ܒܝܬ ܐܪܫܡ"@syr . 
-swds:Place-305-2 spr:reference-URL <http://syriaca.org/place/305> . 
+swds:Place-305-2 spr:reference-URL <http://syriaca.org/place/305.tei> . 
 <http://syriaca.org/place/305> sp:name-variant swds:Place-305-3 . 
 swds:Place-305-3 sps:name-variant "ܒܶܝܬ ܐܰܪܩܡ"@syr-Syrj . 
-swds:Place-305-3 spr:reference-URL <http://syriaca.org/place/305> . 
+swds:Place-305-3 spr:reference-URL <http://syriaca.org/place/305.tei> . 
 <http://syriaca.org/place/305> sp:name-variant swds:Place-305-4 . 
 swds:Place-305-4 sps:name-variant "بيث ارشم"@ar . 
-swds:Place-305-4 spr:reference-URL <http://syriaca.org/place/305> . 
+swds:Place-305-4 spr:reference-URL <http://syriaca.org/place/305.tei> . 
 <http://syriaca.org/place/305> swdt:exist-from "0505"^^xsd:gYear . 
 <http://syriaca.org/place/305> sp:exist-from swds:exist-from-305-1 . 
 swds:exist-from-305-1 sps:exist-from "0505"^^xsd:gYear . 
-swds:exist-from-305-1 spr:reference-URL <http://syriaca.org/place/305> . 
+swds:exist-from-305-1 spr:reference-URL <http://syriaca.org/place/305.tei> . 
 <http://syriaca.org/place/305> swdt:exist-to "0440"^^xsd:gYear . 
 <http://syriaca.org/place/305> sp:exist-to swds:exist-to-305-1 . 
 swds:exist-to-305-1 sps:exist-to "0440"^^xsd:gYear . 
 swds:exist-to-305-1 spr:reference-URL <http://syriaca.org/place/305.tei> . 
-<place/305> swdt:not-to-be-confused-with <> . 
-<place/305> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-305-11 . 
-swds:activeRelationnot-to-be-confused-with-305-11 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/305> swdt:not-to-be-confused-with <http://syriaca.org/place/925> . 
+<http://syriaca.org/place/305> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-305-11 . 
+swds:activeRelationnot-to-be-confused-with-305-11 swd:not-to-be-confused-with <http://syriaca.org/place/925> . 
 swds:activeRelationnot-to-be-confused-with-305-11 spr:reference-URL <http://syriaca.org/place/305.tei> . 
-<place/925> swdt:not-to-be-confused-with <> . 
-<place/925> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-305-12 . 
-swds:activeRelationnot-to-be-confused-with-305-12 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/925> swdt:not-to-be-confused-with <http://syriaca.org/place/305> . 
+<http://syriaca.org/place/925> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-305-12 . 
+swds:activeRelationnot-to-be-confused-with-305-12 swd:not-to-be-confused-with <http://syriaca.org/place/305> . 
 swds:activeRelationnot-to-be-confused-with-305-12 spr:reference-URL <http://syriaca.org/place/305.tei> .

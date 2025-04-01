@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,7 +43,7 @@
 <http://syriaca.org/place/1462> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/1462> sp:place-type swds:place-type-1462-1 . 
 swds:place-type-1462-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-1462-1 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:place-type-1462-1 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> swdt:name-variant "Dayr al-Markaba"@en . 
 <http://syriaca.org/place/1462> swdt:name-variant "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr . 
 <http://syriaca.org/place/1462> swdt:name-variant "ܩܶܠܳܝܬܐ ܕܶܐܠܝܫܥ ܢܙܺܝܪܐ"@syr-Syrj . 
@@ -55,34 +56,34 @@ swds:place-type-1462-1 spr:reference-URL <http://syriaca.org/place/1462> .
 <http://syriaca.org/place/1462> swdt:name-variant "Cell of Elisha‘ the Ascetic"@en-x-srp1 . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-1 . 
 swds:Place-1462-1 sps:name-variant "Dayr al-Markaba"@en . 
-swds:Place-1462-1 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-1 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-2 . 
 swds:Place-1462-2 sps:name-variant "ܕܝܪܐ ܕܡܪܟܒܬܐ"@syr . 
-swds:Place-1462-2 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-2 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-3 . 
 swds:Place-1462-3 sps:name-variant "ܩܶܠܳܝܬܐ ܕܶܐܠܝܫܥ ܢܙܺܝܪܐ"@syr-Syrj . 
-swds:Place-1462-3 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-3 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-4 . 
 swds:Place-1462-4 sps:name-variant "ܕܰܝܪܐ ܕܡܰܪܟܰܒܬܐ"@syr-Syrj . 
-swds:Place-1462-4 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-4 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-5 . 
 swds:Place-1462-5 sps:name-variant "صومعة اليشع الناسك"@ar . 
-swds:Place-1462-5 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-5 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-6 . 
 swds:Place-1462-6 sps:name-variant "دير المركبة"@ar . 
-swds:Place-1462-6 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-6 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-7 . 
 swds:Place-1462-7 sps:name-variant "Cell of Elishaʿ the Ascetic"@en . 
-swds:Place-1462-7 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-7 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-8 . 
 swds:Place-1462-8 sps:name-variant "Monastery of the Chariot"@en . 
-swds:Place-1462-8 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-8 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-9 . 
 swds:Place-1462-9 sps:name-variant "Cell of Elisha the Ascetic"@en-x-srp1 . 
-swds:Place-1462-9 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-9 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> sp:name-variant swds:Place-1462-10 . 
 swds:Place-1462-10 sps:name-variant "Cell of Elisha‘ the Ascetic"@en-x-srp1 . 
-swds:Place-1462-10 spr:reference-URL <http://syriaca.org/place/1462> . 
+swds:Place-1462-10 spr:reference-URL <http://syriaca.org/place/1462.tei> . 
 <http://syriaca.org/place/1462> swdt:exist-from "0525"^^xsd:gYear . 
 <http://syriaca.org/place/1462> sp:exist-from swds:exist-from-1462-1 . 
 swds:exist-from-1462-1 sps:exist-from "0525"^^xsd:gYear . 

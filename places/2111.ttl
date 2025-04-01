@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -38,7 +39,7 @@
 <http://syriaca.org/place/2111> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
 <http://syriaca.org/place/2111> sp:place-type swds:place-type-2111-1 . 
 swds:place-type-2111-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
-swds:place-type-2111-1 spr:reference-URL <http://syriaca.org/place/2111> . 
+swds:place-type-2111-1 spr:reference-URL <http://syriaca.org/place/2111.tei> . 
 <http://syriaca.org/place/2111> dcterms:relation <http://syriaca.org/place/1141> . 
 <http://syriaca.org/place/2111> dcterms:relation <http://syriaca.org/place/770> . 
 <http://syriaca.org/place/2111> dcterms:relation <http://syriaca.org/place/712> . 
@@ -46,10 +47,10 @@ swds:place-type-2111-1 spr:reference-URL <http://syriaca.org/place/2111> .
 <http://syriaca.org/place/2111> swdt:name-variant "Mār Yāreṯ"@en . 
 <http://syriaca.org/place/2111> sp:name-variant swds:Place-2111-1 . 
 swds:Place-2111-1 sps:name-variant "Mar Yaret"@en . 
-swds:Place-2111-1 spr:reference-URL <http://syriaca.org/place/2111> . 
+swds:Place-2111-1 spr:reference-URL <http://syriaca.org/place/2111.tei> . 
 <http://syriaca.org/place/2111> sp:name-variant swds:Place-2111-2 . 
 swds:Place-2111-2 sps:name-variant "Mār Yāreṯ"@en . 
-swds:Place-2111-2 spr:reference-URL <http://syriaca.org/place/2111> . 
+swds:Place-2111-2 spr:reference-URL <http://syriaca.org/place/2111.tei> . 
 <http://syriaca.org/place/2111> swdt:broader <http://syriaca.org/place/1141> . 
 <http://syriaca.org/place/2111> sp:broader swds:activeRelationbroader-2111-11 . 
 swds:activeRelationbroader-2111-11 swd:broader <http://syriaca.org/place/1141> . 
@@ -62,11 +63,11 @@ swds:activeRelationbroader-2111-21 spr:reference-URL <http://syriaca.org/place/2
 <http://syriaca.org/place/2111> sp:broader swds:activeRelationbroader-2111-31 . 
 swds:activeRelationbroader-2111-31 swd:broader <http://syriaca.org/place/712> . 
 swds:activeRelationbroader-2111-31 spr:reference-URL <http://syriaca.org/place/2111.tei> . 
-<place/2111> swdt:share-a-name <> . 
-<place/2111> sp:share-a-name swds:activeRelationshare-a-name-2111-41 . 
-swds:activeRelationshare-a-name-2111-41 swd:share-a-name <> . 
+<http://syriaca.org/place/2111> swdt:share-a-name <http://syriaca.org/place/2498> . 
+<http://syriaca.org/place/2111> sp:share-a-name swds:activeRelationshare-a-name-2111-41 . 
+swds:activeRelationshare-a-name-2111-41 swd:share-a-name <http://syriaca.org/place/2498> . 
 swds:activeRelationshare-a-name-2111-41 spr:reference-URL <http://syriaca.org/place/2111.tei> . 
-<place/2498> swdt:share-a-name <> . 
-<place/2498> sp:share-a-name swds:activeRelationshare-a-name-2111-42 . 
-swds:activeRelationshare-a-name-2111-42 swd:share-a-name <> . 
+<http://syriaca.org/place/2498> swdt:share-a-name <http://syriaca.org/place/2111> . 
+<http://syriaca.org/place/2498> sp:share-a-name swds:activeRelationshare-a-name-2111-42 . 
+swds:activeRelationshare-a-name-2111-42 swd:share-a-name <http://syriaca.org/place/2111> . 
 swds:activeRelationshare-a-name-2111-42 spr:reference-URL <http://syriaca.org/place/2111.tei> .

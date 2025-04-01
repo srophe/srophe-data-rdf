@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/4> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/4> sp:place-type swds:place-type-4-1 . 
 swds:place-type-4-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-4-1 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:place-type-4-1 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> dcterms:relation <http://syriaca.org/place/221> . 
 <http://syriaca.org/place/4> swdt:name-variant "Ṣawro"@en . 
 <http://syriaca.org/place/4> swdt:name-variant "ܨܘܪܐ"@syr . 
@@ -56,44 +57,45 @@ swds:place-type-4-1 spr:reference-URL <http://syriaca.org/place/4> .
 <http://syriaca.org/place/4> swdt:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-1 . 
 swds:Place-4-1 sps:name-variant "Ṣawro"@en . 
-swds:Place-4-1 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-1 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-2 . 
 swds:Place-4-2 sps:name-variant "ܨܘܪܐ"@syr . 
-swds:Place-4-2 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-2 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-3 . 
 swds:Place-4-3 sps:name-variant "ܨܰܘܪܐ"@syr-Syrj . 
-swds:Place-4-3 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-3 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-4 . 
 swds:Place-4-4 sps:name-variant "الصور"@ar . 
-swds:Place-4-4 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-4 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-5 . 
 swds:Place-4-5 sps:name-variant "Ṣawr"@en . 
-swds:Place-4-5 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-5 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-6 . 
 swds:Place-4-6 sps:name-variant "الصَور"@ar . 
-swds:Place-4-6 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-6 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-7 . 
 swds:Place-4-7 sps:name-variant "Ṭur Abdin"@en-x-srp1 . 
-swds:Place-4-7 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:Place-4-7 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> sp:name-variant swds:Place-4-8 . 
 swds:Place-4-8 sps:name-variant "Ṭur ‘Abdin"@en-x-srp1 . 
-swds:Place-4-8 spr:reference-URL <http://syriaca.org/place/4> . 
-<http://syriaca.org/place/4> swdt:closeMatch "http://pleiades.stoa.org/places/874686" . 
+swds:Place-4-8 spr:reference-URL <http://syriaca.org/place/4.tei> . 
+<http://syriaca.org/place/4> swdt:closeMatch <http://pleiades.stoa.org/places/874686> . 
 <http://syriaca.org/place/4> sp:closeMatch swds:closeMatch-4-1 . 
-swds:closeMatch-4-1 sps:closeMatch "http://pleiades.stoa.org/places/874686" . 
-swds:closeMatch-4-1 spr:reference-URL <http://syriaca.org/place/4> . 
-<http://syriaca.org/place/4> swdt:closeMatch "http://en.wikipedia.org/wiki/Savur" . 
+swds:closeMatch-4-1 sps:closeMatch <http://pleiades.stoa.org/places/874686> . 
+swds:closeMatch-4-1 spr:reference-URL <http://syriaca.org/place/4.tei> . 
+<http://syriaca.org/place/4> swdt:closeMatch <http://en.wikipedia.org/wiki/Savur> . 
 <http://syriaca.org/place/4> sp:closeMatch swds:closeMatch-4-2 . 
-swds:closeMatch-4-2 sps:closeMatch "http://en.wikipedia.org/wiki/Savur" . 
-swds:closeMatch-4-2 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:closeMatch-4-2 sps:closeMatch <http://en.wikipedia.org/wiki/Savur> . 
+swds:closeMatch-4-2 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> swdt:exist-from "1493"^^xsd:gYear . 
 <http://syriaca.org/place/4> sp:exist-from swds:exist-from-4-1 . 
 swds:exist-from-4-1 sps:exist-from "1493"^^xsd:gYear . 
-swds:exist-from-4-1 spr:reference-URL <http://syriaca.org/place/4> . 
+swds:exist-from-4-1 spr:reference-URL <http://syriaca.org/place/4.tei> . 
 <http://syriaca.org/place/4> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/4> sp:exist-to swds:exist-to-4-1 . 
 swds:exist-to-4-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-4-1 spr:reference-URL <http://syriaca.org/place/4.tei> . 
-<http://syriaca.org/place/4> swdt:has-gps-coordinates "37.538333 40.888056" . 
-<http://syriaca.org/place/4> sp:has-gps-coordinates "37.538333 40.888056" . 
+<http://syriaca.org/place/4> swdt:has-gps-coordinates "37.538333 40.888056"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/4> sp:has-gps-coordinates swds:coordinates-4-1 . 
+<http://syriaca.org/place/4> swd:has-gps-coordinates "37.538333 40.888056"^^geosparql:wktLiteral . 
 swds:coordinates-4-1 spr:reference-URL <http://syriaca.org/place/4.tei> .

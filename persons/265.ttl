@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -62,9 +63,9 @@ swds:Person-265-5 spr:reference-URL <http://syriaca.org/person/265.tei> .
 <http://syriaca.org/person/265> sp:name-variant swds:Person-265-6 . 
 swds:Person-265-6 sps:name-variant "John of Beth Sbirina"@en . 
 swds:Person-265-6 spr:reference-URL <http://syriaca.org/person/265.tei> . 
-<http://syriaca.org/person/265> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_265" . 
+<http://syriaca.org/person/265> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_265> . 
 <http://syriaca.org/person/265> sp:closeMatch swds:closeMatch-265-1 . 
-swds:closeMatch-265-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_265" . 
+swds:closeMatch-265-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_265> . 
 swds:closeMatch-265-1 spr:reference-URL <http://syriaca.org/person/265.tei> . 
 <http://syriaca.org/person/265> swdt:status <http://syriaca.org/taxonomy/authors> . 
 <http://syriaca.org/person/265> sp:status swds:status-265-1 . 

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -47,7 +48,7 @@
 <http://syriaca.org/place/230> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/230> sp:place-type swds:place-type-230-1 . 
 swds:place-type-230-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-230-1 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:place-type-230-1 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> swdt:name-variant "Qenneshre"@en . 
 <http://syriaca.org/place/230> swdt:name-variant "Qenneshrin"@en . 
 <http://syriaca.org/place/230> swdt:name-variant "ܕܝܪܐ ܕܩܢܫܪܝܢ"@syr . 
@@ -58,48 +59,49 @@ swds:place-type-230-1 spr:reference-URL <http://syriaca.org/place/230> .
 <http://syriaca.org/place/230> swdt:name-variant "دير قنسري"@ar . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-1 . 
 swds:Place-230-1 sps:name-variant "Qenneshre"@en . 
-swds:Place-230-1 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-1 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-2 . 
 swds:Place-230-2 sps:name-variant "Qenneshrin"@en . 
-swds:Place-230-2 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-2 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-3 . 
 swds:Place-230-3 sps:name-variant "ܕܝܪܐ ܕܩܢܫܪܝܢ"@syr . 
-swds:Place-230-3 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-3 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-4 . 
 swds:Place-230-4 sps:name-variant "ܕܰܝܪܳܐ ܕܩܶܢܰܫܪܺܝܢ"@syr-Syrj . 
-swds:Place-230-4 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-4 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-5 . 
 swds:Place-230-5 sps:name-variant "دير قِنَسرين"@ar . 
-swds:Place-230-5 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-5 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-6 . 
 swds:Place-230-6 sps:name-variant "Qenneshrin Monastery"@en . 
-swds:Place-230-6 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-6 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-7 . 
 swds:Place-230-7 sps:name-variant "Monastery of Qenneshre"@en . 
-swds:Place-230-7 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:Place-230-7 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> sp:name-variant swds:Place-230-8 . 
 swds:Place-230-8 sps:name-variant "دير قنسري"@ar . 
-swds:Place-230-8 spr:reference-URL <http://syriaca.org/place/230> . 
-<http://syriaca.org/place/230> swdt:closeMatch "http://pleiades.stoa.org/places/658579" . 
+swds:Place-230-8 spr:reference-URL <http://syriaca.org/place/230.tei> . 
+<http://syriaca.org/place/230> swdt:closeMatch <http://pleiades.stoa.org/places/658579> . 
 <http://syriaca.org/place/230> sp:closeMatch swds:closeMatch-230-1 . 
-swds:closeMatch-230-1 sps:closeMatch "http://pleiades.stoa.org/places/658579" . 
-swds:closeMatch-230-1 spr:reference-URL <http://syriaca.org/place/230> . 
-<http://syriaca.org/place/230> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Qenneshre&sT=keywords" . 
+swds:closeMatch-230-1 sps:closeMatch <http://pleiades.stoa.org/places/658579> . 
+swds:closeMatch-230-1 spr:reference-URL <http://syriaca.org/place/230.tei> . 
+<http://syriaca.org/place/230> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Qenneshre&sT=keywords> . 
 <http://syriaca.org/place/230> sp:closeMatch swds:closeMatch-230-2 . 
-swds:closeMatch-230-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Qenneshre&sT=keywords" . 
-swds:closeMatch-230-2 spr:reference-URL <http://syriaca.org/place/230> . 
-<http://syriaca.org/place/230> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qenneshre&sT=keywords" . 
+swds:closeMatch-230-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=M&sK=Monastery of Qenneshre&sT=keywords> . 
+swds:closeMatch-230-2 spr:reference-URL <http://syriaca.org/place/230.tei> . 
+<http://syriaca.org/place/230> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qenneshre&sT=keywords> . 
 <http://syriaca.org/place/230> sp:closeMatch swds:closeMatch-230-3 . 
-swds:closeMatch-230-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qenneshre&sT=keywords" . 
-swds:closeMatch-230-3 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:closeMatch-230-3 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=Q&sK=Qenneshre&sT=keywords> . 
+swds:closeMatch-230-3 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> swdt:exist-from "0530"^^xsd:gYear . 
 <http://syriaca.org/place/230> sp:exist-from swds:exist-from-230-1 . 
 swds:exist-from-230-1 sps:exist-from "0530"^^xsd:gYear . 
-swds:exist-from-230-1 spr:reference-URL <http://syriaca.org/place/230> . 
+swds:exist-from-230-1 spr:reference-URL <http://syriaca.org/place/230.tei> . 
 <http://syriaca.org/place/230> swdt:exist-to "1200"^^xsd:gYear . 
 <http://syriaca.org/place/230> sp:exist-to swds:exist-to-230-1 . 
 swds:exist-to-230-1 sps:exist-to "1200"^^xsd:gYear . 
 swds:exist-to-230-1 spr:reference-URL <http://syriaca.org/place/230.tei> . 
-<http://syriaca.org/place/230> swdt:has-gps-coordinates "36.827426 38.034807" . 
-<http://syriaca.org/place/230> sp:has-gps-coordinates "36.827426 38.034807" . 
+<http://syriaca.org/place/230> swdt:has-gps-coordinates "36.827426 38.034807"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/230> sp:has-gps-coordinates swds:coordinates-230-1 . 
+<http://syriaca.org/place/230> swd:has-gps-coordinates "36.827426 38.034807"^^geosparql:wktLiteral . 
 swds:coordinates-230-1 spr:reference-URL <http://syriaca.org/place/230.tei> .

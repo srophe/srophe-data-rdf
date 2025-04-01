@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -40,7 +41,7 @@
 <http://syriaca.org/place/616> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/616> sp:place-type swds:place-type-616-1 . 
 swds:place-type-616-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-616-1 spr:reference-URL <http://syriaca.org/place/616> . 
+swds:place-type-616-1 spr:reference-URL <http://syriaca.org/place/616.tei> . 
 <http://syriaca.org/place/616> dcterms:relation <http://syriaca.org/place/262> . 
 <http://syriaca.org/place/616> dcterms:relation <http://syriaca.org/place/722> . 
 <http://syriaca.org/place/616> swdt:name-variant "Mqurtaya"@en . 
@@ -49,28 +50,28 @@ swds:place-type-616-1 spr:reference-URL <http://syriaca.org/place/616> .
 <http://syriaca.org/place/616> swdt:name-variant "Mqūrtāyā"@en . 
 <http://syriaca.org/place/616> sp:name-variant swds:Place-616-1 . 
 swds:Place-616-1 sps:name-variant "Mqurtaya"@en . 
-swds:Place-616-1 spr:reference-URL <http://syriaca.org/place/616> . 
+swds:Place-616-1 spr:reference-URL <http://syriaca.org/place/616.tei> . 
 <http://syriaca.org/place/616> sp:name-variant swds:Place-616-2 . 
 swds:Place-616-2 sps:name-variant "monastery of Mqurtaya"@en . 
-swds:Place-616-2 spr:reference-URL <http://syriaca.org/place/616> . 
+swds:Place-616-2 spr:reference-URL <http://syriaca.org/place/616.tei> . 
 <http://syriaca.org/place/616> sp:name-variant swds:Place-616-3 . 
 swds:Place-616-3 sps:name-variant "Mār Yōḥannān of Dailām"@en . 
-swds:Place-616-3 spr:reference-URL <http://syriaca.org/place/616> . 
+swds:Place-616-3 spr:reference-URL <http://syriaca.org/place/616.tei> . 
 <http://syriaca.org/place/616> sp:name-variant swds:Place-616-4 . 
 swds:Place-616-4 sps:name-variant "Mqūrtāyā"@en . 
-swds:Place-616-4 spr:reference-URL <http://syriaca.org/place/616> . 
-<http://syriaca.org/place/616> swdt:closeMatch "http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam" . 
+swds:Place-616-4 spr:reference-URL <http://syriaca.org/place/616.tei> . 
+<http://syriaca.org/place/616> swdt:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam> . 
 <http://syriaca.org/place/616> sp:closeMatch swds:closeMatch-616-1 . 
-swds:closeMatch-616-1 sps:closeMatch "http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam" . 
-swds:closeMatch-616-1 spr:reference-URL <http://syriaca.org/place/616> . 
-<http://syriaca.org/place/616> swdt:closeMatch "http://dbpedia.org/resource/Monastery_of_Saint_John_of_Dailam" . 
+swds:closeMatch-616-1 sps:closeMatch <http://en.wikipedia.org/wiki/Monastery_of_Saint_John_of_Dailam> . 
+swds:closeMatch-616-1 spr:reference-URL <http://syriaca.org/place/616.tei> . 
+<http://syriaca.org/place/616> swdt:closeMatch <http://dbpedia.org/resource/Monastery_of_Saint_John_of_Dailam> . 
 <http://syriaca.org/place/616> sp:closeMatch swds:closeMatch-616-2 . 
-swds:closeMatch-616-2 sps:closeMatch "http://dbpedia.org/resource/Monastery_of_Saint_John_of_Dailam" . 
-swds:closeMatch-616-2 spr:reference-URL <http://syriaca.org/place/616> . 
-<http://syriaca.org/place/616> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mqurtaya&sT=keywords" . 
+swds:closeMatch-616-2 sps:closeMatch <http://dbpedia.org/resource/Monastery_of_Saint_John_of_Dailam> . 
+swds:closeMatch-616-2 spr:reference-URL <http://syriaca.org/place/616.tei> . 
+<http://syriaca.org/place/616> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mqurtaya&sT=keywords> . 
 <http://syriaca.org/place/616> sp:closeMatch swds:closeMatch-616-3 . 
-swds:closeMatch-616-3 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mqurtaya&sT=keywords" . 
-swds:closeMatch-616-3 spr:reference-URL <http://syriaca.org/place/616> . 
+swds:closeMatch-616-3 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mqurtaya&sT=keywords> . 
+swds:closeMatch-616-3 spr:reference-URL <http://syriaca.org/place/616.tei> . 
 <http://syriaca.org/place/616> swdt:broader <http://syriaca.org/place/722> . 
 <http://syriaca.org/place/616> sp:broader swds:activeRelationbroader-616-11 . 
 swds:activeRelationbroader-616-11 swd:broader <http://syriaca.org/place/722> . 

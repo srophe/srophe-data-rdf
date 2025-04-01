@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/384> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/384> sp:place-type swds:place-type-384-1 . 
 swds:place-type-384-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-384-1 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:place-type-384-1 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> dcterms:relation <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/384> swdt:name-variant "Gawgal"@en . 
 <http://syriaca.org/place/384> swdt:name-variant "ܕܝܪܐ ܕܓܘܓܠ"@syr . 
@@ -62,64 +63,65 @@ swds:place-type-384-1 spr:reference-URL <http://syriaca.org/place/384> .
 <http://syriaca.org/place/384> swdt:name-variant "ʻGreat Monastery’"@en . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-1 . 
 swds:Place-384-1 sps:name-variant "Gawgal"@en . 
-swds:Place-384-1 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-1 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-2 . 
 swds:Place-384-2 sps:name-variant "ܕܝܪܐ ܕܓܘܓܠ"@syr . 
-swds:Place-384-2 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-2 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-3 . 
 swds:Place-384-3 sps:name-variant "ܕܰܝܪܐ ܕܓܘܓܠ"@syr-Syrj . 
-swds:Place-384-3 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-3 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-4 . 
 swds:Place-384-4 sps:name-variant "ܕܰܝܪܐ ܕܒܶܝܬ ܓܘܳܓܝ"@syr-Syrj . 
-swds:Place-384-4 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-4 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-5 . 
 swds:Place-384-5 sps:name-variant "ܕܰܝܪܳܐ ܕܐܰܒܪܗܡ ܟܰܫܟܳܪܝܐ"@syr-Syrj . 
-swds:Place-384-5 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-5 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-6 . 
 swds:Place-384-6 sps:name-variant "دير كوكل"@ar . 
-swds:Place-384-6 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-6 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-7 . 
 swds:Place-384-7 sps:name-variant "دير بيت كوكي"@ar . 
-swds:Place-384-7 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-7 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-8 . 
 swds:Place-384-8 sps:name-variant "دير ابرهيم الكشكري"@ar . 
-swds:Place-384-8 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-8 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-9 . 
 swds:Place-384-9 sps:name-variant "Gugel Monastery"@en . 
-swds:Place-384-9 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-9 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-10 . 
 swds:Place-384-10 sps:name-variant "Beth Gugi Monastery"@en . 
-swds:Place-384-10 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-10 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-11 . 
 swds:Place-384-11 sps:name-variant "Monastery of Abraham of Kashkar"@en . 
-swds:Place-384-11 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-11 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-12 . 
 swds:Place-384-12 sps:name-variant "Bet Gaugal"@en . 
-swds:Place-384-12 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-12 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-13 . 
 swds:Place-384-13 sps:name-variant "Mār Abraham of Kashkar"@en . 
-swds:Place-384-13 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:Place-384-13 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> sp:name-variant swds:Place-384-14 . 
 swds:Place-384-14 sps:name-variant "ʻGreat Monastery’"@en . 
-swds:Place-384-14 spr:reference-URL <http://syriaca.org/place/384> . 
-<http://syriaca.org/place/384> swdt:closeMatch "http://pleiades.stoa.org/places/874578" . 
+swds:Place-384-14 spr:reference-URL <http://syriaca.org/place/384.tei> . 
+<http://syriaca.org/place/384> swdt:closeMatch <http://pleiades.stoa.org/places/874578> . 
 <http://syriaca.org/place/384> sp:closeMatch swds:closeMatch-384-1 . 
-swds:closeMatch-384-1 sps:closeMatch "http://pleiades.stoa.org/places/874578" . 
-swds:closeMatch-384-1 spr:reference-URL <http://syriaca.org/place/384> . 
-<http://syriaca.org/place/384> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bet Gaugal&sT=keywords" . 
+swds:closeMatch-384-1 sps:closeMatch <http://pleiades.stoa.org/places/874578> . 
+swds:closeMatch-384-1 spr:reference-URL <http://syriaca.org/place/384.tei> . 
+<http://syriaca.org/place/384> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bet Gaugal&sT=keywords> . 
 <http://syriaca.org/place/384> sp:closeMatch swds:closeMatch-384-2 . 
-swds:closeMatch-384-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bet Gaugal&sT=keywords" . 
-swds:closeMatch-384-2 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:closeMatch-384-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=B&sK=Bet Gaugal&sT=keywords> . 
+swds:closeMatch-384-2 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> swdt:exist-from "0500"^^xsd:gYear . 
 <http://syriaca.org/place/384> sp:exist-from swds:exist-from-384-1 . 
 swds:exist-from-384-1 sps:exist-from "0500"^^xsd:gYear . 
-swds:exist-from-384-1 spr:reference-URL <http://syriaca.org/place/384> . 
+swds:exist-from-384-1 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> swdt:exist-to "1800"^^xsd:gYear . 
 <http://syriaca.org/place/384> sp:exist-to swds:exist-to-384-1 . 
 swds:exist-to-384-1 sps:exist-to "1800"^^xsd:gYear . 
 swds:exist-to-384-1 spr:reference-URL <http://syriaca.org/place/384.tei> . 
-<http://syriaca.org/place/384> swdt:has-gps-coordinates "37.211579 41.473406" . 
-<http://syriaca.org/place/384> sp:has-gps-coordinates "37.211579 41.473406" . 
+<http://syriaca.org/place/384> swdt:has-gps-coordinates "37.211579 41.473406"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/384> sp:has-gps-coordinates swds:coordinates-384-1 . 
+<http://syriaca.org/place/384> swd:has-gps-coordinates "37.211579 41.473406"^^geosparql:wktLiteral . 
 swds:coordinates-384-1 spr:reference-URL <http://syriaca.org/place/384.tei> . 
 <http://syriaca.org/place/384> swdt:broader <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/384> sp:broader swds:activeRelationbroader-384-11 . 

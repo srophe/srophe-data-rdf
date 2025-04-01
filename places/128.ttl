@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,7 +43,7 @@
 <http://syriaca.org/place/128> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/128> sp:place-type swds:place-type-128-1 . 
 swds:place-type-128-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-128-1 spr:reference-URL <http://syriaca.org/place/128> . 
+swds:place-type-128-1 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> dcterms:relation <http://syriaca.org/place/88> . 
 <http://syriaca.org/place/128> dcterms:relation <http://syriaca.org/place/712> . 
 <http://syriaca.org/place/128> swdt:name-variant "Mar Yoḥannan of Kamul"@en . 
@@ -51,34 +52,35 @@ swds:place-type-128-1 spr:reference-URL <http://syriaca.org/place/128> .
 <http://syriaca.org/place/128> swdt:name-variant "Kamūl"@en . 
 <http://syriaca.org/place/128> sp:name-variant swds:Place-128-1 . 
 swds:Place-128-1 sps:name-variant "Mar Yoḥannan of Kamul"@en . 
-swds:Place-128-1 spr:reference-URL <http://syriaca.org/place/128> . 
+swds:Place-128-1 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> sp:name-variant swds:Place-128-2 . 
 swds:Place-128-2 sps:name-variant "monastery of Mar Yohannan Qamulaya"@en . 
-swds:Place-128-2 spr:reference-URL <http://syriaca.org/place/128> . 
+swds:Place-128-2 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> sp:name-variant swds:Place-128-3 . 
 swds:Place-128-3 sps:name-variant "Mār Yōḥannān of Beṯ Garmaï and Ūkāmā"@en . 
-swds:Place-128-3 spr:reference-URL <http://syriaca.org/place/128> . 
+swds:Place-128-3 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> sp:name-variant swds:Place-128-4 . 
 swds:Place-128-4 sps:name-variant "Kamūl"@en . 
-swds:Place-128-4 spr:reference-URL <http://syriaca.org/place/128> . 
-<http://syriaca.org/place/128> swdt:closeMatch "http://pleiades.stoa.org/places/874536" . 
+swds:Place-128-4 spr:reference-URL <http://syriaca.org/place/128.tei> . 
+<http://syriaca.org/place/128> swdt:closeMatch <http://pleiades.stoa.org/places/874536> . 
 <http://syriaca.org/place/128> sp:closeMatch swds:closeMatch-128-1 . 
-swds:closeMatch-128-1 sps:closeMatch "http://pleiades.stoa.org/places/874536" . 
-swds:closeMatch-128-1 spr:reference-URL <http://syriaca.org/place/128> . 
-<http://syriaca.org/place/128> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Yohannan Qamulaya&sT=keywords" . 
+swds:closeMatch-128-1 sps:closeMatch <http://pleiades.stoa.org/places/874536> . 
+swds:closeMatch-128-1 spr:reference-URL <http://syriaca.org/place/128.tei> . 
+<http://syriaca.org/place/128> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Yohannan Qamulaya&sT=keywords> . 
 <http://syriaca.org/place/128> sp:closeMatch swds:closeMatch-128-2 . 
-swds:closeMatch-128-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Yohannan Qamulaya&sT=keywords" . 
-swds:closeMatch-128-2 spr:reference-URL <http://syriaca.org/place/128> . 
+swds:closeMatch-128-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Yohannan Qamulaya&sT=keywords> . 
+swds:closeMatch-128-2 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> swdt:exist-from "0700"^^xsd:gYear . 
 <http://syriaca.org/place/128> sp:exist-from swds:exist-from-128-1 . 
 swds:exist-from-128-1 sps:exist-from "0700"^^xsd:gYear . 
-swds:exist-from-128-1 spr:reference-URL <http://syriaca.org/place/128> . 
+swds:exist-from-128-1 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> swdt:exist-to "1200"^^xsd:gYear . 
 <http://syriaca.org/place/128> sp:exist-to swds:exist-to-128-1 . 
 swds:exist-to-128-1 sps:exist-to "1200"^^xsd:gYear . 
 swds:exist-to-128-1 spr:reference-URL <http://syriaca.org/place/128.tei> . 
-<http://syriaca.org/place/128> swdt:has-gps-coordinates "37.344308 42.404847" . 
-<http://syriaca.org/place/128> sp:has-gps-coordinates "37.344308 42.404847" . 
+<http://syriaca.org/place/128> swdt:has-gps-coordinates "37.344308 42.404847"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/128> sp:has-gps-coordinates swds:coordinates-128-1 . 
+<http://syriaca.org/place/128> swd:has-gps-coordinates "37.344308 42.404847"^^geosparql:wktLiteral . 
 swds:coordinates-128-1 spr:reference-URL <http://syriaca.org/place/128.tei> . 
 <http://syriaca.org/place/128> swdt:broader <http://syriaca.org/place/712> . 
 <http://syriaca.org/place/128> sp:broader swds:activeRelationbroader-128-11 . 

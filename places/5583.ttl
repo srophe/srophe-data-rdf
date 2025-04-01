@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/5583> swdt:place-type <http://syriaca.org/taxonomy/fortifications> . 
 <http://syriaca.org/place/5583> sp:place-type swds:place-type-5583-1 . 
 swds:place-type-5583-1 sps:place-type <http://syriaca.org/taxonomy/fortifications> . 
-swds:place-type-5583-1 spr:reference-URL <http://syriaca.org/place/5583> . 
+swds:place-type-5583-1 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
 <http://syriaca.org/place/5583> dcterms:relation <http://syriaca.org/place/576> . 
 <http://syriaca.org/place/5583> swdt:name-variant "Aphum"@en . 
 <http://syriaca.org/place/5583> swdt:name-variant "ܦܘܡ"@syr . 
@@ -53,26 +54,27 @@ swds:place-type-5583-1 spr:reference-URL <http://syriaca.org/place/5583> .
 <http://syriaca.org/place/5583> swdt:name-variant "ܦܘܡ"@syr . 
 <http://syriaca.org/place/5583> sp:name-variant swds:Place-5583-1 . 
 swds:Place-5583-1 sps:name-variant "Aphum"@en . 
-swds:Place-5583-1 spr:reference-URL <http://syriaca.org/place/5583> . 
+swds:Place-5583-1 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
 <http://syriaca.org/place/5583> sp:name-variant swds:Place-5583-2 . 
 swds:Place-5583-2 sps:name-variant "ܦܘܡ"@syr . 
-swds:Place-5583-2 spr:reference-URL <http://syriaca.org/place/5583> . 
+swds:Place-5583-2 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
 <http://syriaca.org/place/5583> sp:name-variant swds:Place-5583-3 . 
 swds:Place-5583-3 sps:name-variant "Aphum"@en . 
-swds:Place-5583-3 spr:reference-URL <http://syriaca.org/place/5583> . 
+swds:Place-5583-3 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
 <http://syriaca.org/place/5583> sp:name-variant swds:Place-5583-4 . 
 swds:Place-5583-4 sps:name-variant "ܦܘܡ"@syr . 
-swds:Place-5583-4 spr:reference-URL <http://syriaca.org/place/5583> . 
-<http://syriaca.org/place/5583> swdt:closeMatch "https://pleiades.stoa.org/places/874329" . 
+swds:Place-5583-4 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
+<http://syriaca.org/place/5583> swdt:closeMatch <https://pleiades.stoa.org/places/874329> . 
 <http://syriaca.org/place/5583> sp:closeMatch swds:closeMatch-5583-1 . 
-swds:closeMatch-5583-1 sps:closeMatch "https://pleiades.stoa.org/places/874329" . 
-swds:closeMatch-5583-1 spr:reference-URL <http://syriaca.org/place/5583> . 
-<http://syriaca.org/place/5583> swdt:closeMatch "https://en.wikipedia.org/wiki/Aphumon" . 
+swds:closeMatch-5583-1 sps:closeMatch <https://pleiades.stoa.org/places/874329> . 
+swds:closeMatch-5583-1 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
+<http://syriaca.org/place/5583> swdt:closeMatch <https://en.wikipedia.org/wiki/Aphumon> . 
 <http://syriaca.org/place/5583> sp:closeMatch swds:closeMatch-5583-2 . 
-swds:closeMatch-5583-2 sps:closeMatch "https://en.wikipedia.org/wiki/Aphumon" . 
-swds:closeMatch-5583-2 spr:reference-URL <http://syriaca.org/place/5583> . 
-<http://syriaca.org/place/5583> swdt:has-gps-coordinates "38.04186 41.453009" . 
-<http://syriaca.org/place/5583> sp:has-gps-coordinates "38.04186 41.453009" . 
+swds:closeMatch-5583-2 sps:closeMatch <https://en.wikipedia.org/wiki/Aphumon> . 
+swds:closeMatch-5583-2 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
+<http://syriaca.org/place/5583> swdt:has-gps-coordinates "38.04186 41.453009"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5583> sp:has-gps-coordinates swds:coordinates-5583-1 . 
+<http://syriaca.org/place/5583> swd:has-gps-coordinates "38.04186 41.453009"^^geosparql:wktLiteral . 
 swds:coordinates-5583-1 spr:reference-URL <http://syriaca.org/place/5583.tei> . 
 <http://syriaca.org/place/5583> swdt:broader <http://syriaca.org/place/576> . 
 <http://syriaca.org/place/5583> sp:broader swds:activeRelationbroader-5583-11 . 

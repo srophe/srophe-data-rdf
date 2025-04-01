@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -38,7 +39,7 @@
 <http://syriaca.org/place/2497> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/2497> sp:place-type swds:place-type-2497-1 . 
 swds:place-type-2497-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-2497-1 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:place-type-2497-1 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> dcterms:relation <http://syriaca.org/place/724> . 
 <http://syriaca.org/place/2497> swdt:name-variant "Mar Yaʿqob the Recluse"@en . 
 <http://syriaca.org/place/2497> swdt:name-variant "Mār Yaʿqōb the Recluse"@en . 
@@ -48,31 +49,31 @@ swds:place-type-2497-1 spr:reference-URL <http://syriaca.org/place/2497> .
 <http://syriaca.org/place/2497> swdt:name-variant "Mār Ya‘qōb the Recluse"@en-x-srp1 . 
 <http://syriaca.org/place/2497> sp:name-variant swds:Place-2497-1 . 
 swds:Place-2497-1 sps:name-variant "Mar Yaʿqob the Recluse"@en . 
-swds:Place-2497-1 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:Place-2497-1 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> sp:name-variant swds:Place-2497-2 . 
 swds:Place-2497-2 sps:name-variant "Mār Yaʿqōb the Recluse"@en . 
-swds:Place-2497-2 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:Place-2497-2 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> sp:name-variant swds:Place-2497-3 . 
 swds:Place-2497-3 sps:name-variant "Mar Yaqob the Recluse"@en-x-srp1 . 
-swds:Place-2497-3 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:Place-2497-3 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> sp:name-variant swds:Place-2497-4 . 
 swds:Place-2497-4 sps:name-variant "Mar Ya‘qob the Recluse"@en-x-srp1 . 
-swds:Place-2497-4 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:Place-2497-4 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> sp:name-variant swds:Place-2497-5 . 
 swds:Place-2497-5 sps:name-variant "Mār Yaqōb the Recluse"@en-x-srp1 . 
-swds:Place-2497-5 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:Place-2497-5 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> sp:name-variant swds:Place-2497-6 . 
 swds:Place-2497-6 sps:name-variant "Mār Ya‘qōb the Recluse"@en-x-srp1 . 
-swds:Place-2497-6 spr:reference-URL <http://syriaca.org/place/2497> . 
+swds:Place-2497-6 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
 <http://syriaca.org/place/2497> swdt:broader <http://syriaca.org/place/724> . 
 <http://syriaca.org/place/2497> sp:broader swds:activeRelationbroader-2497-11 . 
 swds:activeRelationbroader-2497-11 swd:broader <http://syriaca.org/place/724> . 
 swds:activeRelationbroader-2497-11 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
-<place/2497> swdt:share-a-name <> . 
-<place/2497> sp:share-a-name swds:activeRelationshare-a-name-2497-21 . 
-swds:activeRelationshare-a-name-2497-21 swd:share-a-name <> . 
+<http://syriaca.org/place/2497> swdt:share-a-name <http://syriaca.org/place/2117> . 
+<http://syriaca.org/place/2497> sp:share-a-name swds:activeRelationshare-a-name-2497-21 . 
+swds:activeRelationshare-a-name-2497-21 swd:share-a-name <http://syriaca.org/place/2117> . 
 swds:activeRelationshare-a-name-2497-21 spr:reference-URL <http://syriaca.org/place/2497.tei> . 
-<place/2117> swdt:share-a-name <> . 
-<place/2117> sp:share-a-name swds:activeRelationshare-a-name-2497-22 . 
-swds:activeRelationshare-a-name-2497-22 swd:share-a-name <> . 
+<http://syriaca.org/place/2117> swdt:share-a-name <http://syriaca.org/place/2497> . 
+<http://syriaca.org/place/2117> sp:share-a-name swds:activeRelationshare-a-name-2497-22 . 
+swds:activeRelationshare-a-name-2497-22 swd:share-a-name <http://syriaca.org/place/2497> . 
 swds:activeRelationshare-a-name-2497-22 spr:reference-URL <http://syriaca.org/place/2497.tei> .

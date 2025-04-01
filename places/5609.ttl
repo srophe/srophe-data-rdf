@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -46,7 +47,7 @@
 <http://syriaca.org/place/5609> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
 <http://syriaca.org/place/5609> sp:place-type swds:place-type-5609-1 . 
 swds:place-type-5609-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
-swds:place-type-5609-1 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:place-type-5609-1 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> dcterms:relation <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5609> swdt:name-variant "Hagia Sophia (Great Church)"@en . 
 <http://syriaca.org/place/5609> swdt:name-variant "ܥܕܬܐ ܪܒܬܐ"@syr . 
@@ -57,35 +58,36 @@ swds:place-type-5609-1 spr:reference-URL <http://syriaca.org/place/5609> .
 <http://syriaca.org/place/5609> swdt:name-variant "Hagia Sophia (Große Kirche)"@de . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-1 . 
 swds:Place-5609-1 sps:name-variant "Hagia Sophia (Great Church)"@en . 
-swds:Place-5609-1 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:Place-5609-1 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-2 . 
 swds:Place-5609-2 sps:name-variant "ܥܕܬܐ ܪܒܬܐ"@syr . 
-swds:Place-5609-2 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:Place-5609-2 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-3 . 
 swds:Place-5609-3 sps:name-variant "Hagia Sophia (Great Church)"@en . 
-swds:Place-5609-3 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:Place-5609-3 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-4 . 
 swds:Place-5609-4 sps:name-variant "ܥܕܬܐ ܪܒܬܐ"@syr . 
-swds:Place-5609-4 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:Place-5609-4 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-5 . 
 swds:Place-5609-5 sps:name-variant "ܥܕܬܐ"@syr . 
-swds:Place-5609-5 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:Place-5609-5 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-6 . 
 swds:Place-5609-6 sps:name-variant "Ἁγία Σοφία (μέγαλη ἐκκλησία)"@grc . 
-swds:Place-5609-6 spr:reference-URL <http://syriaca.org/place/5609> . 
+swds:Place-5609-6 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> sp:name-variant swds:Place-5609-7 . 
 swds:Place-5609-7 sps:name-variant "Hagia Sophia (Große Kirche)"@de . 
-swds:Place-5609-7 spr:reference-URL <http://syriaca.org/place/5609> . 
-<http://syriaca.org/place/5609> swdt:closeMatch "https://pleiades.stoa.org/places/307220778" . 
+swds:Place-5609-7 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
+<http://syriaca.org/place/5609> swdt:closeMatch <https://pleiades.stoa.org/places/307220778> . 
 <http://syriaca.org/place/5609> sp:closeMatch swds:closeMatch-5609-1 . 
-swds:closeMatch-5609-1 sps:closeMatch "https://pleiades.stoa.org/places/307220778" . 
-swds:closeMatch-5609-1 spr:reference-URL <http://syriaca.org/place/5609> . 
-<http://syriaca.org/place/5609> swdt:closeMatch "https://en.wikipedia.org/wiki/Great_Church" . 
+swds:closeMatch-5609-1 sps:closeMatch <https://pleiades.stoa.org/places/307220778> . 
+swds:closeMatch-5609-1 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
+<http://syriaca.org/place/5609> swdt:closeMatch <https://en.wikipedia.org/wiki/Great_Church> . 
 <http://syriaca.org/place/5609> sp:closeMatch swds:closeMatch-5609-2 . 
-swds:closeMatch-5609-2 sps:closeMatch "https://en.wikipedia.org/wiki/Great_Church" . 
-swds:closeMatch-5609-2 spr:reference-URL <http://syriaca.org/place/5609> . 
-<http://syriaca.org/place/5609> swdt:has-gps-coordinates "41.008548 28.979938" . 
-<http://syriaca.org/place/5609> sp:has-gps-coordinates "41.008548 28.979938" . 
+swds:closeMatch-5609-2 sps:closeMatch <https://en.wikipedia.org/wiki/Great_Church> . 
+swds:closeMatch-5609-2 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
+<http://syriaca.org/place/5609> swdt:has-gps-coordinates "41.008548 28.979938"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5609> sp:has-gps-coordinates swds:coordinates-5609-1 . 
+<http://syriaca.org/place/5609> swd:has-gps-coordinates "41.008548 28.979938"^^geosparql:wktLiteral . 
 swds:coordinates-5609-1 spr:reference-URL <http://syriaca.org/place/5609.tei> . 
 <http://syriaca.org/place/5609> swdt:broader <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5609> sp:broader swds:activeRelationbroader-5609-11 . 

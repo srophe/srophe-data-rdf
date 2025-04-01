@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,28 +42,29 @@
 <http://syriaca.org/place/2973> swdt:place-type <http://syriaca.org/taxonomy/regions> . 
 <http://syriaca.org/place/2973> sp:place-type swds:place-type-2973-1 . 
 swds:place-type-2973-1 sps:place-type <http://syriaca.org/taxonomy/regions> . 
-swds:place-type-2973-1 spr:reference-URL <http://syriaca.org/place/2973> . 
+swds:place-type-2973-1 spr:reference-URL <http://syriaca.org/place/2973.tei> . 
 <http://syriaca.org/place/2973> dcterms:relation <http://syriaca.org/place/2974> . 
 <http://syriaca.org/place/2973> swdt:name-variant "Māsabadhān"@en . 
 <http://syriaca.org/place/2973> swdt:name-variant "ماسبذان"@ar . 
 <http://syriaca.org/place/2973> sp:name-variant swds:Place-2973-1 . 
 swds:Place-2973-1 sps:name-variant "Māsabadhān"@en . 
-swds:Place-2973-1 spr:reference-URL <http://syriaca.org/place/2973> . 
+swds:Place-2973-1 spr:reference-URL <http://syriaca.org/place/2973.tei> . 
 <http://syriaca.org/place/2973> sp:name-variant swds:Place-2973-2 . 
 swds:Place-2973-2 sps:name-variant "ماسبذان"@ar . 
-swds:Place-2973-2 spr:reference-URL <http://syriaca.org/place/2973> . 
-<http://syriaca.org/place/2973> swdt:closeMatch "https://pleiades.stoa.org/places/903079" . 
+swds:Place-2973-2 spr:reference-URL <http://syriaca.org/place/2973.tei> . 
+<http://syriaca.org/place/2973> swdt:closeMatch <https://pleiades.stoa.org/places/903079> . 
 <http://syriaca.org/place/2973> sp:closeMatch swds:closeMatch-2973-1 . 
-swds:closeMatch-2973-1 sps:closeMatch "https://pleiades.stoa.org/places/903079" . 
-swds:closeMatch-2973-1 spr:reference-URL <http://syriaca.org/place/2973> . 
+swds:closeMatch-2973-1 sps:closeMatch <https://pleiades.stoa.org/places/903079> . 
+swds:closeMatch-2973-1 spr:reference-URL <http://syriaca.org/place/2973.tei> . 
 <http://syriaca.org/place/2973> swdt:exist-from "0891"^^xsd:gYear . 
 <http://syriaca.org/place/2973> sp:exist-from swds:exist-from-2973-1 . 
 swds:exist-from-2973-1 sps:exist-from "0891"^^xsd:gYear . 
-swds:exist-from-2973-1 spr:reference-URL <http://syriaca.org/place/2973> . 
+swds:exist-from-2973-1 spr:reference-URL <http://syriaca.org/place/2973.tei> . 
 <http://syriaca.org/place/2973> swdt:exist-to "0891"^^xsd:gYear . 
 <http://syriaca.org/place/2973> sp:exist-to swds:exist-to-2973-1 . 
 swds:exist-to-2973-1 sps:exist-to "0891"^^xsd:gYear . 
 swds:exist-to-2973-1 spr:reference-URL <http://syriaca.org/place/2973.tei> . 
-<http://syriaca.org/place/2973> swdt:has-gps-coordinates "33.5 46.5" . 
-<http://syriaca.org/place/2973> sp:has-gps-coordinates "33.5 46.5" . 
+<http://syriaca.org/place/2973> swdt:has-gps-coordinates "33.5 46.5"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2973> sp:has-gps-coordinates swds:coordinates-2973-1 . 
+<http://syriaca.org/place/2973> swd:has-gps-coordinates "33.5 46.5"^^geosparql:wktLiteral . 
 swds:coordinates-2973-1 spr:reference-URL <http://syriaca.org/place/2973.tei> .

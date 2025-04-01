@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -67,9 +68,9 @@ swds:Person-30-6 spr:reference-URL <http://syriaca.org/person/30.tei> .
 <http://syriaca.org/person/30> sp:name-variant swds:Person-30-7 . 
 swds:Person-30-7 sps:name-variant "Samuel, the priest"@en . 
 swds:Person-30-7 spr:reference-URL <http://syriaca.org/person/30.tei> . 
-<http://syriaca.org/person/30> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_30" . 
+<http://syriaca.org/person/30> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_30> . 
 <http://syriaca.org/person/30> sp:closeMatch swds:closeMatch-30-1 . 
-swds:closeMatch-30-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_30" . 
+swds:closeMatch-30-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_30> . 
 swds:closeMatch-30-1 spr:reference-URL <http://syriaca.org/person/30.tei> . 
 <http://syriaca.org/person/30> swdt:floruit-when "0467"^^xsd:gYear . 
 <http://syriaca.org/person/30> sp:floruit-when swds:floruit-when-30-1 . 

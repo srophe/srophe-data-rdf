@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,28 +42,29 @@
 <http://syriaca.org/place/2877> swdt:place-type <http://syriaca.org/taxonomy/dioceses> . 
 <http://syriaca.org/place/2877> sp:place-type swds:place-type-2877-1 . 
 swds:place-type-2877-1 sps:place-type <http://syriaca.org/taxonomy/dioceses> . 
-swds:place-type-2877-1 spr:reference-URL <http://syriaca.org/place/2877> . 
+swds:place-type-2877-1 spr:reference-URL <http://syriaca.org/place/2877.tei> . 
 <http://syriaca.org/place/2877> dcterms:relation <http://syriaca.org/place/716> . 
 <http://syriaca.org/place/2877> swdt:name-variant "Hagar"@en . 
 <http://syriaca.org/place/2877> swdt:name-variant "هَجَر"@ar . 
 <http://syriaca.org/place/2877> swdt:name-variant "ܗܓܪ"@syr . 
 <http://syriaca.org/place/2877> sp:name-variant swds:Place-2877-1 . 
 swds:Place-2877-1 sps:name-variant "Hagar"@en . 
-swds:Place-2877-1 spr:reference-URL <http://syriaca.org/place/2877> . 
+swds:Place-2877-1 spr:reference-URL <http://syriaca.org/place/2877.tei> . 
 <http://syriaca.org/place/2877> sp:name-variant swds:Place-2877-2 . 
 swds:Place-2877-2 sps:name-variant "هَجَر"@ar . 
-swds:Place-2877-2 spr:reference-URL <http://syriaca.org/place/2877> . 
+swds:Place-2877-2 spr:reference-URL <http://syriaca.org/place/2877.tei> . 
 <http://syriaca.org/place/2877> sp:name-variant swds:Place-2877-3 . 
 swds:Place-2877-3 sps:name-variant "ܗܓܪ"@syr . 
-swds:Place-2877-3 spr:reference-URL <http://syriaca.org/place/2877> . 
+swds:Place-2877-3 spr:reference-URL <http://syriaca.org/place/2877.tei> . 
 <http://syriaca.org/place/2877> swdt:exist-from "0676"^^xsd:gYear . 
 <http://syriaca.org/place/2877> sp:exist-from swds:exist-from-2877-1 . 
 swds:exist-from-2877-1 sps:exist-from "0676"^^xsd:gYear . 
-swds:exist-from-2877-1 spr:reference-URL <http://syriaca.org/place/2877> . 
+swds:exist-from-2877-1 spr:reference-URL <http://syriaca.org/place/2877.tei> . 
 <http://syriaca.org/place/2877> swdt:exist-to "0676"^^xsd:gYear . 
 <http://syriaca.org/place/2877> sp:exist-to swds:exist-to-2877-1 . 
 swds:exist-to-2877-1 sps:exist-to "0676"^^xsd:gYear . 
 swds:exist-to-2877-1 spr:reference-URL <http://syriaca.org/place/2877.tei> . 
-<http://syriaca.org/place/2877> swdt:has-gps-coordinates "26.877823 48.726603" . 
-<http://syriaca.org/place/2877> sp:has-gps-coordinates "26.877823 48.726603" . 
+<http://syriaca.org/place/2877> swdt:has-gps-coordinates "26.877823 48.726603"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2877> sp:has-gps-coordinates swds:coordinates-2877-1 . 
+<http://syriaca.org/place/2877> swd:has-gps-coordinates "26.877823 48.726603"^^geosparql:wktLiteral . 
 swds:coordinates-2877-1 spr:reference-URL <http://syriaca.org/place/2877.tei> .

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -48,7 +49,7 @@
 <http://syriaca.org/place/172> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/172> sp:place-type swds:place-type-172-1 . 
 swds:place-type-172-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-172-1 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:place-type-172-1 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> dcterms:relation <http://syriaca.org/place/1654> . 
 <http://syriaca.org/place/172> swdt:name-variant "Reshʿayna"@en . 
 <http://syriaca.org/place/172> swdt:name-variant "Theodosiopolis"@en . 
@@ -78,110 +79,111 @@ swds:place-type-172-1 spr:reference-URL <http://syriaca.org/place/172> .
 <http://syriaca.org/place/172> swdt:name-variant "ܪܝܫܥܝܢܐ"@syr . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-1 . 
 swds:Place-172-1 sps:name-variant "Reshʿayna"@en . 
-swds:Place-172-1 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-1 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-2 . 
 swds:Place-172-2 sps:name-variant "Theodosiopolis"@en . 
-swds:Place-172-2 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-2 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-3 . 
 swds:Place-172-3 sps:name-variant "Raʾs al-ʿAyn"@en . 
-swds:Place-172-3 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-3 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-4 . 
 swds:Place-172-4 sps:name-variant "Ceylanpınar"@en . 
-swds:Place-172-4 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-4 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-5 . 
 swds:Place-172-5 sps:name-variant "Resülayn"@en . 
-swds:Place-172-5 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-5 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-6 . 
 swds:Place-172-6 sps:name-variant "ܪܝܫ ܥܝܢܐ"@syr . 
-swds:Place-172-6 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-6 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-7 . 
 swds:Place-172-7 sps:name-variant "ܪܝܺܫ ܥܰܝܢܳܐ"@syr-Syrj . 
-swds:Place-172-7 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-7 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-8 . 
 swds:Place-172-8 sps:name-variant "رأس عين"@ar . 
-swds:Place-172-8 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-8 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-9 . 
 swds:Place-172-9 sps:name-variant "Rish ʿAyna"@en . 
-swds:Place-172-9 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-9 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-10 . 
 swds:Place-172-10 sps:name-variant "رأس العين"@ar . 
-swds:Place-172-10 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-10 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-11 . 
 swds:Place-172-11 sps:name-variant "Reshayna"@en-x-srp1 . 
-swds:Place-172-11 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-11 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-12 . 
 swds:Place-172-12 sps:name-variant "Resh‘ayna"@en-x-srp1 . 
-swds:Place-172-12 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-12 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-13 . 
 swds:Place-172-13 sps:name-variant "Raʾs al-Ayn"@en-x-srp1 . 
-swds:Place-172-13 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-13 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-14 . 
 swds:Place-172-14 sps:name-variant "Raʾs al-‘Ayn"@en-x-srp1 . 
-swds:Place-172-14 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-14 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-15 . 
 swds:Place-172-15 sps:name-variant "Rish Ayna"@en-x-srp1 . 
-swds:Place-172-15 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-15 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-16 . 
 swds:Place-172-16 sps:name-variant "Rish ‘Ayna"@en-x-srp1 . 
-swds:Place-172-16 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-16 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-17 . 
 swds:Place-172-17 sps:name-variant "Resh Ayna"@en-x-srp1 . 
-swds:Place-172-17 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-17 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-18 . 
 swds:Place-172-18 sps:name-variant "Resh ‘Ayna"@en-x-srp1 . 
-swds:Place-172-18 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-18 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-19 . 
 swds:Place-172-19 sps:name-variant "Raʾs al-Ayn"@en-x-srp1 . 
-swds:Place-172-19 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-19 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-20 . 
 swds:Place-172-20 sps:name-variant "Raʾs al-’Ayn"@en-x-srp1 . 
-swds:Place-172-20 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-20 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-21 . 
 swds:Place-172-21 sps:name-variant "Raʾs al-Ayn"@en-x-srp1 . 
-swds:Place-172-21 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-21 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-22 . 
 swds:Place-172-22 sps:name-variant "Raʾs al-Ayn"@en-x-srp1 . 
-swds:Place-172-22 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-22 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-23 . 
 swds:Place-172-23 sps:name-variant "Raʾs al-‘Ayn"@en-x-srp1 . 
-swds:Place-172-23 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-23 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-24 . 
 swds:Place-172-24 sps:name-variant "Raʾs al-‘Ayn"@en-x-srp1 . 
-swds:Place-172-24 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-24 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-25 . 
 swds:Place-172-25 sps:name-variant "Resh'aina"@en . 
-swds:Place-172-25 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:Place-172-25 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> sp:name-variant swds:Place-172-26 . 
 swds:Place-172-26 sps:name-variant "ܪܝܫܥܝܢܐ"@syr . 
-swds:Place-172-26 spr:reference-URL <http://syriaca.org/place/172> . 
-<http://syriaca.org/place/172> swdt:closeMatch "http://pleiades.stoa.org/places/874662" . 
+swds:Place-172-26 spr:reference-URL <http://syriaca.org/place/172.tei> . 
+<http://syriaca.org/place/172> swdt:closeMatch <http://pleiades.stoa.org/places/874662> . 
 <http://syriaca.org/place/172> sp:closeMatch swds:closeMatch-172-1 . 
-swds:closeMatch-172-1 sps:closeMatch "http://pleiades.stoa.org/places/874662" . 
-swds:closeMatch-172-1 spr:reference-URL <http://syriaca.org/place/172> . 
-<http://syriaca.org/place/172> swdt:closeMatch "http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria" . 
+swds:closeMatch-172-1 sps:closeMatch <http://pleiades.stoa.org/places/874662> . 
+swds:closeMatch-172-1 spr:reference-URL <http://syriaca.org/place/172.tei> . 
+<http://syriaca.org/place/172> swdt:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria> . 
 <http://syriaca.org/place/172> sp:closeMatch swds:closeMatch-172-2 . 
-swds:closeMatch-172-2 sps:closeMatch "http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria" . 
-swds:closeMatch-172-2 spr:reference-URL <http://syriaca.org/place/172> . 
-<http://syriaca.org/place/172> swdt:closeMatch "http://dbpedia.org/resource/Ras_al-Ayn,_Syria" . 
+swds:closeMatch-172-2 sps:closeMatch <http://en.wikipedia.org/wiki/Ras_al-Ayn,_Syria> . 
+swds:closeMatch-172-2 spr:reference-URL <http://syriaca.org/place/172.tei> . 
+<http://syriaca.org/place/172> swdt:closeMatch <http://dbpedia.org/resource/Ras_al-Ayn,_Syria> . 
 <http://syriaca.org/place/172> sp:closeMatch swds:closeMatch-172-3 . 
-swds:closeMatch-172-3 sps:closeMatch "http://dbpedia.org/resource/Ras_al-Ayn,_Syria" . 
-swds:closeMatch-172-3 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:closeMatch-172-3 sps:closeMatch <http://dbpedia.org/resource/Ras_al-Ayn,_Syria> . 
+swds:closeMatch-172-3 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> swdt:exist-from "0688"^^xsd:gYear . 
 <http://syriaca.org/place/172> sp:exist-from swds:exist-from-172-1 . 
 swds:exist-from-172-1 sps:exist-from "0688"^^xsd:gYear . 
-swds:exist-from-172-1 spr:reference-URL <http://syriaca.org/place/172> . 
+swds:exist-from-172-1 spr:reference-URL <http://syriaca.org/place/172.tei> . 
 <http://syriaca.org/place/172> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/172> sp:exist-to swds:exist-to-172-1 . 
 swds:exist-to-172-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-172-1 spr:reference-URL <http://syriaca.org/place/172.tei> . 
-<http://syriaca.org/place/172> swdt:has-gps-coordinates "36.82584 40.04962" . 
-<http://syriaca.org/place/172> sp:has-gps-coordinates "36.82584 40.04962" . 
+<http://syriaca.org/place/172> swdt:has-gps-coordinates "36.82584 40.04962"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/172> sp:has-gps-coordinates swds:coordinates-172-1 . 
+<http://syriaca.org/place/172> swd:has-gps-coordinates "36.82584 40.04962"^^geosparql:wktLiteral . 
 swds:coordinates-172-1 spr:reference-URL <http://syriaca.org/place/172.tei> . 
-<place/172> swdt:not-to-be-confused-with <> . 
-<place/172> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-172-11 . 
-swds:activeRelationnot-to-be-confused-with-172-11 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/172> swdt:not-to-be-confused-with <http://syriaca.org/place/1654> . 
+<http://syriaca.org/place/172> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-172-11 . 
+swds:activeRelationnot-to-be-confused-with-172-11 swd:not-to-be-confused-with <http://syriaca.org/place/1654> . 
 swds:activeRelationnot-to-be-confused-with-172-11 spr:reference-URL <http://syriaca.org/place/172.tei> . 
-<place/1654> swdt:not-to-be-confused-with <> . 
-<place/1654> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-172-12 . 
-swds:activeRelationnot-to-be-confused-with-172-12 swd:not-to-be-confused-with <> . 
+<http://syriaca.org/place/1654> swdt:not-to-be-confused-with <http://syriaca.org/place/172> . 
+<http://syriaca.org/place/1654> sp:not-to-be-confused-with swds:activeRelationnot-to-be-confused-with-172-12 . 
+swds:activeRelationnot-to-be-confused-with-172-12 swd:not-to-be-confused-with <http://syriaca.org/place/172> . 
 swds:activeRelationnot-to-be-confused-with-172-12 spr:reference-URL <http://syriaca.org/place/172.tei> .

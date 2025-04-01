@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,31 +45,32 @@
 <http://syriaca.org/place/5574> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/5574> sp:place-type swds:place-type-5574-1 . 
 swds:place-type-5574-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-5574-1 spr:reference-URL <http://syriaca.org/place/5574> . 
+swds:place-type-5574-1 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
 <http://syriaca.org/place/5574> swdt:name-variant "Tell Beshme"@en . 
 <http://syriaca.org/place/5574> swdt:name-variant "ܬܠܒܫܡܐ"@syr . 
 <http://syriaca.org/place/5574> swdt:name-variant "ܬܠܒܫܡܝܐ"@syr . 
 <http://syriaca.org/place/5574> sp:name-variant swds:Place-5574-1 . 
 swds:Place-5574-1 sps:name-variant "Tell Beshme"@en . 
-swds:Place-5574-1 spr:reference-URL <http://syriaca.org/place/5574> . 
+swds:Place-5574-1 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
 <http://syriaca.org/place/5574> sp:name-variant swds:Place-5574-2 . 
 swds:Place-5574-2 sps:name-variant "ܬܠܒܫܡܐ"@syr . 
-swds:Place-5574-2 spr:reference-URL <http://syriaca.org/place/5574> . 
+swds:Place-5574-2 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
 <http://syriaca.org/place/5574> sp:name-variant swds:Place-5574-3 . 
 swds:Place-5574-3 sps:name-variant "ܬܠܒܫܡܝܐ"@syr . 
-swds:Place-5574-3 spr:reference-URL <http://syriaca.org/place/5574> . 
-<http://syriaca.org/place/5574> swdt:closeMatch "https://pleiades.stoa.org/places/874768" . 
+swds:Place-5574-3 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
+<http://syriaca.org/place/5574> swdt:closeMatch <https://pleiades.stoa.org/places/874768> . 
 <http://syriaca.org/place/5574> sp:closeMatch swds:closeMatch-5574-1 . 
-swds:closeMatch-5574-1 sps:closeMatch "https://pleiades.stoa.org/places/874768" . 
-swds:closeMatch-5574-1 spr:reference-URL <http://syriaca.org/place/5574> . 
-<http://syriaca.org/place/5574> swdt:has-gps-coordinates "37.329794 40.25866" . 
-<http://syriaca.org/place/5574> sp:has-gps-coordinates "37.329794 40.25866" . 
+swds:closeMatch-5574-1 sps:closeMatch <https://pleiades.stoa.org/places/874768> . 
+swds:closeMatch-5574-1 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
+<http://syriaca.org/place/5574> swdt:has-gps-coordinates "37.329794 40.25866"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5574> sp:has-gps-coordinates swds:coordinates-5574-1 . 
+<http://syriaca.org/place/5574> swd:has-gps-coordinates "37.329794 40.25866"^^geosparql:wktLiteral . 
 swds:coordinates-5574-1 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
-<place/5574> swdt:share-a-name <> . 
-<place/5574> sp:share-a-name swds:activeRelationshare-a-name-5574-11 . 
-swds:activeRelationshare-a-name-5574-11 swd:share-a-name <> . 
+<http://syriaca.org/place/5574> swdt:share-a-name <http://syriaca.org/place/312> . 
+<http://syriaca.org/place/5574> sp:share-a-name swds:activeRelationshare-a-name-5574-11 . 
+swds:activeRelationshare-a-name-5574-11 swd:share-a-name <http://syriaca.org/place/312> . 
 swds:activeRelationshare-a-name-5574-11 spr:reference-URL <http://syriaca.org/place/5574.tei> . 
-<place/312> swdt:share-a-name <> . 
-<place/312> sp:share-a-name swds:activeRelationshare-a-name-5574-12 . 
-swds:activeRelationshare-a-name-5574-12 swd:share-a-name <> . 
+<http://syriaca.org/place/312> swdt:share-a-name <http://syriaca.org/place/5574> . 
+<http://syriaca.org/place/312> sp:share-a-name swds:activeRelationshare-a-name-5574-12 . 
+swds:activeRelationshare-a-name-5574-12 swd:share-a-name <http://syriaca.org/place/5574> . 
 swds:activeRelationshare-a-name-5574-12 spr:reference-URL <http://syriaca.org/place/5574.tei> .

@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -43,7 +44,7 @@
 <http://syriaca.org/place/391> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/391> sp:place-type swds:place-type-391-1 . 
 swds:place-type-391-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-391-1 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:place-type-391-1 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> dcterms:relation <http://syriaca.org/place/42> . 
 <http://syriaca.org/place/391> swdt:name-variant "Dayr al-Muʿallaq"@en . 
 <http://syriaca.org/place/391> swdt:name-variant "ܕܝܪܐ ܕܡܥܠܩ"@syr . 
@@ -59,44 +60,44 @@ swds:place-type-391-1 spr:reference-URL <http://syriaca.org/place/391> .
 <http://syriaca.org/place/391> swdt:name-variant "Mu‘allaq Monastery"@en-x-srp1 . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-1 . 
 swds:Place-391-1 sps:name-variant "Dayr al-Muʿallaq"@en . 
-swds:Place-391-1 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-1 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-2 . 
 swds:Place-391-2 sps:name-variant "ܕܝܪܐ ܕܡܥܠܩ"@syr . 
-swds:Place-391-2 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-2 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-3 . 
 swds:Place-391-3 sps:name-variant "ܕܰܝܪܳܐ ܕܡܥܠܩ"@syr-Syrj . 
-swds:Place-391-3 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-3 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-4 . 
 swds:Place-391-4 sps:name-variant "ܕܰܝܪܳܐ ܕܡܳܪܝ ܣܰܪܓܝܣ"@syr-Syrj . 
-swds:Place-391-4 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-4 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-5 . 
 swds:Place-391-5 sps:name-variant "دير المعلق"@ar . 
-swds:Place-391-5 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-5 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-6 . 
 swds:Place-391-6 sps:name-variant "دير مار سرجيس"@ar . 
-swds:Place-391-6 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-6 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-7 . 
 swds:Place-391-7 sps:name-variant "Muʿallaq Monastery"@en . 
-swds:Place-391-7 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-7 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-8 . 
 swds:Place-391-8 sps:name-variant "St. Sergius Monastery"@en . 
-swds:Place-391-8 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-8 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-9 . 
 swds:Place-391-9 sps:name-variant "Dayr al-Muallaq"@en-x-srp1 . 
-swds:Place-391-9 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-9 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-10 . 
 swds:Place-391-10 sps:name-variant "Dayr al-Mu‘allaq"@en-x-srp1 . 
-swds:Place-391-10 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-10 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-11 . 
 swds:Place-391-11 sps:name-variant "Muallaq Monastery"@en-x-srp1 . 
-swds:Place-391-11 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-11 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> sp:name-variant swds:Place-391-12 . 
 swds:Place-391-12 sps:name-variant "Mu‘allaq Monastery"@en-x-srp1 . 
-swds:Place-391-12 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:Place-391-12 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> swdt:exist-from "0500"^^xsd:gYear . 
 <http://syriaca.org/place/391> sp:exist-from swds:exist-from-391-1 . 
 swds:exist-from-391-1 sps:exist-from "0500"^^xsd:gYear . 
-swds:exist-from-391-1 spr:reference-URL <http://syriaca.org/place/391> . 
+swds:exist-from-391-1 spr:reference-URL <http://syriaca.org/place/391.tei> . 
 <http://syriaca.org/place/391> swdt:exist-to "1345"^^xsd:gYear . 
 <http://syriaca.org/place/391> sp:exist-to swds:exist-to-391-1 . 
 swds:exist-to-391-1 sps:exist-to "1345"^^xsd:gYear . 

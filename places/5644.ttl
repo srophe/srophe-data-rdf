@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/5644> swdt:place-type <http://syriaca.org/taxonomy/regions> . 
 <http://syriaca.org/place/5644> sp:place-type swds:place-type-5644-1 . 
 swds:place-type-5644-1 sps:place-type <http://syriaca.org/taxonomy/regions> . 
-swds:place-type-5644-1 spr:reference-URL <http://syriaca.org/place/5644> . 
+swds:place-type-5644-1 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
 <http://syriaca.org/place/5644> dcterms:relation <http://syriaca.org/place/576> . 
 <http://syriaca.org/place/5644> swdt:name-variant "Sophanene"@en . 
 <http://syriaca.org/place/5644> swdt:name-variant "ܒܝܬ ܨܘ̈ܦܢܝܐ"@syr . 
@@ -52,22 +53,23 @@ swds:place-type-5644-1 spr:reference-URL <http://syriaca.org/place/5644> .
 <http://syriaca.org/place/5644> swdt:name-variant "ܒܝܬ ܨܘ̈ܦܢܝܐ"@syr . 
 <http://syriaca.org/place/5644> sp:name-variant swds:Place-5644-1 . 
 swds:Place-5644-1 sps:name-variant "Sophanene"@en . 
-swds:Place-5644-1 spr:reference-URL <http://syriaca.org/place/5644> . 
+swds:Place-5644-1 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
 <http://syriaca.org/place/5644> sp:name-variant swds:Place-5644-2 . 
 swds:Place-5644-2 sps:name-variant "ܒܝܬ ܨܘ̈ܦܢܝܐ"@syr . 
-swds:Place-5644-2 spr:reference-URL <http://syriaca.org/place/5644> . 
+swds:Place-5644-2 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
 <http://syriaca.org/place/5644> sp:name-variant swds:Place-5644-3 . 
 swds:Place-5644-3 sps:name-variant "Sophanene"@en . 
-swds:Place-5644-3 spr:reference-URL <http://syriaca.org/place/5644> . 
+swds:Place-5644-3 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
 <http://syriaca.org/place/5644> sp:name-variant swds:Place-5644-4 . 
 swds:Place-5644-4 sps:name-variant "ܒܝܬ ܨܘ̈ܦܢܝܐ"@syr . 
-swds:Place-5644-4 spr:reference-URL <http://syriaca.org/place/5644> . 
-<http://syriaca.org/place/5644> swdt:closeMatch "https://pleiades.stoa.org/places/874706" . 
+swds:Place-5644-4 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
+<http://syriaca.org/place/5644> swdt:closeMatch <https://pleiades.stoa.org/places/874706> . 
 <http://syriaca.org/place/5644> sp:closeMatch swds:closeMatch-5644-1 . 
-swds:closeMatch-5644-1 sps:closeMatch "https://pleiades.stoa.org/places/874706" . 
-swds:closeMatch-5644-1 spr:reference-URL <http://syriaca.org/place/5644> . 
-<http://syriaca.org/place/5644> swdt:has-gps-coordinates "37.85837 40.866752" . 
-<http://syriaca.org/place/5644> sp:has-gps-coordinates "37.85837 40.866752" . 
+swds:closeMatch-5644-1 sps:closeMatch <https://pleiades.stoa.org/places/874706> . 
+swds:closeMatch-5644-1 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
+<http://syriaca.org/place/5644> swdt:has-gps-coordinates "37.85837 40.866752"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5644> sp:has-gps-coordinates swds:coordinates-5644-1 . 
+<http://syriaca.org/place/5644> swd:has-gps-coordinates "37.85837 40.866752"^^geosparql:wktLiteral . 
 swds:coordinates-5644-1 spr:reference-URL <http://syriaca.org/place/5644.tei> . 
 <http://syriaca.org/place/5644> swdt:broader <http://syriaca.org/place/576> . 
 <http://syriaca.org/place/5644> sp:broader swds:activeRelationbroader-5644-11 . 

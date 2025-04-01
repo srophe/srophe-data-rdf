@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -47,7 +48,7 @@
 <http://syriaca.org/place/5607> swdt:place-type <http://syriaca.org/taxonomy/buildings> . 
 <http://syriaca.org/place/5607> sp:place-type swds:place-type-5607-1 . 
 swds:place-type-5607-1 sps:place-type <http://syriaca.org/taxonomy/buildings> . 
-swds:place-type-5607-1 spr:reference-URL <http://syriaca.org/place/5607> . 
+swds:place-type-5607-1 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> dcterms:relation <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5607> swdt:name-variant "Great Palace of Constantinople"@en . 
 <http://syriaca.org/place/5607> swdt:name-variant "ܦܠܛܝܢ"@syr . 
@@ -57,32 +58,33 @@ swds:place-type-5607-1 spr:reference-URL <http://syriaca.org/place/5607> .
 <http://syriaca.org/place/5607> swdt:name-variant "Großer Palast"@de . 
 <http://syriaca.org/place/5607> sp:name-variant swds:Place-5607-1 . 
 swds:Place-5607-1 sps:name-variant "Great Palace of Constantinople"@en . 
-swds:Place-5607-1 spr:reference-URL <http://syriaca.org/place/5607> . 
+swds:Place-5607-1 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> sp:name-variant swds:Place-5607-2 . 
 swds:Place-5607-2 sps:name-variant "ܦܠܛܝܢ"@syr . 
-swds:Place-5607-2 spr:reference-URL <http://syriaca.org/place/5607> . 
+swds:Place-5607-2 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> sp:name-variant swds:Place-5607-3 . 
 swds:Place-5607-3 sps:name-variant "Great Palace of Constantinople"@en . 
-swds:Place-5607-3 spr:reference-URL <http://syriaca.org/place/5607> . 
+swds:Place-5607-3 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> sp:name-variant swds:Place-5607-4 . 
 swds:Place-5607-4 sps:name-variant "ܦܠܛܝܢ"@syr . 
-swds:Place-5607-4 spr:reference-URL <http://syriaca.org/place/5607> . 
+swds:Place-5607-4 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> sp:name-variant swds:Place-5607-5 . 
 swds:Place-5607-5 sps:name-variant "Μέγα παλάτιος"@grc . 
-swds:Place-5607-5 spr:reference-URL <http://syriaca.org/place/5607> . 
+swds:Place-5607-5 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> sp:name-variant swds:Place-5607-6 . 
 swds:Place-5607-6 sps:name-variant "Großer Palast"@de . 
-swds:Place-5607-6 spr:reference-URL <http://syriaca.org/place/5607> . 
-<http://syriaca.org/place/5607> swdt:closeMatch "https://pleiades.stoa.org/places/177059114" . 
+swds:Place-5607-6 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
+<http://syriaca.org/place/5607> swdt:closeMatch <https://pleiades.stoa.org/places/177059114> . 
 <http://syriaca.org/place/5607> sp:closeMatch swds:closeMatch-5607-1 . 
-swds:closeMatch-5607-1 sps:closeMatch "https://pleiades.stoa.org/places/177059114" . 
-swds:closeMatch-5607-1 spr:reference-URL <http://syriaca.org/place/5607> . 
-<http://syriaca.org/place/5607> swdt:closeMatch "https://en.wikipedia.org/wiki/Great_Palace_of_Constantinople" . 
+swds:closeMatch-5607-1 sps:closeMatch <https://pleiades.stoa.org/places/177059114> . 
+swds:closeMatch-5607-1 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
+<http://syriaca.org/place/5607> swdt:closeMatch <https://en.wikipedia.org/wiki/Great_Palace_of_Constantinople> . 
 <http://syriaca.org/place/5607> sp:closeMatch swds:closeMatch-5607-2 . 
-swds:closeMatch-5607-2 sps:closeMatch "https://en.wikipedia.org/wiki/Great_Palace_of_Constantinople" . 
-swds:closeMatch-5607-2 spr:reference-URL <http://syriaca.org/place/5607> . 
-<http://syriaca.org/place/5607> swdt:has-gps-coordinates "41.0064179667 28.9771394" . 
-<http://syriaca.org/place/5607> sp:has-gps-coordinates "41.0064179667 28.9771394" . 
+swds:closeMatch-5607-2 sps:closeMatch <https://en.wikipedia.org/wiki/Great_Palace_of_Constantinople> . 
+swds:closeMatch-5607-2 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
+<http://syriaca.org/place/5607> swdt:has-gps-coordinates "41.0064179667 28.9771394"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5607> sp:has-gps-coordinates swds:coordinates-5607-1 . 
+<http://syriaca.org/place/5607> swd:has-gps-coordinates "41.0064179667 28.9771394"^^geosparql:wktLiteral . 
 swds:coordinates-5607-1 spr:reference-URL <http://syriaca.org/place/5607.tei> . 
 <http://syriaca.org/place/5607> swdt:broader <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5607> sp:broader swds:activeRelationbroader-5607-11 . 

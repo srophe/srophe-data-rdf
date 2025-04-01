@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -45,7 +46,7 @@
 <http://syriaca.org/place/392> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/392> sp:place-type swds:place-type-392-1 . 
 swds:place-type-392-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-392-1 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:place-type-392-1 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> dcterms:relation <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/392> swdt:name-variant "Mor Malke"@en . 
 <http://syriaca.org/place/392> swdt:name-variant "ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ"@syr . 
@@ -56,43 +57,44 @@ swds:place-type-392-1 spr:reference-URL <http://syriaca.org/place/392> .
 <http://syriaca.org/place/392> swdt:name-variant "Mār Malke"@en . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-1 . 
 swds:Place-392-1 sps:name-variant "Mor Malke"@en . 
-swds:Place-392-1 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:Place-392-1 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-2 . 
 swds:Place-392-2 sps:name-variant "ܕܝܪܐ ܕܡܪܝ ܡܠܟܐ"@syr . 
-swds:Place-392-2 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:Place-392-2 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-3 . 
 swds:Place-392-3 sps:name-variant "ܕܰܝܪܳܐ ܕܡܳܪܝ ܡܰܠܟܶܐ"@syr-Syrj . 
-swds:Place-392-3 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:Place-392-3 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-4 . 
 swds:Place-392-4 sps:name-variant "دير مار ملكي"@ar . 
-swds:Place-392-4 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:Place-392-4 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-5 . 
 swds:Place-392-5 sps:name-variant "Malke Monastery"@en . 
-swds:Place-392-5 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:Place-392-5 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-6 . 
 swds:Place-392-6 sps:name-variant "monastery of Mar Malkha"@en . 
-swds:Place-392-6 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:Place-392-6 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> sp:name-variant swds:Place-392-7 . 
 swds:Place-392-7 sps:name-variant "Mār Malke"@en . 
-swds:Place-392-7 spr:reference-URL <http://syriaca.org/place/392> . 
-<http://syriaca.org/place/392> swdt:closeMatch "http://pleiades.stoa.org/places/874582" . 
+swds:Place-392-7 spr:reference-URL <http://syriaca.org/place/392.tei> . 
+<http://syriaca.org/place/392> swdt:closeMatch <http://pleiades.stoa.org/places/874582> . 
 <http://syriaca.org/place/392> sp:closeMatch swds:closeMatch-392-1 . 
-swds:closeMatch-392-1 sps:closeMatch "http://pleiades.stoa.org/places/874582" . 
-swds:closeMatch-392-1 spr:reference-URL <http://syriaca.org/place/392> . 
-<http://syriaca.org/place/392> swdt:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Malkha&sT=keywords" . 
+swds:closeMatch-392-1 sps:closeMatch <http://pleiades.stoa.org/places/874582> . 
+swds:closeMatch-392-1 spr:reference-URL <http://syriaca.org/place/392.tei> . 
+<http://syriaca.org/place/392> swdt:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Malkha&sT=keywords> . 
 <http://syriaca.org/place/392> sp:closeMatch swds:closeMatch-392-2 . 
-swds:closeMatch-392-2 sps:closeMatch "http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Malkha&sT=keywords" . 
-swds:closeMatch-392-2 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:closeMatch-392-2 sps:closeMatch <http://www.csc.org.il/db/browse.aspx?db=SB&sL=m&sK=monastery of Mar Malkha&sT=keywords> . 
+swds:closeMatch-392-2 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> swdt:exist-from "0600"^^xsd:gYear . 
 <http://syriaca.org/place/392> sp:exist-from swds:exist-from-392-1 . 
 swds:exist-from-392-1 sps:exist-from "0600"^^xsd:gYear . 
-swds:exist-from-392-1 spr:reference-URL <http://syriaca.org/place/392> . 
+swds:exist-from-392-1 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> swdt:exist-to "1926"^^xsd:gYear . 
 <http://syriaca.org/place/392> sp:exist-to swds:exist-to-392-1 . 
 swds:exist-to-392-1 sps:exist-to "1926"^^xsd:gYear . 
 swds:exist-to-392-1 spr:reference-URL <http://syriaca.org/place/392.tei> . 
-<http://syriaca.org/place/392> swdt:has-gps-coordinates "37.231912 41.411144" . 
-<http://syriaca.org/place/392> sp:has-gps-coordinates "37.231912 41.411144" . 
+<http://syriaca.org/place/392> swdt:has-gps-coordinates "37.231912 41.411144"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/392> sp:has-gps-coordinates swds:coordinates-392-1 . 
+<http://syriaca.org/place/392> swd:has-gps-coordinates "37.231912 41.411144"^^geosparql:wktLiteral . 
 swds:coordinates-392-1 spr:reference-URL <http://syriaca.org/place/392.tei> . 
 <http://syriaca.org/place/392> swdt:broader <http://syriaca.org/place/723> . 
 <http://syriaca.org/place/392> sp:broader swds:activeRelationbroader-392-11 . 

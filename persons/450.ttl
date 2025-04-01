@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -53,9 +54,9 @@ swds:Person-450-3 spr:reference-URL <http://syriaca.org/person/450.tei> .
 <http://syriaca.org/person/450> sp:name-variant swds:Person-450-4 . 
 swds:Person-450-4 sps:name-variant "Dinno Ni‘matullāh"@en-x-srp1 . 
 swds:Person-450-4 spr:reference-URL <http://syriaca.org/person/450.tei> . 
-<http://syriaca.org/person/450> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_450" . 
+<http://syriaca.org/person/450> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_450> . 
 <http://syriaca.org/person/450> sp:closeMatch swds:closeMatch-450-1 . 
-swds:closeMatch-450-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_450" . 
+swds:closeMatch-450-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_450> . 
 swds:closeMatch-450-1 spr:reference-URL <http://syriaca.org/person/450.tei> . 
 <http://syriaca.org/person/450> swdt:birth-when "1885"^^xsd:gYear . 
 <http://syriaca.org/person/450> sp:birth-when swds:birth-when-450-1 . 

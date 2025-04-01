@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -43,7 +44,7 @@
 <http://syriaca.org/place/522> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/522> sp:place-type swds:place-type-522-1 . 
 swds:place-type-522-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-522-1 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:place-type-522-1 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> dcterms:relation <http://syriaca.org/place/202> . 
 <http://syriaca.org/place/522> dcterms:relation <http://syriaca.org/place/41> . 
 <http://syriaca.org/place/522> dcterms:relation <http://syriaca.org/place/58> . 
@@ -54,39 +55,40 @@ swds:place-type-522-1 spr:reference-URL <http://syriaca.org/place/522> .
 <http://syriaca.org/place/522> swdt:name-variant "Salman Pak"@en . 
 <http://syriaca.org/place/522> sp:name-variant swds:Place-522-1 . 
 swds:Place-522-1 sps:name-variant "Salmān Pāk"@en . 
-swds:Place-522-1 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:Place-522-1 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> sp:name-variant swds:Place-522-2 . 
 swds:Place-522-2 sps:name-variant "ܣܠܡܐܢ ܒܐܟ"@syr . 
-swds:Place-522-2 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:Place-522-2 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> sp:name-variant swds:Place-522-3 . 
 swds:Place-522-3 sps:name-variant "ܣܰܠܡܰܐܢ ܒܰܐܟ"@syr-Syrj . 
-swds:Place-522-3 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:Place-522-3 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> sp:name-variant swds:Place-522-4 . 
 swds:Place-522-4 sps:name-variant "سلمان باك"@ar . 
-swds:Place-522-4 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:Place-522-4 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> sp:name-variant swds:Place-522-5 . 
 swds:Place-522-5 sps:name-variant "Salman Pak"@en . 
-swds:Place-522-5 spr:reference-URL <http://syriaca.org/place/522> . 
-<http://syriaca.org/place/522> swdt:closeMatch "http://pleiades.stoa.org/places/893947" . 
+swds:Place-522-5 spr:reference-URL <http://syriaca.org/place/522.tei> . 
+<http://syriaca.org/place/522> swdt:closeMatch <http://pleiades.stoa.org/places/893947> . 
 <http://syriaca.org/place/522> sp:closeMatch swds:closeMatch-522-1 . 
-swds:closeMatch-522-1 sps:closeMatch "http://pleiades.stoa.org/places/893947" . 
-swds:closeMatch-522-1 spr:reference-URL <http://syriaca.org/place/522> . 
-<http://syriaca.org/place/522> swdt:closeMatch "http://en.wikipedia.org/wiki/Salman_Pak" . 
+swds:closeMatch-522-1 sps:closeMatch <http://pleiades.stoa.org/places/893947> . 
+swds:closeMatch-522-1 spr:reference-URL <http://syriaca.org/place/522.tei> . 
+<http://syriaca.org/place/522> swdt:closeMatch <http://en.wikipedia.org/wiki/Salman_Pak> . 
 <http://syriaca.org/place/522> sp:closeMatch swds:closeMatch-522-2 . 
-swds:closeMatch-522-2 sps:closeMatch "http://en.wikipedia.org/wiki/Salman_Pak" . 
-swds:closeMatch-522-2 spr:reference-URL <http://syriaca.org/place/522> . 
-<http://syriaca.org/place/522> swdt:closeMatch "http://dbpedia.org/resource/Salman_Pak" . 
+swds:closeMatch-522-2 sps:closeMatch <http://en.wikipedia.org/wiki/Salman_Pak> . 
+swds:closeMatch-522-2 spr:reference-URL <http://syriaca.org/place/522.tei> . 
+<http://syriaca.org/place/522> swdt:closeMatch <http://dbpedia.org/resource/Salman_Pak> . 
 <http://syriaca.org/place/522> sp:closeMatch swds:closeMatch-522-3 . 
-swds:closeMatch-522-3 sps:closeMatch "http://dbpedia.org/resource/Salman_Pak" . 
-swds:closeMatch-522-3 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:closeMatch-522-3 sps:closeMatch <http://dbpedia.org/resource/Salman_Pak> . 
+swds:closeMatch-522-3 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> swdt:exist-from "1943"^^xsd:gYear . 
 <http://syriaca.org/place/522> sp:exist-from swds:exist-from-522-1 . 
 swds:exist-from-522-1 sps:exist-from "1943"^^xsd:gYear . 
-swds:exist-from-522-1 spr:reference-URL <http://syriaca.org/place/522> . 
+swds:exist-from-522-1 spr:reference-URL <http://syriaca.org/place/522.tei> . 
 <http://syriaca.org/place/522> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/522> sp:exist-to swds:exist-to-522-1 . 
 swds:exist-to-522-1 sps:exist-to "2013"^^xsd:gYear . 
 swds:exist-to-522-1 spr:reference-URL <http://syriaca.org/place/522.tei> . 
-<http://syriaca.org/place/522> swdt:has-gps-coordinates "33.100272 44.583487" . 
-<http://syriaca.org/place/522> sp:has-gps-coordinates "33.100272 44.583487" . 
+<http://syriaca.org/place/522> swdt:has-gps-coordinates "33.100272 44.583487"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/522> sp:has-gps-coordinates swds:coordinates-522-1 . 
+<http://syriaca.org/place/522> swd:has-gps-coordinates "33.100272 44.583487"^^geosparql:wktLiteral . 
 swds:coordinates-522-1 spr:reference-URL <http://syriaca.org/place/522.tei> .

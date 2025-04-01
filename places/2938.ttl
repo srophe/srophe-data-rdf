@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,28 +42,29 @@
 <http://syriaca.org/place/2938> swdt:place-type <http://syriaca.org/taxonomy/rivers> . 
 <http://syriaca.org/place/2938> sp:place-type swds:place-type-2938-1 . 
 swds:place-type-2938-1 sps:place-type <http://syriaca.org/taxonomy/rivers> . 
-swds:place-type-2938-1 spr:reference-URL <http://syriaca.org/place/2938> . 
+swds:place-type-2938-1 spr:reference-URL <http://syriaca.org/place/2938.tei> . 
 <http://syriaca.org/place/2938> dcterms:relation <http://syriaca.org/place/503> . 
 <http://syriaca.org/place/2938> swdt:name-variant "Don River"@en . 
 <http://syriaca.org/place/2938> swdt:name-variant "طانيس"@ar . 
 <http://syriaca.org/place/2938> sp:name-variant swds:Place-2938-1 . 
 swds:Place-2938-1 sps:name-variant "Don River"@en . 
-swds:Place-2938-1 spr:reference-URL <http://syriaca.org/place/2938> . 
+swds:Place-2938-1 spr:reference-URL <http://syriaca.org/place/2938.tei> . 
 <http://syriaca.org/place/2938> sp:name-variant swds:Place-2938-2 . 
 swds:Place-2938-2 sps:name-variant "طانيس"@ar . 
-swds:Place-2938-2 spr:reference-URL <http://syriaca.org/place/2938> . 
-<http://syriaca.org/place/2938> swdt:closeMatch "https://pleiades.stoa.org/places/825398" . 
+swds:Place-2938-2 spr:reference-URL <http://syriaca.org/place/2938.tei> . 
+<http://syriaca.org/place/2938> swdt:closeMatch <https://pleiades.stoa.org/places/825398> . 
 <http://syriaca.org/place/2938> sp:closeMatch swds:closeMatch-2938-1 . 
-swds:closeMatch-2938-1 sps:closeMatch "https://pleiades.stoa.org/places/825398" . 
-swds:closeMatch-2938-1 spr:reference-URL <http://syriaca.org/place/2938> . 
-<http://syriaca.org/place/2938> swdt:closeMatch "https://en.wikipedia.org/wiki/Don_River_(Russia)" . 
+swds:closeMatch-2938-1 sps:closeMatch <https://pleiades.stoa.org/places/825398> . 
+swds:closeMatch-2938-1 spr:reference-URL <http://syriaca.org/place/2938.tei> . 
+<http://syriaca.org/place/2938> swdt:closeMatch <https://en.wikipedia.org/wiki/Don_River_(Russia)> . 
 <http://syriaca.org/place/2938> sp:closeMatch swds:closeMatch-2938-2 . 
-swds:closeMatch-2938-2 sps:closeMatch "https://en.wikipedia.org/wiki/Don_River_(Russia)" . 
-swds:closeMatch-2938-2 spr:reference-URL <http://syriaca.org/place/2938> . 
-<http://syriaca.org/place/2938> swdt:closeMatch "https://dbpedia.org/resource/Don_River_(Russia)" . 
+swds:closeMatch-2938-2 sps:closeMatch <https://en.wikipedia.org/wiki/Don_River_(Russia)> . 
+swds:closeMatch-2938-2 spr:reference-URL <http://syriaca.org/place/2938.tei> . 
+<http://syriaca.org/place/2938> swdt:closeMatch <https://dbpedia.org/resource/Don_River_(Russia)> . 
 <http://syriaca.org/place/2938> sp:closeMatch swds:closeMatch-2938-3 . 
-swds:closeMatch-2938-3 sps:closeMatch "https://dbpedia.org/resource/Don_River_(Russia)" . 
-swds:closeMatch-2938-3 spr:reference-URL <http://syriaca.org/place/2938> . 
-<http://syriaca.org/place/2938> swdt:has-gps-coordinates "47.5437096 40.7291755" . 
-<http://syriaca.org/place/2938> sp:has-gps-coordinates "47.5437096 40.7291755" . 
+swds:closeMatch-2938-3 sps:closeMatch <https://dbpedia.org/resource/Don_River_(Russia)> . 
+swds:closeMatch-2938-3 spr:reference-URL <http://syriaca.org/place/2938.tei> . 
+<http://syriaca.org/place/2938> swdt:has-gps-coordinates "47.5437096 40.7291755"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/2938> sp:has-gps-coordinates swds:coordinates-2938-1 . 
+<http://syriaca.org/place/2938> swd:has-gps-coordinates "47.5437096 40.7291755"^^geosparql:wktLiteral . 
 swds:coordinates-2938-1 spr:reference-URL <http://syriaca.org/place/2938.tei> .

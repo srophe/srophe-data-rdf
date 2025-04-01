@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -43,7 +44,7 @@
 <http://syriaca.org/place/397> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/397> sp:place-type swds:place-type-397-1 . 
 swds:place-type-397-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-397-1 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:place-type-397-1 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> dcterms:relation <http://syriaca.org/place/112> . 
 <http://syriaca.org/place/397> swdt:name-variant "Mor Yaʿqub"@en . 
 <http://syriaca.org/place/397> swdt:name-variant "Mor Yaʿqub"@en . 
@@ -57,38 +58,38 @@ swds:place-type-397-1 spr:reference-URL <http://syriaca.org/place/397> .
 <http://syriaca.org/place/397> swdt:name-variant "Mor Ya‘qub"@en-x-srp1 . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-1 . 
 swds:Place-397-1 sps:name-variant "Mor Yaʿqub"@en . 
-swds:Place-397-1 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-1 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-2 . 
 swds:Place-397-2 sps:name-variant "Mor Yaʿqub"@en . 
-swds:Place-397-2 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-2 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-3 . 
 swds:Place-397-3 sps:name-variant "ܕܝܪܐ ܕܡܪܝ ܝܥܩܘܒ"@syr . 
-swds:Place-397-3 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-3 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-4 . 
 swds:Place-397-4 sps:name-variant "ܕܰܝܪܳܐ ܕܡܳܪܝ ܝܰܥܩܘܒ"@syr-Syrj . 
-swds:Place-397-4 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-4 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-5 . 
 swds:Place-397-5 sps:name-variant "دير مار يعقوب"@ar . 
-swds:Place-397-5 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-5 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-6 . 
 swds:Place-397-6 sps:name-variant "Jacob Monastery"@en . 
-swds:Place-397-6 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-6 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-7 . 
 swds:Place-397-7 sps:name-variant "Mor Yaqub"@en-x-srp1 . 
-swds:Place-397-7 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-7 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-8 . 
 swds:Place-397-8 sps:name-variant "Mor Ya‘qub"@en-x-srp1 . 
-swds:Place-397-8 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-8 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-9 . 
 swds:Place-397-9 sps:name-variant "Mor Yaqub"@en-x-srp1 . 
-swds:Place-397-9 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-9 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> sp:name-variant swds:Place-397-10 . 
 swds:Place-397-10 sps:name-variant "Mor Ya‘qub"@en-x-srp1 . 
-swds:Place-397-10 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:Place-397-10 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> swdt:exist-from "0688"^^xsd:gYear . 
 <http://syriaca.org/place/397> sp:exist-from swds:exist-from-397-1 . 
 swds:exist-from-397-1 sps:exist-from "0688"^^xsd:gYear . 
-swds:exist-from-397-1 spr:reference-URL <http://syriaca.org/place/397> . 
+swds:exist-from-397-1 spr:reference-URL <http://syriaca.org/place/397.tei> . 
 <http://syriaca.org/place/397> swdt:exist-to "0925"^^xsd:gYear . 
 <http://syriaca.org/place/397> sp:exist-to swds:exist-to-397-1 . 
 swds:exist-to-397-1 sps:exist-to "0925"^^xsd:gYear . 

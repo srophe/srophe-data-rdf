@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -44,7 +45,7 @@
 <http://syriaca.org/place/5586> swdt:place-type <http://syriaca.org/taxonomy/rivers> . 
 <http://syriaca.org/place/5586> sp:place-type swds:place-type-5586-1 . 
 swds:place-type-5586-1 sps:place-type <http://syriaca.org/taxonomy/rivers> . 
-swds:place-type-5586-1 spr:reference-URL <http://syriaca.org/place/5586> . 
+swds:place-type-5586-1 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
 <http://syriaca.org/place/5586> swdt:name-variant "Batman (river)"@en . 
 <http://syriaca.org/place/5586> swdt:name-variant "ܟܠܬ"@syr . 
 <http://syriaca.org/place/5586> swdt:name-variant "Nymphaeus"@en . 
@@ -52,27 +53,28 @@ swds:place-type-5586-1 spr:reference-URL <http://syriaca.org/place/5586> .
 <http://syriaca.org/place/5586> swdt:name-variant "Νυμφαῖος"@grc . 
 <http://syriaca.org/place/5586> sp:name-variant swds:Place-5586-1 . 
 swds:Place-5586-1 sps:name-variant "Batman (river)"@en . 
-swds:Place-5586-1 spr:reference-URL <http://syriaca.org/place/5586> . 
+swds:Place-5586-1 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
 <http://syriaca.org/place/5586> sp:name-variant swds:Place-5586-2 . 
 swds:Place-5586-2 sps:name-variant "ܟܠܬ"@syr . 
-swds:Place-5586-2 spr:reference-URL <http://syriaca.org/place/5586> . 
+swds:Place-5586-2 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
 <http://syriaca.org/place/5586> sp:name-variant swds:Place-5586-3 . 
 swds:Place-5586-3 sps:name-variant "Nymphaeus"@en . 
-swds:Place-5586-3 spr:reference-URL <http://syriaca.org/place/5586> . 
+swds:Place-5586-3 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
 <http://syriaca.org/place/5586> sp:name-variant swds:Place-5586-4 . 
 swds:Place-5586-4 sps:name-variant "ܟܠܬ"@syr . 
-swds:Place-5586-4 spr:reference-URL <http://syriaca.org/place/5586> . 
+swds:Place-5586-4 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
 <http://syriaca.org/place/5586> sp:name-variant swds:Place-5586-5 . 
 swds:Place-5586-5 sps:name-variant "Νυμφαῖος"@grc . 
-swds:Place-5586-5 spr:reference-URL <http://syriaca.org/place/5586> . 
-<http://syriaca.org/place/5586> swdt:closeMatch "https://pleiades.stoa.org/places/658553" . 
+swds:Place-5586-5 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
+<http://syriaca.org/place/5586> swdt:closeMatch <https://pleiades.stoa.org/places/658553> . 
 <http://syriaca.org/place/5586> sp:closeMatch swds:closeMatch-5586-1 . 
-swds:closeMatch-5586-1 sps:closeMatch "https://pleiades.stoa.org/places/658553" . 
-swds:closeMatch-5586-1 spr:reference-URL <http://syriaca.org/place/5586> . 
-<http://syriaca.org/place/5586> swdt:closeMatch "https://en.wikipedia.org/wiki/Batman_River" . 
+swds:closeMatch-5586-1 sps:closeMatch <https://pleiades.stoa.org/places/658553> . 
+swds:closeMatch-5586-1 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
+<http://syriaca.org/place/5586> swdt:closeMatch <https://en.wikipedia.org/wiki/Batman_River> . 
 <http://syriaca.org/place/5586> sp:closeMatch swds:closeMatch-5586-2 . 
-swds:closeMatch-5586-2 sps:closeMatch "https://en.wikipedia.org/wiki/Batman_River" . 
-swds:closeMatch-5586-2 spr:reference-URL <http://syriaca.org/place/5586> . 
-<http://syriaca.org/place/5586> swdt:has-gps-coordinates "37.783333 41.016667" . 
-<http://syriaca.org/place/5586> sp:has-gps-coordinates "37.783333 41.016667" . 
+swds:closeMatch-5586-2 sps:closeMatch <https://en.wikipedia.org/wiki/Batman_River> . 
+swds:closeMatch-5586-2 spr:reference-URL <http://syriaca.org/place/5586.tei> . 
+<http://syriaca.org/place/5586> swdt:has-gps-coordinates "37.783333 41.016667"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5586> sp:has-gps-coordinates swds:coordinates-5586-1 . 
+<http://syriaca.org/place/5586> swd:has-gps-coordinates "37.783333 41.016667"^^geosparql:wktLiteral . 
 swds:coordinates-5586-1 spr:reference-URL <http://syriaca.org/place/5586.tei> .

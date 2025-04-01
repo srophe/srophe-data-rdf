@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -46,7 +47,7 @@
 <http://syriaca.org/place/5577> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/5577> sp:place-type swds:place-type-5577-1 . 
 swds:place-type-5577-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-5577-1 spr:reference-URL <http://syriaca.org/place/5577> . 
+swds:place-type-5577-1 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> dcterms:relation <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5577> swdt:name-variant "Acoemetae, Monastery of the"@en . 
 <http://syriaca.org/place/5577> swdt:name-variant "ܕܝܪܐ ܕܐܩܝܡܛܘܢ"@syr . 
@@ -56,28 +57,29 @@ swds:place-type-5577-1 spr:reference-URL <http://syriaca.org/place/5577> .
 <http://syriaca.org/place/5577> swdt:name-variant "Monastère des Acémètes"@fr . 
 <http://syriaca.org/place/5577> sp:name-variant swds:Place-5577-1 . 
 swds:Place-5577-1 sps:name-variant "Acoemetae, Monastery of the"@en . 
-swds:Place-5577-1 spr:reference-URL <http://syriaca.org/place/5577> . 
+swds:Place-5577-1 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> sp:name-variant swds:Place-5577-2 . 
 swds:Place-5577-2 sps:name-variant "ܕܝܪܐ ܕܐܩܝܡܛܘܢ"@syr . 
-swds:Place-5577-2 spr:reference-URL <http://syriaca.org/place/5577> . 
+swds:Place-5577-2 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> sp:name-variant swds:Place-5577-3 . 
 swds:Place-5577-3 sps:name-variant "Monastery of Akoimetoi"@en . 
-swds:Place-5577-3 spr:reference-URL <http://syriaca.org/place/5577> . 
+swds:Place-5577-3 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> sp:name-variant swds:Place-5577-4 . 
 swds:Place-5577-4 sps:name-variant "ܕܝܪܐ ܕܐܩܝܡܛܘܢ"@syr . 
-swds:Place-5577-4 spr:reference-URL <http://syriaca.org/place/5577> . 
+swds:Place-5577-4 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> sp:name-variant swds:Place-5577-5 . 
 swds:Place-5577-5 sps:name-variant "Μονὴ τῶν Ἀκοιμήτων"@grc . 
-swds:Place-5577-5 spr:reference-URL <http://syriaca.org/place/5577> . 
+swds:Place-5577-5 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> sp:name-variant swds:Place-5577-6 . 
 swds:Place-5577-6 sps:name-variant "Monastère des Acémètes"@fr . 
-swds:Place-5577-6 spr:reference-URL <http://syriaca.org/place/5577> . 
-<http://syriaca.org/place/5577> swdt:closeMatch "https://pleiades.stoa.org/places/520954" . 
+swds:Place-5577-6 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
+<http://syriaca.org/place/5577> swdt:closeMatch <https://pleiades.stoa.org/places/520954> . 
 <http://syriaca.org/place/5577> sp:closeMatch swds:closeMatch-5577-1 . 
-swds:closeMatch-5577-1 sps:closeMatch "https://pleiades.stoa.org/places/520954" . 
-swds:closeMatch-5577-1 spr:reference-URL <http://syriaca.org/place/5577> . 
-<http://syriaca.org/place/5577> swdt:has-gps-coordinates "41.106759 29.082797" . 
-<http://syriaca.org/place/5577> sp:has-gps-coordinates "41.106759 29.082797" . 
+swds:closeMatch-5577-1 sps:closeMatch <https://pleiades.stoa.org/places/520954> . 
+swds:closeMatch-5577-1 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
+<http://syriaca.org/place/5577> swdt:has-gps-coordinates "41.106759 29.082797"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5577> sp:has-gps-coordinates swds:coordinates-5577-1 . 
+<http://syriaca.org/place/5577> swd:has-gps-coordinates "41.106759 29.082797"^^geosparql:wktLiteral . 
 swds:coordinates-5577-1 spr:reference-URL <http://syriaca.org/place/5577.tei> . 
 <http://syriaca.org/place/5577> swdt:broader <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5577> sp:broader swds:activeRelationbroader-5577-11 . 

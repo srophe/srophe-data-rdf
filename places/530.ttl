@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -42,7 +43,7 @@
 <http://syriaca.org/place/530> swdt:place-type <http://syriaca.org/taxonomy/settlements> . 
 <http://syriaca.org/place/530> sp:place-type swds:place-type-530-1 . 
 swds:place-type-530-1 sps:place-type <http://syriaca.org/taxonomy/settlements> . 
-swds:place-type-530-1 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:place-type-530-1 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> swdt:name-variant "Port Saʿīd"@en . 
 <http://syriaca.org/place/530> swdt:name-variant "ܒܘܪܣܥܝܕ"@syr . 
 <http://syriaca.org/place/530> swdt:name-variant "ܒܽܘܪܣܰܥܝܕ"@syr-Syrj . 
@@ -51,34 +52,34 @@ swds:place-type-530-1 spr:reference-URL <http://syriaca.org/place/530> .
 <http://syriaca.org/place/530> swdt:name-variant "Port Sa‘īd"@en-x-srp1 . 
 <http://syriaca.org/place/530> sp:name-variant swds:Place-530-1 . 
 swds:Place-530-1 sps:name-variant "Port Saʿīd"@en . 
-swds:Place-530-1 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:Place-530-1 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> sp:name-variant swds:Place-530-2 . 
 swds:Place-530-2 sps:name-variant "ܒܘܪܣܥܝܕ"@syr . 
-swds:Place-530-2 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:Place-530-2 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> sp:name-variant swds:Place-530-3 . 
 swds:Place-530-3 sps:name-variant "ܒܽܘܪܣܰܥܝܕ"@syr-Syrj . 
-swds:Place-530-3 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:Place-530-3 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> sp:name-variant swds:Place-530-4 . 
 swds:Place-530-4 sps:name-variant "بور سعيد"@ar . 
-swds:Place-530-4 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:Place-530-4 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> sp:name-variant swds:Place-530-5 . 
 swds:Place-530-5 sps:name-variant "Port Saīd"@en-x-srp1 . 
-swds:Place-530-5 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:Place-530-5 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> sp:name-variant swds:Place-530-6 . 
 swds:Place-530-6 sps:name-variant "Port Sa‘īd"@en-x-srp1 . 
-swds:Place-530-6 spr:reference-URL <http://syriaca.org/place/530> . 
-<http://syriaca.org/place/530> swdt:closeMatch "http://en.wikipedia.org/wiki/Port_Said" . 
+swds:Place-530-6 spr:reference-URL <http://syriaca.org/place/530.tei> . 
+<http://syriaca.org/place/530> swdt:closeMatch <http://en.wikipedia.org/wiki/Port_Said> . 
 <http://syriaca.org/place/530> sp:closeMatch swds:closeMatch-530-1 . 
-swds:closeMatch-530-1 sps:closeMatch "http://en.wikipedia.org/wiki/Port_Said" . 
-swds:closeMatch-530-1 spr:reference-URL <http://syriaca.org/place/530> . 
-<http://syriaca.org/place/530> swdt:closeMatch "http://dbpedia.org/resource/Port_Said" . 
+swds:closeMatch-530-1 sps:closeMatch <http://en.wikipedia.org/wiki/Port_Said> . 
+swds:closeMatch-530-1 spr:reference-URL <http://syriaca.org/place/530.tei> . 
+<http://syriaca.org/place/530> swdt:closeMatch <http://dbpedia.org/resource/Port_Said> . 
 <http://syriaca.org/place/530> sp:closeMatch swds:closeMatch-530-2 . 
-swds:closeMatch-530-2 sps:closeMatch "http://dbpedia.org/resource/Port_Said" . 
-swds:closeMatch-530-2 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:closeMatch-530-2 sps:closeMatch <http://dbpedia.org/resource/Port_Said> . 
+swds:closeMatch-530-2 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> swdt:exist-from "1859-04-25"^^xsd:date . 
 <http://syriaca.org/place/530> sp:exist-from swds:exist-from-530-1 . 
 swds:exist-from-530-1 sps:exist-from "1859-04-25"^^xsd:date . 
-swds:exist-from-530-1 spr:reference-URL <http://syriaca.org/place/530> . 
+swds:exist-from-530-1 spr:reference-URL <http://syriaca.org/place/530.tei> . 
 <http://syriaca.org/place/530> swdt:exist-to "2013"^^xsd:gYear . 
 <http://syriaca.org/place/530> sp:exist-to swds:exist-to-530-1 . 
 swds:exist-to-530-1 sps:exist-to "2013"^^xsd:gYear . 

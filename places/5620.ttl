@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -46,7 +47,7 @@
 <http://syriaca.org/place/5620> swdt:place-type <http://syriaca.org/taxonomy/churches> . 
 <http://syriaca.org/place/5620> sp:place-type swds:place-type-5620-1 . 
 swds:place-type-5620-1 sps:place-type <http://syriaca.org/taxonomy/churches> . 
-swds:place-type-5620-1 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:place-type-5620-1 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> dcterms:relation <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5620> swdt:name-variant "Mary of Blachernai (church)"@en . 
 <http://syriaca.org/place/5620> swdt:name-variant "ܒܝܬ ܡܪܬܝ ܡܪܝܐ ܕܒܠܩܪܢܐ"@syr . 
@@ -57,35 +58,36 @@ swds:place-type-5620-1 spr:reference-URL <http://syriaca.org/place/5620> .
 <http://syriaca.org/place/5620> swdt:name-variant "Theotokoskirche"@de . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-1 . 
 swds:Place-5620-1 sps:name-variant "Mary of Blachernai (church)"@en . 
-swds:Place-5620-1 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:Place-5620-1 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-2 . 
 swds:Place-5620-2 sps:name-variant "ܒܝܬ ܡܪܬܝ ܡܪܝܐ ܕܒܠܩܪܢܐ"@syr . 
-swds:Place-5620-2 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:Place-5620-2 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-3 . 
 swds:Place-5620-3 sps:name-variant "Basilica of the Virgin Mary of Blachernai"@en . 
-swds:Place-5620-3 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:Place-5620-3 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-4 . 
 swds:Place-5620-4 sps:name-variant "ܒܝܬ ܡܪܬܝ ܡܪܝܐ ܕܒܠܩܪܢܐ"@syr . 
-swds:Place-5620-4 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:Place-5620-4 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-5 . 
 swds:Place-5620-5 sps:name-variant "Θεοτόκος τῶν Βλαχερνῶν"@grc . 
-swds:Place-5620-5 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:Place-5620-5 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-6 . 
 swds:Place-5620-6 sps:name-variant "L'église des Blachernes"@fr . 
-swds:Place-5620-6 spr:reference-URL <http://syriaca.org/place/5620> . 
+swds:Place-5620-6 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> sp:name-variant swds:Place-5620-7 . 
 swds:Place-5620-7 sps:name-variant "Theotokoskirche"@de . 
-swds:Place-5620-7 spr:reference-URL <http://syriaca.org/place/5620> . 
-<http://syriaca.org/place/5620> swdt:closeMatch "https://pleiades.stoa.org/places/520974" . 
+swds:Place-5620-7 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
+<http://syriaca.org/place/5620> swdt:closeMatch <https://pleiades.stoa.org/places/520974> . 
 <http://syriaca.org/place/5620> sp:closeMatch swds:closeMatch-5620-1 . 
-swds:closeMatch-5620-1 sps:closeMatch "https://pleiades.stoa.org/places/520974" . 
-swds:closeMatch-5620-1 spr:reference-URL <http://syriaca.org/place/5620> . 
-<http://syriaca.org/place/5620> swdt:closeMatch "https://en.wikipedia.org/wiki/Church_of_St._Mary_of_Blachernae" . 
+swds:closeMatch-5620-1 sps:closeMatch <https://pleiades.stoa.org/places/520974> . 
+swds:closeMatch-5620-1 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
+<http://syriaca.org/place/5620> swdt:closeMatch <https://en.wikipedia.org/wiki/Church_of_St._Mary_of_Blachernae> . 
 <http://syriaca.org/place/5620> sp:closeMatch swds:closeMatch-5620-2 . 
-swds:closeMatch-5620-2 sps:closeMatch "https://en.wikipedia.org/wiki/Church_of_St._Mary_of_Blachernae" . 
-swds:closeMatch-5620-2 spr:reference-URL <http://syriaca.org/place/5620> . 
-<http://syriaca.org/place/5620> swdt:has-gps-coordinates "41.0383 28.9425" . 
-<http://syriaca.org/place/5620> sp:has-gps-coordinates "41.0383 28.9425" . 
+swds:closeMatch-5620-2 sps:closeMatch <https://en.wikipedia.org/wiki/Church_of_St._Mary_of_Blachernae> . 
+swds:closeMatch-5620-2 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
+<http://syriaca.org/place/5620> swdt:has-gps-coordinates "41.0383 28.9425"^^geosparql:wktLiteral . 
+<http://syriaca.org/place/5620> sp:has-gps-coordinates swds:coordinates-5620-1 . 
+<http://syriaca.org/place/5620> swd:has-gps-coordinates "41.0383 28.9425"^^geosparql:wktLiteral . 
 swds:coordinates-5620-1 spr:reference-URL <http://syriaca.org/place/5620.tei> . 
 <http://syriaca.org/place/5620> swdt:broader <http://syriaca.org/place/586> . 
 <http://syriaca.org/place/5620> sp:broader swds:activeRelationbroader-5620-11 . 

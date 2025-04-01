@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -41,7 +42,7 @@
 <http://syriaca.org/place/382> swdt:place-type <http://syriaca.org/taxonomy/monasteries> . 
 <http://syriaca.org/place/382> sp:place-type swds:place-type-382-1 . 
 swds:place-type-382-1 sps:place-type <http://syriaca.org/taxonomy/monasteries> . 
-swds:place-type-382-1 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:place-type-382-1 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> swdt:name-variant "Mor Giwargis"@en . 
 <http://syriaca.org/place/382> swdt:name-variant "ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"@syr . 
 <http://syriaca.org/place/382> swdt:name-variant "ܕܰܝܪܳܐ ܕܡܳܪܝ ܓܶܘܪܓܝܣ"@syr-Syrj . 
@@ -50,35 +51,35 @@ swds:place-type-382-1 spr:reference-URL <http://syriaca.org/place/382> .
 <http://syriaca.org/place/382> swdt:name-variant "George Monastery"@en . 
 <http://syriaca.org/place/382> sp:name-variant swds:Place-382-1 . 
 swds:Place-382-1 sps:name-variant "Mor Giwargis"@en . 
-swds:Place-382-1 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:Place-382-1 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> sp:name-variant swds:Place-382-2 . 
 swds:Place-382-2 sps:name-variant "ܕܝܪܐ ܕܡܪܝ ܓܘܪܓܝܣ"@syr . 
-swds:Place-382-2 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:Place-382-2 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> sp:name-variant swds:Place-382-3 . 
 swds:Place-382-3 sps:name-variant "ܕܰܝܪܳܐ ܕܡܳܪܝ ܓܶܘܪܓܝܣ"@syr-Syrj . 
-swds:Place-382-3 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:Place-382-3 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> sp:name-variant swds:Place-382-4 . 
 swds:Place-382-4 sps:name-variant "دير مار كوركيس"@ar . 
-swds:Place-382-4 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:Place-382-4 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> sp:name-variant swds:Place-382-5 . 
 swds:Place-382-5 sps:name-variant "دير مار جرجيس"@ar . 
-swds:Place-382-5 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:Place-382-5 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> sp:name-variant swds:Place-382-6 . 
 swds:Place-382-6 sps:name-variant "George Monastery"@en . 
-swds:Place-382-6 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:Place-382-6 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> swdt:exist-from "1200"^^xsd:gYear . 
 <http://syriaca.org/place/382> sp:exist-from swds:exist-from-382-1 . 
 swds:exist-from-382-1 sps:exist-from "1200"^^xsd:gYear . 
-swds:exist-from-382-1 spr:reference-URL <http://syriaca.org/place/382> . 
+swds:exist-from-382-1 spr:reference-URL <http://syriaca.org/place/382.tei> . 
 <http://syriaca.org/place/382> swdt:exist-to "1100"^^xsd:gYear . 
 <http://syriaca.org/place/382> sp:exist-to swds:exist-to-382-1 . 
 swds:exist-to-382-1 sps:exist-to "1100"^^xsd:gYear . 
 swds:exist-to-382-1 spr:reference-URL <http://syriaca.org/place/382.tei> . 
-<place/382> swdt:share-a-name <> . 
-<place/382> sp:share-a-name swds:activeRelationshare-a-name-382-11 . 
-swds:activeRelationshare-a-name-382-11 swd:share-a-name <> . 
+<http://syriaca.org/place/382> swdt:share-a-name <http://syriaca.org/place/383> . 
+<http://syriaca.org/place/382> sp:share-a-name swds:activeRelationshare-a-name-382-11 . 
+swds:activeRelationshare-a-name-382-11 swd:share-a-name <http://syriaca.org/place/383> . 
 swds:activeRelationshare-a-name-382-11 spr:reference-URL <http://syriaca.org/place/382.tei> . 
-<place/383> swdt:share-a-name <> . 
-<place/383> sp:share-a-name swds:activeRelationshare-a-name-382-12 . 
-swds:activeRelationshare-a-name-382-12 swd:share-a-name <> . 
+<http://syriaca.org/place/383> swdt:share-a-name <http://syriaca.org/place/382> . 
+<http://syriaca.org/place/383> sp:share-a-name swds:activeRelationshare-a-name-382-12 . 
+swds:activeRelationshare-a-name-382-12 swd:share-a-name <http://syriaca.org/place/382> . 
 swds:activeRelationshare-a-name-382-12 spr:reference-URL <http://syriaca.org/place/382.tei> .

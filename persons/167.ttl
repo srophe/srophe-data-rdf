@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -71,9 +72,9 @@ swds:Person-167-7 spr:reference-URL <http://syriaca.org/person/167.tei> .
 <http://syriaca.org/person/167> sp:name-variant swds:Person-167-8 . 
 swds:Person-167-8 sps:name-variant "John IV"@en . 
 swds:Person-167-8 spr:reference-URL <http://syriaca.org/person/167.tei> . 
-<http://syriaca.org/person/167> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_167" . 
+<http://syriaca.org/person/167> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_167> . 
 <http://syriaca.org/person/167> sp:closeMatch swds:closeMatch-167-1 . 
-swds:closeMatch-167-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_167" . 
+swds:closeMatch-167-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_167> . 
 swds:closeMatch-167-1 spr:reference-URL <http://syriaca.org/person/167.tei> . 
 <http://syriaca.org/person/167> swdt:death-when "0873"^^xsd:gYear . 
 <http://syriaca.org/person/167> sp:death-when swds:death-when-167-1 . 

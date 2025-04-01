@@ -14,6 +14,7 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -80,9 +81,9 @@ swds:Person-223-8 spr:reference-URL <http://syriaca.org/person/223.tei> .
 <http://syriaca.org/person/223> sp:name-variant swds:Person-223-9 . 
 swds:Person-223-9 sps:name-variant "Michael II, Isho Sephtana [Anti Pat]"@en . 
 swds:Person-223-9 spr:reference-URL <http://syriaca.org/person/223.tei> . 
-<http://syriaca.org/person/223> swdt:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_223" . 
+<http://syriaca.org/person/223> swdt:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_223> . 
 <http://syriaca.org/person/223> sp:closeMatch swds:closeMatch-223-1 . 
-swds:closeMatch-223-1 sps:closeMatch "http://viaf.org/viaf/sourceID/SRP|person_223" . 
+swds:closeMatch-223-1 sps:closeMatch <http://viaf.org/viaf/sourceID/SRP|person_223> . 
 swds:closeMatch-223-1 spr:reference-URL <http://syriaca.org/person/223.tei> . 
 <http://syriaca.org/person/223> swdt:death-when "1215"^^xsd:gYear . 
 <http://syriaca.org/person/223> sp:death-when swds:death-when-223-1 . 
