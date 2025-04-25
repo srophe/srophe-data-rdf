@@ -14,7 +14,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -26,4 +25,250 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/820> rdf:type  .
+<https://spear-prosop.org/820-1> schema:description "John of Ephesus commemorated Mary."@en . 
+<https://spear-prosop.org/820-1> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-1> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-1> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/820-1> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-1> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/74> swdt:commemorates <http://syriaca.org/person/1881> . 
+<http://syriaca.org/person/74> sp:commemorates swds:activeRelationcommemorates-820-1-11 . 
+swds:activeRelationcommemorates-820-1-11 swd:commemorates <http://syriaca.org/person/1881> . 
+swds:activeRelationcommemorates-820-1-11 spr:reference-URL <https://spear-prosop.org/820-1> . 
+<https://spear-prosop.org/820-2> schema:description "Mary was female."@en . 
+<https://spear-prosop.org/820-2> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-2> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-2> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-2> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-2> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-2> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/1881> swdt:gender <http://syriaca.org/taxonomy/women> . 
+<http://syriaca.org/person/1881> sp:gender swds:820-2Instd0e2341 . 
+swds:820-2Instd0e2341 sps:gender <http://syriaca.org/taxonomy/women> . 
+swds:820-2Instd0e2341 prov:wasDerivedFrom <https://spear-prosop.org/820-2> . 
+<https://spear-prosop.org/820-3> schema:description "Mary an anchorite."@en . 
+<https://spear-prosop.org/820-3> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-3> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-3> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-3> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-3> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-3> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/1881> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/1881> sp:occupation swds:820-3Instd0e2661 . 
+swds:820-3Instd0e2661 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:820-3Instd0e2661 prov:wasDerivedFrom <https://spear-prosop.org/820-3> . 
+<https://spear-prosop.org/820-4> schema:description "Mary was a saint."@en . 
+<https://spear-prosop.org/820-4> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-4> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-4> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-4> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-4> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-4> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/1881> swdt:sanctity <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1881> sp:sanctity swds:820-4Instd0e2961 . 
+swds:820-4Instd0e2961 sps:sanctity <http://syriaca.org/taxonomy/saints> . 
+swds:820-4Instd0e2961 prov:wasDerivedFrom <https://spear-prosop.org/820-4> . 
+<https://spear-prosop.org/820-5> schema:description "Mary was a patrician"@en . 
+<https://spear-prosop.org/820-5> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-5> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-5> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-5> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-5> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-5> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/1881> swdt:socec-status <http://syriaca.org/taxonomy/patricians> . 
+<http://syriaca.org/person/1881> sp:socec-status swds:820-5Instd0e3281 . 
+swds:820-5Instd0e3281 sps:socec-status <http://syriaca.org/taxonomy/patricians> . 
+swds:820-5Instd0e3281 prov:wasDerivedFrom <https://spear-prosop.org/820-5> . 
+<https://spear-prosop.org/820-6> schema:description "Mary's parents"@en . 
+<https://spear-prosop.org/820-6> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-6> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-6> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-6> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-6> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-6> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<https://spear-prosop.org/820-7> schema:description "Anonymous 3696 was the parent of Mary the Mourner."@en . 
+<https://spear-prosop.org/820-7> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-7> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-7> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-7> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-7> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-7> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/3696> swdt:parent-of <http://syriaca.org/person/1881> . 
+<http://syriaca.org/person/3696> sp:parent-of swds:activeRelationparent-of-820-7-11 . 
+swds:activeRelationparent-of-820-7-11 swd:parent-of <http://syriaca.org/person/1881> . 
+swds:activeRelationparent-of-820-7-11 spr:reference-URL <https://spear-prosop.org/820-7> . 
+<https://spear-prosop.org/820-8> schema:description "A great old man of God"@en . 
+<https://spear-prosop.org/820-8> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-8> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-8> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-8> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-8> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-8> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<https://spear-prosop.org/820-9> schema:description "Anonymous 3681 was male."@en . 
+<https://spear-prosop.org/820-9> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-9> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-9> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-9> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-9> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-9> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/3681> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/3681> sp:gender swds:820-9Instd0e4371 . 
+swds:820-9Instd0e4371 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:820-9Instd0e4371 prov:wasDerivedFrom <https://spear-prosop.org/820-9> . 
+<https://spear-prosop.org/820-10> schema:description "Anonymous 3681 whom Mary followed and took instruction from was an anchorite."@en . 
+<https://spear-prosop.org/820-10> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-10> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-10> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-10> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-10> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-10> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/3681> swdt:occupation <http://syriaca.org/taxonomy/anchorites> . 
+<http://syriaca.org/person/3681> sp:occupation swds:820-10Instd0e4691 . 
+swds:820-10Instd0e4691 sps:occupation <http://syriaca.org/taxonomy/anchorites> . 
+swds:820-10Instd0e4691 prov:wasDerivedFrom <https://spear-prosop.org/820-10> . 
+<https://spear-prosop.org/820-11> schema:description "Anonymous 3681 was a saint."@en . 
+<https://spear-prosop.org/820-11> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-11> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-11> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-11> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-11> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-11> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/3681> swdt:sanctity <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/3681> sp:sanctity swds:820-11Instd0e5021 . 
+swds:820-11Instd0e5021 sps:sanctity <http://syriaca.org/taxonomy/saints> . 
+swds:820-11Instd0e5021 prov:wasDerivedFrom <https://spear-prosop.org/820-11> . 
+<https://spear-prosop.org/820-12> schema:description "At the age of 10, Mary followed the example of a local anchorite and began living an ascetic life."@en . 
+<https://spear-prosop.org/820-12> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-12> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-12> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-12> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-12> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-12> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+swd:event820-12 rdfs:label "Event 820-12"@en . 
+swd:event820-12 swdt:event-participant <http://syriaca.org/person/1881> . 
+swd:event820-12 sp:event-participant swds:820-12Instd0e535a1048 . 
+swds:820-12Instd0e535a1048 sps:event-participant <http://syriaca.org/person/1881> . 
+swds:820-12Instd0e535a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-12> . 
+swd:event820-12 swdt:event-keyword <http://syriaca.org/taxonomy/asceticism> . 
+swd:event820-12 sp:event-keyword swds:820-12Inst1d0e5311 . 
+swds:820-12Inst1d0e5311 sps:event-keyword <http://syriaca.org/taxonomy/asceticism> . 
+swds:820-12Inst1d0e5311 prov:wasDerivedFrom <https://spear-prosop.org/820-12> . 
+<https://spear-prosop.org/820-13> schema:description "Mary's family attempted to dissuade her from pursuing an ascetic life."@en . 
+<https://spear-prosop.org/820-13> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-13> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-13> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-13> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-13> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-13> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+swd:event820-13 rdfs:label "Event 820-13"@en . 
+swd:event820-13 swdt:event-participant <http://syriaca.org/person/1881> . 
+swd:event820-13 sp:event-participant swds:820-13Instd0e562a1048 . 
+swds:820-13Instd0e562a1048 sps:event-participant <http://syriaca.org/person/1881> . 
+swds:820-13Instd0e562a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-13> . 
+swd:event820-13 swdt:event-keyword <http://syriaca.org/taxonomy/asceticism> . 
+swd:event820-13 sp:event-keyword swds:820-13Inst1d0e5591 . 
+swds:820-13Inst1d0e5591 sps:event-keyword <http://syriaca.org/taxonomy/asceticism> . 
+swds:820-13Inst1d0e5591 prov:wasDerivedFrom <https://spear-prosop.org/820-13> . 
+swd:event820-13 swdt:event-keyword <http://syriaca.org/taxonomy/families> . 
+swd:event820-13 sp:event-keyword swds:820-13Inst2d0e5592 . 
+swds:820-13Inst2d0e5592 sps:event-keyword <http://syriaca.org/taxonomy/families> . 
+swds:820-13Inst2d0e5592 prov:wasDerivedFrom <https://spear-prosop.org/820-13> . 
+<https://spear-prosop.org/820-14> schema:description "Mary was bethrothed to a certain rich man around the time she commenced an ascetic life."@en . 
+<https://spear-prosop.org/820-14> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-14> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-14> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-14> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-14> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-14> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+swd:event820-14 rdfs:label "Event 820-14"@en . 
+swd:event820-14 swdt:event-participant <http://syriaca.org/person/1881> . 
+swd:event820-14 sp:event-participant swds:820-14Instd0e589a1048 . 
+swds:820-14Instd0e589a1048 sps:event-participant <http://syriaca.org/person/1881> . 
+swds:820-14Instd0e589a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-14> . 
+swd:event820-14 swdt:event-keyword <http://syriaca.org/taxonomy/betrothal> . 
+swd:event820-14 sp:event-keyword swds:820-14Inst1d0e5861 . 
+swds:820-14Inst1d0e5861 sps:event-keyword <http://syriaca.org/taxonomy/betrothal> . 
+swds:820-14Inst1d0e5861 prov:wasDerivedFrom <https://spear-prosop.org/820-14> . 
+swd:event820-14 swdt:event-keyword <http://syriaca.org/taxonomy/families> . 
+swd:event820-14 sp:event-keyword swds:820-14Inst2d0e5862 . 
+swds:820-14Inst2d0e5862 sps:event-keyword <http://syriaca.org/taxonomy/families> . 
+swds:820-14Inst2d0e5862 prov:wasDerivedFrom <https://spear-prosop.org/820-14> . 
+<https://spear-prosop.org/820-15> schema:description "A certain rich man who was betrothed to Mary"@en . 
+<https://spear-prosop.org/820-15> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-15> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-15> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-15> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-15> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-15> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<https://spear-prosop.org/820-16> schema:description "Anonymous 3682 was male."@en . 
+<https://spear-prosop.org/820-16> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-16> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-16> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-16> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-16> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-16> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+<http://syriaca.org/person/3682> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/3682> sp:gender swds:820-16Instd0e6441 . 
+swds:820-16Instd0e6441 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:820-16Instd0e6441 prov:wasDerivedFrom <https://spear-prosop.org/820-16> . 
+<https://spear-prosop.org/820-17> schema:description "Mary rejected the marriage arranged by her parents and entered a monastery."@en . 
+<https://spear-prosop.org/820-17> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-17> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-17> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-17> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-17> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-17> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+swd:event820-17 rdfs:label "Event 820-17"@en . 
+swd:event820-17 swdt:event-participant <http://syriaca.org/person/1881> . 
+swd:event820-17 sp:event-participant swds:820-17Instd0e675a1048 . 
+swds:820-17Instd0e675a1048 sps:event-participant <http://syriaca.org/person/1881> . 
+swds:820-17Instd0e675a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-17> . 
+swd:event820-17 swdt:event-participant <http://syriaca.org/person/3696> . 
+swd:event820-17 sp:event-participant swds:820-17Instd0e678a1048 . 
+swds:820-17Instd0e678a1048 sps:event-participant <http://syriaca.org/person/3696> . 
+swds:820-17Instd0e678a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-17> . 
+swd:event820-17 swdt:event-keyword <http://syriaca.org/taxonomy/marriage> . 
+swd:event820-17 sp:event-keyword swds:820-17Inst1d0e6721 . 
+swds:820-17Inst1d0e6721 sps:event-keyword <http://syriaca.org/taxonomy/marriage> . 
+swds:820-17Inst1d0e6721 prov:wasDerivedFrom <https://spear-prosop.org/820-17> . 
+swd:event820-17 swdt:event-keyword <http://syriaca.org/taxonomy/families> . 
+swd:event820-17 sp:event-keyword swds:820-17Inst2d0e6722 . 
+swds:820-17Inst2d0e6722 sps:event-keyword <http://syriaca.org/taxonomy/families> . 
+swds:820-17Inst2d0e6722 prov:wasDerivedFrom <https://spear-prosop.org/820-17> . 
+<https://spear-prosop.org/820-18> schema:description "Mary endured the 15-year persecution during her 30 years as a monastic."@en . 
+<https://spear-prosop.org/820-18> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-18> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-18> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-18> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-18> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-18> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+swd:event820-18 rdfs:label "Event 820-18"@en . 
+swd:event820-18 swdt:event-participant <http://syriaca.org/person/1881> . 
+swd:event820-18 sp:event-participant swds:820-18Instd0e706a1048 . 
+swds:820-18Instd0e706a1048 sps:event-participant <http://syriaca.org/person/1881> . 
+swds:820-18Instd0e706a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-18> . 
+swd:event820-18 swdt:event-keyword <http://syriaca.org/taxonomy/persecution> . 
+swd:event820-18 sp:event-keyword swds:820-18Inst1d0e7031 . 
+swds:820-18Inst1d0e7031 sps:event-keyword <http://syriaca.org/taxonomy/persecution> . 
+swds:820-18Inst1d0e7031 prov:wasDerivedFrom <https://spear-prosop.org/820-18> . 
+swd:event820-18 swdt:event-keyword <http://syriaca.org/taxonomy/monasticism> . 
+swd:event820-18 sp:event-keyword swds:820-18Inst2d0e7032 . 
+swds:820-18Inst2d0e7032 sps:event-keyword <http://syriaca.org/taxonomy/monasticism> . 
+swds:820-18Inst2d0e7032 prov:wasDerivedFrom <https://spear-prosop.org/820-18> . 
+<https://spear-prosop.org/820-19> schema:description "Mary Died"@en . 
+<https://spear-prosop.org/820-19> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/820-19> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/820-19> spr:part-of-series <https://spear-prosop.org/820> . 
+<https://spear-prosop.org/820-19> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/820-19> spr:reference-bibl <http://syriaca.org/work/820> . 
+<https://spear-prosop.org/820-19> spr:reference-bibl <http://syriaca.org/cbss/U78B4C66> . 
+swd:event820-19 rdfs:label "Event 820-19"@en . 
+swd:event820-19 swdt:event-participant <http://syriaca.org/person/1881> . 
+swd:event820-19 sp:event-participant swds:820-19Instd0e733a1048 . 
+swds:820-19Instd0e733a1048 sps:event-participant <http://syriaca.org/person/1881> . 
+swds:820-19Instd0e733a1048 prov:wasDerivedFrom <https://spear-prosop.org/820-19> . 
+swd:event820-19 swdt:event-keyword <http://syriaca.org/taxonomy/death> . 
+swd:event820-19 sp:event-keyword swds:820-19Inst1d0e7301 . 
+swds:820-19Inst1d0e7301 sps:event-keyword <http://syriaca.org/taxonomy/death> . 
+swds:820-19Inst1d0e7301 prov:wasDerivedFrom <https://spear-prosop.org/820-19> .

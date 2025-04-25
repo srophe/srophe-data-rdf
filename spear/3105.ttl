@@ -14,7 +14,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -26,4 +25,57 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3105> rdf:type  .
+<https://spear-prosop.org/3105-1> schema:description "Severus wrote a letter to the monastery of Isaac on the subject of receiving the repentant."@en . 
+<https://spear-prosop.org/3105-1> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3105-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3105-1> spr:part-of-series <https://spear-prosop.org/3105> . 
+<https://spear-prosop.org/3105-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3105-1> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+swd:event3105-1 rdfs:label "Event 3105-1"@en . 
+swd:event3105-1 swdt:event-participant <http://syriaca.org/person/51> . 
+swd:event3105-1 sp:event-participant swds:3105-1Instd0e204a1048 . 
+swds:3105-1Instd0e204a1048 sps:event-participant <http://syriaca.org/person/51> . 
+swds:3105-1Instd0e204a1048 prov:wasDerivedFrom <https://spear-prosop.org/3105-1> . 
+swd:event3105-1 swdt:event-place <http://syriaca.org/place/1457> . 
+swd:event3105-1 sp:event-place swds:3105-1Instd0e207a1048 . 
+swds:3105-1Instd0e207a1048 sps:event-place <http://syriaca.org/place/1457> . 
+swds:3105-1Instd0e207a1048 prov:wasDerivedFrom <https://spear-prosop.org/3105-1> . 
+swd:event3105-1 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
+swd:event3105-1 sp:event-keyword swds:3105-1Inst1d0e2001 . 
+swds:3105-1Inst1d0e2001 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
+swds:3105-1Inst1d0e2001 prov:wasDerivedFrom <https://spear-prosop.org/3105-1> . 
+swd:event3105-1 swdt:event-keyword <http://syriaca.org/taxonomy/repentance> . 
+swd:event3105-1 sp:event-keyword swds:3105-1Inst2d0e2002 . 
+swds:3105-1Inst2d0e2002 sps:event-keyword <http://syriaca.org/taxonomy/repentance> . 
+swds:3105-1Inst2d0e2002 prov:wasDerivedFrom <https://spear-prosop.org/3105-1> . 
+swd:event3105-1 swdt:event-keyword <http://syriaca.org/taxonomy/mercy> . 
+swd:event3105-1 sp:event-keyword swds:3105-1Inst3d0e2003 . 
+swds:3105-1Inst3d0e2003 sps:event-keyword <http://syriaca.org/taxonomy/mercy> . 
+swds:3105-1Inst3d0e2003 prov:wasDerivedFrom <https://spear-prosop.org/3105-1> . 
+swds:event-3105-1-1 spq:not-before "0519"^^xsd:gYear . 
+<https://spear-prosop.org/3105-2> schema:description "Samuel was a priest."@en . 
+<https://spear-prosop.org/3105-2> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3105-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3105-2> spr:part-of-series <https://spear-prosop.org/3105> . 
+<https://spear-prosop.org/3105-2> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3105-2> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/2745> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
+<http://syriaca.org/person/2745> sp:occupation swds:3105-2Instd0e2361 . 
+swds:3105-2Instd0e2361 sps:occupation <http://syriaca.org/taxonomy/priests> . 
+swds:3105-2Instd0e2361 prov:wasDerivedFrom <https://spear-prosop.org/3105-2> . 
+<https://spear-prosop.org/3105-3> schema:description "Samuel was archimandrite of the monastery of Isaac."@en . 
+<https://spear-prosop.org/3105-3> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3105-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3105-3> spr:part-of-series <https://spear-prosop.org/3105> . 
+<https://spear-prosop.org/3105-3> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3105-3> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/2745> swdt:occupation <http://syriaca.org/taxonomy/monastic-heads> . 
+<http://syriaca.org/person/2745> sp:occupation swds:3105-3Instd0e2701 . 
+swds:3105-3Instd0e2701 sps:occupation <http://syriaca.org/taxonomy/monastic-heads> . 
+swds:3105-3Instd0e2701 prov:wasDerivedFrom <https://spear-prosop.org/3105-3> . 
+<https://spear-prosop.org/3105-4> schema:description "Samuel died before 539."@en . 
+<https://spear-prosop.org/3105-4> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3105-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3105-4> spr:part-of-series <https://spear-prosop.org/3105> . 
+<https://spear-prosop.org/3105-4> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3105-4> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> .

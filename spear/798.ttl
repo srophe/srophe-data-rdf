@@ -14,7 +14,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -26,4 +25,147 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/798> rdf:type  .
+<https://spear-prosop.org/798-1> schema:description "John of Ephesus commemorated Paul."@en . 
+<https://spear-prosop.org/798-1> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-1> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-1> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/798-1> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-1> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+<http://syriaca.org/person/74> swdt:commemorates <http://syriaca.org/person/1980> . 
+<http://syriaca.org/person/74> sp:commemorates swds:activeRelationcommemorates-798-1-11 . 
+swds:activeRelationcommemorates-798-1-11 swd:commemorates <http://syriaca.org/person/1980> . 
+swds:activeRelationcommemorates-798-1-11 spr:reference-URL <https://spear-prosop.org/798-1> . 
+<https://spear-prosop.org/798-2> schema:description "Paul was a saint."@en . 
+<https://spear-prosop.org/798-2> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-2> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-2> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-2> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/798-2> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-2> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+<http://syriaca.org/person/1980> swdt:sanctity <http://syriaca.org/taxonomy/saints> . 
+<http://syriaca.org/person/1980> sp:sanctity swds:798-2Instd0e2471 . 
+swds:798-2Instd0e2471 sps:sanctity <http://syriaca.org/taxonomy/saints> . 
+swds:798-2Instd0e2471 prov:wasDerivedFrom <https://spear-prosop.org/798-2> . 
+<https://spear-prosop.org/798-3> schema:description "Paul resided in Sophanene."@en . 
+<https://spear-prosop.org/798-3> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-3> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-3> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-3> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-3> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-3> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+<http://syriaca.org/person/1980> swdt:residence <http://syriaca.org/place/493> . 
+<http://syriaca.org/person/1980> sp:residence swds:798-3Instd0e285 . 
+swds:798-3Instd0e285 sps:residence <http://syriaca.org/place/493> . 
+swds:798-3Instd0e285 prov:wasDerivedFrom <https://spear-prosop.org/798-3> . 
+<https://spear-prosop.org/798-4> schema:description "Paul went to a certain large cave in the side of a certain high rock on the banks of the Tigris at a place called Surtha, and he erected a cross and traced the plan for a small oratory."@en . 
+<https://spear-prosop.org/798-4> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-4> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-4> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-4> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-4> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-4> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+swd:event798-4 rdfs:label "Event 798-4"@en . 
+swd:event798-4 swdt:event-participant <http://syriaca.org/person/1980> . 
+swd:event798-4 sp:event-participant swds:798-4Instd0e327a1048 . 
+swds:798-4Instd0e327a1048 sps:event-participant <http://syriaca.org/person/1980> . 
+swds:798-4Instd0e327a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-4> . 
+swd:event798-4 swdt:event-place <http://syriaca.org/place/202> . 
+swd:event798-4 sp:event-place swds:798-4Instd0e330a1048 . 
+swds:798-4Instd0e330a1048 sps:event-place <http://syriaca.org/place/202> . 
+swds:798-4Instd0e330a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-4> . 
+swd:event798-4 swdt:event-place <http://syriaca.org/place/2844> . 
+swd:event798-4 sp:event-place swds:798-4Instd0e333a1048 . 
+swds:798-4Instd0e333a1048 sps:event-place <http://syriaca.org/place/2844> . 
+swds:798-4Instd0e333a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-4> . 
+swd:event798-4 swdt:event-keyword <http://syriaca.org/taxonomy/buildings> . 
+swd:event798-4 sp:event-keyword swds:798-4Inst1d0e3241 . 
+swds:798-4Inst1d0e3241 sps:event-keyword <http://syriaca.org/taxonomy/buildings> . 
+swds:798-4Inst1d0e3241 prov:wasDerivedFrom <https://spear-prosop.org/798-4> . 
+swd:event798-4 swdt:event-keyword <http://syriaca.org/taxonomy/architecture> . 
+swd:event798-4 sp:event-keyword swds:798-4Inst2d0e3242 . 
+swds:798-4Inst2d0e3242 sps:event-keyword <http://syriaca.org/taxonomy/architecture> . 
+swds:798-4Inst2d0e3242 prov:wasDerivedFrom <https://spear-prosop.org/798-4> . 
+<https://spear-prosop.org/798-5> schema:description "Paul entered a cave filled with malignant fiends and planted a cross and hung up relics of saints."@en . 
+<https://spear-prosop.org/798-5> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-5> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-5> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-5> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-5> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-5> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+swd:event798-5 rdfs:label "Event 798-5"@en . 
+swd:event798-5 swdt:event-participant <http://syriaca.org/person/1980> . 
+swd:event798-5 sp:event-participant swds:798-5Instd0e366a1048 . 
+swds:798-5Instd0e366a1048 sps:event-participant <http://syriaca.org/person/1980> . 
+swds:798-5Instd0e366a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-5> . 
+swd:event798-5 swdt:event-keyword <http://syriaca.org/taxonomy/holy-places> . 
+swd:event798-5 sp:event-keyword swds:798-5Inst1d0e3631 . 
+swds:798-5Inst1d0e3631 sps:event-keyword <http://syriaca.org/taxonomy/holy-places> . 
+swds:798-5Inst1d0e3631 prov:wasDerivedFrom <https://spear-prosop.org/798-5> . 
+swd:event798-5 swdt:event-keyword <http://syriaca.org/taxonomy/relics> . 
+swd:event798-5 sp:event-keyword swds:798-5Inst2d0e3632 . 
+swds:798-5Inst2d0e3632 sps:event-keyword <http://syriaca.org/taxonomy/relics> . 
+swds:798-5Inst2d0e3632 prov:wasDerivedFrom <https://spear-prosop.org/798-5> . 
+<https://spear-prosop.org/798-6> schema:description "The ten disciples of Paul the anchorite"@en . 
+<https://spear-prosop.org/798-6> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-6> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-6> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-6> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-6> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-6> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+<https://spear-prosop.org/798-7> schema:description "Paul made an altar and a chapel in his cave."@en . 
+<https://spear-prosop.org/798-7> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-7> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-7> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-7> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-7> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-7> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+swd:event798-7 rdfs:label "Event 798-7"@en . 
+swd:event798-7 swdt:event-participant <http://syriaca.org/person/1980> . 
+swd:event798-7 sp:event-participant swds:798-7Instd0e433a1048 . 
+swds:798-7Instd0e433a1048 sps:event-participant <http://syriaca.org/person/1980> . 
+swds:798-7Instd0e433a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-7> . 
+swd:event798-7 swdt:event-keyword <http://syriaca.org/taxonomy/holy-places> . 
+swd:event798-7 sp:event-keyword swds:798-7Inst1d0e4301 . 
+swds:798-7Inst1d0e4301 sps:event-keyword <http://syriaca.org/taxonomy/holy-places> . 
+swds:798-7Inst1d0e4301 prov:wasDerivedFrom <https://spear-prosop.org/798-7> . 
+swd:event798-7 swdt:event-keyword <http://syriaca.org/taxonomy/altars> . 
+swd:event798-7 sp:event-keyword swds:798-7Inst2d0e4302 . 
+swds:798-7Inst2d0e4302 sps:event-keyword <http://syriaca.org/taxonomy/altars> . 
+swds:798-7Inst2d0e4302 prov:wasDerivedFrom <https://spear-prosop.org/798-7> . 
+<https://spear-prosop.org/798-8> schema:description "A monastery was built at the site of Paul's cave."@en . 
+<https://spear-prosop.org/798-8> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-8> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-8> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-8> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-8> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-8> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+swd:event798-8 rdfs:label "Event 798-8"@en . 
+swd:event798-8 swdt:event-participant <http://syriaca.org/person/1980> . 
+swd:event798-8 sp:event-participant swds:798-8Instd0e467a1048 . 
+swds:798-8Instd0e467a1048 sps:event-participant <http://syriaca.org/person/1980> . 
+swds:798-8Instd0e467a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-8> . 
+swd:event798-8 swdt:event-keyword <http://syriaca.org/taxonomy/monasteries> . 
+swd:event798-8 sp:event-keyword swds:798-8Inst1d0e4631 . 
+swds:798-8Inst1d0e4631 sps:event-keyword <http://syriaca.org/taxonomy/monasteries> . 
+swds:798-8Inst1d0e4631 prov:wasDerivedFrom <https://spear-prosop.org/798-8> . 
+<https://spear-prosop.org/798-9> schema:description "After Paul's death miracles were everywhere wrought through his holy bones, men taking his skull and going round the districts, and, wheresoever locusts came, or hail or a scorching wind or bubonic plague, and his right hand or his head went, God would straighlway make deliverance."@en . 
+<https://spear-prosop.org/798-9> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/798-9> spr:part-of-series <https://spear-prosop.org/lives-eastern-saints> . 
+<https://spear-prosop.org/798-9> spr:part-of-series <https://spear-prosop.org/798> . 
+<https://spear-prosop.org/798-9> spr:creator <http://syriaca.org/documentation/editors.xml#jwalters> . 
+<https://spear-prosop.org/798-9> spr:reference-bibl <http://syriaca.org/work/798> . 
+<https://spear-prosop.org/798-9> spr:reference-bibl <http://syriaca.org/cbss/2IBLUVC7> . 
+swd:event798-9 rdfs:label "Event 798-9"@en . 
+swd:event798-9 swdt:event-participant <http://syriaca.org/person/1980> . 
+swd:event798-9 sp:event-participant swds:798-9Instd0e501a1048 . 
+swds:798-9Instd0e501a1048 sps:event-participant <http://syriaca.org/person/1980> . 
+swds:798-9Instd0e501a1048 prov:wasDerivedFrom <https://spear-prosop.org/798-9> . 
+swd:event798-9 swdt:event-keyword <http://syriaca.org/taxonomy/relics> . 
+swd:event798-9 sp:event-keyword swds:798-9Inst1d0e4971 . 
+swds:798-9Inst1d0e4971 sps:event-keyword <http://syriaca.org/taxonomy/relics> . 
+swds:798-9Inst1d0e4971 prov:wasDerivedFrom <https://spear-prosop.org/798-9> . 
+swd:event798-9 swdt:event-keyword <http://syriaca.org/taxonomy/miracles> . 
+swd:event798-9 sp:event-keyword swds:798-9Inst2d0e4972 . 
+swds:798-9Inst2d0e4972 sps:event-keyword <http://syriaca.org/taxonomy/miracles> . 
+swds:798-9Inst2d0e4972 prov:wasDerivedFrom <https://spear-prosop.org/798-9> .

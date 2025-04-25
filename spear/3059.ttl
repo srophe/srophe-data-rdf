@@ -14,7 +14,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -26,4 +25,185 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3059> rdf:type  .
+<https://spear-prosop.org/3059-1> schema:description "This date comes from Alpi. 68"@en . 
+<https://spear-prosop.org/3059-1> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-1> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-1> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-1> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3059-2> schema:description "Severus of Antioch sent a letter to Anonymi 3080."@en . 
+<https://spear-prosop.org/3059-2> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-2> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-2> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-2> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-2> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/51> swdt:sender-of-letter-to <http://syriaca.org/person/3080> . 
+<http://syriaca.org/person/51> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3059-2-11 . 
+swds:activeRelationsender-of-letter-to-3059-2-11 swd:sender-of-letter-to <http://syriaca.org/person/3080> . 
+swds:activeRelationsender-of-letter-to-3059-2-11 spr:reference-URL <https://spear-prosop.org/3059-2> . 
+<https://spear-prosop.org/3059-3> schema:description "Anonymi 3080 sent a letter to Severus of Antioch."@en . 
+<https://spear-prosop.org/3059-3> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-3> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-3> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-3> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-3> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3080> swdt:sender-of-letter-to <http://syriaca.org/person/51> . 
+<http://syriaca.org/person/3080> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3059-3-11 . 
+swds:activeRelationsender-of-letter-to-3059-3-11 swd:sender-of-letter-to <http://syriaca.org/person/51> . 
+swds:activeRelationsender-of-letter-to-3059-3-11 spr:reference-URL <https://spear-prosop.org/3059-3> . 
+<https://spear-prosop.org/3059-4> schema:description "The rhetor of Greece"@en . 
+<https://spear-prosop.org/3059-4> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-4> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-4> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-4> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-4> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3059-5> schema:description "Anonymous 3082 was male."@en . 
+<https://spear-prosop.org/3059-5> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-5> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-5> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-5> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-5> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-5> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3082> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/3082> sp:gender swds:3059-5Instd0e3511 . 
+swds:3059-5Instd0e3511 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:3059-5Instd0e3511 prov:wasDerivedFrom <https://spear-prosop.org/3059-5> . 
+<https://spear-prosop.org/3059-6> schema:description "Anonymous 3082 was a rhetor."@en . 
+<https://spear-prosop.org/3059-6> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-6> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-6> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-6> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-6> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-6> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3082> swdt:occupation <http://syriaca.org/taxonomy/rhetors> . 
+<http://syriaca.org/person/3082> sp:occupation swds:3059-6Instd0e3821 . 
+swds:3059-6Instd0e3821 sps:occupation <http://syriaca.org/taxonomy/rhetors> . 
+swds:3059-6Instd0e3821 prov:wasDerivedFrom <https://spear-prosop.org/3059-6> . 
+<https://spear-prosop.org/3059-7> schema:description "Anonymi 3080 refered to the writings of Anonymous 3082."@en . 
+<https://spear-prosop.org/3059-7> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-7> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-7> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-7> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-7> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3080> swdt:cited <http://syriaca.org/person/3082> . 
+<http://syriaca.org/person/3080> sp:cited swds:activeRelationcited-3059-7-11 . 
+swds:activeRelationcited-3059-7-11 swd:cited <http://syriaca.org/person/3082> . 
+swds:activeRelationcited-3059-7-11 spr:reference-URL <https://spear-prosop.org/3059-7> . 
+<https://spear-prosop.org/3059-8> schema:description "Isaac"@en . 
+<https://spear-prosop.org/3059-8> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-8> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-8> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-8> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-8> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-8> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3059-9> schema:description "Isaac was male."@en . 
+<https://spear-prosop.org/3059-9> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-9> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-9> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-9> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-9> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-9> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2578> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/2578> sp:gender swds:3059-9Instd0e4721 . 
+swds:3059-9Instd0e4721 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:3059-9Instd0e4721 prov:wasDerivedFrom <https://spear-prosop.org/3059-9> . 
+<https://spear-prosop.org/3059-10> schema:description "Isaac was Bishop of Apamea"@en . 
+<https://spear-prosop.org/3059-10> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-10> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-10> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-10> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-10> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-10> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2578> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/2578> sp:occupation swds:3059-10Instd0e5051 . 
+swds:3059-10Instd0e5051 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:3059-10Instd0e5051 prov:wasDerivedFrom <https://spear-prosop.org/3059-10> . 
+<https://spear-prosop.org/3059-11> schema:description "Isaac had ecclesiastical authority over Anonymi 3080."@en . 
+<https://spear-prosop.org/3059-11> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-11> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-11> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-11> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-11> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-11> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2578> swdt:bishop-over-clergy <http://syriaca.org/person/3080> . 
+<http://syriaca.org/person/2578> sp:bishop-over-clergy swds:activeRelationbishop-over-clergy-3059-11-11 . 
+swds:activeRelationbishop-over-clergy-3059-11-11 swd:bishop-over-clergy <http://syriaca.org/person/3080> . 
+swds:activeRelationbishop-over-clergy-3059-11-11 spr:reference-URL <https://spear-prosop.org/3059-11> . 
+<https://spear-prosop.org/3059-12> schema:description "This date comes from Alpi. 68"@en . 
+<https://spear-prosop.org/3059-12> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-12> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-12> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-12> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-12> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-12> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3059-13> schema:description "Anonymous 3083 was male."@en . 
+<https://spear-prosop.org/3059-13> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-13> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-13> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-13> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-13> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-13> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3083> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/3083> sp:gender swds:3059-13Instd0e6161 . 
+swds:3059-13Instd0e6161 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:3059-13Instd0e6161 prov:wasDerivedFrom <https://spear-prosop.org/3059-13> . 
+<https://spear-prosop.org/3059-14> schema:description "Anonymous 3083 was a steward of church property in Apamea."@en . 
+<https://spear-prosop.org/3059-14> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-14> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-14> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-14> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-14> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-14> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3083> swdt:occupation <http://syriaca.org/taxonomy/stewards> . 
+<http://syriaca.org/person/3083> sp:occupation swds:3059-14Instd0e6491 . 
+swds:3059-14Instd0e6491 sps:occupation <http://syriaca.org/taxonomy/stewards> . 
+swds:3059-14Instd0e6491 prov:wasDerivedFrom <https://spear-prosop.org/3059-14> . 
+<https://spear-prosop.org/3059-15> schema:description "Isaac had ecclesiastical authority over Anonymous 3083."@en . 
+<https://spear-prosop.org/3059-15> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-15> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-15> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-15> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-15> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-15> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2578> swdt:bishop-over-clergy <http://syriaca.org/person/3083> . 
+<http://syriaca.org/person/2578> sp:bishop-over-clergy swds:activeRelationbishop-over-clergy-3059-15-11 . 
+swds:activeRelationbishop-over-clergy-3059-15-11 swd:bishop-over-clergy <http://syriaca.org/person/3083> . 
+swds:activeRelationbishop-over-clergy-3059-15-11 spr:reference-URL <https://spear-prosop.org/3059-15> . 
+<https://spear-prosop.org/3059-16> schema:description "The date of 513 is derived from Alpi. 68"@en . 
+<https://spear-prosop.org/3059-16> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-16> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-16> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-16> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-16> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-16> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3059-17> schema:description "Anonymous 3081 were male."@en . 
+<https://spear-prosop.org/3059-17> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-17> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-17> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-17> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-17> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-17> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/3081> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/3081> sp:gender swds:3059-17Instd0e7561 . 
+swds:3059-17Instd0e7561 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:3059-17Instd0e7561 prov:wasDerivedFrom <https://spear-prosop.org/3059-17> . 
+<https://spear-prosop.org/3059-18> schema:description "A letter between Severus of Antioch and Isaac referenced Severus of Antioch and Isaac."@en . 
+<https://spear-prosop.org/3059-18> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3059-18> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3059-18> spr:part-of-series <https://spear-prosop.org/3059> . 
+<https://spear-prosop.org/3059-18> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3059-18> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3059-18> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/51> swdt:cited <http://syriaca.org/person/3081> . 
+<http://syriaca.org/person/51> sp:cited swds:activeRelationcited-3059-18-11 . 
+swds:activeRelationcited-3059-18-11 swd:cited <http://syriaca.org/person/3081> . 
+swds:activeRelationcited-3059-18-11 spr:reference-URL <https://spear-prosop.org/3059-18> . 
+<http://syriaca.org/person/2578> swdt:cited <http://syriaca.org/person/3081> . 
+<http://syriaca.org/person/2578> sp:cited swds:activeRelationcited-3059-18-12 . 
+swds:activeRelationcited-3059-18-12 swd:cited <http://syriaca.org/person/3081> . 
+swds:activeRelationcited-3059-18-12 spr:reference-URL <https://spear-prosop.org/3059-18> .

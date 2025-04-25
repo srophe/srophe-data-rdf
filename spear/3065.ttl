@@ -14,7 +14,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -26,4 +25,108 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3065> rdf:type  .
+<https://spear-prosop.org/3065-1> schema:description "Dionysius, Bishop of Tarsus"@en . 
+<https://spear-prosop.org/3065-1> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-1> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-1> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-1> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3065-2> schema:description "Dionysius was male."@en . 
+<https://spear-prosop.org/3065-2> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-2> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-2> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-2> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-2> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2520> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/2520> sp:gender swds:3065-2Instd0e2431 . 
+swds:3065-2Instd0e2431 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:3065-2Instd0e2431 prov:wasDerivedFrom <https://spear-prosop.org/3065-2> . 
+<https://spear-prosop.org/3065-3> schema:description "Dionysius was the Bishop of Tarsus."@en . 
+<https://spear-prosop.org/3065-3> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-3> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-3> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-3> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-3> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2520> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/2520> sp:occupation swds:3065-3Instd0e2761 . 
+swds:3065-3Instd0e2761 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:3065-3Instd0e2761 prov:wasDerivedFrom <https://spear-prosop.org/3065-3> . 
+<https://spear-prosop.org/3065-4> schema:description "Severus of Antioch sent a letter to Dionysios."@en . 
+<https://spear-prosop.org/3065-4> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-4> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-4> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-4> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-4> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/51> swdt:sender-of-letter-to <http://syriaca.org/person/2520> . 
+<http://syriaca.org/person/51> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3065-4-11 . 
+swds:activeRelationsender-of-letter-to-3065-4-11 swd:sender-of-letter-to <http://syriaca.org/person/2520> . 
+swds:activeRelationsender-of-letter-to-3065-4-11 spr:reference-URL <https://spear-prosop.org/3065-4> . 
+<https://spear-prosop.org/3065-5> schema:description "The God-loving bishop of Pompeiupolis"@en . 
+<https://spear-prosop.org/3065-5> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-5> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-5> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-5> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-5> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-5> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3065-6> schema:description "Basil was male."@en . 
+<https://spear-prosop.org/3065-6> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-6> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-6> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-6> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-6> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-6> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2617> swdt:gender <http://syriaca.org/taxonomy/men> . 
+<http://syriaca.org/person/2617> sp:gender swds:3065-6Instd0e3721 . 
+swds:3065-6Instd0e3721 sps:gender <http://syriaca.org/taxonomy/men> . 
+swds:3065-6Instd0e3721 prov:wasDerivedFrom <https://spear-prosop.org/3065-6> . 
+<https://spear-prosop.org/3065-7> schema:description "Basil was the Bishop of Pompeiupolis ."@en . 
+<https://spear-prosop.org/3065-7> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-7> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-7> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-7> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-7> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2617> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
+<http://syriaca.org/person/2617> sp:occupation swds:3065-7Instd0e4051 . 
+swds:3065-7Instd0e4051 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
+swds:3065-7Instd0e4051 prov:wasDerivedFrom <https://spear-prosop.org/3065-7> . 
+<https://spear-prosop.org/3065-8> schema:description "The soldiers who forced ordinations to be performed by the bishop of Pompeiupolis sometime during the episcopacy of Severus , 513-518"@en . 
+<https://spear-prosop.org/3065-8> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-8> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-8> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-8> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-8> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-8> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3065-9> schema:description "The man whom soldiers forced Basil of Pompeiupolis to ordain sometime during the episcopacy of Severus , 513-518"@en . 
+<https://spear-prosop.org/3065-9> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-9> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-9> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-9> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-9> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-9> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<https://spear-prosop.org/3065-10> schema:description "Severus of Antioch had enmity for Anonymi 3086."@en . 
+<https://spear-prosop.org/3065-10> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-10> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-10> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-10> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-10> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-10> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/51> swdt:enmity-for <http://syriaca.org/person/3086> . 
+<http://syriaca.org/person/51> sp:enmity-for swds:activeRelationenmity-for-3065-10-11 . 
+swds:activeRelationenmity-for-3065-10-11 swd:enmity-for <http://syriaca.org/person/3086> . 
+swds:activeRelationenmity-for-3065-10-11 spr:reference-URL <https://spear-prosop.org/3065-10> . 
+<https://spear-prosop.org/3065-11> schema:description "Basil ordained Anonymous 3087."@en . 
+<https://spear-prosop.org/3065-11> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3065-11> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3065-11> spr:part-of-series <https://spear-prosop.org/3065> . 
+<https://spear-prosop.org/3065-11> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
+<https://spear-prosop.org/3065-11> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3065-11> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
+<http://syriaca.org/person/2617> swdt:ordained <http://syriaca.org/person/3087> . 
+<http://syriaca.org/person/2617> sp:ordained swds:activeRelationordained-3065-11-11 . 
+swds:activeRelationordained-3065-11-11 swd:ordained <http://syriaca.org/person/3087> . 
+swds:activeRelationordained-3065-11-11 spr:reference-URL <https://spear-prosop.org/3065-11> .

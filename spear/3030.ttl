@@ -14,7 +14,6 @@
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix foaf:	<http://xmlns.com/foaf/0.1/> .
 @prefix geo: <http://www.w3.org/2003/01/geo/wgs84_pos#> .
-@prefix geosparql: <http://www.opengis.net/ont/geosparql#> .
 @prefix lawd:	<http://lawd.info/ontology/> .
 @prefix owl:	<http://www.w3.org/2002/07/owl#> .
 @prefix periodo:	<http://n2t.net/ark:/99152/p0v#> .
@@ -26,4 +25,78 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3030> rdf:type  .
+<https://spear-prosop.org/3030-1> schema:description "Severus wrote a letter to Simeon in which he urged him to remain as head of his monastery and not withdraw to live as an anchorite."@en . 
+<https://spear-prosop.org/3030-1> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3030-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3030-1> spr:part-of-series <https://spear-prosop.org/3030> . 
+<https://spear-prosop.org/3030-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3030-1> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+swd:event3030-1 rdfs:label "Event 3030-1"@en . 
+swd:event3030-1 swdt:event-participant <http://syriaca.org/person/51> . 
+swd:event3030-1 sp:event-participant swds:3030-1Instd0e204a1048 . 
+swds:3030-1Instd0e204a1048 sps:event-participant <http://syriaca.org/person/51> . 
+swds:3030-1Instd0e204a1048 prov:wasDerivedFrom <https://spear-prosop.org/3030-1> . 
+swd:event3030-1 swdt:event-participant <http://syriaca.org/person/2753> . 
+swd:event3030-1 sp:event-participant swds:3030-1Instd0e207a1048 . 
+swds:3030-1Instd0e207a1048 sps:event-participant <http://syriaca.org/person/2753> . 
+swds:3030-1Instd0e207a1048 prov:wasDerivedFrom <https://spear-prosop.org/3030-1> . 
+swd:event3030-1 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
+swd:event3030-1 sp:event-keyword swds:3030-1Inst1d0e2001 . 
+swds:3030-1Inst1d0e2001 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
+swds:3030-1Inst1d0e2001 prov:wasDerivedFrom <https://spear-prosop.org/3030-1> . 
+swd:event3030-1 swdt:event-keyword <http://syriaca.org/taxonomy/anchorites> . 
+swd:event3030-1 sp:event-keyword swds:3030-1Inst2d0e2002 . 
+swds:3030-1Inst2d0e2002 sps:event-keyword <http://syriaca.org/taxonomy/anchorites> . 
+swds:3030-1Inst2d0e2002 prov:wasDerivedFrom <https://spear-prosop.org/3030-1> . 
+swd:event3030-1 swdt:event-keyword <http://syriaca.org/taxonomy/monastic-heads> . 
+swd:event3030-1 sp:event-keyword swds:3030-1Inst3d0e2003 . 
+swds:3030-1Inst3d0e2003 sps:event-keyword <http://syriaca.org/taxonomy/monastic-heads> . 
+swds:3030-1Inst3d0e2003 prov:wasDerivedFrom <https://spear-prosop.org/3030-1> . 
+swds:event-3030-1-1 spq:not-before "0513"^^xsd:gYear . 
+<http://syriaca.org/person/51> swdt:sender-of-letter-to <http://syriaca.org/person/2753> . 
+<http://syriaca.org/person/51> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3030-1-11 . 
+swds:activeRelationsender-of-letter-to-3030-1-11 swd:sender-of-letter-to <http://syriaca.org/person/2753> . 
+swds:activeRelationsender-of-letter-to-3030-1-11 spr:reference-URL <https://spear-prosop.org/3030-1> . 
+<https://spear-prosop.org/3030-2> schema:description "Simeon was the monastic head of the Great Monastery."@en . 
+<https://spear-prosop.org/3030-2> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3030-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3030-2> spr:part-of-series <https://spear-prosop.org/3030> . 
+<https://spear-prosop.org/3030-2> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3030-2> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/2753> swdt:occupation <http://syriaca.org/taxonomy/monastic-heads> . 
+<http://syriaca.org/person/2753> sp:occupation swds:3030-2Instd0e2411 . 
+swds:3030-2Instd0e2411 sps:occupation <http://syriaca.org/taxonomy/monastic-heads> . 
+swds:3030-2Instd0e2411 prov:wasDerivedFrom <https://spear-prosop.org/3030-2> . 
+<https://spear-prosop.org/3030-3> schema:description "Simeon left his responsibilities as monastic head in order to live as an anchorite but Severus called him to return."@en . 
+<https://spear-prosop.org/3030-3> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3030-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3030-3> spr:part-of-series <https://spear-prosop.org/3030> . 
+<https://spear-prosop.org/3030-3> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3030-3> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+swd:event3030-3 rdfs:label "Event 3030-3"@en . 
+swd:event3030-3 swdt:event-participant <http://syriaca.org/person/2753> . 
+swd:event3030-3 sp:event-participant swds:3030-3Instd0e278a1048 . 
+swds:3030-3Instd0e278a1048 sps:event-participant <http://syriaca.org/person/2753> . 
+swds:3030-3Instd0e278a1048 prov:wasDerivedFrom <https://spear-prosop.org/3030-3> . 
+swd:event3030-3 swdt:event-participant <http://syriaca.org/person/51> . 
+swd:event3030-3 sp:event-participant swds:3030-3Instd0e281a1048 . 
+swds:3030-3Instd0e281a1048 sps:event-participant <http://syriaca.org/person/51> . 
+swds:3030-3Instd0e281a1048 prov:wasDerivedFrom <https://spear-prosop.org/3030-3> . 
+swd:event3030-3 swdt:event-keyword <http://syriaca.org/taxonomy/anchorites> . 
+swd:event3030-3 sp:event-keyword swds:3030-3Inst1d0e2741 . 
+swds:3030-3Inst1d0e2741 sps:event-keyword <http://syriaca.org/taxonomy/anchorites> . 
+swds:3030-3Inst1d0e2741 prov:wasDerivedFrom <https://spear-prosop.org/3030-3> . 
+swd:event3030-3 swdt:event-keyword <http://syriaca.org/taxonomy/monastic-heads> . 
+swd:event3030-3 sp:event-keyword swds:3030-3Inst2d0e2742 . 
+swds:3030-3Inst2d0e2742 sps:event-keyword <http://syriaca.org/taxonomy/monastic-heads> . 
+swds:3030-3Inst2d0e2742 prov:wasDerivedFrom <https://spear-prosop.org/3030-3> . 
+<https://spear-prosop.org/3030-4> schema:description "Severus was a bishop with authority over Simeon."@en . 
+<https://spear-prosop.org/3030-4> spr:part-of-series <https://spear-prosop.org> . 
+<https://spear-prosop.org/3030-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
+<https://spear-prosop.org/3030-4> spr:part-of-series <https://spear-prosop.org/3030> . 
+<https://spear-prosop.org/3030-4> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
+<https://spear-prosop.org/3030-4> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/51> swdt:bishop-over <http://syriaca.org/person/2753> . 
+<http://syriaca.org/person/51> sp:bishop-over swds:activeRelationbishop-over-3030-4-11 . 
+swds:activeRelationbishop-over-3030-4-11 swd:bishop-over <http://syriaca.org/person/2753> . 
+swds:activeRelationbishop-over-3030-4-11 spr:reference-URL <https://spear-prosop.org/3030-4> .
