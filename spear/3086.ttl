@@ -25,14 +25,18 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3086-1> schema:description "Stephen, Bishop of Tripoli"@en . 
+<https://spear-prosop.org/3086-1> schema:description "Stephen, Bishop of"@en . 
 <https://spear-prosop.org/3086-1> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-1> spr:part-of-series <https://spear-prosop.org/3086> . 
 <https://spear-prosop.org/3086-1> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3086-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3086-1> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3086-2> schema:description "Stephen was male."@en . 
+<http://syriaca.org/person/2532> swdt:name-variant "Stephen, Bishop of Tripoli"@en . 
+<http://syriaca.org/person/2532> sp:name-variant swds:3086-1 . 
+swds:3086-1 sps:name-variant "Stephen, Bishop of Tripoli"@en . 
+swds:3086-1 spr:reference-URL <https://spear-prosop.org/3086-1> . 
+<https://spear-prosop.org/3086-2> schema:description "Stephen"@en . 
 <https://spear-prosop.org/3086-2> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-2> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -42,8 +46,8 @@
 <http://syriaca.org/person/2532> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2532> sp:gender swds:3086-2Instd0e2591 . 
 swds:3086-2Instd0e2591 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3086-2Instd0e2591 prov:wasDerivedFrom <https://spear-prosop.org/3086-2> . 
-<https://spear-prosop.org/3086-3> schema:description "Stephen was Bishop of Tripoli."@en . 
+swds:3086-2Instd0e2591 spr:reference-URL <https://spear-prosop.org/3086-2> . 
+<https://spear-prosop.org/3086-3> schema:description "Stephen"@en . 
 <https://spear-prosop.org/3086-3> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-3> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -53,7 +57,7 @@ swds:3086-2Instd0e2591 prov:wasDerivedFrom <https://spear-prosop.org/3086-2> .
 <http://syriaca.org/person/2532> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
 <http://syriaca.org/person/2532> sp:occupation swds:3086-3Instd0e2921 . 
 swds:3086-3Instd0e2921 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
-swds:3086-3Instd0e2921 prov:wasDerivedFrom <https://spear-prosop.org/3086-3> . 
+swds:3086-3Instd0e2921 spr:reference-URL <https://spear-prosop.org/3086-3> . 
 <https://spear-prosop.org/3086-4> schema:description "Severus of Antioch sent a letter to Stephen."@en . 
 <https://spear-prosop.org/3086-4> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -72,7 +76,11 @@ swds:activeRelationsender-of-letter-to-3086-4-11 spr:reference-URL <https://spea
 <https://spear-prosop.org/3086-5> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3086-5> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3086-5> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3086-6> schema:description "Stephen was male."@en . 
+<http://syriaca.org/person/2533> swdt:name-variant "Stephen"@en . 
+<http://syriaca.org/person/2533> sp:name-variant swds:3086-5 . 
+swds:3086-5 sps:name-variant "Stephen"@en . 
+swds:3086-5 spr:reference-URL <https://spear-prosop.org/3086-5> . 
+<https://spear-prosop.org/3086-6> schema:description "Stephen"@en . 
 <https://spear-prosop.org/3086-6> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-6> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-6> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -82,8 +90,8 @@ swds:activeRelationsender-of-letter-to-3086-4-11 spr:reference-URL <https://spea
 <http://syriaca.org/person/2533> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2533> sp:gender swds:3086-6Instd0e3861 . 
 swds:3086-6Instd0e3861 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3086-6Instd0e3861 prov:wasDerivedFrom <https://spear-prosop.org/3086-6> . 
-<https://spear-prosop.org/3086-7> schema:description "Stephen was a presbyter of Tripoli"@en . 
+swds:3086-6Instd0e3861 spr:reference-URL <https://spear-prosop.org/3086-6> . 
+<https://spear-prosop.org/3086-7> schema:description "Stephen"@en . 
 <https://spear-prosop.org/3086-7> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-7> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -93,7 +101,7 @@ swds:3086-6Instd0e3861 prov:wasDerivedFrom <https://spear-prosop.org/3086-6> .
 <http://syriaca.org/person/2533> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
 <http://syriaca.org/person/2533> sp:occupation swds:3086-7Instd0e4191 . 
 swds:3086-7Instd0e4191 sps:occupation <http://syriaca.org/taxonomy/priests> . 
-swds:3086-7Instd0e4191 prov:wasDerivedFrom <https://spear-prosop.org/3086-7> . 
+swds:3086-7Instd0e4191 spr:reference-URL <https://spear-prosop.org/3086-7> . 
 <https://spear-prosop.org/3086-8> schema:description "Stephen had ecclesiastical authority over Stephen."@en . 
 <https://spear-prosop.org/3086-8> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-8> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -112,7 +120,11 @@ swds:activeRelationbishop-over-clergy-3086-8-11 spr:reference-URL <https://spear
 <https://spear-prosop.org/3086-9> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3086-9> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3086-9> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3086-10> schema:description "Cyril was male."@en . 
+<http://syriaca.org/person/430> swdt:name-variant "Cyril"@en . 
+<http://syriaca.org/person/430> sp:name-variant swds:3086-9 . 
+swds:3086-9 sps:name-variant "Cyril"@en . 
+swds:3086-9 spr:reference-URL <https://spear-prosop.org/3086-9> . 
+<https://spear-prosop.org/3086-10> schema:description "Cyril"@en . 
 <https://spear-prosop.org/3086-10> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-10> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-10> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -122,7 +134,7 @@ swds:activeRelationbishop-over-clergy-3086-8-11 spr:reference-URL <https://spear
 <http://syriaca.org/person/430> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/430> sp:gender swds:3086-10Instd0e5111 . 
 swds:3086-10Instd0e5111 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3086-10Instd0e5111 prov:wasDerivedFrom <https://spear-prosop.org/3086-10> . 
+swds:3086-10Instd0e5111 spr:reference-URL <https://spear-prosop.org/3086-10> . 
 <https://spear-prosop.org/3086-11> schema:description "Severus of Antioch refered to the writings of Cyril of Alexandria."@en . 
 <https://spear-prosop.org/3086-11> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-11> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -141,7 +153,11 @@ swds:activeRelationcited-3086-11-11 spr:reference-URL <https://spear-prosop.org/
 <https://spear-prosop.org/3086-12> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3086-12> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3086-12> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3086-13> schema:description "Severus was male."@en . 
+<http://syriaca.org/person/2534> swdt:name-variant "Severus, the presbyter"@en . 
+<http://syriaca.org/person/2534> sp:name-variant swds:3086-12 . 
+swds:3086-12 sps:name-variant "Severus, the presbyter"@en . 
+swds:3086-12 spr:reference-URL <https://spear-prosop.org/3086-12> . 
+<https://spear-prosop.org/3086-13> schema:description "Severus"@en . 
 <https://spear-prosop.org/3086-13> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-13> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-13> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -151,8 +167,8 @@ swds:activeRelationcited-3086-11-11 spr:reference-URL <https://spear-prosop.org/
 <http://syriaca.org/person/2534> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2534> sp:gender swds:3086-13Instd0e6021 . 
 swds:3086-13Instd0e6021 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3086-13Instd0e6021 prov:wasDerivedFrom <https://spear-prosop.org/3086-13> . 
-<https://spear-prosop.org/3086-14> schema:description "Severus was a presbyter."@en . 
+swds:3086-13Instd0e6021 spr:reference-URL <https://spear-prosop.org/3086-13> . 
+<https://spear-prosop.org/3086-14> schema:description "Severus"@en . 
 <https://spear-prosop.org/3086-14> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-14> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-14> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -162,7 +178,7 @@ swds:3086-13Instd0e6021 prov:wasDerivedFrom <https://spear-prosop.org/3086-13> .
 <http://syriaca.org/person/2534> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
 <http://syriaca.org/person/2534> sp:occupation swds:3086-14Instd0e6351 . 
 swds:3086-14Instd0e6351 sps:occupation <http://syriaca.org/taxonomy/priests> . 
-swds:3086-14Instd0e6351 prov:wasDerivedFrom <https://spear-prosop.org/3086-14> . 
+swds:3086-14Instd0e6351 spr:reference-URL <https://spear-prosop.org/3086-14> . 
 <https://spear-prosop.org/3086-15> schema:description "A letter between Severus of Antioch and Stephen referenced Severus of Antioch and Stephen."@en . 
 <https://spear-prosop.org/3086-15> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-15> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -185,7 +201,11 @@ swds:activeRelationcited-3086-15-12 spr:reference-URL <https://spear-prosop.org/
 <https://spear-prosop.org/3086-16> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3086-16> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3086-16> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3086-17> schema:description "Theodore was male."@en . 
+<http://syriaca.org/person/2535> swdt:name-variant "Theodore, the illustrious Governor and vindex"@en . 
+<http://syriaca.org/person/2535> sp:name-variant swds:3086-16 . 
+swds:3086-16 sps:name-variant "Theodore, the illustrious Governor and vindex"@en . 
+swds:3086-16 spr:reference-URL <https://spear-prosop.org/3086-16> . 
+<https://spear-prosop.org/3086-17> schema:description "Theodore"@en . 
 <https://spear-prosop.org/3086-17> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-17> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-17> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -195,8 +215,8 @@ swds:activeRelationcited-3086-15-12 spr:reference-URL <https://spear-prosop.org/
 <http://syriaca.org/person/2535> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2535> sp:gender swds:3086-17Instd0e7321 . 
 swds:3086-17Instd0e7321 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3086-17Instd0e7321 prov:wasDerivedFrom <https://spear-prosop.org/3086-17> . 
-<https://spear-prosop.org/3086-18> schema:description "Theodore was a governor."@en . 
+swds:3086-17Instd0e7321 spr:reference-URL <https://spear-prosop.org/3086-17> . 
+<https://spear-prosop.org/3086-18> schema:description "Theodore"@en . 
 <https://spear-prosop.org/3086-18> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-18> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-18> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -206,8 +226,8 @@ swds:3086-17Instd0e7321 prov:wasDerivedFrom <https://spear-prosop.org/3086-17> .
 <http://syriaca.org/person/2535> swdt:occupation <http://syriaca.org/taxonomy/governors> . 
 <http://syriaca.org/person/2535> sp:occupation swds:3086-18Instd0e7661 . 
 swds:3086-18Instd0e7661 sps:occupation <http://syriaca.org/taxonomy/governors> . 
-swds:3086-18Instd0e7661 prov:wasDerivedFrom <https://spear-prosop.org/3086-18> . 
-<https://spear-prosop.org/3086-19> schema:description "Theodore was a vindex."@en . 
+swds:3086-18Instd0e7661 spr:reference-URL <https://spear-prosop.org/3086-18> . 
+<https://spear-prosop.org/3086-19> schema:description "Theodore"@en . 
 <https://spear-prosop.org/3086-19> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-19> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3086-19> spr:part-of-series <https://spear-prosop.org/3086> . 
@@ -217,7 +237,7 @@ swds:3086-18Instd0e7661 prov:wasDerivedFrom <https://spear-prosop.org/3086-18> .
 <http://syriaca.org/person/2535> swdt:occupation <http://syriaca.org/taxonomy/vindices> . 
 <http://syriaca.org/person/2535> sp:occupation swds:3086-19Instd0e7991 . 
 swds:3086-19Instd0e7991 sps:occupation <http://syriaca.org/taxonomy/vindices> . 
-swds:3086-19Instd0e7991 prov:wasDerivedFrom <https://spear-prosop.org/3086-19> . 
+swds:3086-19Instd0e7991 spr:reference-URL <https://spear-prosop.org/3086-19> . 
 <https://spear-prosop.org/3086-20> schema:description "A letter between Severus of Antioch and Stephen referenced Severus of Antioch and Stephen."@en . 
 <https://spear-prosop.org/3086-20> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-20> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -243,47 +263,47 @@ swd:event3086-21 rdfs:label "Event 3086-21"@en .
 swd:event3086-21 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3086-21 sp:event-participant swds:3086-21Instd0e872a1048 . 
 swds:3086-21Instd0e872a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3086-21Instd0e872a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Instd0e872a1048 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-participant <http://syriaca.org/person/2532> . 
 swd:event3086-21 sp:event-participant swds:3086-21Instd0e875a1048 . 
 swds:3086-21Instd0e875a1048 sps:event-participant <http://syriaca.org/person/2532> . 
-swds:3086-21Instd0e875a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Instd0e875a1048 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-participant <http://syriaca.org/person/2533> . 
 swd:event3086-21 sp:event-participant swds:3086-21Instd0e880a1048 . 
 swds:3086-21Instd0e880a1048 sps:event-participant <http://syriaca.org/person/2533> . 
-swds:3086-21Instd0e880a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Instd0e880a1048 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-place <http://syriaca.org/place/2726> . 
 swd:event3086-21 sp:event-place swds:3086-21Instd0e877a1048 . 
 swds:3086-21Instd0e877a1048 sps:event-place <http://syriaca.org/place/2726> . 
-swds:3086-21Instd0e877a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Instd0e877a1048 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-place <http://syriaca.org/place/2726> . 
 swd:event3086-21 sp:event-place swds:3086-21Instd0e883a1048 . 
 swds:3086-21Instd0e883a1048 sps:event-place <http://syriaca.org/place/2726> . 
-swds:3086-21Instd0e883a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Instd0e883a1048 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-keyword <http://syriaca.org/taxonomy/ordination> . 
 swd:event3086-21 sp:event-keyword swds:3086-21Inst1d0e8661 . 
 swds:3086-21Inst1d0e8661 sps:event-keyword <http://syriaca.org/taxonomy/ordination> . 
-swds:3086-21Inst1d0e8661 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Inst1d0e8661 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-keyword <http://syriaca.org/taxonomy/clergy> . 
 swd:event3086-21 sp:event-keyword swds:3086-21Inst2d0e8662 . 
 swds:3086-21Inst2d0e8662 sps:event-keyword <http://syriaca.org/taxonomy/clergy> . 
-swds:3086-21Inst2d0e8662 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Inst2d0e8662 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
 swd:event3086-21 sp:event-keyword swds:3086-21Inst3d0e8663 . 
 swds:3086-21Inst3d0e8663 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
-swds:3086-21Inst3d0e8663 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Inst3d0e8663 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-keyword <http://syriaca.org/taxonomy/heterodoxy> . 
 swd:event3086-21 sp:event-keyword swds:3086-21Inst4d0e8664 . 
 swds:3086-21Inst4d0e8664 sps:event-keyword <http://syriaca.org/taxonomy/heterodoxy> . 
-swds:3086-21Inst4d0e8664 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Inst4d0e8664 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-keyword <http://syriaca.org/taxonomy/anti-nestorian> . 
 swd:event3086-21 sp:event-keyword swds:3086-21Inst5d0e8665 . 
 swds:3086-21Inst5d0e8665 sps:event-keyword <http://syriaca.org/taxonomy/anti-nestorian> . 
-swds:3086-21Inst5d0e8665 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Inst5d0e8665 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swd:event3086-21 swdt:event-keyword <http://syriaca.org/taxonomy/canon-law> . 
 swd:event3086-21 sp:event-keyword swds:3086-21Inst6d0e8666 . 
 swds:3086-21Inst6d0e8666 sps:event-keyword <http://syriaca.org/taxonomy/canon-law> . 
-swds:3086-21Inst6d0e8666 prov:wasDerivedFrom <https://spear-prosop.org/3086-21> . 
+swds:3086-21Inst6d0e8666 spr:reference-URL <https://spear-prosop.org/3086-21> . 
 swds:event-3086-21-1 spq:not-before "0513"^^xsd:gYear . 
 <https://spear-prosop.org/3086-22> schema:description "Stephen had been ordained by force."@en . 
 <https://spear-prosop.org/3086-22> spr:part-of-series <https://spear-prosop.org> . 
@@ -295,19 +315,19 @@ swd:event3086-22 rdfs:label "Event 3086-22"@en .
 swd:event3086-22 swdt:event-participant <http://syriaca.org/person/2533> . 
 swd:event3086-22 sp:event-participant swds:3086-22Instd0e911a1048 . 
 swds:3086-22Instd0e911a1048 sps:event-participant <http://syriaca.org/person/2533> . 
-swds:3086-22Instd0e911a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-22> . 
+swds:3086-22Instd0e911a1048 spr:reference-URL <https://spear-prosop.org/3086-22> . 
 swd:event3086-22 swdt:event-keyword <http://syriaca.org/taxonomy/ordination> . 
 swd:event3086-22 sp:event-keyword swds:3086-22Inst1d0e9081 . 
 swds:3086-22Inst1d0e9081 sps:event-keyword <http://syriaca.org/taxonomy/ordination> . 
-swds:3086-22Inst1d0e9081 prov:wasDerivedFrom <https://spear-prosop.org/3086-22> . 
+swds:3086-22Inst1d0e9081 spr:reference-URL <https://spear-prosop.org/3086-22> . 
 swd:event3086-22 swdt:event-keyword <http://syriaca.org/taxonomy/clergy> . 
 swd:event3086-22 sp:event-keyword swds:3086-22Inst2d0e9082 . 
 swds:3086-22Inst2d0e9082 sps:event-keyword <http://syriaca.org/taxonomy/clergy> . 
-swds:3086-22Inst2d0e9082 prov:wasDerivedFrom <https://spear-prosop.org/3086-22> . 
+swds:3086-22Inst2d0e9082 spr:reference-URL <https://spear-prosop.org/3086-22> . 
 swd:event3086-22 swdt:event-keyword <http://syriaca.org/taxonomy/violence> . 
 swd:event3086-22 sp:event-keyword swds:3086-22Inst3d0e9083 . 
 swds:3086-22Inst3d0e9083 sps:event-keyword <http://syriaca.org/taxonomy/violence> . 
-swds:3086-22Inst3d0e9083 prov:wasDerivedFrom <https://spear-prosop.org/3086-22> . 
+swds:3086-22Inst3d0e9083 spr:reference-URL <https://spear-prosop.org/3086-22> . 
 <https://spear-prosop.org/3086-23> schema:description "Appealing to Cyril's letter to Nestorius and the example of Severus the presbyter, Severus urged Stephen to accept the ordination of Stephen because heretics cannot be expected to follow canon-law."@en . 
 <https://spear-prosop.org/3086-23> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-23> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -318,55 +338,55 @@ swd:event3086-23 rdfs:label "Event 3086-23"@en .
 swd:event3086-23 swdt:event-participant <http://syriaca.org/person/430> . 
 swd:event3086-23 sp:event-participant swds:3086-23Instd0e940a1048 . 
 swds:3086-23Instd0e940a1048 sps:event-participant <http://syriaca.org/person/430> . 
-swds:3086-23Instd0e940a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Instd0e940a1048 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-participant <http://syriaca.org/person/655> . 
 swd:event3086-23 sp:event-participant swds:3086-23Instd0e943a1048 . 
 swds:3086-23Instd0e943a1048 sps:event-participant <http://syriaca.org/person/655> . 
-swds:3086-23Instd0e943a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Instd0e943a1048 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-participant <http://syriaca.org/person/2534> . 
 swd:event3086-23 sp:event-participant swds:3086-23Instd0e946a1048 . 
 swds:3086-23Instd0e946a1048 sps:event-participant <http://syriaca.org/person/2534> . 
-swds:3086-23Instd0e946a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Instd0e946a1048 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3086-23 sp:event-participant swds:3086-23Instd0e949a1048 . 
 swds:3086-23Instd0e949a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3086-23Instd0e949a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Instd0e949a1048 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-participant <http://syriaca.org/person/2532> . 
 swd:event3086-23 sp:event-participant swds:3086-23Instd0e952a1048 . 
 swds:3086-23Instd0e952a1048 sps:event-participant <http://syriaca.org/person/2532> . 
-swds:3086-23Instd0e952a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Instd0e952a1048 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-participant <http://syriaca.org/person/2533> . 
 swd:event3086-23 sp:event-participant swds:3086-23Instd0e956a1048 . 
 swds:3086-23Instd0e956a1048 sps:event-participant <http://syriaca.org/person/2533> . 
-swds:3086-23Instd0e956a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Instd0e956a1048 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/anti-nestorian> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst1d0e9361 . 
 swds:3086-23Inst1d0e9361 sps:event-keyword <http://syriaca.org/taxonomy/anti-nestorian> . 
-swds:3086-23Inst1d0e9361 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst1d0e9361 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/ordination> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst2d0e9362 . 
 swds:3086-23Inst2d0e9362 sps:event-keyword <http://syriaca.org/taxonomy/ordination> . 
-swds:3086-23Inst2d0e9362 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst2d0e9362 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/canon-law> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst3d0e9363 . 
 swds:3086-23Inst3d0e9363 sps:event-keyword <http://syriaca.org/taxonomy/canon-law> . 
-swds:3086-23Inst3d0e9363 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst3d0e9363 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/clergy> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst4d0e9364 . 
 swds:3086-23Inst4d0e9364 sps:event-keyword <http://syriaca.org/taxonomy/clergy> . 
-swds:3086-23Inst4d0e9364 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst4d0e9364 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/bishops> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst5d0e9365 . 
 swds:3086-23Inst5d0e9365 sps:event-keyword <http://syriaca.org/taxonomy/bishops> . 
-swds:3086-23Inst5d0e9365 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst5d0e9365 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/priests> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst6d0e9366 . 
 swds:3086-23Inst6d0e9366 sps:event-keyword <http://syriaca.org/taxonomy/priests> . 
-swds:3086-23Inst6d0e9366 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst6d0e9366 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 swd:event3086-23 swdt:event-keyword <http://syriaca.org/taxonomy/bishop-over> . 
 swd:event3086-23 sp:event-keyword swds:3086-23Inst7d0e9367 . 
 swds:3086-23Inst7d0e9367 sps:event-keyword <http://syriaca.org/taxonomy/bishop-over> . 
-swds:3086-23Inst7d0e9367 prov:wasDerivedFrom <https://spear-prosop.org/3086-23> . 
+swds:3086-23Inst7d0e9367 spr:reference-URL <https://spear-prosop.org/3086-23> . 
 <https://spear-prosop.org/3086-24> schema:description "Severus suggested that Stephen ensure that a cross remain erected in front of the house of Theodore the governor."@en . 
 <https://spear-prosop.org/3086-24> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3086-24> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -377,24 +397,24 @@ swd:event3086-24 rdfs:label "Event 3086-24"@en .
 swd:event3086-24 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3086-24 sp:event-participant swds:3086-24Instd0e985a1048 . 
 swds:3086-24Instd0e985a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3086-24Instd0e985a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-24> . 
+swds:3086-24Instd0e985a1048 spr:reference-URL <https://spear-prosop.org/3086-24> . 
 swd:event3086-24 swdt:event-participant <http://syriaca.org/person/2532> . 
 swd:event3086-24 sp:event-participant swds:3086-24Instd0e988a1048 . 
 swds:3086-24Instd0e988a1048 sps:event-participant <http://syriaca.org/person/2532> . 
-swds:3086-24Instd0e988a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-24> . 
+swds:3086-24Instd0e988a1048 spr:reference-URL <https://spear-prosop.org/3086-24> . 
 swd:event3086-24 swdt:event-participant <http://syriaca.org/person/2535> . 
 swd:event3086-24 sp:event-participant swds:3086-24Instd0e991a1048 . 
 swds:3086-24Instd0e991a1048 sps:event-participant <http://syriaca.org/person/2535> . 
-swds:3086-24Instd0e991a1048 prov:wasDerivedFrom <https://spear-prosop.org/3086-24> . 
+swds:3086-24Instd0e991a1048 spr:reference-URL <https://spear-prosop.org/3086-24> . 
 swd:event3086-24 swdt:event-keyword <http://syriaca.org/taxonomy/crosses> . 
 swd:event3086-24 sp:event-keyword swds:3086-24Inst1d0e9821 . 
 swds:3086-24Inst1d0e9821 sps:event-keyword <http://syriaca.org/taxonomy/crosses> . 
-swds:3086-24Inst1d0e9821 prov:wasDerivedFrom <https://spear-prosop.org/3086-24> . 
+swds:3086-24Inst1d0e9821 spr:reference-URL <https://spear-prosop.org/3086-24> . 
 swd:event3086-24 swdt:event-keyword <http://syriaca.org/taxonomy/bishops> . 
 swd:event3086-24 sp:event-keyword swds:3086-24Inst2d0e9822 . 
 swds:3086-24Inst2d0e9822 sps:event-keyword <http://syriaca.org/taxonomy/bishops> . 
-swds:3086-24Inst2d0e9822 prov:wasDerivedFrom <https://spear-prosop.org/3086-24> . 
+swds:3086-24Inst2d0e9822 spr:reference-URL <https://spear-prosop.org/3086-24> . 
 swd:event3086-24 swdt:event-keyword <http://syriaca.org/taxonomy/civil-servants> . 
 swd:event3086-24 sp:event-keyword swds:3086-24Inst3d0e9823 . 
 swds:3086-24Inst3d0e9823 sps:event-keyword <http://syriaca.org/taxonomy/civil-servants> . 
-swds:3086-24Inst3d0e9823 prov:wasDerivedFrom <https://spear-prosop.org/3086-24> .
+swds:3086-24Inst3d0e9823 spr:reference-URL <https://spear-prosop.org/3086-24> .

@@ -25,14 +25,18 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3020-1> schema:description "Archelaus, the reader of Tyre"@en . 
+<https://spear-prosop.org/3020-1> schema:description "Archelaus, the reader of"@en . 
 <https://spear-prosop.org/3020-1> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-1> spr:part-of-series <https://spear-prosop.org/3020> . 
 <https://spear-prosop.org/3020-1> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3020-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3020-1> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
-<https://spear-prosop.org/3020-2> schema:description "Archelaus was male."@en . 
+<http://syriaca.org/person/2606> swdt:name-variant "Archelaus, the reader of Tyre"@en . 
+<http://syriaca.org/person/2606> sp:name-variant swds:3020-1 . 
+swds:3020-1 sps:name-variant "Archelaus, the reader of Tyre"@en . 
+swds:3020-1 spr:reference-URL <https://spear-prosop.org/3020-1> . 
+<https://spear-prosop.org/3020-2> schema:description "Archelaus"@en . 
 <https://spear-prosop.org/3020-2> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-2> spr:part-of-series <https://spear-prosop.org/3020> . 
@@ -42,8 +46,8 @@
 <http://syriaca.org/person/2606> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2606> sp:gender swds:3020-2Instd0e2591 . 
 swds:3020-2Instd0e2591 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3020-2Instd0e2591 prov:wasDerivedFrom <https://spear-prosop.org/3020-2> . 
-<https://spear-prosop.org/3020-3> schema:description "Archelaus was a reader in Tyre."@en . 
+swds:3020-2Instd0e2591 spr:reference-URL <https://spear-prosop.org/3020-2> . 
+<https://spear-prosop.org/3020-3> schema:description "Archelaus"@en . 
 <https://spear-prosop.org/3020-3> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-3> spr:part-of-series <https://spear-prosop.org/3020> . 
@@ -53,7 +57,7 @@ swds:3020-2Instd0e2591 prov:wasDerivedFrom <https://spear-prosop.org/3020-2> .
 <http://syriaca.org/person/2606> swdt:occupation <http://syriaca.org/taxonomy/readers> . 
 <http://syriaca.org/person/2606> sp:occupation swds:3020-3Instd0e2921 . 
 swds:3020-3Instd0e2921 sps:occupation <http://syriaca.org/taxonomy/readers> . 
-swds:3020-3Instd0e2921 prov:wasDerivedFrom <https://spear-prosop.org/3020-3> . 
+swds:3020-3Instd0e2921 spr:reference-URL <https://spear-prosop.org/3020-3> . 
 <https://spear-prosop.org/3020-4> schema:description "Severus wrote a letter to Archaelaus concerning the invalidity of heretics who adminsister bans."@en . 
 <https://spear-prosop.org/3020-4> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -65,27 +69,27 @@ swd:event3020-4 rdfs:label "Event 3020-4"@en .
 swd:event3020-4 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3020-4 sp:event-participant swds:3020-4Instd0e328a1048 . 
 swds:3020-4Instd0e328a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3020-4Instd0e328a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-4> . 
+swds:3020-4Instd0e328a1048 spr:reference-URL <https://spear-prosop.org/3020-4> . 
 swd:event3020-4 swdt:event-participant <http://syriaca.org/person/2606> . 
 swd:event3020-4 sp:event-participant swds:3020-4Instd0e331a1048 . 
 swds:3020-4Instd0e331a1048 sps:event-participant <http://syriaca.org/person/2606> . 
-swds:3020-4Instd0e331a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-4> . 
+swds:3020-4Instd0e331a1048 spr:reference-URL <https://spear-prosop.org/3020-4> . 
 swd:event3020-4 swdt:event-keyword <http://syriaca.org/taxonomy/heterodoxy> . 
 swd:event3020-4 sp:event-keyword swds:3020-4Inst1d0e3241 . 
 swds:3020-4Inst1d0e3241 sps:event-keyword <http://syriaca.org/taxonomy/heterodoxy> . 
-swds:3020-4Inst1d0e3241 prov:wasDerivedFrom <https://spear-prosop.org/3020-4> . 
+swds:3020-4Inst1d0e3241 spr:reference-URL <https://spear-prosop.org/3020-4> . 
 swd:event3020-4 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
 swd:event3020-4 sp:event-keyword swds:3020-4Inst2d0e3242 . 
 swds:3020-4Inst2d0e3242 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
-swds:3020-4Inst2d0e3242 prov:wasDerivedFrom <https://spear-prosop.org/3020-4> . 
+swds:3020-4Inst2d0e3242 spr:reference-URL <https://spear-prosop.org/3020-4> . 
 swd:event3020-4 swdt:event-keyword <http://syriaca.org/taxonomy/readers> . 
 swd:event3020-4 sp:event-keyword swds:3020-4Inst3d0e3243 . 
 swds:3020-4Inst3d0e3243 sps:event-keyword <http://syriaca.org/taxonomy/readers> . 
-swds:3020-4Inst3d0e3243 prov:wasDerivedFrom <https://spear-prosop.org/3020-4> . 
+swds:3020-4Inst3d0e3243 spr:reference-URL <https://spear-prosop.org/3020-4> . 
 swd:event3020-4 swdt:event-keyword <http://syriaca.org/taxonomy/anathema> . 
 swd:event3020-4 sp:event-keyword swds:3020-4Inst4d0e3244 . 
 swds:3020-4Inst4d0e3244 sps:event-keyword <http://syriaca.org/taxonomy/anathema> . 
-swds:3020-4Inst4d0e3244 prov:wasDerivedFrom <https://spear-prosop.org/3020-4> . 
+swds:3020-4Inst4d0e3244 spr:reference-URL <https://spear-prosop.org/3020-4> . 
 swds:event-3020-4-1 spq:not-before "0513"^^xsd:gYear . 
 <http://syriaca.org/person/51> swdt:sender-of-letter-to <http://syriaca.org/person/2606> . 
 <http://syriaca.org/person/51> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3020-4-11 . 
@@ -98,7 +102,11 @@ swds:activeRelationsender-of-letter-to-3020-4-11 spr:reference-URL <https://spea
 <https://spear-prosop.org/3020-5> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3020-5> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3020-5> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
-<https://spear-prosop.org/3020-6> schema:description "Menas was male."@en . 
+<http://syriaca.org/person/2705> swdt:name-variant "Menas"@en . 
+<http://syriaca.org/person/2705> sp:name-variant swds:3020-5 . 
+swds:3020-5 sps:name-variant "Menas"@en . 
+swds:3020-5 spr:reference-URL <https://spear-prosop.org/3020-5> . 
+<https://spear-prosop.org/3020-6> schema:description "Menas"@en . 
 <https://spear-prosop.org/3020-6> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-6> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-6> spr:part-of-series <https://spear-prosop.org/3020> . 
@@ -108,7 +116,7 @@ swds:activeRelationsender-of-letter-to-3020-4-11 spr:reference-URL <https://spea
 <http://syriaca.org/person/2705> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2705> sp:gender swds:3020-6Instd0e3921 . 
 swds:3020-6Instd0e3921 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3020-6Instd0e3921 prov:wasDerivedFrom <https://spear-prosop.org/3020-6> . 
+swds:3020-6Instd0e3921 spr:reference-URL <https://spear-prosop.org/3020-6> . 
 <https://spear-prosop.org/3020-7> schema:description "Severus of Antioch, Menas of Tyre, Isidore, Anonymi 3034 and Archelaus had a professional relationship."@en . 
 <https://spear-prosop.org/3020-7> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -283,7 +291,11 @@ swds:activeRelationprofessional-relationship-3020-7-14 spr:reference-URL <https:
 <https://spear-prosop.org/3020-8> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3020-8> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3020-8> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
-<https://spear-prosop.org/3020-9> schema:description "Isidore was male."@en . 
+<http://syriaca.org/person/2667> swdt:name-variant "Isidore"@en . 
+<http://syriaca.org/person/2667> sp:name-variant swds:3020-8 . 
+swds:3020-8 sps:name-variant "Isidore"@en . 
+swds:3020-8 spr:reference-URL <https://spear-prosop.org/3020-8> . 
+<https://spear-prosop.org/3020-9> schema:description "Isidore"@en . 
 <https://spear-prosop.org/3020-9> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-9> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-9> spr:part-of-series <https://spear-prosop.org/3020> . 
@@ -293,14 +305,26 @@ swds:activeRelationprofessional-relationship-3020-7-14 spr:reference-URL <https:
 <http://syriaca.org/person/2667> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2667> sp:gender swds:3020-9Instd0e4911 . 
 swds:3020-9Instd0e4911 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3020-9Instd0e4911 prov:wasDerivedFrom <https://spear-prosop.org/3020-9> . 
-<https://spear-prosop.org/3020-10> schema:description "The readers of Tyre who recoiled from communion with their bishop, Epiphanius sometime during the episcopacy of Severus , 513-518"@en . 
+swds:3020-9Instd0e4911 spr:reference-URL <https://spear-prosop.org/3020-9> . 
+<https://spear-prosop.org/3020-10> schema:description "The readers of who recoiled from communion with their bishop, Epiphanius Severus"@en . 
 <https://spear-prosop.org/3020-10> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-10> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-10> spr:part-of-series <https://spear-prosop.org/3020> . 
 <https://spear-prosop.org/3020-10> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3020-10> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3020-10> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/3034> swdt:name-variant "The readers of Tyre who recoiled from communion with their bishop, Epiphanius sometime during the episcopacy of Severus , 513-518"@en . 
+<http://syriaca.org/person/3034> sp:name-variant swds:3020-10 . 
+swds:3020-10 sps:name-variant "The readers of Tyre who recoiled from communion with their bishop, Epiphanius sometime during the episcopacy of Severus , 513-518"@en . 
+swds:3020-10 spr:reference-URL <https://spear-prosop.org/3020-10> . 
+<http://syriaca.org/person/3034> swdt:name-variant "Epiphanius"@en . 
+<http://syriaca.org/person/3034> sp:name-variant swds:3020-10 . 
+swds:3020-10 sps:name-variant "Epiphanius"@en . 
+swds:3020-10 spr:reference-URL <https://spear-prosop.org/3020-10> . 
+<http://syriaca.org/person/3034> swdt:name-variant "Severus"@en . 
+<http://syriaca.org/person/3034> sp:name-variant swds:3020-10 . 
+swds:3020-10 sps:name-variant "Severus"@en . 
+swds:3020-10 spr:reference-URL <https://spear-prosop.org/3020-10> . 
 <https://spear-prosop.org/3020-11> schema:description "Epiphanius had ecclesiastical authority over Anonymi 3034."@en . 
 <https://spear-prosop.org/3020-11> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-11> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -330,6 +354,10 @@ swds:activeRelationenmity-for-3020-12-11 spr:reference-URL <https://spear-prosop
 <https://spear-prosop.org/3020-13> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3020-13> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3020-13> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/2580> swdt:name-variant "That wicked man"@en . 
+<http://syriaca.org/person/2580> sp:name-variant swds:3020-13 . 
+swds:3020-13 sps:name-variant "That wicked man"@en . 
+swds:3020-13 spr:reference-URL <https://spear-prosop.org/3020-13> . 
 <https://spear-prosop.org/3020-15> schema:description "Severus of Antioch had enmity for Epiphanius."@en . 
 <https://spear-prosop.org/3020-15> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-15> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -348,7 +376,11 @@ swds:activeRelationenmity-for-3020-15-11 spr:reference-URL <https://spear-prosop
 <https://spear-prosop.org/3020-16> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3020-16> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3020-16> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
-<https://spear-prosop.org/3020-17> schema:description "Cyril was male."@en . 
+<http://syriaca.org/person/430> swdt:name-variant "The holy Cyril"@en . 
+<http://syriaca.org/person/430> sp:name-variant swds:3020-16 . 
+swds:3020-16 sps:name-variant "The holy Cyril"@en . 
+swds:3020-16 spr:reference-URL <https://spear-prosop.org/3020-16> . 
+<https://spear-prosop.org/3020-17> schema:description "Cyril"@en . 
 <https://spear-prosop.org/3020-17> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-17> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3020-17> spr:part-of-series <https://spear-prosop.org/3020> . 
@@ -358,7 +390,7 @@ swds:activeRelationenmity-for-3020-15-11 spr:reference-URL <https://spear-prosop
 <http://syriaca.org/person/430> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/430> sp:gender swds:3020-17Instd0e7061 . 
 swds:3020-17Instd0e7061 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3020-17Instd0e7061 prov:wasDerivedFrom <https://spear-prosop.org/3020-17> . 
+swds:3020-17Instd0e7061 spr:reference-URL <https://spear-prosop.org/3020-17> . 
 <https://spear-prosop.org/3020-18> schema:description "Severus of Antioch refered to the writings of Cyril of Alexandria."@en . 
 <https://spear-prosop.org/3020-18> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3020-18> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -392,47 +424,47 @@ swd:event3020-21 rdfs:label "Event 3020-21"@en .
 swd:event3020-21 swdt:event-participant <http://syriaca.org/person/2705> . 
 swd:event3020-21 sp:event-participant swds:3020-21Instd0e802a1048 . 
 swds:3020-21Instd0e802a1048 sps:event-participant <http://syriaca.org/person/2705> . 
-swds:3020-21Instd0e802a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Instd0e802a1048 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-participant <http://syriaca.org/person/2667> . 
 swd:event3020-21 sp:event-participant swds:3020-21Instd0e805a1048 . 
 swds:3020-21Instd0e805a1048 sps:event-participant <http://syriaca.org/person/2667> . 
-swds:3020-21Instd0e805a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Instd0e805a1048 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3020-21 sp:event-participant swds:3020-21Instd0e808a1048 . 
 swds:3020-21Instd0e808a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3020-21Instd0e808a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Instd0e808a1048 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-participant <http://syriaca.org/person/2580> . 
 swd:event3020-21 sp:event-participant swds:3020-21Instd0e811a1048 . 
 swds:3020-21Instd0e811a1048 sps:event-participant <http://syriaca.org/person/2580> . 
-swds:3020-21Instd0e811a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Instd0e811a1048 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-participant <http://syriaca.org/person/3034> . 
 swd:event3020-21 sp:event-participant swds:3020-21Instd0e814a1048 . 
 swds:3020-21Instd0e814a1048 sps:event-participant <http://syriaca.org/person/3034> . 
-swds:3020-21Instd0e814a1048 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Instd0e814a1048 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-keyword <http://syriaca.org/taxonomy/heterodoxy> . 
 swd:event3020-21 sp:event-keyword swds:3020-21Inst1d0e7981 . 
 swds:3020-21Inst1d0e7981 sps:event-keyword <http://syriaca.org/taxonomy/heterodoxy> . 
-swds:3020-21Inst1d0e7981 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Inst1d0e7981 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-keyword <http://syriaca.org/taxonomy/anathema> . 
 swd:event3020-21 sp:event-keyword swds:3020-21Inst2d0e7982 . 
 swds:3020-21Inst2d0e7982 sps:event-keyword <http://syriaca.org/taxonomy/anathema> . 
-swds:3020-21Inst2d0e7982 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Inst2d0e7982 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
 swd:event3020-21 sp:event-keyword swds:3020-21Inst3d0e7983 . 
 swds:3020-21Inst3d0e7983 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
-swds:3020-21Inst3d0e7983 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Inst3d0e7983 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-keyword <http://syriaca.org/taxonomy/readers> . 
 swd:event3020-21 sp:event-keyword swds:3020-21Inst4d0e7984 . 
 swds:3020-21Inst4d0e7984 sps:event-keyword <http://syriaca.org/taxonomy/readers> . 
-swds:3020-21Inst4d0e7984 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Inst4d0e7984 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-keyword <http://syriaca.org/taxonomy/bishops> . 
 swd:event3020-21 sp:event-keyword swds:3020-21Inst5d0e7985 . 
 swds:3020-21Inst5d0e7985 sps:event-keyword <http://syriaca.org/taxonomy/bishops> . 
-swds:3020-21Inst5d0e7985 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Inst5d0e7985 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swd:event3020-21 swdt:event-keyword <http://syriaca.org/taxonomy/communion> . 
 swd:event3020-21 sp:event-keyword swds:3020-21Inst6d0e7986 . 
 swds:3020-21Inst6d0e7986 sps:event-keyword <http://syriaca.org/taxonomy/communion> . 
-swds:3020-21Inst6d0e7986 prov:wasDerivedFrom <https://spear-prosop.org/3020-21> . 
+swds:3020-21Inst6d0e7986 spr:reference-URL <https://spear-prosop.org/3020-21> . 
 swds:event-3020-21-1 spq:not-before "0513"^^xsd:gYear . 
 <http://syriaca.org/person/2705> swdt:sender-of-letter-to <http://syriaca.org/person/51> . 
 <http://syriaca.org/person/2705> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3020-21-11 . 

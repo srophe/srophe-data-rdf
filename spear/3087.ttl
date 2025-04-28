@@ -25,14 +25,18 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3087-1> schema:description "Cassian, Bishop of Bostra"@en . 
+<https://spear-prosop.org/3087-1> schema:description "Cassian, Bishop of"@en . 
 <https://spear-prosop.org/3087-1> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-1> spr:part-of-series <https://spear-prosop.org/3087> . 
 <https://spear-prosop.org/3087-1> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3087-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3087-1> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3087-2> schema:description "Cassian was male."@en . 
+<http://syriaca.org/person/2425> swdt:name-variant "Cassian, Bishop of Bostra"@en . 
+<http://syriaca.org/person/2425> sp:name-variant swds:3087-1 . 
+swds:3087-1 sps:name-variant "Cassian, Bishop of Bostra"@en . 
+swds:3087-1 spr:reference-URL <https://spear-prosop.org/3087-1> . 
+<https://spear-prosop.org/3087-2> schema:description "Cassian"@en . 
 <https://spear-prosop.org/3087-2> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-2> spr:part-of-series <https://spear-prosop.org/3087> . 
@@ -42,8 +46,8 @@
 <http://syriaca.org/person/2425> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2425> sp:gender swds:3087-2Instd0e2461 . 
 swds:3087-2Instd0e2461 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3087-2Instd0e2461 prov:wasDerivedFrom <https://spear-prosop.org/3087-2> . 
-<https://spear-prosop.org/3087-3> schema:description "Cassian was Bishop of Bostra."@en . 
+swds:3087-2Instd0e2461 spr:reference-URL <https://spear-prosop.org/3087-2> . 
+<https://spear-prosop.org/3087-3> schema:description "Cassian"@en . 
 <https://spear-prosop.org/3087-3> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-3> spr:part-of-series <https://spear-prosop.org/3087> . 
@@ -53,7 +57,7 @@ swds:3087-2Instd0e2461 prov:wasDerivedFrom <https://spear-prosop.org/3087-2> .
 <http://syriaca.org/person/2425> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
 <http://syriaca.org/person/2425> sp:occupation swds:3087-3Instd0e2791 . 
 swds:3087-3Instd0e2791 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
-swds:3087-3Instd0e2791 prov:wasDerivedFrom <https://spear-prosop.org/3087-3> . 
+swds:3087-3Instd0e2791 spr:reference-URL <https://spear-prosop.org/3087-3> . 
 <https://spear-prosop.org/3087-4> schema:description "Severus of Antioch sent a letter to Cassian."@en . 
 <https://spear-prosop.org/3087-4> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -65,7 +69,7 @@ swds:3087-3Instd0e2791 prov:wasDerivedFrom <https://spear-prosop.org/3087-3> .
 <http://syriaca.org/person/51> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3087-4-11 . 
 swds:activeRelationsender-of-letter-to-3087-4-11 swd:sender-of-letter-to <http://syriaca.org/person/2425> . 
 swds:activeRelationsender-of-letter-to-3087-4-11 spr:reference-URL <https://spear-prosop.org/3087-4> . 
-<https://spear-prosop.org/3087-7> schema:description "Elijah was bishop of Jerusalem."@en . 
+<https://spear-prosop.org/3087-7> schema:description "Elijah"@en . 
 <https://spear-prosop.org/3087-7> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-7> spr:part-of-series <https://spear-prosop.org/3087> . 
@@ -75,7 +79,7 @@ swds:activeRelationsender-of-letter-to-3087-4-11 spr:reference-URL <https://spea
 <http://syriaca.org/person/2415> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
 <http://syriaca.org/person/2415> sp:occupation swds:3087-7Instd0e3461 . 
 swds:3087-7Instd0e3461 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
-swds:3087-7Instd0e3461 prov:wasDerivedFrom <https://spear-prosop.org/3087-7> . 
+swds:3087-7Instd0e3461 spr:reference-URL <https://spear-prosop.org/3087-7> . 
 <https://spear-prosop.org/3087-8> schema:description "Severus of Antioch had enmity for Elijah of Jerusalem."@en . 
 <https://spear-prosop.org/3087-8> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-8> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -109,14 +113,22 @@ swds:activeRelationordained-3087-9-11 spr:reference-URL <https://spear-prosop.or
 <http://syriaca.org/person/2425> sp:bishop-over-clergy swds:activeRelationbishop-over-clergy-3087-10-11 . 
 swds:activeRelationbishop-over-clergy-3087-10-11 swd:bishop-over-clergy <http://syriaca.org/person/2426> . 
 swds:activeRelationbishop-over-clergy-3087-10-11 spr:reference-URL <https://spear-prosop.org/3087-10> . 
-<https://spear-prosop.org/3087-11> schema:description "Those in Constantinople who managed the affairs of the church of Antioch during the episcopacy of Severus , 513-518"@en . 
+<https://spear-prosop.org/3087-11> schema:description "Those in who managed the affairs of the church of Severus"@en . 
 <https://spear-prosop.org/3087-11> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-11> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-11> spr:part-of-series <https://spear-prosop.org/3087> . 
 <https://spear-prosop.org/3087-11> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3087-11> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3087-11> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3087-12> schema:description "Anonymi 3099 managed the affairs of the church of Antioch in Constantinople ."@en . 
+<http://syriaca.org/person/3099> swdt:name-variant "Those in Constantinople who managed the affairs of the church of Antioch during the episcopacy of Severus , 513-518"@en . 
+<http://syriaca.org/person/3099> sp:name-variant swds:3087-11 . 
+swds:3087-11 sps:name-variant "Those in Constantinople who managed the affairs of the church of Antioch during the episcopacy of Severus , 513-518"@en . 
+swds:3087-11 spr:reference-URL <https://spear-prosop.org/3087-11> . 
+<http://syriaca.org/person/3099> swdt:name-variant "Severus"@en . 
+<http://syriaca.org/person/3099> sp:name-variant swds:3087-11 . 
+swds:3087-11 sps:name-variant "Severus"@en . 
+swds:3087-11 spr:reference-URL <https://spear-prosop.org/3087-11> . 
+<https://spear-prosop.org/3087-12> schema:description "Anonymi 3099"@en . 
 <https://spear-prosop.org/3087-12> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-12> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-12> spr:part-of-series <https://spear-prosop.org/3087> . 
@@ -126,7 +138,7 @@ swds:activeRelationbishop-over-clergy-3087-10-11 spr:reference-URL <https://spea
 <http://syriaca.org/person/3099> swdt:occupation <http://syriaca.org/taxonomy/ecclesiastical-administrators> . 
 <http://syriaca.org/person/3099> sp:occupation swds:3087-12Instd0e5121 . 
 swds:3087-12Instd0e5121 sps:occupation <http://syriaca.org/taxonomy/ecclesiastical-administrators> . 
-swds:3087-12Instd0e5121 prov:wasDerivedFrom <https://spear-prosop.org/3087-12> . 
+swds:3087-12Instd0e5121 spr:reference-URL <https://spear-prosop.org/3087-12> . 
 swds:occupation-3087-12-1 spq:not-before "0513"^^xsd:gYear . 
 <https://spear-prosop.org/3087-13> schema:description "Severus of Antioch and Anonymi 3099 had a professional relationship."@en . 
 <https://spear-prosop.org/3087-13> spr:part-of-series <https://spear-prosop.org> . 
@@ -158,7 +170,11 @@ swds:activeRelationprofessional-relationship-3087-13-11 spr:reference-URL <https
 <https://spear-prosop.org/3087-14> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3087-14> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3087-14> spr:reference-bibl <http://syriaca.org/cbss/8GRCM47V> . 
-<https://spear-prosop.org/3087-15> schema:description "Agapius was male."@en . 
+<http://syriaca.org/person/2426> swdt:name-variant "Agapius, the devout Bishop"@en . 
+<http://syriaca.org/person/2426> sp:name-variant swds:3087-14 . 
+swds:3087-14 sps:name-variant "Agapius, the devout Bishop"@en . 
+swds:3087-14 spr:reference-URL <https://spear-prosop.org/3087-14> . 
+<https://spear-prosop.org/3087-15> schema:description "Agapius"@en . 
 <https://spear-prosop.org/3087-15> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-15> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-15> spr:part-of-series <https://spear-prosop.org/3087> . 
@@ -168,8 +184,8 @@ swds:activeRelationprofessional-relationship-3087-13-11 spr:reference-URL <https
 <http://syriaca.org/person/2426> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2426> sp:gender swds:3087-15Instd0e6091 . 
 swds:3087-15Instd0e6091 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3087-15Instd0e6091 prov:wasDerivedFrom <https://spear-prosop.org/3087-15> . 
-<https://spear-prosop.org/3087-16> schema:description "Agapius was a bishop."@en . 
+swds:3087-15Instd0e6091 spr:reference-URL <https://spear-prosop.org/3087-15> . 
+<https://spear-prosop.org/3087-16> schema:description "Agapius"@en . 
 <https://spear-prosop.org/3087-16> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3087-16> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3087-16> spr:part-of-series <https://spear-prosop.org/3087> . 
@@ -179,4 +195,4 @@ swds:3087-15Instd0e6091 prov:wasDerivedFrom <https://spear-prosop.org/3087-15> .
 <http://syriaca.org/person/2426> swdt:occupation <http://syriaca.org/taxonomy/bishops> . 
 <http://syriaca.org/person/2426> sp:occupation swds:3087-16Instd0e6421 . 
 swds:3087-16Instd0e6421 sps:occupation <http://syriaca.org/taxonomy/bishops> . 
-swds:3087-16Instd0e6421 prov:wasDerivedFrom <https://spear-prosop.org/3087-16> .
+swds:3087-16Instd0e6421 spr:reference-URL <https://spear-prosop.org/3087-16> .

@@ -25,14 +25,18 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3104-1> schema:description "Simeon, presbyter and archmandrite of the monastery at Teleda"@en . 
+<https://spear-prosop.org/3104-1> schema:description "Simeon, presbyter and archmandrite of"@en . 
 <https://spear-prosop.org/3104-1> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-1> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3104-1> spr:part-of-series <https://spear-prosop.org/3104> . 
 <https://spear-prosop.org/3104-1> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3104-1> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3104-1> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
-<https://spear-prosop.org/3104-2> schema:description "Simeon was male."@en . 
+<http://syriaca.org/person/2754> swdt:name-variant "Simeon, presbyter and archmandrite of the monastery at Teleda"@en . 
+<http://syriaca.org/person/2754> sp:name-variant swds:3104-1 . 
+swds:3104-1 sps:name-variant "Simeon, presbyter and archmandrite of the monastery at Teleda"@en . 
+swds:3104-1 spr:reference-URL <https://spear-prosop.org/3104-1> . 
+<https://spear-prosop.org/3104-2> schema:description "Simeon"@en . 
 <https://spear-prosop.org/3104-2> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3104-2> spr:part-of-series <https://spear-prosop.org/3104> . 
@@ -42,8 +46,8 @@
 <http://syriaca.org/person/2754> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2754> sp:gender swds:3104-2Instd0e2591 . 
 swds:3104-2Instd0e2591 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3104-2Instd0e2591 prov:wasDerivedFrom <https://spear-prosop.org/3104-2> . 
-<https://spear-prosop.org/3104-3> schema:description "Simeon was a presbyter."@en . 
+swds:3104-2Instd0e2591 spr:reference-URL <https://spear-prosop.org/3104-2> . 
+<https://spear-prosop.org/3104-3> schema:description "Simeon"@en . 
 <https://spear-prosop.org/3104-3> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3104-3> spr:part-of-series <https://spear-prosop.org/3104> . 
@@ -53,8 +57,8 @@ swds:3104-2Instd0e2591 prov:wasDerivedFrom <https://spear-prosop.org/3104-2> .
 <http://syriaca.org/person/2754> swdt:occupation <http://syriaca.org/taxonomy/priests> . 
 <http://syriaca.org/person/2754> sp:occupation swds:3104-3Instd0e2921 . 
 swds:3104-3Instd0e2921 sps:occupation <http://syriaca.org/taxonomy/priests> . 
-swds:3104-3Instd0e2921 prov:wasDerivedFrom <https://spear-prosop.org/3104-3> . 
-<https://spear-prosop.org/3104-4> schema:description "Simeon was the archmandrite of the monastery at Teleda"@en . 
+swds:3104-3Instd0e2921 spr:reference-URL <https://spear-prosop.org/3104-3> . 
+<https://spear-prosop.org/3104-4> schema:description "Simeon"@en . 
 <https://spear-prosop.org/3104-4> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-4> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3104-4> spr:part-of-series <https://spear-prosop.org/3104> . 
@@ -64,7 +68,7 @@ swds:3104-3Instd0e2921 prov:wasDerivedFrom <https://spear-prosop.org/3104-3> .
 <http://syriaca.org/person/2754> swdt:occupation <http://syriaca.org/taxonomy/monastic-heads> . 
 <http://syriaca.org/person/2754> sp:occupation swds:3104-4Instd0e3251 . 
 swds:3104-4Instd0e3251 sps:occupation <http://syriaca.org/taxonomy/monastic-heads> . 
-swds:3104-4Instd0e3251 prov:wasDerivedFrom <https://spear-prosop.org/3104-4> . 
+swds:3104-4Instd0e3251 spr:reference-URL <https://spear-prosop.org/3104-4> . 
 <https://spear-prosop.org/3104-5> schema:description "Severus of Antioch sent a letter to Simeon."@en . 
 <https://spear-prosop.org/3104-5> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-5> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -87,13 +91,21 @@ swds:activeRelationsender-of-letter-to-3104-5-11 spr:reference-URL <https://spea
 <http://syriaca.org/person/2754> sp:sender-of-letter-to swds:activeRelationsender-of-letter-to-3104-6-11 . 
 swds:activeRelationsender-of-letter-to-3104-6-11 swd:sender-of-letter-to <http://syriaca.org/person/51> . 
 swds:activeRelationsender-of-letter-to-3104-6-11 spr:reference-URL <https://spear-prosop.org/3104-6> . 
-<https://spear-prosop.org/3104-7> schema:description "The monks of the monastery of St. Simeon during the banishment of the 520s"@en . 
+<https://spear-prosop.org/3104-7> schema:description "The monks of St. Simeon during the banishment of"@en . 
 <https://spear-prosop.org/3104-7> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3104-7> spr:part-of-series <https://spear-prosop.org/3104> . 
 <https://spear-prosop.org/3104-7> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3104-7> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3104-7> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/3103> swdt:name-variant "The monks of the monastery of St. Simeon during the banishment of the 520s"@en . 
+<http://syriaca.org/person/3103> sp:name-variant swds:3104-7 . 
+swds:3104-7 sps:name-variant "The monks of the monastery of St. Simeon during the banishment of the 520s"@en . 
+swds:3104-7 spr:reference-URL <https://spear-prosop.org/3104-7> . 
+<http://syriaca.org/person/3103> swdt:name-variant "St. Simeon"@en . 
+<http://syriaca.org/person/3103> sp:name-variant swds:3104-7 . 
+swds:3104-7 sps:name-variant "St. Simeon"@en . 
+swds:3104-7 spr:reference-URL <https://spear-prosop.org/3104-7> . 
 <https://spear-prosop.org/3104-8> schema:description "The flock of Simeon"@en . 
 <https://spear-prosop.org/3104-8> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-8> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -101,6 +113,14 @@ swds:activeRelationsender-of-letter-to-3104-6-11 spr:reference-URL <https://spea
 <https://spear-prosop.org/3104-8> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3104-8> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3104-8> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
+<http://syriaca.org/person/3103> swdt:name-variant "The flock of Simeon"@en . 
+<http://syriaca.org/person/3103> sp:name-variant swds:3104-8 . 
+swds:3104-8 sps:name-variant "The flock of Simeon"@en . 
+swds:3104-8 spr:reference-URL <https://spear-prosop.org/3104-8> . 
+<http://syriaca.org/person/3103> swdt:name-variant "Simeon"@en . 
+<http://syriaca.org/person/3103> sp:name-variant swds:3104-8 . 
+swds:3104-8 sps:name-variant "Simeon"@en . 
+swds:3104-8 spr:reference-URL <https://spear-prosop.org/3104-8> . 
 <https://spear-prosop.org/3104-9> schema:description "Anonymi 3103 and Simeon had a professional relationship."@en . 
 <https://spear-prosop.org/3104-9> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3104-9> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -134,33 +154,33 @@ swd:event3104-10 rdfs:label "Event 3104-10"@en .
 swd:event3104-10 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3104-10 sp:event-participant swds:3104-10Instd0e516a1048 . 
 swds:3104-10Instd0e516a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3104-10Instd0e516a1048 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Instd0e516a1048 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-participant <http://syriaca.org/person/2754> . 
 swd:event3104-10 sp:event-participant swds:3104-10Instd0e519a1048 . 
 swds:3104-10Instd0e519a1048 sps:event-participant <http://syriaca.org/person/2754> . 
-swds:3104-10Instd0e519a1048 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Instd0e519a1048 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-participant <http://syriaca.org/person/744> . 
 swd:event3104-10 sp:event-participant swds:3104-10Instd0e522a1048 . 
 swds:3104-10Instd0e522a1048 sps:event-participant <http://syriaca.org/person/744> . 
-swds:3104-10Instd0e522a1048 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Instd0e522a1048 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-keyword <http://syriaca.org/taxonomy/monks> . 
 swd:event3104-10 sp:event-keyword swds:3104-10Inst1d0e5111 . 
 swds:3104-10Inst1d0e5111 sps:event-keyword <http://syriaca.org/taxonomy/monks> . 
-swds:3104-10Inst1d0e5111 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Inst1d0e5111 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
 swd:event3104-10 sp:event-keyword swds:3104-10Inst2d0e5112 . 
 swds:3104-10Inst2d0e5112 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
-swds:3104-10Inst2d0e5112 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Inst2d0e5112 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-keyword <http://syriaca.org/taxonomy/stylites> . 
 swd:event3104-10 sp:event-keyword swds:3104-10Inst3d0e5113 . 
 swds:3104-10Inst3d0e5113 sps:event-keyword <http://syriaca.org/taxonomy/stylites> . 
-swds:3104-10Inst3d0e5113 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Inst3d0e5113 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-keyword <http://syriaca.org/taxonomy/monasticism> . 
 swd:event3104-10 sp:event-keyword swds:3104-10Inst4d0e5114 . 
 swds:3104-10Inst4d0e5114 sps:event-keyword <http://syriaca.org/taxonomy/monasticism> . 
-swds:3104-10Inst4d0e5114 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Inst4d0e5114 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swd:event3104-10 swdt:event-keyword <http://syriaca.org/taxonomy/monastic-heads> . 
 swd:event3104-10 sp:event-keyword swds:3104-10Inst5d0e5115 . 
 swds:3104-10Inst5d0e5115 sps:event-keyword <http://syriaca.org/taxonomy/monastic-heads> . 
-swds:3104-10Inst5d0e5115 prov:wasDerivedFrom <https://spear-prosop.org/3104-10> . 
+swds:3104-10Inst5d0e5115 spr:reference-URL <https://spear-prosop.org/3104-10> . 
 swds:event-3104-10-1 spq:not-before "0521"^^xsd:gYear .

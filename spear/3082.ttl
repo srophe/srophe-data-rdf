@@ -25,7 +25,7 @@
 @prefix wdata:	<https://www.wikidata.org/wiki/Special:EntityData/> .
 @prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
  
-<https://spear-prosop.org/3082-2> schema:description "Anonymous 3739 was female."@en . 
+<https://spear-prosop.org/3082-2> schema:description "Anonymous 3739"@en . 
 <https://spear-prosop.org/3082-2> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-2> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3082-2> spr:part-of-series <https://spear-prosop.org/3082> . 
@@ -35,7 +35,7 @@
 <http://syriaca.org/person/3739> swdt:gender <http://syriaca.org/taxonomy/women> . 
 <http://syriaca.org/person/3739> sp:gender swds:3082-2Instd0e2181 . 
 swds:3082-2Instd0e2181 sps:gender <http://syriaca.org/taxonomy/women> . 
-swds:3082-2Instd0e2181 prov:wasDerivedFrom <https://spear-prosop.org/3082-2> . 
+swds:3082-2Instd0e2181 spr:reference-URL <https://spear-prosop.org/3082-2> . 
 <https://spear-prosop.org/3082-3> schema:description "Severus of Antioch sent a letter to Anonymous 3739."@en . 
 <https://spear-prosop.org/3082-3> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-3> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -65,7 +65,11 @@ swds:activeRelationsender-of-letter-to-3082-4-11 spr:reference-URL <https://spea
 <https://spear-prosop.org/3082-5> spr:creator <http://syriaca.org/documentation/editors.xml#ktorabi> . 
 <https://spear-prosop.org/3082-5> spr:creator <http://syriaca.org/documentation/editors.xml#dschwartz> . 
 <https://spear-prosop.org/3082-5> spr:reference-bibl <http://syriaca.org/cbss/8BIZTWME> . 
-<https://spear-prosop.org/3082-6> schema:description "Calliopius was male."@en . 
+<http://syriaca.org/person/2622> swdt:name-variant "Calliopius, the patrician"@en . 
+<http://syriaca.org/person/2622> sp:name-variant swds:3082-5 . 
+swds:3082-5 sps:name-variant "Calliopius, the patrician"@en . 
+swds:3082-5 spr:reference-URL <https://spear-prosop.org/3082-5> . 
+<https://spear-prosop.org/3082-6> schema:description "Calliopius"@en . 
 <https://spear-prosop.org/3082-6> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-6> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3082-6> spr:part-of-series <https://spear-prosop.org/3082> . 
@@ -75,8 +79,8 @@ swds:activeRelationsender-of-letter-to-3082-4-11 spr:reference-URL <https://spea
 <http://syriaca.org/person/2622> swdt:gender <http://syriaca.org/taxonomy/men> . 
 <http://syriaca.org/person/2622> sp:gender swds:3082-6Instd0e3271 . 
 swds:3082-6Instd0e3271 sps:gender <http://syriaca.org/taxonomy/men> . 
-swds:3082-6Instd0e3271 prov:wasDerivedFrom <https://spear-prosop.org/3082-6> . 
-<https://spear-prosop.org/3082-7> schema:description "Calliopius was a patrician."@en . 
+swds:3082-6Instd0e3271 spr:reference-URL <https://spear-prosop.org/3082-6> . 
+<https://spear-prosop.org/3082-7> schema:description "Calliopius"@en . 
 <https://spear-prosop.org/3082-7> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-7> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3082-7> spr:part-of-series <https://spear-prosop.org/3082> . 
@@ -86,7 +90,7 @@ swds:3082-6Instd0e3271 prov:wasDerivedFrom <https://spear-prosop.org/3082-6> .
 <http://syriaca.org/person/2622> swdt:socec-status <http://syriaca.org/taxonomy/patricians> . 
 <http://syriaca.org/person/2622> sp:socec-status swds:3082-7Instd0e3581 . 
 swds:3082-7Instd0e3581 sps:socec-status <http://syriaca.org/taxonomy/patricians> . 
-swds:3082-7Instd0e3581 prov:wasDerivedFrom <https://spear-prosop.org/3082-7> . 
+swds:3082-7Instd0e3581 spr:reference-URL <https://spear-prosop.org/3082-7> . 
 <https://spear-prosop.org/3082-8> schema:description "were spouses."@en . 
 <https://spear-prosop.org/3082-8> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-8> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -110,7 +114,7 @@ swds:activeRelationspouse-of-3082-8-12 spr:reference-URL <https://spear-prosop.o
 <http://syriaca.org/person/3739> sp:spouse-of swds:activeRelationspouse-of-3082-8-11 . 
 swds:activeRelationspouse-of-3082-8-11 swd:spouse-of <http://syriaca.org/person/2622> . 
 swds:activeRelationspouse-of-3082-8-11 spr:reference-URL <https://spear-prosop.org/3082-8> . 
-<https://spear-prosop.org/3082-9> schema:description "Anonymous 3739 was a patrician."@en . 
+<https://spear-prosop.org/3082-9> schema:description "Anonymous 3739"@en . 
 <https://spear-prosop.org/3082-9> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-9> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
 <https://spear-prosop.org/3082-9> spr:part-of-series <https://spear-prosop.org/3082> . 
@@ -119,7 +123,7 @@ swds:activeRelationspouse-of-3082-8-11 spr:reference-URL <https://spear-prosop.o
 <http://syriaca.org/person/3739> swdt:socec-status <http://syriaca.org/taxonomy/patricians> . 
 <http://syriaca.org/person/3739> sp:socec-status swds:3082-9Instd0e4111 . 
 swds:3082-9Instd0e4111 sps:socec-status <http://syriaca.org/taxonomy/patricians> . 
-swds:3082-9Instd0e4111 prov:wasDerivedFrom <https://spear-prosop.org/3082-9> . 
+swds:3082-9Instd0e4111 spr:reference-URL <https://spear-prosop.org/3082-9> . 
 <https://spear-prosop.org/3082-10> schema:description "Sometime during his episcopacy Severus of Antioch answered a letter from the wife of Calliopius on the subjects of Christology and the women teaching theology; namely that they should learn theology and teach other women but not men."@en . 
 <https://spear-prosop.org/3082-10> spr:part-of-series <https://spear-prosop.org> . 
 <https://spear-prosop.org/3082-10> spr:part-of-series <https://spear-prosop.org/letters-severus> . 
@@ -130,25 +134,25 @@ swd:event3082-10 rdfs:label "Event 3082-10"@en .
 swd:event3082-10 swdt:event-participant <http://syriaca.org/person/51> . 
 swd:event3082-10 sp:event-participant swds:3082-10Instd0e445a1048 . 
 swds:3082-10Instd0e445a1048 sps:event-participant <http://syriaca.org/person/51> . 
-swds:3082-10Instd0e445a1048 prov:wasDerivedFrom <https://spear-prosop.org/3082-10> . 
+swds:3082-10Instd0e445a1048 spr:reference-URL <https://spear-prosop.org/3082-10> . 
 swd:event3082-10 swdt:event-participant <http://syriaca.org/person/3739> . 
 swd:event3082-10 sp:event-participant swds:3082-10Instd0e448a1048 . 
 swds:3082-10Instd0e448a1048 sps:event-participant <http://syriaca.org/person/3739> . 
-swds:3082-10Instd0e448a1048 prov:wasDerivedFrom <https://spear-prosop.org/3082-10> . 
+swds:3082-10Instd0e448a1048 spr:reference-URL <https://spear-prosop.org/3082-10> . 
 swd:event3082-10 swdt:event-participant <http://syriaca.org/person/2622> . 
 swd:event3082-10 sp:event-participant swds:3082-10Instd0e450a1048 . 
 swds:3082-10Instd0e450a1048 sps:event-participant <http://syriaca.org/person/2622> . 
-swds:3082-10Instd0e450a1048 prov:wasDerivedFrom <https://spear-prosop.org/3082-10> . 
+swds:3082-10Instd0e450a1048 spr:reference-URL <https://spear-prosop.org/3082-10> . 
 swd:event3082-10 swdt:event-keyword <http://syriaca.org/taxonomy/letters> . 
 swd:event3082-10 sp:event-keyword swds:3082-10Inst1d0e4381 . 
 swds:3082-10Inst1d0e4381 sps:event-keyword <http://syriaca.org/taxonomy/letters> . 
-swds:3082-10Inst1d0e4381 prov:wasDerivedFrom <https://spear-prosop.org/3082-10> . 
+swds:3082-10Inst1d0e4381 spr:reference-URL <https://spear-prosop.org/3082-10> . 
 swd:event3082-10 swdt:event-keyword <http://syriaca.org/taxonomy/christology> . 
 swd:event3082-10 sp:event-keyword swds:3082-10Inst2d0e4382 . 
 swds:3082-10Inst2d0e4382 sps:event-keyword <http://syriaca.org/taxonomy/christology> . 
-swds:3082-10Inst2d0e4382 prov:wasDerivedFrom <https://spear-prosop.org/3082-10> . 
+swds:3082-10Inst2d0e4382 spr:reference-URL <https://spear-prosop.org/3082-10> . 
 swd:event3082-10 swdt:event-keyword <http://syriaca.org/taxonomy/women> . 
 swd:event3082-10 sp:event-keyword swds:3082-10Inst3d0e4383 . 
 swds:3082-10Inst3d0e4383 sps:event-keyword <http://syriaca.org/taxonomy/women> . 
-swds:3082-10Inst3d0e4383 prov:wasDerivedFrom <https://spear-prosop.org/3082-10> . 
+swds:3082-10Inst3d0e4383 spr:reference-URL <https://spear-prosop.org/3082-10> . 
 swds:event-3082-10-1 spq:not-before "0513"^^xsd:gYear .
