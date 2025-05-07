@@ -6,6 +6,10 @@ on:
       - 'spear/*.ttl'
       - '.github/workflows/spear_data_to_neptune.yml'
 
+permissions:
+  id-token: write
+  contents: read
+
 jobs:
   upload-spear-triples-to-s3:
     runs-on: ubuntu-latest
