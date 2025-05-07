@@ -1,12 +1,13 @@
-name: Upload RDF to S3 and Generate CSVs
+name: Upload Spear Linked Data to S3 and Generate CSVs
 
 on:
   push:
     paths:
       - 'spear/*.ttl'
+      - '.github/workflows/spear_data_to_neptune.yml'
 
 jobs:
-  upload-rdf-to-s3:
+  upload-spear-triples-to-s3:
     runs-on: ubuntu-latest
     env:
       BUCKET_NAME: ${{ secrets.AWS_TRIPLESTORE_BUCKET_NAME }}
@@ -16,39 +17,39 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2
         with:
-          role-to-assume: ${{ secrets.AWS_SPEAR_ROLE }}
+          role-to-assume: ${{ secrets.AWS_LINKED_DATA_ROLE }}
           aws-region: ${{ secrets.AWS_REGION }}
           role-session-name: GitHub-OIDC-data
           role-duration-seconds: 28800
 
       - name: Generate CSVs and Upload TTL Files
         run: |
-          mkdir -p build
+          mkdir -p build/spear
 
-          echo "sd:name,sd:graph,filename" > build/graph_file_associations.csv
-          echo "sd:name,label,description,license,load_status" > build/named_graphs.csv
-
-          echo "$NAMED_GRAPH,,Syriac Persons Graph,," >> build/named_graphs.csv
+          echo "sd:name,sd:graph,filename,elapsed_time,graph_load_status" > build/graph_file_associations.csv
+          echo "sd:name,dcterms:issued,dc:publisher,rdf:type,dcterms:isPartOf,tdwgutility:status,load_status" > build/named_graphs.csv
+          echo "https://spear-prosop.org,2023-02-27,syriaca.org,sd:NamedGraph,http://syriaca.org/,production," >> build/named_graphs.csv
 
           find spear -name '*.ttl' | while read file; do
             filename=$(basename "$file")
-            cp "$file" build/"$filename"
-            echo "$NAMED_GRAPH,$SUBGRAPH,$filename" >> build/graph_file_associations.csv
+            cp "$file" build/spear/"$filename"
+            echo "$NAMED_GRAPH,$SUBGRAPH,spear/$filename,," >> build/graph_file_associations.csv
           done
 
-          aws s3 sync build/ s3://$BUCKET_NAME/spear 
+          aws s3 sync build/ s3://$BUCKET_NAME/ 
         env:
           AWS_ACCOUNT_ID: ${{ secrets.AWS_LINKED_DATA_ACCOUNT_ID }}
           AWS_REGION: ${{ secrets.AWS_REGION }}      
 
-      - name: Trigger Lambda by uploading trigger.txt
-        run: |
-          echo "load" > trigger.txt
-          aws s3 cp trigger.txt s3://$BUCKET_NAME/trigger.txt 
+      # - name: Trigger Lambda by uploading trigger.txt
+      #   run: |
+      #     echo "load" > trigger.txt
+      #     aws s3 cp trigger.txt s3://$BUCKET_NAME/trigger.txt 
 
-        env:
-          AWS_ACCOUNT_ID: ${{ secrets.AWS_LINKED_DATA_ACCOUNT_ID }}
-          AWS_REGION: ${{ secrets.AWS_REGION }}
+        # env:
+        #   AWS_ACCOUNT_ID: ${{ secrets.AWS_LINKED_DATA_ACCOUNT_ID }}
+        #   AWS_REGION: ${{ secrets.AWS_REGION }}
