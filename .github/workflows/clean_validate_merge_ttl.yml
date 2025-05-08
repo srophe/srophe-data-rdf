@@ -1,0 +1,85 @@
+name: Clean, Merge, and Upload TTL Files
+
+on:
+  push:
+    paths:
+      - 'persons/*.ttl'
+      - '.github/workflows/clean_validate_merge_ttl.yml'
+
+jobs:
+  clean-merge-upload:
+    runs-on: ubuntu-latest
+
+    env:
+      BUCKET_NAME: ${{ secrets.AWS_TRIPLESTORE_BUCKET_NAME }}
+      MERGED_FILE: persons.ttl
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Git identity
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Install Apache Jena (riot)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y default-jre
+          wget https://dlcdn.apache.org/jena/binaries/apache-jena-4.10.0.tar.gz
+          tar -xzf apache-jena-4.10.0.tar.gz
+          echo "$PWD/apache-jena-4.10.0/bin" >> $GITHUB_PATH
+
+      - name: Clean TTL files
+        run: |
+          mkdir -p cleaned
+          for file in $(find ttl -name '*.ttl'); do
+            fname=$(basename "$file")
+            awk '
+            BEGIN {OFS=FS=""}
+            {
+              while (match($0, /<[^>]*>/)) {
+                uri = substr($0, RSTART, RLENGTH)
+                gsub(/ /, "%20", uri)
+                $0 = substr($0, 1, RSTART - 1) uri substr($0, RSTART + RLENGTH)
+              }
+              gsub(/@en-x-srp1/, "@en")
+              gsub(/\|/, "")
+              print
+            }' "$file" > "cleaned/$fname"
+          done
+
+      - name: Validate TTL files with riot
+        run: |
+          for file in cleaned/*.ttl; do
+            echo "Validating $file..."
+            riot "$file"
+          done
+
+      - name: Merge cleaned TTL files
+        run: |
+          cat cleaned/*.ttl > "$MERGED_FILE"
+          echo "Merged file created: $MERGED_FILE"
+
+      - name: Commit merged file to repo
+        run: |
+          git pull origin main
+          cp "$MERGED_FILE" persons/
+          git add persons/$MERGED_FILE
+          git commit -m "Update merged.ttl on $(date +'%Y-%m-%d %H:%M:%S')" || echo "No changes to commit"
+          git push origin main
+
+      # - name: Configure AWS credentials
+      #   uses: aws-actions/configure-aws-credentials@v3
+      #   with:
+      #     role-to-assume: ${{ secrets.AWS_LINKED_DATA_ROLE }}
+      #     aws-region: ${{ secrets.AWS_REGION }}
+      #     role-duration-seconds: 28800
+      #     role-session-name: GitHubOIDCS3Uploader
+
+      # - name: Upload merged.ttl to S3
+      #   run: |
+      #     aws s3 cp "$MERGED_FILE" "s3://$BUCKET_NAME/$MERGED_FILE"
