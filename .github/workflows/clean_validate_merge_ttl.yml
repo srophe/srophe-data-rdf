@@ -3,7 +3,7 @@ name: Clean, Merge, and Upload TTL Files
 on:
   push:
     paths:
-      - 'persons/*.ttl'
+      # - 'persons/*.ttl'
       - '.github/workflows/clean_validate_merge_ttl.yml'
 
 jobs:
@@ -36,7 +36,7 @@ jobs:
       - name: Clean TTL files
         run: |
           mkdir -p cleaned
-          for file in $(find ttl -name '*.ttl'); do
+          for file in $(find persons -name '*.ttl'); do
             fname=$(basename "$file")
             awk '
             BEGIN {OFS=FS=""}
