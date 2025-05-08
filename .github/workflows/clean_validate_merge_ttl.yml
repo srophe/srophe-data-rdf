@@ -29,9 +29,9 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y default-jre
-          wget https://dlcdn.apache.org/jena/binaries/apache-jena-4.10.0.tar.gz
-          tar -xzf apache-jena-4.10.0.tar.gz
-          echo "$PWD/apache-jena-4.10.0/bin" >> $GITHUB_PATH
+          wget https://dlcdn.apache.org/jena/binaries/apache-jena-5.4.0.tar.gz
+          tar -xzf apache-jena-5.4.0.tar.gz
+          echo "$PWD/apache-jena-5.4.0/bin" >> $GITHUB_PATH
 
       - name: Clean TTL files
         run: |
@@ -41,15 +41,25 @@ jobs:
             awk '
             BEGIN {OFS=FS=""}
             {
+              # Skip lines with VIAF IRIs
+              if ($0 ~ /viaf\.org/) next
+            
+              # Percent-encode spaces in URIs
               while (match($0, /<[^>]*>/)) {
                 uri = substr($0, RSTART, RLENGTH)
                 gsub(/ /, "%20", uri)
                 $0 = substr($0, 1, RSTART - 1) uri substr($0, RSTART + RLENGTH)
               }
+            
+              # Replace invalid language tags
               gsub(/@en-x-srp1/, "@en")
+            
+              # Remove vertical bars
               gsub(/\|/, "")
+            
               print
             }' "$file" > "cleaned/$fname"
+
           done
 
       - name: Validate TTL files with riot
